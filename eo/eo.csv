@@ -1,0 +1,506 @@
+<p>Instalado de Firefox en onian komputilon estas la unua paŝo al ĝia ekuzo. Tiu ĉi artikolo rakontos al vi kiel instali Firefox·on je Linukso (GNUkLinukso). Pri aliaj operaciumoj legu en <a href="/eo/kb/how-download-and-install-firefox-windows">How to download and install Firefox on Windows</a> kaj <a href="/eo/kb/how-download-and-install-firefox-mac">How to download and install Firefox on Mac</a>.\
+</p><p>Multaj linuksaj distribuaĵoj jam tuj enhavas ruleblan Firefox·on, kaj la plimulto havas pakaĵ-mastrumadan sistemon kiu ebligas facilan instalon de Firefox. Ordinare preferindas instalo per pakaĵ-mastrumado. Pakaĵa administrilo:\
+</p>\
+<ul><li> Certigos, ke estu instalitaj ĉiuj necesaj bibliotekoj\
+</li><li> Instalos Firefox·on en la maniero plej taŭga por via distribuaĵo\
+</li><li> Kreos fulmbildetojn, menuerojn, simbolajn ligilojn por lanĉi Firefox·on\
+</li><li> Disponebligos Firefox·on al ĉiuj uzantoj de via komputilo\
+</li><li> Faros Firefox·on malinstalebla tiel same kiel ĉiu alia aplikaĵo\
+</li></ul>\
+<p>Pakaĵa mastrumado ne ĉiam ĉiel bonas:\
+</p>\
+<ul><li> Ĝi povas ne disponigi la lastan version de Firefox\
+</li><li> Ĝi povas disponigi version sen la oficialaj markoj de Firefox. Ekzemple, ekzistas variaĵoj aŭ derivaĵoj de Firefox nomataj "Iceweasel", "BurningDog", "GNU IceCat".\
+<ul><li> Tiaj versioj povas esti ne ekzakte Firefox: havi ne ĉiujn funkciojn de la originalo, aŭ havi aldonajn funkciojn.\
+</li></ul>\
+</li></ul>\
+<h1 id="w_instalado-per-pakalia-administrilo">Instalado per pakaĵa administrilo</h1>\
+<p>Informojn pri instalado de Firefox per pakaĵa administrilo vi probable trovos en la manlibroj de via Linuksa distribuaĵo.\
+</p>\
+<h2 id="w_debian-5-0-lenny">Debian 5.0 ("Lenny")</h2>\
+<p>La pakaĵo kun TTT-legilo simila al Firefox estas nomata "iceweasel".\
+</p>\
+<h2 id="w_gnewsense">gNewSense</h2>\
+<ul><li> Iu versio de gNewSense enhavis programon similan al Firefox nomatan "BurningDog".\
+</li></ul>\
+<ul><li> <a href="http://wiki.gnewsense.org/Documentation/IceCat">Kiel instali kaj modifi GNU IceCat·on</a> (ĉe la retejo de gNewSense, en la angla, franca, hispana kaj itala lingvoj). GNU IceCat estas derivaĵo de Firefox.\
+</li></ul>\
+<h1 id="w_instalado-sen-uzi-pakaliadministrilon">Instalado sen uzi pakaĵadministrilon</h1>\
+<p>Kompleta instrukcio pri instalado de Firefox sen uzo de pakaĵadministrilo povas esti disponebla ĉe la retejo de via distribuaĵo. \
+</p>\
+<ul><li> <a href="https://help.ubuntu.com/community/FirefoxNewVersion">Installing Firefox on Ubuntu</a>\
+</li></ul>\
+<dl><dt><dl><dd><div class="note"><strong>Antaŭ instali Firefox·on, certigu ke en via komputilo estas instalitaj la <a href="http://www.mozilla.com/firefox/system-requirements.html">necesaj bibliotekoj</a>. Manko de la bibliotekoj faros Firefox·on neuzebla.</strong></div>\
+</dd></dl></dt></dl>\
+\
+<p><u>\
+La sekvanta instrukcio kondukas al instalo de Firefox en onian hejman dosierujon, kaj tiam nur la koncerna uzanto povos ĝin uzi.</u> \
+</p>\
+<div class="note"><strong>Rim.</strong>: La instala pakaĵo disponigata de Mozilla en la datumaranĝo <strong>.tar.bz2</strong> ne enhavas fontkodon, sed jam kompilitajn duumajn dosierojn, do vi povas ilin simple elpaki kaj plenumigi. Ne necesas kompiltraduki fontkodon, se la <a href="http://www.mozilla.com/firefox/system-requirements.html">sistem-necesoj</a> estas kontentigitaj.</div>\
+<ol><li> Elŝutu Firefox·on de  <a href="http://www.getfirefox.com">la Firefox·a elŝutpaĝo</a> en vian hejman dosierujon.\
+</li><li> Malfermu <strong>terminalan programon</strong> kaj "iru" al via hejma dosierujo: <code>cd ~</code>\
+</li><li> Elpaku la enhavon de la elŝutita dosiero:<code>tar xjf firefox-*.tar.bz2</code>\
+</li><li> Mallanĉu Firefox·on se ĝi estas lanĉita.\
+</li><li> Por lanĉi Firefox·on, plenumigu la skripton <span class="filepath">firefox</span> en la dosierujo <span class="filepath">firefox</span>.<code>\
+</code></li></ol><code>\
+</code><p><code>~/firefox/firefox</code>\
+</p><p>Firefox devas lanĉiĝi. Vi povas krei por la komando fulmbildeton sur via labortablo.\
+</p>\
+<h2 id="w_eraro-pri-libstdc5">Eraro pri libstdc++5</h2>\
+<p>Kiel estas menciite supre, por ke Firefox povu funkcii, vi bezonas instali la <a href="http://www.mozilla.com/firefox/system-requirements.html">necesajn bibliotekojn</a>. Multaj distribuaĵoj defaŭlte ne instalas la bibliotekon libstdc++5.\
+</p>\
+<h2 id="w_aperas-mesalyo-firefox-ne-instalitas-aag-lanloilyas-mallyusta-versio-de-firefox">Aperas mesaĝo "firefox ne instalitas", aŭ lanĉiĝas malĝusta versio de Firefox</h2>\
+<p>Vi devas lanĉi Firefox·on per la komando <code>~/firefox/firefox</code> Se vi provos lanĉi Firefox·on per la komando <code>firefox</code>, ĝi aŭ lanĉos la version instalitan per pakaĵa administrilo, aŭ diros, ke la programo ne estas instalita.\
+</p>	eo
+	eo
+<p>Tiu ĉi artikolo klarigas la <span class="for" data-for="win">opciojn</span><span class="for" data-for="mac,linux">agordojn</span> disponeblajn en la ĉefa agorda fenestro de Mozilla Firefox, "<span class="for" data-for="win">Opcioj</span><span class="for" data-for="mac,linux">Preferoj</span>". Por aperigi la agordan fenestron, <span class="for" data-for="win,linux">En la supra parto de la Firefox-fenestro</span><span class="for" data-for="mac">Sur la menu-breto</span>, alklaku la menuon <span class="for" data-for="win"><span class="menu">Iloj</span></span><span class="for" data-for="mac"><span class="menu">Firefox</span></span><span class="for" data-for="linux"><span class="menu">Modifi</span></span> kaj elektu <span class="for" data-for="win"><span class="menu">Opcioj...</span></span><span class="for" data-for="mac,linux"><span class="menu">Preferoj...</span></span>.\
+\
+</p><p><br>\
+</p>\
+<h2 id="w_la-panelo-lnefaj">La panelo "Ĉefaj"</h2>\
+<p>La panelo "Ĉefaj" disponigas <span class="for" data-for="win">opciojn</span><span class="for" data-for="mac,linux">preferojn</span> koncernantajn la plej ofte uzatajn agordojn, ekzemple pri tio, kion Firefox unue montras kiam ĝi lanĉiĝas, aŭ kiel Firefox traktas dosier-elŝutojn. Pri detaloj legu en <a href="/eo/kb/startup-home-page-tabs-download-settings">Startup, home page, tabs, and download settings</a>.\
+</p><p><br>\
+</p>\
+<h2 id="w_la-panelo-folioj">La panelo "Folioj"</h2>\
+<p>La panelo "Folioj" disponigas <span class="for" data-for="win">opciojn</span><span class="for" data-for="mac,linux">preferojn</span> koncernantajn la funkcion <a href="/eo/kb/tabs-organize-websites-single-window">tabbed browsing</a>. Pri detaloj legu en <a href="/eo/kb/tab-preferences-and-settings">Tab preferences and settings</a>.\
+</p><p><br>\
+</p>\
+<h2 id="w_la-panelo-enhavo">La panelo "Enhavo"</h2>\
+<p>La panelo "Enhavo" disponigas <span class="for" data-for="win">opciojn</span><span class="for" data-for="mac,linux">preferojn</span> pri tio, kiel Firefox montras retpaĝojn. Pri detaloj legu en <a href="/eo/kb/settings-for-web-content-pop-ups-fonts-languages">Settings for web content, pop-ups, fonts, and languages</a>.\
+</p><p><br>\
+</p>\
+<h2 id="w_la-panelo-programoj">La panelo "Programoj"</h2>\
+<p>La panelo "Programoj" ebligas al vi decidi, kiel Firefox <a href="/eo/kb/change-firefox-behavior-when-open-file">traktu dosierojn de diversaj specoj</a> (ekzemple dokumentojn en PDF aŭ sondosierojn). Ĝi montras al vi liston de tipoj de enhavo, kaj ebligas difini por ĉiu tipo agon, kiel ekzemple lanĉon de programo, ŝargon ene de Firefox per kromprogramo, aŭ konservon de la dosiero. Pri detaloj legu en <a href="/eo/kb/applications-panel-set-how-firefox-handles-files">Applications panel - Set how Firefox handles different types of files</a>.\
+</p><p><br>\
+</p>\
+<h2 id="w_la-panelo-privateco">La panelo "Privateco"</h2>\
+<p>La panelo "Privateco" disponigas <span class="for" data-for="win">opciojn</span><span class="for" data-for="mac,linux">preferojn</span>, kiuj koncernas vian privatecon, t.e. influas konservadon de informoj pri tio, ekzemple, kiujn retejojn vi vizitis dum retumado. Pri detaloj legu en <a href="/eo/kb/settings-privacy-browsing-history-do-not-track">Settings for privacy, browsing history and do-not-track</a>.\
+</p><p><br>\
+</p>\
+<h2 id="w_la-panelo-sekureco">La panelo "Sekureco"</h2>\
+<p>La panelo "Sekureco" disponigas <span class="for" data-for="win">opciojn</span><span class="for" data-for="mac,linux">preferojn</span> koncernantajn sekurecon de via retfoliumado. Pri detaloj legu en <a href="/eo/kb/security-and-passwords-settings">Security and passwords settings</a>.\
+</p><p><br>\
+</p>\
+<h2 id="w_la-panelo-spertaj">La panelo "Spertaj"</h2>\
+<p>La panelo "Spertaj" disponigas <span class="for" data-for="win">opciojn</span><span class="for" data-for="mac,linux">preferojn</span> relative malofte uzatajn, koncernantajn ekzemple kontroladon ĉu Firefox estas elektita kiel la ĉefa TTT-legilo, forviŝon de la surdiska staplo, agordojn de ĝisdatigo de Firefox, kaj diversajn aliajn agordojn, bezonatajn de relative malmultaj personoj. Pri detaloj legu en <a href="/eo/kb/advanced-panel-settings-in-firefox">Advanced panel - Accessibility, browsing, network, updates, and other advanced settings in Firefox</a>.\
+</p>	eo
+<p><a href="/eo/kb/cookies-information-websites-store-on-your-computer">Kuketoj</a> estas konservataj en via komputilo de la vizitataj retejoj, kaj enhavas informojn kiel retejaj agordoj aŭ ensalutiteco. Tiu ĉi artikolo priskribas, kiel forigi kuketojn en Firefox.\
+</p><div class="for" data-for="not fx3">\
+<ul><li> Se vi volas forigi samtempe viajn foliuman historion, kuketojn, kaj dosierojn provizore konservitajn en Staplo, legu <a href="/eo/kb/delete-browsing-search-download-history-firefox">Delete browsing, search and download history on Firefox</a>.\
+</li></ul>\
+</div><div class="for" data-for="fx3">\
+<ul><li> Se vi volas forigi samtempe viajn foliuman historion, kuketojn, kaj dosierojn provizore konservitajn en Staplo, legu <a href="/eo/kb/Clearing%20private%20data">Clearing private data</a>.\
+</li></ul>\
+</div>\
+<ul><li> Se vi volas malpermesi al TTTejoj konservigi kuketojn en via komputilo, legu <a href="/eo/kb/block-websites-storing-site-preferences">Block websites from storing site preferences or login status in Firefox</a>.\
+</li></ul>\
+<div id="toc"><h2>Table of Contents</h2><ul><li class="toclevel-1"><a href="#w_kiel-forigi-kuketojn-de-unu-retejo"><span class="tocnumber">1</span> <span class="toctext">Kiel forigi kuketojn de unu retejo</span></a></li><li class="toclevel-1"><a href="#w_kiel-forigi-loiujn-kuketojn"><span class="tocnumber">2</span> <span class="toctext">Kiel forigi ĉiujn kuketojn</span></a></li></ul></div>\
+<p><br>\
+</p>\
+<h1 id="w_kiel-forigi-kuketojn-de-unu-retejo">Kiel forigi kuketojn de unu retejo</h1>\
+<p>Por forigi la kuketojn difinitajn de unu retejo:\
+</p><div class="for" data-for="not fx3">\
+<ol><li> <span class="for" data-for="win,linux">En la supra parto de la Firefox-fenestro</span><span class="for" data-for="mac">Sur la menu-breto</span>, alklaku la menuon <span class="for" data-for="win"><span class="menu">Iloj</span></span><span class="for" data-for="mac"><span class="menu">Firefox</span></span><span class="for" data-for="linux"><span class="menu">Modifi</span></span> kaj elektu <span class="for" data-for="win"><span class="menu">Opcioj...</span></span><span class="for" data-for="mac,linux"><span class="menu">Preferoj...</span></span>.\
+\
+</li></ol>\
+<p></p><ol><li> Elektu la panelon <span class="menu">Privateco</span>.\
+</li><li> Ĉe <strong>Firefox (L):</strong> elektu <strong>uzos personajn agordojn por la historio</strong>.<br> <br> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="9fde2f063ebfac55c0f6527c844866a8-1281902655-989-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/9fde2f063ebfac55c0f6527c844866a8-1281902655-989-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ <br>\
+</li></ol> \
+<p></p>\
+<ol><li> Alklaku <span class="button">Montri kuketojn...</span>. Aperos la fenestro Kuketoj.<br> <br> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="955a59aaa91fba3a15ff585e3d1927f5-1282824231-704-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/955a59aaa91fba3a15ff585e3d1927f5-1282824231-704-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</li><li> En la kampon <strong>Serĉi</strong> entajpu la nomon de la retejo, kies kuketojn vi volas forigi. Montriĝos la kuketoj laŭ via serĉo.\
+</li><li> Elektu en la listo la forigota(j)n kuketo(j)n, kaj alklaku <span class="button">Forigi kuketon</span>.<br> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="955a59aaa91fba3a15ff585e3d1927f5-1282824420-269-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/955a59aaa91fba3a15ff585e3d1927f5-1282824420-269-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</li></ol>\
+<ul><li><ul><li> Por elekti ĉiujn kuketojn en la listo, elektu la unuan kuketon, kaj premu <span class="key">Shift</span>+<span class="key">End</span>.\
+</li></ul>\
+</li></ul>\
+<ol><li> <span class="for" data-for="win,linux">Alklaku <span class="button">Fermi</span> por fermi</span><span class="for" data-for="mac">Fermu</span> la fenestron Kuketoj.\
+</li></ol>\
+</div><div class="for" data-for="fx3">\
+<ol><li> <span class="for" data-for="win,linux">En la supra parto de la Firefox-fenestro</span><span class="for" data-for="mac">Sur la menu-breto</span>, alklaku la menuon <span class="for" data-for="win"><span class="menu">Iloj</span></span><span class="for" data-for="mac"><span class="menu">Firefox</span></span><span class="for" data-for="linux"><span class="menu">Modifi</span></span> kaj elektu <span class="for" data-for="win"><span class="menu">Opcioj...</span></span><span class="for" data-for="mac,linux"><span class="menu">Preferoj...</span></span>.\
+\
+</li><li> Elektu la panelon <span class="menu">Privateco</span>.\
+</li><li> Alklaku <span class="button">Montri kuketojn...</span>. Aperos la fenestro Kuketoj.\
+</li><li> En la kampon <strong>Serĉi</strong> entajpu la nomon de la retejo, kies kuketojn vi volas forigi. Montriĝos la kuketoj laŭ via serĉo.\
+</li><li> Elektu en la listo la forigota(j)n kuketo(j)n kaj alklaku <span class="button">Forigi kuketon</span>.\
+</li></ol>\
+<ul><li><ul><li> Por elekti ĉiujn kuketojn en la listo, elektu la unuan kuketon, kaj premu <span class="key">Shift</span>+<span class="key">End</span>.\
+</li></ul>\
+</li></ul>\
+<ol><li> <span class="for" data-for="win,linux">Alklaku <span class="button">Fermi</span> por fermi</span><span class="for" data-for="mac">Fermu</span> la fenestron Kuketoj.\
+</li><li> <span class="for" data-for="win">Alklaku <span class="button">OK</span> por fermi la fenestron Opcioj</span><span class="for" data-for="linux">Alklaku <span class="button">Fermi</span> por fermi la fenestron Preferoj</span><span class="for" data-for="mac">Fermu la fenestron Preferoj</span>\
+\
+</li></ol>\
+</div>\
+<h1 id="w_kiel-forigi-loiujn-kuketojn">Kiel forigi ĉiujn kuketojn</h1>\
+<p>Por forigi ĉiujn kuketojn konservitajn en via komputilo:\
+</p><div class="for" data-for="not fx3">\
+<ol><li> Alklaku la menuon <span class="menu">Iloj</span> kaj elektu <span class="menu">Forviŝi ĵusan historion...</span>.\
+</li><li> Ŝanĝu la <strong>Forviŝotan tempan amplekson</strong> al <strong>Ĉio</strong>.\
+</li><li> Alklaku la sageton apud <strong>Detaloj</strong> por malkaŝigi la liston de historiaĵ-tipoj.\
+</li><li> Elektu <strong>Kuketoj</strong>  kaj certigu, ke aliaj aferoj, kiujn vi ne volas forigi, ne estu elektitaj. <br> <br> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="955a59aaa91fba3a15ff585e3d1927f5-1282826050-291-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/955a59aaa91fba3a15ff585e3d1927f5-1282826050-291-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</li><li> Alklaku <span class="button">Forviŝi nun</span> por forviŝi la kuketojn kaj fermi la fenestron Forviŝi tutan historion.\
+</li></ol>\
+</div><div class="for" data-for="fx3">\
+<ol><li> Aperigu la menuon <span class="menu">Iloj</span> kaj elektu <span class="menu">Forviŝi privatajn datumojn...</span>.\
+</li><li> Alklaku por marki <strong>Kuketoj</strong>, kaj certigu, ke ceteraj aferoj, kiujn vi ne volas forigi, ne estu markitaj.\
+</li><li> Alklaku <span class="button">Forviŝi privatajn datumojn nun</span> por forviŝi la kuketojn kaj fermi la fenestron Forviŝi privatajn datumojn.\
+</li></ol>\
+</div>	eo
+<div class="for" data-for="fx35">\
+<div class="note">Tiu ĉi artikolo temas pri kapablo enkondukita en Firefox 3.5, Privata retesplorado, kiu ebligas foliumi retpaĝojn sen tio ke Firefox konservu datumojn pri tio, kiujn retejojn kaj retpaĝojn vi vizitas.\
+<ul><li> Por uzi la kapablon, necesas <a href="/eo/kb/update-firefox-latest-version">ĝisdatigi Firefox'on almenaŭ al versio 3.5</a>\
+</li><li> Se vi deziras scii pli pri privateco en Firefox, legu la artikolon <a href="/eo/kb/delete-browsing-search-download-history-firefox">Forviŝado de lastatempa historio</a>.\
+</li><li> Informoj pri forigo de privataj datumoj en Firefox 3.0.x disponeblas en la artikolo <a href="/eo/kb/Clearing%20private%20data">Forviŝado de privataj datumoj</a>.\
+</li></ul>\
+</div> \
+</div><p>Kiam vi foliumas la TTT-on, Firefox konservas multe da informoj por plikomfortigi vian uzadon de Interreto: retpaĝojn, kiujn vi vizitis, dosierojn, kiujn vi elŝutis, ktp. Tamen fojfoje vi ne volas, ke aliaj uzantoj de via komputilo havu aliron al ĉi tiuj informoj. Ekz-e, se vi uzas unu komputilon kune kun iu, kaj estas serĉinta naskiĝotagfestan donacon por ili.\
+</p><p>\
+Firefox 3.5 kaj pli novaj versioj ofertas la <strong>funkcion "Privata retesplorado", kiu ebligas al vi retumadon sen konservado de informoj pri la retejoj kaj paĝoj, kiujn vi vizitis.</strong> Ĉi tiu artikolo detaligas pri tio, kiuj informoj ne estas konservataj dum Privata retesplorado, kaj klarigas kiel ĝin uzi.\
+</p>\
+<div class="warning"><strong>Atentu</strong>: Privata retesplorado ne anonimigas viajn agojn en la Interreto. Via provizanto de konekto, estro aŭ la retpaĝaroj mem daŭre povas protokoli, kiujn paĝojn vi vizitas.</div>\
+<div id="toc"><h2>Table of Contents</h2><ul><li class="toclevel-1"><a href="#w_kiuj-datumoj-ne-konservatas-en-la-relyimo-privata-retesplorado"><span class="tocnumber">1</span> <span class="toctext">Kiuj datumoj ne konservatas en la reĝimo "Privata retesplorado"</span></a></li><li class="toclevel-1"><a href="#w_kiel-lanloi-privatan-retesploradon"><span class="tocnumber">2</span> <span class="toctext">Kiel lanĉi Privatan retesploradon</span></a></li><li class="toclevel-1"><a href="#w_mallanloo-de-la-funkcio-privata-retesplorado"><span class="tocnumber">3</span> <span class="toctext">Mallanĉo de la funkcio Privata retesplorado</span></a></li><li class="toclevel-1"><a href="#w_lanloo-de-firefox-loiam-en-la-relyimo-privata-retesplorado"><span class="tocnumber">4</span> <span class="toctext">Lanĉo de Firefox ĉiam en la reĝimo Privata retesplorado</span></a></li></ul></div>\
+<p><br>\
+</p>\
+<h1 id="w_kiuj-datumoj-ne-konservatas-en-la-relyimo-privata-retesplorado">Kiuj datumoj ne konservatas en la reĝimo "Privata retesplorado"</h1>\
+<ul><li> <strong>Vizititaj retpaĝoj</strong>: La informoj pri vizititaj retpaĝoj aldoniĝos nek en vian liston de vizititaj retpaĝoj, nek en la liston "Historio" en la Biblioteko, nek en la adresliston de la <a href="/eo/kb/awesome-bar-search-firefox-bookmarks-history-tabs">adresbreta kompletigilo</a>.\
+</li><li> <strong>Serĉitaj frazoj aŭ tekstoj metitaj en formularojn</strong>: Nenio el tio, kion vi enmetas en tekstajn kampojn de retaj formularoj aŭ en <a href="/eo/kb/use-search-bar-firefox">serĉobreton</a>, aldoniĝos al la listo por <a href="/eo/kb/control-whether-firefox-automatically-fills-forms">aŭtomata kompletigo de formularoj</a>.\
+</li><li> <strong>Pasvortoj</strong>: Nove entajpataj pasvortoj ne estos konserveblaj.\
+</li><li> <strong>Listo de elŝutitaj dosieroj</strong>: Neniu el elŝutitaj dosieroj restos post fino de Privata retesplorado en la <a href="/eo/kb/where-find-and-manage-downloaded-files-firefox">Fenestro pri elŝutado</a>.\
+</li><li> <strong><a href="/eo/kb/cookies-information-websites-store-on-your-computer">Kuketoj</a></strong>: Tiuj dosieroj, helpe de kiuj retpaĝoj konservas siajn datumojn en via komputilo, ne estos konservataj. Por pliaj informoj legu la artikolon pri kuketoj: <a class="new" href="/eo/kb/new?title=Pr%C3%A1ce+s+cookies" title="Page does not exist.">Kuketoj</a>.\
+</li><li> <strong>Staplo</strong>: Ĝis mallanĉo de la funkcio estos konservataj en la <a class="new" href="/eo/kb/new?title=Slovn%C3%ADk+terminologie#cache" title="Page does not exist.">staplon</a> de la retumilo neniuj retpaĝoj aŭ aliaj dosieroj.\
+</li></ul>\
+<div class="note"> <strong>Rimarko</strong>:\
+<ul><li> <a href="/eo/kb/bookmarks-firefox">Paĝosignoj</a>, kreitaj dum Privata esplorado, restos post la fino de la seanco, kaj ne estos forviŝitaj.\
+</li><li> Se dum Privata retesplorado vi konservos dosierojn, tiuj dosieroj ne estos forigitaj post malaktivigo de la reĝimo. Tamen ĉiuj dosieroj, kiujn vi nur "malfermos per ekstera aplikaĵo", estos forigitaj el la dosierujo por provizoraj dosieroj, kaj la nomoj de la elŝutitaj dosieroj ne restos en la listo de la <a href="/eo/kb/where-find-and-manage-downloaded-files-firefox">Fenestro pri elŝutado</a>. </li></ul></div>\
+\
+<h1 id="w_kiel-lanloi-privatan-retesploradon">Kiel lanĉi Privatan retesploradon</h1>\
+<p>Por komenci seancon de Privata retesplorado:\
+</p>\
+<ol><li><span class="for" data-for="win,linux">En la supra parto de la fenestro de Firefox </span><span class="for" data-for="mac">Sur la menustrio</span> alklaku la menuon <span class="for" data-for="win,fx4"><span class="menu">Firefox</span> (<span class="menu">Iloj</span> en Windows XP),</span><span class="for" data-for="win,fx35"><span class="menu">Iloj</span></span><span class="for" data-for="mac,linux"><span class="menu">Iloj</span></span>, kaj elektu <span class="menu">Komenci privatan retesploradon</span>.\
+</li></ol>\
+<p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="9fde2f063ebfac55c0f6527c844866a8-1280760940-310-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/9fde2f063ebfac55c0f6527c844866a8-1280760940-310-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p><div class="for" data-for="fx3">\
+<div class="note"><strong>Ĉu ne trovis?</strong> Se <em>Komenci privatan retesploradon</em> forestas de la menuo Iloj, vi kredeble uzas ne sufiĉe novan version de Firefox. Por uzi la kapablon, <a href="/eo/kb/update-firefox-latest-version">ĝisdatigu vian Firefox'on almenaŭ al 3.5</a>.</div>\
+</div>\
+<ol><li> Kiam vi la unuan fojon aktivigos la reĝimon de Privata retesplorado, Firefox atentigos vin, ke ĝi konservos viajn nunajn foliojn por rekrei ilin kiam vi finos vian seancon de privata retesplorado. Por daŭrigi, premu la butonon <span class="button">Komenci privatan retesploradon</span>.\
+</li></ol>\
+<p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="9fde2f063ebfac55c0f6527c844866a8-1280761268-265-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/9fde2f063ebfac55c0f6527c844866a8-1280761268-265-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p>\
+<ul><li><ul><li> Se vi ne volas plu ricevi tiun atentigon, marku "Ne montri tiun ĉi mesaĝon denove".\
+</li></ul>\
+</li></ul>\
+<ol><li> Komenciĝos seanco de Privata retesplorado, kaj aperos paĝo kun informoj pri la reĝimo de Privata retesplorado.\
+</li></ol>\
+<p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="9fde2f063ebfac55c0f6527c844866a8-1280762068-48-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/9fde2f063ebfac55c0f6527c844866a8-1280762068-48-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p><p>Dum foliumado en la reĝimo Privata retesplorado la fenestrotitolo de Firefox enhavos la frazon "Privata retesplorado".\
+</p><p><br>\
+</p>\
+<h1 id="w_mallanloo-de-la-funkcio-privata-retesplorado">Mallanĉo de la funkcio Privata retesplorado</h1>\
+<p>Por fini seancon de Privata retesplorado:\
+</p>\
+<ol><li> En la ĉefa menuo alklaku <span class="menu">Iloj</span>, kaj tie elektu <span class="menu">Haltigi privatan retesploradon</span>.\
+</li></ol>\
+<p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="9fde2f063ebfac55c0f6527c844866a8-1280762127-341-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/9fde2f063ebfac55c0f6527c844866a8-1280762127-341-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p>\
+<ol><li> Aperos fenestroj kaj folioj, havitaj antaŭ la komenco de la seanco de Privata retesplorado, kaj vi povos uzi Firefox'on en la normala reĝimo. La titolon de la fenestro de Firefox ne plu enestos la teksto <strong>(Privata retesplorado)</strong>.\
+</li></ol>\
+<h1 id="w_lanloo-de-firefox-loiam-en-la-relyimo-privata-retesplorado">Lanĉo de Firefox ĉiam en la reĝimo Privata retesplorado</h1>\
+<p>En la <a href="/eo/kb/settings-privacy-browsing-history-do-not-track"><span class="for" data-for="win">agorda fenestro</span></a> ekzistas agordo, kiu ebligas lanĉi la retumilon ĉiam en la reĝimo Privata retesplorado.\
+</p>\
+<ol><li> <span class="for" data-for="win,linux">En la supra parto de la Firefox-fenestro</span><span class="for" data-for="mac">Sur la menu-breto</span>, alklaku la menuon <span class="for" data-for="win"><span class="menu">Iloj</span></span><span class="for" data-for="mac"><span class="menu">Firefox</span></span><span class="for" data-for="linux"><span class="menu">Modifi</span></span> kaj elektu <span class="for" data-for="win"><span class="menu">Opcioj...</span></span><span class="for" data-for="mac,linux"><span class="menu">Preferoj...</span></span>.\
+\
+</li><li> Elektu en la fenestro la paĝon <span class="menu">Privateco</span>. \
+</li><li> En la sekcio <strong>Historio:</strong> ŝanĝu la agordon al <strong>Uzos personajn agordojn por la historio</strong>.\
+</li></ol>\
+<p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="9fde2f063ebfac55c0f6527c844866a8-1281902655-989-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/9fde2f063ebfac55c0f6527c844866a8-1281902655-989-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p>\
+<ol><li> Marku <strong>Aŭtomate startigu Firefox en reĝimo de privata retesplorado</strong>.\
+</li><li> <span class="for" data-for="win">Alklaku <span class="button">OK</span> por fermi la fenestron Opcioj</span><span class="for" data-for="linux">Alklaku <span class="button">Fermi</span> por fermi la fenestron Preferoj</span><span class="for" data-for="mac">Fermu la fenestron Preferoj</span>\
+\
+</li></ol>	eo
+	eo
+	eo
+	eo
+<h2 id="w_firefox-for-android">Firefox for Android</h2>\
+<p>Firefox 4 estas havebla por <strong>Android 2.0</strong> aŭ pli nova. Ĝi bezonas:\
+</p>\
+<ul><li>Telefonon kun <strong>procesoro ARMv7</strong>.\
+</li><li>Proksimume <strong>17 MB</strong> en la interna aŭ SDa memorilo. Plej bone ĝi funkcias en aparatoj kun almenaŭ <strong>512 MiB</strong> da ĉefmemoro.\
+</li></ul>\
+<p><a href="http://firefox.com/m">Elŝutu Firefox'on 4 por Android</a> aŭ serĉu Firefox'on per la aplikaĵo «Market».\
+</p>\
+<div class="note">Se Firefox ne troviĝas ĉe provo de elŝuto aŭ serĉado en la «Android Market», via aparato eble ne estas subtenata. Rigardu la liston de subtenataj aparatoj sube.</div> \
+<h3 id="w_subtenataj-aparatoj-testitaj">Subtenataj aparatoj - testitaj:</h3>\
+<ul><li>Dell:\
+<ul><li>Dell Streak\
+</li><li>Dell Streak 7\
+</li></ul>\
+</li><li>Dixons:\
+<ul><li>Advent Vega (P10AN01)\
+</li></ul>\
+</li><li>HTC:\
+<ul><li>HTC Desire\
+</li><li>HTC Desire Z (T-Mobile G2)\
+</li><li>HTC Desire HD\
+</li><li>HTC Droid Incredible\
+</li><li>HTC EVO 4G\
+</li><li>HTC EVO Shift 4G \
+</li><li>HTC Glacier (T-Mobile myTouch 4G)\
+</li><li>HTC Nexus One\
+</li></ul>\
+</li><li>Huawei\
+<ul><li>Huawei Ideos S7\
+</li></ul>\
+</li><li>LG:\
+<ul><li>LG Optimus Z\
+</li></ul>\
+</li><li>Motorola:\
+<ul><li>Motorola Atrix 4G\
+</li><li>Motorola Bravo\
+</li><li>Motorola Defy\
+</li><li>Motorola Droid 2\
+</li><li>Motorola Droid 2 Global\
+</li><li>Motorola Droid Pro\
+</li><li>Motorola Droid X\
+</li><li>Motorola Xoom\
+</li></ul>\
+</li><li>POV:\
+<ul><li>POV Mobii Tegra Tablet\
+</li></ul>\
+</li><li>Samsung:\
+<ul><li>Samsung Continuum (i400)\
+</li><li>Samsung Galaxy S (i9000, Captivate, Fascinate, Vibrant, Epic 4G)\
+</li><li>Samsung Galaxy Tab\
+</li></ul>\
+</li><li>Sharp:\
+<ul><li>Sharp IS03\
+</li></ul>\
+</li><li>Sony:\
+<ul><li>Sony Ericsson Xperia X10\
+</li></ul>\
+</li><li>ViewSonic\
+<ul><li>ViewSonic gTablet\
+</li></ul>\
+</li></ul>\
+<p>Por vidi la plenan liston de subtenataj kaj nesubtenataj aparatoj, vizitu nian <a href="https://wiki.mozilla.org/Mobile/Platforms/Android#System_Requirements">vikipaĝon pri sistempostuloj</a>.\
+</p>\
+<h2 id="w_firefox-por-maemo">Firefox por Maemo</h2>\
+<p>Firefox 4 estas havebla por la Nokia N900 kun la operaciumo «Maemo».  <a href="http://firefox.com/m">Elŝutu Firefox'on 4 por Maemo</a>\
+</p>\
+<h2 id="w_firefox-home-por-iphone">Firefox Home por iPhone</h2>\
+<p>Limigoj de Apple malpermesas al ni disdonadon de Firefox por aparatoj kun iOS (iPhone, iPad, iPod Touch). Sed vi povas instali «<a href="http://www.mozilla.com/en-US/mobile/home/">Firefox Home</a>»'on, senpagan aplikaĵon, kiu ebligos vin disponi pri la folioj, paĝosignoj kaj historio de via surtabla Firefox'o en via iPhone, iPad aŭ iPod touch.\
+</p>\
+<h2 id="w_aliaj-aparatoj">Aliaj aparatoj</h2>\
+<p>Firefox <strong>ne</strong> estas havebla por Symbian, Windows Mobile, Blackberry, aŭ aliaj porteblaj komputiloj. Detaloj estas legeblaj sur la paĝo <a href="https://wiki.mozilla.org/Mobile/Platforms">pri poŝplatformoj kaj Firefox</a>.\
+</p>\
+<h2 id="w_surtablaj-komputiloj">Surtablaj komputiloj</h2>\
+<p>Se Firefox ne estas havebla por via poŝkomputilo, vi tamen povas provuzi la Firefox'on por poŝkomputiloj en via Linuksa, Vindoza aŭ Makintoŝa komputilo. <a href="http://www.mozilla.com/en-US/mobile/download/">Elŝutu specialan version de poŝkomputila Firefox</a> por testi porpoŝkomputilajn retpaĝarojn aŭ Firefox'ajn aldonaĵojn.\
+</p>	eo
+<p>Firefox 4 nun estas havebla en poŝkomputiloj kun mastrumsistemoj «Android» kaj «Maemo». Ĉi tiu artikolo klarigas, kiel elŝuti kaj instali ĝin, kaj listigas ĉefajn postulojn pri la aparato.\
+</p>\
+<h1 id="w_elayutado-kaj-instalado-de-firefox">Elŝutado kaj instalado de Firefox</h1>\
+<div class="for" data-for="android">\
+<ol><li>Por elŝuti kaj instali Firefox'on en vian aparaton, simple malfermu la paĝon «<a href="http://firefox.com/m">firefox.com/m</a>» kaj alklaku la elŝutbutonon.\
+</li><li>Malfermiĝos la Androida aplikaĵo «Market» kun la paĝo por instalado de Firefox. Simple frapetu «Instali» kaj konfirmu la permesojn.\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Android Install" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-27-18-56-23-19ad89.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</li></ol>\
+<p>Firefox 4 bezonas:\
+</p>\
+<ul><li><strong>Android 2.0</strong> aŭ pli novan.\
+</li><li>Aparaton kun <strong>ĉefprocesoro ARMv7</strong>.\
+</li><li>Proksimume <strong>17MB</strong> en la interna aŭ SD-memorilo. Ĝi plej bone funkcias en aparatoj kun almenaŭ <strong>512MiB</strong> da ĉefmemoro.\
+</li></ul>\
+<div class="note">Se Firefox ne troviĝas ĉe provo elŝuti aŭ serĉado en «Android Market», via aparato eble ne estas subtenata. Vidu pliajn informojn pri subtenataj aparatoj en «<a href="/eo/kb/chu-firefox-funkcios-en-mia-poshkomputilo">Ĉu Firefox funkcios en mia poŝkomputilo?</a>».</div> \
+</div><div class="for" data-for="maemo">\
+<ol><li>Por elŝuti kaj instali Firefox'on en vian aparaton, simple malfermu la paĝon «<a href="http://firefox.com/m">firefox.com/m</a>» kaj frapetu la elŝutbutonon.\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Mameo install1" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-28-15-18-12-27a9f5.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</li><li>Aldonu la Firefox'an katalogon.<br> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Mameo install2" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-28-15-18-34-b29047.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</li><li>Konfirmu, ke vi komprenas, kaj frapetu «<span class="button">Continue</span>».<br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Mameo install3" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-28-15-19-09-2f423b.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</li><li><strong>Tiam</strong> Firefox estos elŝutita kaj instalita.\
+</li></ol>\
+<div class="note">Firefox 4 estas havebla nur por la Nokia N900.</div>\
+</div>	eo
+	eo
+	eo
+	eo

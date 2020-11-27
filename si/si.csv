@@ -1,0 +1,3136 @@
+	si
+	si
+<div class="note">Translation in progress.</div>\
+<pre> \
+<p></p><p>This document explains what cookies are, how they are used, and how you can gain control over the cookies stored on your computer by using the Cookie Manager in Mozilla Firefox.\
+</p>\
+<div id="toc"><h2>Table of Contents</h2><ul><li class="toclevel-1"><a href="#w_what-is-a-cookie"><span class="tocnumber">1</span> <span class="toctext">What is a Cookie?</span></a></li><li class="toclevel-1"><a href="#w_setting-up-cookie-rules"><span class="tocnumber">2</span> <span class="toctext">Setting Up Cookie Rules</span></a><ul><li class="toclevel-2"><a href="#w_all-the-settings"><span class="tocnumber">2.1</span> <span class="toctext">All the Settings</span></a></li></ul></li><li class="toclevel-1"><a href="#w_accepting-and-blocking-cookies"><span class="tocnumber">3</span> <span class="toctext">Accepting and Blocking Cookies</span></a></li><li class="toclevel-1"><a href="#w_the-cookies-exceptions-window"><span class="tocnumber">4</span> <span class="toctext">The Cookies Exceptions Window</span></a></li><li class="toclevel-1"><a href="#w_the-show-cookies-window"><span class="tocnumber">5</span> <span class="toctext">The Show Cookies Window</span></a></li></ul></div>\
+<p><br>\
+</p>\
+<h1 id="w_what-is-a-cookie">What is a Cookie?</h1>\
+<p>A cookie is a file created by an Internet site to store information on your computer, such as your preferences when visiting that site. When you visit a site that uses cookies, the site might ask Firefox to place one or more cookies on your hard disk.\
+</p><p>Later, when you return to the site, Firefox sends back the cookies that belong to the site. This allows the site to present you with information customized to fit your needs.\
+</p><p>Cookies can also store personally identifiable information. Personally identifiable information is information that can be used to identify or contact you, such as your name, e-mail address, home or work address, or telephone number. However, a web site only has access to the personal information that you provide. For example, a web site cannot determine your e-mail address unless you provide it. Also, a web site cannot gain access to other information on your computer.\
+</p><p>When you use the default cookie settings, this activity is invisible to you, and you won't know when a web site is setting a cookie or when Firefox is sending a web site its cookie. However, you can set your cookies <span class="for" data-for="win">options</span><span class="for" data-for="mac,linux">preferences</span> so that you will be asked before a cookie is set. You can also restrict the lifetime of cookies to your current Firefox session.\
+</p><p><br>\
+</p>\
+<h1 id="w_setting-up-cookie-rules">Setting Up Cookie Rules</h1>\
+<p>By default Firefox accepts all cookies, including cookies which would allow a site to recognize you effectively forever. If this doesn't suit you, you can tell Firefox to delete all cookies when you close Firefox:\
+</p>\
+<ol><li> Click the menu button <span class="for" data-for="not fx57">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="New Fx Menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="fx57">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Fx57Menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2017-10-22-15-37-15-18c775.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span> and choose <span class="for" data-for="win"><span class="button">Options</span>.</span><span class="for" data-for="mac,linux"><span class="button">Preferences</span>.</span>\
+, then select the <span class="menu">Privacy</span> panel.\
+</li><li> From the <strong>Keep until</strong> menu, select the <strong>I close Firefox</strong> <span class="for" data-for="win">option</span><span class="for" data-for="mac,linux">preference</span>.\
+</li></ol>\
+<p>If you want to grant sites you trust the ability to store cookies permanently (e.g., to allow you to log in automatically to a site), click <span class="button"><a href="#cookies_exceptions">Exceptions…</a></span>, enter the site address, and click <span class="button">Allow</span>.\
+</p><p><br> \
+</p>\
+<h2 id="w_all-the-settings">All the Settings</h2>\
+<p><span class="for" data-for="win">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="cookies-prefs-win.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/cookies-prefs-win.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+<br></span><span class="for" data-for="mac">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="cookies-prefs-mac.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/cookies-prefs-mac.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+<br></span>\
+These are the <span class="for" data-for="win">options</span><span class="for" data-for="mac,linux">preferences</span> that affect how cookies are managed by Firefox:\
+</p><p><strong>Accept cookies from sites</strong>:\
+If you don't want any sites to store cookies on your computer, uncheck this <span class="for" data-for="win">option</span><span class="for" data-for="mac,linux">preference</span>. Note that some sites may not work properly when cookies are disabled. If you want to grant certain sites the ability to store cookies, open the <a href="#cookies_exceptions">Cookies Exceptions</a> window by clicking <span class="button">Exceptions…</span>, enter the site address, and click <span class="button">Allow</span> or <span class="button">Allow for Session</span>.\
+</p><div class="for" data-for="fx3"><p><strong>Accept third-party cookies</strong>:\
+If Firefox stores a site's cookie, it will return the cookie only to that particular site.  Firefox will not provide one site with cookies set by another. Since a web site can only receive its own cookies, it can learn about your activities while you are at that site but not your activities in general while surfing the Web.\
+</p><p>However, sometimes a web site displays content that is hosted on another site. That content can be anything from an image to text or an advertisement. The other web site that hosts also has the ability to store a cookie in Firefox, even though you haven't visited the site directly.\
+</p><p>Cookies that are stored by a site other than the one you are visiting are called third-party cookies or foreign cookies. Web sites sometimes use third-party cookies with transparent GIFs, which are special images that help sites count users, track email responses, learn more about how visitors use the site, or customize your browsing experience. (Transparent GIFs are also known as web beacons or web bugs.) When this checkbox is not checked, it blocks these foreign cookies from being stored.\
+</p></div><p><strong>Keep until</strong>: \
+</p>\
+<ul><li> <strong>they expire</strong><br>  If this  <span class="for" data-for="win">option</span><span class="for" data-for="mac,linux">preference</span> is selected, each cookie will be removed when the site that set it has determined the cookie should expire.\
+</li><li> <strong>I close Firefox</strong><br>  If this <span class="for" data-for="win">option</span><span class="for" data-for="mac,linux">preference</span> is selected, cookies will be removed when you restart Firefox.  Web sites requiring the use of cookies will still work, but if you restart Firefox, the web site will think that you logged into the site for the first time again.\
+</li><li> <strong>ask me every time</strong><br>  Display an alert every time a web site tries to store a cookie asking you if you want that cookie stored.\
+</li></ul>\
+<p><br>\
+</p>\
+<h1 id="w_accepting-and-blocking-cookies">Accepting and Blocking Cookies</h1>\
+<p>If you've chosen <strong>ask me every time</strong> from the <strong>Keep until</strong> menu, you'll see a dialog whenever a site tries to store a cookie on your computer providing the following options:\
+<span class="for" data-for="win"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="cookies-prompt-win.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/cookies-prompt-win.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+<br></span><span class="for" data-for="mac"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="cookies-prompt-mac.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/cookies-prompt-mac.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+<br></span>\
+<strong>Allow</strong>: To allow this particular cookie, just click <span class="button">Allow</span>. Use this if you trust the site.\
+<strong>Allow for Session</strong>: If you want to allow this cookie for now, but have it deleted when you exit Firefox, click <span class="button">Allow for Session</span>. Use this if the site doesn't work without cookies, but you don't want to have a permanent cookie stored for it.\
+<strong>Deny</strong>: If you don't want this cookie to be stored, click <span class="button">Deny</span>. Use this if you don't trust the site or suspect that it's compromising your privacy.\
+<strong>Use my choice for all cookies from this site</strong>: Select this checkbox before clicking any of the buttons if you want Firefox to remember your decision and not ask again. The site will be added to the <a href="#cookies_exceptions">Cookie Exceptions</a> window, where you can revert your choice should you wish to do so later.\
+</p><p><br>\
+</p>\
+<h1 id="w_the-cookies-exceptions-window">The Cookies Exceptions Window</h1>\
+<p><span class="for" data-for="win"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="cookies-exceptions-win.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/cookies-exceptions-win.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+<br></span><span class="for" data-for="mac"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="cookies-exceptions-mac.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/cookies-exceptions-mac.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+<br></span>\
+Access this window by clicking the <span class="button">Exceptions…</span> button in cookies <span class="for" data-for="win">options</span><span class="for" data-for="mac,linux">preferences</span>. Here you can make exceptions from your general cookies <span class="for" data-for="win">options</span><span class="for" data-for="mac,linux">preferences</span> for specific sites. Using exceptions, you can allow all cookies, reject all cookies, or allow all cookies but have them deleted when you exit Firefox, regardless of your other cookie settings.\
+</p><p>To add a site to this list, simply type the site's domain name in the field labeled <strong>Address of web site</strong>. Then click <span class="button">Block</span> to reject cookies from the site, click <span class="button">Allow</span> to allow cookies from the site, or click <span class="button">Allow for Session</span> to allow cookies from the site but have them deleted when you exit Firefox.\
+</p><p>To remove a site from this list, select it and click <span class="button">Remove Site</span>. To clear the list completely, click <span class="button">Remove All Sites</span>. This will clear the exceptions list so your general cookies <span class="for" data-for="win">options</span><span class="for" data-for="mac,linux">preferences</span> apply.\
+</p><p><br>\
+</p>\
+<h1 id="w_the-show-cookies-window">The Show Cookies Window</h1>\
+<p>Use the <em>Show Cookies</em> window to view and remove cookies. To access it, click the <span class="button">Show Cookies...</span> button in cookies <span class="for" data-for="win">options</span><span class="for" data-for="mac,linux">preferences</span>.\
+<span class="for" data-for="win"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="cookies-manager-win.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/cookies-manager-win.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+<br></span><span class="for" data-for="mac"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="cookies-manager-mac.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/cookies-manager-mac.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+<br></span>\
+This window lists all cookies currently stored on your computer, grouped by site. You can expand the sites and select a cookie to display more information about it. You can also search for a site or a cookie name by typing in the search bar.\
+</p><p>To remove a cookie from the list, select it and click <span class="button">Remove Cookie</span>. To remove a site's cookies, select the site and click <span class="button">Remove Cookie(s)</span>. To wipe all cookies, click <span class="button">Remove All Cookies</span>.\
+</p></pre>	si
+	si
+<dl><dt><dl><dd><div class="note"><strong>Note: If you are upgrading from a previous version of Firefox, see <a href="/si/kb/Firefox-%E0%B6%B1%E0%B7%80%E0%B6%AD%E0%B6%B8-%E0%B6%BA%E0%B7%8F%E0%B7%80%E0%B6%AD%E0%B7%8A%E0%B6%9A%E0%B7%8F%E0%B6%BD-%E0%B6%9A%E0%B7%92%E0%B6%BB%E0%B7%93%E0%B6%B8">Firefox නවතම  යාවත්කාල කිරීම</a></strong></div>\
+</dd></dl></dt></dl>\
+\
+<p><strong>Before you install Firefox</strong>, make sure that your computer meets the <a href="http://www.mozilla.com/firefox/system-requirements">System Requirements</a>.\
+</p>\
+<ul><li> If your system does not meet those requirements, you should download the <a href="http://www.mozilla.com/firefox/all-older.html">latest update to Firefox 2</a>. \
+</li></ul>\
+<p><br>\
+</p>\
+<h1 id="w_installing-firefox-on-mac">Installing Firefox on Mac</h1>\
+<p>Visit the <a href="http://www.getfirefox.com">Firefox download page</a> in any browser (e.g. Apple Safari). It will automatically detect the platform and language on your computer and recommend the best edition(s) of Firefox for you. If you want to download another edition of Firefox, click on "Other Systems and Languages" to see a list of all the others available.\
+</p><p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="installingonmac-1-jpg60.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/installingonmac-1-jpg60.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p><p>Download the disk image (dmg file) to your desktop. Once the download has completed, the disk image may open by itself and mount a new volume which contains the Firefox application. If you do not see the new volume, double-click the Firefox dmg icon to open it.\
+</p><p>You will be presented with a window containing the License Agreement terms. If you agree to the terms of the agreement, click the <span class="button">Accept</span> button.\
+</p><p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="installingonmac-2b-jpg60.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/installingonmac-2b-jpg60.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p><p><br>\
+A Finder window appears, containing the Firefox application. <strong>Drag the Firefox Icon into the Applications folder</strong>.\
+</p><p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="installingonmac-3-jpg60.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/installingonmac-3-jpg60.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p><p>After Firefox has been dragged into the Applications folder you can eject the disk image by selecting it in a Finder window and pressing the command-E keys or by using the Finder's File Eject as shown below.\
+</p>\
+<ul><li> If you find that the Firefox disk image will not eject, it is probably because of a Leopard bug, that prevents disk ejection, after you've copied files from one drive to another. Ejecting the disk via the <strong>Disk Utility</strong> should still work.\
+</li></ul>\
+<p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="installingonmac-4-jpg60.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/installingonmac-4-jpg60.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p><p>Firefox is now ready for use. Open the Applications folder and double-click on Firefox to start it.\
+</p>\
+<ul><li> <strong>(Leopard)</strong> If you're using Leopard, you will be warned that you downloaded Firefox from the internet. Because you download Firefox from the official site, you can click <span class="button">Open</span>.<br> <br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="installingonmac-5-jpg60.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/installingonmac-5-jpg60.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</li></ul>\
+<p><br>\
+</p><p>When you first start up Firefox, it will not be your default browser and you'll be told about that. That means that when you open a link in your mail application, an Internet shortcut, or HTML document, it will not open in Firefox. If you want Firefox to do the above, click <span class="button">Yes</span> to set it as your default browser. If not or you are just trying out Firefox, click <span class="button">No</span>.\
+</p><p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="installingonmac-6-jpg60.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/installingonmac-6-jpg60.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p>	si
+	si
+<p><strong>ඔබ ෆයර්ෆොක්ස් ස්ථාපනයට පෙර</strong>, ඔබගේ පරිගණකය <a href="http://www.mozilla.com/firefox/system-requirements.html">පද්ධති අවශ්‍යතා</a> සපුරා ඇති බවට තහවුරු කරගන්න.\
+</p>\
+<ul><li> ඔබගේ පරිගණකය පද්ධති අවශ්‍යතා සපුරා නැති නම් බවට තහවුරු <a href="http://www.mozilla.com/firefox/all-older.html">ෆයර්ෆොක්ස් 2 හි නවතම නිකුතුව ලබාගන්න</a>. \
+</li></ul>\
+<p>\
+</p>\
+<h1 id="w_ieii-iiijikioiiiuioioicio-iiicieicidieiaigioigio-ioieiiig-iiioieioijieiiio-iiigioiuigicij-iiig-ig">ඔබ ෆයර්ෆොක්ස් පිහිටුවන්නේ කුමන මෙහෙයුම් පද්ධතිය මත ද?</h1>\
+<h2 id="w_imagevista-jpgvalignmiddlewindows-iiig-iiijikioiiiuioioicio-icioigiaiiigij">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="vista.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/vista.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" style="vertical-align: middle;">\
+\
+\
+<a href="/si/kb/Windows%20%E0%B6%B8%E0%B6%AD%20%E0%B7%86%E0%B6%BA%E0%B6%BB%E0%B7%8A%E0%B7%86%E0%B7%9C%E0%B6%9A%E0%B7%8A%E0%B7%83%E0%B7%8A%20%E0%B7%83%E0%B7%8A%E0%B6%AE%E0%B7%8F%E0%B6%B4%E0%B6%B1%E0%B6%BA">Windows මත ෆයර්ෆොක්ස් ස්ථාපනය</a></h2>\
+<h2 id="w_imagemacos-jpgvalignmiddlemac-iiig-iiijikioiiiuioioicio-icioigiaiiigij">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="macos.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/macos.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" style="vertical-align: middle;">\
+\
+\
+<a href="/si/kb/Mac%20%E0%B6%B8%E0%B6%AD%20%E0%B7%86%E0%B6%BA%E0%B6%BB%E0%B7%8A%E0%B7%86%E0%B7%9C%E0%B6%9A%E0%B7%8A%E0%B7%83%E0%B7%8A%20%E0%B7%83%E0%B7%8A%E0%B6%AE%E0%B7%8F%E0%B6%B4%E0%B6%B1%E0%B6%BA">Mac මත ෆයර්ෆොක්ස් ස්ථාපනය</a></h2>\
+<h2 id="w_imagelinux-jpgvalignmiddlelinux-iiig-iiijikioiiiuioioicio-icioigiaiiigij">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="linux.jpg" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/linux.jpg" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" style="vertical-align: middle;">\
+\
+\
+<a class="new" href="/si/kb/new?title=Linux+%E0%B6%B8%E0%B6%AD+%E0%B7%86%E0%B6%BA%E0%B6%BB%E0%B7%8A%E0%B7%86%E0%B7%9C%E0%B6%9A%E0%B7%8A%E0%B7%83%E0%B7%8A+%E0%B7%83%E0%B7%8A%E0%B6%AE%E0%B7%8F%E0%B6%B4%E0%B6%B1%E0%B6%BA" title="Page does not exist.">Linux මත ෆයර්ෆොක්ස් ස්ථාපනය</a></h2>\
+<p>\
+<br> <br>\
+<em><strong><a href="http://kb.mozillazine.org/Installing_Firefox">ෆයර්ෆොක්ස් ස්ථාපනය (mozillaZine KB)</a> හි ඇති තොරතුරු මත පදනම්ව</strong></em>\
+</p>	si
+<div class="for" data-for="fx3">\
+<div class="note">මෙම ලිපිය අදාල වන්නේ ෆයර්ෆොක්ස් 2 හෝ 3.0.x සඳහා <strong>නොව</strong> ෆයර්ෆොක්ස් 3.5 හෝ පසු සංස්කරණ සඳහා පමණි. ෆයර්ෆොක්ස් තුළ පෞද්ගලිකත්වය පිළිබඳ වැඩිදුර තොරතුරු දැනගැනීම සඳහා, <a href="/si/kb/Clearing%20private%20data">Clearing private data</a> බලන්න.</div> \
+</div><p>අන්තර්ජාලය පිළිබඳ ඔබගේ අත්දැකීම් වැඩි දියුණු කරනු පිණිස ගවේෂකය විසින් අතීතය ‍භාවිත කෙරේ. ගවේෂකය ඔබ විසින් පෙර නරඹන ලද වෙබ් පිටුව හෝ ඔබගේ ප්‍රියතම වෙබ් අඩවියෙහි පරිශීලක නාමය හා මුරපදය මතක තබා ගත් විට, එම තොරතුරු අතීතය ලෙස සැලකේ.  \
+</p><p>එහෙත්, එම තොරතුරු ඔබගේ පරිගණකය පරිශීලනය කරන අනෙක් අය දැනගැනීම ඔබ අකැමති වන අවස්ථා තිබිය හැක. උදාහරණයක් ලෙස ඔබගේ මිතුරෙක් හෝ පවුලේ සාමාජිකයෙක් ඔබ සමග පරිගණකය හවුලේ බෙදා ගනී නම් ඔබ නැරඹූ වෙබ් පිටු හෝ බාගත් දේ මොනවාදැ'යි ඔවුන් දැනගැනීම වැළැක්වීමට ඔබට අවශ්‍ය වීමට ඉඩ ඇත. \
+</p><p>ෆයර්ෆොක්ස් 3.5 හෝ පසු සංස්කරණ ඔබට ලබා දෙන "පෞද්‍ගලික ගවේෂණය" යන විෂේශාංගය මගින් ඔබට ‍නැරඹූ පිටු, ෆයර්ෆොක්ස් හි රඳවා තබා නොගනිමින් අන්තර්ජාලය ගවේෂණය කළ හැක.  \
+</p>\
+<div class="note"><strong>සැළකිය යුතුයි</strong>: පෞද්ගලික ගවේෂණය විසින් ඔබගේ පරිගණකයේ දත්ත සටහන් වීම ‍වැළැක්වුවද එය ඔබව අන්තර්ජාලයේ දී අඥාත (නිර්නාමික) නොකෙරේ.</div>\
+<div id="toc"><h2>Table of Contents</h2><ul><li class="toclevel-1"><a href="#w_auiiizigioiuilicio-auiuiaioiaieij-ikihiaia-igiiia-igiuiuigioigia-igia"><span class="tocnumber">1</span> <span class="toctext">‍පෞද්ගලික ‍ගවේෂණය රඳවා තබා නොගන්නා දෑ</span></a></li><li class="toclevel-1"><a href="#w_iiizigioiuilicio-iuiaioiaieauij-iiikiiieii"><span class="tocnumber">2</span> <span class="toctext">පෞද්ගලික ගවේෂණ‍ය ඇරඹීම</span></a></li><li class="toclevel-1"><a href="#w_iiizigioiuilicio-iuiaioiaieauij-igiaiaiaigioiaieii"><span class="tocnumber">3</span> <span class="toctext">පෞද්ගලික ගවේෂණ‍ය නැවැත්වීම</span></a></li><li class="toclevel-1"><a href="#w_iiizigioiuilicio-iuiaioiaieau-iciaicicijio-iiijikioiiiuioioicio-iiikiiieii"><span class="tocnumber">4</span> <span class="toctext">පෞද්ගලික ගවේෂණ‍ සැසියක ෆයර්ෆොක්ස් ඇරඹීම</span></a></li></ul></div>\
+<p><br>\
+</p>\
+<h1 id="w_auiiizigioiuilicio-auiuiaioiaieij-ikihiaia-igiiia-igiuiuigioigia-igia">‍පෞද්ගලික ‍ගවේෂණය රඳවා තබා නොගන්නා දෑ</h1>\
+<ul><li> <strong>නැරඹූ පිටු</strong>: කිසිදු  පිටුවක් අතීතය මෙනුවේ හෝ පුස්ථකාල කවුළු අතීත ලැයිස්තුවේ හෝ  <a href="/si/kb/awesome-bar-search-firefox-bookmarks-history-tabs">Awesome Bar - Search your Firefox bookmarks, history and tabs from the address bar</a>හි ලිපින ලැයිස්තුවේ හෝ සුරැකීමක් සිදු නොවේ.\
+</li><li> <strong>පෝරම හා සෙවුම් තීරුවේ සටහන්</strong>: වෙබ් පිටුවල පෝරම වල පාඨ කොටු (ටෙක්ස්ට් බොක්ස්) තුළ හෝ <a href="/si/kb/use-search-bar-firefox">Use the Search bar in Firefox</a>හි ඔබ ඇතුළත් කරන කිසිවක් <a href="/si/kb/control-whether-firefox-automatically-fills-forms">Control whether Firefox automatically fills in forms</a> සඳහා සටහන් ලැයිස්තුවට එකතු නොවේ.\
+</li><li> <strong>මුරපද</strong>: පෞද්ගලික ‍ගවේෂණ සැසියකදී කිසිදු මුරපදයක් ස්වයංක්‍රීයව නොපිරවෙන අතර අතර අලුත් මුරපද සරැකීමක් ද සිදු නොවේ.\
+</li><li> <strong>බාගැනීම් ලැයිස්තු සටහන්</strong>: ඔබ බාගන්නා ලද කිසිදු ගොනුවක් පෞද්ගලික ගවේෂණය නැවැත්වීමෙන් පසු එම සටහන් <a href="/si/kb/where-find-and-manage-downloaded-files-firefox">Where to find and manage downloaded files in Firefox</a>වෙන් මැකී යයි.  \
+</li><li> <strong>කුකී</strong>: වෙබ් අඩවි මගින් නිර්මාණය කෙරෙන, එමගින් ඔබගේ පරිගණකය තුළ තොරතුරු එනම්  එම අඩවි වලට යාමේ අභිරුචි (වෙබ් අඩවි වල "මතක තබා ගන්න" ‍සලකුණු කොටු (චෙක්බොක්ස්) ආදිය ඇත්නම් ඒ කුකී භාවිත කිරීමකි) ගබඩා කෙරෙන ‍ගොනු පරිගණකයේ ගබඩා නොවේ. කුකී පිළිබඳ වැඩිදුර තොරතුරු සඳහා <a href="/si/kb/%E0%B6%9A%E0%B7%94%E0%B6%9A%E0%B7%93">කුකී</a> බලන්න.\
+</li><li> <strong>වෙබ් කෑෂ් ගොනු</strong>: වෙබ් පිටු වලින් තාවකාලික අන්තර්ජාල ගොනු හෝ <a href="/si/kb/Glossary#cache">cached</a> ගොනු පෞද්ගලික ගවේෂණ‍ය නවත්වන තුරු සුරකිනු නොලැ‍බේ.\
+</li></ul>\
+<div class="note"> <strong>සැළකිය යුතුයි</strong>:\
+<ul><li> පෞද්ගලික ගවේෂණ‍ය අතරතුර ඔබ එකතු කරනු ලබන නව <a href="/si/kb/bookmarks-firefox">Bookmarks in Firefox</a> පෞද්ගලික ගවේෂණ‍ය නතර කළද ඉවත්ව නොයයි.\
+</li><li> පෞද්ගලික ගවේෂණ‍ය අතරතුර ඔබ ‍ගොනු පරිගණකයෙහි සුරැකුව හොත් පෞද්ගලික ගවේෂණ‍ය නැවැත්වූ විට ඒවා නොමැකේ. එහෙත් ඔබ ඒවා බාහිර භාවිත යෙදුමක (ඇප්ලිකේෂන්) විවෘත කළේ නම් ‍ඒවා පද්ධතියේ තාවකාලික බහාලුමෙන් ඉවත් වන අතර බාගන්නා කිසිදු ගොනුවක් <a href="/si/kb/where-find-and-manage-downloaded-files-firefox">Where to find and manage downloaded files in Firefox</a>වේ ලැයිස්තුවේ දිස් නොවේ. </li></ul></div>\
+\
+<p><br>\
+</p>\
+<h1 id="w_iiizigioiuilicio-iuiaioiaieauij-iiikiiieii">පෞද්ගලික ගවේෂණ‍ය ඇරඹීම</h1>\
+<div class="for" data-for="win"><div class="video">\
+  \
+\
+  <video controls data-fallback="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/videos/dab10fdb3045f9a7d59acad4c102c696-1246903199-802-0.swf" data-height="480" data-width="640"></video>\
+\
+  \
+</div></div>\
+පෞද්ගලික ගවේෂණ සැසියක් ඇරඹීම සඳහා:\
+<p></p>\
+<ol><li> <span class="menu">මෙවලම්</span> මෙනුව මත ක්ලික් කර <span class="menu">පෞද්ගලික ගවේෂණ‍ය අරඹන්න</span> සිලෙක්ට් කරන්න.<span class="for" data-for="win"> <br> <br> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="652ad745f1d03affc7f1645580458184-1248974352-947-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/652ad745f1d03affc7f1645580458184-1248974352-947-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ <br> <br> </span>\
+</li><li> ඔබ පෞද්ගලික ගවේෂණය ආරම්භ කරන ප්‍රථම අවස්ථාවේදී ෆයර්ෆොක්ස් ඔබේ පෞද්ගලික ගවේෂණ සැසිය නිමවු පසු ඔබේ දැනට ඇති ටැබ් සුරකිණු ඇති බවට අනතුරු අඟවනු ඇත. ඉදිරියට යෑම සඳහා <span class="button">පෞද්ගලික ගවේෂණ‍ය අරඹන්න</span> ක්ලික් කරන්න.\
+</li></ol>\
+<ul><li><ul><li> ඔබ පෞද්ගලික ගවේෂණ‍ය අරඹන ඊළඟ වතාවේදී මෙම අනතුරු ඇඟවීම දිස්වීම අනවශ්‍ය නම් "මෙම පණිවිඩය නැවත පෙන්වන්න එපා" ඉදිරියේ 'හරි' ලකුණ යොදන්න\
+</li></ul>\
+</li></ul>\
+<p><span class="for" data-for="win"> <br> <br> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="652ad745f1d03affc7f1645580458184-1248982104-6-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/652ad745f1d03affc7f1645580458184-1248982104-6-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ <br> <br> </span>\
+</p>\
+<ol><li> මින්පසු ඔබ පෞද්ගලික ගවේෂණාකාරයට ඇතුළු වනු ඇති අතර පෞද්ගලික ගවේෂණ‍ තොරතුරු තිරය දිස්වනු ඇත‍. \
+</li></ol>\
+<p><span class="for" data-for="win"> <br> <br> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="fdc206f1e2f0e47152786d77555f0fb8-1248982653-123-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/fdc206f1e2f0e47152786d77555f0fb8-1248982653-123-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</span></p><pre><br> <br> \
+</pre>\
+<p>පෞද්ගලික ගවේෂණාකාරයෙන් ‍ගවේෂණය කරන විට සැසිය අතරතුර ෆයර්ෆොක්ස් කවුළු මාතෘකාවේ <strong>(පෞද්ගලික ගවේෂණ‍ය)</strong> යන්න දිස්වනු ඇත. .<span class="for" data-for="win"> <br> <br> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="fdc206f1e2f0e47152786d77555f0fb8-1248983245-149-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/fdc206f1e2f0e47152786d77555f0fb8-1248983245-149-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</span></p><pre><br> \
+</pre>\
+<h1 id="w_iiizigioiuilicio-iuiaioiaieauij-igiaiaiaigioiaieii">පෞද්ගලික ගවේෂණ‍ය නැවැත්වීම</h1>\
+<p>පෞද්ගලික ගවේෂණ‍ය නැවැත්වීම සඳහා:\
+<span class="for" data-for="win"></span></p><div class="video">\
+  \
+\
+  <video controls data-fallback="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/videos/f85d07fcaa8e5de561dbc3ee7f3e167f-1246302068-235-0.swf" data-height="480" data-width="640"></video>\
+\
+  \
+</div>\
+<p></p>\
+<ol><li> <span class="menu">මෙවලම්</span> මෙනුව මත ක්ලික් කර <span class="menu">පෞද්ගලික ගවේෂණ‍ය නවතන්න</span> සිලෙක්ට් කරන්න.<span class="for" data-for="win"> <br> <br> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="652ad745f1d03affc7f1645580458184-1248970222-868-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/652ad745f1d03affc7f1645580458184-1248970222-868-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ <br> <br> </span>\
+</li><li> ඔබ පෞද්ගලික ගවේෂණ‍ය ආරම්භ කිරීමට පෙර තිබූ කවුළු හා ටැබි දිස්වනු ඇති අතර ඔබට සාමාන්‍ය පරිදි ෆයර්ෆොක්ස් භාවිත කිරීමට හැකි වනු ඇත. පෞද්ගලික ගවේෂණ‍ය නැවැත්වීමෙන් පසු ෆයර්ෆොක්ස් කවුළු මාතෘකාවෙහි තවදුරටත් <strong>(පෞද්ගලික ගවේෂණ‍ය)</strong> දිස් නොවනු ඇත.\
+</li></ol>\
+<p><br>\
+</p>\
+<h1 id="w_iiizigioiuilicio-iuiaioiaieau-iciaicicijio-iiijikioiiiuioioicio-iiikiiieii">පෞද්ගලික ගවේෂණ‍ සැසියක ෆයර්ෆොක්ස් ඇරඹීම</h1>\
+<p><a href="/si/kb/settings-privacy-browsing-history-do-not-track"><span class="for" data-for="win">විකල්ප</span><span class="for" data-for="mac,linux"></span></a> කවුළුවෙහි ඕනෑම විටක ෆයර්ෆොක්ස් ස්වයංක්‍රීයවම පෞද්ගලික ග‍වේෂණාකාරයෙන් ආරම්භ කිරීම සඳහා වූ සැකසුමක් තිබේ.\
+</p>\
+<ol><li> <span class="menu">මෙවලම්</span> මෙනුව මත ක්ලික් කර <span class="menu">විකල්ප</span> සිලෙක්ට් කරන්න.\
+</li><li> <span class="menu">පෞද්ගලිකත්වය</span> තීරුව සිලෙක්ට් කරන්න. <span class="for" data-for="win"> <br> <br> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="fdc206f1e2f0e47152786d77555f0fb8-1248983028-142-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/fdc206f1e2f0e47152786d77555f0fb8-1248983028-142-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</span></li></ol>\
+<pre><br> <br> \
+</pre>\
+<ol><li> <strong>Firefox:</strong> <strong>අතීතය සඳහා රිසිකරණ සැකසුම් භාවිත නරන්න</strong> ලෙස සකසන්න.\
+</li><li> <strong>Firefox ස්වයංක්‍රියව පෞද්ගලික ගවේෂණාකරයෙන් අරඹන්න</strong> සිලෙක්ට් කිරීම සඳහා ක්ලික් කරන්න.\
+</li><li> සැකසුම සුරැක කවුළුව වසාදැමීම සඳහා <span class="button">හරි</span> ක්ලික් කරන්න.\
+</li></ol>\
+<p><img src="">\
+</p>	si
+	si
+<div class="note">Translation in progress.</div>\
+<p><br>\
+ඔබ මුලින්ම ෆයර් ෆොක්ස් ක්‍රියාත්මක කල විට, දිස්වෙන මුල්ම පිටුව ලෙසට ඔබට කැමති වෙබ් පිටුවක් දිය හැක.\
+මුල් පිටුව ලෙසට, එක වෙබ් පිටුවක්, වෙබ් පිටු කීපයක් හෝ හිස් පිටුවක් වුවත් ලබා ගත හැක.\
+</p>\
+<ul><li> නිරන්තරයෙන් "Firefox has just updated" යන පණිවුඩය දිස් වෙනවනම් පහත ලින්ක් එකට යන්න.\
+</li></ul>\
+<p><a href="/si/kb/firefox-says-its-just-updated-every-time-it-starts">Firefox says it's just updated every time it starts - how to fix</a>.\
+</p>\
+<div id="toc"><h2>Table of Contents</h2><ul><li class="toclevel-1"><a href="#w_igigic-iaioiiio-iiicidieiaioio-iiieilio-iiicidieia-ilioicid-igioikieii"><span class="tocnumber">1</span> <span class="toctext">තනි වෙබ් පිටුවක් මුල් පිටුව ලෙසට තේරීම.</span></a></li><li class="toclevel-1"><a href="#w_iaioiiio-iiicidie-ioieiiijioio-iiieilio-iiicidieia-ilioic-icioicio-ioicikieii"><span class="tocnumber">2</span> <span class="toctext">වෙබ් පිටු කීපයක් මුල් පිටුව ලෙස සකස් කිරීම.</span></a></li><li class="toclevel-1"><a href="#w_iiijikio-iiiuioioicio-iaiciaioig-ioil-iaicid-igicicioiaioig-iiicidieia-iiiailigij-ioicikieii"><span class="tocnumber">3</span> <span class="toctext">ෆයර් ෆොක්ස් විවෘත කල විට දිස්වෙන පිටුව පාලනය කිරීම.</span></a></li><li class="toclevel-1"><a href="#w_iiijikio-iiiuioioicio-iiiuicigio-iiieilicigioii-iliiiaigioig-iiicidieia-iiieilio-iiicidieia-ilioic-icioicio-ioicikieii"><span class="tocnumber">4</span> <span class="toctext">ෆයර් ෆොක්ස් මගින් මුලින්ම ලබාදෙන පිටුව මුල් පිටුව ලෙස සකස් කිරීම.</span></a></li></ul></div>\
+<p><br>\
+</p>\
+<h1 id="w_igigic-iaioiiio-iiicidieiaioio-iiieilio-iiicidieia-ilioicid-igioikieii">තනි වෙබ් පිටුවක් මුල් පිටුව ලෙසට තේරීම.</h1>\
+<div class="for" data-for="win"><div class="video">\
+  \
+\
+  <video controls data-fallback="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/videos/837d0762b88a67b05e8a438dfba0832d-1267819542-743-0.flv" data-height="480" data-width="640"><source src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/videos/837d0762b88a67b05e8a438dfba0832d-1267819542-743-0.ogg" type="video/ogg"></video>\
+\
+  \
+</div></div>\
+<p></p>\
+<ol><li> ඔබට මුල් පිටුව ලෙසට ලබා ගැනීමට අවශ්‍ය වෙබ් පිටුවට යන්න.\
+</li><li> වෙබ් පිටුවේ ලිපිනය දැක්වෙන තැනට වම පසින් ඇති අයිකනය ඇදගෙන ගොස් ඒ අසලම ඇති "ගෙය" සලකුණ මතට ගෙන ගොස් අත හරින්න. (පහත ඇති රූපය බලන්න).<span class="for" data-for="win"><br> <br> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="266d42376d7d58a8f40ef9dae1236252-1258698578-56-1.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/266d42376d7d58a8f40ef9dae1236252-1258698578-56-1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+<br>\
+</span></li><li> වෙනස අනුමත කිරීමට <span class="button">Yes</span> ඔබන්න.\
+</li></ol>\
+<h1 id="w_iaioiiio-iiicidie-ioieiiijioio-iiieilio-iiicidieia-ilioic-icioicio-ioicikieii">වෙබ් පිටු කීපයක් මුල් පිටුව ලෙස සකස් කිරීම.</h1>\
+<ol><li> ඔබට මුල් පිටුව ලෙසට ලබා ගැනීමට අවශ්‍ය වෙබ් පිටුවකට යන්න.\
+</li><li> මුල් පිටුව ලෙස ලබා ගැනීමට අවශ්‍ය අනිත් වෙබ් පිටු ටැබ් වලට අරගන්න.\
+</li><li> මෙනු බාරයේ ඇති "Tools" ක්ලික් කල විට ලැබෙන ලැයිස්තුවෙන් "Options" තෝරාගන්න.\
+</li></ol>\
+<p>දැන් ලැබුන නව වින්ඩෝවේ ඇති "General" යන අයිතමය ක්ලික් කරන්න.\
+<br> <br> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="266d42376d7d58a8f40ef9dae1236252-1258698578-56-3.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/266d42376d7d58a8f40ef9dae1236252-1258698578-56-3.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+<br>\
+</p>\
+<ol><li> <span class="button">Use Current Pages </span> යන්න ක්ලික් කරන්න .\
+</li><li>  "OK" බොත්තම ඔබන්න.\
+</li></ol>\
+<h1 id="w_iiijikio-iiiuioioicio-iaiciaioig-ioil-iaicid-igicicioiaioig-iiicidieia-iiiailigij-ioicikieii">ෆයර් ෆොක්ස් විවෘත කල විට දිස්වෙන පිටුව පාලනය කිරීම.</h1>\
+<ol><li> මෙනු බාරයේ ඇති "Tools" ක්ලික් කල විට ලැබෙන ලැයිස්තුවෙන් "Options" තෝරාගන්න.\
+</li><li> දැන් ලැබුන නව වින්ඩෝවේ ඇති "General" යන අයිතමය ක්ලික් කරන්න.\
+</li><li> මෙම වින්ඩෝවේ දිස්වෙන "When Firefox starts:" යන්න ආසන්නයේ ඇති මෙනුවෙන් ඔබට අවශ්‍ය වෙනස් කිරීම සිදු කර ගත හැක.\
+</li></ol>\
+<p>එහි අන්තර්ගතය:\
+</p>\
+<ul><li><ul><li> <strong>Show my home page</strong> - මුල් පිටුව පෙන්වීම.\
+</li><li> <strong>Show a blank page</strong> - හිස් පිටුවක් පෙන්වන්න (ඉක්මන් ආරම්භයක් ලබා ගත හැක.)\
+</li><li> <strong>Show my windows and tabs from last time</strong> - අන්තිම වරට අරගෙන සිටි පිටු පෙන්වන්න. වැඩි විස්තර <a href="/si/kb/restore-previous-session">Restore previous session - Configure when Firefox shows your most recent tabs and windows</a>.\
+</li></ul>\
+</li></ul>\
+<ol><li> "OK" බොත්තම ඔබන්න. \
+</li></ol>\
+<h1 id="w_iiijikio-iiiuioioicio-iiiuicigio-iiieilicigioii-iliiiaigioig-iiicidieia-iiieilio-iiicidieia-ilioic-icioicio-ioicikieii">ෆයර් ෆොක්ස් මගින් මුලින්ම ලබාදෙන පිටුව මුල් පිටුව ලෙස සකස් කිරීම.</h1>\
+<ol><li> මෙනු බාරයේ ඇති "Tools" ක්ලික් කල විට ලැබෙන ලැයිස්තුවෙන් "Options" තෝරාගන්න.\
+</li><li> දැන් ලැබුන නව වින්ඩෝවේ ඇති "General" යන අයිතමය ක්ලික් කරන්න.\
+</li><li> මෙම වින්ඩෝවේ ඇති <span class="button">Restore to Default</span>.<span class="for" data-for="win"><br> <br> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="266d42376d7d58a8f40ef9dae1236252-1258698578-56-4.png" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/266d42376d7d58a8f40ef9dae1236252-1258698578-56-4.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+<br> ක්ලික් කරන්න</span>\
+</li><li> "OK" බොත්තම ඔබන්න.\
+</li></ol>	si
+	si
+	si
+	si
+	si
+	si
+	si
+	si
+<p>පෙරනිමියෙන්, ෆයර්ෆොක්ස් එය විසින්ම ස්වයංක්‍රීයව යාවත්කාලීන කිරීමට සකසා ඇති නමුත් ඔබට හැමවිටම අතින් යාවත්කාලීන කිරීමට පුළුවන. ආකාරය මෙහි දැක්වේ:\
+</p><div class="for" data-for="linux">\
+<div class="note"><strong>සටහන:</strong> If you use your Linux distribution's packaged version of Firefox, you will need to wait for an updated package to be released to its package repository. This article only applies if you installed Firefox manually (without using your distribution's package manager).</div>\
+</div>\
+<ol><li><span class="for" data-for="win,linux">මෙනු බොත්තම ක්ලික් කරන්න \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="New Fx Menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+, උදවු ක්ලික් කර \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Help-29" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-10-08-eaa722.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ <span class="menu">ෆයර්ෆොක්ස් ගැන</span> තෝරන්න.</span><span class="for" data-for="mac">මෙනුබාරයෙහි <span class="menu">Firefox</span> මෙනුව ක්ලික් කර <span class="menu">ෆයර්ෆොක්ස් ගැන</span> තෝරන්න.</span>\
+</li><li><strong>ෆයර්ෆොක්ස් ගැන</strong> කවුළුව විවෘත වන අතර ෆයර්ෆොක්ස් යාවත්කාල කිරීම් සඳහා පරීක්ෂාව අරඹන අතර ඒවා ස්වයංක්‍රීයව බාගැනීම ආරම්භ වනු ඇත. \
+<dl><dt><span class="for" data-for="win">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Update Win1 Fx14" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2013-11-01-14-54-24-fe04af.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</dt></dl>\
+</li><li>යාවත්කාලීන ස්ථාපනය කිරීමට සූදානම් වූ විට, <span class="button"><span class="for" data-for="not fx34">යාවත්කාලයට යළි අරඹන්න</span><span class="for" data-for="fx34">යාවත්කාලයට යළි අරඹන්න</span></span> ක්ලික් කරන්න. \
+<dl><dt><span class="for" data-for="win"><span class="for" data-for="not fx34">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Update Win2 Fx14" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2013-11-01-14-53-55-567992.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="fx34">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Update Win2 Fx34" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2015-01-18-07-45-57-7528d8.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span></span>\
+</dt></dl>\
+</li></ol>\
+<div class="warning"><strong>වැදගත්:</strong> යාවත්කාලීනය ඇරඹුණේ නැති නම්, සම්පූර්ණ වූයේ නැති නම් හෝ වෙනත් ගැටළුවක් ඇති වූයේ නම්, please use <a href="https://www.mozilla.org/firefox/new/?scene=2#download-fx">this download link</a> or go to the <a href="https://www.mozilla.org/firefox/all/">Systems &amp; Languages page</a> to download and install the latest Firefox version for your system and language (see <span class="for" data-for="win"><a href="/si/kb/how-download-and-install-firefox-windows">How to download and install Firefox on Windows</a></span><span class="for" data-for="linux"><a href="/si/kb/%E0%B7%83%E0%B7%8A%E0%B6%AE%E0%B7%8F%E0%B6%B4%E0%B6%B1%E0%B6%BA%20%E0%B6%9A%E0%B7%92%E0%B6%BB%E0%B7%93%E0%B6%B8-firefox-linux">Linux හි Firefox ස්ථාපනය කිරීම</a></span><span class="for" data-for="mac"><a href="/si/kb/Mac%20%E0%B6%B8%E0%B6%AD%20%E0%B7%86%E0%B6%BA%E0%B6%BB%E0%B7%8A%E0%B7%86%E0%B7%9C%E0%B6%9A%E0%B7%8A%E0%B7%83%E0%B7%8A%20%E0%B7%83%E0%B7%8A%E0%B6%AE%E0%B7%8F%E0%B6%B4%E0%B6%B1%E0%B6%BA">Mac මත ෆයර්ෆොක්ස් ස්ථාපනය</a></span> for instructions). </div>\
+<p>To change update settings, see <a href="/si/kb/advanced-panel-settings-in-firefox#w_update-tab">Advanced panel - Accessibility, browsing, network, updates, and other advanced settings in Firefox</a>.\
+</p>	si
+	si
+	si
+<p>මෙය කියවන ඔබට ස්තුතියි. ඒ ඔබ දැනටමත් විශ්ව mozilla-සහය සඳහා දායකවීමට තීරණය කරැති නිසාවෙනි.firefox පරිශීලකයන්ගෙන් අඩකටත් වඩා භාවිතා කරනු ලබන්නේ වෙනත් භාෂා බැවින්, mozilla-සහය සමස්ථ ලෝකයටම ලබාදීමේදී අපට ඔබගේ සහය ඉතා වැදගත් වනවා.\
+</p><p>නව පරිශීලකයන් අප හා එක්වීම අපට සැමවිටම සතුටක්. කරුණාකර මෙම සබැඳිය බලා  <a href="https://support.mozilla.org/kb/locales">list of available locales</a>,  දැනටමත් අප ඔබේ භාෂාව ආවරණය කරනවාදැයි බලාගන්න. එය ඇතුලත්ව නොමැතිනම්, අපි ඔබේ සහයද ඇතුව එය ඇතුලත් කිරීමට සුදානම්. ඔබ මෙහි භාෂාවක නමක් දුටුවහොත් ඔබට ඒ මත ක්ලික් කිරීමෙන්, එම භාෂාව සමබන්ධව කටයුතු කරන දේශීය නායකයාව දැකගත හැකිවනු ඇත. එමෙන්ම ඔබට ඔවුන් සම්බන්ධ කරගනිමින් mozilla-සහය ලිපි ඔබේ බසින් සකසා ගැනීමට උවමනා සහය සහ උපදෙස් ලබාගත හැකියි..\
+</p>\
+<h1 id="w_iiii-ieigieiaikioigioijioioio-iaieiiid-ioiaiiigicijic-ic-icihieia-iiii-ioieiiioio-ioil-ijieigieig">මම අනුවර්තකයෙක් වීමට කැමතියි. ඒ සඳහා මම කුමක් කල යුතුද?</h1>\
+<p>මූලික දේවල් පළමුවෙන්:\
+</p>\
+<ul><li> <a href="https://support.mozilla.org/users/authcontributor">Create a SUMO account</a>, ඉහත සබැඳිය භාවිතා කර ඔබට mozilla-සහය ගිණුමක් සකසාගත හැක.  <a href="https://support.mozilla.org/en-US/forums/l10n-forum">community l10n forum</a> අනතුරුව ඔබට mozilla-සහය සමාජ පිටුවේ ඇති ඕනෑම ලිපියක් ඔබේ බසට සකසා ගැනීමේ හැකියාව ලැබෙනු ඇත.\
+</li></ul>\
+<p><div class="youtube-embed">\
+  <iframe src="//www.youtube.com/embed/IRFal4uO8Wk?wmode=transparent&amp;rel=0" frameborder="0" allowfullscreen></iframe>\
+</div>\
+</p>\
+<ul><li> ඔබ අනුවර්තක ගිණුමක් සකසාගැනීමෙන් අනතුරුව, මෙම සබැඳිය හරහා <a href="https://support.mozilla.org/en-US/forums/l10n-forum">l10n community forum</a> අනුවත්ක සමාජයට ඔබව හදුන්වාදෙන්න. අප අනුවර්තක සමාජය ඔබගේ සියලුම ගැටළු වලට පිළිතුරු ලබාදෙමින් ඔබට අනුවර්තන කටයුතු ඇරඹීම සඳහා උවමනා සහය ලබාදෙනු ඇත.\
+</li></ul>\
+<p>\
+</p>\
+<h2 id="w_igiaigidiiigio-iiiuio-iiiaioiiic-icigieia-ieigieiaikioigioijigio-icicidieigiiio">දැනටමත් මගේ මව්බස සදහා අනුවර්තකයන් සිටීනම් ?</h2>\
+<p>ඔබගේ මව්බස මෙම ලැයිස්තුවේ ඇත්නම්, <a href="https://support.mozilla.org/kb/locales">list of available locales</a> ඔබ දේශීය නායකයෙකුගේ නම මත ක්ලික් කර ඔහුට/ඇයට පෞද්ගලික පණිවුඩයක්  යවා ඔහු හෝ ඇය සමග සම්බන්ධ විය යුතුයි. බිය වීමට කිසිවක් නැත.පිරිස වැඩිවන තරමට සතුට වැඩිවන නිසා ඔබත් සමග කටයුතු කිරීමට ඔවුන් ඉතා කැමති වනු ඇත. \
+</p><p>සැලකිය යුතු කාලයක් බලාසිටියද ඔබ සම්බන්ධවීමට උත්සාහ කල දේශීය නායකයාගෙන් පිළිතුරක් නොලැබුණි නම්(අවම දින කිහිපයක්වත්, ඔවුන් නිවාඩුවක් ගතකරමින් හෝ අතිශය කාර්යබහුලව සිටියහැකි නිසා.), වෙනත් දේශීය නායකයෙකු හෝ මෙම සබැඳිය හරහා <a href="https://support.mozilla.org/user/vesper">send a private message to Michał</a>, මිෂල් සමග සම්බන්ධවීමෙන් ඔබට ඔබේ වැඩකටයුතු ඇරඹීමට හැකිවනු ඇත.\
+</p><p>\
+</p>\
+<h2 id="w_iiiuio-iiiaioiiicicigio-ioiciciciaioio-iiigieiligioia-igiuiiiaigicigiiio">මගේ මව්බසින් කිසිවක් ඇතුලත්ව නොමැතිනම් ?</h2>\
+<p>මෙම සබැඳියේ ඔබේ භාෂාව ඇතුලත්ව නොමැතිනම් <a href="https://support.mozilla.org/kb/locales">list of available locales</a>, කරුණාකර <a href="https://support.mozilla.org/user/vesper">send a private message to Michał</a> මිෂල් හැ සමබන්දවී උවමනා දෑ ඇතුලත කරගැනීමට සාකච්ඡා කරගන්න.\
+</p>\
+<div class="warning"><strong>ඊළඟට, කරුණාකර කියවන්න <a class="new" href="/si/kb/new?title=%E0%B6%85%E0%B6%B1%E0%B7%94%E0%B7%80%E0%B6%BB%E0%B7%8A%E0%B6%AD%E0%B6%B1+%E0%B7%83%E0%B7%84%E0%B6%BA+%E0%B7%83%E0%B7%92%E0%B6%AF%E0%B7%94%E0%B7%80%E0%B6%B1%E0%B7%8A%E0%B6%B1%E0%B7%9A+%E0%B6%9A%E0%B7%99%E0%B7%83%E0%B7%9A%E0%B6%AF%3F" title="Page does not exist.">අනුවර්තන සහය සිදුවන්නේ කෙසේද?</a></strong></div>\
+<div class="note">ඔබට යම් ගැටළුවක් තිබේද? ඔබට අනුවර්තනයේදී සහය උවමනාද? එසේනම් කරුණාකර මෙම සබැඳිය හරහා අපව දැනුවත් කරන්න <a href="/forums/l10n-forum">l10n forum</a>.</div>\
+<div class="note">\
+<p><strong>සියලුම ලිපි</strong>\
+</p>\
+<ol><li><strong><a class="new" href="/si/kb/new?title=mozilla-%E0%B7%83%E0%B7%84%E0%B6%BA+%E0%B6%85%E0%B6%B1%E0%B7%94%E0%B7%80%E0%B6%BB%E0%B7%8A%E0%B6%AD%E0%B6%B1%E0%B6%BA" title="Page does not exist.">mozilla-සහය අනුවර්තනය</a></strong> <em>(ඔබ මෙතන)</em>\
+</li><li><a class="new" href="/si/kb/new?title=%E0%B6%85%E0%B6%B1%E0%B7%94%E0%B7%80%E0%B6%BB%E0%B7%8A%E0%B6%AD%E0%B6%B1+%E0%B7%83%E0%B7%84%E0%B6%BA+%E0%B7%83%E0%B7%92%E0%B6%AF%E0%B7%94%E0%B7%80%E0%B6%B1%E0%B7%8A%E0%B6%B1%E0%B7%9A+%E0%B6%9A%E0%B7%99%E0%B7%83%E0%B7%9A%E0%B6%AF%3F" title="Page does not exist.">අනුවර්තන සහය සිදුවන්නේ කෙසේද?</a>\
+</li><li><a class="new" href="/si/kb/new?title=%E0%B6%BD%E0%B7%92%E0%B6%B4%E0%B7%92%E0%B6%BA%E0%B6%9A%E0%B7%8A+%E0%B6%B4%E0%B6%BB%E0%B7%92%E0%B7%80%E0%B6%BB%E0%B7%8A%E0%B6%AD%E0%B6%B1%E0%B6%BA+%E0%B6%9A%E0%B7%92%E0%B6%BB%E0%B7%93%E0%B6%B8" title="Page does not exist.">ලිපියක් පරිවර්තනය කිරීම</a>\
+</li><li><a class="new" href="/si/kb/new?title=%E0%B6%B4%E0%B7%85%E0%B6%B8%E0%B7%94+%E0%B6%B4%E0%B6%BB%E0%B7%92%E0%B7%80%E0%B6%BB%E0%B7%8A%E0%B6%AD%E0%B6%B1%E0%B6%BA%E0%B7%99%E0%B6%B1%E0%B7%8A+%E0%B6%B4%E0%B7%83%E0%B7%94+%E0%B6%BD%E0%B7%92%E0%B6%B4%E0%B7%92%E0%B6%BA%E0%B6%9A%E0%B7%8A+%E0%B7%83%E0%B6%82%E0%B7%83%E0%B7%8A%E0%B6%9A%E0%B6%BB%E0%B6%AB%E0%B6%BA+%E0%B6%9A%E0%B6%BB%E0%B6%B1%E0%B7%8A%E0%B6%B1%E0%B7%9A+%E0%B6%9A%E0%B7%99%E0%B7%83%E0%B7%9A%E0%B6%AF%3F" title="Page does not exist.">පළමු පරිවර්තනයෙන් පසු ලිපියක් සංස්කරණය කරන්නේ කෙසේද?</a>\
+</li><li><a class="new" href="/si/kb/new?title=L10N+%E0%B6%B4%E0%B6%BB%E0%B7%92%E0%B7%80%E0%B6%BB%E0%B7%8A%E0%B6%AD%E0%B6%B1%E0%B6%BA+%E0%B6%9A%E0%B6%BB%E0%B6%B1%E0%B6%BD%E0%B6%AF+%E0%B6%BD%E0%B7%92%E0%B6%B4%E0%B7%92+%E0%B6%B4%E0%B6%BB%E0%B7%92%E0%B6%9A%E0%B7%8A%E0%B7%82%E0%B7%8F%E0%B6%9A%E0%B7%92%E0%B6%BB%E0%B7%93%E0%B6%B8+%E0%B7%83%E0%B6%B3%E0%B7%84%E0%B7%8F+%E0%B6%85%E0%B6%AF%E0%B7%8F%E0%B6%BD+%E0%B6%8B%E0%B6%B4%E0%B6%AF%E0%B7%99%E0%B7%83%E0%B7%8A" title="Page does not exist.">L10N පරිවර්තනය කරනලද ලිපි පරික්ෂාකිරීම සඳහා අදාල උපදෙස්</a>\
+</li><li><a class="new" href="/si/kb/new?title=mozilla-%E0%B7%83%E0%B7%84%E0%B6%BA+%E0%B6%AF%E0%B7%9A%E0%B7%81%E0%B7%93%E0%B6%BA+%E0%B6%B1%E0%B7%8F%E0%B6%BA%E0%B6%9A%E0%B6%BA%E0%B7%99%E0%B6%9A%E0%B7%94+%E0%B7%80%E0%B6%B1%E0%B7%8A%E0%B6%B1%E0%B7%9A+%E0%B6%9A%E0%B7%99%E0%B7%83%E0%B7%9A%E0%B6%AF%3F" title="Page does not exist.">mozilla-සහය දේශීය නායකයෙකු වන්නේ කෙසේද?</a>\
+</li></ol>\
+<p><em>මෙහි යම්කිසි අඩුපාඩුවක් හෝ එක්වියයුතු යමක් තිබේනම් මෙම සබැඳිය හරහා ඒ පිලිබඳ දැනුම් දෙන්න, <a href="https://support.mozilla.org/user/vesper">contact Michał</a>\
+</em>\
+</p>\
+</div>	si
+	si
+	si
+	si
+<p>Thimble මගින් ඔබේම වෙබ් පිටු පහසුවෙන් නිර්මාණය කිරීමට අවකාශ ලබා දේ.HTML , CSS සහ JavaScript ඔබේ ගවේශකය මතම කේත කරන්නට සහ පසෙකින් එහි පෙරදසුන් එසැනින් බලාගැනිමට හැකියාව ඇත. ඔබ නිර්මාණය කල පිටුව පල කර අනෙක් අය හා බෙදා ගන්න. \
+ඔබට නිර්මාණය කිරීමට :\
+</p>\
+<ul><li> ඔබේම ආකාරයේ : <a href="https://thimble.mozilla.org/projects/72/remix">"Keep Calm and Carry On" meme</a> \
+</li><li> <a href="https://thimble.mozilla.org/projects/74/remix">A comic strip</a> ඔබගෙ පින්තූර සහ වචන සමගින්\
+</li><li> සහ <a href="https://thimble.mozilla.org/projects/75/remix">animated postcard</a>\
+</li><li> සහ ඔබට සිතා ගත හැකි ඕනෙම දෙයක් !\
+</li></ul>\
+<p>ඔබට වෙනස් කල හැකි නිර්මාණ සොයාගන්න (උදව් සමගින් ) <a href="https://thimble.mozilla.org">Thimble homepage</a>, හෝ, ඔබ දැනටමත් දන්නවා නම් HTML , CSS , JavaScript කේත කරන්නට, ඔබට ඔබේම පිටුවක් මුල සිට නිර්මාණය කල හැක.\
+</p>	si
+<p>Android සදහා Webmaker හී ගැටළු සහ උදව් සඳහා විද්‍යුත් ලිපියක් help@webmaker.org වෙත යොමු කරන්න.\
+</p>	si
+	si
+<p>Firefox වලට අළුත් ද?? හොඳයි ඔබ ඇවිත් තියෙන්නෙ නිවැරදි තැනට. මෙම ලිපිය මගින් සියළුම මූලික දේවල් ආවරණය කරනවා ඒවගේම විනාඩි කිහිපයකින් මේ සමග වැඩ කරන ආකාරය  විස්තර කරනවා.එහි ඔබ විසින් පසුව ගවේශනය කල යුතු එකිනෙක සම්බන්ධිත විශාල ලිපි ප්‍රමාණයක් තිබෙනවා.\
+</p>\
+<div id="toc"><h2>Table of Contents</h2><ul><li class="toclevel-1"><a href="#w_home-page-iaio-iciaioicieii-ieiy-iaioigicio-ioicikieii"><span class="tocnumber">1</span> <span class="toctext">Home page එක සැකසීම හෝ වෙනස් කිරීම</span></a></li><li class="toclevel-1"><a href="#w_ieigioigikioiciailijio-icioiaieii"><span class="tocnumber">2</span> <span class="toctext">අන්තර්ජාලයේ සෙවීම</span></a></li><li class="toclevel-1"><a href="#w_iaioiiio-ieieiaicijioio-bookmark-ioicikieii"><span class="tocnumber">3</span> <span class="toctext">වෙබ් අඩවියක් Bookmark කිරීම</span></a></li><li class="toclevel-1"><a href="#w_awesome-bar-iaio-iciiiu-icicijilieigio-iciuijiaiuigioig"><span class="tocnumber">4</span> <span class="toctext">Awesome Bar එක සමග සියලුදේ සොයාගන්න</span></a></li><li class="toclevel-1"><a href="#w_private-browsing"><span class="tocnumber">5</span> <span class="toctext">Private Browsing</span></a></li><li class="toclevel-1"><a href="#w_customize-the-menu-or-the-toolbar"><span class="tocnumber">6</span> <span class="toctext">Customize the menu or the toolbar</span></a></li><li class="toclevel-1"><a href="#w_add-features-to-firefox-with-add-ons"><span class="tocnumber">7</span> <span class="toctext">Add features to Firefox with add-ons</span></a></li><li class="toclevel-1"><a href="#w_keep-your-firefox-in-sync"><span class="tocnumber">8</span> <span class="toctext">Keep your Firefox in sync</span></a></li><li class="toclevel-1"><a href="#w_video-ieikieia-iiicigieikigio-ieia-iciiioiiigioiu-iaioigioig"><span class="tocnumber">9</span> <span class="toctext">Video හරහා මිතුරන් හා සම්බන්ධ වෙන්න</span></a></li><li class="toclevel-1"><a href="#w_ioigiaio-iliiiaiuiaigieii"><span class="tocnumber">10</span> <span class="toctext">උදව් ලබාගැනීම</span></a></li><li class="toclevel-1"><a href="#w_browsing-the-web"><span class="tocnumber">11</span> <span class="toctext">Browsing the web</span></a><ul><li class="toclevel-2"><a href="#w_setting-your-home-page"><span class="tocnumber">11.1</span> <span class="toctext">Setting your home page</span></a></li><li class="toclevel-2"><a href="#w_one-click-bookmarking"><span class="tocnumber">11.2</span> <span class="toctext">One-click bookmarking</span></a></li><li class="toclevel-2"><a href="#w_finding-everything-with-the-awesome-bar"><span class="tocnumber">11.3</span> <span class="toctext">Finding everything with the Awesome Bar</span></a></li><li class="toclevel-2"><a href="#w_searching-the-web"><span class="tocnumber">11.4</span> <span class="toctext">Searching the web</span></a></li><li class="toclevel-2"><a href="#w_tabs-tabs-tabs"><span class="tocnumber">11.5</span> <span class="toctext">Tabs tabs tabs!</span></a><ul><li class="toclevel-3"><a href="#w_pinned-tabs"><span class="tocnumber">11.5.1</span> <span class="toctext">Pinned Tabs</span></a></li></ul></li><li class="toclevel-2"><a href="#w_private-browsing_2"><span class="tocnumber">11.6</span> <span class="toctext">Private Browsing</span></a></li></ul></li><li class="toclevel-1"><a href="#w_customizing-firefox-with-add-ons"><span class="tocnumber">12</span> <span class="toctext">Customizing Firefox with Add-ons</span></a><ul><li class="toclevel-2"><a href="#w_themes"><span class="tocnumber">12.1</span> <span class="toctext">Themes</span></a></li></ul></li><li class="toclevel-1"><a href="#w_staying-in-sync"><span class="tocnumber">13</span> <span class="toctext">Staying in Sync</span></a></li></ul></div>\
+<div class="for" data-for="fx29">\
+<h1 id="w_home-page-iaio-iciaioicieii-ieiy-iaioigicio-ioicikieii">Home page එක සැකසීම හෝ වෙනස් කිරීම</h1>\
+<p><em>Firefox විවෘත කළ විට හෝ Home Buttton එක Click කල විට විවෘත වෙන පිටුව තේරීම.</em>\
+\
+<div class="youtube-embed">\
+  <iframe src="//www.youtube.com/embed/Nnu0A-jIh-U?wmode=transparent&amp;rel=0" frameborder="0" allowfullscreen></iframe>\
+</div>\
+</p>\
+<ol><li>Home page එක ලෙස භාවිතයට අවශ්‍ය වෙබ් පිටුව Tab එකක විවෘත කරගන්න.\
+</li><li> එම tab එක Drag කොට Home button එක මතට drop කරන්න. \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Home Button" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-02-05-12-41-52-59781d.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+.\
+<dl><dt><span class="for" data-for="win">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Home Page 29 - Win8" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-21-09-03-25-5f5a17.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="mac">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Home Page 29 - Mac" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-02-05-14-57-03-c4e0de.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="linux">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Home Page 29 - Linux" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-02-05-14-56-32-a4db24.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</dt></dl>\
+</li><li> මෙය Home page එක ලෙස භාවිතා කිරීමට <span class="button">Yes</span> Click  කරන්න.\
+</li></ol>\
+<p>තවත් විකල්ප <a href="/si/kb/%E0%B6%B8%E0%B7%94%E0%B6%BD%E0%B7%8A%20%E0%B6%B4%E0%B7%92%E0%B6%A7%E0%B7%94%E0%B7%80%20%E0%B7%83%E0%B6%9A%E0%B7%83%E0%B7%8A%20%E0%B6%9A%E0%B6%BB%E0%B6%9C%E0%B6%B1%E0%B7%8A%E0%B6%B1%E0%B7%8F%20%E0%B6%86%E0%B6%9A%E0%B7%8F%E0%B6%BB%E0%B6%BA">home page article</a> එකෙන් සොයාගන්න පුළුවන්.\
+</p>\
+<h1 id="w_ieigioigikioiciailijio-icioiaieii">අන්තර්ජාලයේ සෙවීම</h1>\
+<p><em>ඔබගේ ප්‍රියතම සෙවුම් යන්ත්‍රය Firefox හි search bar එකට තේරීම.</em>\
+</p><div class="for" data-for="not fx34"><p>\
+<div class="youtube-embed">\
+  <iframe src="//www.youtube.com/embed/3vgza48s5Xw?wmode=transparent&amp;rel=0" frameborder="0" allowfullscreen></iframe>\
+</div>\
+</p>\
+<ul><li> ඔබට අවශ්‍ය එක තෝරාගැනීම සඳහා search bar එකෙහි වම් පැත්තේ ඇති search icon එක මත click කරන්න.\
+<dl><dt><span class="for" data-for="win">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Search2 29 - Win" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-21-09-24-14-b48303.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="mac">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Search2 29 - Mac" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-21-09-23-52-70aca6.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="linux">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Search2 29 - Lin" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-21-09-24-43-a43fcd.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</dt></dl>\
+</li></ul>\
+</div><div class="for" data-for="fx34">\
+<ul><li> Search bar එකහි type කර අවශ්‍ය සෙවුම් යන්ත්‍රය ලබාදෙන්න.\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="quick search fx34" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-12-26-18-27-58-f99b5f.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+</li></ul>\
+</div><p><a href="/si/kb/use-search-bar-firefox">Search bar article</a> එකෙන් බොහෝ සෙවුම් උපක්‍රම ඉගෙනගන්න.\
+</p>\
+<h1 id="w_iaioiiio-ieieiaicijioio-bookmark-ioicikieii">වෙබ් අඩවියක් Bookmark කිරීම</h1>\
+<p><em>ඔබගේ ප්‍රියතම අඩවි මතකයේ තබාගැනීම.</em>\
+\
+<div class="youtube-embed">\
+  <iframe src="//www.youtube.com/embed/F3uMpJ0YzqM?wmode=transparent&amp;rel=0" frameborder="0" allowfullscreen></iframe>\
+</div>\
+</p>\
+<ul><li>Bookmark එකක් සෑදීමට Toolbar එකෙහි ඇති තරු සලකුණ click කරන්න.එවිට ඔබ රැඳී සිටින පිටුව Bookmark එකක් ලෙස වර්ග නොකල Bookmark ගොනුවෙහි නිර්මාණය වේ.\
+<dl><dt><span class="for" data-for="win">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Bookmark 29 Win" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-13-34-31-f41173.gif" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="mac">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Bookmark 29 Mac" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-13-33-45-a40c58.gif" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="linux">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Bookmark 29 Lin" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-13-33-12-9ed00b.gif" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</dt></dl>\
+</li></ul>\
+<div class="note"><strong>Tip:</strong> Drag a tab directly to your <a href="/si/kb/bookmarks-firefox#w_how-do-i-turn-on-the-bookmarks-toolbar">bookmarks toolbar</a> to save it there. </div>\
+<p>For more information, see the <a href="/si/kb/bookmarks-firefox">bookmarks article</a>.\
+</p>\
+<h1 id="w_awesome-bar-iaio-iciiiu-icicijilieigio-iciuijiaiuigioig">Awesome Bar එක සමග සියලුදේ සොයාගන්න</h1>\
+<p><em>Firefox හි Address bar එකට අප Awesome bar එක ලෙස හැඳින්වීමට කැමැතියි.මොකද එමගින් කලින් ගමන්කළ තැන් ඉක්මනින් සොයාදෙන නිසා.</em>\
+\
+<div class="youtube-embed">\
+  <iframe src="//www.youtube.com/embed/U7stmWKvk64?wmode=transparent&amp;rel=0" frameborder="0" allowfullscreen></iframe>\
+</div>\
+</p>\
+<ul><li> Address bar එකේ type කිරීම අරඹන්න දැන් ඔබ දකීවි bookmark , browsing history වලින් ලබාගත් පිටු කිහිපයකින් යුක්ත ලැයිස්තුවක්.ඔබට අවශ්‍ය පිටුව තිබෙනවාන ඒ මත click කරන්න.\
+<dl><dt><span class="for" data-for="win">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Bookmark3 29 Win" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-17-42-52-c9f287.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="mac">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Bookmark3 29 Mac" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-17-42-16-8075c7.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="linux">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Bookmark3 29 Lin" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-17-42-37-847616.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</dt></dl>\
+</li></ul>\
+<div class="note"><strong>Tip:</strong> අන්තර්ජාලයේ සෙවීමද මෙහි සිදුකරන්න ඔබට පුළුවන්. උත්සාහ කර බලන්න.</div>\
+<p>To learn more tricks, see the <a href="/si/kb/awesome-bar-search-firefox-bookmarks-history-tabs">Awesome Bar article</a>.\
+</p>\
+<h1 id="w_private-browsing">Private Browsing</h1>\
+<p><em>Firefox හි Private Browsing අංගය මගින් ඔබ ගිය අඩවි වලට අදාලකිසිඳු තොරතුරක් ඔබගේ පරිගණකයේ ඉතුරු නොකර අන්තර්ජාලය භාවිතාකරන්න ඉඩදෙනව.</em>\
+\
+<div class="youtube-embed">\
+  <iframe src="//www.youtube.com/embed/r3s-zDwLjb0?wmode=transparent&amp;rel=0" frameborder="0" allowfullscreen></iframe>\
+</div>\
+</p>\
+<ul><li>Menu button එක Click කරන්න \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="New Fx Menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ දැන් <span class="button">New Private Window</span> Click කරන්න.\
+<dl><dt><span class="for" data-for="winxp">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="private browsing - fx29 - winxp" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-24-11-08-31-59fe16.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="win7,win8">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="private browsing - fx29 - win8" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-24-11-07-26-b05e27.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="mac">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="private browsing - fx29 - mac" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-24-11-05-45-da4668.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="linux">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="private browsing - fx29 - linux" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-24-11-08-01-3ad625.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</dt></dl>\
+</li></ul>\
+<p><a href="/si/kb/%E0%B6%B4%E0%B7%9E%E0%B6%AF%E0%B7%8A%E0%B6%9C%E0%B6%BD%E0%B7%92%E0%B6%9A%20%E0%B6%9C%E0%B7%80%E0%B7%9A%E0%B7%82%E0%B6%AB%E0%B6%BA">Private Browsing</a> වැඩකරන ආකාරය තවදුරටත් දැනගන්න.\
+</p>\
+<h1 id="w_customize-the-menu-or-the-toolbar">Customize the menu or the toolbar</h1>\
+<p><em>Menu වල සහ toolbar වල ඇති අයිතම වෙනස් කරගන්න ඔබට පුළුවන්.</em>\
+\
+<div class="youtube-embed">\
+  <iframe src="//www.youtube.com/embed/94tAqUObEfc?wmode=transparent&amp;rel=0" frameborder="0" allowfullscreen></iframe>\
+</div>\
+</p>\
+<ol><li>Menu button එක Click කරන්න \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="new fx menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ දැන් <span class="button">Customize</span> තෝරන්න. \
+<ul><li>දැන් menu හා toolbar වලින් අයිතම ඉවත් කළ හැකි එමෙන්ම ඇතුලත් කළ හැකි නව tab එකක් විවෘත වේවි. \
+</li></ul>\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Customize Fx 29 Win8" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-02-19-11-46-33-009d0e.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+</li><li>වෙනස් කිරීම් කර අවසන්වූ පසු <span class="button">Exit Customize</span> button එක click කරන්න.\
+</li></ol>\
+<p>තවදුරටත් <a href="/si/kb/customize-firefox-controls-buttons-and-toolbars">customizing Firefox</a> ගැන දැනගන්න.\
+</p>\
+<h1 id="w_add-features-to-firefox-with-add-ons">Add features to Firefox with add-ons</h1>\
+<p><em>Add-ons හරියට apps වගේ,මේවා ඔබට අවශ්‍ය විදිහට firefox ක්‍රියාකරවන්න උදව් කරවනවා.</em>\
+\
+<div class="youtube-embed">\
+  <iframe src="//www.youtube.com/embed/i4y_CeifV2s?wmode=transparent&amp;rel=0" frameborder="0" allowfullscreen></iframe>\
+</div>\
+</p>\
+<ol><li> <p>Click the menu button <span class="for" data-for="fx57">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Fx57menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2017-10-22-15-37-15-18c775.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="not fx57">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="New Fx Menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span> and choose <span class="for" data-for="not fx57"><span class="menu">Add-ons</span></span><span class="for" data-for="fx57"><span class="menu">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Fx57Addons-icon" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2017-10-30-08-25-40-b7327f.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ Add-ons</span></span>. The Add-ons Manager tab will open.\
+</p>\
+</li><li>In the Add-ons Manager tab, select the <span class="menu">Get Add-ons</span> panel.</li>\
+<li> Featured Add-on හා themes ගැන වැඩිදුර විස්තර දැනගැනීමට ඒ මත click කරන්න. කොළ පාට Buttoon එක <span class="button">Add to Firefox</span>  මත click කිරීමෙන් පුළුවන් ඒවා Install කරගන්න.\
+<ul><li>ඒ වගේම ඉහලින් ඇති search box එක භාවිතා කරලා අවශ්‍ය Add-on සොයාගන්නත් පුළුවන්. Install Button එක <span class="button">Install</span> click කිරීමෙන් ඒ add-on කරගන්න පුළුවන්.\
+<dl><dt><span class="for" data-for="win">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Addon1 29 Win" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-12-26-16-8fd308.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Addon2 29 Win" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-12-25-57-f5b615.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="mac">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Addon1 29 Mac" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-12-24-55-54f335.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Addon2 29 Mac" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-12-24-29-eed4aa.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="linux">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Addon1 29 Lin" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-12-25-40-08aac1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Addon2 29 Lin" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-12-25-16-64d515.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</dt></dl>\
+</li></ul>\
+</li><li>Firefox මගින් අදාල add-on එක download කරගෙන ඉන් අනතුරුව Install කිරීම ස්ථීර කරගැනීම සඳහා ඔබගෙන් විමසනු ඇත.\
+</li><li> <span class="button">Restart Now</span> Popup එකක් ආවොත් ඒක Click කරන්න. ඔබගේ Tabs save වී restart වීමෙන් පසුව නැවත ක්‍රියාත්මකවේ (restore).\
+</li></ol>\
+<p>තවදුරටත් add-ons ගැන දැනගන්න, <a href="/si/kb/firefox-add-ons">Firefox සඳහා විශේෂාංග වශයෙන් add-ons සොයා ගැනීම හා ස්ථාපනය කිරීම</a> බලන්න.\
+</p>\
+<div class="note"><strong>උපදෙස්:</strong> සමහරක් add-on Install වීමෙන් පසුව toolbar එකෙහි button එකක් ස්ථාපනය කරනවා. ඔබට කැමතිනම් ඒවා ඉවත්කරන්න නැත්නම් menu එකට මාරු කරන්න පුළුවන්–  <a href="/si/kb/customize-firefox-controls-buttons-and-toolbars">Customize Firefox controls, buttons and toolbars</a> බලන්න.</div>\
+<h1 id="w_keep-your-firefox-in-sync">Keep your Firefox in sync</h1>\
+<p><em>ඔබගේ Bookmarks, History, Passwords සහ තවත් දේ ඕනෑම Device එකක සිට භාවිතාකරන්න.</em>\
+\
+<div class="youtube-embed">\
+  <iframe src="//www.youtube.com/embed/wSVJrWzoq7E?wmode=transparent&amp;rel=0" frameborder="0" allowfullscreen></iframe>\
+</div>\
+</p>\
+<ol><li>පළමුව Firefox ගිණුමක් නිර්මාණය කරන්න:\
+<ul><li>Menu button එක click කරන්න \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="New Fx Menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+  <span class="button">Sign in to Sync</span> තෝරන්න දැන් ඔබගේ ගිණුම සෑදීම සඳහා වන උපදෙස් අනුගමනය කරන්න.\
+</li></ul>\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Sync 29" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-21-11-47-32-4281dc.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+</li><li>තවත් device එකකට සම්බන්ධ කිරීම සඳහා කළ යුත්තේ sign in වීම පමණයි..\
+</li></ol>\
+<p>වැඩිදුර උපදෙස් සඳහා,<a href="/si/kb/how-do-i-set-sync-my-computer">How do I set up Sync on my computer?</a> බලන්න\
+</p><div class="for" data-for="fx35">\
+<h1 id="w_video-ieikieia-iiicigieikigio-ieia-iciiioiiigioiu-iaioigioig">Video හරහා මිතුරන් හා සම්බන්ධ වෙන්න</h1>\
+<p><em><a href="/si/kb/firefox-hello-video-and-voice-conversations-online"> Firefox Hello</a> සමග Browser එකෙන් කෙලින්ම Video ඇමතුම් ලබාගන්න පුළුවන්.</em>\
+</p>\
+<ol><li>Conversation room එකක් ආරම්භකිරීමට browser එකේ ඉහළ ඇති  Hello button එක \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="hello button" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-10-30-17-37-19-5d4140.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ මත Click කරන්න.\
+</li><li>Conversation එකේ link එක මිතුරාට යවන්න.\
+</li><li>ඔබගේ මිතුරා Coverstaion එකට සම්බන්ධ වූ විට Firefox එකෙන් ඔබට දැනුම්දේවි.\
+</li></ol>\
+<p>Video ඇමතුම් පිළිබඳ තවත් ඉගෙනගැනීමට මෙය බලන්න <a href="/si/kb/firefox-hello-video-and-voice-conversations-online">Firefox Hello - video and voice conversations online</a>.\
+</p></div>\
+<h1 id="w_ioigiaio-iliiiaiuiaigieii">උදව් ලබාගැනීම</h1>\
+<p><em>ඔබට තවත් ප්‍රශ්ණ තිබෙනවානම් හෝ ඔබට තවත් උදව් අවශ්‍යනම් , ඔබ නිවැරදි වෙබ් අඩවියේයි ඉන්නේ.</em> \
+</p>\
+<ul><li><a href="/products/firefox">This site</a> මෙහි සිය ගණනක් ලිපි තියෙනවා ඒවායින් Firefox සම්බන්න්ධව ඇතිවිය හැකි සියළුම ගැටළු ආවරණය වෙනවා.\
+</li></ul>\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+  <a href="/products/firefox">\
+\
+<img alt="Get Help" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-21-12-12-34-a682e1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif">\
+\
+  </a>\
+\
+\
+\
+</dt></dl>\
+</div><div class="for" data-for="not fx29">\
+<h1 id="w_browsing-the-web">Browsing the web</h1>\
+<h2 id="w_setting-your-home-page">Setting your home page</h2>\
+<p>Setting your home page in Firefox is easy. <strong>Just drag the site's icon to the Home button.</strong> For more information about your home page and to set what tabs show when you open Firefox, see <a href="/si/kb/%E0%B6%B8%E0%B7%94%E0%B6%BD%E0%B7%8A%20%E0%B6%B4%E0%B7%92%E0%B6%A7%E0%B7%94%E0%B7%80%20%E0%B7%83%E0%B6%9A%E0%B7%83%E0%B7%8A%20%E0%B6%9A%E0%B6%BB%E0%B6%9C%E0%B6%B1%E0%B7%8A%E0%B6%B1%E0%B7%8F%20%E0%B6%86%E0%B6%9A%E0%B7%8F%E0%B6%BB%E0%B6%BA">මුල් පිටුව සකස් කරගන්නා ආකාරය</a>.\
+<span class="for" data-for="win"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Home page Win1" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-01-25-13-07-31-d77a5e.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+<span class="for" data-for="mac"><br><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Home page Mac1" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-01-25-13-01-31-6b385d.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+<span class="for" data-for="linux"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Home page Lin1" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-01-25-13-00-12-3c02e3.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</p>\
+<h2 id="w_one-click-bookmarking">One-click bookmarking</h2>\
+<p><strong>To create a bookmark, click on the star icon in the Location bar.</strong> That's it! For more about using bookmarks, including tagging and organizing, see <a href="/si/kb/bookmarks-firefox">Bookmarks in Firefox</a>.\
+<span class="for" data-for="win"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="bookmarks-win1" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-03-06-40-34-1316e5.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+<span class="for" data-for="mac"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="bookmarks-mac1" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-03-22-12-58-64a32c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</p>\
+<h2 id="w_finding-everything-with-the-awesome-bar">Finding everything with the Awesome Bar</h2>\
+<p><strong>We like to call Firefox’s Location bar the "Awesome Bar" because when you start to type the name or address of a website you’ve been to before, it finds it for you in an instant.</strong> And the more you use it, the better it gets. To learn more Awesome Bar tricks, including searching through your open tabs and searching the web, see <a href="/si/kb/awesome-bar-search-firefox-bookmarks-history-tabs">Awesome Bar - Search your Firefox bookmarks, history and tabs from the address bar</a>.\
+<span class="for" data-for="win"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Awesome Bar dropdown1 win" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-15-09-15-55-c2633b.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+<span class="for" data-for="mac"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Awesome Bar dropdown1 mac" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-15-10-35-18-e4f281.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+<span class="for" data-for="linux"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Awesome Bar dropdown1 lin" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-15-10-55-29-08d381.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</p>\
+<h2 id="w_searching-the-web">Searching the web</h2>\
+<p><strong>Search the web with your favorite search site in Firefox’s built-in Search bar.</strong> Just click the icon on the left to switch search engines. Learn more search tricks with the <a href="/si/kb/use-search-bar-firefox">Use the Search bar in Firefox</a> article.\
+<span class="for" data-for="win"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Search Win" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-18-11-47-48-96e31e.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+<span class="for" data-for="mac"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Search Mac" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-18-11-47-29-be7a89.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+<span class="for" data-for="linux"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Search Lin" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-18-11-47-06-00576c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</p>\
+<h2 id="w_tabs-tabs-tabs">Tabs tabs tabs!</h2>\
+<p><strong>Tabs let you have multiple websites open inside a single window, keeping your screen clutter-free and making it easy to switch between sites.</strong>\
+To add a new tab, click the new tab button (+) on the right side of the last tab.\
+To learn more about working with tabs, see <a href="/si/kb/tabs-organize-websites-single-window">Use tabs to organize lots of websites in a single window</a>.\
+<span class="for" data-for="win"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Tabs Win2" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-13-16-03-44-4117e3.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+<span class="for" data-for="mac"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Tabs Mac2" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-13-16-01-20-7ec3d8.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</p>\
+<h3 id="w_pinned-tabs">Pinned Tabs</h3>\
+<p><strong>Pinned Tabs let you keep your favorite web apps like Facebook, Gmail and Twitter open and just a click away.</strong> To create a Pinned Tab, <span class="for" data-for="win,linux">right-click</span><span class="for" data-for="mac">control-click</span> on the tab and select <span class="menu">Pin Tab</span> from the menu. To learn more about how Pinned Tabs work, see <a href="/si/kb/pinned-tabs-keep-favorite-websites-open">Pinned Tabs - keep favorite websites open and just a click away</a>.\
+<span class="for" data-for="win"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Pin App Tab Win" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-18-12-04-40-bf112b.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+<span class="for" data-for="mac"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Pin App Tab Mac" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-18-12-04-15-b9e63d.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+<span class="for" data-for="linux"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Pin App Tab Lin" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-03-18-12-03-52-89e81d.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</p>\
+<h2 id="w_private-browsing_2">Private Browsing</h2>\
+<p><strong>Firefox’s Private Browsing feature allows you to browse the Internet without saving any information on your computer about which sites and pages you’ve visited.</strong> \
+</p><div class="for" data-for="not fx20"><p>To start Private Browsing, go to <span class="for" data-for="win,linux">the top of the Firefox window, </span><span class="for" data-for="mac">the menu bar,</span> click the <span class="for" data-for="win7,win8"><span class="button">Firefox</span> button</span><span class="for" data-for="winxp,mac,linux"><span class="menu">Tools</span> menu</span> and select <span class="menu">Start Private Browsing</span>. Read the <a href="/si/kb/%E0%B6%B4%E0%B7%9E%E0%B6%AF%E0%B7%8A%E0%B6%9C%E0%B6%BD%E0%B7%92%E0%B6%9A%20%E0%B6%9C%E0%B7%80%E0%B7%9A%E0%B7%82%E0%B6%AB%E0%B6%BA">පෞද්ගලික ගවේෂණය</a> article to learn more.\
+<span class="for" data-for="win"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Private Browsing Win1" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-01-25-04-55-02-5f2a8f.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+<span class="for" data-for="mac"><br><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Private Browsing Mac1" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-01-25-07-16-27-711272.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+<span class="for" data-for="linux"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Private Browsing Lin1" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2011-01-25-07-14-11-287e8d.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</p></div><div class="for" data-for="fx20"><p>To open a Private Browsing window, go to <span class="for" data-for="win,linux">the top of the Firefox window, </span><span class="for" data-for="mac">the menu bar,</span> click the <span class="for" data-for="win7,win8"><span class="button">Firefox</span> button</span><span class="for" data-for="winxp,mac,linux"><span class="menu">File</span> menu</span> and select <span class="menu">New Private Window</span>. Read the <a href="/si/kb/%E0%B6%B4%E0%B7%9E%E0%B6%AF%E0%B7%8A%E0%B6%9C%E0%B6%BD%E0%B7%92%E0%B6%9A%20%E0%B6%9C%E0%B7%80%E0%B7%9A%E0%B7%82%E0%B6%AB%E0%B6%BA">පෞද්ගලික ගවේෂණය</a> article to learn more.\
+<span class="for" data-for="winxp"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="fx20 new private window - file menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2013-03-13-20-42-42-26fb5d.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+<span class="for" data-for="win7,win8"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="New Private Window Fx20 Win7" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2013-03-13-14-49-30-842bb8.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+<span class="for" data-for="mac"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="New Private Window Fx20 Mac" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2013-03-13-15-32-34-8b20e9.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+<span class="for" data-for="linux"><br>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="New Private Window Fx20 Lin" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2013-03-13-20-59-58-83097a.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</p></div>\
+<h1 id="w_customizing-firefox-with-add-ons">Customizing Firefox with Add-ons</h1>\
+<p><strong>Add-ons are like apps that you install to add bells &amp; whistles to Firefox.</strong> You can get add-ons that compare prices, check the weather, change the look of Firefox, listen to music, or even update your Facebook profile. To learn more about Add-ons and how to install them, see <a href="/si/kb/firefox-add-ons">Firefox සඳහා විශේෂාංග වශයෙන් add-ons සොයා ගැනීම හා ස්ථාපනය කිරීම</a>. \
+</p>\
+<h2 id="w_themes">Themes</h2>\
+<p><strong>Easily personalize Firefox's appearance.</strong> Try some themes on at <a href="https://addons.mozilla.org/en-US/firefox/themes/">Mozilla's add-on website</a>.\
+</p>\
+<h1 id="w_staying-in-sync">Staying in Sync</h1>\
+<p><strong>Firefox Sync lets you securely access your history, bookmarks, tabs and passwords across all of your devices.</strong> See <a href="/si/kb/how-do-i-set-sync-my-computer">How do I set up Sync on my computer?</a> to learn more or just go straight to <a href="/si/kb/how-do-i-set-sync-my-computer">syncing your computers</a> or your <a href="/si/kb/use-sync-share-bookmarks-and-more-with-firefox-mobile">Android device</a>.\
+</p></div>	si
+<div class="note">මෙම පහසුකම ලබාදී ඇත්තේ  ෆයර්ෆොක්ස් අනුවාදය 4 සහාය.පිවිසෙන්න <a href="/si/kb/what-version-firefox-do-i-have-ios">Which version of Firefox am I using?</a> වැඩි විස්තර සඳහා .</div>\
+<p>ඔබ ඔබේ ෆයර්ෆොක්ස් widget එකතු කළ විට <a href="https://support.apple.com/en-us/HT201925">Today view</a> , ඔබ නව ටැබ් විවෘත කළ විට හෝ, ඔබ විසින් රැඳවුම් පුවරුවේ වෙත පිටපත් කර ඇති විට සබැඳි වෙත පිවිසිය හැකිය. widget එකතු කරන්නේ කෙසේ දැයි  පෙන්වීමට අපිට පුළුවන්.\
+</p>\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="today ios 4.0" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-05-02-18-35-22-95b4f6.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+<ol><li>දැනුම්දීම් පැනලය බලගැනීම සදහා  ඔබගේ තිරයේ ඉහළ සිට පහළට අදින්න.\
+</li><li>ඉහල දර්ශන තිරයේ <strong>Today</strong> ඔබන්න .\
+</li><li>පහලට ඇදගෙන යන්න ඉන්පසු <span class="button">Edit</span> ස්පර්ශ කරන්න .\
+</li><li>ෆයර්ෆොක්ස් ලග ලැබී ඇති widgets ලිට්ස් හි ධන සංකේතය ඔබන්න.\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="firefox widget today" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-04-26-22-32-00-12bc8d.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+</li><li>ඔබගේ widgets අනුපෙලිවෙල වෙනස් කිරීම සදහා  , දකුණු පසට ඔබගෙන සිටින්න සහ ඔබට කැමති ආකාරයට widgets පිළිවෙලකට සකස ගන්න.\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="drag firefox today" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-04-26-22-39-07-9fa45d.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+</li><li>ඔබගේ වෙනස් කිරීම් සුරැකීමට තිරයේ ඉහළ ඇති <strong>Done</strong> ඔබන්න.\
+</li></ol>	si
+<p></p><div class="for" data-for="not fx"><div class="warning">This feature is available on Firefox for desktop or laptop computers.</div></div>\
+<p></p><div class="for" data-for="not fx35"><div class="warning">This feature has been improved in the latest version of Firefox. <a href="/si/kb/Firefox-%E0%B6%B1%E0%B7%80%E0%B6%AD%E0%B6%B8-%E0%B6%BA%E0%B7%8F%E0%B7%80%E0%B6%AD%E0%B7%8A%E0%B6%9A%E0%B7%8F%E0%B6%BD-%E0%B6%9A%E0%B7%92%E0%B6%BB%E0%B7%93%E0%B6%B8">Firefox නවතම  යාවත්කාල කිරීම</a> to use the improved version.</div></div>\
+<p></p>\
+ෆයර්ෆොක්ස් ඔබට ගැටලු ඇති කරන්නේ නම්, refresh කිරීම එයට උපකාර කරනවා ඇත. මෙම refresh කිරීමේ හැකියාව පිටු සලකුණු, මුරපද, හා විවෘත ටැබ් වැනි අත්‍යවශ්‍ය දත්ත ආරක්ෂා කරන අතරතුර ෆයර්ෆොක්ස්  එහි ප්‍රකෘති සැකසුමට පත් කිරීම මඟින් බොහෝ ගැටලු නිරාකරණය කරයි. <div class="note"><strong>සටහන:</strong> <a href="/si/kb/firefox-add-ons#w_what-types-of-add-ons-can-i-install">Extensions</a> සහ අමතර දත්ත ඉවත් කරනු ලබයි.</div>\
+<h1 id="w_iiijikioiiiuioioicio-refresh-ioicikieii">ෆයර්ෆොක්ස් refresh කිරීම</h1>\
+<p></p><ol><li>Click this <a class="btn btn-submit" data-mozilla-ui-reset="reset" href="#">Refresh Firefox</a> button directly, if you are viewing this page in Firefox.<br><strong>This won't work if you are using a different browser or on a mobile device.</strong>\
+<ul><li>You can also find a Refresh Firefox button at the top of the Firefox <em>about:support</em> <a href="/si/kb/use-troubleshooting-information-page-fix-firefox">Troubleshooting Information</a> page.  \
+</li></ul>\
+</li><li>To continue, click <span class="button">Refresh Firefox</span> in the confirmation window that opens.\
+</li><li>Firefox will close to refresh itself. When finished, a window will list your imported information. Click <span class="button">Finish</span> and Firefox will open.\
+</li></ol>\
+<p>\
+\
+</p><div class="note"><strong>Note:</strong> There's also a Refresh Firefox button in the <a href="/si/kb/safe-mode">Firefox Safe Mode</a> window, if you can't start Firefox normally. If you are unable to find the Refresh Firefox button on your version of Firefox, you can also do a manual refresh by creating a new profile. See <a href="/si/kb/recovering-important-data-from-an-old-profile#w_create-a-new-firefox-profile">instructions on how to create a new profile</a>.</div>\
+<p></p>\
+<h1 id="w_iiioii-igiaiaieiiio-refresh-ilioioiaieij-ioikigioigio-iiiuigiaiaig">මෙම නැවුම් refresh ලක්ෂණය කරන්නේ මොනවාද??</h1>\
+<p>ඔබගේ <a href="/si/kb/profiles-where-firefox-stores-user-data">profile folder</a> යෙහි ෆයර්ෆොක්ස් සැකසීම් සහ පෞද්ගලික තොරතුරු සියල්ල ගබඩා කර ඇත. මෙම නැවුම් කරන(refresh) ලක්ෂණය ඔබගේ වැදගත් දත්ත ආරක්ෂා කරන අතරතුර ඔබ වෙනුවෙන් නව profile ෆෝල්ඩරයක්   නිර්මාණය කරයි.\
+</p><p>Add-ons which are normally stored inside the Firefox profile folder, such as <a href="https://addons.mozilla.org/firefox/extensions/">extensions</a> and <a href="/si/kb/use-themes-change-look-of-firefox">themes</a>, will be removed. Add-ons stored in other locations, such as <a href="/si/kb/use-plugins-play-audio-video-games">plugins</a>, will not be removed but any modified preferences (such as plugins you have disabled) will be reset.\
+</p>\
+<h2 id="w_iiijikioiiiuioioicio-iiio-igigioig-iiikioioiaia-ioikigie-iiig">ෆයර්ෆොක්ස් මේ දත්ත ආරක්ෂා කරනු ඇත:</h2>\
+<ul><li>පිටු සලකුණු\
+</li><li>බ්‍රොව්සින්ග් සහ බාගත කිරීමේ ඉතිහාසය\
+</li><li>මුරපද\
+</li><li>විවෘත කවුළු<span class="for" data-for="not fx45">, ටැබ් කාණ්ඩ</span> සහ ටැබ්\
+</li><li>කුකීස්\
+</li><li>වෙබ් පෝරමය ස්වයංක්රීය-පිරවීම තොරතුරු\
+</li><li>පුද්ගලික ශබ්ද කෝෂය\
+</li></ul>\
+<h2 id="w_iiio-ieiaiu-icie-iciaioicieiiio-ioiaigio-ioikigie-iiig">මේ අංග සහ සැකසුම් ඉවත් කරනු ඇත:</h2>\
+<ul><li><a href="/si/kb/firefox-add-ons">Extensions and themes</a>, වෙබ් අඩවි අවසර, වෙනස් කරන ලද මනාප, <a href="/si/kb/add-or-remove-search-engine-firefox#w_add-a-search-engine">added search engines</a>, DOM ගබඩාව, <a href="/si/kb/advanced-panel-settings-in-firefox#w_certificates-tab">security certificate and device settings</a>, <a href="/si/kb/change-firefox-behavior-when-open-file">download actions</a>, ප්ලගින සැකසුම්, <a href="/si/kb/customize-firefox-controls-buttons-and-toolbars">toolbar customizations</a>, පරිශීලක ශෛලීන් and <a href="/si/kb/add-social-features-firefox-sidebar">social features</a> ඉවත් කරනු ලැබේ.\
+</li></ul>\
+<div class="note"><strong>සටහන:</strong> ඔබේ පැරණි ෆයර්ෆොක්ස් profile එක "පරණ ෆයර්ෆොක්ස් දත්ත" නමින් ෆොල්ඩරයක ඔබේ ඩෙස්ක්ටොප් එකෙහි පවතී. <span class="for" data-for="not fx35">reset</span><span class="for" data-for="fx35">refresh</span>ඔබේ ගැටලුව නිරාකරණය නොකලහොත්  <a href="/si/kb/recovering-important-data-from-an-old-profile#w_copying-files-between-profile-folders">නිර්මාණය කරන ලද නව පැතිකඩ වෙත ගොනු පිටපත් කිරීම</a> මඟින් ඔබට පුළුවන් ආරක්ෂා නොකළ තොරතුරු කිහිපයක් නැවත ගබඩා කරන්න. ඔබට තවදුරටත් මෙම ෆෝල්ඩරය අවශ්ය නොවේ නම්, එහි සංවේදී තොරතුරු අඩංගු වේ ලෙස දක්වා ඔබ එය මකා දැමිය යුතුයි.</div>\
+<p></p><div class="note">This article, like all Firefox support, is brought to you mostly by volunteers, who keep Mozilla proudly independent and open source. Keep browsing freely!</div>\
+<p></p>	si
+<p>මෙම ලිපිය මගින් Thunderbird 45.0 අනුවාදය මගින් පරිශීලකයාට  දැකගත හැකි ප්‍රධාන වෙනස්කම් පැහැදිලි කරයි. සියලු වෙනස්කම් පිලිබඳ සම්පුර්ණ විස්තරය සඳහා Thunderbird 45 <a href="https://www.mozilla.org/en-US/thunderbird/45.0/releasenotes/">release notes</a> වෙත පිවිසෙන්න.\
+</p>\
+<div id="toc"><h2>Table of Contents</h2><ul><li class="toclevel-1"><a href="#w_iaicigioauijieigio-igiaiiiailio-iciaijieigicij"><span class="tocnumber">1</span> <span class="toctext">විද්‍යුත් තැපැල් සංයුතිය</span></a></li><li class="toclevel-1"><a href="#w_iiieiciaicie-iiiaikigieiiio-iiioioigicij"><span class="tocnumber">2</span> <span class="toctext">පණිවිඩ භාරදීමේ ආකෘතිය</span></a></li><li class="toclevel-1"><a href="#w_iaieig-iciiigio-icie-ioiuikicijigio-iaicigioauijieigio-igiaiiiailio"><span class="tocnumber">3</span> <span class="toctext">චීන, ජපන් සහ කොරියන් විද්‍යුත් තැපැල්</span></a></li><li class="toclevel-1"><a href="#w_igieikicioig-ieigioigikioiuigijigio-iiiuieiaikieii"><span class="tocnumber">4</span> <span class="toctext">දුරස්ථ අන්තර්ගතයන් මගහැරීම</span></a></li><li class="toclevel-1"><a href="#w_address-book-iaio-export-ioicikieii"><span class="tocnumber">5</span> <span class="toctext">Address Book එක Export කිරීම</span></a></li><li class="toclevel-1"><a href="#w_iiieiciaicie-iliaijicicioigieia-icie-iiieiciaicie-iaieikioiaij"><span class="tocnumber">6</span> <span class="toctext">පණිවිඩ ලැයිස්තුව සහ පණිවිඩ ශීර්ෂය</span></a></li></ul></div>\
+<h1 id="w_iaicigioauijieigio-igiaiiiailio-iciaijieigicij">විද්‍යුත් තැපැල් සංයුතිය</h1>\
+<p>විද්‍යුත් තැපැල් සංයුතියේ විවිධ වැඩිදියුණු කිරීම් සිදු කර ඇත.\
+</p>\
+<ul><li> දැන් යවන්නාගේ නම (From) එක වරක් සිදු කල හැකි සකස් කිරීමක් වශයෙන්  <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=87987">පණිවුඩයක් සඳහා වෙනස් කිරීම</a> සිදු කළ හැක.\
+</li></ul>\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="editable from address" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-04-16-14-57-18-fd037c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ \
+</dt></dl>\
+<ul><li> දැන් අක්ෂර වින්‍යාසය පරික්ෂා කිරීමට එක් ශබ්ද කෝෂයකට වඩා භාවිතා කරන විට, ශබ්ද කෝෂය තේරීම පණිවිඩයේ කාරණය(subject) සඳහන් කරන විටම සිදු කළ හැක.තවද තෝරාගත් ශබ්ද කෝෂය පෙන්වීමට <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=368915">භාෂා දර්ශකයක්</a> ද පවතී.\
+</li></ul>\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="dictionary TB45" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-04-16-14-06-06-2e7208.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ \
+</dt></dl>\
+<ul><li> අක්ෂරවල ප්‍රමාණය තේරීම වෙනස් වී ඇත. දැන් සංස්කරණ මෙවලම්  තීරුව මත <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=769604">අක්ෂරවල ප්‍රමාණය තේරීමට බොත්තමක්</a> ඇති අතර "Smaller/Larger font size" බොත්තම් ඊළඟට ඇති ප්‍රමාණයට අක්ෂරවල ප්‍රමාණය වෙනස් කරනු ලබයි.\
+</li></ul>\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="font size TB45" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-04-16-14-07-06-c4db0b.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ \
+</dt></dl>\
+<ul><li> "Enter" යතුර එබීමෙන් නව ඡේදයක් ලබා දීම,"Shift+Enter" යතුරු එබීමෙන් නව පේළියක්  ලබා දීම මගින් Thunderbird සංයුති කවුළුව  දැන් පද සකසුවක් (word processor) ලෙස ක්‍රියා කරයි. මෙම නව හැසිරීම <span class="menu"><span class="for" data-for="mac">Thunderbird &gt; Preferences</span><span class="for" data-for="win">Tools &gt; Options</span><span class="for" data-for="linux">Edit &gt; Preferences</span> &gt; Composition &gt; General</span> tab එකෙන් ඉවත් කළ හැක.\
+</li><li> ලැබූ පණිවුඩයක ඇති ස්ථාපනය නොකළ fonts දැන් font දර්ශකයේ පෙන්නුම් කරයි.\
+</li></ul>\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Font indicator TB45" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-04-16-14-44-56-980d14.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ \
+</dt></dl>\
+<h1 id="w_iiieiciaicie-iiiaikigieiiio-iiioioigicij">පණිවිඩ භාරදීමේ ආකෘතිය</h1>\
+<ul><li> පෙරදී, පණිවිඩය ලබන්නාව address book එකෙහි preferring HTML email ලෙස ලකුණු කර නොමැති නම් Thundermail plain text ලෙස පණිවිඩය යවන ලදී. මේ ස්වයංක්‍රිය අවශ්‍රේණි (downgrade ) කිරීම <span class="menu"><span class="for" data-for="mac">Thunderbird &gt; Preferences</span><span class="for" data-for="win">Tools &gt; Options</span><span class="for" data-for="linux">Edit &gt; Preferences</span> &gt; Composition &gt; General tab &gt; Send Options…</span> දෙබස් කොටුවෙන් අක්‍රිය කල හැක.\
+</li></ul>\
+<h1 id="w_iaieig-iciiigio-icie-ioiuikicijigio-iaicigioauijieigio-igiaiiiailio">චීන, ජපන් සහ කොරියන් විද්‍යුත් තැපැල්</h1>\
+<ul><li> චීන, ජපන් සහ කොරියන් අනුලකුණු යොදා සැකසු පණිවිඩ යැවීමේදී අනවශ්‍ය අමතර ඉඩක් පෙළ අතර ඇතුලත්ව තිබුණි. මෙය නිවැරදි කර ඇති අතර පණිවිඩය සකස් කල පරිදිම යැවීම සහ ලබාගැනීම සිදු කෙරේ.\
+</li><li> RFC 1468 සහ RFC 3676 සමග පුර්ණ ලෙස ජපන් පණිවිඩ අනුගත ය.\
+</li></ul>\
+<h1 id="w_igieikicioig-ieigioigikioiuigijigio-iiiuieiaikieii">දුරස්ථ අන්තර්ගතයන් මගහැරීම</h1>\
+<ul><li> පෙරනිමියෙන් (by default),HTML පණිවිඩයක ඔබ්බවන ලද, පණිවිඩය සමග නොඑවූ, වෙබ් අඩවියකින් load කල යුතු රූප Thunderbird දර්ශනය නොකරයි. මෙය පරිශිලකයන්ව tracking වලින් ආරක්ෂා කරයි. දුරස්ථ අන්තර්ගතයන් load කළ යුතු වෙබ් අඩවි තෝරාගන්නා මෙනුව වැඩිදියුණු කර ඇත. (සටහන: අභ්‍යන්තර වෙනස්කම් නිසා, යවන්නාගේ ඊ-මේල් ලිපිනය මත පදනම් වන දුරස්ථ අන්තර්ගතයන් මගහැරීම් Thunderbird 38 සිට සංක්‍රමණය කර නොමැත.)\
+</li></ul>\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="remote exceptions TB45" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-04-16-14-08-20-e760f7.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ \
+</dt></dl>\
+<ul><li> ඔබ්බවන ලද රූප මුල් පණිවිඩයේ දර්ශනය කෙරුණි නම්  <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1251408">ප්‍රතිචාර සහ නැවත යවන පණිවිඩවල</a> ද දර්ශනය කෙරේ.\
+</li></ul>\
+<h1 id="w_address-book-iaio-export-ioicikieii">Address Book එක Export කිරීම</h1>\
+<ul><li> Address book එක දැන් <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=117236">UTF-8 ලෙස</a> export කළ හැක.\
+</li></ul>\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Address book export TB45" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-04-16-14-38-41-bcdd1c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ \
+</dt></dl>\
+<ul><li> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1246703">සියලු address books</a> එකම මොහොතේ export කිරීම සිදු කළ හැක.\
+</li></ul>\
+<h1 id="w_iiieiciaicie-iliaijicicioigieia-icie-iiieiciaicie-iaieikioiaij">පණිවිඩ ලැයිස්තුව සහ පණිවිඩ ශීර්ෂය</h1>\
+<ul><li> පණිවිඩ කවුළුවේ ශිර්ෂයන්වල දැන් "From" සහ "Recipient" තීරු වෙනුවට <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=36489">"Correspondents" තීරුවක්</a> පෙන්විය හැක. \
+</li></ul>\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="correspondents TB45" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-04-16-14-50-45-7f01ab.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+<br><br>\
+</dt><dt>45.0 ස්ථාපනයෙහි,  <span class="pref">mailnews.ui.upgrade.correspondents</span> මනාපය <span class="pref">false</span> ලෙස වෙනස් කර "config editor"හි උත්ශ්‍රේණිය(upgrade) ක්‍රියා විරහිත කර නොමැතිනම් දැනට පවතින ෆෝල්ඩර නව තීරුවට උත්ශ්‍රේණි කරනු ඇත. 45.1 ස්ථාපනයේ සිට, ස්වයංක්‍රිය උත්ශ්‍රේණි කිසිවක් නොමැති අතර, "Correspondents" තීරුව පෙරනිමියෙන්(by default) භාවිත කිරීමට බලාපොරොත්තු වන පරිශීලකයන්  <span class="pref">mail.threadpane.use_correspondents</span> මනාපය <span class="pref">true</span>ලෙස දිය යුතුය .\
+</dt></dl>\
+<div class="note">config editor වෙත පිවිසීම සඳහා, <span class="for" data-for="mac"><span class="menu">Thunderbird</span> &gt; <span class="menu">Preferences</span></span><span class="for" data-for="win"><span class="menu">Tools</span> &gt; <span class="menu">Options</span></span><span class="for" data-for="linux"><span class="menu">Edit</span> &gt; <span class="menu">Preferences</span></span> වෙත ගොස්,  <span class="menu">Advanced</span> පැනලය තෝරා,  <span class="menu">General</span> tab එක තෝරා <span class="button">Config Editor…</span> ඔබන්න. දිස්වන අනතුරු හැඟවුම් පිටුවේ,  <span class="button">I'll be careful, I promise!</span> ඔබා config editor වෙත පිවිසෙන්න. විස්තරාත්මක තොරතුරු සඳහා, <a href="/si/kb/config-editor">Config Editor</a>බලන්න.</div>\
+<ul><li> පණිවිඩයක් බැලීමේදී නම සහ ඊ-මේල් ලිපිනය පණිවිඩ හිසෙන් copy කර ගැනීම  context මෙනුවේ  <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=232021">new option</a> මගින් සිදු කල හැක.\
+</li></ul>\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="copy name and email TB45" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-04-16-14-10-06-469a98.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>	si
+<p>ඔබගේ සබැඳුම් පෙරනිමියෙන් ෆයර්ෆොක්ස් තුලින් විවෘත කිරීමඅවශ්‍යද? අප ඒ කෙසේදැයි ඔබට පෙන්වන්නම්.\
+</p>\
+<div class="note"><strong>ඔබගේ ඇන්ඩ්‍රොයිඩ් අනුවාද අංකය පරික්ෂා කරන්න </strong>: උපදෙස් ඔබගේ ඇන්ඩ්‍රොයිඩ් අනුවාදය මත රඳා පවතී.ඔබගේ  අනුවාදය ඔබගේ දුරකථනයේ සැකසුම්(settings)මෙනුවේ <em>About</em> භාවිතයෙන් දැනගැනීමට හැක. (නිශ්චිත උපදෙස් සඳහා ඔබගේ ජංගම දුරකථනයේ නිෂ්පාදකයාගේ වෙබ් අඩවිය බලන්න).</div>\
+<div id="toc"><h2>Table of Contents</h2><ul><li class="toclevel-1"><a href="#w_iiigioieioauikiuijicieio-6-marshmallow-icie-ioieil"><span class="tocnumber">1</span> <span class="toctext">ඇන්ඩ්‍රොයිඩ් 6 (Marshmallow)  සහ ඉහල</span></a></li><li class="toclevel-1"><a href="#w_iiiaikieic-iiigioieioauikiuijicieio-ieigieiaiaigigijigio-icihieia"><span class="tocnumber">2</span> <span class="toctext">පැරණි ඇන්ඩ්‍රොයිඩ් අනුවාදනයන් සඳහා</span></a><ul><li class="toclevel-2"><a href="#w_iiicijiaik-1-igiaigid-iciiiaihieiiio-iaiciaioig-ioikig-iiioauikiaieicikij-ieicicio-ioikigioig"><span class="tocnumber">2.1</span> <span class="toctext">පියවර 1:  දැනට සබැඳුම් විවෘත කරන බ්‍රවුසරය හිස් කරන්න</span></a></li><li class="toclevel-2"><a href="#w_iiicijiaik-2-iciiiaihic-iaiciaioig-ioicikieii-icihieia-iiioikigiciiic-iiioauikiaieicikij-firefox-ilioic-icioicigioig"><span class="tocnumber">2.2</span> <span class="toctext">පියවර 2: සබැඳි විවෘත කිරීම සඳහා පෙරනිමි බ්‍රවුසරය Firefox ලෙස සකසන්න</span></a></li></ul></li></ul></div>\
+<h1 id="w_iiigioieioauikiuijicieio-6-marshmallow-icie-ioieil">ඇන්ඩ්‍රොයිඩ් 6 (Marshmallow)  සහ ඉහල</h1>\
+<ol><li>ඔබගේ දුරකථනයේ සැකසුම්(settings) අයිකනය මත click කරන්න.\
+</li><li><strong>Apps</strong>මත ක්ලික් කරන්න.\
+</li><li>(සාමාන්‍යයෙන් තිරයේ දකුණු පස ඉහල කෙලවරේ ඇති) gear අයිකනය මත ක්ලික් කරන්න.\
+</li><li><span class="menu">Default Apps</span> මත ක්ලික් කරන්න.\
+</li><li>තෝරා ගැනීම් ලැයිස්තුව සඳහා  <span class="menu">Browser app</span> මත ක්ලික් කරන්න.\
+</li><li>ලැයිස්තුවේ Firefox මත ක්ලික් කරන්න. \
+</li></ol>\
+<p>ඔබ කළ යුත්තේ එපමණයි!\
+</p>\
+<h1 id="w_iiiaikieic-iiigioieioauikiuijicieio-ieigieiaiaigigijigio-icihieia">පැරණි ඇන්ඩ්‍රොයිඩ් අනුවාදනයන් සඳහා</h1>\
+<h2 id="w_iiicijiaik-1-igiaigid-iciiiaihieiiio-iaiciaioig-ioikig-iiioauikiaieicikij-ieicicio-ioikigioig">පියවර 1:  දැනට සබැඳුම් විවෘත කරන බ්‍රවුසරය හිස් කරන්න</h2>\
+<ol><li> සැකසුම්(settings) විවෘත කර <span class="button">Apps</span> මත ක්ලික් කරන්න. (සමහර ඇන්ඩ්‍රොයිඩ් අනුවාදනයන් සඳහා මෙය "Applications" ලෙස නම් කර  හැක.එවිට ඔබට ඊළඟ පියවරට යාමට පෙර <span class="button">Manage applications</span> මත ක්ලික් කිරීමට සිදුවනු ඇත.)\
+</li><li> <span class="button">All</span> ටැබ් එක මත ක්ලික් කරන්න.\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Android ICS Manage Apps - Cropped just showing stock" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2013-02-12-11-59-02-8caa08.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+</li><li> සබැඳි විවෘත කරන වත්මන් වෙබ් බ්රවුසරය මත ක්ලික් කරන්න. මෙය සාමාන්යයෙන් "බ්රව්සරය" හෝ "අන්තර්ජාලය" යන නමින් නම් කර තිබූ පෙරනිමි බ්‍රවුසරය වේ.\
+</li><li> ෙපරනිමිෙයන් වෙබ් බ්රවුසරය මගින් සබැඳි විවෘත වීම ැළැක්වීම සඳහා<span class="button">Clear defaults</span> මත ක්ලික් කරන්න. හිස් පෙරනිමි අළු පැහැ ගැන්වී ඇත්නම් එයින් කියවෙන්නේ, ඔබ වෙනත් බ්රවුසර් ස්ථාපනය කර නොමැති හෝ ඔබ ඔපෙරා වගේ වෙනත් බ්රවුසර් ස්ථාපනය කර එය පෙරනිමි වෙබ් බ්රව්සරය ලෙස භාවිතා කරන බවයි. ඔබ තවත් බ්රවුසරය ස්ථාපනය කර තිබේ නම්, ආපසු පෙර පියවරට ගොස් පෙරනිමි වෙබ් බ්රව්සරය සමඟ නැවත සිදු කරන්න.\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Android ICS Clear defaults - Cropped" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2013-02-03-22-30-33-ca626d.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+</li></ol>\
+<h2 id="w_iiicijiaik-2-iciiiaihic-iaiciaioig-ioicikieii-icihieia-iiioikigiciiic-iiioauikiaieicikij-firefox-ilioic-icioicigioig">පියවර 2: සබැඳි විවෘත කිරීම සඳහා පෙරනිමි බ්‍රවුසරය Firefox ලෙස සකසන්න</h2>\
+<ol><li> ඇන්ඩ්රොයිඩ් යෙදුම තුළ ඇති තැපැල් අයදුම් වැනි සබැඳිය විවෘත කරන්න.\
+</li><li> <span class="button">Firefox</span>මත ක්ලික් කරන්න අනතුරුව <span class="button">Always</span> මත ක්ලික් කරන්න.\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Fennec_Default" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2015-10-16-04-45-16-49961f.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+</li></ol>	si
+<p>REDIRECT <a href="/si/kb/thunderbird-450">Thunderbird 45.0 හි වෙනස්කම්</a>\
+</p>	si
+<p>\
+</p><p>ක්‍රියාදාම රැසකින් සමන්විතව නැවතත්  ඔබ වෙත එන නවතම පැකේජය සදහා ඔබව පිළිගනිමු.මෙම නවතම යාවත්කාලීන  පැකේජය ඔබට ඔබගේ ටැබ් ඉතිහාසය අතර පහසුවෙන් ගමන් කිරීමටත්,ඔබට අභිරුචි සෙවුම් යන්ත්‍ර යොදා ඔබගේ නිවස්න පිටුව සාදගැනීමටත් අවස්තාව ලබා දෙයි .මෙම සියලු දේ නවමු මෙනුවක් මගින් වඩාත් පහසු කර ඇත.\
+ඔබ සුදානම්ද ?අප විසින් ඔබගේ අගිලිතුදුඩු  වෙත ගෙනන නවතම දෑ බලා ගැනීමට.\
+</p>\
+<div id="toc"><h2>Table of Contents</h2><ul><li class="toclevel-1"><a href="#w_add-search-engines-from-websites-you-visit"><span class="tocnumber">1</span> <span class="toctext">Add search engines from websites you visit</span></a></li><li class="toclevel-1"><a href="#w_improved-navigation"><span class="tocnumber">2</span> <span class="toctext">Improved Navigation</span></a><ul><li class="toclevel-2"><a href="#w_jump-to-a-page-in-your-tab-history-by-long-tapping-the-backforward-button"><span class="tocnumber">2.1</span> <span class="toctext">Jump to a page in your tab history by long-tapping the back/forward button</span></a></li><li class="toclevel-2"><a href="#w_reopen-closed-tabs"><span class="tocnumber">2.2</span> <span class="toctext">Reopen closed tabs</span></a></li><li class="toclevel-2"><a href="#w_your-history-and-synced-pages-in-one-place"><span class="tocnumber">2.3</span> <span class="toctext">Your history and synced pages in one place</span></a></li></ul></li><li class="toclevel-1"><a href="#w_set-a-homepage"><span class="tocnumber">3</span> <span class="toctext">Set a homepage</span></a></li></ul></div>\
+<h1 id="w_add-search-engines-from-websites-you-visit">Add search engines from websites you visit</h1>\
+<p>දැනටමත්<a href="/si/kb/enable-or-disable-search-engines-firefox-ios"> popular search engines</a> Firefox බවට ගොඩනගා ඇති අතර , මෙම යාවත්කාලීන කිරීම ඔබට වඩාත්  තේරීම් ලබා දෙයි. දැන් ඔබට ඔබගේ ප්‍රියතම  වෙබ් අඩවි (උදාහරණයක් ලෙස, සාප්පු සවාරි, වීඩියෝ හෝ ප්රවෘත්ති වෙබ් අඩවි සඳහා) සදහා  සෙවුම් යන්ත්‍ර  එක් කළ හැකිය. ,මේ සදහා අවශ්‍ය වෙබ් අඩවියේ සෙවුම් කොටුව ඔබා ඉන් පසුව විශාලන කාචයක්  අයිකනය  \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="add search icon ios 5" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-06-06-15-16-18-4e449d.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ ඔබන්න .\
+</p><p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="add custom search ios 5" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-06-09-23-04-47-297586.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p><p>ඔබ නව සෙවීමකට ඇතුලත් වූ , ඔබේ නව සෙවුම් යන්ත්රය ඔබේ ඉක්මන් සෙවුම් තෝරා ගැනීම් අතර පෙන්වනයි . ඔබට එය පවා  ඔබගේ කරන්න පුළුවන්<a href="/si/kb/change-your-default-search-engine-firefox-ios"> default search engine</a>.\
+</p>\
+<div class="note">බලන්න <a href="/si/kb/add-search-engines-firefox-ios">Add search engines to Firefox for iOS</a>  තව දුරටත් ඉගෙන ගැනීමට .</div>\
+<h1 id="w_improved-navigation">Improved Navigation</h1>\
+<p>We’ve packaged useful tools into an easy-to-access menu so you can browse faster. Tap the menu icon at the bottom of the screen for an easy shortcut to common actions such as adding a bookmark or viewing your history (<strong>Tip:</strong> Swipe to the left or right to find more actions.)  \
+</p><p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="new firefox ios 5 menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-06-09-23-08-28-b1ee41.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p>\
+<h2 id="w_jump-to-a-page-in-your-tab-history-by-long-tapping-the-backforward-button">Jump to a page in your tab history by long-tapping the back/forward button</h2>\
+<p>Psst, want to learn a trick? We’ve added a shortcut that lets you leap two or even ten pages into your tab history, simply by tapping and holding the back or forward button. No more repetitive back-button pressing (your fingers will thank you). Go on and browse your heart out.\
+\
+</p><p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="tab history ios 5" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-06-09-23-13-24-1ab69f.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p>\
+<h2 id="w_reopen-closed-tabs">Reopen closed tabs</h2>\
+<p>If you’ve closed all your tabs by tapping <span class="menu">Close all Tabs</span> and changed your mind immediately afterwards, don’t fret. Firefox will let you reopen these tabs using the “Undo” option. Because everyone deserves a second chance.\
+</p><p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="tabs closed crop ios" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-06-08-15-22-50-0d5bfa.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p>\
+<h2 id="w_your-history-and-synced-pages-in-one-place">Your history and synced pages in one place</h2>\
+<p>Together at last! No more switching between your history and the Synced pages panel. Pages you’ve visited on your iOS device and on other synced devices are now in one convenient spot. Just tap the history icon to see all your visited pages.\
+</p><p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="sync history panel ios 5" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-06-09-20-33-49-4a0700.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ \
+</p>\
+<h1 id="w_set-a-homepage">Set a homepage</h1>\
+<p>ඔබේ ප්රියතම වෙබ් පිටුව ඉක්මනින් ලබා ගන්න! එය ඔබේ නිවස්න පිටුව ලෙස සකසා ඔබ නිවස්න බොත්තම එබුවිට එය විවෘත වනු ඇත..\
+</p><p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="homepage button ios 5" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-06-09-23-18-51-27f498.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p>\
+<div class="note">ඔබේ නිවස්න  පිටුව සකස් කිරීම ඉගෙන ගැනීමට  හා ඔබගේ මෙනුව හෝ එකට නිවස්න අයිකනය එකතු කරන ආකාරය ඉගෙන ගැනීමට<a href="/si/kb/set-homepage-firefox-ios">Set a homepage in Firefox for iOS</a>. බලන්න</div>	si
+<p>මෙම ලිපිය මගින් පැහැදිළි කරන්නේ Firefox <span class="for" data-for="win">Options</span><span class="for" data-for="mac,linux">Preferences</span>\
+ පිටුවේ <strong>General</strong> පැනලයේ ඇති සැකසුම් පිළිබඳව ය.\
+</p><p>මෙම General පැනලය මගින් ඔබ ට,\
+</p>\
+<ul><li>Startup හි දී ඔබගේ default බ්‍රව්සරය Firefox දැයි බැලීම හා Firefox default බ්‍රව්සරය බවට පත් කිරීම\
+</li><li>ඔබ බ්‍රව්සරය ඇරඹීමේදී හෝ Home අයිකනය click කිරීමේදි Firefox ප්‍රදර්ශනය කළ යුත්තේ කුම්න වෙබ් පිටු ද යන්න නිර්ණය කිරීම\
+</li><li>ගොණු බාගත කිරීමෙදී Firefox කුමක් කළ යුතු ද යන්න නිර්ණය කිරීම\
+</li><li>ඔබේ tab සැකසුම් කළමනාකරණය කිරීම\
+</li></ul>\
+<p><br>\
+</p>\
+<div id="toc"><h2>Table of Contents</h2><ul><li class="toclevel-1"><a href="#w_startup"><span class="tocnumber">1</span> <span class="toctext">Startup</span></a></li><li class="toclevel-1"><a href="#w_downloads"><span class="tocnumber">2</span> <span class="toctext">Downloads</span></a></li><li class="toclevel-1"><a href="#w_tabs"><span class="tocnumber">3</span> <span class="toctext">Tabs</span></a></li></ul></div>\
+<div class="for" data-for="not fx47"><p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Fx46-GeneralPanel" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-09-27-04-17-54-d872c6.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p></div><div class="for" data-for="fx47"><p>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Fx47-GeneralPanel" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-09-27-04-06-48-1872e7.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</p></div>\
+<h1 id="w_startup">Startup</h1>\
+<ul><li> <strong>Always check if Firefox is your default browser</strong>:Startup හි දී Firefox ඔබේ default බ්‍රව්සරය දැ යි බැලීමට ඔබට අවශ්‍ය නම් මෙම සැකසුම තෝරාගන්න. Firefox ඔබේ default බ්‍රව්සරය බවට පත් කර ගැනීමෙන් පසු, application එකක් web පිටුවක් දර්ශනය කිරීමට සැම විටම Firefox භාවිතා කරයි.\
+<ul><li>දැනට Firefox ඔබේ default බ්‍රව්සරය නොවෙයි නම්, <span class="button">Make Default</span>  click කිරීමෙන් එය default කරගත හැක. වැඩි විස්තර සඳහා  <a href="/si/kb/make-firefox-your-default-browser">Make Firefox your default browser</a> බලන්න.\
+</li></ul>\
+</li></ul>\
+<ul><li> <strong>When Firefox starts</strong>: මෙමගින් Firefox ආරම්භ කිරීමේ දී දර්ශනය වන්නේ කුමක් ද යන්න පාලනය වේ.\
+<ul><li> <strong>Show my home page</strong> - මෙමගින් Home පිටුව දර්ශනය වේ. මෙය පහත සකසා ඇත.\
+</li><li> <strong>Show a blank page</strong> - මෙමගින් හිස් පිටුවක් දර්ශනය වේ. එය load වීමට ගත වන්නේ අවම කාලයකි.\
+</li><li> <strong>Show my windows and tabs from last time</strong> - මෙමගින්, ඔබ Firefox close කළ අවසන් වර නැරඹූ වෙබ්පිටු restore වේ. වැඩි විස්තර සඳහා, <a href="/si/kb/restore-previous-session">Restore previous session - Configure when Firefox shows your most recent tabs and windows</a> බලන්න.\
+</li></ul>\
+</li><li> <strong>Home page</strong>: <br>  <a href="/si/kb/customize-firefox-controls-buttons-and-toolbars">Navigation toolbar</a> හි Home අයිකනය click කල විට, Firefox දර්ශනය කරන්නේ කුමන පිටු ද යන්න පාලනය කරයි. ඔබ <strong>When Firefox starts</strong>(ඉහත) හි <strong>Show my home page</strong> ලෙස සැකසුවා නම්, Firefox ආරම්භ වීමෙදී එම නිශ්චිත වෙබ් පිටු load වේ. වැඩි විස්තර සඳහා,  <a href="/si/kb/%E0%B6%B8%E0%B7%94%E0%B6%BD%E0%B7%8A%20%E0%B6%B4%E0%B7%92%E0%B6%A7%E0%B7%94%E0%B7%80%20%E0%B7%83%E0%B6%9A%E0%B7%83%E0%B7%8A%20%E0%B6%9A%E0%B6%BB%E0%B6%9C%E0%B6%B1%E0%B7%8A%E0%B6%B1%E0%B7%8F%20%E0%B6%86%E0%B6%9A%E0%B7%8F%E0%B6%BB%E0%B6%BA">මුල් පිටුව සකස් කරගන්නා ආකාරය</a> බලන්න.\
+</li></ul>\
+<p><strong>Important:</strong> ඔබේ Home පිටුව ස්වයංක්‍රීයව වෙනස් වෙමින් පවතියි නම්,  <a href="/si/kb/remove-babylon-toolbar-home-page-and-search-engine">How to remove the Babylon toolbar, home page and search engine</a> හෝ <a href="/si/kb/remove-toolbar-has-taken-over-your-firefox-search">Remove a toolbar that has taken over your Firefox search or home page</a> බලන්න.\
+</p>\
+<h1 id="w_downloads">Downloads</h1>\
+<ul><li> <strong>Save files to</strong>: <br> මෙය තෝරාගතහොත්, Firefox මගින් ස්වයංක්‍රීයව ඔබේ සියළු බාගත කරගැනීම් අදාල ලිපිගොණුවට (ඔබෙ desktop හෝ downloads ලිපිගොණුව ) සුරක්ශිත කරයි. භාවිතා වන ලිපිගොණුව වෙනස් කිරීම සඳහා, <span class="button"><span class="for" data-for="win,linux">Browse…</span><span class="for" data-for="mac">Choose…</span></span> click කරන්න.\
+</li><li> <strong>Always ask me where to save files</strong>: <br> මෙය තෝරාගතහොත්, ඔබ කරන සෑම බාගත කිරීමක් සඳහා ම, එය සුරක්ශිත කලයුතු ලිපිගොණුව විමසයි.\
+</li></ul>\
+<p><br>\
+</p>\
+<h1 id="w_tabs">Tabs</h1>\
+<p>\
+</p>\
+<ul><li> <strong>Open new windows in a new tab instead:</strong> This <span class="for" data-for="win">option</span><span class="for" data-for="mac,linux">preference</span> controls whether links from other applications or from web pages which request to open them in new windows are opened in a new window or a new tab in the most recent window.<div class="note"><strong>Note:</strong> If you have chosen to open pages in new tabs, Firefox will ignore this <span class="for" data-for="win">option</span><span class="for" data-for="mac,linux">preference</span> and will open a new window from a link if the page author specified that the new window should have a specific size, because some pages can only be displayed correctly at a specific size.</div>\
+</li><li><em>(If applicable)</em> <strong>Warn me when closing multiple tabs</strong>: This <span class="for" data-for="win">option</span><span class="for" data-for="mac,linux">preference</span> is only shown if you disabled the warning dialog Firefox displays to confirm your choice to close a window with multiple tabs (shown below). Check this <span class="for" data-for="win">option</span><span class="for" data-for="mac,linux">preference</span> to re-enable the warning, to prevent accidentally closing the entire window when you only intend to close the current tab.  \
+</li></ul>\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Fx48Multiple tabs-ConfirmClose" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-08-06-17-14-11-d85eb9.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+<br><div class="note"><strong>Note: </strong> This setting has no effect on the warning when closing other tabs in a window.</div>\
+</dt></dl>\
+<ul><li><em>(If applicable)</em> <strong>Warn me when opening multiple tabs might slow down Firefox</strong>: This <span class="for" data-for="win">option</span><span class="for" data-for="mac,linux">preference</span> is only shown if you disabled the warning dialog Firefox displays to confirm your choice to open multiple tabs at once. Check this <span class="for" data-for="win">option</span><span class="for" data-for="mac,linux">preference</span> to re-enable the warning, to prevent accidentally slowing down Firefox while loading a large number of tabs. \
+</li></ul>\
+<div class="for" data-for="not fx47">\
+<ul><li><strong>Don't load tabs until selected</strong>: Firefox will only load the active tab when it starts or restores your previous session. This can make startup much faster if you are restoring many tabs. The other open tabs will be loaded as you click on them.\
+</li></ul>\
+</div>\
+<ul><li> <strong>When I open a link in a new tab, switch to it immediately</strong>: When you middle-click on a Web link (or hold down <span class="for" data-for="win,linux"><span class="key">Ctrl</span></span><span class="for" data-for="mac"><span class="key">command</span></span> while clicking with the left mouse button), the page will be opened in a new tab. That page will not be displayed and will load in a background tab. Check this <span class="for" data-for="win">option</span><span class="for" data-for="mac,linux">preference</span> to load and display the page in a new foreground tab instead.\
+</li></ul>\
+<div class="for" data-for="win7,win8,win10">\
+<ul><li> <strong>Show tab previews in the Windows taskbar</strong>: When you move your pointer over the Firefox icon in the Windows taskbar, Windows will show you a preview of the Firefox window. With this option check marked, Windows will show you a separate preview for each tab.\
+</li></ul>\
+</div>	si
+<p>ඔබේ බ්රවුසරය ඔබ අක්වටවන වේගයෙන්ම ඔබට අන්තර්ජාල පහසුකම ලබා දේ නම්? මෙම ලිපියෙන් ඔබට ඔබේ බ්රවුසරය වේගවත් කරගැනීමට මහඟු උපකාරයක් වේවි.\
+</p>\
+<div class="note"><strong>Note:</strong> <a href="/si/kb/refresh-%E0%B7%86%E0%B6%BA%E0%B6%BB%E0%B7%8A%E0%B7%86%E0%B7%9C%E0%B6%9A%E0%B7%8A%E0%B7%83%E0%B7%8A-%E0%B6%87%E0%B6%A9%E0%B7%9D%E0%B6%B1-%E0%B6%BA%E0%B7%85%E0%B7%92%20%E0%B6%B4%E0%B7%92%E0%B7%84%E0%B7%92%E0%B6%A7%E0%B7%94%E0%B7%80%E0%B7%93%E0%B6%B8-%E0%B7%83%E0%B7%84-%E0%B7%83%E0%B7%90%E0%B6%9A%E0%B7%83%E0%B7%94%E0%B6%B8%E0%B7%8A">The Refresh Firefox feature</a> can fix many issues by restoring Firefox to its factory default state while saving your essential information. Consider using it before going through a lengthy troubleshooting process.\
+</div>\
+<div id="toc"><h2>Table of Contents</h2><ul><li class="toclevel-1"><a href="#w_iiijikio-iiiuioioicio-ijiaiiijikioiaigioioiailieig-ioicikieii"><span class="tocnumber">1</span> <span class="toctext">ෆයර් ෆොක්ස් යාෆයර්වත්කාලීන කිරීම</span></a></li><li class="toclevel-1"><a href="#w_ioicicio-igioieiaiaiu-iciiioiiigio-iiiaiaicigij"><span class="tocnumber">2</span> <span class="toctext">උසස් දෘඪාංග සම්පත් භාවිතය</span></a></li><li class="toclevel-1"><a href="#w_firefox-iiioauikigiciaiaik-igiuigioioiaijic"><span class="tocnumber">3</span> <span class="toctext">firefox ප්‍රතිචාර නොදක්වයි</span></a></li><li class="toclevel-1"><a href="#w_i-get-a-warning-unresponsive-script-error"><span class="tocnumber">4</span> <span class="toctext">I get a Warning Unresponsive script error</span></a></li><li class="toclevel-1"><a href="#w_firefox-iiikiiioii-iaieiiid-iaiaieic-ioiailijioio-iuigie"><span class="tocnumber">5</span> <span class="toctext">firefox ආරම්භ වීමට වැඩි කාලයක් ගනී</span></a></li><li class="toclevel-1"><a href="#w_ieigiaiaioauij-ieigioigikioiuigijigio-ieiaieicik-ioicikieii"><span class="tocnumber">6</span> <span class="toctext">අනවශ්‍ය අන්තර්ගතයන් අවහිර කිරීම</span></a></li><li class="toclevel-1"><a href="#w_this-didnt-solve-my-problem-what-do-i-do-now"><span class="tocnumber">7</span> <span class="toctext">This didn't solve my problem. What do I do now?</span></a></li></ul></div>\
+<h2 id="w_iiijikio-iiiuioioicio-ijiaiiijikioiaigioioiailieig-ioicikieii">ෆයර් ෆොක්ස් යාෆයර්වත්කාලීන කිරීම</h2>\
+<p>අපි නිතරම ෆයර් ෆොක්ස් වැඩි දියුණු කරනවා.  ෆයර් ෆොක්ස් හි නවතම අනුවාදය මින් පෙර නිකුත් වූ අනුවාදයන් හි තිබූ අඩුපාඩු සියල්ලක්ම මගහරවමින් ඔබට වේගවත්ව අන්තර්ජාලයට පිවිසීමේ අවස්ථාව උදා දී කර ඇත.යාවත්කාලීන කිරීම ගැන දැන ගැනීම සඳහා [ෆයර් ෆොක්ස් හි නවතම අනුවාදය  යාවත්කාලීන කිරීම] බලන්න.\
+</p>\
+<h2 id="w_ioicicio-igioieiaiaiu-iciiioiiigio-iiiaiaicigij">උසස් දෘඪාංග සම්පත් භාවිතය</h2>\
+<p>මාන්තු කිරීමේ උපකරණයක් ඔබට උසස් දෘඪාංග සම්පත් භාවිතය පෙන්නුම් කරන්නේ නම්, [ෆයර් ෆොක්ස් නුවුමනා ලෙස මතකය භවිතා කරයි () සවි කරන්නේ කෙසේද?] සහ [ෆයර් ෆොක්ස් නුවුමනා ලෙස සී.පී.යූ සම්පත්  භවිතා කරයි ( සවි කරන්නේ කෙසේද?)] යන ලිපියන්හි ඉඟි භවිතා කර බලන්න.\
+</p><p><br>\
+</p>\
+<h2 id="w_firefox-iiioauikigiciaiaik-igiuigioioiaijic">firefox ප්‍රතිචාර නොදක්වයි</h2>\
+<p>firefox ආරම්භ කල විට ප්‍රතිචාර දක්වීමට වැඩි කාලයක් ගනී නම්, ඔබට තවදුරටත් රැඳී සිටීමට පවසයි නම්, [ෆයර් ෆොක්ස් ප්‍රතිචාර නොදක්වයි- සවි කරන්නේ කෙසේද?] ලිපිය කියවන්න.\
+</p><p><br>\
+</p>\
+<h2 id="w_i-get-a-warning-unresponsive-script-error">I get a Warning Unresponsive script error</h2>\
+<p>“Unresponsive script error”? What does that even mean? We've got an article about that called, believe it or not, <a href="/si/kb/warning-unresponsive-script">Warning Unresponsive script - What it means and how to fix it</a> that will help clear things up.\
+</p>\
+<h2 id="w_firefox-iiikiiioii-iaieiiid-iaiaieic-ioiailijioio-iuigie">firefox ආරම්භ වීමට වැඩි කාලයක් ගනී</h2>\
+<p>ඉඟි සහ උපදෙස් සඳහා [ෆයර් ෆොක්ස් ආරම්භ වීමට වැඩි කාලයක් ගනී] ලිපිය කියවන්න.\
+</p><pre>ඔබේ පරිගනකයේ හානිකර වැඩසටහන් තිබේදැයි පරීක්ෂා කරන්න.\
+</pre>\
+<p>වේගය අඩු වීම සඳහා විසඳුම් විශේෂයෙන් ඉහත සඳහන් කර නොමැති අතර වයිරස් සහ අනෙකුත් හානිකර වැඩසටහන් සඳහා ඔබ ඔබේ පරිගනකය ස්කෑන් කල යුතුය.[හානිකර වැඩසටහන් නිසා fire fox හි ඇතිවන ගැටලු සඳහා විසඳුම්] කියවන්න.\
+</p><p><br>\
+</p><p><br>\
+</p><p><br>\
+</p><p>{win සඳහා}\
+==Windows ප්‍රශස්ත කිරීම\
+</p><p>Windows වේගවත් කර ඔබේ පරිගනකය වඩාත් කාර්යක්ෂම කරගන්න.{winxp සඳහා}\
+<a href="http://windows.microsoft.com/en-us/windows-xp/help/setup/maintenance-improve-performance">Maintenance tasks that improve performance</a> හි microsoft.com. බලන්න.\
+<span class="for" data-for="win7"><a href="http://windows.microsoft.com/en-US/windows7/Optimize-Windows-7-for-better-performance">Optimize Windows 7 for better performance</a> at microsoft.com.බලන්න.\
+</span><span class="for" data-for="win8"><a href="http://windows.microsoft.com/en-us/windows/performance-maintenance-help#performance-maintenance-help=windows-8">Performance &amp; maintenance - Windows Help</a> හි microsoft.com.බලන්න.</span>\
+<span class="for" data-for="win10"><a href="http://www.tenforums.com/tutorials/26120-optimize-performance-windows-10-a.html">Optimize Performance of Windows 10</a> හි tenforums.com.බලන්න.</span> \
+</p>\
+<h2 id="w_ieigiaiaioauij-ieigioigikioiuigijigio-ieiaieicik-ioicikieii">අනවශ්‍ය අන්තර්ගතයන් අවහිර කිරීම</h2>\
+<p>There are many Firefox add-ons that can make pages load faster by blocking content you don't need, such as trackers or ads.\
+</p>\
+<ul><li> The <a href="https://addons.mozilla.org/firefox/addon/disconnect/">Disconnect add-on</a> blocks invisible webpage parts that track you online.\
+</li><li> The <a href="https://addons.mozilla.org/firefox/addon/flashblock">Flashblock add-on</a> allows you to selectively enable and disable Flash content on websites.\
+</li><li> The <a href="https://addons.mozilla.org/firefox/addon/noscript">NoScript add-on</a> allows you to selectively enable and disable all scripts running on websites.\
+</li></ul>\
+<h2 id="w_this-didnt-solve-my-problem-what-do-i-do-now">This didn't solve my problem. What do I do now?</h2>\
+<p>Sometimes  tracking down the source of these kinds of problems is difficult. We have a community of volunteers ready to help you figure it out.\
+</p>\
+<ul><li><a href="/questions/new">Ask a question in our support forum</a>\
+</li></ul>	si
+<p><strong>Safe Mode</strong> යන වීශේෂිත වූ ක්‍රමවේදය <strong>Firefox</strong> හී ගැටළු වලට නිසි වීසදුම් ලබාගැනීමට භාවිත කළ හැක. . Safe Mode temporarily turns off hardware acceleratit aon, resets some settings, and disables add-ons (extensions and themes) that might be causing problems. Firefox හී සාමාන්‍ය ක්‍රමවේදයේ හැසීරීම හා එහී Safe Mode හී හැසීරීම සලකා බලන වීට හේතුව හදුනා ගත හැකි බව ඔබට දැක ගත හැකි වේ \
+</p><div class="for" data-for="win">\
+<div class="note"><strong>සටහන:</strong> Windows භාවිතා කරන්නන් හට Windows සතු වූ Safe Mode එකක් ඇත.   <strong>Firefox Safe Mode සහ Windows Safe Mode අතර කිසිදු සබදතාවක් නොමැත.</strong></div>\
+</div>\
+<div class="note"><a href="/si/kb/refresh-%E0%B7%86%E0%B6%BA%E0%B6%BB%E0%B7%8A%E0%B7%86%E0%B7%9C%E0%B6%9A%E0%B7%8A%E0%B7%83%E0%B7%8A-%E0%B6%87%E0%B6%A9%E0%B7%9D%E0%B6%B1-%E0%B6%BA%E0%B7%85%E0%B7%92%20%E0%B6%B4%E0%B7%92%E0%B7%84%E0%B7%92%E0%B6%A7%E0%B7%94%E0%B7%80%E0%B7%93%E0%B6%B8-%E0%B7%83%E0%B7%84-%E0%B7%83%E0%B7%90%E0%B6%9A%E0%B7%83%E0%B7%94%E0%B6%B8%E0%B7%8A">The Refresh Firefox feature</a> can fix many issues by restoring Firefox to its factory default state while saving your essential information. Consider using it before going through a lengthy troubleshooting process.\
+</div>\
+<div id="toc"><h2>Table of Contents</h2><ul><li class="toclevel-1"><a href="#w_firefox-safe-mode-ijidigio-iaieiaieikioig-ioik-iuigioigio-ioioicioig"><span class="tocnumber">1</span> <span class="toctext">Firefox Safe Mode යටතේ වීවුර්ත කර ගන්නේ කෙසේද?</span></a></li><li class="toclevel-1"><a href="#w_safe-mode-igicikij"><span class="tocnumber">2</span> <span class="toctext">Safe Mode තිරය</span></a></li><li class="toclevel-1"><a href="#w_troubleshooting-problems-in-safe-mode"><span class="tocnumber">3</span> <span class="toctext">Troubleshooting problems in Safe Mode</span></a><ul><li class="toclevel-2"><a href="#w_the-problem-happens-in-safe-mode"><span class="tocnumber">3.1</span> <span class="toctext">The problem happens in Safe Mode</span></a></li><li class="toclevel-2"><a href="#w_the-problem-does-not-happen-in-safe-mode"><span class="tocnumber">3.2</span> <span class="toctext">The problem does not happen in Safe Mode</span></a></li></ul></li><li class="toclevel-1"><a href="#w_exiting-safe-mode"><span class="tocnumber">4</span> <span class="toctext">Exiting Safe Mode</span></a></li></ul></div>\
+<h1 id="w_firefox-safe-mode-ijidigio-iaieiaieikioig-ioik-iuigioigio-ioioicioig">Firefox Safe Mode යටතේ වීවුර්ත කර ගන්නේ කෙසේද?</h1>\
+<p><span class="for" data-for="not fx57">Click the menu button \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="New Fx Menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+, click help \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Help-29" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-10-08-eaa722.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="fx57">Click the menu button \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Fx57menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2017-10-22-15-37-15-18c775.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+, click <span class="menu">Help</span></span> and select <span class="menu">Restart with Add-ons Disabled…</span>. Firefox will start up with the Firefox Safe Mode dialog. </p><div class="note"><strong>Note:</strong> You can also start Firefox in Safe Mode by <span class="for" data-for="win">holding down the <span class="key">shift</span> key while starting Firefox.</span><span class="for" data-for="mac">holding down the <span class="key">option</span> key while starting Firefox.</span><span class="for" data-for="linux">quitting Firefox and then going to your <strong>Terminal</strong> and running: <code>firefox -safe-mode</code><br>You may need to specify the Firefox installation path (e.g. <span class="filepath">/usr/lib/firefox</span>)</span></div>\
+<p></p>\
+<h1 id="w_safe-mode-igicikij">Safe Mode තිරය</h1>\
+<dl><dd>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="SafeMode-Fx35" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-12-18-07-22-44-971830.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dd></dl>\
+<p>ඔබ සදහා අවස්ථා දෙකක් ඇත:\
+</p>\
+<ul><li> <span class="button">Start in Safe Mode</span> බොත්තම click කර  temporarily disable your extensions and themes, turn off hardware acceleration and reset toolbar and button customizations. When you leave Safe Mode and start Firefox up normally, your extensions, themes, and settings will return to the state they were in before you entered Safe Mode.\
+</li><li> Clicking the <span class="button">Refresh Firefox</span> button will restore Firefox to its factory default state while saving your essential information. See <a href="/si/kb/refresh-%E0%B7%86%E0%B6%BA%E0%B6%BB%E0%B7%8A%E0%B7%86%E0%B7%9C%E0%B6%9A%E0%B7%8A%E0%B7%83%E0%B7%8A-%E0%B6%87%E0%B6%A9%E0%B7%9D%E0%B6%B1-%E0%B6%BA%E0%B7%85%E0%B7%92%20%E0%B6%B4%E0%B7%92%E0%B7%84%E0%B7%92%E0%B6%A7%E0%B7%94%E0%B7%80%E0%B7%93%E0%B6%B8-%E0%B7%83%E0%B7%84-%E0%B7%83%E0%B7%90%E0%B6%9A%E0%B7%83%E0%B7%94%E0%B6%B8%E0%B7%8A">ෆයර්ෆොක්ස් refresh කිරීම - ඇඩෝන නැවත යළි පිහිටුවීම සහ සැකසුම්</a> for more information about this option.\
+</li></ul>\
+<h1 id="w_troubleshooting-problems-in-safe-mode">Troubleshooting problems in Safe Mode</h1>\
+<p>Once Firefox is in Safe Mode, you'll want to test its behavior and see if the problem goes away.\
+</p>\
+<h2 id="w_the-problem-happens-in-safe-mode">The problem happens in Safe Mode</h2>\
+<p>If the problem still happens in Safe Mode, it is not being caused by an extension or theme. Other possible causes could be plugins or changes made to Firefox preference settings, which are not disabled in Safe Mode. See the following articles for solution:\
+</p>\
+<ul><li><a href="/si/kb/troubleshoot-and-diagnose-firefox-problems">Troubleshoot and diagnose Firefox problems</a>\
+</li><li><a href="/si/kb/troubleshoot-issues-with-plugins-fix-problems">Troubleshoot issues with plugins like Flash or Java to fix common Firefox problems</a>\
+</li><li><a href="/si/kb/reset-preferences-fix-problems">Reset Firefox preferences to troubleshoot and fix problems</a>\
+</li></ul>\
+<h2 id="w_the-problem-does-not-happen-in-safe-mode">The problem does not happen in Safe Mode</h2>\
+<p>If the problem does not happen in Safe Mode, it is most likely because of an extension, theme or hardware acceleration.\
+</p>\
+<ul><li> See the article <a href="/si/kb/troubleshoot-extensions-themes-to-fix-problems">Troubleshoot extensions, themes and hardware acceleration issues to solve common Firefox problems</a> for solutions.\
+</li></ul>\
+<h1 id="w_exiting-safe-mode">Exiting Safe Mode</h1>\
+<ol><li> <div class="for" data-for="not fx57"><p>Click the menu button \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="New Fx Menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ and then click <span class="for" data-for="win">Exit</span><span class="for" data-for="mac,linux">Quit</span>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Close 29" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-07-11-44-35-716f6b.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+.\
+</p></div><div class="for" data-for="fx57"><p><span class="for" data-for="win">Click the Firefox menu \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Fx57Menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2017-10-22-15-37-15-18c775.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+, then click <span class="menu">Exit</span>.</span>\
+<span class="for" data-for="mac">Click the Firefox menu at the top of the screen, then click <span class="menu">Quit Firefox</span>.</span><span class="for" data-for="linux">Click the Firefox menu \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Fx57Menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2017-10-22-15-37-15-18c775.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+, then click <span class="menu">Quit</span>.</span>\
+</p></div>\
+</li><li> Start Firefox as you normally would.\
+<ul><li> If Firefox keeps starting in Safe Mode, see <a href="/si/kb/firefox-is-stuck-in-safe-mode">Firefox is stuck in Safe Mode</a>.\
+</li></ul>\
+</li></ol>\
+<p><br>\
+ \
+<br> <br>\
+<em><strong>Based on information from  <a href="http://kb.mozillazine.org/Safe_Mode">Safe mode (mozillaZine KB)</a></strong></em>\
+</p>	si
+<p>Add-ons යනු ඔබට Firefox හි ස්ථාපනය කළ හැකි යෙදුම් ආකාරයකි. අන්තර්ජාලය ඇසුරින් මිළ ගණන් සැසඳීම,කාළගුණ දත්ත පිරික්සීම, Firefox හි පෙනුම වෙනස් කිරිම, සංගීතය ට සවන් දීම මෙන්ම ඔබගේ faceboook ගිණුම යාවත්කාලින කිරිම වැනි කාර්යයන් සඳහා සුදුසු වන පරිදි Add-ons ලබාගත හැකියි.මෙම ලිපිය මඟින් දැනට පවතින විවිධාකාර Add-ons මෙන්ම ඒවා සොයාගන්නා සැටි හා ස්ථාපනය කරගන්නා ආකාරය පැහැදිලි කෙරේ.\
+\
+</p><div class="for" data-for="not fx48"><p><div class="youtube-embed">\
+  <iframe src="//www.youtube.com/embed/i4y_CeifV2s?wmode=transparent&amp;rel=0" frameborder="0" allowfullscreen></iframe>\
+</div>\
+</p></div>\
+<div id="toc"><h2>Table of Contents</h2><ul><li class="toclevel-1"><a href="#w_ieiiid-icioigiaiiigij-ioie-ieiaioic-add-ons-iaikioiu-iiiuigiaia-ig"><span class="tocnumber">1</span> <span class="toctext">ඔබට ස්ථාපනය කළ හැකි Add-ons වර්ග මොනවා ද?</span></a></li><li class="toclevel-1"><a href="#w_iuiaieiiioig-add-ons-iciuijia-iuiaigieii-ieia-iciaia-icioigiaiiigij-ioikiuigioigia-iiioiaikij"><span class="tocnumber">2</span> <span class="toctext">ගැළපෙන Add-ons සොයා ගැනීම හා ඒවා ස්ථාපනය කරගන්නා ආකාරය</span></a></li><li class="toclevel-1"><a href="#w_add-ons-iail-igiyia-icioiaieii"><span class="tocnumber">3</span> <span class="toctext">Add-ons වල දෝෂ සෙවීම</span></a><ul><li class="toclevel-2"><a href="#w_add-ons-icioigiaiiigij-ioicikiciiio-igie-ieia-ioiaigio-ioicikieiiio-igie-iiigiciaicij-ieiaioic-iuiaidieie"><span class="tocnumber">3.1</span> <span class="toctext">Add-ons ස්ථාපනය කිරිමේ දී හා ඉවත් කිරීමේ දී ඇතිවිය හැකි ගැටළු</span></a></li><li class="toclevel-2"><a href="#w_problems-caused-by-add-ons"><span class="tocnumber">3.2</span> <span class="toctext">Problems caused by add-ons</span></a></li></ul></li></ul></div>\
+<h1 id="w_ieiiid-icioigiaiiigij-ioie-ieiaioic-add-ons-iaikioiu-iiiuigiaia-ig">ඔබට ස්ථාපනය කළ හැකි Add-ons වර්ග මොනවා ද?</h1>\
+<p>Add-ons සාමාන්‍යයෙන් වර්ග තුනකි:\
+</p>\
+<ul><li> <a href="https://addons.mozilla.org/firefox/extensions/">Extensions</a><br> \
+</li></ul>\
+<p>දිගු මඟින් Firefox හි පවතින අංගයන් වෙනස් කිරීම හෝ ඊට නවමු විශේෂාංග එක් කිරීම හෝ සිදු කළ හැකියි.මෙමඟින් වෙළඳ දැන්වීම් වාරණය කිරීම,වෙබ් අඩවි වලින් Video බාගත කිරීම, Facebook,Twitter වැනි වෙබ් අඩවි සමඟ ගැළපෙන පරිදි Firefox ඒකාග්‍ර කිරීම මෙන්ම වෙනත් බ්‍රව්සර වලින් අංගයන් එක් කිරීම ද සිදු කළ හැකියි. \
+</p>\
+<ul><li> <a href="/si/kb/use-themes-change-look-of-firefox">Appearance</a> <br> \
+</li></ul>\
+<p>පෙනුම ට අදාළ වන Add-ons වර්ග දෙකකි.ඒවා නම් buttons හා menu වල පෙනුම වෙනස් කරන Complete Themes හා පසුතල  රූප මඟින් menu bar හා  tab strip වල පෙනුම වෙනස් කරන Background Themes වේ.\
+</p>\
+<ul><li> <a href="/si/kb/use-plugins-play-audio-video-games">Plugins</a> <br> Plugins යනු සියලු ආකාරයේ අන්තර්ජාල අන්තර්ගතයන් ට සහාය දක්වන Add-ons වර්ගයකි.මෙහි video, audio, online games, presentations හා තවත් දෑ සඳහා යොදා ගැනෙනා Flash සහ Silverlight වැනි patented formats ඇතුළත් වේ.වෙනත් සමාගම් මඟින් Plugins නිර්මාණය කිරීම හා බෙදා හැරීම සිදු කරයි.<div class="for" data-for="not fx52">\
+<div class="warning">Support ended for all NPAPI <a href="/si/kb/use-plugins-play-audio-video-games">plugins</a> except for Flash in <a href="/si/kb/find-what-version-firefox-you-are-using">Firefox version</a> 52, released March 7, 2017. See <a href="https://www.fxsitecompat.com/docs/2016/plug-in-support-has-been-dropped-other-than-flash/">this compatibility document</a> and <a href="/si/kb/npapi-plugins">this article</a> for details.</div>\
+</div><div class="for" data-for="fx52">\
+<div class="note">\
+<p>Beginning with <a href="/si/kb/find-what-version-firefox-you-are-using">Firefox version</a> 52, support has ended for all NPAPI <a href="/si/kb/use-plugins-play-audio-video-games">plugins</a> except for Adobe Flash. See <a href="https://www.fxsitecompat.com/docs/2016/plug-in-support-has-been-dropped-other-than-flash/">this compatibility document</a> and <a href="/si/kb/npapi-plugins">this article</a> for details.\
+</p>\
+</div>\
+</div>\
+</li></ul>\
+<p>ඔබ විසින් ස්ථාපනය කර ඇති වර්ග මොනවදැයි බැලීමට:\
+</p>\
+<ol><li>Click the menu button \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="New Fx Menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ and choose <span class="button">Add-ons</span>. The Add-ons Manager tab will open.\
+</li><li> Select the <span class="menu">Extensions</span>, <span class="menu">Appearance</span> or <span class="menu">Plugins</span> panels to view your add-ons.\
+</li></ol>\
+<h1 id="w_iuiaieiiioig-add-ons-iciuijia-iuiaigieii-ieia-iciaia-icioigiaiiigij-ioikiuigioigia-iiioiaikij">ගැළපෙන Add-ons සොයා ගැනීම හා ඒවා ස්ථාපනය කරගන්නා ආකාරය</h1>\
+<div class="for" data-for="not fx48"><p>Here is an overview to get you started:\
+</p>\
+<ol><li> <p>Click the menu button <span class="for" data-for="fx57">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Fx57menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2017-10-22-15-37-15-18c775.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="not fx57">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="New Fx Menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span> and choose <span class="for" data-for="not fx57"><span class="menu">Add-ons</span></span><span class="for" data-for="fx57"><span class="menu">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Fx57Addons-icon" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2017-10-30-08-25-40-b7327f.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ Add-ons</span></span>. The Add-ons Manager tab will open.\
+</p>\
+</li><li>In the Add-ons Manager tab, select the <span class="menu">Get Add-ons</span> panel.</li>\
+<li> To see more information on a Featured Add-on or Theme, click it. You can then click the green <span class="button">Add to Firefox</span> button to install it. \
+<ul><li>You can also search for specific add-ons by using the search box at the top. You can then install any add-ons you find with the <span class="button">Install</span> button.\
+<dl><dt><span class="for" data-for="win">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Addon1 29 Win" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-12-26-16-8fd308.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Addon2 29 Win" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-12-25-57-f5b615.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="mac">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Addon1 29 Mac" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-12-24-55-54f335.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Addon2 29 Mac" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-12-24-29-eed4aa.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="linux">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Addon1 29 Lin" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-12-25-40-08aac1.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Addon2 29 Lin" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-03-20-12-25-16-64d515.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span>\
+</dt></dl>\
+</li></ul>\
+</li><li>Firefox will download the requested add-on and may ask you to confirm that you want to install it.\
+</li><li> Click <span class="button">Restart Now</span> if it pops up. Your tabs will be saved and restored after the restart.\
+</li></ol>\
+<p>Some extensions place a button in the toolbar after installation. You can remove those or move them into the menu if you want - see <a href="/si/kb/customize-firefox-controls-buttons-and-toolbars">Customize Firefox controls, buttons and toolbars</a>.\
+</p><p>If you want to uninstall an add-on, see <a href="/si/kb/disable-or-remove-add-ons">Disable or remove Add-ons</a>.\
+</p></div><div class="for" data-for="fx48"><p>Here is an overview to get you started:\
+</p>\
+<ol><li> <p>Click the menu button <span class="for" data-for="fx57">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Fx57menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2017-10-22-15-37-15-18c775.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span><span class="for" data-for="not fx57">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="New Fx Menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+</span> and choose <span class="for" data-for="not fx57"><span class="menu">Add-ons</span></span><span class="for" data-for="fx57"><span class="menu">\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Fx57Addons-icon" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2017-10-30-08-25-40-b7327f.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ Add-ons</span></span>. The Add-ons Manager tab will open.\
+</p>\
+</li><li>In the Add-ons Manager tab, select the <span class="menu">Get Add-ons</span> panel.</li>\
+<li> To install a featured add-on, click the grey toggle button, which will turn green. To uninstall an addon you just installed, click the toggle button again. \
+<dl><dt> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Fx48-GetAddons" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-10-26-13-21-45-828578.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+</li></ol>\
+<p>At the bottom of the list of featured add-ons, there's a <span class="button">See more add-ons!</span> button you can click. It will take you to <a href="http://addons.mozilla.org">addons.mozilla.org</a> where you can search for specific add-ons.\
+</p><p>Some extensions place a button in the toolbar after installation. You can remove those or move them into the menu if you want - see <a href="/si/kb/customize-firefox-controls-buttons-and-toolbars">Customize Firefox controls, buttons and toolbars</a>.\
+</p><p>If you later want to uninstall an add-on, see <a href="/si/kb/disable-or-remove-add-ons">Disable or remove Add-ons</a>.\
+</p></div>\
+<h1 id="w_add-ons-iail-igiyia-icioiaieii">Add-ons වල දෝෂ සෙවීම</h1>\
+<p>For information on troubleshooting problems with extensions, plugins or themes, see the articles below.\
+</p>\
+<h2 id="w_add-ons-icioigiaiiigij-ioicikiciiio-igie-ieia-ioiaigio-ioicikieiiio-igie-iiigiciaicij-ieiaioic-iuiaidieie">Add-ons ස්ථාපනය කිරිමේ දී හා ඉවත් කිරීමේ දී ඇතිවිය හැකි ගැටළු</h2>\
+<ul><li> <a href="/si/kb/unable-install-add-ons-extensions-or-themes">Unable to install add-ons (extensions or themes)</a>\
+</li><li> <a href="/si/kb/cannot-remove-add-on-extension-or-theme">Cannot remove an add-on (extension or theme)</a>\
+</li></ul>\
+<h2 id="w_problems-caused-by-add-ons">Problems caused by add-ons</h2>\
+<ul><li> <a href="/si/kb/troubleshoot-extensions-themes-to-fix-problems">Troubleshoot extensions, themes and hardware acceleration issues to solve common Firefox problems</a>\
+</li><li> <a href="/si/kb/troubleshoot-issues-with-plugins-fix-problems">Troubleshoot issues with plugins like Flash or Java to fix common Firefox problems</a>\
+</li><li> <a href="/si/kb/troubleshoot-firefox-issues-caused-malware">Troubleshoot Firefox issues caused by malware</a>\
+</li><li> <a href="/si/kb/remove-toolbar-has-taken-over-your-firefox-search">Remove a toolbar that has taken over your Firefox search or home page</a>\
+</li><li> <a href="/si/kb/re-enable-add-ons-disabled-when-updating">Re-enable add-ons that were disabled when updating Firefox</a>\
+</li><li> <a href="/si/kb/add-ons-cause-issues-are-on-blocklist">Add-ons that cause stability or security issues are put on a blocklist</a>\
+</li></ul>\
+<div class="for" data-for="fx40">\
+<ul><li> <a href="/si/kb/%E0%B7%86%E0%B6%BA%E0%B6%BB%E0%B7%8A%E0%B7%86%E0%B7%9C%E0%B6%9A%E0%B7%8A%E0%B7%83%E0%B7%8A%20%20%E0%B6%AD%E0%B7%94%E0%B6%BD%E0%B6%A7%20%E0%B6%87%E0%B6%A9%E0%B7%9D%E0%B6%B1%20%E0%B6%B8%E0%B6%9F%E0%B7%92%E0%B6%B1%E0%B7%8A%20%E0%B6%B4%E0%B7%92%E0%B7%80%E0%B7%92%E0%B7%83%E0%B7%93%E0%B6%B8">ෆයර්ෆොක්ස්  තුලට ඇඩෝන මඟින් පිවිසීම</a>\
+</li></ul>\
+</div>	si
+<p>Firefox භාවිතා කිරීමේ පළමු පියවර වශයෙන් ඔබ සිදු කලයුතු වන්නේ Firefox ඔබගේ පරිගණකයේ ස්ථාපනය කිරීමයි. මෙම ලිපිය මගින් ඔබට Linux හි Firefox ස්ථාපනය කරන අකාරය පිළිබඳව අවබෝධය ලබාගත හැක. අනෙකුත් මෙහෙයුම් පද්ධති සදහා, <a href="/si/kb/how-download-and-install-firefox-windows">How to download and install Firefox on Windows</a> හා <a href="/si/kb/Mac%20%E0%B6%B8%E0%B6%AD%20%E0%B7%86%E0%B6%BA%E0%B6%BB%E0%B7%8A%E0%B7%86%E0%B7%9C%E0%B6%9A%E0%B7%8A%E0%B7%83%E0%B7%8A%20%E0%B7%83%E0%B7%8A%E0%B6%AE%E0%B7%8F%E0%B6%B4%E0%B6%B1%E0%B6%BA">Mac මත ෆයර්ෆොක්ස් ස්ථාපනය</a> බලන්න.\
+</p><p>බොහොමයක් Linux බෙදාහැරීම් වල මෙහෙයුම් පද්ධතිය මගින්ම Firefox ස්ථාපනය කර තිබෙන අතර, මෙම බෙදාහැරීම් බොහොමයක පැකේජ කළමනාකරණ පද්ධතිය මගින් ඔබට Firefox ස්ථාපනය කරගැනීමේ හැකියාව ලබාදී ඇත. සාමාන්‍යයෙන් ඔබ Firefox ස්ථාපනය කලයුතු වන්නේ පැකේජ කළමනාකරණ පද්ධතිය මගිනි. පැකේජ කළමනාකරණ පද්ධතිය විසින්:\
+</p>\
+<ul><li> ඔබ සතුව අවශ්‍ය කරනු ලබන සියළුම libraries ඇති බවට තහවුරු කිරීම\
+</li><li> ඔබගේ Linux බෙදාහැරීම මගින් භාවිත කල හැකි වන පරිදි Firefox ස්ථාපනය කිරීම\
+</li><li> Firefox දියත් කල හැකි කෙටිමං අයිකන සැකසීම\
+</li><li> ඔබගේ පරිගණකය භාවිතා කරනු ලබන ඕනෑම පරිශීලකයෙකුට Firefox භාවිතා කිරීමේ අවස්ථාව ලබාදීම\
+</li><li> අනෙකුත් ඕනෑම යෙදුම් මෘදුකාංගයක් ඉවත් කරන අකාරයෙන්ම Firefox මෘදුකාංගයද ඉවත් කිරීමේ හැකියාව සැලසීම\
+</li></ul>\
+<p>පැකේජ කළමනාකරණ පද්ධතිය භාවිතයේ අවාසි කීපයක්ද තිබේ:\
+</p>\
+<ul><li> එමගින් Firefox හි නවතම පිටපත ලබනොදීමේ අවස්ථා\
+</li><li> Firefox නොවන වෙනත් වෙළදනාමයක පිටපතක් ලබාදීම\
+</li></ul>\
+<h1 id="w_iiiaioioic-ioieiiigiaioikie-iiigioiuigicijioio-iiiuicigio-icioigiaiiigij-ioicikieii">පැකේජ කළමනාකරණ පද්ධතියක් මගින් ස්ථාපනය කිරීම</h1>\
+<p>පැකේජ කළමනාකරණ පද්ධතිය මගින් Firefox ස්ථාපනය කිරීම සදහා, ඔබ විසින් භාවිතා කරනු ලබන Linux බෙදාහැරීමේ ලේඛගත කිරීම බලන්න.\
+</p>\
+<h1 id="w_iiiaioioic-ioieiiigiaioikie-iiigioiuigicijioicigio-iiicidigigie-firefox-icioigiaiiigij-ioicikieii">පැකේජ කළමනාකරණ පද්ධතියකින් පිටතදී Firefox ස්ථාපනය කිරීම</h1>\
+<p>පැකේජ කළමනාකරණ පද්ධතියකින් පිටතදී Firefox ස්ථාපනය කිරීම සදහා සම්පුර්ණ උපදෙස් මාලාවක් ඔබගේ Linux බෙදාහැරීමේ සහාය වෙබ් අඩවියේ පළකර තිබීමට පුළුවන. උදාහරණයක් වශයෙන්:\
+</p>\
+<ul><li> <a href="https://help.ubuntu.com/community/FirefoxNewVersion">Installing Firefox on Ubuntu</a>\
+</li><li> <a href="http://en.opensuse.org/Firefox">Installing Firefox on OpenSuse</a>\
+</li></ul>\
+<p>{සටහන}\
+</p>\
+<ul><li> <strong>ඔබ විසින් Firefox ස්ථාපනය කිරීමට පෙර</strong>, ඔබගේ පරිගණකයේ <strong> <a href="http://www.mozilla.org/firefox/system-requirements.html">required libraries</a></strong> ස්ථාපනය කර ඇති බවට තහවුරු කරගන්න. ඇතැම් libraries ස්ථාපනය කර නොතිබීම ඔබගේ පරිගණකයේ Firefox හි ක්‍රියාකාරිත්වයට බලපෑ හැක.\
+</li><li> Mozilla විසින් ලබාදෙන ස්ථාපන ගොනුවේ <strong>.tar.bz2</strong> ආකෘතියේ Firefox හි මුලාශ්‍ර අඩංගු නොවන අතර එහි ඇත්තේ පෙර සම්පාදිත ද්විමය ගොනු වේ, එමනිසා ඔබට පහසුවෙන්ම එය විහිදුවා ක්‍රියාකරවීමේ හැකියාව ඇත. ආකෘතිය මුලාශ්‍රයේ සිටම සම්පාදනය කිරීමේ අවශ්‍යතාවයක් නැත.\
+</li><li> පහත සදහන් උපදෙස් ඔබට Firefox ඔබගේ home නාමාවලියේ ස්ථාපනය කිරීම, සහ <strong>දැනට භාවිතා කරනු ලබන පරිශීලකයාට පමණක්</strong>  <strong>ක්‍රියාත්මක කරවීම</strong> සදහා අදාළ උපදෙස් වේ.&lt;/div&gt;\
+</li></ul>\
+<ol><li> ඔබගේ home නාමාවලියට Firefox <a href="http://www.getfirefox.com">the Firefox download page</a> මගින් බාගත කරගන්න. \
+<ul><li><strong>සටහන:</strong> ඔබගේ කැමැත්ත සහ අවශ්‍යතාවය පරිදි භාෂාව සහ මෙහෙයුම් පද්ධතිය වෙනස් කරගැනීමට අවශ්‍යනම් <a href="https://www.mozilla.org/firefox/all/">Systems &amp; Languages download page</a> වෙත යොමුවන්න.\
+</li></ul>\
+</li><li> Open a <strong>Terminal</strong> and go to your home directory: <code>cd ~</code>\
+</li><li> Extract the contents of the downloaded file: <code>tar xjf firefox-*.tar.bz2</code>\
+</li><li> Close Firefox if it's open.\
+</li><li> To start Firefox, run the <span class="filepath">firefox</span> script in the <span class="filepath">firefox</span> folder: <code>~/firefox/firefox</code>\
+</li></ol>\
+<p>Firefox should now start. You can then create an icon on your desktop to run this command.\
+</p>\
+<h2 id="w_libstdc5-error">libstdc++5 error</h2>\
+<p>As noted above, you need to install the <a href="http://www.mozilla.org/firefox/system-requirements.html">required libraries</a> for Firefox to work. Many distributions don't include libstdc++5 by default.\
+</p>\
+<h2 id="w_firefox-not-installed-message-or-wrong-version-of-firefox-starts">"firefox not installed" message or wrong version of Firefox starts</h2>\
+<p>If Firefox is installed following the instructions given above, it must be started (in a <strong>Terminal</strong> or in a launcher on the Desktop, for example) using the command: <code>~/firefox/firefox</code>\
+</p><p>If you try to start Firefox in a <strong>Terminal</strong> with the command: <code>firefox</code>, it will either start the package-manager-installed version of Firefox or will tell you the program is not installed.\
+</p>	si
+<div class="note"><strong>ෆයර්ෆොක්ස්  ESR භාවිත කරන්නන්:</strong> ඇඩෝන මඟින් පිවිසීම ESR හි 45 වන අනුවාදයේ අන්තර්ගත වේ..</div>\
+<p>ඔබේ browser එකෙහි settings ඔබේ අවසරයකින් තොරව වෙනස් කිරීම සහ ඔබේ තොරතුරු සොරකම් කිරීම විශාල වශයෙන්  වැඩි වී ඇත.අනවශය toolbars සහ buttons browser එකට add කිරීම, search settings වෙනස් කරන්න වගේම ඔබෙ webpage 1ට අනවශය adds දාන්නත් සමහර ඇඩෝන වලට පුලුවන්. දැන් ඔබ install කරන ඇඩෝන මොසිල්ලා ආයතනය මඟින් අනුමත කරපු ඇඩෝනද වග ෆයර්ෆොක්ස්  මගින් check කරනවා. මෙම ලිපිය මගින් <em>ඇඩෝන මඟින් පිවිසීම</em> විශේෂාංගය ගැන සහ එහි හැසිරීම ගැන විස්තර කෙරේ. \
+</p><div class="for" data-for="not fx40">\
+<div class="warning">මෙම නව විශේෂාංගය භාවිත කිරීමට, මෙම link එක භාවිත කරන්න. <a href="/si/kb/Firefox-%E0%B6%B1%E0%B7%80%E0%B6%AD%E0%B6%B8-%E0%B6%BA%E0%B7%8F%E0%B7%80%E0%B6%AD%E0%B7%8A%E0%B6%9A%E0%B7%8F%E0%B6%BD-%E0%B6%9A%E0%B7%92%E0%B6%BB%E0%B7%93%E0%B6%B8"> update to the latest version of Firefox</a>.</div>\
+</div>\
+<div id="toc"><h2>Table of Contents</h2><ul><li class="toclevel-1"><a href="#w_iiieiyig-iiiaicigio-iiiciaicicieii-ijigie-ioieiiioioig"><span class="tocnumber">1</span> <span class="toctext">ඇඩෝන මඟින් පිවිසීම යනු කුමක්ද?</span></a></li><li class="toclevel-1"><a href="#w_what-types-of-add-ons-need-to-be-signed"><span class="tocnumber">2</span> <span class="toctext">What types of add-ons need to be signed?</span></a></li><li class="toclevel-1"><a href="#w_where-would-i-encounter-unsigned-add-ons"><span class="tocnumber">3</span> <span class="toctext">Where would I encounter unsigned add-ons?</span></a></li><li class="toclevel-1"><a href="#w_what-can-i-do-if-firefox-disables-an-installed-add-on"><span class="tocnumber">4</span> <span class="toctext">What can I do if Firefox disables an installed add-on?</span></a><ul><li class="toclevel-2"><a href="#w_override-add-on-signing-advanced-users"><span class="tocnumber">4.1</span> <span class="toctext">Override add-on signing (advanced users)</span></a></li><li class="toclevel-2"><a href="#w_what-are-my-options-if-i-want-to-use-an-unsigned-add-on-advanced-users"><span class="tocnumber">4.2</span> <span class="toctext">What are my options if I want to use an unsigned add-on? (advanced users)</span></a></li></ul></li></ul></div>\
+<h1 id="w_iiieiyig-iiiaicigio-iiiciaicicieii-ijigie-ioieiiioioig">ඇඩෝන මඟින් පිවිසීම යනු කුමක්ද?</h1>\
+<p>යම්කිසි ආරක්ෂක උපදෙස් කිහිපයක් පිලිපදින හදුනාගත් ඇඩෝන මොසිල්ලා ආයතනය මඟින් හදුනාගෙන ඒවාට පිවිසීමට ඉඩ දෙනු ලැබේ. වෙබ් පිටුවට ඇතුල් වී භාවිත කල යුතු ඇඩෝන [<a href="http://addons.mozilla.org">addons.mozilla.org</a>] වෙබ් අඩවිය තුලදී දැකගන්න පුලුවන්. Add-ons hosted on other sites will need to follow the same guidelines in order to be signed by Mozilla.  \
+</p>\
+<div class="note"><strong>Developers:</strong> To learn more about add-on signing guidelines, see  <a href="https://developer.mozilla.org/en-US/Add-ons/Distribution">Signing and distributing your add-on</a> and <a href="https://developer.mozilla.org/en-US/Add-ons/AMO/Policy/Reviews">Review Policies</a> at Mozilla Developer Network.</div>\
+<p>While Firefox currently has a <a href="/si/kb/add-ons-cause-issues-are-on-blocklist">blocklist</a> system, it is increasingly difficult to track and block the growing number of malicious add-ons. The new add-on signing process requires developers to follow <a href="https://developer.mozilla.org/en-US/Add-ons/AMO/Policy/Reviews">Mozilla Developer guidelines</a>.  Add-on signing in Firefox helps protect against browser hijackers and other <a href="https://wikipedia.org/wiki/Malware">malware</a> by making it harder for them to be installed. <span class="for" data-for="=fx40,=fx41,=fx42">Firefox will warn you about third-party add-ons that are not digitally signed by Mozilla. For now you can still install the unverified add-on at your own risk.</span>\
+</p><p>In Firefox version 43 and above, Firefox prevents you from installing unsigned add-ons and disables any unsigned add-ons that are already installed.  \
+</p>\
+<h1 id="w_what-types-of-add-ons-need-to-be-signed">What types of add-ons need to be signed?</h1>\
+<p><a href="/si/kb/firefox-add-ons#w_what-types-of-add-ons-can-i-install">Extensions</a> (add-ons that add features to Firefox) will need to be signed. Themes, language packs and plugins do not need to be signed.\
+</p>\
+<h1 id="w_where-would-i-encounter-unsigned-add-ons">Where would I encounter unsigned add-ons?</h1>\
+<p>Add-ons installed through the <a href="https://addons.mozilla.org/firefox/">official Firefox Add-ons site</a> go through security checks before they are published. These add-ons are verified and signed.  When you install an add-on through another website, Firefox checks to make sure that the add-on is digitally signed.\
+</p><div class="for" data-for="not fx43">\
+<div class="warning">Install add-ons only from developers you trust. Unverified add-ons may contain malware or hijackers that can alter your settings and steal your information.</div>\
+</div><div class="for" data-for="fx43">\
+<h1 id="w_what-can-i-do-if-firefox-disables-an-installed-add-on">What can I do if Firefox disables an installed add-on?</h1>\
+<p>If an unsigned add-on is disabled, you won't be able to use it and the Add-ons manager will show a message that the add-on <em>could not be verified for use in Firefox and has been disabled</em>. You can <a href="/si/kb/disable-or-remove-add-ons#w_how-to-remove-extensions-and-themes">remove the add-on</a> from Firefox and then reinstall a signed version from the <a href="https://addons.mozilla.org/">Mozilla Add-ons site</a> if one is available.\
+</p><p>If a signed version is not available, contact the add-on developer or vendor to see if they can offer an updated and signed version of that add-on. You can also ask them to <a href="https://developer.mozilla.org/en-US/Add-ons/Distribution">get their add-on signed</a>.\
+</p><div class="for" data-for="=fx43,=fx44,=fx45,=fx46,=fx47">\
+<h2 id="w_override-add-on-signing-advanced-users">Override add-on signing (advanced users)</h2>\
+<p>You can override the setting to enforce the add-on signing requirement by changing the preference <span class="pref">xpinstall.signatures.required</span> to <strong>false</strong> in the <a href="/si/kb/about-config-editor-firefox">Firefox Configuration Editor</a> (<em>about:config</em> page). Support is not available for any changes made with the Configuration Editor so please do this at your own risk. Starting with Firefox version 48, the add-on signing requirement will be enforced with no override in Release and Beta versions of Firefox. See the MozillaWiki article, <a href="https://wiki.mozilla.org/Add-ons/Extension_Signing">Add-ons/Extension Signing</a> for more information.\
+</p></div><div class="for" data-for="fx48">\
+<h2 id="w_what-are-my-options-if-i-want-to-use-an-unsigned-add-on-advanced-users">What are my options if I want to use an unsigned add-on? (advanced users)</h2>\
+<p><a href="https://www.mozilla.org/firefox/organizations/">Firefox ESR</a> version 45, as well as the <a href="https://www.mozilla.org/firefox/developer/">Developer Edition</a> and <a href="https://nightly.mozilla.org/">Nightly</a> versions of Firefox, will allow you to override the setting to enforce the add-on signing requirement by changing the preference   <span class="pref">xpinstall.signatures.required</span> to <strong>false</strong> in the <a href="/si/kb/about-config-editor-firefox">Firefox Configuration Editor</a> (<em>about:config</em> page). There are also special unbranded versions of Firefox that allow this override. See the MozillaWiki article, <a href="https://wiki.mozilla.org/Add-ons/Extension_Signing">Add-ons/Extension Signing</a> for more information.\
+</p></div></div>	si
+<p>\
+</p><p>වෙබ් Push මගින් වෙබ් අඩවි සදහා නව පනිවිඩ හො යාවත්කාලින අන්තර්ගතයට භාවිතා කරන පරිශීලකයන් හට දෙනුම් දෙනු ලබනවා.Firefox විවෘත කල කාලය අතරතුර, අවසර ලබාදී ඇති වෙබ් අඩවි මගින් ඔබෙ බ්රවුසරය වෙත notification එවිය හැකි අතර එවා ඔබෙ තිරය මත ප්රදර්ශනය කළ හැක. පරිශීලකයන් හට මෙම notification  අක්‍රිය කිරිම හෝ ඒ සදහා ඉඩ ලබාදීම  පහසුවෙන් සිදුකල  හැකි අතර මෙම notification පෙනෙන ආකාරය පාලනය කල හැක. \
+</p>\
+<div id="toc"><h2>Table of Contents</h2><ul><li class="toclevel-1"><a href="#w_iaiaieic-igieijieigie-ioil-notifications"><span class="tocnumber">1</span> <span class="toctext">වැඩි දීයුනු කල Notifications</span></a></li><li class="toclevel-1"><a href="#w_web-push-ijigie-ioieiiioioig"><span class="tocnumber">2</span> <span class="toctext">Web Push යනු කුමක්ද?</span></a></li><li class="toclevel-1"><a href="#w_how-does-it-work"><span class="tocnumber">3</span> <span class="toctext">How does it work?</span></a></li><li class="toclevel-1"><a href="#w_what-information-do-i-share-with-a-website"><span class="tocnumber">4</span> <span class="toctext">What information do I share with a website?</span></a></li><li class="toclevel-1"><a href="#w_what-information-does-firefox-use-to-provide-web-push"><span class="tocnumber">5</span> <span class="toctext">What information does Firefox use to provide Web Push?</span></a></li><li class="toclevel-1"><a href="#w_how-do-i-revoke-web-push-permissions-from-a-specific-site"><span class="tocnumber">6</span> <span class="toctext">How do I revoke Web Push permissions from a specific site?</span></a></li><li class="toclevel-1"><a href="#w_how-do-i-add-web-push-to-my-website"><span class="tocnumber">7</span> <span class="toctext">How do I add Web Push to my website?</span></a></li></ul></div>\
+<h1 id="w_iaiaieic-igieijieigie-ioil-notifications">වැඩි දීයුනු කල Notifications</h1>\
+<p>version 44 ආරම්භ වන විට, එම වෙබ් අඩවිය load වන්නේ නැති  විට පවා Firefox තිරය මත notification ලබාදීමට හැකියාව ඇත.මෙම push API භාවිතා කරමින්,<a href="https://www.w3.org/TR/push-api/">W3C standard</a>, ඕනෑම අවස්ථාවක Firefox   වෙත push message ලැබෙන අතර notification පෙන්විය හැක (පරිශීලකයා විසින් අවසර  දී ඇත්නම්). අඩවි  වලට පවා ඔබට notificationb නොපෙන්වා පසුබිමේ දත්ත යාවත්කාලීන කිරීමට Push භාවිතා කළ හැකිය. ඔබ මේ වන විටත් notification යැවීමට වෙබ් අඩවියක් සඳහා අවසර ලබා දී ඇත්නම් , එම වෙබ් අඩවියට  Push API භාවිතා කිරීමට හැකි වනු . ඔබට මේ උපදෙස් අනුගමනය කරමින් notification  යැවීමට වෙබ් අඩවියක් සඳහා අවසර ලබා දිය යුතු ද නැත් ද යන්න තෝරා ගත හැක:\
+</p>\
+<ol><li> Click the \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Site Info button" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-02-25-12-29-33-78136e.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ icon to bring up the <a href="/si/kb/control-center-site-privacy-and-security-firefox">Control Center - manage site privacy and security controls</a>.\
+</li><li> Click the menu next to <em>Permissions</em> and choose a notification option: <span class="menu">Always Ask</span>, <span class="menu">Allow</span>, <span class="menu">Block</span>.\
+</li></ol>\
+<h1 id="w_web-push-ijigie-ioieiiioioig">Web Push යනු කුමක්ද?</h1>\
+<p>Web Push is an optional feature that allows websites to send you messages even when the site isn’t loaded. Sites can use this feature to provide you with notifications or update data in the background.\
+</p><p>For instance, you can subscribe to notifications from your favorite shopping websites which can notify you of new promotions or offers. You can subscribe to notifications from different websites. A concert site may offer you notifications for shows of your favorite band; you allow that site to notify you, and a week later you get a notification that your band is on tour.\
+</p><p>You will only receive messages from sites for which you have granted permission.\
+</p>\
+<h1 id="w_how-does-it-work">How does it work?</h1>\
+<p>Websites can install a <a href="https://developer.mozilla.org/docs/Web/API/Service_Worker_API">Service Worker</a>, a background web page with a limited set of functionality, that can subscribe to the push service. The website can then send a push message through Mozilla’s Web Push service to your browser, which can process that message and display a notification on your screen.\
+</p>\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="push notification 44" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2016-01-22-13-08-43-059641.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+<p>Clicking the notification can open a website or switch to that site’s tab if loaded.\
+</p>\
+<h1 id="w_what-information-do-i-share-with-a-website">What information do I share with a website?</h1>\
+<p>A website that has been granted permissions can send you push messages when the site isn’t loaded. A quota limits the number of push messages without an on-screen notification that sites can send you. Websites that exceed the quota will have its push messaging disabled and the user must revisit the website again to resubscribe. Web Push does not directly allow websites to determine your IP address.\
+</p>\
+<h1 id="w_what-information-does-firefox-use-to-provide-web-push">What information does Firefox use to provide Web Push?</h1>\
+<p>Firefox maintains an active connection to a push service in order to receive push messages as long as it is open. The connection ends when Firefox is closed. On our server we store a randomized identifier for your browser, along with a randomized identifier for each site you authorize.\
+</p><p>On Firefox for desktop, the push service is operated by Mozilla. Firefox for Android uses a combination of the Mozilla Web Push service and Google’s Cloud Messaging platform to deliver notifications to Firefox for Android.\
+</p><p>In both cases, push messages are encrypted per the <a href="https://tools.ietf.org/html/draft-ietf-webpush-protocol-02">IETF spec</a> and only your copy of Firefox can decipher them. The encrypted messages are stored on the server until they are delivered or expire.\
+</p>\
+<h1 id="w_how-do-i-revoke-web-push-permissions-from-a-specific-site">How do I revoke Web Push permissions from a specific site?</h1>\
+<p>Web Push is always opt-in in Firefox. A site cannot send you push messages without your permission. To stop a specific site from sending you push messages:\
+</p>\
+<ol><li> Go to the Firefox menu \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="New Fx Menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+ and select <span class="for" data-for="win"><span class="menu">Options</span></span><span class="for" data-for="mac,linux"><span class="menu">Preferences</span></span>.\
+</li><li> Select the <span class="menu">Content</span> panel and click the <span class="button">Choose…</span> button under Notifications.\
+</li><li> Select the site.\
+</li><li> Click <span class="button">Remove Site</span>.\
+</li></ol>\
+<p>To stop all sites from sending you push messages, follow the above steps except, instead of selecting a specific site, click <span class="button">Remove All Sites</span>. Websites will not be able to send you messages and will need to ask your permission to send them in the future.\
+</p>\
+<h1 id="w_how-do-i-add-web-push-to-my-website">How do I add Web Push to my website?</h1>\
+<p>The <a href="https://developer.mozilla.org/docs/Web/API/Push_API">Push API specification</a> explains how to create a Service Worker and send push messages.\
+</p>	si
+<p>{ winxp, win7, win8, linux, mac සදහා}</p><div class="warning">This article applies only to Windows 10.</div>{/සදහා}\
+ඔබ වින්ඩොව්ස් 10 දක්වා ඔබේ පරිගණක පද්ධතිය ඉහල නංවා ගැනීමේදී ඔබගේ අවධානයකින් තොරවම ඔබ ඔබට දිස්වන පලමු වෙබ් බ්‍රව්සරය Microsoft Edge වෙත වෙනස් කරගනු ඇත.එය Microsoft firefox බ්‍රව්සරය වෙත වෙනස් කරගැනීම සදහා පහත දක්වා ඇති ක්‍රමවේදය පිලිවෙලින් අනුගමනය කරන්න.\
+<p></p><p>{ fx39 නොවන ඒවා සදහා}\
+</p>\
+<ol><li>පලමුව menu බොත්තම ඔබන්න. \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="new fx menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+, දැන්<span class="menu">Options</span> තෝරන්න..\
+</li><li>General පැනලය යටතේ ඇති { Make Default} බොත්තම ඔබන්න..\
+<dl><dt> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="default 38" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2015-06-08-07-10-57-39e0c0.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+</li><li> Set Default Programs නම් පැනලය ඔබට විවෘත වනු ඇත.\
+</li><li> එම පැනලයේ වම්පස ඇති වැඩසටහන් ලයිස්තුව අතරින් <span class="menu">Firefox</span> යන්න තෝරා {Set this program as default} බොත්තම ඔබන්න.දැන් පැනලය වසා දැමීම සදහා {OK} බොත්තම ඔබන්න.\
+<dl><dt> \
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="Default - Win8 pt 2" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2012-12-20-06-39-14-a7347e.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+</li><li> Close the <em>about:preferences</em> page. Any changes you've made will automatically be saved.\
+\
+</li></ol>\
+<p>{/සදහා}\
+</p><p>{ fx39 සදහා}\
+</p>\
+<ol><li> menu බොත්තම ඔබන්න.\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="new fx menu" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2014-01-10-13-08-08-f52b8c.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+, <span class="menu">Options</span> තෝරන්න..\
+</li><li>General පැනලය යටතේ ඇති{Make Default} බොත්තම ඔබන්න..\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="default 38" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2015-06-08-07-10-57-39e0c0.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+</li><li> <em>Choose default apps</em> තිරය සහිත Windows Settings අයදුම විවෘත වනු ඇත.\
+</li><li>තිරය ඔස්සේ පහලට ගොස් <em>Web browser</em> යටතේ ඇති ප්‍රවේශය ලබා ගන්න.මෙහිදී දැක්වෙන අයිකනය,<em>Microsoft Edge</em> හෝ <em>Choose your default browser</em> යනුවෙන් දක්වනු ඇත.\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="default apps win10" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2015-07-27-15-02-22-5df342.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+</li><li>Firefox ඔබට පලමුව දිස්වෙන බ්‍රව්සරය කරගැනීම සදහා<em>Choose an app</em>තිරයේ Firefox click කරන්න.\
+<dl><dt>\
+\
+\
+  \
+\
+\
+\
+\
+\
+\
+\
+<img alt="firefox default 10" class="wiki-image frameless lazy" data-original-src="https://user-media-stage-cdn.itsre-sumo.mozilla.net/uploads/gallery/images/2015-07-27-16-51-08-daac40.png" src="https://static-media-stage-cdn.itsre-sumo.mozilla.net/static/sumo/img/placeholder.gif" title="">\
+\
+\
+\
+</dt></dl>\
+</li><li>දැන් Firefox ඔබට පලමුව දිස්වන වෙබ් බ්‍රව්සරය ලෙස ලයිස්තුගත වී ඇත.කරන ලද වෙනස්කම් ආරක්ෂා කරගැනීම සදහා පැනලය වසා දමන්න.\
+</li></ol>\
+<p>{/සදහා}\
+</p>	si
+	si

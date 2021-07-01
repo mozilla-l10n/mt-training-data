@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2021-06-01T02:28:06.754300">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2021-07-01T00:33:38.171693">
 	</header>
 	<body>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_rating_content_description" srclang="en-US">
@@ -19,6 +19,14 @@
 				<seg>%1$d/%2$d</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/findinpage/src/main/res/values/strings.xml:mozac_feature_findindpage_accessibility_result" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%1$d out of %2$d</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>%1$d nger %2$d</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:phone_feature_blocked_step_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>1. Go to Android Settings</seg>
@@ -27,12 +35,44 @@
 				<seg>1. Ddu ɣer tisɣal n Android</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_file_not_supported2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%1$s can’t download this file type</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ur izmir %1$s ad d-yagem anaw n ufaylu-a</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/engine-system/src/main/res/values/strings.xml:mozac_browser_engine_system_auth_no_realm_message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%1$s is requesting your username and password.</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Issutur-ak %2$ ism d tguri n uzray-nnek.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:default_device_name_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$s on %2$s %3$s</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
 				<seg>%1$s g %2$s %3$s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_counter_content_description_one_tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>1 tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>1 n useksel</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/engine-system/src/main/res/values/strings.xml:mozac_browser_engine_system_auth_message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%2$s is requesting your username and password. The site says: “%1$s”</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Issutur-ak %2$ ism d tguri n uzray-nnek. Da ittini usit: “%1$s”</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_category_about" srclang="en-US">
@@ -51,20 +91,60 @@
 				<seg>Ɣef %1$s</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/awesomebar/src/main/res/values/strings.xml:mozac_browser_awesomebar_edit_suggestion" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Accept and edit suggestion</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Degg tẓergeḍ asumer</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_one_site_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Access your data for %1$s</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Kcem ɣer isefka-nnek i %1$s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_extra_domains_description_plural" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Access your data on %1$d other domains</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Kcem ɣer isefka-nnek/m ɣef %1$d yigeran yaḍenin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_extra_sites_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Access your data on %1$d other sites</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Kcem ɣer isefka-nnek/m ɣef %1$d yisiten yaḍenin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_one_extra_domain_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Access your data on 1 other domain</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Kcem ɣer isefka-nnek/m ɣef 1 yiger yaḍen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_one_extra_site_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Access your data on 1 other site</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Kcem ɣer isefka-nnek/m ɣef 1 usit yaḍen</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_category_account" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Account</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
 				<seg>Amiḍan</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_account_settings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Account settings</seg>
-			</tuv>
-			<tuv xml:lang="tzm">
-				<seg>Tisɣal n umiḍan</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_account_settings" srclang="en-US">
@@ -75,7 +155,15 @@
 				<seg>Tisɣal n umiḍan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_add" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_account_settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Account settings</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Tisɣal n umiḍan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_add_button_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add</seg>
 			</tuv>
@@ -99,7 +187,7 @@
 				<seg>Rnu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_add_button_content_description" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add</seg>
 			</tuv>
@@ -136,15 +224,15 @@
 				<seg>Add card</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Rnu takaṛḍa</seg>
+				<seg>Rnu takarḍa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_add_folder_fragment_label" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_credit_cards_add_credit_card" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Add folder</seg>
+				<seg>Add credit card</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Rnu asdaw</seg>
+				<seg>Rnu takarḍa n usmad</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_add_folder" srclang="en-US">
@@ -155,6 +243,22 @@
 				<seg>Rnu asdaw</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_add_folder_fragment_label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add folder</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rnu asdaw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_private_tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add private tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rnu aseksel uslig</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sync_address" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Addresses</seg>
@@ -163,12 +267,28 @@
 				<seg>Tansiwin</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_unknown_host_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Address Not Found</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ur tettyafa tansa</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:cfr_pos_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add shortcut</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
 				<seg>Rnu asanf</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:add_tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rnu aseksel</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_supported_checker_notification_content_more_than_two" srclang="en-US">
@@ -187,6 +307,150 @@
 				<seg>Rnu ɣer wassaɣ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tabs_after_one_day" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>After one day</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Seld yan n wass</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tabs_after_one_month" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>After one month</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Seld yan n wayyur</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tabs_after_one_week" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>After one week</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Seld yan n umalass</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_notification_allow_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ssureg</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_allow_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ssureg</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_allow" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ssureg</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_allow" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ssureg</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:qr_scanner_dialog_positive" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>ALLOW</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>SSUREG</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:qr_scanner_confirmation_dialog_message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow %1$s to open %2$s</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ssureg %1$s ad irẓem %2$s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_notification_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow %1$s to send notifications?</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ssureg %1$s ad yazen tineɣmisin?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_camera_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow %1$s to use your camera?</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ssureg %1$s ad issemres takamṛa-nnek?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_camera_and_microphone" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow %1$s to use your camera and microphone?</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ssureg %1$s ad issemres takamṛa d umikṛu-nnek?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_location_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow %1$s to use your location?</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ssureg %1$s ad issemres tansa-nnek?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_microfone_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow %1$s to use your microphone?</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ssureg %1$s ad issemres amikṛu-nnek?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_autoplay_allowed2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow audio and video</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ssureg imsli d uvidyu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:quick_setting_option_autoplay_allowed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow audio and video</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ssureg imsli d uvidyu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_phone_feature_allowed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allowed</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ittusureg</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:enhanced_tracking_protection_allowed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allowed</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ittusureg</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_always_allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Always</seg>
@@ -201,6 +465,22 @@
 			</tuv>
 			<tuv xml:lang="tzm">
 				<seg>Ibr</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_before_unload_dialog_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Are you sure?</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>S tidet?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_phone_feature_ask_to_allow" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ask to allow</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ssuter asureg</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_aug" srclang="en-US">
@@ -240,7 +520,23 @@
 				<seg>Card Number</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Uṭṭun n tkaṛḍa</seg>
+				<seg>Uṭṭun n tkarḍa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_choose_a_color" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Choose a color</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Sti yan uklu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_clear_button_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clear</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Sfeḍ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_clear" srclang="en-US">
@@ -259,39 +555,15 @@
 				<seg>Sfeḍ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_clear_button_description" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:saved_logins_clear_password" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Clear</seg>
+				<seg>Clear password</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Sfeḍ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="tzm">
-				<seg>Mḍel</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:content_description_close_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="tzm">
-				<seg>Mḍel</seg>
+				<seg>Sfeḍ taguri n uzeray</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="tzm">
-				<seg>Mḍel</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -307,12 +579,156 @@
 				<seg>Mḍel</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Mḍel</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Mḍel</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multiselect_menu_item_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
 				<seg>Mḍel</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:content_description_close_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Mḍel</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tabs_after_one_day_summary" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close after one day</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Mdel seld yan wass</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tabs_after_one_month_summary" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close after one month</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Mdel seld yan n wayyur</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tabs_after_one_week_summary" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close after one week</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Mdel seld yan umalass</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_item_close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close all tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Mdel akkʷ iseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tabs_menu_close_all_tabs" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close all tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Mdel akkʷ iseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tabs_manually_summary" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close manually</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Mdel s ufus</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:notification_pbm_delete_text_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close private tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Mdel iseksal usligen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Mdel aseksel</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/ui/tabcounter/src/main/res/values/strings.xml:mozac_close_tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Mdel aseksel</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_crash_close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Mdel aseksel</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_close_tabs" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Mdel iseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tab_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close tab %s</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Mdel aseksel %s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_copy_email_address" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Copy email address</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Nɣel tansa imayl</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_copy_link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Copy link</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Nɣel asɣun</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_could_not_open_file" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Could not open file</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ur izmir ad irẓem afaylu</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_browsing_data_subtitle" srclang="en-US">
@@ -331,6 +747,14 @@
 				<seg>Adeɣmum</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_dark" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dark</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Adeɣmum</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_dec" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dec</seg>
@@ -340,6 +764,38 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_prompt_allow" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Kkes</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:current_session_delete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Kkes</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_delete_item" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Kkes</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:dialog_delete_positive" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Kkes</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:login_menu_delete_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -371,38 +827,6 @@
 				<seg>Kkes</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:dialog_delete_positive" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="tzm">
-				<seg>Kkes</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_delete_item" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="tzm">
-				<seg>Kkes</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:login_menu_delete_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="tzm">
-				<seg>Kkes</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:current_session_delete" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="tzm">
-				<seg>Kkes</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_delete_some" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete %1$d items</seg>
@@ -424,7 +848,7 @@
 				<seg>Delete card</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Kkes takaṛḍa</seg>
+				<seg>Kkes takarḍa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_menu_delete_card" srclang="en-US">
@@ -432,7 +856,15 @@
 				<seg>Delete card</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Kkes takaṛḍa</seg>
+				<seg>Kkes takarḍa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:download_delete_all" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete downloads</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Kkes agamen </seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sync_device_name" srclang="en-US">
@@ -443,12 +875,188 @@
 				<seg>Isem n wallal</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/findinpage/src/main/res/values/strings.xml:mozac_feature_findindpage_dismiss" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dismiss find in page</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ttu arezzu g tasna</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_not_allow" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Don’t allow</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ad ur ssirig</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_do_not_allow_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Don’t allow</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ad ur ssirig</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_dialog_download" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Download</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Agem</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_dialog_title2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Download (%1$s)</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Agem (%1$s)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_download_link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Download link</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Agem asɣen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_paused_notification_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Download paused</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Agam ibedden</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_notification_channel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Downloads</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Agamen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_downloads" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Downloads</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Agamen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_downloads" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Downloads</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Agamen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:download_delete_multiple_items_snackbar_1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Downloads Removed</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ttwakksen wagamen </seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_browsing_history_subtitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%d pages</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
 				<seg>%d n tasniwin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_closed_tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%d tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>%d n useksel</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_closed_tabs" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%d tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>%d n yiseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_edit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ẓreg</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_edit_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ẓreg</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_edit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ẓreg</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:edit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ẓreg</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:login_menu_edit_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ẓreg</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:edit_bookmark_snackbar_action" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>EDIT</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ẒREG</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_edit_card" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit card</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ẓreg takarḍa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:edit_bookmark_folder_fragment_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit folder</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ẓreg asdaw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_edit_custom_search_engine_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit search engine</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ẓreg anesmassu n urezzu</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_email" srclang="en-US">
@@ -467,12 +1075,52 @@
 				<seg>Azen imayl s…</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_add_custom_engine_error_empty_search_string" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter a search string</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ssekcem aḍris n urezzu</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_status_error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Error</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
 				<seg>Azgal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_expiration_date" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Expiration Date</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Azemz n taggara</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_expiration_date_month" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Expiration Date Month</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ayyur n uzemz n taggar </seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:credit_cards_expiration_date_year" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Expiration Date Year</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Azemz n taggar n useggas</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_feb" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Feb</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Bṛa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_file_not_found_title" srclang="en-US">
@@ -507,6 +1155,14 @@
 				<seg>Af g tesna</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/findinpage/src/main/res/values/strings.xml:mozac_feature_findindpage_next_result" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Find next result</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Af tanaṭṭuft-dd yuckan</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_account_default_name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Account</seg>
@@ -528,10 +1184,18 @@
 				<seg>Follow device language</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Ḍfeṛ tutlay n wallal</seg>
+				<seg>Ḍfer tutlay n wallal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_in_app_cfr_positive_button_text" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_category_general" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>General</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Amatay</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/base/src/main/res/values/strings.xml:mozac_support_base_permissions_needed_positive_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to settings</seg>
 			</tuv>
@@ -547,7 +1211,7 @@
 				<seg>Ddu ɣer tisɣal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/base/src/main/res/values/strings.xml:mozac_support_base_permissions_needed_positive_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:camera_permissions_needed_positive_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to settings</seg>
 			</tuv>
@@ -555,7 +1219,7 @@
 				<seg>Ddu ɣer tisɣal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:camera_permissions_needed_positive_button_text" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_in_app_cfr_positive_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to settings</seg>
 			</tuv>
@@ -611,6 +1275,14 @@
 				<seg>Yun</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:about_know_your_rights" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Know your rights</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Issin izerfan-nnek/m</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
@@ -643,6 +1315,22 @@
 				<seg>7 n wussan imeggura</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_learn_more_link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Isin uggar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_add_custom_engine_learn_more_label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn More</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Isin uggar</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_before_unload_leave" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Leave</seg>
@@ -667,6 +1355,22 @@
 				<seg>Anafaw</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_light" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Light</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Anafaw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_progress_loading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Loading</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Asali</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sync_logins" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Logins</seg>
@@ -675,7 +1379,39 @@
 				<seg>Inekcam</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tabs_manually" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Manually</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>S ufus</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_mar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mar</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Maṛ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_may" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>May</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>May</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/media/src/main/res/values/strings.xml:mozac_feature_media_notification_channel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Media</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Amidya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Menu</seg>
 			</tuv>
@@ -683,7 +1419,7 @@
 				<seg>Umuɣ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Menu</seg>
 			</tuv>
@@ -704,7 +1440,23 @@
 				<seg>Microphone 1</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Amikṛu</seg>
+				<seg>Amikṛu1</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/media/src/main/res/values/strings.xml:mozac_feature_media_sharing_microphone" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Microphone is on</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Yuɣ umikṛu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_rename_dialog_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Name</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Isem</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_add_custom_engine_name_hint" srclang="en-US">
@@ -716,14 +1468,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_add_new_collection_name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Name</seg>
-			</tuv>
-			<tuv xml:lang="tzm">
-				<seg>Isem</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_rename_dialog_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Name</seg>
 			</tuv>
@@ -752,7 +1496,7 @@
 				<seg>Name on Card</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Isem g tkaṛḍa</seg>
+				<seg>Isem g tkarḍa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_never_allow" srclang="en-US">
@@ -763,12 +1507,52 @@
 				<seg>Usar</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/ui/tabcounter/src/main/res/values/strings.xml:mozac_browser_menu_new_private_tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New private tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Aseksel uslig amaynu</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_screen_shortcut_open_new_private_tab_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New private tab</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Iccer uslig amaynu</seg>
+				<seg>Aseksel uslig amaynu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_snackbar_new_private_tab_opened" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New private tab opened</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>irzem useksel uslig amaynu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_new_tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Aseksel amaynu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/ui/tabcounter/src/main/res/values/strings.xml:mozac_browser_menu_new_tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Aseksel amaynu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_open_new_tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Aseksel amaynu</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_screen_shortcut_open_new_tab_2" srclang="en-US">
@@ -776,7 +1560,15 @@
 				<seg>New tab</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Iccer amaynu</seg>
+				<seg>Aseksel amaynu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_snackbar_new_tab_opened" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New tab opened</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>irzem useksel amaynu</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_confirmation_no" srclang="en-US">
@@ -811,6 +1603,30 @@
 				<seg>Tineɣmisin</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_popup_no_username" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>(No username)</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>(Walu yism unessemres)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_nov" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Nov</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Nwa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_oct" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Oct</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Kṭu</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:top_sites_rename_dialog_ok" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
@@ -840,7 +1656,7 @@
 				<seg>Older</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Iqbuṛen</seg>
+				<seg>Iqburen</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_confirm" srclang="en-US">
@@ -848,7 +1664,7 @@
 				<seg>Open</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Ṛẓem</seg>
+				<seg>Rẓem</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:notification_pbm_action_open" srclang="en-US">
@@ -856,7 +1672,7 @@
 				<seg>Open</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Ṛẓem</seg>
+				<seg>Rẓem</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:download_menu_open" srclang="en-US">
@@ -864,7 +1680,7 @@
 				<seg>Open</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Ṛẓem</seg>
+				<seg>Rẓem</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_open" srclang="en-US">
@@ -872,7 +1688,7 @@
 				<seg>Open</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Ṛẓem</seg>
+				<seg>Rẓem</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_content_description" srclang="en-US">
@@ -880,7 +1696,23 @@
 				<seg>Open a new Firefox tab</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Ṛẓem iccer amaynu n Firefox</seg>
+				<seg>Rẓem Aseksel amaynu n Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_downloads_open_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open files downloaded to your device</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rẓem afaylu ittwagmen ɣer wallal-nnek</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_open_image_in_new_tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open image in new tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rẓem tawlaft g useksel amaynu</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_open_in" srclang="en-US">
@@ -888,7 +1720,7 @@
 				<seg>Open in…</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Ṛẓem g…</seg>
+				<seg>Rẓem g…</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_open_in_fenix" srclang="en-US">
@@ -896,7 +1728,7 @@
 				<seg>Open in %1$s</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Ṛẓem g %1$s</seg>
+				<seg>Rẓem g %1$s</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_open_app_link" srclang="en-US">
@@ -904,7 +1736,39 @@
 				<seg>Open in app</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Ṛẓem g tsensi</seg>
+				<seg>Rẓem g tsensi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_menu_open_in_new_tab_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open in new tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ṛẓem g useksel amaynu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_open_in_new_tab_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open in new tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ṛẓem g useksel amaynu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_menu_open_in_private_tab_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open in private tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rẓem g useksel uslig</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_open_in_private_tab_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open in private tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rẓem g useksel uslig</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_installed_dialog_description" srclang="en-US">
@@ -912,7 +1776,31 @@
 				<seg>Open it in the menu</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Ṛẓem-t g wumuɣ</seg>
+				<seg>Rẓem-t g wumuɣ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_open_link_in_new_tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open link in new tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rẓem asɣen g useksel amaynu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_open_link_in_private_tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open link in private tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rẓem asɣen g useksel uslig</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_open_links_in_a_private_tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open links in a private tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rẓem iseɣwan g useksel uslig</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_private_browsing_button" srclang="en-US">
@@ -920,7 +1808,71 @@
 				<seg>Open settings</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Ṛẓem tisɣal</seg>
+				<seg>Rẓem tisɣal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_header_label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rẓem iseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_tabs_title_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rẓem iseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:collection_open_tabs" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rẓem iseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sync_tabs_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rẓem iseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_tabs_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open Tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rẓem iseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open Tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rẓem iseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_tabs_menu" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open tabs menu</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rẓem umuɣ n yiseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_add_custom_engine_label_other" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Other</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Wayaḍ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_password_hint" srclang="en-US">
@@ -937,6 +1889,22 @@
 			</tuv>
 			<tuv xml:lang="tzm">
 				<seg>Taguri n uzerray i %1$s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_passwords" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Passwords</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Tigurawin n uzerray</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_set_month" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Pick a month</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Fren yan uyyur</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/media/src/main/res/values/strings.xml:mozac_feature_media_notification_action_play" srclang="en-US">
@@ -976,7 +1944,15 @@
 				<seg>Private tab</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Iccer uslig</seg>
+				<seg>Aseksel uslig</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tabs_header_private_tabs_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Private tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>iseksal usligen</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_on_quit_action" srclang="en-US">
@@ -985,6 +1961,14 @@
 			</tuv>
 			<tuv xml:lang="tzm">
 				<seg>Ffeɣ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:download_delete_item_1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Kkes</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:remove_home_collection_placeholder_content_description" srclang="en-US">
@@ -996,14 +1980,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="tzm">
-				<seg>Kkes</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:download_delete_item_1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -1027,7 +2003,55 @@
 				<seg>Kkes amiḍan</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:rename_top_site" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Rename</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ssenfel isem</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_repost_positive_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Resend data</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ssuter ifeska</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_save_file_to_device" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Save file to device</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Agem afaylu ɣer wallal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_save_image" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Save image</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Agem tawlaft</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_search_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rzu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_search" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Arezzu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_text_short" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search</seg>
 			</tuv>
@@ -1043,14 +2067,6 @@
 				<seg>Rzu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_text_short" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Search</seg>
-			</tuv>
-			<tuv xml:lang="tzm">
-				<seg>Rzu</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:a11y_search_icon_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search</seg>
@@ -1059,12 +2075,12 @@
 				<seg>Rzu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_search" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_search_suggestions" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Search</seg>
+				<seg>Search %1$s</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Arezzu</seg>
+				<seg>Rzu %1$s</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_button" srclang="en-US">
@@ -1091,6 +2107,30 @@
 				<seg>Tutlayt n urezzu</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_search_hint" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search logins</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rzu inekcam</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_passwords_saved_logins_search" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search logins</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rzu inekcam</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_hint" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search or enter address</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rzu neɣ ssekcem tansa</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engine_suggestions_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search %s</seg>
@@ -1107,12 +2147,28 @@
 				<seg>Rzu g web</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:share_device_subheader" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_select" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Send to device</seg>
+				<seg>Select</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
-				<seg>Azen ɣer wallal</seg>
+				<seg>Fren</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tabs_tray_select_tabs" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Fren iseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_select_tabs" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select Tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Fren iseksal</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sync_add_new_device_title" srclang="en-US">
@@ -1123,7 +2179,23 @@
 				<seg>Azen ɣer wallal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_settings" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:share_device_subheader" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Send to device</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Azen ɣer wallal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_sep" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sep</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Cut</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -1139,14 +2211,6 @@
 				<seg>Tisɣal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_settings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Settings</seg>
-			</tuv>
-			<tuv xml:lang="tzm">
-				<seg>Tisɣal</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
@@ -1155,7 +2219,15 @@
 				<seg>Tisɣal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:current_session_share" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Settings</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Tisɣal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_menu_share_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -1163,7 +2235,7 @@
 				<seg>Bḍu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:share_button_content_description" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_share" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -1187,23 +2259,7 @@
 				<seg>Bḍu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_menu_share_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Share</seg>
-			</tuv>
-			<tuv xml:lang="tzm">
-				<seg>Bḍu</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_share" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Share</seg>
-			</tuv>
-			<tuv xml:lang="tzm">
-				<seg>Bḍu</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_share" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:share_button_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -1219,12 +2275,44 @@
 				<seg>Bḍu</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_share" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Bḍu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:current_session_share" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Bḍu</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:share_link_subheader" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share a link</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
 				<seg>Bḍu asɣen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_item_share" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share all tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Bḍu akkʷ iseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_share_email_address" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share email address</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Bḍu tansa imayl</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_feature_contextmenu_share_image" srclang="en-US">
@@ -1241,6 +2329,30 @@
 			</tuv>
 			<tuv xml:lang="tzm">
 				<seg>Bḍu asɣen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/customtabs/src/main/res/values/strings.xml:mozac_feature_customtabs_share_link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share link</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Bḍu asɣen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_share" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share tab</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Bḍu aseksel</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tabs_menu_share_tabs" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Bḍu iseksal</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/ktx/src/main/res/values/strings.xml:mozac_support_ktx_share_dialog_title" srclang="en-US">
@@ -1275,7 +2387,7 @@
 				<seg>Kcem</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sign_in" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_sign_in" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign in</seg>
 			</tuv>
@@ -1283,7 +2395,7 @@
 				<seg>Kcem</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_sign_in" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sign_in" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign in</seg>
 			</tuv>
@@ -1305,6 +2417,14 @@
 			</tuv>
 			<tuv xml:lang="tzm">
 				<seg>Tineɣmisin n wasiten</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:voice_search_explainer" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak now</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ssiwel dɣi</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:app_name_private_4" srclang="en-US">
@@ -1339,12 +2459,76 @@
 				<seg>Sbedd</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:fxa_tab_received_from_notification_name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tab from %s</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Aseksel seg %s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_menu" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tab menu</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Umuɣ n yiseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/tabs/src/main/res/values/strings.xml:mozac_feature_tabs_toolbar_tabs_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>iseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_tabs" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tabs</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>iseksal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sync_sent_tab_snackbar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tab sent!</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ittwazen useksel!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_tab_settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tab settings</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Tisɣal n useksel</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sync_sent_tabs_snackbar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tabs sent!</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ttwaznen iseksal!</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_theme" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Theme</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
 				<seg>Asgum</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/engine-system/src/main/res/values/strings.xml:mozac_browser_engine_system_alert_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The page at %1$s says:</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Da ttini tasna g %1$s:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_engines_search_with" srclang="en-US">
@@ -1355,6 +2539,14 @@
 				<seg>Tikkelt-a, rzu s:</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:phone_feature_blocked_intro" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>To allow it:</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ssureg-t:</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_today" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Today</seg>
@@ -1363,12 +2555,84 @@
 				<seg>Ass-a</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_failed_to_translate" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Translation not found, for locale %1$s neither default language %2$s</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ur tettwaf tsuɣilt, i tdigant %1$s ula i tutlayt tamezwert %2$s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_page_refresh" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Try Again</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Arem daɣ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_try_again" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Try Again</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Arm daɣ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_unable_to_open_third_party_app" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unable to open %1$s</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ur izmir ad irẓem %1$s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_unknown_protocol_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unknown Protocol</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Abrutukul arussin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_popup_unlock_application" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unlock %1$s</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Rẓem %1$s</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_url_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>URL</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
 				<seg>URL</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_username_hint" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Username</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Isem n unessemres</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_message_bookmarks_view" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>View</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Sken</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/pwa/src/main/res/values/strings.xml:mozac_feature_pwa_default_shortcut_label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Website</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Asmel Web</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_header" srclang="en-US">
@@ -1403,6 +2667,22 @@
 				<seg>Assennaṭ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:about_your_rights" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your rights</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Izerfan-nnek/m</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_your_rights" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your Rights</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Izerfan-nnek/m</seg>
+			</tuv>
+		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>boolean</seg>
@@ -1421,6 +2701,30 @@
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
 			<tuv xml:lang="en-US">
+				<seg>context</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>amnaḍ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>cryptominer</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>akripṭuminar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Fellow</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ḍfer</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
 				<seg>L10n</seg>
 			</tuv>
 			<tuv xml:lang="tzm">
@@ -1433,6 +2737,46 @@
 			</tuv>
 			<tuv xml:lang="tzm">
 				<seg>MDN</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>open source</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Taɣbalut yerẓmen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>studies</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>taɣuri</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>track</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ḍfer</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>trackers</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>ineḍfaren</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>validate</seg>
+			</tuv>
+			<tuv xml:lang="tzm">
+				<seg>Ssentem</seg>
 			</tuv>
 		</tu>
 	</body>

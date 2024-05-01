@@ -1,14 +1,438 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2024-04-01T00:20:48.131829">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2024-05-01T00:19:57.537688">
 	</header>
 	<body>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-3rd-time-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>2 down, keep it up!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>2 zale, anik korun voch!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;{ $actionType }. Ulovpin asa toshech uloile?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; { $actionType } ani magir sentence mottean vach</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-stop-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>zale zaliar &lt;stopIcon&gt;&lt;/stopIcon&gt; { $actionType }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:both-speak-and-listen-long" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Both (Speak and Listen)</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Donui (Uloi ani Aikui)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:clips-uploaded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clips Uploaded</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Clips Upload Zale</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Vantto ge</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute to { $lang }</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>{ $lang }` itun vantto ge</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Donate your voice</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Tuje avaaz dan kor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-profile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Download My Data</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Mhozo Data Download Kor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Email</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:email-input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
 			<tuv xml:lang="gom">
 				<seg>Email</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-delete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Exit &amp; Delete clips</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Sod ani clips delete kor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:indicates-required" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Fields marked with an asterisk (*) are required.</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Textbox'an star (*) asa, te gorjechem.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish recording</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Recording purai kor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish recording first?</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Recording purai kor poilem?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-abort-confirm" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish validating</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Puro zale</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-abort-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish validating clips?</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Clips'achi topasni korun zali?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get Involved</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Shamil Zav</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-again-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great!&lt;recordIcon&gt;&lt;/recordIcon&gt; Record your next clip</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Shabbas! Dusre clip &lt;recordIcon&gt;&lt;/recordIcon&gt; record kor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-again-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great work!&lt;playIcon&gt;&lt;/playIcon&gt; Listen again when you're ready</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Bore kam kele!&lt;playIcon&gt;&lt;/playIcon&gt; Toiar zavun porot aik</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help us validate voices</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Sarkeponn topasunk amche moddot kor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-opt-in-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I'd like to receive emails such as goal reminders, my progress updates and newsletters about Common Voice.</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Hoi, Mhaka asle emails dhad jitun Goal Reminders, Progress Updates anik Common Voice`acher novi novi khobryo-patra asta.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-section-in-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>In Progress</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Pravas'an Asa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:email-opt-in-info-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Join the Common Voice mailing list</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Common Voice mailing list join kor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-again-instruction2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep it up, record again &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Borem asa, ani ek record kor &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-abort-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Leaving now means you'll lose your progress</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Ata sodun geliar tujhe clips pusun voitele</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Aik</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Aik</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:loading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Loading…</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Load zata...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:not-available-abbreviation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>N/A</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>N/A</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-last-time-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Last one!</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Last ani ek!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:help-us-explain" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Press play, listen &amp; tell us: did they accurately speak the sentence below?</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Play kor, kan divun aik, ani sang: Temin asa toshech uloile?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-meter-in-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Progress</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Pravas</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:ready-to-record" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ready to donate your voice?</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Tuje avaaz divpak toiar asa?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-last-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last ek!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-button-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record your voice</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Tuzo avaz di</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:return-to-cv" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Return to Common Voice</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Porot voch Common Voice'acher</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-return-to-languages" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Return to Languages</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Bhashenn porot voch</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; re-record clips if needed</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Check kor &amp; goroz asa zaliar portun record kor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Sod</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Uloi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-speakers" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speakers</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Ulovpi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak-now" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak now</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Ata uloi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Submit</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Dhad</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-submit-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Clips submit kor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:action-tap" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tap</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Damp</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-error-too-long" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too long.</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Recording chod vhoddlem zale.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-error-too-quiet" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too quiet.</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Recording samki ogi asa.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:record-error-too-short" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too short.</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Recording samke begin sopoile.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:todays-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Today's Progress</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Aiche Pravas</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-listen-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Users validate the accuracy of donated clips, checking that the speaker read the sentence correctly.</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Users eka-mekache audio clips`ache sarkeponn topassun poitat ki je boroinn dille vakio asa, toshech vachla kai na.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:language-validation-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validation Progress</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Topasniche Pravas</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:stayintouch" srclang="en-US">
@@ -19,12 +443,92 @@
 				<seg>Voice technology'cher ami ek community karma Mozilla'an. Ami chad khosi tumka update dovarpak, novo data duvpak and aikpak tumi koso ho data use karta toh.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:listen-empty-state" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We may have run out of clips - refresh the page, or try again later.</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Clips sople astole - page refresh kor, na zaliar magir try kor.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:write" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Write</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Boroi</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:yes-receive-emails" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes, send me emails. I’d like to stay informed about the Common Voice Project.</seg>
 			</tuv>
 			<tuv xml:lang="gom">
 				<seg>Hoi, maka emails send kôr. Maka khup khosi astili Common Voice Project'an bag govpak.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:get-involved-opt-in" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes, send me emails. I'd like to stay informed about the progress of this language on Common Voice.</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Hoi, maka email dhad. Maka zanun ghepak zai Common Voice'acher ho bhas kitle fudde pavta te.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>certificate authority</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>promann-potr adhikari</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>distrust</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>ovisvas</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Issue</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>Muddo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>report</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>ahvaal kor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>report</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>ahvaal kor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>sign</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>sakshar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>validate</seg>
+			</tuv>
+			<tuv xml:lang="gom">
+				<seg>sarkeponn topas</seg>
 			</tuv>
 		</tu>
 	</body>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2024-05-01T00:22:39.723347">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2024-06-01T00:22:04.559073">
 	</header>
 	<body>
 		<tu tuid="firefox:dom/chrome/layout/css.properties:pesupportsconditioninparenseof" srclang="en-US">
@@ -27,14 +27,6 @@
 				<seg>( )</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/sanitize.ftl:clear-time-duration-suffix" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ "" }</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>{ "" }</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/browserSets.ftl:full-zoom-reduce-shortcut-alt" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ "" }</seg>
@@ -43,7 +35,7 @@
 				<seg>{ "" }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:full-zoom-reset-shortcut-alt" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserSets.ftl:full-zoom-enlarge-shortcut-alt2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ "" }</seg>
 			</tuv>
@@ -51,7 +43,15 @@
 				<seg>{ "" }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:full-zoom-enlarge-shortcut-alt2" srclang="en-US">
+		<tu tuid="firefox:browser/browser/sanitize.ftl:clear-time-duration-suffix" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ "" }</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>{ "" }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/browserSets.ftl:full-zoom-reset-shortcut-alt" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ "" }</seg>
 			</tuv>
@@ -107,7 +107,7 @@
 				<seg>#1;#1r</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/downloads/downloads.properties:monthdate2" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/feeds/subscribe.properties:enclosuresizetext" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$S %2$S</seg>
 			</tuv>
@@ -131,7 +131,7 @@
 				<seg>%1$S %2$S</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/feeds/subscribe.properties:enclosuresizetext" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/mozapps/downloads/downloads.properties:monthdate2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$S %2$S</seg>
 			</tuv>
@@ -187,7 +187,7 @@
 				<seg>Kuitana kwa documentwrite() kuchokera ku asynchronously-loaded external script kunanyozeredwa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:activate" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:activate" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Activate</seg>
 			</tuv>
@@ -195,7 +195,7 @@
 				<seg>Konzedwa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:activate" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:activate" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Activate</seg>
 			</tuv>
@@ -235,7 +235,7 @@
 				<seg>Onjezani zabwino…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-tools-addons" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:add-ons-buttonlabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add-ons</seg>
 			</tuv>
@@ -251,7 +251,7 @@
 				<seg>Ophatikizira</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:add-ons-buttonlabel" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-tools-addons" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add-ons</seg>
 			</tuv>
@@ -411,14 +411,6 @@
 				<seg>{ applications-use-plugin-in.label }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/aboutDialog.ftl:update-applying" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Applying update…</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>Kufunsira zobwera kumene…</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:applyingupdate" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Applying update…</seg>
@@ -427,7 +419,15 @@
 				<seg>Kufunsira zobwera kumene…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/crashreporter/aboutcrashes.ftl:delete-confirm-title" srclang="en-US">
+		<tu tuid="firefox:browser/browser/aboutDialog.ftl:update-applying" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Applying update…</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>Kufunsira zobwera kumene…</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/dom/dom.properties:onbeforeunloadtitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Are you sure?</seg>
 			</tuv>
@@ -435,7 +435,7 @@
 				<seg>Mukutsimikiza?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/dom/dom.properties:onbeforeunloadtitle" srclang="en-US">
+		<tu tuid="firefox:toolkit/crashreporter/aboutcrashes.ftl:delete-confirm-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Are you sure?</seg>
 			</tuv>
@@ -491,7 +491,7 @@
 				<seg>mbendera</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:sync-engine-bookmarks" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:addressbar-locbar-bookmarks-option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmarks</seg>
 			</tuv>
@@ -499,7 +499,7 @@
 				<seg>Chidziwitso</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:addressbar-locbar-bookmarks-option" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:sync-engine-bookmarks" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmarks</seg>
 			</tuv>
@@ -699,14 +699,6 @@
 				<seg>Mabokosi ofufuzira</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:checkbutton" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>check button</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>yang'anani batani</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:checkbuttonabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>check button</seg>
@@ -715,7 +707,15 @@
 				<seg>yang'anani batani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:statechecked" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:checkbutton" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>check button</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>yang'anani batani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:checkaction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>checked</seg>
 			</tuv>
@@ -723,7 +723,7 @@
 				<seg>fufuzidwa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:checkaction" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:statechecked" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>checked</seg>
 			</tuv>
@@ -755,7 +755,7 @@
 				<seg>Kuwona mauthenga obwera kumene</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:checkmenuitemabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:checkmenuitem" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>check menu item</seg>
 			</tuv>
@@ -763,7 +763,7 @@
 				<seg>yang'ana mndandanda wa chinthu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:checkmenuitem" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:checkmenuitemabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>check menu item</seg>
 			</tuv>
@@ -779,7 +779,7 @@
 				<seg>tabwanyidwa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/printing/printPreview.ftl:printpreview-close" srclang="en-US">
+		<tu tuid="firefox:browser/browser/tabbrowser.ftl:tabbrowser-menuitem-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -795,7 +795,15 @@
 				<seg>Tsekani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/crashreporter/crashreporter.ini:close" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/translation.ftl:translation-button-close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>Tsekani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/printing/printPreview.ftl:printpreview-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -811,22 +819,6 @@
 				<seg>Tsekani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>Tsekani</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-file-close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>Tsekani</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
@@ -835,15 +827,7 @@
 				<seg>Tsekani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/translation.ftl:translation-button-close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>Tsekani</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/tabbrowser.ftl:tabbrowser-menuitem-close" srclang="en-US">
+		<tu tuid="firefox:browser/browser/places.ftl:places-file-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -859,7 +843,23 @@
 				<seg>Tsekani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/places.ftl:places-file-close" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-file-close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>Tsekani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>Tsekani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/crashreporter/crashreporter.ini:close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -923,14 +923,6 @@
 				<seg>gwetsedwa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:column" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>column</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>nsanamira</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:columnabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>column</seg>
@@ -939,12 +931,12 @@
 				<seg>nsanamira</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:columnheaderabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:column" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>column header</seg>
+				<seg>column</seg>
 			</tuv>
 			<tuv xml:lang="ny">
-				<seg>nsanamira yosenza</seg>
+				<seg>nsanamira</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:columnheader" srclang="en-US">
@@ -953,6 +945,14 @@
 			</tuv>
 			<tuv xml:lang="ny">
 				<seg>nsanamira wosenza</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:columnheaderabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>column header</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>nsanamira yosenza</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:columninfo" srclang="en-US">
@@ -1003,20 +1003,20 @@
 				<seg>mndandanda wa bokosi combo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:comboboxoptionabbr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>combo box option</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>kusankha mu bokosi la combo</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:comboboxoption" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>combo box option</seg>
 			</tuv>
 			<tuv xml:lang="ny">
 				<seg>bokosi la kusankha la combo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:comboboxoptionabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>combo box option</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>kusankha mu bokosi la combo</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:complementary" srclang="en-US">
@@ -1043,7 +1043,7 @@
 				<seg>chidziwitso cha zamkati</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/syncSetup.properties:continuelabel" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/global/wizard.ftl:wizard-macos-button-next" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
 			</tuv>
@@ -1059,7 +1059,7 @@
 				<seg>Pitiliza</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/dom/dom.properties:waitforscriptbutton" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/syncSetup.properties:continuelabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
 			</tuv>
@@ -1067,7 +1067,7 @@
 				<seg>Pitiliza</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/global/wizard.ftl:wizard-macos-button-next" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/dom/dom.properties:waitforscriptbutton" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
 			</tuv>
@@ -1115,14 +1115,6 @@
 				<seg>Chikhalire</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/toolbox-options.ftl:options-sourceeditor-keybinding-default-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Default</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>Chikhalire</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/chrome/browser/browser.properties:extensions972ce4c6-7e08-4474-a285-3208198ce6fdname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Default</seg>
@@ -1131,7 +1123,15 @@
 				<seg>Chikhalire</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:definition" srclang="en-US">
+		<tu tuid="firefox:devtools/client/toolbox-options.ftl:options-sourceeditor-keybinding-default-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Default</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>Chikhalire</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:definition" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>definition</seg>
 			</tuv>
@@ -1147,20 +1147,12 @@
 				<seg>tanthauzo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:definition" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:definition" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>definition</seg>
 			</tuv>
 			<tuv xml:lang="ny">
 				<seg>tanthauzo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:definitionlist" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>definition list</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>mndandanda wa matanthauzo</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:definitionlistabbr" srclang="en-US">
@@ -1169,6 +1161,14 @@
 			</tuv>
 			<tuv xml:lang="ny">
 				<seg>mndandanda wa tanthauzo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:definitionlist" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>definition list</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>mndandanda wa matanthauzo</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutAddons.ftl:detail-home-value" srclang="en-US">
@@ -1219,7 +1219,7 @@
 				<seg>polembedwa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:document" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:document" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>document</seg>
 			</tuv>
@@ -1227,7 +1227,7 @@
 				<seg>chikalata</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:document" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:document" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>document</seg>
 			</tuv>
@@ -1259,6 +1259,14 @@
 				<seg>Osandifunsanso</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:download-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Downloads</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>Zotsitsidwa</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/browser.ftl:navbar-downloads" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
@@ -1267,7 +1275,7 @@
 				<seg>Zotsitsidwa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:download-header" srclang="en-US">
+		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-window" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -1284,14 +1292,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-panel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Downloads</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>Zotsitsidwa</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-window" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -1443,7 +1443,15 @@
 				<seg>maonekedwe</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shortcut-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -1459,7 +1467,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shortcut-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -1476,14 +1484,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -1555,7 +1555,7 @@
 				<seg>woyenda</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:form" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:formabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>form</seg>
 			</tuv>
@@ -1563,7 +1563,7 @@
 				<seg>ndondomeko</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:formabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:form" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>form</seg>
 			</tuv>
@@ -1619,7 +1619,7 @@
 				<seg>Zithunzi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:grip" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:gripabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>grip</seg>
 			</tuv>
@@ -1627,7 +1627,7 @@
 				<seg>gwiritsitsa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:gripabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:grip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>grip</seg>
 			</tuv>
@@ -1643,14 +1643,6 @@
 				<seg>chikhoza kutuluka kunja</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:headerabbr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>header</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>wosenza</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:header" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>header</seg>
@@ -1659,7 +1651,15 @@
 				<seg>wosenza</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:headingabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:headerabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>header</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>wosenza</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:heading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>heading</seg>
 			</tuv>
@@ -1667,7 +1667,7 @@
 				<seg>lowera</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:heading" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:headingabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>heading</seg>
 			</tuv>
@@ -1699,23 +1699,7 @@
 				<seg>bisidwa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/sanitize.ftl:history-section-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>History</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>Mbiri</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:history-panelmenulabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>History</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>Mbiri</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-history" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>History</seg>
 			</tuv>
@@ -1731,7 +1715,7 @@
 				<seg>Mbiri</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:history-header" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-history" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>History</seg>
 			</tuv>
@@ -1740,6 +1724,22 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:sync-engine-history" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>History</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>Mbiri</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/sanitize.ftl:history-section-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>History</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>Mbiri</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:history-header" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>History</seg>
 			</tuv>
@@ -1827,20 +1827,20 @@
 				<seg>P</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>label</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>pepala lodziwitsa pa chinthu</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:labelabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>label</seg>
 			</tuv>
 			<tuv xml:lang="ny">
 				<seg>pepala lodziwitsira chinthu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>label</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>pepala lodziwitsa pa chinthu</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/aboutDialog.ftl:community-exp" srclang="en-US">
@@ -1883,7 +1883,7 @@
 				<seg>Phunzirani zambiri</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:crashedpluginsmessagelearnmore" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:pluginactivatelearnmore" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn More…</seg>
 			</tuv>
@@ -1899,7 +1899,7 @@
 				<seg>Phunzirani zambiri…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:pluginactivatelearnmore" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:crashedpluginsmessagelearnmore" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn More…</seg>
 			</tuv>
@@ -1947,14 +1947,6 @@
 				<seg>Zolumikizira</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:list" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>list</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>mndandanda</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:listabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>list</seg>
@@ -1963,12 +1955,12 @@
 				<seg>mndandanda</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:listboxabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:list" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>list box</seg>
+				<seg>list</seg>
 			</tuv>
 			<tuv xml:lang="ny">
-				<seg>bokosi la mndandanda</seg>
+				<seg>mndandanda</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:listbox" srclang="en-US">
@@ -1979,7 +1971,15 @@
 				<seg>bokosi la mndandanda</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:listitemabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:listboxabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>list box</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>bokosi la mndandanda</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:listitem" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>list item</seg>
 			</tuv>
@@ -1987,7 +1987,7 @@
 				<seg>mndandanda wa chinthu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:listitem" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:listitemabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>list item</seg>
 			</tuv>
@@ -2035,7 +2035,7 @@
 				<seg>kupakira</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/preferences/preferences.ftl:set-password-meter-loading" srclang="en-US">
+		<tu tuid="firefox:devtools/client/netmonitor.properties:piechartloading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Loading</seg>
 			</tuv>
@@ -2043,7 +2043,7 @@
 				<seg>Kupakira</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/netmonitor.properties:piechartloading" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/preferences/preferences.ftl:set-password-meter-loading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Loading</seg>
 			</tuv>
@@ -2171,7 +2171,7 @@
 				<seg>{ main-context-menu-page-save.label }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-reload" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-stop-reload" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ main-context-menu-reload.aria-label }</seg>
 			</tuv>
@@ -2179,7 +2179,7 @@
 				<seg>{ main-context-menu-reload.aria-label }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-stop-reload" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserContext.ftl:toolbar-button-reload" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ main-context-menu-reload.aria-label }</seg>
 			</tuv>
@@ -2235,6 +2235,14 @@
 				<seg>{ menu-quit.label }</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>Mozilla</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
@@ -2243,12 +2251,12 @@
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandfullname" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Mozilla</seg>
+				<seg>Mozilla Firefox</seg>
 			</tuv>
 			<tuv xml:lang="ny">
-				<seg>Mozilla</seg>
+				<seg>Mozilla Firefox</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/migration.ftl:source-name-firefox" srclang="en-US">
@@ -2260,14 +2268,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>Mozilla Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandfullname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
@@ -2323,14 +2323,6 @@
 				<seg>sinafufuzidwa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:note" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>note</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>kalata</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:note" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>note</seg>
@@ -2345,6 +2337,14 @@
 			</tuv>
 			<tuv xml:lang="ny">
 				<seg>kakalata</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:note" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>note</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>kalata</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/chrome/browser/shellservice.properties:setdefaultbrowseroptionsaccesskey" srclang="en-US">
@@ -2387,14 +2387,6 @@
 				<seg>chita kusankha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:preferences-buttonlabelwin" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Options</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>Zochita kusankha</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/chrome/browser/shellservice.properties:setdefaultbrowseroptionslabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Options</seg>
@@ -2403,15 +2395,7 @@
 				<seg>Zochita kusankha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/printing/printDialogs.ftl:options-group-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Options</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>Zochita kusankha</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:popupwarningbutton" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:preferences-buttonlabelwin" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Options</seg>
 			</tuv>
@@ -2427,7 +2411,23 @@
 				<seg>Zochita kusankha</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:popupwarningbutton" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Options</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>Zochita kusankha</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:toolkit/chrome/global/printdialog.properties:optionstitlewindows" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Options</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>Zochita kusankha</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/printing/printDialogs.ftl:options-group-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Options</seg>
 			</tuv>
@@ -2467,7 +2467,7 @@
 				<seg>dongosolo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:outlineitemabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:outlineitem" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>outline item</seg>
 			</tuv>
@@ -2475,7 +2475,7 @@
 				<seg>dongosolo la chinthu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:outlineitem" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:outlineitemabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>outline item</seg>
 			</tuv>
@@ -2539,7 +2539,7 @@
 				<seg>{ pane-sync-title }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:paragraphabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:paragraph" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>paragraph</seg>
 			</tuv>
@@ -2547,7 +2547,7 @@
 				<seg>ndime</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:paragraph" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:paragraphabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>paragraph</seg>
 			</tuv>
@@ -2707,31 +2707,15 @@
 				<seg>Makonda</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:pref-page-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Preferences</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>Makonda</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:pref-page" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Preferences</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>Makonda</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:popupwarningbuttonunix" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Preferences</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>Makonda</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/menubar.ftl:menu-preferences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Preferences</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>Makonda</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:pref-page-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Preferences</seg>
 			</tuv>
@@ -2747,7 +2731,23 @@
 				<seg>Makonda</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:pressaction" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:popupwarningbuttonunix" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Preferences</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>Makonda</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:pref-page" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Preferences</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>Makonda</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:statepressed" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>pressed</seg>
 			</tuv>
@@ -2755,7 +2755,7 @@
 				<seg>sindikizidwa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:statepressed" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:pressaction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>pressed</seg>
 			</tuv>
@@ -2811,7 +2811,7 @@
 				<seg>tsamba la chinthu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:radiobuttonabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:radiobutton" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>radio button</seg>
 			</tuv>
@@ -2819,7 +2819,7 @@
 				<seg>batani la wailesi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:radiobutton" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:radiobuttonabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>radio button</seg>
 			</tuv>
@@ -2963,20 +2963,20 @@
 				<seg>mzere</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:rowheaderabbr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>row header</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>mzere osenza</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:rowheader" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>row header</seg>
 			</tuv>
 			<tuv xml:lang="ny">
 				<seg>mzere wosenza</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:rowheaderabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>row header</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>mzere osenza</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:rowinfo" srclang="en-US">
@@ -3019,14 +3019,6 @@
 				<seg>Zolembedwa mwina sizingatseke mazenera omwe sanatsegulidwa ndi chilembo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:scrollbar" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>scroll bar</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>kufutukula</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:scrollbarabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>scroll bar</seg>
@@ -3035,7 +3027,15 @@
 				<seg>kufutukula mtanda</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:search" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:scrollbar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>scroll bar</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>kufutukula</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:textinputtype_search" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>search</seg>
 			</tuv>
@@ -3051,7 +3051,7 @@
 				<seg>fufuza</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:textinputtype_search" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:search" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>search</seg>
 			</tuv>
@@ -3059,7 +3059,7 @@
 				<seg>fufuza</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:pane-search-title" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/search.properties:searchplaceholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search</seg>
 			</tuv>
@@ -3067,7 +3067,7 @@
 				<seg>Fufuzani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/search.properties:searchplaceholder" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:pane-search-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search</seg>
 			</tuv>
@@ -3107,20 +3107,20 @@
 				<seg>sankhidwa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:separatorabbr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>separator</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>nsiyanitsa</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:separator" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>separator</seg>
 			</tuv>
 			<tuv xml:lang="ny">
 				<seg>osiyanitsa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:separatorabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>separator</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>nsiyanitsa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:separator" srclang="en-US">
@@ -3171,14 +3171,6 @@
 				<seg>zokwanilitsa %S mizere</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:spinbutton" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>spin button</seg>
-			</tuv>
-			<tuv xml:lang="ny">
-				<seg>batani lozugulira</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:spinbuttonabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>spin button</seg>
@@ -3187,12 +3179,12 @@
 				<seg>batani lozungulira</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:statusbarabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:spinbutton" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>status bar</seg>
+				<seg>spin button</seg>
 			</tuv>
 			<tuv xml:lang="ny">
-				<seg>mndandanda wa mmene zilili</seg>
+				<seg>batani lozugulira</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:statusbar" srclang="en-US">
@@ -3201,6 +3193,14 @@
 			</tuv>
 			<tuv xml:lang="ny">
 				<seg>mndandanda wa zochitika</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:statusbarabbr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>status bar</seg>
+			</tuv>
+			<tuv xml:lang="ny">
+				<seg>mndandanda wa mmene zilili</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/dom/dom.properties:onbeforeunloadstaybutton" srclang="en-US">
@@ -3251,7 +3251,7 @@
 				<seg>Sync</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:pagetab" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:tab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>tab</seg>
 			</tuv>
@@ -3267,7 +3267,7 @@
 				<seg>tab</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:tab" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:pagetab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>tab</seg>
 			</tuv>
@@ -3395,7 +3395,7 @@
 				<seg>{ $title } - { -brand-full-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:togglebutton" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:togglebuttonabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>toggle button</seg>
 			</tuv>
@@ -3403,7 +3403,7 @@
 				<seg>batani la toggle</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:togglebuttonabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:togglebutton" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>toggle button</seg>
 			</tuv>
@@ -3659,7 +3659,7 @@
 				<seg>Anthu mwalandilidwa!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:whitespace" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:whitespaceabbr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>white space</seg>
 			</tuv>
@@ -3667,7 +3667,7 @@
 				<seg>mpata oyera</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:whitespaceabbr" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:whitespace" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>white space</seg>
 			</tuv>

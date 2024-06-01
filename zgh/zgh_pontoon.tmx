@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2024-05-01T00:25:05.350678">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2024-06-01T00:24:02.506817">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -605,14 +605,6 @@ could include:</seg>
 				<seg>ⴰⵖⵓⵍ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Background Noise</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⴰⴷⵉⴷⴰ ⵏ ⵜⵖⵔⴷⵉⵏ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:background-noise" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Background Noise</seg>
@@ -621,7 +613,15 @@ could include:</seg>
 				<seg>ⴰⴷⵉⴷⴰ ⵏ ⵜⵖⵔⴷⵉⵏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-voices-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Noise</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⴰⴷⵉⴷⴰ ⵏ ⵜⵖⵔⴷⵉⵏ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:background-voices" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Background Voices</seg>
 			</tuv>
@@ -629,7 +629,7 @@ could include:</seg>
 				<seg>ⵉⴳⵕⴹⴰⵏ ⵏ ⵜⵖⵔⴷⵉⵏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:background-voices" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-voices-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Background Voices</seg>
 			</tuv>
@@ -1395,7 +1395,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ⵙⵎⴷ ⵙⵓⵍ ⴰⵣⵣⵔⴰⵢ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -1403,7 +1403,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ⴰⵔⴳ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/cross-locale.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -1803,7 +1803,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ⵜⴰⴷⵉⴼⵀⵉⵜ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:report-sc-different-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-different-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Different language</seg>
 			</tuv>
@@ -1811,7 +1811,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ⵜⵓⵜⵍⴰⵢⵜ ⵉⵎⵣⴰⵔⴰⵢⵏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:report-different-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:report-sc-different-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Different language</seg>
 			</tuv>
@@ -1899,7 +1899,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ⵉⵙ ⵓⵔ ⵜⵥⵕⵉⵎ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ ⴳ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ? ⵡⴰⴷⵙⴰⵜ ⵜⴰⵙⵏⴰ ⵏ ⵜⵓⵜⵍⴰⵢⵉⵏ ⵏⵏⵖ ⵃⵎⴰ ⴰⴷ ⵜⵜ ⵜⴻⵜⵜⵔⵎ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
@@ -1907,7 +1907,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ⴰⴳⵎ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:download-request-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:download" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
@@ -3115,7 +3115,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ⵎⴰⵏⵎⴽ ⵙ ⵉⵙⵙⵓⴹⵓⵏ ⴽⴰⵎⵏⴼⵓⵢⵙ ⵜⵉⵙⵔⴰⴳⵉⵏ?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-how-it-works-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:how-does-it-work-title-v2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does Common Voice work?</seg>
 			</tuv>
@@ -3123,7 +3123,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ⵎⴰⵏⵎⴽ ⵍⴰ ⵉⵙⵡⵓⵔⵓⵢ ⴽⴰⵎⵏⴼⵓⵢⵙ?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:how-does-it-work-title-v2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-nav-how-it-works-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does Common Voice work?</seg>
 			</tuv>
@@ -3419,7 +3419,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ⵎⴽ ⵓⵔ ⵜⵃⵇⵇⴰⴷ ⴳ ⵜⵡⵉⵏⵙⵜ, ⵜⵖⵉⵢⴷ ⴰⵡⴷ ⴰⴷ ⵜⵜ ⵜⵙⵙⵉⵏⴼⴷ, ⵜⵎⵎⵓⵜⵜⵉⴷ ⵖⵔ ⵜⵓⴹⴼⵉⵕⵜ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:just-unsure-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-just-unsure-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.</seg>
 			</tuv>
@@ -3427,7 +3427,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ⵎⴽ ⵜⵎⵍⴰⵍⴰⵎ ⴷ ⴽⵔⴰ ⵏ ⵜⵖⴰⵡⵙⴰ ⵏⵏⴰ ⵓⵔ ⴷⵉⵍⵏⵜ ⵜⴰⵔⴰⵜⵉⵏ ⴰⴷ, ⵙⵙⵜⵢⴰⵜ ⵙ ⵎⴽⴷⴰ ⵉⵍⵍⴰⵏ ⴳ ⵢⵉⴱⴹⵉ ⴰⵎⵓⴼⴰⵢ ⵏⵏⵓⵏ. ⵎⴽ ⵓⵔ ⵜⵣⵎⵉⵔⵎ ⴰⴷ ⵜⵖⵜⵙⵎ, ⵙⵙⵎⵔⵙⴰⵜ ⴰⴱⵔⴰ ⵙⵙⵉⵏⴼ, ⵜⴷⴷⵓⵎ ⵖⵔ ⵓⵙⵓⵙⵔ ⵓⴹⴼⵉⵕ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-just-unsure-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:just-unsure-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.</seg>
 			</tuv>
@@ -3479,7 +3479,7 @@ and we’ll get back to you!</seg>
 				<seg>ⵎⴽ ⵓⵔ ⵜⴻⵜⵜⵓⴷⵔⵙ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ ⴷⴰ, ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⵜ ⵜⴻⵜⵜⵔⵎ ⴳ &lt;languageProcessLink&gt;ⵜⵣⵉⴳⵣⵜ ⴰ&lt;/languageProcessLink&gt;.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-6" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:reviewing-sentences-explanation-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If you run out of sentences to review, please help us collect more sentences!</seg>
 			</tuv>
@@ -3487,7 +3487,7 @@ and we’ll get back to you!</seg>
 				<seg>ⵎⴽ ⴰⵡⵏ ⵙⵎⴰⵔⵏⵜ ⵜⵡⵉⵏⴰⵙ ⵎ'ⴰⴷ ⵜⵙⵙⵉⵔⵉⵎⵎ, ⵎⴽ ⵜⵓⴼⴰⵎ, ⴰⵡⵙⴰⵜ ⴰⵏⵖ ⴰⴷ ⵏⴳⵔⵓ ⵓⴳⴳⴰⵔ ⵏ ⵜⵡⵉⵏⴰⵙ!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:reviewing-sentences-explanation-4" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-6" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If you run out of sentences to review, please help us collect more sentences!</seg>
 			</tuv>
@@ -3991,7 +3991,7 @@ and we’ll get back to you!</seg>
 				<seg>ⵜⴰⴽⵉⵔⴳⵉⵣⵉⵜ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -3999,7 +3999,7 @@ and we’ll get back to you!</seg>
 				<seg>ⵜⵓⵜⵍⴰⵢⵜ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:request-language-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -4759,7 +4759,7 @@ recognition open to everyone.</seg>
 ⵏ ⵜⵓⴽⵣⴰ ⵜⴰⴳⵕⴹⴰⵏⵜ ⵉ ⴽⵓⵢⴰⵏ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:reader-effects-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-reader-effects-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.</seg>
 			</tuv>
@@ -4767,7 +4767,7 @@ recognition open to everyone.</seg>
 				<seg>ⴰⵎⴰⵜⴰ ⵏ ⵉⵙⵓⵙⴰⵔ ⴳⴰⵏ ⵡⵉⵏ ⵎⴷⴷⵏ ⵙⴰⵡⴰⵍⵏⵉⵏ ⵙ ⵓⴳⵕⴹ ⴰⴳⴰⵎⴰⵏ ⵏⵏⵙⵏ. ⵜⵣⵎⵔⴷ ⴰⴷ ⵜⴷⴳⴳⴰⴷ ⴰⵙⵓⵙⵔ ⴰⵔⴰⵏⴰⵡⴰⵢ ⴰⵎⵍⴷⴰⵏ ⵏⵏⴰ ⵉⵜⵜⵓⵏⵏⴰⵏ ⵙ ⵓⵙⵖⵓⵢ, ⵙ ⵓⵡⵛⵡⵛ, ⵏⵉⵖ ⵙ ⴽⵔⴰ ⵏ ⵓⴳⵕⴹ ‘ⴰⴹⵕⴰⵎⵉ’. ⵎⴽ ⵜⵓⴼⵉⴷ, ⴰⴳⵢ ⵉⵙⵓⵙⴰⵔ ⵏ ⵡⵓⵔⴰⵔ ⴷ ⵡⵉⵏⵏⴰ ⵙⵙⵎⵔⴰⵙⵏⵉⵏ ⴽⵔⴰ ⵏ ⵓⴳⵕⴹ ⵉⵜⵜⵓⵖⵔⴼⵏ ⵙ ⵓⵎⵙⵙⵓⴷⵙ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-reader-effects-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:reader-effects-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.</seg>
 			</tuv>
@@ -4881,7 +4881,7 @@ This is why in our voice database we want variety!</seg>
 				<seg>ⵉⵙⵎⴰⵡⵏ ⵏ ⵜⵓⵜⵍⴰⵢⵜ ⵏⵏⵓⵏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -4889,7 +4889,7 @@ This is why in our voice database we want variety!</seg>
 				<seg>ⵜⵓⵜⵍⴰⵢⵜ ⵜⴰⵢⵎⵎⴰⵜ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:profile-form-native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -4977,7 +4977,7 @@ This is why in our voice database we want variety!</seg>
 				<seg>ⵓⵀⵓ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-tip-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-7-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[No ‘a’ in the original text]</seg>
 			</tuv>
@@ -4985,7 +4985,7 @@ This is why in our voice database we want variety!</seg>
 				<seg>[ⵓⵔ ⵜⵍⵍⵉ ‘ⴽⵔⴰ ⵏ’ ⴳ ⵓⴹⵕⵉⵚ ⴰⵏⵚⵍⵉ]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-7-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-tip-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[No ‘a’ in the original text]</seg>
 			</tuv>
@@ -5189,7 +5189,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ⵉⵏⵙⴰ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:adding-sentences-subheader-offensive-content" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:offensive-content" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Offensive Content</seg>
 			</tuv>
@@ -5197,7 +5197,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ⴳⴰⵔ ⵜⵓⵎⴰⵢⵜ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:offensive-content" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:adding-sentences-subheader-offensive-content" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Offensive Content</seg>
 			</tuv>
@@ -5485,7 +5485,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ⵎⵛⴰⵔⴰⴽ ⴰⴽⴷ ⵜⵎⴰⴷⴷⴰⵙⵉⵏ ⵏⵉⵖ ⵎⴷⴷⵏ ⵉⴷⵖⵔⴰⵏⵏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-example-2-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:background-noise-tip-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[Part of the text can’t be heard]</seg>
 			</tuv>
@@ -5493,7 +5493,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>[ⵓⵔ ⵜⴻⵜⵜⵓⵙⵍⵍⴰ ⵢⴰⵜ ⵜⴳⴹⴰⵎⵜ ⵙⴳ ⵓⴹⵕⵉⵚ]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:background-noise-tip-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-background-noise-example-2-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[Part of the text can’t be heard]</seg>
 			</tuv>
@@ -5847,7 +5847,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ⵏⵢⴰⵍⴽⴰⵎ ⴰⴽⴷ ⵜⵏⴱⴰⴹⵉⵏ, ⵜⵉⵎⴰⴷⴷⴰⵙⵉⵏ ⵓⵔ ⵉⵙⵉⴳⴳⵉⵍⵏ ⵚⴰⵃⴰ ⵏⵉⵖ ⵜⵉⵏ ⵓⵙⵏⵖⵎⵙ ⵃⵎⴰ ⴰⴷ ⵜⵥⵕⴷ ⵉⵙ ⵉⵣⵎⵔ ⴰⴷ ⵉⵜⵜⵓⴼⴽ ⴽⵔⴰ ⵙⴳ ⵜⵓⵎⴰⵢⵜ ⵏ ⵓⵡⵉⴱ ⵏⵏⵙⵏⵜ, ⵜⴰⵏⴰⴹⵉⵏ ⵏⵉⵖ ⵜⵓⵎⴰⵢⵜ ⵢⴰⴹⵏ ⵉ ⵡⴰⴳⵍⴰ ⴰⴳⴷⵓⴷⴰⵏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-reader-effects-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:reader-effects" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reader Effects</seg>
 			</tuv>
@@ -5855,7 +5855,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ⵜⵓⵙⵓⵔⵉⵏ ⵏ ⵉⵎⵖⵔⵉ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:reader-effects" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-reader-effects-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reader Effects</seg>
 			</tuv>
@@ -5871,7 +5871,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ⵜⵅⴰⵜⵔ ⵜⵖⵔⵉ ⵢⵓⵖⴷⵏ ⵏ ⵜⴳⵓⵔⵉⵡⵉⵏ ⴰⴽⴽⵯ ⵍⵍⴰⵏⵉⵏ ⴳ ⵜⴰⵙⵏⴰ. ⴰⴷⴷⴰⵢ ⵜⴻⵜⵜⵙⵍⵍⴰⴷ, ⵛⴰⴱⴱⴰ ⵙ ⵜⵖⴹⴼⵜ ⵉⵙ ⴷ ⴰⵢⵏⵏⴰ ⵉⵜⵜⵓⵙⵓⵙⵔⵏ ⵉⴳⴰ ⵏⵉⵛⴰⵏ ⴰⵢⵏⵏⴰ ⵉⵜⵜⵢⴰⵔⴰⵏ; ⵜⴰⴳⵢⴷ ⵎⴽ ⵜⵜⵓⵔⵏⴰⵏⵜ, ⴼⵙⵢⵏⵜ ⵏⵉⵖ ⵜⵜⵡⴰⵜⵜⵓⵏⵜ ⵜⴳⵓⵔⵉⵡⵉⵏ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-explanation-5" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-description-extended-list-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.</seg>
 			</tuv>
@@ -5879,7 +5879,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ⵜⵉⵖⵔⵉ ⵏ ⵉⴼⵙⴰⵢⵏ ⵏⵏⴰ ⵓⵔ ⵜⵜⵢⴰⵔⴰⵏⵉⵏ, ⵣⵓⵏ ⴷ "ⵉⵏ'ⴰⵙ" ⴳ ⵓⴷⵖⴰⵔ ⵏ "ⵉⵏⵉ ⴰⵙ", ⵏⵉⵖ ⴰⵏⵎⴳⴰⵍ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-description-extended-list-3" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-explanation-5" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.</seg>
 			</tuv>
@@ -6255,14 +6255,6 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ⵙⵙⵉⵔⵎ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:review" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⵙⵙⵉⵔⵎ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-header-review" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
@@ -6272,6 +6264,14 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:review-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⵙⵙⵉⵔⵎ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:review" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -6351,7 +6351,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ⵙⵙⵉⵔⵎ ⵜⵉⵡⵉⵏⴰⵙ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Sentences</seg>
 			</tuv>
@@ -6359,7 +6359,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ⵙⵙⵉⵔⵎ ⵜⵉⵡⵉⵏⴰⵙ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-review-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Sentences</seg>
 			</tuv>
@@ -6599,7 +6599,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ⵜⴰⵡⵉⵏⵙⵜ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sentence-collection" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute-sentence-collection-nav-header" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence Collection</seg>
 			</tuv>
@@ -6615,7 +6615,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ⴰⴳⵔⵔⵓ ⵏ ⵜⵡⵉⵏⴰⵙ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribute-sentence-collection-nav-header" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sentence-collection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence Collection</seg>
 			</tuv>
@@ -6807,7 +6807,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ⵜⴰⵜⵙⵡⴰⵏⴰⵢⵜ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:settings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -6815,7 +6815,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ⵜⵉⵙⵖⴰⵍ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-settings-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -7215,7 +7215,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ⵜⴰⵚⴱⴱⴰⵏⵢⵓⵜ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -7223,7 +7223,7 @@ You can view our source sentences in this &lt;githubLink&gt;GitHub folder&lt;/gi
 				<seg>ⵙⵉⵡⵍ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:about-speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -7491,7 +7491,7 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>ⴰⵣⵏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -7499,7 +7499,7 @@ To make voice recognition even more universal, we're collecting voice samples in
 				<seg>ⴰⵣⵏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-submit-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:submit-form-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -7837,7 +7837,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ⵉⵙⵓⴳⴰⵎ ⵉⵎⵓⴼⴰⵢⵏ ⵏⵏⴰ ⵙ ⵜⵣⵎⵔⴷ ⴰⴷ ⵙⵉⵙⵏ ⵜⵙⵉⴳⴳⵍⴷ, ⴳⴰⵏ ⵜⵏ ⵉⴱⵓⴷⴽⴰⵙⵜⵏ, ⵜⴰⵍⵙⴰⵔⵉⵜⵉⵏ, ⵉⵙⴽⵔⵉⴱⵏ ⵏ ⵉⴼⵉⵍⵎⵏ ⴷ ⵜⵖⴰⵡⵙⴰ ⵏⵏⴰ ⴽⴰ ⵉⵣⵎⵔⵏ ⴰⵜⴰⴼ ⴰⴷ ⵜⴰⵎⵓ ⵉⵎⵔⴰⵔⴰⵜⵏ ⵏ ⵡⴰⵡⴰⵍ ⵉⴽⵓⵢⴰⵙⵏ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-8-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-example-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The bumblebee sped by.</seg>
 			</tuv>
@@ -7845,7 +7845,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ⵓⴼⵉⵖ ⵜⴰⵡⴽⴽⴰ ⴳ ⵜⵉⵙⵏⵜ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-example-4" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-8-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The bumblebee sped by.</seg>
 			</tuv>
@@ -8101,7 +8101,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ⵙ ⵜⴼⵉⵍⴰⵡⵜ, ⵉⵅⵚⵚⴰ ⴰⴷ ⵓⵔ ⵉⵍⵉⵏ ⵉⵣⵡⵉⵍⵏ ⴳ ⵓⴹⵕⵉⵚ ⴰⵙⴰⴳⵎ ⴰⵛⴽⵓ ⵣⵎⵔⵏ ⴰⴷ ⵙⵔⴳⵏ ⴳ ⵉⵎⵓⴽⵔⵉⵙⵏ ⴰⴷⴷⴰⵢ ⵜⵜⵓⵖⵔⴰⵏ ⵙ ⵓⵥⴰⴳⵓ. ⵜⴻⵜⵜⵢⴰⴳⴰⵍ ⵜⵖⴰⵔⴰⵙⵜ ⵏⵏⴰ ⵙ ⵉⵜⵜⵓⵖⵔⴰ ⴽⵔⴰ ⵏ ⵡⵓⵟⵟⵓⵏ ⵙ ⵓⵎⵏⴰⴹ ⴷ ⵜⵖⵉⵢ ⴰⴷ ⵜⵙⵙⵉⴷⴼ ⴰⵔⵡⴰⵢ ⵖⵔ ⵜⴳⵔⵓⵎⵎⴰ ⵏ ⵉⵙⴼⴽⴰ. ⵙ ⵓⵎⴷⵢⴰ, ⵓⵟⵟⵓⵏ “25” ⵉⵖⵉⵢ ⴰⴷ ⵉⵜⵜⵓⵖⵔ ⵙ ⵓⵏⵖⴰⴷ ⴰⵎ “ⵙⵉⵏ ⵉⴷ ⵎⵔⴰⵡ ⴷ ⵙⵎⵎⵓⵙ”, “ⵙⵏⴰⵜ ⵜⵎⵔⴰⵡⵉⵏ ⴷ ⵙⵎⵎⵓⵙ”, “ⴰⴳⵏⴰⵔ ⴷ ⵙⵎⵎⵓⵙ“ ⴷ “ⵙⵉⵎⵔⴰⵡ ⴷ ⵙⵎⵎⵓⵙ“.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-volume-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:volume-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.</seg>
 			</tuv>
@@ -8109,7 +8109,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ⵔⴰⴷ ⵉⵍⵉⵏ ⵉⵎⵣⴰⵔⴰⵢⵏ ⵉⴳⴰⵎⴰⵏⵏ ⴳ ⵓⵙⵡⵉⵔ ⵏ ⵢⵉⵎⵙⵍⵉ ⴳⵔ ⵉⵎⵖⵔⵉⵜⵏ. ⴰⴳⵢ ⵖⴰⵙ ⵎⴽ ⴱⴰⵀⵔⴰ ⵢⴰⵜⵜⵓⵢ ⵓⵙⵡⵉⵔ ⵏ ⵢⵉⵎⵙⵍⵉ ⴰⵢⵍⵍⵉⴳ ⵍⴰ ⵉⵜⵜⴱⴱⵢ ⵓⵙⵓⵙⵔ, ⵏⵉⵖ (ⴳ ⵓⵎⴰⵜⴰ ⵏ ⵡⴰⴷⴷⴰⴷⵏ) ⵎⴽ ⴱⴰⵀⵔⴰ ⵉⵣⴷⵔ ⴰⵢⵍⵍⵉⴳ ⵓⵔ ⵜⵣⵎⵉⵔⴷ ⴰⴷ ⵜⵙⵍⵍⴷ ⵉ ⵓⵢⵏⵏⴰ ⵉⵜⵜⵓⵏⵏⴰⵏ ⵎⵉⵏ ⵜⴰⵙⴰⵖⵓⵍⵜ ⵖⵔ ⵓⴹⵕⵉⵚ ⵉⵜⵜⵢⴰⵔⴰⵏ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:volume-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-volume-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.</seg>
 			</tuv>
@@ -8173,7 +8173,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ⵜⴰⵡⵉⵏⵙⵜ ⴳⵉⵙ ⴰⵡⴰⵍ ⵎⴽⴽⵙ-ⴰⵣⵔⴰⴽ ⵏⵉⵖ ⵜⵉⵔⴳⴳⴰⵎ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be grammatically correct.</seg>
 			</tuv>
@@ -8181,7 +8181,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵜⴰⵖⴷ ⵜⵊⵕⵕⵓⵎⵜ ⵏ ⵜⵡⵉⵏⵙⵜ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-criteria-item-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be grammatically correct.</seg>
 			</tuv>
@@ -8205,7 +8205,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵜⵖⴰⵢ ⵜⵡⵉⵏⵙⵜ ⴰⴷ ⵜⴻⵜⵜⵓⵏⵏⴰ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:adding-sentences-subheader-spelling-punctuation-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be spelled correctly.</seg>
 			</tuv>
@@ -8213,7 +8213,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ⵉⵇⵇⴰⵏ ⴷ ⴰⴷ ⵢⴰⵖⴷ ⵓⵙⵏⵎⴰⵔⵔⴰ ⵏ ⵜⵡⵉⵏⵙⵜ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-review-criteria-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:adding-sentences-subheader-spelling-punctuation-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be spelled correctly.</seg>
 			</tuv>
@@ -8893,7 +8893,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ⴳⴰⵏⵜ ⵜⵎⵣⴰⵔⴰⵢⵉⵏ ⵢⴰⵜ ⵜⴰⵍⵖⴰ ⵉⵥⵍⵢⵏ ⵏ ⵢⴰⵜ ⵜⵓⵜⵍⴰⵢⵜ - ⵉⵜⵜⵓⴱⴹⴰⵏ ⵙ ⵓⵎⴷⵢⴰ ⴳⵔ ⵎⴷⴷⵏ ⴷⴷⵔⵏⵉⵏ ⴳ ⵢⴰⵜ ⵜⴰⵔⴰⴽⴰⵍⵜ ⵏⵉⵖ ⵜⴰⴳⵔⴰⵡⵜ. ⵍⴰ ⴰⵙⵏⵜ ⵜⵜⵉⵏⵉⵏ ⴽⵔⴰ ⵏ ⵜⵉⴽⴽⴰⵍ ⵜⵉⵏⵜⴰⵍⵉⵡⵉⵏ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:varying-pronunciations" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-varying-pronunciations-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Varying Pronunciations</seg>
 			</tuv>
@@ -8901,7 +8901,7 @@ All voice clips in the dataset are scrubbed of personally identifying informatio
 				<seg>ⵉⵙⵓⵙⵔⵓⵜⵏ ⵎⵣⴰⵔⴰⵢⵏⵉⵏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-varying-pronunciations-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:varying-pronunciations" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Varying Pronunciations</seg>
 			</tuv>
@@ -9167,7 +9167,7 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 				<seg>ⵏⴱⵓⵔⵣ ⴰⴷ ⵏⴻⵏⵏⴰⵍ ⴰⵙⵓⵖⵏ ⵏ ⵢⵉⴳⵔ ⴰⴳⴷⵓⴷⴰⵏ ⴳ ⵜⴻⵜⵉⴽⵏⵓⵍⵓⵊⵉⵜ, ⴰⵙⵏⴼⵍⵓⵍ ⴷ ⵉⵣⵔⴼⴰⵏ ⵏ ⵜⵓⵜⵍⴰⵢⵜ. ⵎⴽ ⵍⴰ ⵜⵙⵖⵉⵡⵉⵙⴷ ⴰⴷ ⵜⵕⵥⵎⴷ ⵉ ⴽⵔⴰ ⵏ ⵓⵙⵏⴼⴰⵔ ⵏⵉⵖ ⴰⵎⵣⵉⵣⵣⵍ ⵉⵎⵇⵇⵔⴰⵏⵏ, ⵎⴽ ⵜⵓⴼⵉⴷ, &lt;emailFragment&gt;ⵏⵢⴰⵍⴽⴰⵎ ⴷⵉⴷⵏⵖ.&lt;/emailFragment&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-example-3" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-7-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We are going out to get a coffee.</seg>
 			</tuv>
@@ -9175,7 +9175,7 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 				<seg>ⵉⵏⵉ ⴰⵙ ⴰⴷ ⴷ ⵢⴰⵡⵢ ⴽⵔⴰ ⵏ ⵡⴰⵜⴰⵢ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:contribution-misreadings-example-7-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:misreadings-example-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We are going out to get a coffee.</seg>
 			</tuv>
@@ -10099,14 +10099,6 @@ Remember that sentences need to be &lt;licenseLink&gt;CC0 (or public domain)&lt;
 				<seg>ⵜⵣⵎⵔⵎ ⴰⴷ ⵜⵙⵙⵎⵔⵙⵎ &lt;scraperLink&gt;ⴰⵎⴰⵙⵙⴰⴼ ⵏ ⵜⵡⵉⵏⴰⵙ&lt;/scraperLink&gt; ⵃⵎⴰ ⴰⴷ ⴷ ⵜⴰⵎⴷⵎ ⵜⵉⵡⵉⵏⴰⵙ ⴳⵣⵣⵓⵍⵏⵉⵏ ⵙⴳ ⵡⵉⴽⵉⴱⵉⴷⵢⴰ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-cite-item-1" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>You could include the website, e.g "Common Voice - https://commonvoice.mozilla.org/"</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⵜⵖⵉⵢⴷ ⴰⴷ ⵜⵙⵙⴰⵎⵓⴷ ⴰⵙⵉⵜⵡⵉⴱ, ⵎⴷ. "ⴽⴰⵎⵏⴼⵓⵢⵙ - https://commonvoice.mozilla.org/"</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/messages.ftl:citing-sentences-subheader-websites-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You could include the website, e.g "Common Voice - https://commonvoice.mozilla.org/"</seg>
@@ -10115,7 +10107,15 @@ Remember that sentences need to be &lt;licenseLink&gt;CC0 (or public domain)&lt;
 				<seg>ⵜⵖⵉⵢⴷ ⴰⴷ ⵜⵙⵙⴰⵎⵓⴷ ⴰⵙⵉⵜⵡⵉⴱ, ⵎⴷ. "ⴽⴰⵎⵏⴼⵓⵢⵙ - https://commonvoice.mozilla.org/"</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-cite-item-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-cite-item-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You could include the website, e.g "Common Voice - https://commonvoice.mozilla.org/"</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⵜⵖⵉⵢⴷ ⴰⴷ ⵜⵙⵙⴰⵎⵓⴷ ⴰⵙⵉⵜⵡⵉⴱ, ⵎⴷ. "ⴽⴰⵎⵏⴼⵓⵢⵙ - https://commonvoice.mozilla.org/"</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/messages.ftl:citing-sentences-subheader-academic-reference-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You could use academic referencing style, e.g Harvard style "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"</seg>
 			</tuv>
@@ -10123,7 +10123,7 @@ Remember that sentences need to be &lt;licenseLink&gt;CC0 (or public domain)&lt;
 				<seg>ⵜⵣⵎⵔⴷ ⴰⴷ ⵜⵙⵙⵎⵔⵙⴷ ⵜⴰⵎⴰⵎⴽⵜ ⵏ ⵜⵙⴰⵖⵓⵍⵜ ⵜⴰⴽⴰⴷⵉⵎⵉⵜ, ⵙ ⵎⴷ. ⵜⴰⵎⴰⵎⴽⵜ ⵏ ⵀⴰⵔⴼⵔⴷ "ⵎⵓⵣⵉⵍⴰ (2021) ⴽⴰⵎⵏⴼⵓⵢⵙ. ⵜⵙⴰⴳⴰ ⴳ https://commonvoice.mozilla.org/ (ⵜⴻⵜⵜⵢⴰⴷⴰⴼ: 15 ⵛⵓⵜⴰⵏⴱⵉⵔ 2021)"</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/messages.ftl:citing-sentences-subheader-academic-reference-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/messages.ftl:sc-howto-cite-item-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You could use academic referencing style, e.g Harvard style "Mozilla (2021) Common Voice. Available at https://commonvoice.mozilla.org/ (Accessed: 15th September 2021)"</seg>
 			</tuv>
@@ -10385,7 +10385,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>+</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionsnotificationserviceinfoplistcfbundleshortversionstring" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientinfoplistcfbundleshortversionstring" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>0.0.1</seg>
 			</tuv>
@@ -10401,7 +10401,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>0.0.1</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientinfoplistcfbundleshortversionstring" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionsnotificationserviceinfoplistcfbundleshortversionstring" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>0.0.1</seg>
 			</tuv>
@@ -10417,95 +10417,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>0.0.1</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:uitestsinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:storageperftestsinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:storagetestsinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctelemetryinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctestsinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:clienttestsinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedtestsinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:accounttestsinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctelemetrytestsinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:xcuitestsinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:syncinfoplistcfbundleshortversionstring" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>18.0</seg>
 			</tuv>
@@ -10521,6 +10433,94 @@ the steps to get your language added to Common Voice</seg>
 				<seg>18.0</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:syncinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctelemetrytestsinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:accounttestsinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedtestsinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctestsinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:uitestsinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:storagetestsinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:storageperftestsinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctelemetryinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:xcuitestsinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsaa" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Aa</seg>
@@ -10529,39 +10529,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ⴰⴱ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojbookmarkpaneldeleteconfirmstringsbookmarksdeletefolderwarningcancelbuttonlabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⵙⵔ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringscancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⵙⵔ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssendtocancelbutton" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⵙⵔ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringslibrarypanelhistorycleargroupedtabscancelv100" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⵙⵔ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojclearprivatedataconfirmstringscancel" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojloginmanagerstringscancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -10577,15 +10545,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ⵙⵔ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojclearhistoryconfirmstringscancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⵙⵔ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojloginmanagerstringscancel" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringslibrarypanelhistorycleargroupedtabscancelv100" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -10601,6 +10561,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ⵙⵔ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojclearhistoryconfirmstringscancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⵙⵔ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientbookmarkpaneldeleteconfirmstringscancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
@@ -10609,7 +10577,15 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ⵙⵔ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringswallpapererrordismissv106" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssendtocancelbutton" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⵙⵔ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojbookmarkpaneldeleteconfirmstringsbookmarksdeletefolderwarningcancelbuttonlabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -10625,6 +10601,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ⵙⵔ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsloginslistsearchcancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⵙⵔ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssearchthirdpartyenginescancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
@@ -10633,7 +10617,23 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ⵙⵔ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsloginslistsearchcancel" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringscancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⵙⵔ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringswallpapererrordismissv106" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⵙⵔ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojclearprivatedataconfirmstringscancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -10649,31 +10649,15 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ⵙⵔ ⴰⴳⴰⵎ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringscontextualhintsclosebuttonaccessibilityv105" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⵔⴳⵍ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssendtoclosebutton" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⵔⴳⵍ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsphotonmenuclose" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⵔⴳⵍ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsdefaultbrowserclosebuttonaccessibilityv102" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⵔⴳⵍ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringscontextualhintsclosebuttonaccessibilityv105" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -10689,44 +10673,28 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ⵔⴳⵍ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsphotonmenuclose" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⵔⴳⵍ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssendtoclosebutton" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⵔⴳⵍ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojmenustringsmenucopylinktitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy Link</seg>
 			</tuv>
 			<tuv xml:lang="zgh">
 				<seg>ⵙⵙⵏⵖⵍ ⴰⵙⵖⵏ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientbookmarkpaneldeleteconfirmstringsdelete" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⴽⴽⵙ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientdownloadspanelstringsdelete" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⴽⴽⵙ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientbookmarkpanelstringsdelete" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⴽⴽⵙ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsdownloadspaneldeletetitle" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⴽⴽⵙ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojloginmanagerstringsdelete" srclang="en-US">
@@ -10745,7 +10713,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ⴽⴽⵙ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringslibrarypanelhistorydeletegroupeditemv104" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojhistorypanelstringsdelete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -10753,7 +10721,23 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ⴽⴽⵙ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojbookmarkpanelstringsdelete" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientbookmarkpanelstringsdelete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⴽⴽⵙ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientbookmarkpaneldeleteconfirmstringsdelete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⴽⴽⵙ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsdownloadspaneldeletetitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -10769,7 +10753,23 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ⴽⴽⵙ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojhistorypanelstringsdelete" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesenlprojbookmarkpanelstringsdelete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⴽⴽⵙ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringslibrarypanelhistorydeletegroupeditemv104" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⴽⴽⵙ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientdownloadspanelstringsdelete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -10913,7 +10913,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ⵓⵀⵓ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojclearhistoryconfirmstringsok" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsaddpasserrordismiss" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
@@ -10937,15 +10937,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ⵡⴰⵅⵅⴰ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsok" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>OK</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⵡⴰⵅⵅⴰ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsaddpasserrordismiss" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojclearhistoryconfirmstringsok" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
@@ -10954,6 +10946,14 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojclearprivatedataconfirmstringsok" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⵡⴰⵅⵅⴰ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsok" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
@@ -10985,55 +10985,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ⵡⴰⵅⵅⴰ, ⵔⵎⵙⵖ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:syncinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:uitestsinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:accounttestsinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionstodayinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctestsinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionssharetoinfoplistcfbundlename" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:storagetestsinfoplistcfbundlename" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>$(PRODUCT_NAME)</seg>
 			</tuv>
@@ -11049,39 +11001,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>$(PRODUCT_NAME)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:storageperftestsinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionsnotificationserviceinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:clienttestsinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:storagetestsinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:xcuitestsinfoplistcfbundlename" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>$(PRODUCT_NAME)</seg>
 			</tuv>
@@ -11097,6 +11017,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>$(PRODUCT_NAME)</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctestsinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedtestsinfoplistcfbundlename" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>$(PRODUCT_NAME)</seg>
@@ -11105,7 +11033,79 @@ the steps to get your language added to Common Voice</seg>
 				<seg>$(PRODUCT_NAME)</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionssharetoinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:xcuitestsinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:accounttestsinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:uitestsinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionstodayinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:syncinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionsnotificationserviceinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:accountinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:storageperftestsinfoplistcfbundlename" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>$(PRODUCT_NAME)</seg>
 			</tuv>
@@ -11129,6 +11129,14 @@ the steps to get your language added to Common Voice</seg>
 				<seg>ⴰⵣⵏ ⵖⵔ ⵡⴰⵍⵍⴰⵍ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientdownloadspanelstringsshare" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share</seg>
+			</tuv>
+			<tuv xml:lang="zgh">
+				<seg>ⴱⴹⵓ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshomepanelcontextmenushare" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
@@ -11138,14 +11146,6 @@ the steps to get your language added to Common Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsdownloadspanelsharetitle" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Share</seg>
-			</tuv>
-			<tuv xml:lang="zgh">
-				<seg>ⴱⴹⵓ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientdownloadspanelstringsshare" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -11486,7 +11486,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>bookmark</seg>
 			</tuv>
 			<tuv xml:lang="zgh">
-				<seg>ⵎⵕⵛⵎⵜⴰⵙⵏⴰ</seg>
+				<seg>ⵕⵛⵎ ⵜⴰⵙⵏⴰ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -11494,7 +11494,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>bookmark</seg>
 			</tuv>
 			<tuv xml:lang="zgh">
-				<seg>ⵕⵛⵎ ⵜⴰⵙⵏⴰ</seg>
+				<seg>ⵎⵕⵛⵎⵜⴰⵙⵏⴰ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -11574,7 +11574,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="zgh">
-				<seg>(ⵜ)ⵓⵅⵙⵉⵔ(ⵜ)</seg>
+				<seg>ⵙⵙⵅⵙⵔ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -11582,7 +11582,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="zgh">
-				<seg>ⵙⵙⵅⵙⵔ</seg>
+				<seg>(ⵜ)ⵓⵅⵙⵉⵔ(ⵜ)</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -11750,7 +11750,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>report</seg>
 			</tuv>
 			<tuv xml:lang="zgh">
-				<seg>ⵜⴰⵎⵓⵍⵉ</seg>
+				<seg>ⵎⵍ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -11758,7 +11758,7 @@ the steps to get your language added to Common Voice</seg>
 				<seg>report</seg>
 			</tuv>
 			<tuv xml:lang="zgh">
-				<seg>ⵎⵍ</seg>
+				<seg>ⵜⴰⵎⵓⵍⵉ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">

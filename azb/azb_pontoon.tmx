@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2024-06-01T00:17:31.993105">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2024-07-01T00:19:36.126144">
 	</header>
 	<body>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_rating_content_description" srclang="en-US">
@@ -43,7 +43,15 @@
 				<seg>%2$d سونوچدان %1$d سونوچ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:download_multi_select_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_multi_select_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%1$d selected</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>%1$d سئچیلیدی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multi_select_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$d selected</seg>
 			</tuv>
@@ -59,15 +67,7 @@
 				<seg>%1$d سئچیلیدی</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_multi_select_title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>%1$d selected</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>%1$d سئچیلیدی</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multi_select_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:download_multi_select_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$d selected</seg>
 			</tuv>
@@ -275,6 +275,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>%1$s داها آرتیق ایجازه‌لر ایستییر.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:fxa_tabs_closed_notification_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%1$s tabs closed: %2$d</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>%1$s تاغیْ باغلاندیْ: %2$d</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/engine-system/src/main/res/values/strings.xml:mozac_browser_engine_system_auth_message" srclang="en-US">
@@ -525,6 +533,14 @@
 				<seg>%2$s -یه %1$s اکله‌یین</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_added_to_shortcuts" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Added to shortcuts!</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>شوْرتکات‌لارا آرتیریلدیْ !</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:juno_onboarding_add_search_widget_positive_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add Firefox widget</seg>
@@ -581,7 +597,7 @@
 				<seg>تاخیلان‌لار</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_addons" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add_ons" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add-ons</seg>
 			</tuv>
@@ -589,7 +605,7 @@
 				<seg>تاخیلان‌لار</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_add_ons" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_addons" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add-ons</seg>
 			</tuv>
@@ -621,7 +637,7 @@
 				<seg>تاخیلان‌لار گئچیجی اولاراق گوجدن سالینمیش.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons_manager" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_addons_manager" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add-ons Manager</seg>
 			</tuv>
@@ -629,7 +645,7 @@
 				<seg>تاخیلان مودیریتی</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_addons_manager" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_addons_manager" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add-ons Manager</seg>
 			</tuv>
@@ -675,6 +691,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>آدرس چوبوغو -فایرفاکس تکلیفی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_toolbar_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Address bar location</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>آدرس چوبوغو یئری</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_settings_address_bar" srclang="en-US">
@@ -821,20 +845,28 @@
 				<seg>ایجازه وئر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_allow" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Allow</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>ایجازه وئر</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_notification_allow_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>ایجازه</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_allow" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>ایجازه</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_allow" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>ایجازه وئر</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_allow_button" srclang="en-US">
@@ -845,12 +877,20 @@
 				<seg>ایجازه وئر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_allow" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:qr_scanner_dialog_positive" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Allow</seg>
+				<seg>ALLOW</seg>
 			</tuv>
 			<tuv xml:lang="azb">
-				<seg>ایجازه</seg>
+				<seg>اجازه وئر</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:qr_scanner_confirmation_dialog_message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow %1$s to open %2$s</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>%1$s -یه %2$s آدرسینی آچماسینا اجازه وئر</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_media_key_system_access_title" srclang="en-US">
@@ -917,7 +957,7 @@
 				<seg>%1$s میکروفونوزو ایشه آلسین؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:quick_setting_option_autoplay_allowed" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_autoplay_allowed2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow audio and video</seg>
 			</tuv>
@@ -925,7 +965,7 @@
 				<seg>سس و ویدئویا ایجازه وئر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_autoplay_allowed2" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:quick_setting_option_autoplay_allowed" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow audio and video</seg>
 			</tuv>
@@ -989,7 +1029,7 @@
 				<seg>موزیلایا آراشدیرمالار قوْشماغینا و ایجرا ائتمه‌سینه ایجازه وئریر.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_open_links_in_apps_always" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_always_allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Always</seg>
 			</tuv>
@@ -997,7 +1037,7 @@
 				<seg>هر زامان</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_always_allow" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_open_links_in_apps_always" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Always</seg>
 			</tuv>
@@ -1027,6 +1067,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>سیز آرخایینسیز؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_collection_dialog_message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Are you sure you want to delete %1$s?</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>%1$s مجموعه‌سینی سیلمه‌گه آرخایینسیز؟</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_delete_folder_confirmation_dialog" srclang="en-US">
@@ -1141,6 +1189,22 @@
 				<seg>داها چوْخ گوونلیک اوچون HTTPS رمزله‌مه پروْتوکولوُندان ایستیفاده ائده‌رک سایتلارا اوْتوماتیک قوْشوُلماغا چالیْشیر.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_summary_delete_browsing_data_on_quit_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Automatically deletes browsing data when you select \"Quit\" from the main menu</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>اصلی منودان \"چیخین\" سئچدیگینیز زمان باخیش بیلگی‌لری سیلینیر.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_accessibility_auto_size_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Automatic font sizing</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>اوْتوماتیک فوْنت اؤلچوسو</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_browser_feature_autoplay" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Autoplay</seg>
@@ -1165,7 +1229,7 @@
 				<seg>مسدود ائله</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_autoplay_blocked3" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:quick_setting_option_autoplay_blocked" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Block audio and video</seg>
 			</tuv>
@@ -1173,7 +1237,7 @@
 				<seg>سس و ویدئویو مسدود ائله</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:quick_setting_option_autoplay_blocked" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_option_autoplay_blocked3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Block audio and video</seg>
 			</tuv>
@@ -1245,6 +1309,14 @@
 				<seg>بوُکمارک‌لار</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sync_bookmarks" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bookmarks</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>بوُکمارک‌لار</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_bookmarks_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmarks</seg>
@@ -1253,12 +1325,12 @@
 				<seg>بوکمارک‌لار</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sync_bookmarks" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_bookmarks" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmarks</seg>
 			</tuv>
 			<tuv xml:lang="azb">
-				<seg>بوُکمارک‌لار</seg>
+				<seg>بوکمارک‌لار</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_saved_snackbar" srclang="en-US">
@@ -1285,6 +1357,14 @@
 				<seg>بوکمارک منوسو</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_message_bookmarks_saved" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bookmarks saved!</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>بوکمارک‌لار ساخلاندیْ !</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_desktop_bookmarks_toolbar" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmarks Toolbar</seg>
@@ -1307,6 +1387,46 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>آلت</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:notification_re_engagement_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Browse with no saved cookies or history in %1$s</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>%1$s ساخلانیلمیش کوکی‌لر و گئچمیشه اوْلمادان مرور باشلایین.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:notification_re_engagement_a_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Browse without a trace</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>ایز بوراخمادان مرور باشلایین.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_snackbar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Browsing data deleted</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>مرور دیتالاریْ سیلیندی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_browsing_history_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Browsing history</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>مرور گئچیمیشی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_cached_files" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cached images and files</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>کش اوْلموش عکس‌لر و فایل‌لار</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_call" srclang="en-US">
@@ -1357,39 +1477,7 @@
 				<seg>کامئرا آچیق</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:clear_permission_negative" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>لغو</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_delete_negative" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>لغو</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_deny" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>لغو</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_install_addon_dialog_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>لغو</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:cookie_banner_handling_details_site_is_not_supported_cancel_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1405,15 +1493,7 @@
 				<seg>لغو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>لغو</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_cancel" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_install_addon_dialog_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1429,7 +1509,31 @@
 				<seg>لغو</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_delete_negative" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>لغو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_history_group_prompt_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>لغو</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>لغو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_all_warning_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1453,7 +1557,7 @@
 				<seg>لغو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_all_warning_cancel" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sign_out_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1469,7 +1573,7 @@
 				<seg>لغو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:clear_permissions_negative" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1478,6 +1582,46 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_identity_credentials_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>لغو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_prompt_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>لغو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_deny" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>لغو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:clear_permissions_negative" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>لغو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:clear_permission_negative" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>لغو</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:cookie_banner_handling_details_site_is_not_supported_cancel_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1507,6 +1651,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>ایستک قورتارا بیلمیر</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:share_error_snackbar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cannot share to this app</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>بو اپ‌ده پایلاشماق اوْلمور</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_error_unknown_cause_2" srclang="en-US">
@@ -1589,22 +1741,6 @@
 				<seg>کلاسیک %s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar2/src/main/res/values/strings.xml:mozac_clear_button_description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Clear</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>پوز</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/compose/browser-toolbar/src/main/res/values/strings.xml:mozac_clear_button_description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Clear</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>تمیزله</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_clear" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Clear</seg>
@@ -1613,7 +1749,23 @@
 				<seg>پوز</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar2/src/main/res/values/strings.xml:mozac_clear_button_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clear</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>پوز</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_clear_button_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clear</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>تمیزله</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/compose/browser-toolbar/src/main/res/values/strings.xml:mozac_clear_button_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Clear</seg>
 			</tuv>
@@ -1653,39 +1805,7 @@
 				<seg>یاخین زامانداکی گؤزآتما گئچمیشینی، کوکی‌لری و ایلگیلی دیتالاری پوزون</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multiselect_menu_item_close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>باغلا</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:content_description_close_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>باغلا</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>باغلا</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_inactive_auto_close_button_content_description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>باغلا</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_dialog_button_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -1702,6 +1822,38 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_home_content_description_close_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>باغلا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_inactive_auto_close_button_content_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>باغلا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>باغلا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_dialog_button_close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>باغلا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_multiselect_menu_item_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -1749,6 +1901,22 @@
 				<seg>ال‌ ایله باغلاییْن</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:notification_pbm_delete_text_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close private tabs</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>گیزلی تاغ‌لاریْ باغلا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:notification_erase_title_android_14" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close private tabs?</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>گیزلی تاغ‌لار باغلانسین؟</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_read_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close reader view</seg>
@@ -1765,7 +1933,7 @@
 				<seg>تاغی باغلا</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_crash_close" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/ui/tabcounter/src/main/res/values/strings.xml:mozac_close_tab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close tab</seg>
 			</tuv>
@@ -1773,7 +1941,7 @@
 				<seg>تاغی باغلا</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/ui/tabcounter/src/main/res/values/strings.xml:mozac_close_tab" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_crash_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close tab</seg>
 			</tuv>
@@ -1853,6 +2021,14 @@
 				<seg>%d مجموعه‌سی</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_collection_deleted" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Collection deleted</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>مجموعه سیلیندی</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:collection_menu_button_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Collection menu</seg>
@@ -1861,7 +2037,7 @@
 				<seg>مجموعه‌لر منوسو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_addon_collection_hint" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:collection_name_hint" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Collection name</seg>
 			</tuv>
@@ -1869,7 +2045,7 @@
 				<seg>مجموعه آدیْ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:collection_name_hint" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_addon_collection_hint" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Collection name</seg>
 			</tuv>
@@ -1883,6 +2059,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>مجموعه صاحیبی (قوللانیجیْ آیدی‌سی)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_collection_renamed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Collection renamed</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>مجموعه‌نین آدی دییشیلدی</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:collections_header" srclang="en-US">
@@ -1937,6 +2121,14 @@
 				<seg>باشقا جهازا باغلا</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sync_add_new_device_connect_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Connect Another Device…</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>باشقا بیر جهازا باغلا…</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_content_crashed_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Content crashed</seg>
@@ -1953,7 +2145,7 @@
 				<seg>ایچریک کدلاما خطاسی</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_home_enable_notifications_positive_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_identity_credentials_continue" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
 			</tuv>
@@ -1961,7 +2153,7 @@
 				<seg>ایدامه وئر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_identity_credentials_continue" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_home_enable_notifications_positive_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
 			</tuv>
@@ -1983,6 +2175,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>تاخیلان‌لاریْ گوُجسوز ائتمه‌گه ایدامه وئرین</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:extension_process_crash_dialog_disable_extensions_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue with extensions disabled</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>اوزانتی‌لاریْ گوجسوز ائتمه‌گه ایدامه وئرین</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_proxy_description" srclang="en-US">
@@ -2007,6 +2207,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>گیزلی موروردا کوکی بنر مسدود ائلینی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_cookies_and_site_data" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookies and site data</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>کوکی‌لر و سایت دیتالاریْ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:toast_copy_link_to_clipboard" srclang="en-US">
@@ -2145,6 +2353,14 @@
 				<seg>اؤزل تاخیْلان مجموعه‌سی</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_customize_extension_collection" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Custom Extension collection</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>اؤزل اوزانتیْ مجموعه‌سی</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_customize" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Customize</seg>
@@ -2183,6 +2399,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>اؤزل دؤنگل سرور</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_browsing_data_subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%d addresses</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>%d آدرس</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_dark" srclang="en-US">
@@ -2249,7 +2473,15 @@
 				<seg>وارساییلان آختاریش موتورو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_delete_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_collection_dialog_positive" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>سیل</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_prompt_allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -2265,6 +2497,54 @@
 				<seg>سیل</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_delete_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>سیل</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_history_group_prompt_allow" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>سیل</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_all_history_group_prompt_message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete all sites in “%s”</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>“%s” گروهونداکی بوتون سایتلاریْ سیل</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete browsing data</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>مرور دیتالارینیْ سیلین</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete browsing data</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>مرور دیتالارینیْ سیلین</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_on_quit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete browsing data on quit</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>چیخیش زمانی آختاریش بیلگی‌لری سیلین</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:collection_delete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete collection</seg>
@@ -2273,7 +2553,7 @@
 				<seg>مجموعه‌نی سیل</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_delete_single_item_snackbar" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_deletion_snackbar_message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Deleted %1$s</seg>
 			</tuv>
@@ -2281,7 +2561,7 @@
 				<seg>%1$s سیلیندی</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_deletion_snackbar_message" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_delete_single_item_snackbar" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Deleted %1$s</seg>
 			</tuv>
@@ -2313,6 +2593,14 @@
 				<seg>سایتی سیل</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:deleting_browsing_data_in_progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Deleting browsing data…</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>مرور دیتالاریْ سیلینیر…</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_deletion_multiple_snackbar_message_3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Deleting selected folders</seg>
@@ -2321,7 +2609,7 @@
 				<seg>سئچیلن قوْولوق سیلینیر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_deny" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_deny" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Deny</seg>
 			</tuv>
@@ -2329,7 +2617,7 @@
 				<seg>رد </seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_deny" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_deny" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Deny</seg>
 			</tuv>
@@ -2343,6 +2631,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>رد </seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:qr_scanner_dialog_negative" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>DENY</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>رد ائله</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_deselect_all" srclang="en-US">
@@ -2393,7 +2689,7 @@
 				<seg>جهاز آدیْ بوْش اوْلمالیدیر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_disabled" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_disabled_section" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Disabled</seg>
 			</tuv>
@@ -2401,7 +2697,7 @@
 				<seg>گوجدن سالینمیش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_disabled_section" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_disabled" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Disabled</seg>
 			</tuv>
@@ -2417,6 +2713,14 @@
 				<seg>گیزلی مورورو گوجدن سال</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sign_out_disconnect" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Disconnect</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>باغلانتینیْ کس</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_discover_more_extensions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Discover more extensions</seg>
@@ -2425,23 +2729,7 @@
 				<seg>داها چوْخ اوزانتیْ گؤر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_in_app_cfr_negative_button_text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Dismiss</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>باغلا</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:camera_permissions_needed_negative_button_text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Dismiss</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>باغلا</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/base/src/main/res/values/strings.xml:mozac_support_base_permissions_needed_negative_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
 			</tuv>
@@ -2473,6 +2761,22 @@
 				<seg>باغلا</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_in_app_cfr_negative_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dismiss</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>باغلا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/base/src/main/res/values/strings.xml:mozac_support_base_permissions_needed_negative_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dismiss</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>باغلا</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/findinpage/src/main/res/values/strings.xml:mozac_feature_findindpage_dismiss" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss find in page</seg>
@@ -2487,6 +2791,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>سیزه بیلدیریش‌لری گؤسترمک</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:microsurvey_survey_5_point_option_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dissatisfied</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>ناراضیْ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_suggestions_onboarding_do_not_allow_button" srclang="en-US">
@@ -2601,6 +2913,14 @@
 				<seg>یئندیریلن‌لر</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_downloads" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Downloads</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>یئندیریلن‌لر</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:download_delete_multiple_items_snackbar_1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads Removed</seg>
@@ -2649,6 +2969,14 @@
 				<seg>%d تاغ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_tabs_subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%d tabs</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>%d تاغ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_closed_tabs" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%d tabs</seg>
@@ -2681,7 +3009,7 @@
 				<seg>تاغی ایکی‌له</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_edit" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_edit_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit</seg>
 			</tuv>
@@ -2689,7 +3017,7 @@
 				<seg>دوزه‌لیش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_edit_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_edit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit</seg>
 			</tuv>
@@ -2809,12 +3137,28 @@
 				<seg>آختاریش منوسوندا گؤرونن موتورلار</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enhanced Tracking Protection</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>گلیشمیش ایزله‌مه قوْرماسیْ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_error_empty_password_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enter a password</seg>
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>بیر رمز وئر</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:full_screen_notification" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Entering full screen mode</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>بوتون اکران حالتینه گئچیلیر</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:application_search_hint" srclang="en-US">
@@ -2855,6 +3199,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>خطا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_history_prompt_button_everything" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Everything</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>هر شئی</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_exceptions" srclang="en-US">
@@ -2953,6 +3305,14 @@
 				<seg>تاخیلان‌لاریْ آراشدیْر</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addon_ga_message_button_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Explore extensions</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>اوزانتی‌ْ‌لاری آراشدیرین</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:wallpapers_onboarding_dialog_explore_more_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Explore more wallpapers</seg>
@@ -2969,12 +3329,12 @@
 				<seg>آچیق تاغلاردا بیلگی‌لریزه ال چاتماق اوچون گلیشدیریجی آلت‌لرینی گئنیشله‌دین.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_extensions" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:toast_customize_extension_collection_done" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Extensions</seg>
+				<seg>Extension collection modified. Quitting the application to apply changes…</seg>
 			</tuv>
 			<tuv xml:lang="azb">
-				<seg>اوزانتی‌لار</seg>
+				<seg>اوزانتیْ مجموعه‌سی دییشدیریلدی. دییشمه‌لری یئرینه سالماق اوچون اپ‌دن چیخیلیر…</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_extensions" srclang="en-US">
@@ -2993,12 +3353,28 @@
 				<seg>اوزانتی‌لار</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_extensions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Extensions</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>اوزانتی‌لار</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_extensions_manager_notification_title_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Extensions are temporarily disabled</seg>
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>اوزانتی‌لار گئچیجی اوْلاراق گوُجدن سالینمیش.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:extension_process_crash_dialog_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Extensions are temporarily disabled</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>اوزانتی‌ْلار گئچیجی اوْلاراق گوجدن سالینمیش.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_extensions_manager" srclang="en-US">
@@ -3113,20 +3489,20 @@
 				<seg>باغلانتی‌نی کلیپ بورددان آل</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/findinpage/src/main/res/values/strings.xml:mozac_feature_findindpage_input" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Find in page</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>صفحه‌ده تاپین</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_find_in_page" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Find in page</seg>
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>صفحه‌ده تاپ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/findinpage/src/main/res/values/strings.xml:mozac_feature_findindpage_input" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Find in page</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>صفحه‌ده تاپین</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_find_in_page_2" srclang="en-US">
@@ -3169,12 +3545,28 @@
 				<seg>اؤنجه‌کی سونوچو تاپ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:notification_re_engagement_b_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Find something nearby. Or discover something fun.</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>یاخیندا بیر شئی تاپین. یا جالب بیر شئی کشف ائدین</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_not_yet_supported_caption" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox add-on technology is modernizing. These add-ons use frameworks that are not compatible with Firefox 75 &amp; beyond.</seg>
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>فایرفاکس‌‍ین تاخیلان تکنولوژیسی مدرنلشیر. بو تاخیلان‌لار فایرفاکس ۷۵ و سونراکی یازیملارلا توتوشمایان چرچیوه‌لردن ایستیفاده ائدیر.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:nimbus_notification_default_browser_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox is fast and private</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>فایرفاکس یئیین و گیزلی‌دیر.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:juno_onboarding_privacy_notice_text" srclang="en-US">
@@ -3209,6 +3601,14 @@
 				<seg>جهاز تمینی نظره آل</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_accessibility_font_size_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Font Size</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>فوْنت اؤلچوسو</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_font_size_decrease_desc" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Font size decrease</seg>
@@ -3225,12 +3625,28 @@
 				<seg>فونت اؤلچوسونون چوخالماسی</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_accessibility_auto_size_summary" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Font size will match your Android settings. Disable to manage font size here.</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>متن‌ین اؤلچوسو اندروید تنظیم‌لرینه اویقون اوْلاجاق. فونت اؤلچو مدیریتینی بوردا ایشدن سالین.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_forward" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Forward</seg>
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>قاباغا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_cached_files_subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Frees up storage space</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>ساخلاما یئرینی بوْشالدیر</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_selfie_camera2" srclang="en-US">
@@ -3329,14 +3745,6 @@
 				<seg>آنلادیم</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/base/src/main/res/values/strings.xml:mozac_support_base_permissions_needed_positive_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Go to settings</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>تنظیم‌لره گئدین</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:open_in_app_cfr_positive_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to settings</seg>
@@ -3346,6 +3754,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:camera_permissions_needed_positive_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Go to settings</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>تنظیم‌لره گئدین</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/support/base/src/main/res/values/strings.xml:mozac_support_base_permissions_needed_positive_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to settings</seg>
 			</tuv>
@@ -3369,6 +3785,14 @@
 				<seg>شبکه‌لی</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_history_group_snackbar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Group deleted</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>گروه سیلیندی</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_safe_harmful_uri_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Harmful site issue</seg>
@@ -3385,6 +3809,14 @@
 				<seg>ال‌توتما</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:microsurvey_prompt_printing_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help make printing in Firefox better. It only takes a sec</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>فایرفاکس‌دا پرینتی یاخچیلاشدیرماغا کمک ائدین. یالنیز بیر ثانیه چکیر.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_tab_hide_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hide and show browser tabs</seg>
@@ -3393,7 +3825,7 @@
 				<seg>مورورچو تاغلارینی گیزله و گؤستر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_highlighted" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_highlighted" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Highlighted</seg>
 			</tuv>
@@ -3401,7 +3833,7 @@
 				<seg>هایلایت اولدو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_highlighted" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_highlighted" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Highlighted</seg>
 			</tuv>
@@ -3433,7 +3865,7 @@
 				<seg>گئچمیش سیلیندی</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_home_2" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_home_page" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Homepage</seg>
 			</tuv>
@@ -3441,7 +3873,7 @@
 				<seg>آنایارپاق</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_home_page" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_home_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Homepage</seg>
 			</tuv>
@@ -3481,6 +3913,14 @@
 				<seg>بوُنونلا بئله، حمله ائده‌نین‌ده ایشتیراک ائتمه‌سی موُمکوندور. ایدامه وئرسز، هئچ بیر بیلگی وئرمه‌یین. ایدامه وئرسز، یالنیز HTTPS حالتی گئچیجی اوْلاراق باغلاناجاقدیْر.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:microsurvey_survey_printing_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How satisfied are you with printing in Firefox?</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>فایرفاکس‌دا پرینت‌دن نه قدر راضیسینیز؟</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_https_only_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>HTTPS-Only Mode</seg>
@@ -3503,6 +3943,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>ایندی بوتون گیزلی تاغلاری باغلاساز %1$s یئندیرمه‌سی لغو ائدیله‌جک. گیزلی موروچودان آیریلماق ایسته‌دیگیزه اطمینانیز وار؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addons_permissions_allow_for_all_sites_subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If you trust this extension, you can give it permission on every website.</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>بو اوزانتیْ‌یا گوونسه‌نیز، هر سایتدا اوْنا ایجازه وئره‌بیلرسینیز.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/ui/widgets/src/main/res/values/strings.xml:snackbar_copy_image_to_clipboard_confirmation" srclang="en-US">
@@ -3617,14 +4065,6 @@
 				<seg>جولای</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_jump_back_in" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Jump back in</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>قاباقکی تاغ‌لارا قاییت</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tabs_header" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Jump back in</seg>
@@ -3633,12 +4073,28 @@
 				<seg>دالیا قاییت</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_toggle_jump_back_in" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Jump back in</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>قاباقکی تاغ‌لارا قاییت</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_jun" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Jun</seg>
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>جون</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:juno_onboarding_default_browser_description_nimbus_5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Known trackers? Blocked automatically. Extensions? Try all 700. PDFs? Our built-in reader makes them easy to manage.</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>تانینمیش ایزله‌ییجی‌لر؟ اوْتوماتیک مسدود اوْلور. اوزانتیْ‌لار؟ بوتون 700. پی‌دی‌اف فایل‌لارینیْ ایمتیحان ائله‌یین؟ داخیلی اوْخویوجوموز بونلاریْ مودیریته آسانلاشدیریر.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_content_description_input_label" srclang="en-US">
@@ -3681,6 +4137,14 @@
 				<seg>سون چالیشما:</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_history_prompt_button_last_hour" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Last hour</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>سوْن ساعت</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sync_never_synced_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Last synced: never</seg>
@@ -3721,28 +4185,20 @@
 				<seg>سونراکی گیزلی تاغلاریزی بیر توخونوشلا باشلادین.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sync_add_new_device_learn_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn About Sending Tabs…</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>تاغ گؤندرمه حاقیندا بیلگی آلین …</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tcp_cfr_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn about Total Cookie Protection</seg>
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>بوتون کوکی قوروما حاقیندا بیلگی آلین</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>آرتیق بیلین</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_unsupported_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>آرتیق بیلین</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_learn_more_title" srclang="en-US">
@@ -3753,7 +4209,7 @@
 				<seg>آرتیق بیلین</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:exceptions_empty_message_learn_more_link" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_explanation_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -3769,7 +4225,15 @@
 				<seg>آرتیق بیلین</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:wallpaper_learn_more" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:exceptions_empty_message_learn_more_link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>آرتیق بیلین</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -3778,6 +4242,22 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_http_only_learn_more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>آرتیق بیلین</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_unsupported_learn_more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>آرتیق بیلین</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:wallpaper_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -3841,7 +4321,7 @@
 				<seg>کیتابخانا</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_light_theme" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_light" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Light</seg>
 			</tuv>
@@ -3849,7 +4329,7 @@
 				<seg>آچیق</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/readerview/src/main/res/values/strings.xml:mozac_feature_readerview_light" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_light_theme" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Light</seg>
 			</tuv>
@@ -3881,7 +4361,7 @@
 				<seg>لیست</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar2/src/main/res/values/strings.xml:mozac_browser_toolbar_progress_loading" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_progress_loading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Loading</seg>
 			</tuv>
@@ -3889,7 +4369,7 @@
 				<seg>دولور</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_progress_loading" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar2/src/main/res/values/strings.xml:mozac_browser_toolbar_progress_loading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Loading</seg>
 			</tuv>
@@ -3919,6 +4399,22 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>گیریش‌لر</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:nimbus_notification_default_browser_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Make Firefox your default browser</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>فایرفاکسیْ وارساییلان مورورچو ائله‌یین</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_accessibility_text_size_summary" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Make text on websites larger or smaller</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>وبسایتلاردا متنی داها بؤیوک و یا کیچیک ائدین</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_safe_browsing_malware_uri_title" srclang="en-US">
@@ -4001,6 +4497,14 @@
 				<seg>مارس</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:notification_marketing_channel_name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Marketing</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>بازارلاما</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_marketing_data" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Marketing data</seg>
@@ -4033,7 +4537,7 @@
 				<seg>اؤزللشدیریلمیش آنایارپاق‌نان تانیش اولون. سون تاغلار، بوکمارک‌لار و آختاریش سونوچلاری بورادا گؤرونه‌جک.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_menu_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar2/src/main/res/values/strings.xml:mozac_browser_toolbar_menu_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Menu</seg>
 			</tuv>
@@ -4049,7 +4553,7 @@
 				<seg>منو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar2/src/main/res/values/strings.xml:mozac_browser_toolbar_menu_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Menu</seg>
 			</tuv>
@@ -4057,7 +4561,7 @@
 				<seg>منو</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_menu_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Menu</seg>
 			</tuv>
@@ -4127,6 +4631,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>داها چوخ سئچه‌نک</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:juno_onboarding_default_browser_description_nimbus_4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>More than 100 million people protect their privacy by choosing a browser that’s backed by a nonprofit.</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>100 میلیون‌دان چوْخ آدام، منفعت آختارمیان بیر قورولوش طرفیندن آرخالانان بیر موروچویو سئچه‌رک گیزلیلیک‌لرینی قوْرویور.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:errorpage_httpsonly_message_title" srclang="en-US">
@@ -4201,7 +4713,15 @@
 				<seg>یوخاریا گئت</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tabs_manually" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:microsurvey_survey_5_point_option_0" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Neutral</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>اوْرتا</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_never_allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Never</seg>
 			</tuv>
@@ -4217,7 +4737,7 @@
 				<seg>هئچ زامان</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_never_allow" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:close_tabs_manually" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Never</seg>
 			</tuv>
@@ -4257,6 +4777,14 @@
 				<seg>ایندی یئنی تاخیْلان‌لار وار</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addon_ga_message_title_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New extensions now available</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>ایندی یئنی اوزانتیْ‌لار وار</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_new_in_firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New in %1$s</seg>
@@ -4265,7 +4793,7 @@
 				<seg>%1$s-دا یئنی</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_screen_shortcut_open_new_private_tab_2" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/ui/tabcounter/src/main/res/values/strings.xml:mozac_browser_menu_new_private_tab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New private tab</seg>
 			</tuv>
@@ -4281,7 +4809,7 @@
 				<seg>یئنی گیزلی تاغ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/ui/tabcounter/src/main/res/values/strings.xml:mozac_browser_menu_new_private_tab" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_screen_shortcut_open_new_private_tab_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New private tab</seg>
 			</tuv>
@@ -4305,7 +4833,7 @@
 				<seg>یئنی تاغ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_new_tab" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_screen_shortcut_open_new_tab_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New tab</seg>
 			</tuv>
@@ -4313,7 +4841,7 @@
 				<seg>یئنی تاغ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_screen_shortcut_open_new_tab_2" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_new_tab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New tab</seg>
 			</tuv>
@@ -4375,6 +4903,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>هئچ بیر سینماق راپورتو گؤندیریلمه‌دی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sync_add_new_device_message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No Devices Connected</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>باغلیْ جهاز یوْخ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:download_empty_message_1" srclang="en-US">
@@ -4449,6 +4985,14 @@
 				<seg>یوخ ممنون</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_not_take_survey" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No Thanks</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>یوْخ ممنون</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_phone_feature_notification" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Notification</seg>
@@ -4497,39 +5041,7 @@
 				<seg>ایندی یوخ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:juno_onboarding_enable_notifications_negative_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Not now</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>ایندی یوخ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_home_enable_notifications_negative_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Not now</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>ایندی یوخ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:juno_onboarding_add_search_widget_negative_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Not now</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>ایندی یوخ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_not_now" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Not now</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>ایندی یوخ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:juno_onboarding_sign_in_negative_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Not now</seg>
 			</tuv>
@@ -4545,7 +5057,39 @@
 				<seg>ایندی یوخ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:juno_onboarding_sign_in_negative_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Not now</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>ایندی یوخ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:juno_onboarding_add_search_widget_negative_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Not now</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>ایندی یوخ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_dont_save_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Not now</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>ایندی یوخ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:juno_onboarding_enable_notifications_negative_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Not now</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>ایندی یوخ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_not_now" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Not now</seg>
 			</tuv>
@@ -4601,14 +5145,6 @@
 				<seg>اوکتوبر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tracking_protection_off" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Off</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>باغلیْ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Off</seg>
@@ -4617,7 +5153,7 @@
 				<seg>باغلیْ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_quit_off" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_https_only_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Off</seg>
 			</tuv>
@@ -4633,7 +5169,15 @@
 				<seg>باغلی</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_https_only_off" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_quit_off" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Off</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>باغلیْ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tracking_protection_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Off</seg>
 			</tuv>
@@ -4665,6 +5209,22 @@
 				<seg>آفلاین حالت</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:qr_scanner_dialog_invalid_ok" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>تامام</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_positive" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>تامام</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:clear_permission_positive" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
@@ -4673,7 +5233,7 @@
 				<seg>تامام</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_addon_collection_ok" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_restart_dialog_ok" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
@@ -4697,15 +5257,7 @@
 				<seg>تامام</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_positive" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>OK</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>تامام</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_restart_dialog_ok" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:customize_addon_collection_ok" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
@@ -4729,14 +5281,6 @@
 				<seg>داها قدیمی</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_on" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>On</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>آچیق</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_quit_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
@@ -4746,6 +5290,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_settings_on" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>آچیق</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
 			</tuv>
@@ -4767,6 +5319,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>بیر و یا نئچه تاخیْلانین ایشی دایاندیریلدیْ، بوُدا سیستمیزی ثابیتسیز ائله‌دی. %1$s تاخیلانی(لاریْ) یئنی‌دن باشلاتماغا باشاریْسیز اوْلدو. \n\n تاخیلانلار ایندیکی اوتورومونوزدا یئنی‌دن ایشه سالیْنمیاجاق. \n\n تاخیلانی(لار)ین سیلینمه‌سی و یا ایشدن سالینماسیْ بو موُشکولو حل ائلیه بیلر.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:extension_process_crash_dialog_message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>One or more extensions stopped working, making your system unstable. %1$s unsuccessfully tried to restart the extension(s).\n\nExtensions won’t be restarted during your current session.\n\nRemoving or disabling extensions may fix this issue.</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>بیر و یا نئچه اوزانتیْ ایشی دایاندیریلدیْ، بوُدا سیستمیزی ثابیتسیز ائله‌دی. %1$s اوزانتیْ‌یی(لاریْ) یئنی‌دن باشلاتماغا باشاریْسیز اوْلدو. \n\n اوزانتیْ‌لار ایندیکی اوتورومونوزدا یئنی‌دن ایشه سالیْنمیاجاق. \n\n اوزانتیْ‌یی(لار)ین سیلینمه‌سی و یا گوجدن سالینماسیْ بو موُشکولو حل ائلیه بیلر.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:reduce_cookie_banner_on_for_site" srclang="en-US">
@@ -4791,6 +5351,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>بوتون گیزلی تاغلاردا آچیْق</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sign_in_instructions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On your computer open Firefox and go to &lt;b&gt;https://firefox.com/pair&lt;/b&gt;</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>کامپیوتریزده &lt;b&gt;https://firefox.com/pair&lt;/b&gt; آدرسینه گئدین</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_open" srclang="en-US">
@@ -4825,7 +5393,7 @@
 				<seg>هامیْسینی گیزلی تاغ‌لاردا آچ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_content_description_2" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/search/src/main/res/values/strings.xml:search_widget_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open a new %1$s tab</seg>
 			</tuv>
@@ -4833,7 +5401,7 @@
 				<seg>یئنی بیر %1$s تاغی آچین</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/search/src/main/res/values/strings.xml:search_widget_content_description" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_content_description_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open a new %1$s tab</seg>
 			</tuv>
@@ -5017,6 +5585,22 @@
 				<seg>سون تاغدا آچ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sync_tabs_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open tabs</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>آچیْق تاغ‌لار</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_tabs_title_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open tabs</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>آچیق تاغ‌لار</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_header_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open tabs</seg>
@@ -5031,14 +5615,6 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>تاغ‌لاریْ آچ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sync_tabs_2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Open tabs</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>آچیْق تاغ‌لار</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:collection_open_tabs" srclang="en-US">
@@ -5139,7 +5715,7 @@
 				<seg>%1$s اوچون رمز</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_screen_shortcut_passwords" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_passwords" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Passwords</seg>
 			</tuv>
@@ -5155,7 +5731,7 @@
 				<seg>رمز‌لر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_passwords" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_screen_shortcut_passwords" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Passwords</seg>
 			</tuv>
@@ -5171,7 +5747,7 @@
 				<seg>رمزلر شورتکاتی</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/media/src/main/res/values/strings.xml:mozac_feature_media_notification_action_pause" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_pause" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Pause</seg>
 			</tuv>
@@ -5179,7 +5755,7 @@
 				<seg>دایاندیر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_pause" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/media/src/main/res/values/strings.xml:mozac_feature_media_notification_action_pause" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Pause</seg>
 			</tuv>
@@ -5233,6 +5809,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>اوینات</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:nimbus_survey_message_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please help make Firefox better by taking a short survey.</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>لطفا، قیسا بیر سؤرغویا قاتیلاراق فایرفاکس تکمیل اولماسینا کمک ائدین.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_powered_by2" srclang="en-US">
@@ -5307,6 +5891,22 @@
 				<seg>گیزلی مورور</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_private_data_deleted" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Private browsing data deleted</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>اؤزل باخیش دیتالاریْ سیلیندی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:notification_re_engagement_a_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Private browsing in %1$s doesn’t save your info.</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>گیزلی مرور %1$s-دا سیزین بیلگیلرینیزی ساخلاماز.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/privatemode/src/main/res/values/strings.xml:mozac_feature_privatemode_notification_channel_name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Private browsing session</seg>
@@ -5331,12 +5931,36 @@
 				<seg>گیزلی آختاریش</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_private_tab_closed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Private tab closed</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>گیزلی تاغ باغلاندیْ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tabs_header_private_tabs_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Private tabs</seg>
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>گیزلی تاغ‌لار</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_private_tabs_closed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Private tabs closed</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>گیزلی تاغلار باغلاندیْ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:etp_settings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Protection Settings</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>قوْروما تنظیم‌لری</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_pkcs11_description" srclang="en-US">
@@ -5385,6 +6009,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>یئیین تنظیم‌لر صفحه‌سی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_on_quit_action" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Quit</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>چیخ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_toast_quit_application" srclang="en-US">
@@ -5467,6 +6099,14 @@
 				<seg>گؤز آتما گئچمیشینی اوخویون</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sign_in_ready_for_scan" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ready to scan</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>اسکنه حاضیر</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_back_facing_camera2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rear-facing camera</seg>
@@ -5499,7 +6139,7 @@
 				<seg>سون باغلانان‌لار</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_recently_closed" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_recently_closed_tabs" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recently closed tabs</seg>
 			</tuv>
@@ -5507,7 +6147,7 @@
 				<seg>سوْن باغلانان تاغ‌لار</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:library_recently_closed_tabs" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_recently_closed" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recently closed tabs</seg>
 			</tuv>
@@ -5579,7 +6219,7 @@
 				<seg>دونگلی کَس</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_refresh" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/pwa/src/main/res/values/strings.xml:mozac_feature_pwa_site_controls_refresh" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Refresh</seg>
 			</tuv>
@@ -5587,7 +6227,7 @@
 				<seg>رفرش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/pwa/src/main/res/values/strings.xml:mozac_feature_pwa_site_controls_refresh" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_refresh" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Refresh</seg>
 			</tuv>
@@ -5667,22 +6307,6 @@
 				<seg>USB طریقی‌نن اوُزاقدان سازلاما</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:download_delete_item_1" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>قالدیر</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_synced_tab_menu_item_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>قالدیر</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_tab_menu_item_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
@@ -5699,6 +6323,14 @@
 				<seg>قالدیر</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_visited_menu_item_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>قالدیر</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
@@ -5707,7 +6339,7 @@
 				<seg>قالدیر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recent_synced_tab_menu_item_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -5723,7 +6355,7 @@
 				<seg>قالدیر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_visited_menu_item_remove" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_saved_menu_item_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -5731,7 +6363,15 @@
 				<seg>قالدیر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:recently_saved_menu_item_remove" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>قالدیر</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:download_delete_item_1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -5753,6 +6393,22 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>%1$s قالدیریلدیْ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_history_prompt_body_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Removes history (including history synced from other devices)</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>گئچمیشی (باشقا جهازلاردان دؤنگل اوْلموش گئچمیشده ایچینده)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_history_prompt_body" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Removes history (including history synced from other devices), cookies and other browsing data.</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>گئچمیشی (باشقا جهازلاردان دؤنگل اوْلموش گئچمیشده ایچینده)، کوکی‌لر و دیگر باخیش بیلگی‌لری سیلیر.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:remove_tab_from_collection" srclang="en-US">
@@ -5875,6 +6531,14 @@
 				<seg>گئنه دؤنگل</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sync_sent_tab_error_snackbar_action" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>RETRY</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>گئنه سعی ائله</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/customtabs/src/main/res/values/strings.xml:mozac_feature_customtabs_exit_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Return to previous app</seg>
@@ -5923,7 +6587,15 @@
 				<seg>سریف‌سیز فونت</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_save_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:microsurvey_survey_5_point_option_3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Satisfied</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>راضیْ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -5931,7 +6603,7 @@
 				<seg>ساخلا</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_save_confirmation" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_save_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -5947,7 +6619,7 @@
 				<seg>ساخلا</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_save" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_save_confirmation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -6051,12 +6723,28 @@
 				<seg>اسکن</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sync_scan_code" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Scan the code</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>کد اسکنی</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:pair_instructions_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Scan the QR code shown at &lt;b&gt;firefox.com/pair&lt;/b&gt;</seg>
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>&lt;b&gt;firefox.com/pair&lt;/b&gt; آدرسینه گؤرونن QR کوْدونو اسکن ائله‌یین</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_gestures_dynamic_toolbar_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Scroll to hide address bar and toolbar</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>آدرس چوبوغونو و ابزار چوبوغونو گیزله‌مک اوچون چکین</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_gestures_dynamic_toolbar" srclang="en-US">
@@ -6067,23 +6755,7 @@
 				<seg>آلت‌لر چوبوغونو گیزلتمک اوچون اسکرول ائله‌</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_text_short" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Search</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>آختاریش</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/search/src/main/res/values/strings.xml:search_widget_text_short" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Search</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>آختاریش</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_search" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search</seg>
 			</tuv>
@@ -6099,6 +6771,22 @@
 				<seg>آختاریش</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_search" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>آختاریش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_text_short" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>آختاریش</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/autofill/src/main/res/values/strings.xml:mozac_feature_autofill_search_suggestions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search %1$s</seg>
@@ -6107,7 +6795,7 @@
 				<seg>%1$s -دا آختار</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_search_hint" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_search_bookmarks" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search bookmarks</seg>
 			</tuv>
@@ -6115,7 +6803,7 @@
 				<seg>بوکمارک‌دا آختار</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_search_bookmarks" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_search_hint" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search bookmarks</seg>
 			</tuv>
@@ -6219,14 +6907,6 @@
 				<seg>تاغ‌لاردا آختار</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_text_long" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Search the web</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>وب‌ده آختارین</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_hint_general_engine" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search the web</seg>
@@ -6241,6 +6921,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>وب‌ده آختار</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_text_long" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search the web</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>وب‌ده آختارین</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_ssl_title" srclang="en-US">
@@ -6459,6 +7147,14 @@
 				<seg>جهازا گؤندر</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sync_add_new_device_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Send to device</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>جهازا گؤندر</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_sep" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sep</seg>
@@ -6547,7 +7243,7 @@
 				<seg>چاغ تنظیمی</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:settings_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -6555,7 +7251,7 @@
 				<seg>تنظیم‌‎لر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:settings" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:settings_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -6571,7 +7267,7 @@
 				<seg>تنظیم‌‎لر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_settings" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -6587,7 +7283,7 @@
 				<seg>پایلاش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_share" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_share" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -6595,7 +7291,7 @@
 				<seg>پایلاش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/contextmenu/src/main/res/values/strings.xml:mozac_selection_context_menu_share" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_share" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -6611,7 +7307,7 @@
 				<seg>پایلاش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_share_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_share" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -6619,7 +7315,7 @@
 				<seg>پایلاش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_share" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_menu_share_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
@@ -6803,22 +7499,6 @@
 				<seg>دؤنگل اوچون گئنه گیرین</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:juno_onboarding_sign_in_positive_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Sign in</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>گیریش</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_home_sign_in_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Sign in</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>گیریش</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:browser_menu_sign_in" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign in</seg>
@@ -6828,6 +7508,22 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_sign_in" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign in</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>گیریش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:juno_onboarding_sign_in_positive_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign in</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>گیریش</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_home_sign_in_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign in</seg>
 			</tuv>
@@ -6875,6 +7571,14 @@
 				<seg>%1$s حسابی ایله گیرین</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sign_in_with_camera" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign in with your camera</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>کامرانیزلا گیریش ائدین</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sign_out" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign out</seg>
@@ -6915,12 +7619,28 @@
 				<seg>سایت بیلدیریش‌لری</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_site_permissions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Site permissions</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>سایت اجازه‌لری</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_site_permissions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Site permissions</seg>
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>سایت ایجازه‌لری</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_top_site_removed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Site removed</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>سایت قالدیریلدیْ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_home_skip_button" srclang="en-US">
@@ -6931,20 +7651,20 @@
 				<seg>گئچ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_content_description_autoplay_blocked" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Some content has been blocked by the autoplay setting</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>بعضی موحتوالار اوتوماتیک‌چال تنظیمی طرفیندن مسدود اولموش</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar2/src/main/res/values/strings.xml:mozac_browser_toolbar_content_description_autoplay_blocked" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Some content has been blocked by the autoplay setting</seg>
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>بعضی محتوا اتوْماتیک‌چال تنظیمی ایله بلوْکلانیب</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_content_description_autoplay_blocked" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Some content has been blocked by the autoplay setting</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>بعضی موحتوالار اوتوماتیک‌چال تنظیمی طرفیندن مسدود اولموش</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_crash_title_2" srclang="en-US">
@@ -7017,6 +7737,22 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>استاندارد</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_enhanced_tracking_protection_standard_default_1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Standard (default)</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>استاندارد (وارساییلان)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:notification_re_engagement_b_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Start your first search</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>ایلک آختارماغیزا باشلایین</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_dialog_status" srclang="en-US">
@@ -7203,6 +7939,14 @@
 				<seg>آرخالاما ایستکی گوندریلدی</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_browsing_data_prompt_message_3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%s will delete the selected browsing data.</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>%s اپی سئچیلمیش مرور دیتاسینی سیله‌جک.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_delete_multiple_folders_confirmation_dialog" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%s will delete the selected items.</seg>
@@ -7217,6 +7961,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>%s آدرس چوبوغونا یازدیغینیز هر شئیی وارساییلان آختاریش موتورونوزلا پایلاشاجاق.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_gestures_swipe_toolbar_switch_tabs_2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Swipe address bar sideways to switch tabs</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>نیشان‌لاری دگیشمک اوچون آدرس چوبوغونو یانا چکین</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preference_gestures_swipe_toolbar_switch_tabs" srclang="en-US">
@@ -7339,6 +8091,14 @@
 				<seg>   دؤنگل دایاندیریلدی</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:onboarding_firefox_account_sync_is_on" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sync is on</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>دؤنگل آچیق</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_sync_now" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sync now</seg>
@@ -7363,6 +8123,14 @@
 				<seg>تاغلارینیزی جهازلار آراسیندا دؤنگل‌ ائله‌یین، یئندیرمه‌لری ایداره ائله‌یین، %s گیزلیلیک قوروماسیندان لاب یاخچی یارارلانماق حاقیندا اطلاعات آلین و آیری شئی‌لر.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_tab_closed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tab closed</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>تاغ باغلاندیْ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:fxa_tab_received_from_notification_name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tab from %s</seg>
@@ -7379,7 +8147,7 @@
 				<seg>تاغ آلیندیْ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_tabs" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/tabs/src/main/res/values/strings.xml:mozac_feature_tabs_toolbar_tabs_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tabs</seg>
 			</tuv>
@@ -7387,7 +8155,7 @@
 				<seg>تاغ‌لار</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/tabs/src/main/res/values/strings.xml:mozac_feature_tabs_toolbar_tabs_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_tabs" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tabs</seg>
 			</tuv>
@@ -7401,6 +8169,22 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>تاغ ساخلاندیْ!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_tabs_closed" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tabs closed</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>تاغلار باغلاندیْ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sync_sent_tab_snackbar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tab sent!</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>تاغ گؤندریلدی!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_menu_tab_settings" srclang="en-US">
@@ -7417,6 +8201,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>تاغ‌لار ساخلاندیْ!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sync_sent_tabs_snackbar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tabs sent!</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>تاغلار گؤندریلدی</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:tab_tray_inactive_onboarding_message" srclang="en-US">
@@ -7443,12 +8235,28 @@
 				<seg>تاغ گؤروُنوشو</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_take_survey" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Take Survey</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>سوْرغویا قاتیلن</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:erase_action_cfr_message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tap here to start a fresh private session. Delete your history, cookies — everything.</seg>
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>یئنی بیر گیزلی اوتورم باشلادماق اوچون بورایا توخونون. گئچمیشینیزی، کوکی‌لرینیزی، هرشئیی سیلین.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:notification_erase_text_android_14" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tap or swipe this notification to close private tabs.</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>گیزلی تاغلاریْ باغلاماق اوچون بو بیلدیریشه توْخونون و یا چکین.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/pwa/src/main/res/values/strings.xml:mozac_feature_pwa_site_controls_notification_text" srclang="en-US">
@@ -7603,6 +8411,22 @@
 				<seg>بو تاخیلان %1$s -ین اؤنجه‌کی بیر یازیمیندان داشیندی.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addons_does_not_require_permissions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This extension doesn’t require any permissions.</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>بو اوزانتیْ‌یا هیچ بیر اجازه ایسته‌میر.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:accessibility_text_size_sample_text_1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This is sample text. It is here to show how text will appear when you increase or decrease the size with this setting.</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>بو نمونه متن‌دیر. بو تنظیم‌له اؤلچونو آرتیردیغینیزدا ویا آزالتیغینیزدا متن‌ین نئجه گؤرونه‌جگینی گؤسترمک اوچون بورادادیر.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_header_menu_item_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>This time search in:</seg>
@@ -7627,12 +8451,28 @@
 				<seg>دوشوندوروجو ناغیل‌لار</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_history_prompt_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Time range to delete</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>سیلمک اوچون وقت آرالیغی</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:history_today" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Today</seg>
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>بوگون</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:delete_history_prompt_button_today_and_yesterday" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Today and yesterday</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>بوگون و دونن</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_toolbar" srclang="en-US">
@@ -7667,14 +8507,6 @@
 				<seg>بیر تاغ گؤندرمک اوچون آزی بیر باشقا جهازدا فایرفاکسا داخیل اوْلون.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_content_description_tracking_protection_on_trackers_blocked1" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Tracking Protection has blocked trackers</seg>
-			</tuv>
-			<tuv xml:lang="azb">
-				<seg>ایزله‌مه قوروماسی ایزله‌ییجی‌لری مسدود ائلیب</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar2/src/main/res/values/strings.xml:mozac_browser_toolbar_content_description_tracking_protection_on_trackers_blocked1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tracking Protection has blocked trackers</seg>
@@ -7683,7 +8515,15 @@
 				<seg>تعقیب قوروماسی تعقیب‌چی‌لری مسدود ائدیپ‌دیر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_content_description_tracking_protection_off_for_a_site1" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_content_description_tracking_protection_on_trackers_blocked1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tracking Protection has blocked trackers</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>ایزله‌مه قوروماسی ایزله‌ییجی‌لری مسدود ائلیب</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar2/src/main/res/values/strings.xml:mozac_browser_toolbar_content_description_tracking_protection_off_for_a_site1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tracking Protection is off for this site</seg>
 			</tuv>
@@ -7691,7 +8531,7 @@
 				<seg>بو سایت اوچون ایزله‌مه قورونماسی باغلیدیر.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar2/src/main/res/values/strings.xml:mozac_browser_toolbar_content_description_tracking_protection_off_for_a_site1" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_content_description_tracking_protection_off_for_a_site1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tracking Protection is off for this site</seg>
 			</tuv>
@@ -7803,12 +8643,28 @@
 				<seg>بیر رنگ سپمه‌سی ایمتیحان ائله‌یین</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:notification_re_engagement_title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Try private browsing</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>گیزلی مورورو ایمتیحان ائله</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:addon_process_crash_dialog_retry_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Try restarting add-ons</seg>
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>تاخیلان‌لاریْ یئنی‌دن باشلاتماغا چالیْشین</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:extension_process_crash_dialog_retry_button_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Try restarting extensions</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>اوزانتی‌لاریْ یئنی‌دن باشلاتماغا چالیشین</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:juno_onboarding_add_search_widget_title" srclang="en-US">
@@ -7939,6 +8795,22 @@
 				<seg>گیریشی ساخلاماق مومکون اولمادی</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sync_sent_tab_error_snackbar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unable to send</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>گؤندری‌لنمه‌دی</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:snackbar_deleted_undo" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>UNDO</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>لغو</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:bookmark_undo_deletion" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>UNDO</seg>
@@ -8035,6 +8907,14 @@
 				<seg>URL</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:url_copied" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>URL copied</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>اینترنت آدرسی کوْپی اوْلدو</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/pwa/src/main/res/values/strings.xml:mozac_feature_pwa_copy_success" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>URL copied.</seg>
@@ -8057,6 +8937,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>%1$s اوتورم آچما ایرائه وئره‌نی کیمی ایشه آلین</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:sign_in_with_email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use email instead</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>یئرینه ایمیل استفاده ائدین</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_username_hint" srclang="en-US">
@@ -8099,7 +8987,23 @@
 				<seg>یازیم</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_view" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:microsurvey_survey_5_point_option_1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Very Dissatisfied</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>چوْخ ناراضیْ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:microsurvey_survey_5_point_option_4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Very Satisfied</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>چوْخ راضیْ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:wallpaper_updated_snackbar_action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>View</seg>
 			</tuv>
@@ -8107,7 +9011,7 @@
 				<seg>گؤستر</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:wallpaper_updated_snackbar_action" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:create_collection_view" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>View</seg>
 			</tuv>
@@ -8123,7 +9027,15 @@
 				<seg>سئچه‌نک‌لره باخ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_voice" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:fxa_tabs_closed_text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>View recently closed tabs</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>سوْن باغلانان تاغ‌لاریْ گؤستر</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/search/src/main/res/values/strings.xml:search_widget_voice" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Voice search</seg>
 			</tuv>
@@ -8131,7 +9043,7 @@
 				<seg>سس‌لی آختاریش</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/search/src/main/res/values/strings.xml:search_widget_voice" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:search_widget_voice" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Voice search</seg>
 			</tuv>
@@ -8161,6 +9073,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>دال پرده گونجللندی!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:qr_scanner_dialog_invalid" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Web address not valid.</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>وب آدرسی گئچرسیز.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/pwa/src/main/res/values/strings.xml:mozac_feature_pwa_default_shortcut_label" srclang="en-US">
@@ -8257,6 +9177,14 @@
 			</tuv>
 			<tuv xml:lang="azb">
 				<seg>سیز %1$s اپ‌لرده باغلانتی‌لاری اوتوماتیک آچماغی تنظیم ائلیه بیلرسیز.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:preferences_delete_browsing_data_cookies_subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You’ll be logged out of most sites</seg>
+			</tuv>
+			<tuv xml:lang="azb">
+				<seg>اکثر سایتلاردان چیخاجاقسینیز</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_storage_access_message" srclang="en-US">

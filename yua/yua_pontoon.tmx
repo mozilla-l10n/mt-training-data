@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2024-09-01T00:28:43.491242">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2024-10-01T00:36:47.551491">
 	</header>
 	<body>
 		<tu tuid="firefox-monitor-website:app.ftl:fxa-account" srclang="en-US">
@@ -219,7 +219,7 @@
 				<seg>+ Ts’áabak URL tsikbe’eniltal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_title_add" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:custom_autocomplete_quick_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add custom URL</seg>
 			</tuv>
@@ -227,7 +227,7 @@
 				<seg>Ts’áabak URL tsikbe’eniltal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:custom_autocomplete_quick_add" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_title_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add custom URL</seg>
 			</tuv>
@@ -507,14 +507,6 @@
 				<seg>Tuupuk ts'óokole' ka je'ebek %1$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Erase browsing history</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>Lúubsal tuláakal tu'ux maanech</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tabs_tray_action_erase" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
@@ -524,6 +516,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_erase" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Erase browsing history</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>Lúubsal tuláakal tu'ux maanech</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
@@ -627,6 +627,14 @@
 				<seg>T’aanil</seg>
 			</tuv>
 		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_mozilla_telemetry_summary" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>K’ajóoltal u yaanali’</seg>
+			</tuv>
+		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestion_subtitle_learnmore" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
@@ -636,14 +644,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>K’ajóoltal u yaanali’</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_mozilla_telemetry_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -955,7 +955,7 @@
 				<seg>Ka’a chuupuk le tseelil webe’</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_action_remove_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -971,7 +971,7 @@
 				<seg>Tuupuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_action_remove_content_description" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -1602,20 +1602,20 @@ Maanen. Púustej. Tu ka'aten.</seg>
 				<seg>Ka’a ts’íibta’ak le k’áaba’ ti’ le nuupankila’</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_custom_urlscustom-urls" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Custom URLs</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>Tsikbe’eniltal URLs</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android-po:app.po:preference_autocomplete_subitem_customlistcustom-urls" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>
 			<tuv xml:lang="yua">
 				<seg>URL tsikbe’eniltal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_custom_urlscustom-urls" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Custom URLs</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>Tsikbe’eniltal URLs</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_preinstalleddefault-url-list" srclang="en-US">
@@ -2144,7 +2144,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox accounts</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozilla-accounts:branding.ftl:product-firefox-cloud" srclang="en-US">
+		<tu tuid="mozilla-accounts:auth.ftl:product-firefox-cloud" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Cloud</seg>
 			</tuv>
@@ -2152,7 +2152,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox Cloud</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozilla-accounts:auth.ftl:product-firefox-cloud" srclang="en-US">
+		<tu tuid="mozilla-accounts:branding.ftl:product-firefox-cloud" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Cloud</seg>
 			</tuv>

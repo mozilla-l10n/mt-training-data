@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2024-10-01T00:35:15.701923">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2024-11-01T00:33:56.075484">
 	</header>
 	<body>
 		<tu tuid="firefox:toolkit/chrome/global/intl.properties:pluralrule" srclang="en-US">
@@ -650,20 +650,20 @@ know your birthday could also very easily guess your PIN.</seg>
 				<seg>Ub'i' taq achib'il kemk'at</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pw-1-cta" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Change password for this site</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Uk'exik retokib'al chech we uk'olib'al web'</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:change-pw-site" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Change password for this site</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Chak'exa' le aretok'ib'al rech we uk'olib'al web'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pw-1-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Change password for this site</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Uk'exik retokib'al chech we uk'olib'al web'</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:link-change-primary" srclang="en-US">
@@ -1411,7 +1411,7 @@ Le awinaqilal q'alajisanem chi'l taq akemb'i'aj.</seg>
 				<seg>Che'ariqa' jas kab'ano chech uchajixik taq juq'attzij chech uq'atexik taq kemelaq'omab'.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:brand-name" srclang="en-US">
+		<tu tuid="firefox-monitor-website:email-strings.ftl:brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -1419,7 +1419,7 @@ Le awinaqilal q'alajisanem chi'l taq akemb'i'aj.</seg>
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:email-strings.ftl:brand-name" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -1539,14 +1539,6 @@ Le awinaqilal q'alajisanem chi'l taq akemb'i'aj.</seg>
 				<seg>Chariqa' { -brand-fpn }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:promo-lockwise-cta" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Get { -brand-lockwise }</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Chariqa' { -brand-lockwise }</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-pw-3-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get { -brand-lockwise }</seg>
@@ -1555,7 +1547,15 @@ Le awinaqilal q'alajisanem chi'l taq akemb'i'aj.</seg>
 				<seg>Chariqa' { -brand-lockwise }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:vpn-promo-cta" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:promo-lockwise-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get { -brand-lockwise }</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chariqa' { -brand-lockwise }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:app.ftl:vpn-banner-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get { -brand-mozilla-vpn }</seg>
 			</tuv>
@@ -1563,7 +1563,7 @@ Le awinaqilal q'alajisanem chi'l taq akemb'i'aj.</seg>
 				<seg>Chariqa' { -brand-mozilla-vpn }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:vpn-banner-cta" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:vpn-promo-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get { -brand-mozilla-vpn }</seg>
 			</tuv>
@@ -1816,20 +1816,20 @@ monitors known data breaches for your personal info. We’re linking it to Firef
 				<seg>Umajib'al URLs</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:sensitive-sites" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>How does { -product-name } treat sensitive sites?</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Jas kub'an { -product-name } chech  taq wokk'olib'al rech na'b'alil</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-monitor-website:email-strings.ftl:faq-v2-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does { -product-name } treat sensitive sites?</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Jas kub'an le { -product-name } chech taq nim ucholajiñ uk'olib'al web'?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:app.ftl:sensitive-sites" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How does { -product-name } treat sensitive sites?</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Jas kub'an { -product-name } chech  taq wokk'olib'al rech na'b'alil</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:faq3" srclang="en-US">
@@ -1880,20 +1880,20 @@ monitors known data breaches for your personal info. We’re linking it to Firef
 				<seg>Jas kchakun { -product-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-gen-1-cta" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>How to create strong passwords</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Jas uwinaqirisax nim uchuq'ab'il taq retokib'al</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:create-strong-passwords" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How to create strong passwords</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Jas uwinaqirisaxik kowilal taq retokib'al</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:recommendations.ftl:rec-gen-1-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How to create strong passwords</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Jas uwinaqirisax nim uchuq'ab'il taq retokib'al</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:error-invalid-unsub" srclang="en-US">
@@ -2907,7 +2907,7 @@ one password gets exposed, hackers have the keys to many accounts.</seg>
 				<seg>Taq oqxa'n rech echeb'alil</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:home-title" srclang="en-US">
+		<tu tuid="firefox-monitor-website:bento.ftl:fx-monitor" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -product-name }</seg>
 			</tuv>
@@ -2915,7 +2915,7 @@ one password gets exposed, hackers have the keys to many accounts.</seg>
 				<seg>{ -product-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:bento.ftl:fx-monitor" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:home-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -product-name }</seg>
 			</tuv>
@@ -5152,6 +5152,14 @@ and mask your IP address.</seg>
 				<seg>%1$s xuquje kukoj taq q‘atetal ucholajil ruk‘ utoq‘ixik t‘iqonem, Inc. pacha‘ tastalik xuquje‘ utukelal chakunel chi uxe‘ le &lt;a href="%2$s"&gt;GNU Wujil kech uk‘iyal v3&lt;/a&gt;, xuquje‘ k‘o pa &lt;a href="%3$s"&gt;waral&lt;/a&gt;.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_description_state_off_for_site2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%1$s can try to automatically reject cookie requests.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>%1$s wene kkitij uq'ij retzelaxik pa utukelam taq tz'onoj rech cookies.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:download_snackbar_finished" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$s finished</seg>
@@ -5182,6 +5190,23 @@ and mask your IP address.</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>%1$s man junam ta kuk‘ e nik‘aj chi nik‘onelab‘</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cfr_cookie_banner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%1$s tries to reject cookie requests to dismiss annoying cookie banners.\n\nManage cookie banner preferences in %2$s.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>%1$s kutij uq'ij chech retzelaxik taq cookie are chi ke'elesax le q'at ub'ixikil rech cookies. \n\n  Krilawachij le taq ajawatal taq ub'ixikil rech cookie pa %2$s.
+</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_description_state_on_for_site" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>%1$s will clear this site’s cookies and refresh the page. Clearing all cookies may sign you out or empty shopping carts.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>%1$s kuchup we uk'olib'al web' xuquje' kuk'ak'arisaj le uxaq web'. Ke'uchupisaj konojel taq kukis, wene kkitz'apij kemchak on kkelesaj upam taq kare't rech loq'oj.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_show_search_suggestions_summary" srclang="en-US">
@@ -5464,6 +5489,14 @@ and mask your IP address.</seg>
 				<seg>Uq'atexik</seg>
 			</tuv>
 		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_site_is_not_supported_cancel_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Uq'atexik</seg>
+			</tuv>
+		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
@@ -5520,7 +5553,7 @@ and mask your IP address.</seg>
 				<seg>Uq‘atexik upam chak</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_reject_all_option_title" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -5528,7 +5561,7 @@ and mask your IP address.</seg>
 				<seg>Unitz'arisaxik ub'ixikil rech kuki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_title" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -5544,7 +5577,7 @@ and mask your IP address.</seg>
 				<seg>Unitz'arisaxik ub'ixikil rech kuki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_title" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_reject_all_option_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -5680,6 +5713,14 @@ and mask your IP address.</seg>
 				<seg>Le utzijik wene kub'ano chi jujun taq uxaq wuj man eye'tal ta le kkib'ano</seg>
 			</tuv>
 		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_category_tracking_protection3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enhanced Tracking Protection</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Uchajixik k'exsuk'umatal uterne'xik </seg>
+			</tuv>
+		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:search_add_error_empty_name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enter search engine name</seg>
@@ -5720,7 +5761,7 @@ and mask your IP address.</seg>
 				<seg>Chachupu´ k´ate k´u ri´ chatzija´ %1$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
@@ -5736,7 +5777,7 @@ and mask your IP address.</seg>
 				<seg>Uchupik b'antal kanoq rech nik'onel</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
@@ -5928,14 +5969,6 @@ and mask your IP address.</seg>
 				<seg>Ch'ab'al</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_mozilla_telemetry_summary" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="quc">
-				<seg>Chaweta'maj nik'aj chik</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestion_subtitle_learnmore" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
@@ -5945,6 +5978,14 @@ and mask your IP address.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chaweta'maj nik'aj chik</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_mozilla_telemetry_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -6168,7 +6209,7 @@ and mask your IP address.</seg>
 				<seg>Uchupik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_state_off" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OFF for this site</seg>
 			</tuv>
@@ -6176,7 +6217,7 @@ and mask your IP address.</seg>
 				<seg>CHUPUM chech we uk'olib'al web'</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_off" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_state_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OFF for this site</seg>
 			</tuv>
@@ -6200,7 +6241,7 @@ and mask your IP address.</seg>
 				<seg>Utz, ¡xink'oxomaj!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_on" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
 			</tuv>
@@ -6208,7 +6249,7 @@ and mask your IP address.</seg>
 				<seg>Utzijik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_on" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
 			</tuv>
@@ -6394,7 +6435,7 @@ and mask your IP address.</seg>
 				<seg>Uya'ik chi jumul uchuq'ab' wokk'olib'al web'</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_action_remove_content_description" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -6410,7 +6451,7 @@ and mask your IP address.</seg>
 				<seg>Relesaxik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_action_remove_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -6456,6 +6497,30 @@ and mask your IP address.</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Tz'onoj rech wokk'olib'al web' rech ilwach chak</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_site_is_not_supported_request_support_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Request support</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Utz'onik toq'ab'al</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_report_a_site_snackbar_label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Request to support site submitted.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Tz'onoj rech utoq'axik uk'olib'al web' taqom b'ik.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_the_site_was_reported" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Request to support site submitted.</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Tz'onoj rech utoq'axik uk'olib'al web' taqom b'ik.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_restore" srclang="en-US">
@@ -6674,6 +6739,14 @@ and mask your IP address.</seg>
 				<seg>Uya'ik pa ya'om chi uloq, utz'aqatisaxik pa utukelam</seg>
 			</tuv>
 		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cfr_cookie_banner_link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>settings</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>taq wiqitajem</seg>
+			</tuv>
+		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:menu_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
@@ -6840,6 +6913,14 @@ and mask your IP address.</seg>
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>Chachapa' on chajililej we ub'ixikil are chi man k'o ta uk'axk'olil chi rij uyujik ucholajil b'anoj.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_description_site_is_not_supported" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This site is currently not supported by Cookie Banner Reduction. Would you like to request our team review this website and add support in the future?</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>Chech we chanim we uk'olib'al web' man kuk'ulaj ta rib' ruk' nitz'arisab'al ub'ixikil cookie. La kawaj kq'atux we uk'olib'al web' rumal le qawokaj ajchakib' xuquje' kuya' toq'ab'al pa jampa' aq'anoq?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:menu_trackers_blocked_title" srclang="en-US">
@@ -7010,7 +7091,7 @@ and mask your IP address.</seg>
 				<seg>Jas Kxajtajik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_yes" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_yes_option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -7018,7 +7099,7 @@ and mask your IP address.</seg>
 				<seg>Je'</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_yes_option" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -7148,7 +7229,7 @@ Utzukuxik. Uyujik. Ukamulixik.</seg>
 				<seg>Chawelesaj uwach le ukemriqonib'al kemwiqb'al</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_autocomplete_subitem_customlistcustom-urls" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_custom_urlscustom-urls" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>
@@ -7156,7 +7237,7 @@ Utzukuxik. Uyujik. Ukamulixik.</seg>
 				<seg>Winaqirisam URLs</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_custom_urlscustom-urls" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:preference_autocomplete_subitem_customlistcustom-urls" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>
@@ -7642,7 +7723,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>¿Xasach le aretokib'al?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozilla-accounts:auth.ftl:brand-mozilla" srclang="en-US">
+		<tu tuid="mozilla-accounts:branding.ftl:brand-mozilla" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
 			</tuv>
@@ -7650,7 +7731,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozilla-accounts:branding.ftl:brand-mozilla" srclang="en-US">
+		<tu tuid="mozilla-accounts:auth.ftl:brand-mozilla" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
 			</tuv>
@@ -8108,6 +8189,14 @@ be temporary, and you can try again later.&lt;/li&gt;
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
 			<tuv xml:lang="en-US">
+				<seg>email mask</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>K'oj rech taqoqxa'nib'al</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
 				<seg>enable</seg>
 			</tuv>
 			<tuv xml:lang="quc">
@@ -8324,6 +8413,14 @@ be temporary, and you can try again later.&lt;/li&gt;
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
 			<tuv xml:lang="en-US">
+				<seg>phone number mask</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>k'oj rech rajilab'alil ch'aweb'al</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
 				<seg>pop-up</seg>
 			</tuv>
 			<tuv xml:lang="quc">
@@ -8400,6 +8497,14 @@ be temporary, and you can try again later.&lt;/li&gt;
 			</tuv>
 			<tuv xml:lang="quc">
 				<seg>chakub'al rech q'atub'al</seg>
+			</tuv>
+		</tu>
+		<tu tuid="terminology:common:" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review checker</seg>
+			</tuv>
+			<tuv xml:lang="quc">
+				<seg>K'amb'ejab'al q'atub'al</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">

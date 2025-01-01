@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2024-12-01T00:34:40.438144">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-01-01T00:29:51.542570">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -19,14 +19,6 @@
 				<seg>[1-5]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>2 down, keep it up!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ދެއެއް ނިމިއްޖެ، ކުރިއަށް ގެންދޭ! &lt;playIcon&gt;&lt;/playIcon&gt;</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>2 down, keep it up!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
@@ -35,7 +27,15 @@
 				<seg>ދެއެއް ނިމިއްޖެ، ކުރިއަށް ގެންދޭ! &lt;playIcon&gt;&lt;/playIcon&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:ab" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>2 down, keep it up!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ދެއެއް ނިމިއްޖެ، ކުރިއަށް ގެންދޭ! &lt;playIcon&gt;&lt;/playIcon&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:ab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Abkhaz</seg>
 			</tuv>
@@ -43,7 +43,7 @@
 				<seg>އަބްޚާޒު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:ab" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:ab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Abkhaz</seg>
 			</tuv>
@@ -83,14 +83,6 @@
 				<seg>އެޗެނީސް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; މި ޖުމްލަ އެ ކިޔުނީ ރަނގަޅަށްތަ؟</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
@@ -99,12 +91,12 @@
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; މި ޖުމްލަ އެ ކިޔުނީ ރަނގަޅަށްތަ؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>&lt;/recordIcon&gt;&lt;recordIcon&gt;{ $actionType } ދެން ޖުމްލަ ބާރަށް ކިޔާ</seg>
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; މި ޖުމްލަ އެ ކިޔުނީ ރަނގަޅަށްތަ؟</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
@@ -115,12 +107,12 @@
 				<seg>&lt;/recordIcon&gt;&lt;recordIcon&gt;{ $actionType } ދެން ޖުމްލަ ބާރަށް ކިޔާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>ނިމުނީމަ &lt;/stopIcon&gt;&lt;stopIcon&gt;{ $actionType }</seg>
+				<seg>&lt;/recordIcon&gt;&lt;recordIcon&gt;{ $actionType } ދެން ޖުމްލަ ބާރަށް ކިޔާ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
@@ -131,12 +123,12 @@
 				<seg>ނިމުނީމަ &lt;/stopIcon&gt;&lt;stopIcon&gt;{ $actionType }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-submit-tooltip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>{ $actionType } submit when ready</seg>
+				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>{ $actionType } ތައްޔާރުވީމާ ހުށަހަޅާ</seg>
+				<seg>ނިމުނީމަ &lt;/stopIcon&gt;&lt;stopIcon&gt;{ $actionType }</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-submit-tooltip" srclang="en-US">
@@ -147,7 +139,15 @@
 				<seg>{ $actionType } ތައްޔާރުވީމާ ހުށަހަޅާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:profile-form-additional-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-submit-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } submit when ready</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>{ $actionType } ތައްޔާރުވީމާ ހުށަހަޅާ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:profile-form-additional-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Additional Language</seg>
 			</tuv>
@@ -155,7 +155,7 @@
 				<seg>އިތުރު ބަސްތައް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:profile-form-additional-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:profile-form-additional-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Additional Language</seg>
 			</tuv>
@@ -179,7 +179,7 @@
 				<seg>ބަހެއް އިތުރުކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:ady" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:ady" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Adyghe</seg>
 			</tuv>
@@ -187,7 +187,7 @@
 				<seg>އަދީގީ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:ady" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:ady" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Adyghe</seg>
 			</tuv>
@@ -243,14 +243,6 @@
 				<seg>އަލްބޭނިއަން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:all-locales" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>All</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ހުރިހާ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:all-locales" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>All</seg>
@@ -259,7 +251,15 @@
 				<seg>ހުރިހާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:am" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:all-locales" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>All</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ހުރިހާ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:am" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Amharic</seg>
 			</tuv>
@@ -267,7 +267,7 @@
 				<seg>އަމްހަރީ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:am" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:am" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Amharic</seg>
 			</tuv>
@@ -307,7 +307,7 @@
 				<seg>އަރަގޮނީސް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:as" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:as" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Assamese</seg>
 			</tuv>
@@ -315,7 +315,7 @@
 				<seg>އަސާމީ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:as" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:as" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Assamese</seg>
 			</tuv>
@@ -339,14 +339,6 @@
 				<seg>އަސްޓޫރިއަން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:audio-format" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Audio Format</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>އަޑުގެ ފޯމެޓް</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:audio-format" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Audio Format</seg>
@@ -355,12 +347,12 @@
 				<seg>އަޑުގެ ފޯމެޓް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:avatar" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:audio-format" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Avatar</seg>
+				<seg>Audio Format</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>ފޮޓޯ</seg>
+				<seg>އަޑުގެ ފޯމެޓް</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:avatar" srclang="en-US">
@@ -371,7 +363,15 @@
 				<seg>ފޮޓޯ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:az" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:avatar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Avatar</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ފޮޓޯ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:az" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Azerbaijani</seg>
 			</tuv>
@@ -379,7 +379,7 @@
 				<seg>އަޒަރްބައިޖާން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:az" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:az" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Azerbaijani</seg>
 			</tuv>
@@ -435,14 +435,6 @@
 				<seg>ފައިދާތައް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:bn" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Bengali</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ބަންގާޅަ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:bn" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bengali</seg>
@@ -451,7 +443,15 @@
 				<seg>ބަންގާޅަ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:bn" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bengali</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ބަންގާޅަ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
 			</tuv>
@@ -459,7 +459,7 @@
 				<seg>އިތުރު މީހުންގެ އަޑު ހޯދުމަށް &lt;bold&gt;އެހީވެދީ&lt;/bold&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
 			</tuv>
@@ -547,14 +547,6 @@
 				<seg>&lt;b&gt;ކީއްވެ އީމެއަލް؟&lt;/b&gt;  ކުރިއަށް އޮތްތަނުގައި މައުލޫމާތު ކޮށާރަށްއަންނަ ބަދަލަކާއި ގުޅޭ ގޮތުން ފަހަރެގައި ތިފަރާތާއި ގުޅަންޖެހިދާނެ. އީމެއިލް އަކުން މިކަމަށް މަގުފަހިވާނެ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:confirm-no-identify" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>&lt;b&gt;You agree&lt;/b&gt; to not attempt to determine the identity of speakers in the Common Voice dataset</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>&lt;b&gt;ތިބާ ތި އެއްބަސް ވަނީ&lt;/b&gt; ކޮމަންވޮއިސް ޑޭޓާސެޓްގައި ހިމެނޭ ވާހާކަދެއްކުންތެރިންނަކީ ކޮންބަޔެއްކަން ހާމަނުކުރާނެކަމަށެވެ.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:confirm-no-identify" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;b&gt;You agree&lt;/b&gt; to not attempt to determine the identity of speakers in the Common Voice dataset</seg>
@@ -563,7 +555,15 @@
 				<seg>&lt;b&gt;ތިބާ ތި އެއްބަސް ވަނީ&lt;/b&gt; ކޮމަންވޮއިސް ޑޭޓާސެޓްގައި ހިމެނޭ ވާހާކަދެއްކުންތެރިންނަކީ ކޮންބަޔެއްކަން ހާމަނުކުރާނެކަމަށެވެ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:why-profile-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:confirm-no-identify" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;b&gt;You agree&lt;/b&gt; to not attempt to determine the identity of speakers in the Common Voice dataset</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>&lt;b&gt;ތިބާ ތި އެއްބަސް ވަނީ&lt;/b&gt; ކޮމަންވޮއިސް ޑޭޓާސެޓްގައި ހިމެނޭ ވާހާކަދެއްކުންތެރިންނަކީ ކޮންބަޔެއްކަން ހާމަނުކުރާނެކަމަށެވެ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:why-profile-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
 Recognition engines that use this data to improve their accuracy.</seg>
@@ -572,7 +572,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ތިބާއާ ބެހޭގޮތުން ކޮންމެވެސް ވަރަކަށް މަޢުލޫމާތު ދިނުމުން، އާންމުއަޑަށް ތި ހުށަހަޅާ އަޑު ޑޭޓާ އަކީ އަޑު ދެނެގަންނަ އެންޖިނުތަކަށް ބޮޑަށް ބޭނުންތެރި ގޮތަކަށް، ދިމާކުރުން ރަނގަޅުކުރުމަށް ބޭނުން ކުރެވޭނެ އެއްޗެކެވެ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:why-profile-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:why-profile-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>By providing some information about yourself, the audio data you submit to Common Voice will be more useful to Speech
 Recognition engines that use this data to improve their accuracy.</seg>
@@ -613,7 +613,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ރިކޯރޑިންގް ކެންސަލްކޮށްލާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel Submission</seg>
 			</tuv>
@@ -621,7 +621,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ފޮނުވިއެތި ކެންސަލްކުރުން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel Submission</seg>
 			</tuv>
@@ -693,14 +693,6 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ޗައިނީޒް (ހޮން ކޮން)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:zh-tw" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Chinese (Taiwan)</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ޗައިނީޒް (ޓައިވާން)</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/common.ftl:zh-tw" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Chinese (Taiwan)</seg>
@@ -709,12 +701,12 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ޗައިނީޒް (ޓައިވާން)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:cv" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:zh-tw" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Chuvash</seg>
+				<seg>Chinese (Taiwan)</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>ޗުވާޝް</seg>
+				<seg>ޗައިނީޒް (ޓައިވާން)</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:cv" srclang="en-US">
@@ -725,12 +717,12 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ޗުވާޝް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-click" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:cv" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Click</seg>
+				<seg>Chuvash</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>އޮބާ</seg>
+				<seg>ޗުވާޝް</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:action-click" srclang="en-US">
@@ -741,12 +733,12 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>އޮބާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:speak-goal-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-click" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Clips recorded</seg>
+				<seg>Click</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>ރެކޯޑްކުރެވުނު އަޑުކޮޅުތައް</seg>
+				<seg>އޮބާ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:speak-goal-text" srclang="en-US">
@@ -757,12 +749,12 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ރެކޯޑްކުރެވުނު އަޑުކޮޅުތައް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:clips-uploaded" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:speak-goal-text" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Clips Uploaded</seg>
+				<seg>Clips recorded</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>އަޑުކޮޅު ހުށައެޅިފައި</seg>
+				<seg>ރެކޯޑްކުރެވުނު އަޑުކޮޅުތައް</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:clips-uploaded" srclang="en-US">
@@ -773,7 +765,15 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>އަޑުކޮޅު ހުށައެޅިފައި</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:listen-goal-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:clips-uploaded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clips Uploaded</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>އަޑުކޮޅު ހުށައެޅިފައި</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:listen-goal-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Clips validated</seg>
 			</tuv>
@@ -781,7 +781,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>އަޑުކޮޅު ފެންވަރު ބެލިފައި</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:listen-goal-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:listen-goal-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Clips validated</seg>
 			</tuv>
@@ -821,6 +821,14 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ފާސްކުރި އަޑުކޮޅުތައް</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:profile-close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ލައްޕާ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
@@ -835,14 +843,6 @@ Recognition engines that use this data to improve their accuracy.</seg>
 			</tuv>
 			<tuv xml:lang="dv">
 				<seg>ބަންދުކުރޭ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:profile-close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ލައްޕާ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:profile-close" srclang="en-US">
@@ -921,7 +921,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ގްރެވަޓާއާއި ގުޅާދީ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:contact" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:contact" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contact</seg>
 			</tuv>
@@ -929,7 +929,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ގުޅުމައް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:contact" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:contact" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contact</seg>
 			</tuv>
@@ -953,14 +953,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ގުޅޭ ފޯރމު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:content-license-text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Content available under a &lt;licenseLink&gt;Creative Commons license&lt;/licenseLink&gt;</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>&lt;licenseLink&gt;ކްރިއޭޓިވް ކޮމަންސް ލައިސަންސް&lt;/licenseLink&gt;ގެ ދަށުން ކޮންޓެންޓް ލިބެން ހުންނާނެ.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:content-license-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Content available under a &lt;licenseLink&gt;Creative Commons license&lt;/licenseLink&gt;</seg>
@@ -969,15 +961,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>&lt;licenseLink&gt;ކްރިއޭޓިވް ކޮމަންސް ލައިސަންސް&lt;/licenseLink&gt;ގެ ދަށުން ކޮންޓެންޓް ލިބެން ހުންނާނެ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:content-license-text" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Contribute</seg>
+				<seg>Content available under a &lt;licenseLink&gt;Creative Commons license&lt;/licenseLink&gt;</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>ހުށަހަޅާ</seg>
+				<seg>&lt;licenseLink&gt;ކްރިއޭޓިވް ކޮމަންސް ލައިސަންސް&lt;/licenseLink&gt;ގެ ދަށުން ކޮންޓެންޓް ލިބެން ހުންނާނެ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -993,7 +985,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ހުށަހަޅާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ހުށަހަޅާ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -1049,7 +1049,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ހުށަހެޅުމުގެ ތަޖުރިބާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:cookies" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:cookies" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookies</seg>
 			</tuv>
@@ -1057,7 +1057,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ކުކީސް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:cookies" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:cookies" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookies</seg>
 			</tuv>
@@ -1081,7 +1081,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ކޯނިޝް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:x-months-short" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:x-months-short" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $count }mo</seg>
 			</tuv>
@@ -1089,7 +1089,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>{ $count } މަސް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:x-months-short" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:x-months-short" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $count }mo</seg>
 			</tuv>
@@ -1113,14 +1113,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>{ $count } ހަފްތާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:x-years-short" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ $count }y</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>{ $count } އަހަރު</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/home.ftl:x-years-short" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $count }y</seg>
@@ -1129,7 +1121,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>{ $count } އަހަރު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:hr" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:x-years-short" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $count }y</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>{ $count } އަހަރު</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:hr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Croatian</seg>
 			</tuv>
@@ -1137,7 +1137,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ކްރޯޝިއާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:hr" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:hr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Croatian</seg>
 			</tuv>
@@ -1177,7 +1177,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ޑެނިޝް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:dashboard" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:dashboard" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dashboard</seg>
 			</tuv>
@@ -1185,7 +1185,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ޑޭޝްބޯރޑް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:dashboard" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:dashboard" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dashboard</seg>
 			</tuv>
@@ -1201,14 +1201,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ޑޭޓާސެޓްތައް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/dashboard.ftl:days" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Days</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ދުވަސްަތައް</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:days" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Days</seg>
@@ -1217,7 +1209,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ދުވަސްަތައް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/dashboard.ftl:days" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Days</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ދުވަސްަތައް</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete my recordings</seg>
 			</tuv>
@@ -1225,7 +1225,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އަހަރެންގެ ރެކޯޑިންތައް ފޮހެލާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete my recordings</seg>
 			</tuv>
@@ -1273,7 +1273,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ތިބާގެ އަޑު ހަދިޔާކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:request-language-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Don't see your language on Common Voice yet?</seg>
 			</tuv>
@@ -1281,7 +1281,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ކޮމަންވޮއިސްގައި ތިބާގެ ބަސް އަދި ނުފެނޭތަ؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:request-language-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Don't see your language on Common Voice yet?</seg>
 			</tuv>
@@ -1321,7 +1321,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ޑައުންލޯޑު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-download-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:data-download-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download Common Voice Data</seg>
 			</tuv>
@@ -1329,7 +1329,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ކޮމަންވޮއިސް ޑޭޓާ ޑައުންލޯޑުކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:data-download-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-download-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download Common Voice Data</seg>
 			</tuv>
@@ -1369,7 +1369,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ޑޭޓާސެޓް ޑައުންލޯޑުކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:download-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:download-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download { $language }</seg>
 			</tuv>
@@ -1377,7 +1377,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ޑައުންލޯޑުކުރޭ { $language }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:download-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:download-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download { $language }</seg>
 			</tuv>
@@ -1401,7 +1401,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އަހުރެންގެ ޑޭޓާ ޑައުންލޯޑުކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:your-feedback" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:your-feedback" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Do you have ideas on how we can make the Common Voice dataset better? Let us know on Discourse</seg>
 			</tuv>
@@ -1409,7 +1409,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ކޮމަންވޮއިސް ޑޭޓާސެޓް އިތުރަށް ރަނގަޅުކުރެވިދާނެ ގޮތުގެ ޚިޔާލެއް އެބަހުރިތޯ؟ ޑިސްކޯސްގައި އަޅުގަނޑުމެންނަށް އަނގާލަދެއްވާ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:your-feedback" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:your-feedback" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Do you have ideas on how we can make the Common Voice dataset better? Let us know on Discourse</seg>
 			</tuv>
@@ -1449,7 +1449,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ބައިވެރިވާ އިރު، 'ހުށަހަޅާ' އަށް އޮބާލުމުން ފާޑުކިޔުމާ ނުލައި ކުރިއަށް ދާނެ. ހުށަހެޅުން ހަމަ ހުރިގޮތަށް ދެން އަންނަ 5 ރެކޯޑިން ނޫނީ ފާސްކުރުންތަކާއެކު ކުރިއަށްދާނެ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:nl" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:nl" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dutch</seg>
 			</tuv>
@@ -1457,7 +1457,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ޑަޗް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:nl" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:nl" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dutch</seg>
 			</tuv>
@@ -1481,14 +1481,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ބަދަލުކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:edit-profile" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Edit Profile</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ވަނަވަރު އަދާހަމަކުރޭ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:edit-profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit Profile</seg>
@@ -1497,7 +1489,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ވަނަވަރު އަދާހަމަކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-email" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:edit-profile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit Profile</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ވަނަވަރު އަދާހަމަކުރޭ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-email" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
@@ -1521,7 +1521,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އީމެއިލް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-email" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-email" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
@@ -1529,7 +1529,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އީމެއިލް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/settings.ftl:email-already-used" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/profile/settings.ftl:email-already-used" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email is already used for a different account</seg>
 			</tuv>
@@ -1537,7 +1537,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އެހެން އެކައުންޓެއްގައި ތި އީމެއިލް ވަނީ ބޭނުންކޮށްފައި</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/profile/settings.ftl:email-already-used" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/settings.ftl:email-already-used" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email is already used for a different account</seg>
 			</tuv>
@@ -1561,7 +1561,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އީމެއިލް އިސްތިރާކުތައް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:en" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:en" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -1569,7 +1569,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އިނގިރޭސި</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:en" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:en" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -1673,7 +1673,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އެންމެން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-delete" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-delete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Exit &amp; Delete clips</seg>
 			</tuv>
@@ -1681,7 +1681,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އަޑުކޮޅުތައް ފޮހެލާފައި ނިކުމޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-delete" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-delete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Exit &amp; Delete clips</seg>
 			</tuv>
@@ -1721,7 +1721,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ފެރޮއީޒް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:indicates-required" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:indicates-required" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Fields marked with an asterisk (*) are required.</seg>
 			</tuv>
@@ -1729,7 +1729,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>* އަންގައިދެނީ ފުރަން މަޖުބޫރު ތަންތަނެވެ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:indicates-required" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:indicates-required" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Fields marked with an asterisk (*) are required.</seg>
 			</tuv>
@@ -1753,14 +1753,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ރެކޯޑުކުރުން ނިމްމާލާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Finish recording first?</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ފުރަތަމަ ރިކޯރޑިންގް ނިންމާނީތަ؟</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Finish recording first?</seg>
@@ -1769,7 +1761,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ފުރަތަމަ ރިކޯރޑިންގް ނިންމާނީތަ؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:fi" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish recording first?</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ފުރަތަމަ ރިކޯރޑިންގް ނިންމާނީތަ؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:fi" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Finnish</seg>
 			</tuv>
@@ -1777,7 +1777,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ފިނިޝް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:fi" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:fi" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Finnish</seg>
 			</tuv>
@@ -1817,14 +1817,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ފުރީޒަން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:gl" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Galician</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ގެލޭޝިއާ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:gl" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Galician</seg>
@@ -1833,7 +1825,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ގެލޭޝިއާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:size-gigabyte" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:gl" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Galician</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ގެލޭޝިއާ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:size-gigabyte" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>GB</seg>
 			</tuv>
@@ -1841,7 +1841,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ޖީބީ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:size-gigabyte" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:size-gigabyte" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>GB</seg>
 			</tuv>
@@ -1881,14 +1881,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ޖަރުމަނު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Get Involved</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ބައިވެރިވޭ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get Involved</seg>
@@ -1897,12 +1889,12 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ބައިވެރިވޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:get-started-speech" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-button" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Get Started with Speech Recognition</seg>
+				<seg>Get Involved</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>އަޑުގެ ރެކޮގްނިޝަން ފަށާ</seg>
+				<seg>ބައިވެރިވޭ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:get-started-speech" srclang="en-US">
@@ -1913,7 +1905,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އަޑުގެ ރެކޮގްނިޝަން ފަށާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:goals" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:get-started-speech" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get Started with Speech Recognition</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>އަޑުގެ ރެކޮގްނިޝަން ފަށާ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:goals" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Goals</seg>
 			</tuv>
@@ -1921,7 +1921,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ލަނޑުދަނޑިތައް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:goals" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:goals" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Goals</seg>
 			</tuv>
@@ -1961,7 +1961,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ބަސްތަކުގެ ސަފުހާއަށް ދޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:data-other-goto" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-other-goto" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to { $name }</seg>
 			</tuv>
@@ -1969,7 +1969,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>{ $name } އަށް ދޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-other-goto" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:data-other-goto" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to { $name }</seg>
 			</tuv>
@@ -2025,14 +2025,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ގުރީކް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:cnh" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Hakha Chin</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ހަކަ ޗިން</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:cnh" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hakha Chin</seg>
@@ -2041,7 +2033,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ހަކަ ޗިން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:feedback-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:cnh" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hakha Chin</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ހަކަ ޗިން</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:feedback-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Have Feedback?</seg>
 			</tuv>
@@ -2049,7 +2049,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ފާޑުކިއުމެއް އެބަ އޮތްތަ؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:feedback-q" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:feedback-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Have Feedback?</seg>
 			</tuv>
@@ -2105,14 +2105,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ޢިބްރީ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:help" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Help</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>އެހީ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/common.ftl:help" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help</seg>
@@ -2121,7 +2113,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އެހީ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:share-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:help" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>އެހީ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:share-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help teach machines how real people speak, donate your voice at { $link }</seg>
 			</tuv>
@@ -2129,7 +2129,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އިންސާނުން ވާހަކަދައްކާ ގޮތް، މެޝިނުތަކަށް ދަސްކޮށްދިނުމަށް އަޑު ހަދިޔާކުރޭ { $link }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:share-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:share-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help teach machines how real people speak, donate your voice at { $link }</seg>
 			</tuv>
@@ -2153,7 +2153,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އަހަރެމެންނާއި ގުޅުން ބާއްވައި އަދި ވޮއިސް ޓެކްނޮލޮޖީ ގެ ޖަމާއަތެއް އުފެއްދުމަށް އެހީތެރިވެދީ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:help-make-dataset" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:help-make-dataset" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help us build a high quality, publicly open dataset</seg>
 			</tuv>
@@ -2161,7 +2161,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އެންމެންނަށް ހުޅުވާލެވިފައިވާ، ފެންވަރު ރަނގަޅު  ޑޭޓާސެޓެއް ހެދުމަށް އަހަރުމެންނަށް އެހީތެރިވެދެއްވާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:help-make-dataset" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:help-make-dataset" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help us build a high quality, publicly open dataset</seg>
 			</tuv>
@@ -2241,7 +2241,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ފޮރުވިފަ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:mrj" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:mrj" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hill Mari</seg>
 			</tuv>
@@ -2249,7 +2249,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ހިލް މަރި</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:mrj" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:mrj" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hill Mari</seg>
 			</tuv>
@@ -2337,7 +2337,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އައިސްލޭންޑިކް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:email-opt-in-info" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:email-opt-in-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>I'd like to receive emails such as goal reminders, my progress updates and newsletters about Common Voice.</seg>
 			</tuv>
@@ -2345,7 +2345,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ކޮމަން ވޮއިސް އާއި ގުޅޭ ޚަބަރާއި، އަޅުގަނޑުގެ ޕުރޮގްރެސްގެ އަޕްޑޭޓާއި، ގޯލް ހަނދާންކޮށްދިނުން ފަދަ ކަންކަމާއި ގުޅޭ އީމެއިލް ލިބެން އަޅުގަނޑު ބޭނުމެވެ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:email-opt-in-info" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:email-opt-in-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>I'd like to receive emails such as goal reminders, my progress updates and newsletters about Common Voice.</seg>
 			</tuv>
@@ -2385,7 +2385,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>މޮޒިލާގެ ޝަޚުސީ ޕޮލިސީ &lt;privacyLink&gt;&lt;/privacyLink&gt; ކިޔާދޭއިރު، މި މަޢުލޫމާތު ބޭނުން ކުރިއަސް މައްސަލައެއް ނެތް.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:id" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:id" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Indonesian</seg>
 			</tuv>
@@ -2393,7 +2393,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އިންޑޮނީޝިއަން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:id" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:id" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Indonesian</seg>
 			</tuv>
@@ -2449,14 +2449,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އައިރިޝް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:it" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Italian</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>އިޓަލީ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:it" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Italian</seg>
@@ -2465,7 +2457,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އިޓަލީ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:izh" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:it" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Italian</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>އިޓަލީ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:izh" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Izhorian</seg>
 			</tuv>
@@ -2473,7 +2473,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އިޒްހޯރިއާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:izh" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:izh" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Izhorian</seg>
 			</tuv>
@@ -2497,7 +2497,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ޖަޕަނީސް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:email-opt-in-info-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:email-opt-in-info-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Join the Common Voice mailing list</seg>
 			</tuv>
@@ -2505,7 +2505,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ކޮމަން ވޮއިސް މެއިލް ލިސްޓާއި ގުޅެން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:email-opt-in-info-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:email-opt-in-info-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Join the Common Voice mailing list</seg>
 			</tuv>
@@ -2609,7 +2609,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ރެކޯޑިންތައް ބަހައްޓާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:keep-track" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:keep-track" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keep track of your progress and metrics across multiple languages.</seg>
 			</tuv>
@@ -2617,7 +2617,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ތަފާތު އެކިއެކި ބަސްތަކުގައި މަސައްކަތް ކުރިއަށްދާވަރާ ތަފާސްހިސާބު ބަލެހެއްޓޭނޭ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:keep-track" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:keep-track" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keep track of your progress and metrics across multiple languages.</seg>
 			</tuv>
@@ -2641,7 +2641,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ތިދާ ހިސާބު ބެލުމަށްޓަކައި ވަނަވަރެއް ބޭނުން ކުރޭ، އަދި އަހަރުމެންގެ އަޑު ޑޭޓާ ބޮޑަށް ދިމާވާ ގޮތަށް ހަދަން އެހީވެދީ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:rw" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:rw" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Kinyarwanda</seg>
 			</tuv>
@@ -2649,7 +2649,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ކިންޔާވަންޑާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:rw" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:rw" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Kinyarwanda</seg>
 			</tuv>
@@ -2705,14 +2705,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ކިރިގިޒް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/modals/request-language.ftl:request-language-form-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Language</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ބަސް</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/modals/request-language.ftl:request-language-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
@@ -2722,6 +2714,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ބަސް</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/modals/request-language.ftl:request-language-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -2777,14 +2777,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ބަސްތައް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:lv" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Latvian</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ލެޓްވިއާ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/common.ftl:lv" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Latvian</seg>
@@ -2793,7 +2785,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ލެޓްވިއާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:language-section-launched" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:lv" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Latvian</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ލެޓްވިއާ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:language-section-launched" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Launched</seg>
 			</tuv>
@@ -2801,7 +2801,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ފައްޓައިފި</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:language-section-launched" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:language-section-launched" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Launched</seg>
 			</tuv>
@@ -2825,7 +2825,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ލީޑަރބޯރޑްގެ ފެނުން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Leaving now means you'll lose your progress</seg>
 			</tuv>
@@ -2833,7 +2833,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>މިހާރު ގޮސްފިނަމަ މަސައްކަތް ގެއްލިދާނެ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Leaving now means you'll lose your progress</seg>
 			</tuv>
@@ -2873,7 +2873,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ހުއްދަ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-download-license" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:data-download-license" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>License: &lt;licenseLink&gt;CC-0&lt;/licenseLink&gt;</seg>
 			</tuv>
@@ -2881,7 +2881,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ލައިސެންސް: &lt;licenseLink&gt;CC-0&lt;/licenseLink&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:data-download-license" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-download-license" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>License: &lt;licenseLink&gt;CC-0&lt;/licenseLink&gt;</seg>
 			</tuv>
@@ -2905,7 +2905,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ލައިސެންސް: &lt;licenseLink&gt;{ $license }&lt;/licenseLink&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:lij" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:lij" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Ligurian</seg>
 			</tuv>
@@ -2913,7 +2913,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ލިގުރިޔަން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:lij" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:lij" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Ligurian</seg>
 			</tuv>
@@ -2953,7 +2953,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އަޑުއަހާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:lt" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:lt" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Lithuanian</seg>
 			</tuv>
@@ -2961,7 +2961,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ލިތުއާނިއާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:lt" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:lt" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Lithuanian</seg>
 			</tuv>
@@ -3025,14 +3025,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ވަދޭ/ރެޖިސްޓަރ ކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:logout" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Log Out</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ލޮގްއައުޓް</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/common.ftl:logout" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log Out</seg>
@@ -3041,12 +3033,12 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ލޮގްއައުޓް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:no-clips-to-validate" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:logout" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Looks like there aren't any clips to listen to in this language. Help us fill the queue by recording some now.</seg>
+				<seg>Log Out</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>ފެންނަފެނުމަށް މިވަގުތު މިބަހުގައި އަޑުއަހާނެ އެއްޗެއްނެތް. މިކަން ރަނގާޅުކޮއްލަން މިހާރު އަޑުކޮޅެއް ރެކޯޑުކޮއްލާ</seg>
+				<seg>ލޮގްއައުޓް</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:no-clips-to-validate" srclang="en-US">
@@ -3057,12 +3049,12 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ފެންނަފެނުމަށް މިވަގުތު މިބަހުގައި އަޑުއަހާނެ އެއްޗެއްނެތް. މިކަން ރަނގާޅުކޮއްލަން މިހާރު އަޑުކޮޅެއް ރެކޯޑުކޮއްލާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:mk" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:no-clips-to-validate" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Macedonian</seg>
+				<seg>Looks like there aren't any clips to listen to in this language. Help us fill the queue by recording some now.</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>މަސަޑޯނިއަން</seg>
+				<seg>ފެންނަފެނުމަށް މިވަގުތު މިބަހުގައި އަޑުއަހާނެ އެއްޗެއްނެތް. މިކަން ރަނގާޅުކޮއްލަން މިހާރު އަޑުކޮޅެއް ރެކޯޑުކޮއްލާ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:mk" srclang="en-US">
@@ -3073,7 +3065,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>މަސަޑޯނިއަން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:rich-data" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:mk" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Macedonian</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>މަސަޑޯނިއަން</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:rich-data" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Make your submitted data as rich as possible by providing some anonymous demographic data. We de-identify all demographic data before making it public.</seg>
 			</tuv>
@@ -3081,7 +3081,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އެހެން މީހުންނަށް ނޭނގޭނެ ގޮތަށް ޑެމޮގްރާފިކް ޑޭޓާކޮޅެއް ހުށަހަޅައިގެން، ތި ފޮނުވާ ޑޭޓާ ވީހާވެސް މުއްސަންދި ކުރައްވާ. އާންމު ކުރުމުގެ ކުރިން، އަހަރުމެން ހުރިހައި ޑެމޮގްރާފިކް ޑޭޓާއެއް ހެދީ ކާކުކަން ނޭނގޭގޮތަށް ހަދާނަން.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:rich-data" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:rich-data" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Make your submitted data as rich as possible by providing some anonymous demographic data. We de-identify all demographic data before making it public.</seg>
 			</tuv>
@@ -3105,14 +3105,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އިސްތިރާކު ބެލެހެއްޓުން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:size-megabyte" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>MB</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>އެމްބީ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:size-megabyte" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>MB</seg>
@@ -3121,12 +3113,12 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އެމްބީ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:mhr" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:size-megabyte" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Meadow Mari</seg>
+				<seg>MB</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>މެޑޯ މަރި</seg>
+				<seg>އެމްބީ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:mhr" srclang="en-US">
@@ -3137,12 +3129,12 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>މެޑޯ މަރި</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/modals/contact.ftl:contact-form-message" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:mhr" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Message</seg>
+				<seg>Meadow Mari</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>މެސެޖު</seg>
+				<seg>މެޑޯ މަރި</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/modals/contact.ftl:contact-form-message" srclang="en-US">
@@ -3153,7 +3145,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>މެސެޖު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:license-mixed" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/contact.ftl:contact-form-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Message</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>މެސެޖު</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:license-mixed" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mixed</seg>
 			</tuv>
@@ -3161,7 +3161,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>މައްސުނިކުރިވިފައި</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:license-mixed" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:license-mixed" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mixed</seg>
 			</tuv>
@@ -3185,14 +3185,6 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>މޮކްޝް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:mn" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mongolian</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>މޮންގޯލިއަން</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:mn" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mongolian</seg>
@@ -3201,7 +3193,15 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>މޮންގޯލިއަން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:more" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:mn" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mongolian</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>މޮންގޯލިއަން</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>More</seg>
 			</tuv>
@@ -3209,7 +3209,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>އިތުރަށް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:more" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>More</seg>
 			</tuv>
@@ -3257,7 +3257,7 @@ recognition open to everyone.</seg>
 				<seg>ބޮޑެތި ކުންފުނިތަކުގައި ބޭނުންކުރާ ގިނަ ޑޭޓާސެޓްތަކަކީ، އާންމުންނަށް ހުޅުވާލެވިފައިވާ އެއްޗިއްސެއް ނޫނެވެ. އަހުރަމެން ދެކޭގޮތުގައި، މިއީ އުފެއްދުންތެރިކަމަށް އޮތް ހުރަހެކެވެ. އެހެންކަމުން، އެންމެންނަށް ވޮއިސް ރެކޮގްނިޝަން ޓެކްނޮލޮޖީ ހުޅުވާލުމަށް ޓަކައި ކޮމަންވޮއިސް އެކުލަވާލެވުނެވެ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-vote-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>n</seg>
 			</tuv>
@@ -3265,7 +3265,7 @@ recognition open to everyone.</seg>
 				<seg>ނ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-vote-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>n</seg>
 			</tuv>
@@ -3289,14 +3289,6 @@ recognition open to everyone.</seg>
 				<seg>ނަން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:native-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Native Language</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>މާދަރީ ބަސް</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
@@ -3311,6 +3303,14 @@ recognition open to everyone.</seg>
 			</tuv>
 			<tuv xml:lang="dv">
 				<seg>މާދަރީބަސް</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:native-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Native Language</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>މާދަރީ ބަސް</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:profile-form-native-language" srclang="en-US">
@@ -3377,14 +3377,6 @@ recognition open to everyone.</seg>
 				<seg>ތިޔަ އީލެއިލްއާއި ގުޅިވައިވާ ގްރެވަޓާއެއް ނުފެނުނު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-no-mic-found" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>No microphone found.</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>މައިކު ނުފެނުނު</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-no-mic-found" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No microphone found.</seg>
@@ -3393,7 +3385,15 @@ recognition open to everyone.</seg>
 				<seg>މައިކު ނުފެނުނު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:nb-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-no-mic-found" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No microphone found.</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>މައިކު ނުފެނުނު</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:nb-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Norwegian Bokmål</seg>
 			</tuv>
@@ -3401,7 +3401,7 @@ recognition open to everyone.</seg>
 				<seg>ނޮވީޖަން ބޫކްމާލް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:nb-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:nb-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Norwegian Bokmål</seg>
 			</tuv>
@@ -3477,7 +3477,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>މިހާރު ތިޔަ ފަރާތުގެ އަޑު އަޅުގަނޑުމެންނަށް ހަދިޔާ ކުރެއްވޭނެ. އަޅުގަނޑުމެން ހަދަމުން އަންނަ އޯޕަންސޯސް ވޮއިސް ޑޭޓާބޭސް ތަރައްޤީކުރުމަށް ތިޔަ ހަދިޔާކުރެއްވި އަޑު ވަރަށް ބޮޑު އެހީއަކަށް ވާނެ. މި އޯޕަންސޯސް ވޮއިސް ޑޭޓާބޭސްއަކީ، ވެބްއަށާއި ޑިވައިސްތަކަށް މުޅިން އާ ވައްތަރު ވައްތަރުގެ އެޕްތައް ތައްޔާރުކުރުމަށް ކޮންމެ މީހަކަށްވެސް ބޭނުންކުރެވޭނެ ޑޭޓާބޭސްއެއް. އަސްލު މީހުން ވާހަކަ ދައްކާ ގޮތް މެޝިންތައް ދަސްކުރަން އެހީތެރިވެދިނުމަށް ޓަކައި ޖުމްލައެއް ކިޔައިދެއްވާ. އަދި އެހެން ފަރާތްތަކުން ވެދެއްވާ އެހީތައް ބަލައި ފާސްކޮށްގެން މި ޑޭޓާބޭސްގެ ފެންވަރު ރަނގަޅުކޮށްދެވިދާނެ. މިއީ އެހާވެސް ފަސޭހަ ކަމެއް.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:number-of-voices" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:number-of-voices" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Number of Voices</seg>
 			</tuv>
@@ -3485,7 +3485,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އަޑުގެ އަދަދު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:number-of-voices" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:number-of-voices" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Number of Voices</seg>
 			</tuv>
@@ -3541,14 +3541,6 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ނިވާލާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:on" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>On</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ޖައްސާ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
@@ -3557,7 +3549,15 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ޖައްސާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported-desktop" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:on" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ޖައްސާ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-platform-not-supported-desktop" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On desktop devices you can contribute by downloading…</seg>
 			</tuv>
@@ -3565,7 +3565,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އެންމެ ފަހުގެ ބައިތައް ކޮމްޕިއުޓަރަށް ޑައުންލޯޑުކުރެވޭނެ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-platform-not-supported-desktop" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported-desktop" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On desktop devices you can contribute by downloading…</seg>
 			</tuv>
@@ -3589,14 +3589,6 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>މި މަޝްރޫޢާ ބެހޭ ގޮތުން އަދާހަމަކުރުންތަކާއި އާ މަޢުލޫމާތު ހޯމަދަން ބޭނުން ނަމަ، އަހަރުމެންގެ އީމެއިލް ލިސްޓުގައި ބައިވެރިވެވިދާނެ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:other" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Other</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>އެހެނިހެން</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:other" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Other</seg>
@@ -3605,7 +3597,15 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އެހެނިހެން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/modals/request-language.ftl:other-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:other" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Other</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>އެހެނިހެން</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/request-language.ftl:other-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Other Language</seg>
 			</tuv>
@@ -3613,7 +3613,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އެހެން ބަހެއް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/modals/request-language.ftl:other-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/modals/request-language.ftl:other-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Other Language</seg>
 			</tuv>
@@ -3701,7 +3701,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ޖ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:fa" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:fa" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Persian</seg>
 			</tuv>
@@ -3709,7 +3709,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ފާރިސީ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:fa" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:fa" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Persian</seg>
 			</tuv>
@@ -3733,7 +3733,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>&lt;/playIcon&gt;&lt;playIcon&gt; ފަހުއެތި</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-play-toggle-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Play/Stop</seg>
 			</tuv>
@@ -3741,7 +3741,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ޖައްސާ/ހުއްޓާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-play-toggle-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Play/Stop</seg>
 			</tuv>
@@ -3813,7 +3813,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ޕްރައިވެސީ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:profile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -3821,7 +3821,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ވަނަވަރު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:profile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -3877,7 +3877,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ރ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:show-wall-of-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:show-wall-of-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Read More</seg>
 			</tuv>
@@ -3885,7 +3885,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އިތުރަށް ކިޔާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:show-wall-of-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:show-wall-of-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Read More</seg>
 			</tuv>
@@ -3909,14 +3909,6 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އެހެން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:ready-to-record" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Ready to donate your voice?</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>އަޑު ހުށައެޅުމަށް ތައްޔާރުތޯ؟</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/home.ftl:ready-to-record" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Ready to donate your voice?</seg>
@@ -3925,7 +3917,15 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އަޑު ހުށައެޅުމަށް ތައްޔާރުތޯ؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:ready-to-validate" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:ready-to-record" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ready to donate your voice?</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>އަޑު ހުށައެޅުމަށް ތައްޔާރުތޯ؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:ready-to-validate" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Ready to help validate sentences?</seg>
 			</tuv>
@@ -3933,7 +3933,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ޖުމްލަ ފާސްކުރަން ތައްޔާރު؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:ready-to-validate" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:ready-to-validate" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Ready to help validate sentences?</seg>
 			</tuv>
@@ -4021,14 +4021,6 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އަޑު ކްލިޕްތައް ރިކޯރޑުކުރުމަކީ އޯޕަން ޑޭޓާ ސެޓެއް ހެދުމުގެ މައިގަނޑު ބައެއް. މީ މަޖާ ކަމަކަށްވެސް ވޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-record-toggle-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Record/Stop</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ރިކޯރޑު/ހުއްޓާ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-record-toggle-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Record/Stop</seg>
@@ -4037,7 +4029,15 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ރިކޯރޑު/ހުއްޓާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:record-button-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-record-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record/Stop</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ރިކޯރޑު/ހުއްޓާ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:record-button-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Record your voice</seg>
 			</tuv>
@@ -4045,7 +4045,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އަޑު ރިކޯރޑުކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:record-button-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:record-button-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Record your voice</seg>
 			</tuv>
@@ -4069,7 +4069,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ފޮހެލާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:request-language-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Request a Language</seg>
 			</tuv>
@@ -4077,7 +4077,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ބަހެއް ހިމަނަނުމަށް އެދޭ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:request-language-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Request a Language</seg>
 			</tuv>
@@ -4117,14 +4117,6 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އަލުން ރެކޯޑުކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-rerecord-toggle-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Re-record clip</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>އަޑުކޮޅު އަނެއްކާ ރެކޯޑުކުރޭ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-rerecord-toggle-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Re-record clip</seg>
@@ -4133,7 +4125,15 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އަޑުކޮޅު އަނެއްކާ ރެކޯޑުކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:return-to-cv" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-rerecord-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Re-record clip</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>އަޑުކޮޅު އަނެއްކާ ރެކޯޑުކުރޭ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:return-to-cv" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Return to Common Voice</seg>
 			</tuv>
@@ -4141,7 +4141,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އެނބުރި ކޮމަން ވޮއިސްއަށް ދާން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:return-to-cv" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:return-to-cv" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Return to Common Voice</seg>
 			</tuv>
@@ -4165,14 +4165,6 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ކޮމަން ވޮއިސް ޑޭޓާސެޓްތަކަށް އަނބުރާދޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-return-to-languages" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Return to Languages</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>އެނބުރި ބަސްތަކަށް ދާން</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-return-to-languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Return to Languages</seg>
@@ -4181,7 +4173,15 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އެނބުރި ބަސްތަކަށް ދާން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-return-to-languages" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Return to Languages</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>އެނބުރި ބަސްތަކަށް ދާން</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -4189,7 +4189,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>މުރާޖާކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -4213,7 +4213,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>މިތާ އަޑުކޮޅުތައް ބަލާފަ އަދި އަލުން ރެކޯޑް ކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review &amp; re-record clips if needed</seg>
 			</tuv>
@@ -4221,7 +4221,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>މުރާޖާކޮށް، އަލުން ރެކޯޑުކުރަންޖެހޭނަމަ ކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review &amp; re-record clips if needed</seg>
 			</tuv>
@@ -4261,14 +4261,6 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ރޮމޭނިއަން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:rm-sursilv" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Romansh Sursilvan</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ރޮމާންޗް ސުރުސިލްވާން</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/common.ftl:rm-sursilv" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Romansh Sursilvan</seg>
@@ -4277,7 +4269,15 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ރޮމާންޗް ސުރުސިލްވާން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:ru" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:rm-sursilv" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Romansh Sursilvan</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ރޮމާންޗް ސުރުސިލްވާން</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:ru" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Russian</seg>
 			</tuv>
@@ -4285,7 +4285,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ރަޝިއާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:ru" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:ru" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Russian</seg>
 			</tuv>
@@ -4309,7 +4309,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ހ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:sah" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:sah" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sakha</seg>
 			</tuv>
@@ -4317,7 +4317,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ސާކާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:sah" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:sah" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sakha</seg>
 			</tuv>
@@ -4357,14 +4357,6 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ރައްކާކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:profile-form-submit-saved" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Saved</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ރައްކާކުރެވިފައި</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:profile-form-submit-saved" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Saved</seg>
@@ -4373,7 +4365,15 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ރައްކާކުރެވިފައި</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:language-search-input" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:profile-form-submit-saved" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Saved</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ރައްކާކުރެވިފައި</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:language-search-input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search</seg>
 			</tuv>
@@ -4381,7 +4381,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ހޯދާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:language-search-input" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:language-search-input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search</seg>
 			</tuv>
@@ -4405,7 +4405,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ދުނިޔޭގެ އެކި ކަންކޮޅުތަކުގައި އުޅޭ އެހެނިހެން ބައިވެރިންގެ މަސައްކަތާ، ތިބާގެ މަސައްކަތް ކުރިއަށްދާވަރު އަޅައިބެލޭނެ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:languages-show-less" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:languages-show-less" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>See Less</seg>
 			</tuv>
@@ -4413,7 +4413,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>މަދުން ބަލާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:languages-show-less" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:languages-show-less" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>See Less</seg>
 			</tuv>
@@ -4485,14 +4485,6 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ޖުމްލަތައް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:sr" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Serbian</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ސާބިއަން</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:sr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Serbian</seg>
@@ -4501,12 +4493,12 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ސާބިއަން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:settings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:sr" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Settings</seg>
+				<seg>Serbian</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>ސެޓިންގް</seg>
+				<seg>ސާބިއަން</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:settings" srclang="en-US">
@@ -4517,12 +4509,12 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ސެޓިންގް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcuts" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:settings" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Shortcuts</seg>
+				<seg>Settings</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>ކުރުމަގު</seg>
+				<seg>ސެޓިންގް</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcuts" srclang="en-US">
@@ -4533,12 +4525,12 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ކުރުމަގު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:sign-up-account" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcuts" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Sign up for an account</seg>
+				<seg>Shortcuts</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>އެކައުންޓެއް ހަދާ</seg>
+				<seg>ކުރުމަގު</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/home.ftl:sign-up-account" srclang="en-US">
@@ -4549,7 +4541,15 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އެކައުންޓެއް ހަދާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:email-subscription-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:sign-up-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sign up for an account</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>އެކައުންޓެއް ހަދާ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:email-subscription-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>sign up for email updates</seg>
 			</tuv>
@@ -4557,7 +4557,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އީމެއިލު އަދާބަމަކުރުންތަކައް ރަޖިސްޓްރީ ކުރޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:email-subscription-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:email-subscription-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>sign up for email updates</seg>
 			</tuv>
@@ -4597,14 +4597,6 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ބޮޑުކުޑަމިން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:skip" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Skip</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ދޫކޮށްލާ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
@@ -4613,12 +4605,12 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ދޫކޮށްލާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:skip-submission-feedback" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:skip" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Skip Submission Feedback</seg>
+				<seg>Skip</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>ހުށަހެޅުމުގައި ފާޑުކިއުންތައް ކަނޑާލާ</seg>
+				<seg>ދޫކޮށްލާ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:skip-submission-feedback" srclang="en-US">
@@ -4629,7 +4621,15 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ހުށަހެޅުމުގައި ފާޑުކިއުންތައް ކަނޑާލާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:sk" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:skip-submission-feedback" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip Submission Feedback</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ހުށަހެޅުމުގައި ފާޑުކިއުންތައް ކަނޑާލާ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:sk" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Slovak</seg>
 			</tuv>
@@ -4637,7 +4637,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ސުލޯވަކް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:sk" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:sk" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Slovak</seg>
 			</tuv>
@@ -4677,14 +4677,6 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ސޯބިއަން، ލޯވަ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:hsb" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Sorbian, Upper</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ސޯބިއަން، އަޕާ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/common.ftl:hsb" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sorbian, Upper</seg>
@@ -4693,7 +4685,15 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ސޯބިއަން، އަޕާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:es" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:hsb" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sorbian, Upper</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ސޯބިއަން، އަޕާ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:es" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Spanish</seg>
 			</tuv>
@@ -4701,7 +4701,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އިސްޕޭނު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:es" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:es" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Spanish</seg>
 			</tuv>
@@ -4741,14 +4741,6 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>މިހާރު ވާހަކަދައްކާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:home-cta" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Speak up, contribute here!</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ވާހަކަ ދައްކާ، މިތާ ހުށަހަޅާ!</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/home.ftl:home-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak up, contribute here!</seg>
@@ -4757,7 +4749,15 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ވާހަކަ ދައްކާ، މިތާ ހުށަހަޅާ!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:data-get-started" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:home-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak up, contribute here!</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ވާހަކަ ދައްކާ، މިތާ ހުށަހަޅާ!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-get-started" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;speechBlogLink&gt;Get Started with Speech Recognition&lt;/speechBlogLink&gt;</seg>
 			</tuv>
@@ -4765,7 +4765,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>&lt;speechBlogLink&gt;ވާހަކަ ދެނެގަތުމުގައި ފަށާ&lt;/speechBlogLink&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-get-started" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:data-get-started" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;speechBlogLink&gt;Get Started with Speech Recognition&lt;/speechBlogLink&gt;</seg>
 			</tuv>
@@ -4789,14 +4789,6 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ބަހާލެވުން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-cta" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Start recording</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ރެކޯޑްކުރަން ފައްޓާ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Start recording</seg>
@@ -4805,7 +4797,15 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ރެކޯޑްކުރަން ފައްޓާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:stats" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Start recording</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ރެކޯޑްކުރަން ފައްޓާ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/dashboard.ftl:stats" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Stats</seg>
 			</tuv>
@@ -4813,7 +4813,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ތަފާސްހިސާބު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/dashboard.ftl:stats" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:stats" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Stats</seg>
 			</tuv>
@@ -4837,7 +4837,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ޖެހިޖެހިގެން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:submit-form-action" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -4845,7 +4845,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ހުށަހަޅާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:submit-form-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -4909,14 +4909,6 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ކާމިޔާބު، ވަނަވަރު ހެދިއްޖެ!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:sv-se" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Swedish</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ސުވިޑިޝް</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/common.ftl:sv-se" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Swedish</seg>
@@ -4925,12 +4917,12 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ސުވިޑިޝް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:tg" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:sv-se" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Tajik</seg>
+				<seg>Swedish</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>ތަޖިކް</seg>
+				<seg>ސުވިޑިޝް</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/common.ftl:tg" srclang="en-US">
@@ -4941,12 +4933,12 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ތަޖިކް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:ta" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:tg" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Tamil</seg>
+				<seg>Tajik</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>ތަމަޅަ</seg>
+				<seg>ތަޖިކް</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:ta" srclang="en-US">
@@ -4957,12 +4949,12 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ތަމަޅަ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:ta" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Tap</seg>
+				<seg>Tamil</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>އޮބާލާ</seg>
+				<seg>ތަމަޅަ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
@@ -4973,7 +4965,15 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އޮބާލާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:tt" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tap</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>އޮބާލާ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:tt" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tatar</seg>
 			</tuv>
@@ -4981,7 +4981,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ތަޑާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:tt" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:tt" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tatar</seg>
 			</tuv>
@@ -5037,7 +5037,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ޓެލުގޫ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:terms" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:terms" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Terms</seg>
 			</tuv>
@@ -5045,7 +5045,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ޝަރުތުތައް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:terms" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:terms" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Terms</seg>
 			</tuv>
@@ -5069,7 +5069,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ތައި</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:thanks-for-account" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:thanks-for-account" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thanks for confirming your account, now let's build your profile.</seg>
 			</tuv>
@@ -5077,7 +5077,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>އެކައުންޓް ޔަގީންކޮށްދިނީތީ ޝުކުރިއްޔާ. ދެން ހިނގާ ވަނަވަރު ފުރިހަމަކުރަން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:thanks-for-account" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:thanks-for-account" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thanks for confirming your account, now let's build your profile.</seg>
 			</tuv>
@@ -5101,7 +5101,7 @@ contributors to improve the quality. It’s that simple!</seg>
 				<seg>ރެކޯޑް ކުރިކަމަށްޓަކައި ޝޫކުރިއްޔާ!&lt;lineBreak&gt;&lt;/lineBreak&gt;ދެން ތިރީގައި ތި އަޑުކޮޅުތައް ބަލާފަ ހުށަހަޅާ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for your interest in contributing to { $lang }. We work hard to get every language ready for launch and keep
 the teams updated via email. If you want to contribute, please provide your email below.</seg>
@@ -5110,7 +5110,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ދިވެހި ބަހަށް ހުށަހެޅުމުގައި ޝައުޤުވެރިކަން ބެހެއްޓީތީވެ ޝުކުރު ދަންނަވަން. އަހަރެމެން ވަރަށް ބުރަކޮށް މަސައްކަތް ކުރަނީ ހުރިހާ ބަހެއް ފައްޓަން ތައްޔާރުވެ، މަސައްކަތު ޖަމާޢަތްތައް އީމެލް މެދުވެރިކޮށް އަދާހަމަކޮށް ބެހެއްޓުމަށް. ބައިވެރިވާން ބޭނުންނަމަ، ތިރީގައި އީމެއިލް ދެއްވާ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for your interest in contributing to { $lang }. We work hard to get every language ready for launch and keep
 the teams updated via email. If you want to contribute, please provide your email below.</seg>
@@ -5151,7 +5151,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ރެކޯޑިންގ މާ ދިގު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The recording was too quiet.</seg>
 			</tuv>
@@ -5159,7 +5159,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ރިކޯރޑިންގެ އަޑު މާމަޑު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The recording was too quiet.</seg>
 			</tuv>
@@ -5183,7 +5183,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ރެކޯޑިންގ މާ ކުރު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/avatar.ftl:file_too_large" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/profile/avatar.ftl:file_too_large" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The selected file is too large</seg>
 			</tuv>
@@ -5191,7 +5191,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ތި ފައިލް މާ ބޮޑު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/profile/avatar.ftl:file_too_large" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/avatar.ftl:file_too_large" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The selected file is too large</seg>
 			</tuv>
@@ -5215,7 +5215,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ޓެޑްލިއަމް ކޯރޕަށް އަކީ، ޓެޑް ވެބްސައިޓުގައި ލިބެން ހުންވަ ވާހަކަތަކާއި އޭގެ ލިޔުންތަކުން ހެދިފައިވާ އެއްޗެކެވެ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-three-more-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-three-more-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Three to go!</seg>
 			</tuv>
@@ -5223,7 +5223,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ބާކީ ތިނެއް!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-three-more-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-three-more-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Three to go!</seg>
 			</tuv>
@@ -5327,7 +5327,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ޖުމްލަ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/dashboard.ftl:total-approved" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:total-approved" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Total Approved</seg>
 			</tuv>
@@ -5335,7 +5335,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ޖުމްލަ ފާސްކުރި</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:total-approved" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/dashboard.ftl:total-approved" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Total Approved</seg>
 			</tuv>
@@ -5359,7 +5359,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ދެން އިން ލަނޑުދަނޑިއާއި  ދިމާލަށް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:tr" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:tr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Turkish</seg>
 			</tuv>
@@ -5367,7 +5367,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ތުރިކީ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:tr" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:tr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Turkish</seg>
 			</tuv>
@@ -5407,7 +5407,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>އުދްމުތު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:uk" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:uk" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Ukrainian</seg>
 			</tuv>
@@ -5415,7 +5415,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ޔުކްރޭނިއަން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:uk" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:uk" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Ukrainian</seg>
 			</tuv>
@@ -5439,7 +5439,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>އަޕްލޯޑުކުރުން ހުއްޓާލައިފިން. ރިކޯރޑިން ނައްތާލަން ބޭނުންތަ؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/profile/avatar.ftl:browse-file-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/avatar.ftl:browse-file-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload an image file</seg>
 			</tuv>
@@ -5447,7 +5447,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ފޮޓޯ ހުށައަޅާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/avatar.ftl:browse-file-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/profile/avatar.ftl:browse-file-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload an image file</seg>
 			</tuv>
@@ -5471,7 +5471,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>އުރުދޫ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:profile-form-username" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:profile-form-username" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>User Name</seg>
 			</tuv>
@@ -5479,7 +5479,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ޔޫސަރނަން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:profile-form-username" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:profile-form-username" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>User Name</seg>
 			</tuv>
@@ -5551,7 +5551,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ޖުމްލަ ފާސްކުރެވުނު ގަޑީރުތައް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:listen-paragraph" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:listen-paragraph" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Validating donated clips is equally important to the Common Voice mission. Take a listen and help us create quality open source voice data.</seg>
 			</tuv>
@@ -5559,7 +5559,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ހުށައެޅިފައިވާ އަޑުކޮޅުގެ ފެންވަރު ބެލުމަކީ ކޮމަންވޮއިސްއަށް ވަރަށް މުހިންމުކަމެކެވެ. ފެންވަރު ހިފެހެއްޓުމުގެ ގޮތުން، ރަނގަޅުތޯ ބަލާލަން އަޑުއަހާލާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:listen-paragraph" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:listen-paragraph" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Validating donated clips is equally important to the Common Voice mission. Take a listen and help us create quality open source voice data.</seg>
 			</tuv>
@@ -5599,14 +5599,6 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ވީއެޓްނަމީޒް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:view-goals" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>View your progress against personal and project goals.</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>އަމިއްލަ އަދި މަޝްރޫޢީ ލަނޑުދަނޑިތަކުގައި ތިބާގެ މަސައްކަތް ކުރިއަށްދާވަރު ބެލޭނެ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:view-goals" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>View your progress against personal and project goals.</seg>
@@ -5615,12 +5607,12 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>އަމިއްލަ އަދި މަޝްރޫޢީ ލަނޑުދަނޑިތަކުގައި ތިބާގެ މަސައްކަތް ކުރިއަށްދާވަރު ބެލޭނެ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:visible" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:view-goals" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Visible</seg>
+				<seg>View your progress against personal and project goals.</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>ފެނޭ</seg>
+				<seg>އަމިއްލަ އަދި މަޝްރޫޢީ ލަނޑުދަނޑިތަކުގައި ތިބާގެ މަސައްކަތް ކުރިއަށްދާވަރު ބެލޭނެ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:visible" srclang="en-US">
@@ -5631,14 +5623,12 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>ފެނޭ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:wall-of-text-first" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:visible" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Voice is natural, voice is human. That’s why we’re excited about creating usable voice technology
-for our machines. But to create voice systems, developers need an extremely large amount of voice
-data.</seg>
+				<seg>Visible</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>އަޑަކީ ޠަބީޢީ، އިންސާނީ އެއްޗެއް. އެހެންވެ އަހަރުމެންގެ މެޝިނުތަކަށް ބޭނުން ކުރެވޭނެ އަޑުތަކެއް އުފެއްދުމަކީ އަހަރެމެން ޝައުޤުވެރިވާކަމެއް. އެހެނަސް، އަޑުގެ ނިޒާމުތައް އުފެއްދުމަށް،ޑިވެލޮޕަރުންނަށް ވަރަށް ބޮޑު އަދަދެއްގެ އަޑު ޑޭޓާ ބޭނުންވޭ.</seg>
+				<seg>ފެނޭ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/home.ftl:wall-of-text-first" srclang="en-US">
@@ -5651,7 +5641,17 @@ data.</seg>
 				<seg>އަޑަކީ ޠަބީޢީ، އިންސާނީ އެއްޗެއް. އެހެންވެ އަހަރުމެންގެ މެޝިނުތަކަށް ބޭނުން ކުރެވޭނެ އަޑުތަކެއް އުފެއްދުމަކީ އަހަރެމެން ޝައުޤުވެރިވާކަމެއް. އެހެނަސް، އަޑުގެ ނިޒާމުތައް އުފެއްދުމަށް،ޑިވެލޮޕަރުންނަށް ވަރަށް ބޮޑު އަދަދެއްގެ އަޑު ޑޭޓާ ބޭނުންވޭ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:wall-of-text-start" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:wall-of-text-first" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Voice is natural, voice is human. That’s why we’re excited about creating usable voice technology
+for our machines. But to create voice systems, developers need an extremely large amount of voice
+data.</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>އަޑަކީ ޠަބީޢީ، އިންސާނީ އެއްޗެއް. އެހެންވެ އަހަރުމެންގެ މެޝިނުތަކަށް ބޭނުން ކުރެވޭނެ އަޑުތަކެއް އުފެއްދުމަކީ އަހަރެމެން ޝައުޤުވެރިވާކަމެއް. އެހެނަސް، އަޑުގެ ނިޒާމުތައް އުފެއްދުމަށް،ޑިވެލޮޕަރުންނަށް ވަރަށް ބޮޑު އަދަދެއްގެ އަޑު ޑޭޓާ ބޭނުންވޭ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:wall-of-text-start" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Voice is natural, voice is human. That’s why we’re fascinated with creating usable voice
 technology for our machines. But to create voice systems, an extremely large amount of voice
@@ -5661,7 +5661,7 @@ data is required.</seg>
 				<seg>އަޑަކީ ޠަބީޢީ، އިންސާނީ އެއްޗެއް. އެހެންވެ އަހަރުމެންގެ މެޝިނުތަކަށް ބޭނުން ކުރެވޭނެ އަޑުތަކެއް އުފެއްދުމަކީ އަހަރެމެން ޝައުޤުވެރިވާކަމެއް. އެހެނަސް، އަޑުގެ ނިޒާމުތައް އުފެއްދުމަށް، ވަރަށް ބޮޑު އަދަދެއްގެ އަޑު ޑޭޓާ ބޭނުންވެއެވެ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:wall-of-text-start" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:wall-of-text-start" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Voice is natural, voice is human. That’s why we’re fascinated with creating usable voice
 technology for our machines. But to create voice systems, an extremely large amount of voice
@@ -5687,14 +5687,6 @@ data is required.</seg>
 				<seg>މި ވަގުތު އޮންލައިން އަޑުތައް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:vot" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Votic</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ވޮޓިކު</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/common.ftl:vot" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Votic</seg>
@@ -5703,7 +5695,15 @@ data is required.</seg>
 				<seg>ވޮޓިކު</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-other-voxforge-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:vot" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Votic</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ވޮޓިކު</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:data-other-voxforge-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>VoxForge was set up to collect transcribed speech for use with Free and Open Source Speech Recognition Engines.</seg>
 			</tuv>
@@ -5711,7 +5711,7 @@ data is required.</seg>
 				<seg>ވޮކްސްފޯރޖް ހެދިފައިވަނީ ލިޔެވިފައިވާ ވާހަކަތައް އެއްކޮށް، ހިލޭ އަދި ސޯރސްހުޅުވިފައިވާ އަޑު ދެނެގަންނަ އެންޖިނުތައް ބޭނުން ކުރުމަށެވެ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:data-other-voxforge-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-other-voxforge-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>VoxForge was set up to collect transcribed speech for use with Free and Open Source Speech Recognition Engines.</seg>
 			</tuv>
@@ -5751,14 +5751,6 @@ data is required.</seg>
 				<seg>އަހަރަމެން މިދަނީ އާންމުކޮށް ހުޅުވާލާފައިވާ އަދި އެންމެނަށް ބޭނުންކުރެވޭނެ އަޑުން މުއާމަލާތުކުރެވޭ އެޕްލިކޭޝަންތައް ތަމްރީނު ކުރުމަށް ބޭނުންވާ އަޑުގެ ޑޭޓާ ސެޓްތަކެއް ހަދަމުން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-stayintouch" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>އަހަރެމެން މޮޒިއްލާގައި މި ބިނާކުރަނީ އަޑުގެ ޓެކުނޮލޮޖީގެ މާހައުލެއް. އެންމެ ފަހުގެ މައުލޫމާތާ،  އަލައް ހޯދާފައިވާ މައުލޫމާތުގެ ޚަޒާނާތަކާއި އަދި މި މައުލޫމާތުތައް ތިޔަ ފަރާތުން ބޭނުންކުރާގޮތް އަހަރެމެން  ދެނެގަންނަން ބޭނުންވެއެވެ.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:stayintouch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
@@ -5767,7 +5759,7 @@ data is required.</seg>
 				<seg>އަހަރެމެން މޮޒިލާގައި، އަޑު ޓެކްނޮލޮޖީއާ ބެހޭގޮތުން މުޖުތަމަޢެއް އެބަ އުފައްދަމަެވެ. އަދާހަމަކުރުންތަކާއި، އާ ޑޭޓާ މަސްދަރުތަކުގެ ޚަބަރު ތިބާއަށް އެނގި، އަދި ތިބާ މި ޑޭޓާ ބޭނުންކުރަނީ ކިހިނެއްތޯ އަހާލަން އަހަރެމެން އެދެމެވެ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-stayintouch" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-stayintouch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
 			</tuv>
@@ -5781,6 +5773,14 @@ data is required.</seg>
 			</tuv>
 			<tuv xml:lang="dv">
 				<seg>އަހަރެމެން މޮޒިލާގައި، އަޑު ޓެކްނޮލޮޖީއާ ބެހޭގޮތުން މުޖުތަމަޢެއް އެބަ އުފައްދަމަެވެ. އަދާހަމަކުރުންތަކާއި، އާ ޑޭޓާ މަސްދަރުތަކުގެ ޚަބަރު ތިބާއަށް އެނގި، އަދި ތިބާ މި ޑޭޓާ ބޭނުންކުރަނީ ކިހިނެއްތޯ އަހާލަން އަހަރެމެން އެދެމެވެ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-stayintouch" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>އަހަރެމެން މޮޒިއްލާގައި މި ބިނާކުރަނީ އަޑުގެ ޓެކުނޮލޮޖީގެ މާހައުލެއް. އެންމެ ފަހުގެ މައުލޫމާތާ،  އަލައް ހޯދާފައިވާ މައުލޫމާތުގެ ޚަޒާނާތަކާއި އަދި މި މައުލޫމާތުތައް ތިޔަ ފަރާތުން ބޭނުންކުރާގޮތް އަހަރެމެން  ދެނެގަންނަން ބޭނުންވެއެވެ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:data-explanatory-text" srclang="en-US">
@@ -5799,7 +5799,7 @@ data is required.</seg>
 				<seg>އަހުރުމެން ގަބޫލުކުރަނީ، އާންމުނަށް ހުޅުވާލެވޭ މުއްސަނދި ޑޭޓާސެޓްތަކުގެ ސަބަބުން، މެޝިނުން ދަސްކުރުމާއި ވާހާކަދެއްކުމުގެ ޓެކްނޮލޮޖީގެ އުފެއްދުންތެރިކަމާއި ވިޔަފާރީގެ ބިނާކުރަނިވި ވާދެވެރިކަން ކުރިއަރާނެކަމަށް. މިއީ ބައިނަލްއަގުވާމީ މަސައްކަތެއް. އަދި މި ކަމުގައި ބައިވެރިވުމަށް ހުރިހައި އެންމެންނަށް ދަޢުވަތު އަރުވަން. އުންމީދަކީ ދުނިއޭގެ އެކި ކަންކޮޅުތަކުގެ ތަފާތު ގިނަ އަޑުތައް ހިމެނިގެން މި ދާއިރާއަށް ކުރިއެރުން ލިބުން.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:cy" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:cy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Welsh</seg>
 			</tuv>
@@ -5807,7 +5807,7 @@ data is required.</seg>
 				<seg>ވެލްޝް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:cy" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:cy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Welsh</seg>
 			</tuv>
@@ -5821,6 +5821,14 @@ data is required.</seg>
 			</tuv>
 			<tuv xml:lang="dv">
 				<seg>ތިޔަފަރާތުގެ މަޢުލޫމާތު ރައްކާތެރިކަމާއެކު ބަލަހައްޓައިދޭނެ ކަމުގެ ޔަގީންކަން އަރުވަމެވެ. އިތުރަށް ކިޔާލުމަށް އަހަރަމެންގެ&lt;/privacyLink&gt; ޕްރައިވެސީ އިޢުލާން &lt;privacyLink&gt; ބަލާށެވެ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:privacy-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ތިޔަފަރާތުގެ މަޢުލޫމާތު ރައްކާތެރިކަމާއެކު ބަލަހައްޓައިދޭނެ ކަމުގެ ޔަގީންކަން އަރުވަމެވެ. އިތުރަށްކިޔާލުމަށް އަހަރަމެންގެ&lt;/privacyLink&gt; ޕްރައިވެސީ އިޢުލާން &lt;privacyLink&gt; ބަލާށެވެ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:privacy-info" srclang="en-US">
@@ -5837,14 +5845,6 @@ data is required.</seg>
 			</tuv>
 			<tuv xml:lang="dv">
 				<seg>ތިޔަފަރާތުގެ މަޢުލޫމާތު ރައްކާތެރިކަމާއެކު ބަލަހައްޓައިދޭނެ ކަމުގެ ޔަގީންކަން އަރުވަމެވެ. އިތުރަށް ކިޔާލުމަށް އަހަރަމެންގެ&lt;/privacyLink&gt; ޕްރައިވެސީ އިޢުލާން &lt;privacyLink&gt; ބަލާށެވެ.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:privacy-info" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ތިޔަފަރާތުގެ މަޢުލޫމާތު ރައްކާތެރިކަމާއެކު ބަލަހައްޓައިދޭނެ ކަމުގެ ޔަގީންކަން އަރުވަމެވެ. އިތުރަށްކިޔާލުމަށް އަހަރަމެންގެ&lt;/privacyLink&gt; ޕްރައިވެސީ އިޢުލާން &lt;privacyLink&gt; ބަލާށެވެ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:datasets-headline" srclang="en-US">
@@ -5911,7 +5911,7 @@ data is required.</seg>
 				<seg>އިތުރު މަޢުލޫމާތު ލިބެމުން ދާ ވަރަކަށް އެ މަޢުލޫމާތުތައް ތިޔަ ފަރާތާއި ހިއްސާ ކުރަމުން ދާނަން.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:email-not-public" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:email-not-public" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We will not make your email public.</seg>
 			</tuv>
@@ -5919,7 +5919,7 @@ data is required.</seg>
 				<seg>ތިފަރާތުގެ އީމެއިލް އާންމުންނާއި ހިއްސާއެއްނުކުރާނަން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:email-not-public" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:email-not-public" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We will not make your email public.</seg>
 			</tuv>
@@ -5959,14 +5959,6 @@ data is required.</seg>
 				<seg>ކޮމަންވޮއިސް ޑޭޓާސެޓުގައި ހުރީ ކޮންއެއްޗެއް؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:whats-public" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>What's Public?</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>އާންމުންނަށް ހުޅުވާލެވޭނީ ކޯންޗެއް؟</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/home.ftl:whats-public" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What's Public?</seg>
@@ -5975,7 +5967,15 @@ data is required.</seg>
 				<seg>އާންމުންނަށް ހުޅުވާލެވޭނީ ކޯންޗެއް؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:why-profile-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:whats-public" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What's Public?</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>އާންމުންނަށް ހުޅުވާލެވޭނީ ކޯންޗެއް؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:why-profile-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Why a profile?</seg>
 			</tuv>
@@ -5983,7 +5983,7 @@ data is required.</seg>
 				<seg>ވަނަވަރު ބޭނުންވަނީ ކީއްވެ؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:why-profile-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/profile/info.ftl:why-profile-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Why a profile?</seg>
 			</tuv>
@@ -6007,14 +6007,6 @@ data is required.</seg>
 				<seg>މިކަން މުހިންމުވަނީ ކީއްވެ؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/delete.ftl:delete-q" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Would you like to request your voice recordings be deleted too, or do you prefer to keep them in the Common Voice dataset?</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>ތިބާގެ އަޑުކޮޅުތައް ފޮހެލަން ބޭނުންތަ، ނޫނީ ރަނގަޅީ ކޮމަންވޮއިސް ޑޭޓާސެޓުގައި ބެހައްޓަންތަ؟</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/profile/delete.ftl:delete-q" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Would you like to request your voice recordings be deleted too, or do you prefer to keep them in the Common Voice dataset?</seg>
@@ -6023,12 +6015,12 @@ data is required.</seg>
 				<seg>ތިބާގެ އަޑުކޮޅުތައް ފޮހެލަން ބޭނުންތަ، ނޫނީ ރަނގަޅީ ކޮމަންވޮއިސް ޑޭޓާސެޓުގައި ބެހައްޓަންތަ؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-vote-yes" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/delete.ftl:delete-q" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>y</seg>
+				<seg>Would you like to request your voice recordings be deleted too, or do you prefer to keep them in the Common Voice dataset?</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>އ</seg>
+				<seg>ތިބާގެ އަޑުކޮޅުތައް ފޮހެލަން ބޭނުންތަ، ނޫނީ ރަނގަޅީ ކޮމަންވޮއިސް ޑޭޓާސެޓުގައި ބެހައްޓަންތަ؟</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-vote-yes" srclang="en-US">
@@ -6039,12 +6031,12 @@ data is required.</seg>
 				<seg>އ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:vote-yes" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-vote-yes" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Yes</seg>
+				<seg>y</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>ރަނގަޅު</seg>
+				<seg>އ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-download-yes" srclang="en-US">
@@ -6063,7 +6055,15 @@ data is required.</seg>
 				<seg>އާން</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/modals/request-language.ftl:yes-receive-emails" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:vote-yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ރަނގަޅު</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/request-language.ftl:yes-receive-emails" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes, send me emails. I’d like to stay informed about the Common Voice Project.</seg>
 			</tuv>
@@ -6071,7 +6071,7 @@ data is required.</seg>
 				<seg>އާދެ، އަހަންނަށް އީމެއިލް ފޮނުވާތި. އާންމު އަޑުގެ މަޝްރޫޢާ ބެހޭ ގޮތުން މަޢުލޫމާތު ލިބެން އަހަރެން ބޭނުން.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/modals/request-language.ftl:yes-receive-emails" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/modals/request-language.ftl:yes-receive-emails" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes, send me emails. I’d like to stay informed about the Common Voice Project.</seg>
 			</tuv>
@@ -6111,7 +6111,7 @@ data is required.</seg>
 				<seg>ތިބާ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:data-download-modal" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-download-modal" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You are about to initiate a download of &lt;size&gt;{ $size }GB&lt;/size&gt;, proceed?</seg>
 			</tuv>
@@ -6119,7 +6119,7 @@ data is required.</seg>
 				<seg>ތިޔައުޅެނީ &lt;size&gt;{ $size } ގިގަބައިޓުގެ&lt;/size&gt; އެއްޗެއް ޑައުންލޯޑުކުރަން. ކުރައަށް ދާންވީތަ؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-download-modal" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/datasets.ftl:data-download-modal" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You are about to initiate a download of &lt;size&gt;{ $size }GB&lt;/size&gt;, proceed?</seg>
 			</tuv>
@@ -6207,7 +6207,7 @@ data is required.</seg>
 				<seg>ޑައުންލޯޑުކުރަން ފަށައިފި</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:your-languages" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/dashboard.ftl:your-languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your Languages</seg>
 			</tuv>
@@ -6215,7 +6215,7 @@ data is required.</seg>
 				<seg>އަހުރެންގެ ބަސްތައް</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/dashboard.ftl:your-languages" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:your-languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your Languages</seg>
 			</tuv>
@@ -6239,14 +6239,6 @@ data is required.</seg>
 				<seg>ތިފަރާތުގެ ނަމާއި އީމެއިލް، އާންމުކޮށް ދޫކޮއްލާ މައުލޫމާތުތެރެއަކު ނުހިމެނޭނެ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-recording" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } recording goal!</seg>
-			</tuv>
-			<tuv xml:lang="dv">
-				<seg>އާންމުއަޑަށް ތި އެހީވެދިނީ &lt;goalPercentage&gt;&lt;/goalPercentage&gt; ކޮންމެ ދުވަހެއްގެ { $goalValue } ރެކޯޑުކުރުމުގެ ލަނޑުދަނޑި ހާސިލު ކުރުމަށެވެ!</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:goal-help-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } recording goal!</seg>
@@ -6255,12 +6247,12 @@ data is required.</seg>
 				<seg>އާންމުއަޑަށް ތި އެހީވެދިނީ &lt;goalPercentage&gt;&lt;/goalPercentage&gt; ކޮންމެ ދުވަހެއްގެ { $goalValue } ރެކޯޑުކުރުމުގެ ލަނޑުދަނޑި ހާސިލު ކުރުމަށެވެ!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-validation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
+				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } recording goal!</seg>
 			</tuv>
 			<tuv xml:lang="dv">
-				<seg>ކޮމަން ވޮއަސްއަށް މިހާސިލްވި&lt;goalPercentage&gt;&lt;goalPercentage&gt; އަކީ ދުވަހުގެ { $goalValue } އަމާޒަށް ވާސިލް ވުމަ….؟</seg>
+				<seg>އާންމުއަޑަށް ތި އެހީވެދިނީ &lt;goalPercentage&gt;&lt;/goalPercentage&gt; ކޮންމެ ދުވަހެއްގެ { $goalValue } ރެކޯޑުކުރުމުގެ ލަނޑުދަނޑި ހާސިލު ކުރުމަށެވެ!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:goal-help-validation" srclang="en-US">
@@ -6271,7 +6263,15 @@ data is required.</seg>
 				<seg>ކޮމަން ވޮއަސްއަށް މިހާސިލްވި&lt;goalPercentage&gt;&lt;goalPercentage&gt; އަކީ ދުވަހުގެ { $goalValue } އަމާޒަށް ވާސިލް ވުމަ….؟</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-success-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-validation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
+			</tuv>
+			<tuv xml:lang="dv">
+				<seg>ކޮމަން ވޮއަސްއަށް މިހާސިލްވި&lt;goalPercentage&gt;&lt;goalPercentage&gt; އަކީ ދުވަހުގެ { $goalValue } އަމާޒަށް ވާސިލް ވުމަ….؟</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-success-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You've successfully signed up for contributing to { $language }. Thank you.</seg>
 			</tuv>
@@ -6279,7 +6279,7 @@ data is required.</seg>
 				<seg>{ $language } ބަސް ކުރިއެރުވުމުގައި ބައިވެރިވުމުގެ ރެޖިސްޓްރޭށަން ފުރިހަމަވެއްޖެ. ޝުކުރިއްޔާ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-success-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-success-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You've successfully signed up for contributing to { $language }. Thank you.</seg>
 			</tuv>

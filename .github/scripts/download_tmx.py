@@ -10,7 +10,7 @@ from urllib.request import urlopen
 def main():
     # Get the list of Pontoon locales
     try:
-        url = "https://pontoon.mozilla.org/graphql?query={locales{code}}"
+        url = "https://pontoon.mozilla.org/graphql?query={locales{code}}&raw"
         print("Reading locales in Pontoon")
         response = urlopen(url)
         json_data = json.load(response)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-01-01T00:31:57.291613">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-02-01T00:30:48.367601">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -51,12 +51,28 @@
 				<seg>{ $actionType } &lt;micIcon&gt;&lt;/micIcon&gt; as freggyr er yn aght s'dooghysee oddys oo</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:audio-page-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } &lt;playIcon&gt;&lt;/playIcon&gt; and write down what you hear the person saying</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; as screeu sheese ny t'ou clashtyn y pheiagh gra</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
 			</tuv>
 			<tuv xml:lang="gv">
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; ren ad gra yn raa dy kiart?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcription-page-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } &lt;playIcon&gt;&lt;/playIcon&gt; Listen to the audio clip, and check the transcription. Does it match? If not, edit it to match perfectly.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; Eaisht rish y veer sheean, as shickyree y vac-screeuan. Vel ad myr y cheilley? Mannagh vel, jean femblal eh dy charraghey ny marranyn.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
@@ -72,7 +88,7 @@
 				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
 			</tuv>
 			<tuv xml:lang="gv">
-				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; tra bee oo jeant</seg>
+				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; tra vees oo jeant</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-submit-tooltip" srclang="en-US">
@@ -99,7 +115,7 @@
 				<seg>Cur stiagh&lt;icon&gt;&lt;/icon&gt; raa theayagh</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:add-information-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:add-information-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add information</seg>
 			</tuv>
@@ -107,7 +123,7 @@
 				<seg>Cur stiagh fys</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:add-information-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:add-information-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add information</seg>
 			</tuv>
@@ -227,12 +243,36 @@
 				<seg>Va boirey ayn lesh cur stiagh dt'ys coraa</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:create-transcript-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while creating this transcript</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Va boirey ayn croo y vac-screeuan shoh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcript-edited-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while editing the transcript</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Va boirey ayn lesh femblal y vac-screeuan</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>An error occurred while recording</seg>
 			</tuv>
 			<tuv xml:lang="gv">
 				<seg>Va boirey ayn recortyssey</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcript-skipped-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while skipping the transcript</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Va boirey ayn goll shaghey y vac-screeuan</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-skipping" srclang="en-US">
@@ -257,6 +297,14 @@
 			</tuv>
 			<tuv xml:lang="gv">
 				<seg>Va boirey ayn laadey seose y freggyrt ayd</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:vote-transcript-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while voting the transcript</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Va boirey ayn prowal dy heiy er y vac-screeuan</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
@@ -483,6 +531,14 @@
 				<seg>Jean shickyr &lt;icon&gt;&lt;/icon&gt; vel çhengey y raa shoh kiart?</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:check-transcriptions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Check Transcriptions</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Jean Mac-screeuanyn Shickyr</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:localization-select" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Choose language/localization</seg>
@@ -531,7 +587,7 @@
 				<seg>Meeryn er nyn laadey seose</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-other-comment" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-other-comment" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Comment</seg>
 			</tuv>
@@ -539,7 +595,7 @@
 				<seg>Notey</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-other-comment" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-other-comment" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Comment</seg>
 			</tuv>
@@ -553,6 +609,14 @@
 			</tuv>
 			<tuv xml:lang="gv">
 				<seg>Ta argid currit da Common Voice trooid toyrtysyn as giootyn! S'taittin lhien gobbragh mârish ard-schoillaryn, sheshaght shivoil as ronseyderyn çhynskyl. Ta ymmyd jeh Common Voice nastee, agh t'eh feer chooneydoil argid y gheddyn trooid toyrtysyn dy chooney lesh cummal seose yn ardan.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:wall-of-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Common Voice is launching a second platform focused on collecting organic, spontaneous, unscripted speech. This will help lots of communities collect data more quickly, as well as being useful for data scientists and developers.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Ta Common Voice lunney ardan noa son çhaglym loayrtys dooghyssagh, neu-aarlit as neu-screeuit. Nee shoh cooney lesh ram pobbleyn çhaglym fysseree ny s'tappee, chammah's ve ymmydoil son sheeanseyryn fysseree as troggeyderyn.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:contact" srclang="en-US">
@@ -579,7 +643,7 @@
 				<seg>Ta'n obbyr shoh ry gheddyn trooid &lt;licenseLink&gt;kied Creative Commons&lt;/licenseLink&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:continue" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:continue" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
 			</tuv>
@@ -587,7 +651,7 @@
 				<seg>Gow er</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:continue" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:continue" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
 			</tuv>
@@ -611,7 +675,7 @@
 				<seg>Gow er lesh shickyraghey</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -619,7 +683,7 @@
 				<seg>Cur stiagh</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -665,6 +729,14 @@
 			</tuv>
 			<tuv xml:lang="gv">
 				<seg>Kernowish</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:correct" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Correct</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Kiart</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:country-of-residence-label" srclang="en-US">
@@ -731,20 +803,20 @@
 				<seg>Doll ny recortyssyn aym magh</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Different language</seg>
-			</tuv>
-			<tuv xml:lang="gv">
-				<seg>Çhengey neuchiart</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Different language</seg>
 			</tuv>
 			<tuv xml:lang="gv">
 				<seg>Çhengey elley</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Different language</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Çhengey neuchiart</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:different_language" srclang="en-US">
@@ -843,6 +915,14 @@
 				<seg>Ollanish</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:edit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Fembal</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:email-input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
@@ -851,7 +931,7 @@
 				<seg>Post-L</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:en" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:en" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -859,7 +939,7 @@
 				<seg>Baarle</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:en" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:en" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>English</seg>
 			</tuv>
@@ -905,6 +985,14 @@
 			</tuv>
 			<tuv xml:lang="gv">
 				<seg>Boirey çhymney raa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:error-playing-audio" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Error while playing audio file.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Boirey cloie yn choadan sheean.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
@@ -1051,7 +1139,7 @@
 				<seg>Dy chur er çhaghnoayleeaght gobbragh son dy chooilley pheiagh, ta feme ec yn fysseree ta ny troggeyderyn jannoo ymmyd jeh soilshaghey reayn anchasley dy leih. Myr sampleyr, mannagh vel shin jannoo ymmyd jeh loayrtagh erbee lesh blass ennagh, cha jean yn çhaghnoayleeaght gobbragh dy mie son sleih lesh y vlass shen. &lt;learnMore&gt;Ynsee tooilley mychione scansh vetadata.&lt;/learnMore&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:fr" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:fr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>French</seg>
 			</tuv>
@@ -1059,7 +1147,7 @@
 				<seg>Frangish</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:fr" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:fr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>French</seg>
 			</tuv>
@@ -1264,7 +1352,7 @@
 				<seg>I agree to Common Voice's &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
 			</tuv>
 			<tuv xml:lang="gv">
-				<seg>Ta mee cordeil rish &lt;termsLink&gt;Termeeyn&lt;/termsLink&gt; as &lt;privacyLink&gt;Fogrey Preevaidjys&lt;/privacyLink&gt; Chommon Voice</seg>
+				<seg>Ta mee cordail rish &lt;termsLink&gt;Conaantyn&lt;/termsLink&gt; as &lt;privacyLink&gt;Fogrey Preevaidjys&lt;/privacyLink&gt; Chommon Voice</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-submit-confirm" srclang="en-US">
@@ -1611,7 +1699,7 @@
 				<seg>Log stiagh ny croo coontys dy ghoaill toshiaght</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:login-signup" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log In / Sign Up</seg>
 			</tuv>
@@ -1619,7 +1707,7 @@
 				<seg>Log Stiagh / Croo Coontys</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:login-signup" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log In / Sign Up</seg>
 			</tuv>
@@ -1865,6 +1953,14 @@
 			</tuv>
 			<tuv xml:lang="gv">
 				<seg>Cha nel raaghyn erbee ayn dy scrutaghey. &lt;addLink&gt;Faag tooilley raaghyn nish!&lt;/addLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:not-found-page-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Not Found</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Cha row veg ry-gheddyn</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:continue-speaking-button" srclang="en-US">
@@ -2291,7 +2387,7 @@
 				<seg>Scrutee</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:review" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -2299,7 +2395,7 @@
 				<seg>Scrutee</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:review" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -2611,7 +2707,7 @@
 				<seg>Cur stiagh un raa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:skip-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -2619,7 +2715,7 @@
 				<seg>Er oaie</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:skip-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -2659,12 +2755,28 @@
 				<seg>Cur stiagh possan beg dy raaghyn</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:error-fetching-audio" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Something went wrong while fetching audio for transcriptions. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Va boirey ayn geddyn sheean son mac-screeuanyn. Prow reesht ny sanmey, my sailt.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-fetching-prompts" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Something went wrong while fetching prompts. Please try again later.</seg>
 			</tuv>
 			<tuv xml:lang="gv">
 				<seg>Va boirey ayn geddyn feyshtyn. Prow reesht ny sanmey, my sailt.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:error-fetching-transcriptions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Something went wrong while fetching transcriptions. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Va boirey ayn geddyn mac-screeuanyn. Prow reesht ny sanmey.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-source" srclang="en-US">
@@ -2715,7 +2827,7 @@
 				<seg>Cur toshiaght er recortey</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:submit-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -2723,7 +2835,7 @@
 				<seg>Cur lesh</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:submit-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -2747,20 +2859,20 @@
 				<seg>Cur stiagh feysht noa son y phobble dy lhaih as freggyrt</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-modal-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit a report</seg>
-			</tuv>
-			<tuv xml:lang="gv">
-				<seg>Cur stiagh tuarastyl</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit a report</seg>
 			</tuv>
 			<tuv xml:lang="gv">
 				<seg>Cur stiagh Tuarastyl</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-modal-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit a report</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Cur stiagh tuarastyl</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-submit" srclang="en-US">
@@ -3027,6 +3139,14 @@
 				<seg>Cha nel raaghyn erbee ayn dy scrutaghey ayns y çhengey shoh ec y traa t'ayn.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:no-transcriptions-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There are currently no transcriptions to check for this language. Please refresh the page or try again later.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Cha nel mac-screeuanyn erbee ayn dy hickyraghey son y çhengey shoh. Jean aa-laadey y ghuillag ny prow reesht ny sanmey.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-long" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The recording was too long.</seg>
@@ -3049,6 +3169,14 @@
 			</tuv>
 			<tuv xml:lang="gv">
 				<seg>Va'n recortys ro yiare.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:no-audio-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There is currently no audio to transcribe for this language. Please refresh the page or try again later.</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Cha nel sheean erbee ayn ayns y sheean shoh dy vac-screeu ec y traa t'ayn. Jean aalaadey yn duillag ny prow reesht ny sanmey.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
@@ -3147,6 +3275,14 @@
 				<seg>Mac-screeu</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:editbox-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcribe</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Mac-screeu</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:transcribe-audio" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Transcribe Audio</seg>
@@ -3169,6 +3305,38 @@
 			</tuv>
 			<tuv xml:lang="gv">
 				<seg>Mac-screeu recortyssyn sheean ayns dty 'hengey</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcript-edited-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcript edited successfully</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Mac-screeuan er ny femblal dy speeideilagh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcript-skipped-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcript skipped successfully</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Er noll shaghey mac-screeuan dy speeideilagh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:create-transcript-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcript submitted successfully</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Mac-screeuan er ny chur stiagh dy speeideilagh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:vote-transcript-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcript voted successfully</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Mac-screeuan er ny teiy dy speeideilagh</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:transgender" srclang="en-US">
@@ -3195,7 +3363,7 @@
 				<seg>Prow laadey seose reesht</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:tr" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:tr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Turkish</seg>
 			</tuv>
@@ -3203,7 +3371,7 @@
 				<seg>Turkish</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:tr" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:tr" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Turkish</seg>
 			</tuv>
@@ -3224,7 +3392,7 @@
 				<seg>Understand contribution criteria</seg>
 			</tuv>
 			<tuv xml:lang="gv">
-				<seg>Toig reillyn chur stiagh</seg>
+				<seg>Toig ny reillyn chur stiagh</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-page-description" srclang="en-US">
@@ -3407,6 +3575,14 @@ Please try again later.</seg>
 Prow reesht ny sanmey my sailt.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:welcome-to-spontaneous-speech" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Welcome to Spontaneous Speech</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Failt ort gys Spontaneous Speech</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:cy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Welsh</seg>
@@ -3519,7 +3695,7 @@ Prow reesht ny sanmey my sailt.</seg>
 				<seg>Tra t'ou geaishtagh, jean jarroo shickyr dy vel ny va recortyssit jeeragh ny va scruit; ceau magh eer my vees marranys minniagagh ayn. &lt;br /&gt;Ta marranyssyn feer chadjin goaill stiagh:</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:why-are-you-asking" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Why are you asking?</seg>
 			</tuv>
@@ -3527,7 +3703,7 @@ Prow reesht ny sanmey my sailt.</seg>
 				<seg>Cre'n fa t'ou briaght?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:why-are-you-asking" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Why are you asking?</seg>
 			</tuv>
@@ -3549,6 +3725,14 @@ Prow reesht ny sanmey my sailt.</seg>
 			</tuv>
 			<tuv xml:lang="gv">
 				<seg>Screeu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:editbox-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Write down what you hear the person saying here</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Screeu sheese ny t'ou clashtyn yn pheiagh gra aynshoh</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-contribute-menu-aria-label" srclang="en-US">
@@ -3631,7 +3815,7 @@ Prow reesht ny sanmey my sailt.</seg>
 				<seg>T'ou er roshtyn cagliagh raaghyn y duillag shoh. Fuirree rish { $retryLimit } grig roish dhyt cur seose raa elley. Gura mie ayd son fuirraghtyn!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:mic-access-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You must allow microphone access.</seg>
 			</tuv>
@@ -3639,7 +3823,7 @@ Prow reesht ny sanmey my sailt.</seg>
 				<seg>Shegin dhyt lhiggey dooin gymmydey dty veealag.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:mic-access-error" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You must allow microphone access.</seg>
 			</tuv>
@@ -3879,23 +4063,7 @@ Prow reesht ny sanmey my sailt.</seg>
 				<seg>Facebook Container</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="gv">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="gv">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shortcut-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -3935,6 +4103,22 @@ Prow reesht ny sanmey my sailt.</seg>
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shortcut-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:trademarkinfo" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox and the Firefox logos are trademarks of the Mozilla Foundation.</seg>
@@ -3967,7 +4151,7 @@ Prow reesht ny sanmey my sailt.</seg>
 				<seg>Firefox Monitor</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutLogging.ftl:profiler-brand-name" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:profiler-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Profiler</seg>
 			</tuv>
@@ -3975,7 +4159,7 @@ Prow reesht ny sanmey my sailt.</seg>
 				<seg>Firefox Profiler</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:profiler-brand-name" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutLogging.ftl:profiler-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Profiler</seg>
 			</tuv>
@@ -4079,14 +4263,6 @@ Prow reesht ny sanmey my sailt.</seg>
 				<seg>Monitor</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla</seg>
-			</tuv>
-			<tuv xml:lang="gv">
-				<seg>Mozilla</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
@@ -4095,7 +4271,15 @@ Prow reesht ny sanmey my sailt.</seg>
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla</seg>
+			</tuv>
+			<tuv xml:lang="gv">
+				<seg>Mozilla</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandfullname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
@@ -4103,7 +4287,7 @@ Prow reesht ny sanmey my sailt.</seg>
 				<seg>Mozilla Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandfullname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>

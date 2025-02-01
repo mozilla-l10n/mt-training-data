@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-01-01T00:36:20.787404">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-02-01T00:36:03.722812">
 	</header>
 	<body>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-rerecord-toggle" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-rerecord-toggle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[1-5]</seg>
 			</tuv>
@@ -11,7 +11,7 @@
 				<seg>[1-5]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-rerecord-toggle" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-rerecord-toggle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[1-5]</seg>
 			</tuv>
@@ -24,7 +24,7 @@
 				<seg>1 sentence collected</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>1წინადადება რე კორობილი</seg>
+				<seg>1ზიტყვასქვილი რე კორობილი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
@@ -51,12 +51,36 @@
 				<seg>გურშენი</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:citing-sentences-subheader-academic-reference" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Academic Reference</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>აკადემიური წყუ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:accepted-files" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Accepted file types: .tsv only</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ფაილიშ მეღებულ სახეობა რე: ხვალე .tsv</seg>
+				<seg>ფაილიშ მეღებულ ნერობა რე: ხვალე .tsv</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:prompt-page-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } &lt;micIcon&gt;&lt;/micIcon&gt; and respond as naturally as you can</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>{ $actionType }&lt;micIcon&gt;&lt;/micIcon&gt; დო ქუგამით მუთ შილებენი ორთაშურო</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:audio-page-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } &lt;playIcon&gt;&lt;/playIcon&gt; and write down what you hear the person saying</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; დო დოჭარით მუსუთ ირჩქილეთჷნი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
@@ -64,7 +88,15 @@
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; წინადადებეფი წორას წეკითხესო?</seg>
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; ზიტყვასქვილეფი წორას წეკითხესო?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcription-page-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } &lt;playIcon&gt;&lt;/playIcon&gt; Listen to the audio clip, and check the transcription. Does it match? If not, edit it to match perfectly.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; ქუმურჩქილეთ ხონარიშ ინნაჭარეფს დო ქიგნაჯინით ნაჭარათ მოჩამილს. უმანგუ ქორედა, გაწორით.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
@@ -72,7 +104,7 @@
 				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; უკულ წეკითხი წინადადება ხონარმაღალო.</seg>
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; უკულ წეკითხი ზიტყვასქვილი ხონარმაღალო</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
@@ -80,7 +112,7 @@
 				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; მუჟამს გათენთჷნი.</seg>
+				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; მუჟამს გათენთჷნი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-submit-tooltip" srclang="en-US">
@@ -88,7 +120,7 @@
 				<seg>{ $actionType } submit when ready</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>{ $actionType } ხაზირ იუაფუნჷ, ქაჯღონით.</seg>
+				<seg>{ $actionType } ხაზირ იუაფუნჷ, ქაჯღონით</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-contribute-menu-tooltip" srclang="en-US">
@@ -96,7 +128,7 @@
 				<seg>Add and Review Sentences, Add Questions, Transcribe Audio</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადებეფიშ გეძინა დო შემოწმება, კითხვეფიშ გეძინა, ხონარიშ ინოჭარუათ მოჩამა.</seg>
+				<seg>ზიტყვასქვილეფიშ გეძინა დო გინოჯინა, ოკითხირეფიშ გეძინა, ინოჭარილ ხონარეფიშ ნაჭარათ მოჩამა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-instruction" srclang="en-US">
@@ -104,7 +136,15 @@
 				<seg>Add &lt;icon&gt;&lt;/icon&gt; a public domain sentence</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქიგუძინით &lt;icon&gt;&lt;/icon&gt; საკუთარ წინადადებეფი.</seg>
+				<seg>ქიგუძინით &lt;icon&gt;&lt;/icon&gt; ზიტყვასქვილეფი ოირქიანე საკუთრებაშე</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:add-information-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add information</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ინფორმაციაშ გეძინა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:add-information-button" srclang="en-US">
@@ -112,7 +152,15 @@
 				<seg>Add information</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მონაცემეფიშ მიკოდვალა.</seg>
+				<seg>ინფორმაციაშ მიკოდვალა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:adding-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Adding Sentences</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ზიტყვასქვილეფიშ გეძინა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentences-menu-item-aria-label" srclang="en-US">
@@ -120,7 +168,7 @@
 				<seg>Add new sentences for the community to read</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქიგუძინით წინადადებეფი საზოგადოებაქ წეკითხასჷნი.</seg>
+				<seg>ქიგუძინით ზიტყვასქვილეფი მაკათურეფქ წეკითხანინი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-2" srclang="en-US">
@@ -128,7 +176,7 @@
 				<seg>Add one sentence per line</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქიგუძინი თითო წინადადება თითო ხაზის.</seg>
+				<seg>ქიგუძინით თითო ზიტყვასქვილი თითო ხაზის</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-questions-menu-item-tooltip" srclang="en-US">
@@ -136,7 +184,7 @@
 				<seg>Add questions in your language</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქიგუძინით კითხვეფი თქვან ნინაშა.</seg>
+				<seg>ქიგუძინით ოკითხირეფი თქვან ნინაშა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentences" srclang="en-US">
@@ -144,7 +192,7 @@
 				<seg>Add Sentences</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადებეფიშ გეძინა.</seg>
+				<seg>ზიტყვასქვილეფიშ გეძინა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentences-menu-item-tooltip" srclang="en-US">
@@ -152,7 +200,7 @@
 				<seg>Add sentences in your language</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქიგუძინით წინადადებეფი თქვან ნინაშა.</seg>
+				<seg>ქიგუძინით ზიტყვასქვილეფი თქვან ნინაშა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-4" srclang="en-US">
@@ -160,15 +208,7 @@
 				<seg>Add up to 1,000 sentences</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქიგუძინით არძაშ უმოსი 1,000 წინადადება.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-add-voice" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add Your Voice</seg>
-			</tuv>
-			<tuv xml:lang="xmf">
-				<seg>ქიგუძინით თქვანი ხონარი.</seg>
+				<seg>ქიგუძინით არძაშ უმოსი 1,000 ზიტყვასქვილი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-add-voice" srclang="en-US">
@@ -179,6 +219,14 @@
 				<seg>ქიგუძინით თქვანი ხონარი.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-add-voice" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add Your Voice</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქიგუძინით თქვანი ხონარი</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:agriculture_food" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Agriculture and Food</seg>
@@ -187,12 +235,20 @@
 				<seg>სოფელიშ მეურნეობა დო ოჭკომალი</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:background-voices-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A little background noise is okay, but if you can hear another person speaking distinct words, the clip should be rejected. Typically this happens where the TV has been left on, or where there is a conversation going on nearby.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ოჭიშიშ უკახალე ჭიჭე ჩიება, მიოღებელ რე, მარა შხვა ადამიანიშ ზიტყვეფ ხოლო კარაკანო ქირჩქილე-და, ვარიას ქიგუნჭირით. თენა ოხუ თიცალ შემთხვევეფს, მუჟამს ტელევიზორი რე ჩართული ვარდა ხოლოს შხვა მითინ იჩიებუნი.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-5" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>All sentence must have the same domain</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>არძა წინადადება ართი დარგიშე ოკო ორდას.</seg>
+				<seg>არძა ზიტყვასქვილი ართი დარგიშე ოკო ორდას</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-6" srclang="en-US">
@@ -200,7 +256,7 @@
 				<seg>All sentences must have the same citation</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>არძა წინადადება ართი წყაროშე ოკო რდას.</seg>
+				<seg>არძა ზიტყვასქვილი ართი წყუშე ოკო რდას</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:already-have-an-account" srclang="en-US">
@@ -216,7 +272,7 @@
 				<seg>An error occurred fetching sentences</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ჩილათა რე წინადადებეფიშ მეღებას.</seg>
+				<seg>ჩილათა რე ზიტყვასქვილეფიშ მეღებას</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-error" srclang="en-US">
@@ -224,7 +280,7 @@
 				<seg>An error occurred reviewing this sentence</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადებეფიშ მოწმებაში დროს ჩილათა რე.</seg>
+				<seg>ჩილათა რე ზიტყვასქვილეფიშ გინოჯინაშ ბორჯის</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast-error" srclang="en-US">
@@ -232,7 +288,31 @@
 				<seg>An error occurred submitting your voice information</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ინფორმაციაშ ჯღონაშ დროს შეცდომაქ იჸუ.</seg>
+				<seg>ინფორმაციაშ ჯღონაშ დროს ჩილათაქ იჸუ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while recording</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ჩილათაქ იჸუ ინოჭარუაშ დროს</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-skipping" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while skipping this prompt</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მოთხუალაშ გიშატებაშ დროს ჩილათაქ იჸუ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while submitting the report</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მოხსენებაშ ჯღონაშ დროს იჸუ ჩილათაქ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
@@ -248,7 +328,15 @@
 				<seg>A quiet background hubbub is OK, but we don’t want additional voices that may cause a machine algorithm to identify words that are not in the written text. If you can hear distinct words apart from those of the text, the clip should be rejected. Typically this happens where the TV has been left on, or where there is a conversation going on nearby.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>კათაშ ბუძოლიაშ ხონარი შორშე, მიოღებელ რე, მარა შხვა ხონარეფი გეძინელი, ვარ. მუშენდა მანქანურ ალგორითმიქ ვეჩინას თიცალ ზიტყვეფი, ნამუთ ნაჭარას ვარენი. ტექსტის ვარენ ფერი ზიტყვეფი ქირჩქილე ხონარიშ ინნაჭარასდა, ვარიას ქიგუნჭირით. უმენტაშო, თენა ოხუ თიცალ შემთხვევეფს, მუჟამს ტელევიზორი რე ჩართული ვარდა ხოლოს შხვა მითინ იჩიებუ.</seg>
+				<seg>კათაშ ბუძოლიაშ ხონარი შორშე, მიოღებელ რე, მარა შხვა ხონარეფი გეძინელი, ვარ. მუშენდა მანქანურ ალგორითმიქ ვეჩინას თიცალ ზიტყვეფი, ნამუთ ნაჭარას ვარენი. ტექსტის ვარენ ფერი ზიტყვეფი ქირჩქილე ხონარიშ ინნაჭარას-და, ვარიას ქიგუნჭირით. უმენტაშო, თენა ოხუ თიცალ შემთხვევეფს, მუჟამს ტელევიზორი რე ჩართული ვარდა ხოლოს შხვა მითინ იჩიებუნი.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:background-voices-tip-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Are you coming? [called by another]</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მოურქო? [უძახუ მაჟირა]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-example-1-explanation" srclang="en-US">
@@ -256,7 +344,7 @@
 				<seg>Are you coming? &lt;strong&gt;[called by another]&lt;/strong&gt;</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მოურქო? &lt;strong&gt; [უძახუ მაჟირა] &lt;/strong&gt;</seg>
+				<seg>მოურქო? &lt;strong&gt;[უძახუ მაჟირა]&lt;/strong&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-2" srclang="en-US">
@@ -264,7 +352,15 @@
 				<seg>Ask us questions on &lt;matrixLink&gt;Matrix&lt;/matrixLink&gt;, &lt;discourseLink&gt;Discourse&lt;/discourseLink&gt; or &lt;emailLink&gt;email&lt;/emailLink&gt;.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>კითხვეფიშ დასმებელო ქიგმირინეთ &lt;matrixLink&gt; Matrix &lt;discourseLink&gt; &lt;/matrixLink&gt; Discourse &lt;/discourseLink&gt; ვარდა &lt;emailLink&gt; ელფოსტა &lt;/emailLink&gt;.</seg>
+				<seg>ქუმოპჭარით ოკითხურეფი &lt;matrixLink&gt; Matrix &lt;discourseLink&gt; &lt;/matrixLink&gt; Discourse &lt;/discourseLink&gt; ვარდა &lt;emailLink&gt; ელფოსტა &lt;/emailLink&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:confirmation-modal-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Attention!</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ყურადგება!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:automotive_transport" srclang="en-US">
@@ -272,7 +368,23 @@
 				<seg>Automotive and Transport</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მანქანეფი დო ტრანსპორტი.</seg>
+				<seg>მანქანეფი დო ტრანსპორტი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:mbf" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Baba Malay</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ბაბა-მალაური</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:background-noise" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Noise</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ოჭიშიშ უკახლე ხონარობა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-title" srclang="en-US">
@@ -283,6 +395,14 @@
 				<seg>ოჭიშიშ უკახლე ხონარობა</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:background-voices" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Voices</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ოჭიშიშ უკახალენი ხონარობა</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Background Voices</seg>
@@ -291,12 +411,20 @@
 				<seg>ოჭიშიშ უკახალენი ხონარობა</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:ms-my" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bahasa Malay</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ბაჰასა-მალაური</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Be cautious before rejecting a clip on the ground that the reader has mispronounced a word, has put the stress in the wrong place, or has apparently ignored a question mark. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a margin of appreciation for those who may speak differently from you.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>თხილას ორდათ ინნაჭარაშ ვარებაშ დროს, მუჟამს საქვარ ოხუ ზიტყვაშ უწორო თქუალას, მახვილიშ შხვა არდგილს გეშკვაფას ვარდა კითხვაშ ლიშანიშ გილაჸუბეჩუას. მუშენდა ართ ნინას ბრელ შხვადოშხვანერი თქუალა შილებე რდასჷნი, ნამუშ უმენტაშობა მორჩქილაფილ ვაგაფუდანინი. ქორთხინთ, გეთვალისწინათ თინეფ ხოლო, მიდგა შხვანერო იჩიებუნი.</seg>
+				<seg>თხილას ორდათ ინნაჭარაშ ვარებაშახ, მუჟამს საქვარ ოხუ ზიტყვაშ უწორო თქუალას, მახვილიშ შხვა არდგილს გეშკვაფას ვარდა ოკითხეშ ლიშანიშ გილაჸუბეჩუას. მუშენდა ართ ნინას ბრელ შხვადოშხვანერი თქუალა რე, ნამუშ უმენტაშობა შილებე მორჩქილაფირი ვაგაფუდანინი. ქორთხინთ, გეთვალისწინათ თინეფ ხოლო, მით შხვადოშხვანერო იჩიებუნანი.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-1-explanation" srclang="en-US">
@@ -304,7 +432,7 @@
 				<seg>[‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>[წინადადებაშ ბოლო ხმოვანქ კანკალე დიალექტის შილებე დეგინძორასჷნი].</seg>
+				<seg>[ზიტყვასქვილიშ ბოლო ხმოვანქ კანკალე დიალექტის შილებე დეგინძორასჷნი]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:clips-with-count-pluralized" srclang="en-US">
@@ -323,14 +451,6 @@
 				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; ინაჭარა</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
-			</tuv>
-			<tuv xml:lang="xmf">
-				<seg>&lt;bold&gt; ქიდმეხვარით &lt;/bold&gt; ხონარეფიში გორუას.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
@@ -339,12 +459,28 @@
 				<seg>&lt;bold&gt; ქიდმეხვარით &lt;/bold&gt; ხონარეფიში გორუას.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>&lt;bold&gt; ქიდმეხვარით &lt;/bold&gt; ხონარეფიში გორუას</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:varying-pronunciations-tip-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[British English might make "root"]</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>[სენაკურ-მარტვილურს რე უ "გინოძუდუ" ]</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-sentence" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bulk batch</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>დემი</seg>
+				<seg>ბრელი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-success-toast" srclang="en-US">
@@ -352,7 +488,15 @@
 				<seg>Bulk Sentences Uploaded</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადებეფქ არძო ართო გეიტვირთ.</seg>
+				<seg>ზიტყვასქვილეფს არძოქ ართო ქიგიაძინ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:age-gender-form-subtile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By telling us about yourself, you will help developers build more inclusive technology</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>თქვან ჩიებაში თავისებურებეფიშ გურშენი ქემეჩიებუთ-და, ქიდეხვარებუთ დეველოპერეფს ინკლუზიური ტექნოლოგია აკოქიმინანინი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-subtitle-text" srclang="en-US">
@@ -368,7 +512,23 @@
 				<seg>By using Common Voice, you agree to our &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>Common Voice-იშ გუმორინაფათ, ოთანხმუთ ჩქინ  &lt;termsLink&gt; პირობენს &lt;/termsLink&gt; დო &lt;privacyLink&gt; პირადი მონაცემეფიშ ოჩუალარ განაცხადის &lt;/privacyLink&gt;</seg>
+				<seg>Common Voice-იშ გუმორინაფათ, ოთანხმუთ ჩქინ  &lt;termsLink&gt; პირობენს &lt;/termsLink&gt; დო &lt;privacyLink&gt; პირადი მუნაჩემეფიშ შენახებაშ განაცხადის&lt;/privacyLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:varying-pronunciations-tip-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Canadian English might make "route" sound like "rowt"]</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>[ზუგიდურს დო სამურზაყანულს ჷ (ნეიტრალურ) ხმოვან გიმირინუაფუ "გინოძუდჷ"]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:cancel-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გაუქვება</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cancel" srclang="en-US">
@@ -384,7 +544,7 @@
 				<seg>Cancel Submission</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ჯღონაშ გაუქვება.</seg>
+				<seg>ჯღონაშ გაუქვება</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:exceeds-small-batch-limit-error" srclang="en-US">
@@ -392,7 +552,23 @@
 				<seg>Cannot submit more than 1000 sentences</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ვემიხერხინე 1000-შე უმოსი წინადადებაშ ჯღონა.</seg>
+				<seg>ვემიხერხინე 1000-შე უმოსი ზიტყვასქვილიშ ჯღონა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:mel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Central Melanau</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ცენტრალური მელანაუ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:change" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Change</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>დოთირუა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:change-preferences" srclang="en-US">
@@ -400,7 +576,7 @@
 				<seg>Change preferences</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>პარამეტრეფიშ თირუა.</seg>
+				<seg>პარამეტრეფიშ თირუა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:change-preferences" srclang="en-US">
@@ -411,12 +587,36 @@
 				<seg>პარამეტრეფიშ თირუა.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:check" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Check</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გინოჯინა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:check-editbox-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Check</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გინოჯინა</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Check &lt;icon&gt;&lt;/icon&gt; is this a linguistically correct sentence?</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შეამოწმით &lt;icon&gt;&lt;/icon&gt; წინადადებეფი წორი ქორე თუ ვარ?</seg>
+				<seg>ქიგნაჯინით &lt;icon&gt;&lt;/icon&gt; ზიტყვასქვილეფი წორი ქორე თუ ვარ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:check-transcriptions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Check Transcriptions</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ნაჭარაშ გინოჯინა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-less" srclang="en-US">
@@ -424,7 +624,7 @@
 				<seg>&lt;chevron&gt;&lt;/chevron&gt;See less</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>&lt;chevron&gt;&lt;/chevron&gt; ქოძირი ჭიჭე.</seg>
+				<seg>&lt;chevron&gt;&lt;/chevron&gt; ქოძირი ჭიჭე</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-more" srclang="en-US">
@@ -432,7 +632,15 @@
 				<seg>&lt;chevron&gt;&lt;/chevron&gt;See more</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>&lt;chevron&gt;&lt;/chevron&gt;ქოძირი უმოსი.</seg>
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;ქოძირი უმოსი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:citation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Citation</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>წყუ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:citation" srclang="en-US">
@@ -440,7 +648,7 @@
 				<seg>Citation</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წყარო</seg>
+				<seg>წყუ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite-explanation-bold" srclang="en-US">
@@ -448,7 +656,23 @@
 				<seg>Cite with a URL link or the full name of the work.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წყაროთ გუმოდირთუ საკუთრებაშ უფლებაშე თავისუფალ მასალაშ ბმული ვარდა ნაჭარაშ სახელწოდება რსულათ.</seg>
+				<seg>წყუთ გუმოდირთუ საკუთრებაშ ნებაშე დუდშული მასალაშ ბმული ვარდა ნაჭარაშ სახელწოდება რსულათ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:citing-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Citing Sentences</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>წყუშ მეწურაფა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:action-click" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქიგუკაკეთ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:action-click" srclang="en-US">
@@ -464,7 +688,31 @@
 				<seg>Click</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გეკაკაფა</seg>
+				<seg>ქიგუკაკე</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-check-transcript-guidance" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click &lt;guidanceLink&gt;here&lt;/guidanceLink&gt; to learn how to use this page</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქიგუკაკეთ&lt;guidanceLink&gt; ათაქ &lt;guidanceLink&gt; ქიგეგათ, მუჭო ოკო გიმირინუათ თე ხასჷლანი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-prompts-guidance" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click &lt;guidanceLink&gt;here&lt;/guidanceLink&gt; to learn how to use this page</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქიგუკაკეთ&lt;guidanceLink&gt; ათაქ &lt;guidanceLink&gt; ქიგეგათ, მუჭო ოკო გიმირინუათ თე ხასჷლანი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-transcribe-guidance" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click &lt;guidanceLink&gt;here&lt;/guidanceLink&gt; to learn how to use this page</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქიგუკაკეთ&lt;guidanceLink&gt; ათაქ &lt;guidanceLink&gt; ქიგეგათ, მუჭო ოკო გიმირინუათ თე ხასჷლანი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:clips-uploaded" srclang="en-US">
@@ -472,7 +720,7 @@
 				<seg>Clips Uploaded</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ინოჭარილეფ ატვირთულ რე.</seg>
+				<seg>ინოჭარილეფ გეძინელ რე</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-other-comment" srclang="en-US">
@@ -480,7 +728,31 @@
 				<seg>Comment</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>კომენტარი.</seg>
+				<seg>კომენტარი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-other-comment" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Comment</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>კომენტარი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:contact-common-voice" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contact the Common Voice team</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქიდეკავშირით Common Voice_იშ ბუნას.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:contact-us" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contact us</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქიდმეკავშირით</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:contact-us" srclang="en-US">
@@ -504,7 +776,31 @@
 				<seg>Continue</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გაგძელება.</seg>
+				<seg>გაგძელება</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გაგძელით</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:continue-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გაგძელება</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:continue-speaking-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue speaking</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გაგძელით ჩიება</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-cancel" srclang="en-US">
@@ -512,7 +808,15 @@
 				<seg>Continue validating</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შემოწმებაში გაგძელება.</seg>
+				<seg>გინოჯინაშ გაგძელება</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>წილიშ მიშაღალა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribute" srclang="en-US">
@@ -523,7 +827,7 @@
 				<seg>წილიშ მიშაღალა</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -536,7 +840,7 @@
 				<seg>Contribute sentences</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შემენწით წინადადებეფით</seg>
+				<seg>შემენწით ზიტყვასქვილეფით</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:speak-empty-state-cta" srclang="en-US">
@@ -547,6 +851,14 @@
 				<seg>შემენწიით წინადადებეფით</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:contribution-picker-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contributing to dataset for { $language }</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>წილიშ მიშაღალა მუნაჩემეფიშ ბაზაშა { $language } - შოთ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-page-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribution Criteria</seg>
@@ -555,12 +867,52 @@
 				<seg>წილიშ მიშაღალაშ კრიტერიუმეფი</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:guidelines-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribution Guidelines</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მაკათურეფიშ შარაშმაწურაფალი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:footer-text-cookies" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;cookiesLink&gt;Cookies&lt;cookiesLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>&lt;cookiesLink&gt;ფაილეფი&lt;cookiesLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:correct" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Correct</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>წორი რე</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:country-of-residence-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Country/Region of Residence</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ოცხოვრებელი ქიანა/რეგიონი</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:create-profile-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Create a profile</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>პროფილიშ კეთება.</seg>
+				<seg>პროფილიშ ქიმინუა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-nav" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Criteria</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>კრიტერიუმეფი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-criteria-nav" srclang="en-US">
@@ -571,20 +923,20 @@
 				<seg>სითინუეში ოზიმალი.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-nav" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Criteria</seg>
-			</tuv>
-			<tuv xml:lang="xmf">
-				<seg>კრიტერიუმეფი.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:datasets" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Datasets</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მონაცემეფიშ ნაკათა.</seg>
+				<seg>მუნაჩემეფიშ ნაკათა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:delete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ლასუა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
@@ -592,10 +944,18 @@
 				<seg>Delete my recordings</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ჩქიმი ინნაჭარეფიშ ლასუა.</seg>
+				<seg>ჩქიმი ინნაჭარეფიშ ლასუა</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-different-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Different language</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>შხვანერი ნინა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:different_language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Different language</seg>
 			</tuv>
@@ -608,10 +968,10 @@
 				<seg>Different language</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შხვანერი ნინა.</seg>
+				<seg>შხვანერი ნინა</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-different-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Different language</seg>
 			</tuv>
@@ -619,15 +979,15 @@
 				<seg>შხვანერი ნინა</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-difficult-pronounce" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-difficult-pronounce" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Difficult to pronounce</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ძნელი ორაგადე რე.</seg>
+				<seg>ძნელი ორაგადე რე</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-difficult-pronounce" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-difficult-pronounce" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Difficult to pronounce</seg>
 			</tuv>
@@ -640,7 +1000,7 @@
 				<seg>Discard ongoing recording</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მალ ინოჭარუაშ გაურქვება.</seg>
+				<seg>მალ ინოჭარუაშ გაურქვება</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-rules-title" srclang="en-US">
@@ -656,15 +1016,15 @@
 				<seg>Donate your voice</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შემენწით თქვან ხონარით.</seg>
+				<seg>შემენწით თქვან ხონარით</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:done" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Don't see your language on Common Voice yet?</seg>
+				<seg>Done</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ვაძირითო თქვანი ნინა Common Voice-ის?</seg>
+				<seg>ხაზირჷ რე</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:request-language-text" srclang="en-US">
@@ -675,12 +1035,28 @@
 				<seg>ვაძირითო თქვანი ნინა Common Voice-ის?</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Don't see your language on Common Voice yet?</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ვაძირითო თქვანი ნინა Common Voice-ის?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:do_not_wish_to_say" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Don't wish to say</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>სქესიშ უთქუალუო</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Drag your file here or &lt;uploadButton&gt;click to upload&lt;/uploadButton&gt;</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გეგნიღით თქვან ფაილი ვარდა &lt;uploadButton&gt; ქიგუკაკეთ ეიოტვირთალო &lt;/uploadButton&gt;</seg>
+				<seg>გეგნიღით თქვან ფაილი ვარდა &lt;uploadButton&gt; ქიგუკაკეთ გიოძინალო &lt;/uploadButton&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-instruction-drop" srclang="en-US">
@@ -688,7 +1064,47 @@
 				<seg>Drop file here to upload</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გეგნიღით ეიოტვირთალო</seg>
+				<seg>გეგნიღი ფაილი თაქ გიოძინალო</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:pez" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Eastern Penan</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ელახონურ პენანი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:contact-us-email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email: &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ელფოსტა:&lt;emailFragment&gt; commonvoice@mozilla.com &lt;/emailFragment&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:en" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>English</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ინგლისური</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:country-of-residence-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter your Country/Region of Residence</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გემშიჸონით თქვანი ოცხორებელი ქიანა/რეგიონი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:signup-input-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter your email</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გემშიჸონით თქვან ელფოსტა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-input-placeholder" srclang="en-US">
@@ -696,7 +1112,7 @@
 				<seg>Enter your public domain sentence here</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გემშიღით თაქ თქვანი საყოველთაო საკუთრებაშე წინადადება.</seg>
+				<seg>გემშიღით თაქ თქვანი ოირქიანე საკუთრებაშე ზიტყვასქვილი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentence-input-placeholder" srclang="en-US">
@@ -704,7 +1120,15 @@
 				<seg>Enter your public domain sentences here</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გემშიღით თაქ თქვანი საყოველთაო საკუთრებაშე წინადადებეფი.</seg>
+				<seg>გემშიღით თაქ თქვანი ოირქიანე საკუთრებაშე ზიტყვასქვილი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Error</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ჩილათა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentence-error" srclang="en-US">
@@ -712,15 +1136,7 @@
 				<seg>Error adding sentence</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ჩილათა რე წინადადებეფიშ გეძინაშ დროს.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>ESC</seg>
-			</tuv>
-			<tuv xml:lang="xmf">
-				<seg>ESC</seg>
+				<seg>ჩილათა რე ზიტყვასქვილეფიშ გეძინაშ დროს</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
@@ -731,12 +1147,36 @@
 				<seg>ESC</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>ESC</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ESC</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:example" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Example</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მაგალითი</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-delete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Exit &amp; Delete clips</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გუშულა &amp; ინოჭარილეფიშ ლასუა.</seg>
+				<seg>გუშულა &amp; ინოჭარილეფიშ ლასუა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:female_feminine" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Female/Feminine</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ოსური</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-2" srclang="en-US">
@@ -744,7 +1184,7 @@
 				<seg>Fewer than 15 words per sentence</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>[15 ვარა ნაკლები ზიტყვამი წინადადება]</seg>
+				<seg>[15 ვარა ნაკლები ზიტყვამი ზიტყვასქვილი]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:file-too-large" srclang="en-US">
@@ -752,7 +1192,7 @@
 				<seg>File is too large</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ფაილი გვალო დიდ რე.</seg>
+				<seg>ფაილი გვალო დიდ რე</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:file-too-small" srclang="en-US">
@@ -760,7 +1200,7 @@
 				<seg>File is too small</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ფაილი გვალო ჭიჭე რე.</seg>
+				<seg>ფაილი გვალო ჭიჭე რე</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:finance" srclang="en-US">
@@ -768,7 +1208,7 @@
 				<seg>Finance</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ფინანსეფი.</seg>
+				<seg>ფინანსეფი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-continue" srclang="en-US">
@@ -776,7 +1216,7 @@
 				<seg>Finish recording</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ინოჭარუა გათეთ.</seg>
+				<seg>ინოჭარუა გათეთ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-title" srclang="en-US">
@@ -792,7 +1232,7 @@
 				<seg>Finish Review</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შემოწმებაში გათება.</seg>
+				<seg>გინოჯინაშ თება</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-confirm" srclang="en-US">
@@ -800,7 +1240,7 @@
 				<seg>Finish validating</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შემოწმებაში მეჭყვიდუა.</seg>
+				<seg>გინოჯინაშ თება</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-title" srclang="en-US">
@@ -808,7 +1248,7 @@
 				<seg>Finish validating clips?</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მეჭყორდასო ინოჭარილეფიშ შემოწმებაქ?</seg>
+				<seg>მეჭყორდასო ინოჭარილეფიშ გინოჯინაქ?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-1" srclang="en-US">
@@ -816,7 +1256,7 @@
 				<seg>Follow guidelines from “What sentences can I add?”</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქიმიაჸუნი მითითებეფს "წინადადება მუჭომი ოკო რდას?"</seg>
+				<seg>ქიმიაჸუნით შარაშმაწურაფალს "ზიტყვასქვილი მუჭომი ოკო რდას?"</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-for-example" srclang="en-US">
@@ -832,7 +1272,23 @@
 				<seg>For technology to work well for everyone, the data that helps developers to build technology needs to reflect a diverse range of people. For example, if we don't include any speakers with a particular accent, then the technology won't work well for people with that accent. &lt;learnMore&gt;Learn more about why metadata matters.&lt;/learnMore&gt;</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ხონარიშ ეშმაჩინებელქ არძაშო ჯგირო ქიმუშუასჷნი, მონაცემეფი, ნამუთ ოხვარ მაქიმინალეფს ტექნოლოგიურ საშუალებეფიშ ოქიმინუს, ოხუდას ოკო კათაშ შხვადოშხვანერობას. მაგალთო, ცალკეიან კილოშა მორაგადე კათაშ ინნაჭარეფი ვამაღვენუნადა, თე კილოშა მორაგადე კათაშო ვემუშენს. &lt;learnMore&gt; ქოძირით უმოსი, მუჭომი მნიშვნელოვან რე თაქ გეძინელ მონაცემეფინი.</seg>
+				<seg>ხონარიშ ეშმაჩინებელქ არძაშო ჯგირო ქიმუშუასჷნი, მონაჩემეფი, ნამუთ ოხვარ მაქიმინალეფს ტექნოლოგიურ საშუალებეფიშ ოქიმინუს, ოხუდას ოკო კათაშ შხვადოშხვანერობას. მაგალთო, ცალკეიან კილოშა მორაგადე კათაშ ინნაჭარეფი ვამაღვენუნადა, თე კილოშა მორაგადე კათაშო ვემუშენს. &lt;learnMore&gt; ქოძირით უმოსი, თაქ გეძინელი მონაჩემეფი მუჭომი შანულამი რე.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:fr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>French</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ფრანგული</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:cdo" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Fuzhou</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ფუჯოუ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:general" srclang="en-US">
@@ -840,7 +1296,7 @@
 				<seg>General</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ზოგადი.</seg>
+				<seg>ზოგადი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-multiple-variants" srclang="en-US">
@@ -872,7 +1328,7 @@
 				<seg>Grammatical / spelling error</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გრამატიკული / თინჭარუაშ ჩილათა.</seg>
+				<seg>გრამატიკული / თინჭარუაშ ჩილითა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction" srclang="en-US">
@@ -880,7 +1336,7 @@
 				<seg>Great!&lt;recordIcon&gt;&lt;/recordIcon&gt; Record your next clip</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>დიდებულ რე! &lt;recordIcon&gt;&lt;/recordIcon&gt; უკულიანი თქვან კლიპი ქინაჭარით.</seg>
+				<seg>დიდებულ რე! &lt;recordIcon&gt;&lt;/recordIcon&gt; ქინაჭარით თქვანი უკულიანი კლიპი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-again-instruction" srclang="en-US">
@@ -888,10 +1344,18 @@
 				<seg>Great work!&lt;playIcon&gt;&lt;/playIcon&gt; Listen again when you're ready</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გვალო ჯგირი ნასაქვარა რე! &lt;playIcon&gt;&lt;/playIcon&gt; მუჟამს ხაზირ იჸითჷნი, ხოლო ქუმურჩქილეთ.</seg>
+				<seg>გვალო ჯგირი ნასაქვარა რე! &lt;playIcon&gt;&lt;/playIcon&gt; მუჟამს ხაზირ იჸითჷნი, ხოლო ქუმურჩქილეთ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:guidelines" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Guidelines</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>შარაშმაწურაფალი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:guidelines" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Guidelines</seg>
 			</tuv>
@@ -904,7 +1368,7 @@
 				<seg>Healthcare</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ჯანდაცვა.</seg>
+				<seg>ჯანდაცვა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-first-banner" srclang="en-US">
@@ -920,7 +1384,15 @@
 				<seg>Help us validate voices</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქიდმეხვარით ინოჭარილეფიში გინომოწმებას</seg>
+				<seg>ქიდმეხვარით ხონარიშ ინნაჭარეფიშ გინოჯინას</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:cpx" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Heng Hua</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ჰენგ-ჰუა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-title" srclang="en-US">
@@ -936,7 +1408,7 @@
 				<seg>History, Law and Government</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ისტორია, სამართალ დო მმართველობა.</seg>
+				<seg>ისტორია, სამართალ დო მმართველობა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite" srclang="en-US">
@@ -944,7 +1416,15 @@
 				<seg>How do I cite?</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წყარო მუჭო მეუთითანი?</seg>
+				<seg>მუჭო მეუწურუათ წყუ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:how-spontaneous-speech-works" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How Spontaneous Speech works</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მუჭო მუშენს სპონტანურ ჩიება</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-review-small-batch-title" srclang="en-US">
@@ -952,7 +1432,7 @@
 				<seg>How to add multiple sentences</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მუჭო გევუძინა ართ-ჟირ წინადადება</seg>
+				<seg>მუჭო გევუძინა ართ-ჟირ ზიტყვასქვილი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-help-text" srclang="en-US">
@@ -968,7 +1448,15 @@
 				<seg>I agree</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ვოთანხმუქ.</seg>
+				<seg>ვოთანხმუქ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:accept-privacy-and-terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I agree to Common Voice's &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ვოთანხმუქ Common Voice-იშ &lt;termsLink&gt; პირობეფს &lt;/termsLink&gt; დო &lt;privacyLink&gt; პირადი მუნაჩემეფიშ თხილუაშ განაცხადის &lt;/privacyLink&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-submit-confirm" srclang="en-US">
@@ -976,7 +1464,7 @@
 				<seg>I confirm that these sentence are &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; and I have permission to upload them.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ვადასტურენქ, ნამდა თე წინადადება &lt;wikipediaLink&gt; საყოველთაო საკუთრებას &lt;/wikipediaLink&gt; დო მიღუ თიში ეტვირთუაშ ნება.</seg>
+				<seg>ვადასურენქ, ნამდა თე ზიტყვასქვილი &lt;wikipediaLink&gt; ოირქიანე საკუთრებას &lt;/wikipediaLink&gt; დო მიღუ თიში გეძინაშ ნება.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-write-submit-confirm" srclang="en-US">
@@ -984,7 +1472,7 @@
 				<seg>I confirm that this sentence is &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; and I have permission to upload it.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ვადასტურენქ, ნამდა თე წინადადება &lt;wikipediaLink&gt; საყოველთაო საკუთრება რე &lt;/wikipediaLink&gt; დო მიღუ თიში ეტვირთუაშ ნება.</seg>
+				<seg>ვადასურენქ, ნამდა თე ზიტყვასქვილი &lt;wikipediaLink&gt; ოირქიანე საკუთრება რე &lt;/wikipediaLink&gt; დო მიღუ თიში გეძინაშ ნება.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-instruction" srclang="en-US">
@@ -992,7 +1480,7 @@
 				<seg>&lt;icon&gt;&lt;/icon&gt; Add multiple public domain sentences</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქიგუძინით ართ-ჟირ &lt;/icon&gt;&lt;icon&gt; წინადადება საყოველთაო საკუთრებაშე.</seg>
+				<seg>ქიგუძინით ართ-ჟირ &lt;/icon&gt;&lt;icon&gt; ზიტყვასქვილი ოირქიანე საკუთრებაშე</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-8" srclang="en-US">
@@ -1000,7 +1488,7 @@
 				<seg>Ideally natural and conversational (it should be easy to read the sentence)</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>იდეალურო ბუნებრივი დო ოჩიებე ნინათ (ანდვილას გეშეკითხანინი)</seg>
+				<seg>იდეალურო ორთაშური დო ოჩიებე ნინა (ზიტყვასქვილეფი ანდვილას გეშეკითხანინი)</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:terms-disagree" srclang="en-US">
@@ -1008,7 +1496,7 @@
 				<seg>I do not agree</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ვავოთანხმუქ.</seg>
+				<seg>ვავოთანხმუქ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite-explanation" srclang="en-US">
@@ -1016,15 +1504,7 @@
 				<seg>If it’s your own words, just say &lt;italicizedText&gt;“Self Citation”&lt;/italicizedText&gt;. We need to know where you found this content so that we can check it is in the public domain and no copyright restrictions apply. For more information about citation see our &lt;guidelinesLink&gt;Guidelines page&lt;/guidelinesLink&gt;.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>თქვა შეადგინითდა, დუბაღ მეჭარუა &lt;italicizedText&gt; "საკუთარ ნამუშერი" &lt;/italicizedText&gt;. წყაროშ გეძინა თიშენ რე აუცილებელი, მასალაშ გორუა შემლებუდანინი. შევამოწმათ, ნანდულო საყოველთაო საკუთრებას რე თუ ვარ დო საავტორო ნებათ ხომ ვეკრძალებუ თეშ გუმორინაფა. წყაროშ მითითებაშ გურშენი უმოსი ქიგეგი ჩქინი &lt;guidelinesLink&gt; შარაშმაწურაფალიშ ხასლაშე &lt;/guidelinesLink&gt;</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
-			</tuv>
-			<tuv xml:lang="xmf">
-				<seg>მუჟამს ინნაჭარა მეჭყორდუ ვარდა რშიალი ირჩქილე, ტექსტიშ სრულას მორჩქილა ვეშილებედა, ვარიას ქიგუნჭირით.</seg>
+				<seg>თქვან საკუთარ ზიტყვა ქორე-და, დუბაღ მეჭარუა &lt;italicizedText&gt; "ჩქიმი ნამუშერი" &lt;/italicizedText&gt;. წყუშ გეძინა თიშენ რე აუცილებელი, მასალაშ გორუა შემლებუდანინი. ქიგნუოჯინათ, ნანდულო ოირქიანე საკუთრებას რე თუ ვარ დო საავტორო ნებათ ხომ ვეკრძალებუ თეშ გუმორინაფა. წყუშ მეწურაფაშ გურშენი უმოსი ქიგეგი ჩქინი &lt;guidelinesLink&gt; შარაშმაწურაფალიშ ხასლაშე &lt;/guidelinesLink&gt;.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description-extended" srclang="en-US">
@@ -1032,7 +1512,15 @@
 				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მუჟამს ინნაჭარა მეჭყორდუ ვარდა რშიალი ირჩქილე, ტექსტიშ სრულას მორჩქილა ვეშილებედა, ვარიას ქიგუნჭირი.</seg>
+				<seg>მუჟამს ინნაჭარა მეჭყორდუ ვარდა რშიალი ირჩქილენი, ტექსტიშ სრულას მორჩქილა ვეშილებედა, ვარიას ქიგუნჭირით.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მუჟამს ინნაჭარა მეჭყორდუ ვარდა რშიალი ირჩქილენი, ტექსტიშ სრულას მორჩქილა ვეშილებედა, ვარიას ქიგუნჭირით.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-additional-information" srclang="en-US">
@@ -1040,7 +1528,7 @@
 				<seg>If there is additional information you want to provide about this file, please contact &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქუგოკონა მუთუნ ინფორმაციაშ გეძინა თე ფაილიშ გურშენდა, რთხინთ, ქუმობჭარით. commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+				<seg>ქუგოკონა მუთუნ ინფორმაციაშ გეძინა თე ფაილიშ გურშენდა, ქორთხინთ, ქუმობჭარით commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:template-file-additional-information" srclang="en-US">
@@ -1048,7 +1536,7 @@
 				<seg>If there is additional information you want to provide about this file that is not included in the template, please contact &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქუგოკონა მუთუნ ინფორმაციაშ გეძინა თე ფაილიშ გურშენდა, რთხინთ, ქუმობჭარით commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+				<seg>ქუგოკონა მუთუნ ინფორმაციაშ გეძინა თე ფაილიშ გურშენდა, ქორთხინთ, ქუმობჭარით commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-5-2" srclang="en-US">
@@ -1064,7 +1552,7 @@
 				<seg>If the sentence meets the criteria, click the &amp;quot;Approve&amp;quot; button on the right.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადება ქაყმაყოფილენს პირობენსდა, ქიგუკაკეთ "მეღება", თუდო დო მარძგვანჷშე.</seg>
+				<seg>ზიტყვასქვილი ქაყმაყოფილენს პირობენსდა, ქიგუკაკეთ "მეღება", თუდო დო მარძგვანჷშე.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-description" srclang="en-US">
@@ -1072,7 +1560,15 @@
 				<seg>If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>თაქ მითითებეფს ვარე განხილულინ ფერ საკითხიქ ქეშერხვადესდა, ქორთხინთ, თქვა შეაფასათ სვინდისიერონი. გაიჭირდეს გინოჭყვადუაშ მიღებაქდა, გაგშეტეთ დო შხვა ინნაჭარაშა გინილით.</seg>
+				<seg>თაქ მითითებეფს ვარე განხილულინ ფერ საკითხიქ ქეშერხვადეს-და, ქორთხინთ, თქვა შეაფასათ სვინდისიერონი. გაიჭირდეს გინოჭყვადუაშ მიღებაქ-და, გაგშეტეთ დო შხვა ინნაჭარაშა გინილით.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:just-unsure-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>თაქ მითითებეფს ვარე განხილულინ ფერ საკითხიქ ქეშერხვადეს-და, ქორთხინთ, თქვა შეაფასათ სვინდისიერონი. გაიჭირდეს გინოჭყვადუაშ მიღებაქ-და, გაგშეტეთ დო შხვა ინნაჭარაშა გინილით.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-6" srclang="en-US">
@@ -1080,7 +1576,7 @@
 				<seg>If you run out of sentences to review, please help us collect more sentences!</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ომოწმებელ წინადადებეფქ დელიუდა, გორთხინთ, ქიდმეხვარათ ახალიშ გორუას დო კორობუასჷნი.</seg>
+				<seg>გინაჯინალ ზიტყვასქვილეფქ დელიუ-და, ქორთხინთ, ქიდმეხვარათ ახალიშ გორუას დო კორობუასჷნი!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-7" srclang="en-US">
@@ -1088,7 +1584,23 @@
 				<seg>Include appropriate citation</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქიმუთითით მანგი ციტატა.</seg>
+				<seg>ქიმუწურეთ მანგი წყუ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:interface-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Interface language:</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ინტერფეისიშ ნინა:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:intersex" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Intersex</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ჟირსქესიანი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:file-invalid-type" srclang="en-US">
@@ -1096,15 +1608,7 @@
 				<seg>Invalid file</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>უწორო ფაილი.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-difficult-pronounce-detail" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>It contains words or phrases that are hard to read or pronounce.</seg>
-			</tuv>
-			<tuv xml:lang="xmf">
-				<seg>კითხირი დო თქუალა ჭირსჷნფერი ზიტყვეფი დო ფრაზეფი რე თაქ</seg>
+				<seg>უწორო ფაილი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-difficult-pronounce-detail" srclang="en-US">
@@ -1115,20 +1619,28 @@
 				<seg>კითხირი დო თქუალა ჭირსჷნფერი ზიტყვეფი დო ფრაზეფი რე თაქ.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-difficult-pronounce-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It contains words or phrases that are hard to read or pronounce.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>კითხირი დო თქუალა ჭირსჷნფერი ზიტყვეფი დო ფრაზეფი რე თაქ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:public-domain-explanation-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It is very important that all text sentences are &lt;publicDomain&gt;public domain&lt;/publicDomain&gt; (&lt;cc0&gt;cc0&lt;/cc0&gt;) as the Common Voice dataset is released under a cc0 license. Only ever upload a sentence if you are sure, and always include the relevant citation.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მნიშვნელოვან რე არძა ზიტყვასქვილი რდას &lt;publicDomain&gt; ოირქიანე საკუთრება &lt;/publicDomain&gt; (&lt;cc0&gt;cc0&lt;/cc0&gt; მუშენდა Common Voice-იშ მუნაჩემეფიშ ბაზა გჷშაშკუმალირი რე CC0 ლიცენზიათ. დადასურებულო ქოიჩქჷნა, ნამდა თე ზიტყვასქვილიშ გუმორინაფაშ ნება გიღუნანი, ხვალე თი შემთხვევას ქიგუძინით ზიტყვასქვილეფი დო ირიათო ქიმუწურეთ წყუ.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>It is written in a language different than what I’m reviewing.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ჭარილი რე ჩქიმი ოჩიებე ნინაშე გინორთელ ნინათ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>It is written in a language different than what I’m speaking.</seg>
-			</tuv>
-			<tuv xml:lang="xmf">
-				<seg>ჩქიმი ოჩიებე ნინაშე შხვანერი ნინათ რე ჭარილი.</seg>
+				<seg>ჩქიმ ოჩიებე ნინაშე განსხვავებულ ნინათ რე ჭარილი.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
@@ -1139,7 +1651,31 @@
 				<seg>ჭარილი რე ჩქიმი ოჩიებე ნინაშე შხვანერი ნინათ.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It is written in a language different than what I’m speaking.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ჩქიმი ოჩიებე ნინაშე შხვანერი ნინათ რე ჭარილი.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-prompts-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Just respond to the prompt as naturally as you can in a couple of sentences. Make sure your language is respectful and inoffensive.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქუგამით მოთხუალას მუთ შილებენ ორთაშურო, აკაჟირი ზიტყვასქვილით. ეცადით, თქვანი ნარაგადი რდას თავაზიანი დო უწყინარინი.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Just Unsure?</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>იშენით ეჭვი გოპარუნანო?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:just-unsure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Just Unsure?</seg>
 			</tuv>
@@ -1160,7 +1696,7 @@
 				<seg>Keep the recordings</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ინნაჭარეფი შინახით.</seg>
+				<seg>ინნაჭარეფი ქეშინახით</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:keep-track-profile" srclang="en-US">
@@ -1176,10 +1712,26 @@
 				<seg>Keep track of your progress with a profile</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>თე პროფილით თოლი ქუუნეთ თქვანი წიმი ულას</seg>
+				<seg>თე პროფილით თოლი ქუჸუნეთ თქვანი წიმი ულას</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/modals/request-language.ftl:request-language-form-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:kzi" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Kelabit</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>კელაბიტი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:xkl" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Kenyah</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>კენიური</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/request-language.ftl:request-language-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -1187,7 +1739,7 @@
 				<seg>მოტტ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/modals/request-language.ftl:request-language-form-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/modals/request-language.ftl:request-language-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -1203,7 +1755,7 @@
 				<seg>ნინაშ ჯინჯეფი (მაგალთო, ციფრეფი, ასოეფი, ფარა)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:languages" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Languages</seg>
 			</tuv>
@@ -1211,7 +1763,7 @@
 				<seg>ნინეფი</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:languages" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Languages</seg>
 			</tuv>
@@ -1224,7 +1776,23 @@
 				<seg>Large bulk sentence submission</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადებეფიშ ართო მიშაღალა.</seg>
+				<seg>ზიტყვასქვილეფიშ ართო მიშაღალა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-check-transcript" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn how to check a transcription</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქოძირით, მუჭო ოკო გინაჯინათ ნაჭარასჷნი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-prompts" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn how to use this page</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქოძირით, მუჭო ოკო გიმირინუათ თე ხასჷლანი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
@@ -1248,7 +1816,23 @@
 				<seg>Leaving now means you'll lose your progress</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ასე გიშელათჷნი, მეღებულ შედეგი მედინუ.</seg>
+				<seg>ასე გიშელათჷნი, მეღებულ შედეგი მედინუ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:adding-sentences-subheader-length" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Length</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>სიგინძა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:audioplayer-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>რჩქილა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen" srclang="en-US">
@@ -1264,7 +1848,15 @@
 				<seg>Listen options menu</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>რჩქილაშ პარამეტრეფიშ მენიუ.</seg>
+				<seg>რჩქილაშ პარამეტრეფიშ მენიუ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:loading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Loading…</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გინმიჭარუ…</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-loading" srclang="en-US">
@@ -1272,7 +1864,15 @@
 				<seg>Loading sentences…</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადებეფ ეიტვირთუ.</seg>
+				<seg>ზიტყვასქვილეფი ქითმიაძინუ...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:login" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log In</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მიშულა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:login-instruction-multiple-sentences" srclang="en-US">
@@ -1280,7 +1880,15 @@
 				<seg>&lt;loginLink&gt;Login&lt;/loginLink&gt; or &lt;loginLink&gt;sign up&lt;/loginLink&gt; to add multiple sentences</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>&lt;loginLink&gt; მიშელით &lt;/loginLink&gt; ვარდა &lt;loginLink&gt;  გაკეთით &lt;/loginLink&gt; ანგარიშ ართ-ჟირ წინადადებაშ გიოძინალო</seg>
+				<seg>&lt;loginLink&gt; მიშელით &lt;/loginLink&gt; ვარდა &lt;loginLink&gt;  გაკეთით &lt;/loginLink&gt; ანგარიშ ართ-ჟირ ზიტყვასქვილიშ გიოძინალო</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-to-get-started" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log in or sign up to get started</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მიშელით ვარდა აკოქიმინით ანგარიში დაჭყაფალო</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:login-to-get-started" srclang="en-US">
@@ -1291,12 +1899,12 @@
 				<seg>მიშელით ვარდა გაკეთით ანგარიში დაჭყაფალო.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-to-get-started" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:login-signup" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Log in or sign up to get started</seg>
+				<seg>Log In / Sign Up</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მიშელით ვარდა გაკეთით ანგარიში დაჭყაფალო.</seg>
+				<seg>მიშულა / აკოქიმინუა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
@@ -1304,7 +1912,7 @@
 				<seg>Log In / Sign Up</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მიშულა / ქიმინუა</seg>
+				<seg>მიშულა / აკოქიმინუა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
@@ -1315,12 +1923,52 @@
 				<seg>მიშულა / გორჩქინა</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:logout" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log Out</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გუშულა</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-make-sure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Make sure the sentence meets the following criteria:</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>დერწმუნით, ნამდა წინადადებეფი აყმაყოფილენს მოჩამილ კრიტერიუმეფს:</seg>
+				<seg>დერწმუნით, ნამდა ზიტყვასქვილეფი აყმაყოფილენს მოჩამილ კრიტერიუმეფს:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:male_masculine" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Male/Masculine</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>კოჩი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:data-bubble-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;mark&gt;Data&lt;/mark&gt;</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>&lt;mark&gt;მუნაჩემეფი&lt;/mark&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:prompt-bubble-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;mark&gt;Prompt&lt;/mark&gt;</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>&lt;mark&gt;მოთხუალა&lt;/mark&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:respond-bubble-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;mark&gt;Respond&lt;/mark&gt;</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>&lt;mark&gt;გამა&lt;/mark&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:maximum-file-size" srclang="en-US">
@@ -1328,7 +1976,7 @@
 				<seg>Maximum file size: 25 MB</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ფაილიშ ნტირულობა არძაშ უმოსი: 25 მბაიტი.</seg>
+				<seg>ფაილიშ ნტირულობა არძაშ უმოსი: 25 მბაიტი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:media_entertainment" srclang="en-US">
@@ -1336,15 +1984,7 @@
 				<seg>Media and Entertainment</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მედია დო ართუაფა.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/modals/contact.ftl:contact-form-message" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Message</seg>
-			</tuv>
-			<tuv xml:lang="xmf">
-				<seg>ჟაგნ</seg>
+				<seg>მედია დო ართუაფა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/modals/contact.ftl:contact-form-message" srclang="en-US">
@@ -1355,12 +1995,28 @@
 				<seg>ჟაგნ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/contact.ftl:contact-form-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Message</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ჟაგნ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:mmc" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Michoacán Mazahua</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მიჩოაკან-მაზაჰუა</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:minimum-sentences" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Minimum sentences in file: 1000</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადება არძაშ უჭიჭაში ოკო რდას:1000</seg>
+				<seg>ზიტყვასქვილი არძაშ უჭიჭაში ოკო რდას:1000</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-8-explanation" srclang="en-US">
@@ -1368,10 +2024,26 @@
 				<seg>[Mismatched content]</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ვამთხვიუ შინაარსის.</seg>
+				<seg>[ვამთხვიუ შინაარსის]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:misreadings-tip-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Mismatched content]</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>[ვამთხვიუ შინაარსის]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Misreadings</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>უწორო კითხირი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:misreadings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Misreadings</seg>
 			</tuv>
@@ -1395,6 +2067,14 @@
 				<seg>ორკუ &lt;strong&gt; "მი"-&lt;/strong&gt; &lt;/strong&gt; "გი" &lt;/strong&gt; ვარდა შხვა წინსართი წოლოხე</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:misreadings-explanation-6" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Missing the end of the last word by cutting off the recording too quickly.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ორკუ ბოლო ზიტყვა ვარა ბგერა, ინოჭარუაში ადრე მეჭყვადუაში გურშენი.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Missing the end of the last word by cutting off the recording too quickly.</seg>
@@ -1411,12 +2091,28 @@
 				<seg>[ზედმეტ ზიტყვა რე ინოჭარილი]</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:coming-soon" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>More languages coming soon</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>შხვა ნინეფი მალას ქიგიაძინუ!</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
 				<seg>ინნაჭარეფიშ უმენტაშობას რე კათაში ბუნებრივ ხონარით ჩიება. თქვა შეილებუნა მიღათ არასტანდარტულ ინნაჭარეფი ხოლო, მაგალთო, ღვარაფი, ფუცქინუა, მსახიობურო ნარაგადი, მარა ნაბირას, კომპიუტერით სინთეზირებულ ხონარეფს ვარია ქუწით.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:reader-effects-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ინნაჭარეფიშ უმენტაშობას რე კათაში ბუნებრივ ხონარით ჩიება. თქვა შეილებუნა მიღათ არასტანდარტულ ინნაჭარეფი ხოლო, მაგალთო, ღვარაფი, ფუცქინუა, მსახიობურო ნარაგადი, მარა ნაბირას, კომპიუტერით სინთეზირებულ ხონარეფს, ვარია ქუწით.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-vote-no" srclang="en-US">
@@ -1456,7 +2152,7 @@
 				<seg>Nature and Environment</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ბუნება დო აკანი.</seg>
+				<seg>ორთა დო აკანი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:news_current_affairs" srclang="en-US">
@@ -1464,7 +2160,7 @@
 				<seg>News and Current Affairs</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>სიახალე დო მიმდინარე მოვლენეფი.</seg>
+				<seg>სიახალე დო მიმდინარე მოვლენეფი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
@@ -1496,7 +2192,7 @@
 				<seg>&lt;noCopyright&gt;No copyright&lt;/noCopyright&gt; restrictions (&lt;cc0&gt;cc-0&lt;/cc0&gt;)</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>&lt;noCopyright&gt; საავტორო უფლება &lt;/noCopyright&gt; ვაუღუნ ფერი &lt;cc0&gt;cc&lt;/cc0&gt;</seg>
+				<seg>&lt;noCopyright&gt; საავტორო ნება &lt;/noCopyright&gt; ვაუღუნ ფერი &lt;cc0&gt;cc&lt;/cc0&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-6" srclang="en-US">
@@ -1504,7 +2200,7 @@
 				<seg>No foreign letters</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ვარდას ურცხო ასოეფი.</seg>
+				<seg>ვარდას ურცხო ასოეფი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-no-mic-found" srclang="en-US">
@@ -1515,12 +2211,20 @@
 				<seg>მიკროფონქ ვეგორ.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:non-binary" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Non-binary</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>კოჩიშ/ოსურიშ გარდა</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-5" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No numbers and special characters</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ვარდას ციფრეფი დო სპეციალური სიმბოლოეფი.</seg>
+				<seg>ვარდას ციფრეფი დო სპეციალური სიმბოლოეფი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-no-sentences" srclang="en-US">
@@ -1528,7 +2232,15 @@
 				<seg>No sentences to review. &lt;addLink&gt;Add more sentences now!&lt;/addLink&gt;</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შიომოწმებელი წინადადებეფი ვარე. &lt;addLink&gt; სი ქიგუძინი ასე! &lt;/addLink&gt;</seg>
+				<seg>ვარე გინაჯინალი ზიტყვასქილეფი. &lt;addLink&gt; სი ქიგუძინი ასე! &lt;/addLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:not-found-page-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Not Found</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ვეგორჷ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:continue-speaking-button" srclang="en-US">
@@ -1536,7 +2248,31 @@
 				<seg>No thanks, continue speaking</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ვარ, მარდი, გაგძელით ჩიება.</seg>
+				<seg>ვარ, მარდი, გაგძელით ჩიება</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:adding-sentences-subheader-numbers" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Numbers</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>რიცხვეფი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:offensive_speech" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Offensive Content</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ოლანძღარი შინაარსი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:offensive-content" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Offensive Content</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ოლანძღარი შინაარსი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-offensive-language" srclang="en-US">
@@ -1552,7 +2288,7 @@
 				<seg>Offensive language</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ოლანძღარი ზიტყვა.</seg>
+				<seg>ოლანძღარი ზიტყვა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-speech" srclang="en-US">
@@ -1560,7 +2296,7 @@
 				<seg>Offensive speech</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>უწმაწურ ჩიება.</seg>
+				<seg>ნინამოწიკვილ ჩიება</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported-desktop" srclang="en-US">
@@ -1568,7 +2304,7 @@
 				<seg>On desktop devices you can contribute by downloading…</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>დესკტოპშა შეილებუნა გეგმიტვირთათჷნი უახალაში:</seg>
+				<seg>დესკტოპშა შეილებუნა გეგნოჭარათ უახალაში...</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-1-title" srclang="en-US">
@@ -1584,7 +2320,15 @@
 				<seg>On iOS please continue with Safari to enable recording…</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>iOS-შოთ, ქორთხინთ, გაგძელათ Safari-ით ინოჭარუა.</seg>
+				<seg>iOS-შოთ, ქორთხინთ, გაგძელათ Safari-ით ინოჭარუა...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:varying-pronunciations-explanation-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On the other hand, if you think that the reader has never come across the word before, and is making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მაჟია, ქოფირქენთ, ნამდა მაკითხირექ პრიველო ძირუ თე ზიტყვა დო ვარაგადუ წორას-და, ქორთხინთ, ვარიას ქიგუნჭირით. ვარეთ დარწმუნებულდა, გიშატებაშ ღილაკი ქიგმირინეთ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description-extended" srclang="en-US">
@@ -1592,7 +2336,15 @@
 				<seg>On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მაჟია, ფირქენთ, ნამდა მაკითხირალქ პრიველო ძირუ თე ზიტყვა დო ვარაგადუ წორასდა, რთხინთ, ვარიას ქიგუნჭირით. ვარეთ დარწმუნებულდა, გიშატებაშ ღილაკი ქიგმირინეთ.</seg>
+				<seg>მაჟია, ფირქენთ, ნამდა მაკითხირექ პრიველო ძირუ თე ზიტყვა დო ვარაგადუ წორას-და, ქორთხინთ, ვარიას ქიგუნჭირით. ვარეთ დარწმუნებულ-და, გიშატებაშ ღილაკი ქიგმირინეთ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:other" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Other</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>შხვა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle" srclang="en-US">
@@ -1608,7 +2360,7 @@
 				<seg>Partner</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მალათირე.</seg>
+				<seg>მალათირე</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-2-explanation" srclang="en-US">
@@ -1616,7 +2368,23 @@
 				<seg>[Part of the text can’t be heard]</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>[ნაჭარაში ნაწილ ვერჩქილე]</seg>
+				<seg>[ნაჭარაში ნოჭყვედი ვერჩქილე]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:background-noise-tip-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Part of the text can’t be heard]</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>[ნაჭარაში ნოჭყვედი ვერჩქილე]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:personally_identifiable_information" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Personally Identifiable Information</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>პერსონალურ ინფორმაცია</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-last-time-instruction" srclang="en-US">
@@ -1648,7 +2416,7 @@
 				<seg>Please check our &lt;templateFileLink&gt;template file&lt;/templateFileLink&gt;. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქორთხინთ ქიგნაჯინათ &lt;templateFileLink&gt; ფაილიშ ნიმუშის &lt;/templateFileLink&gt;. თქვან წინადადებეფი საყოველთაო საკუთრება ოკო რდას (CC0 ლიცენზიათ ვარდა საკუთარი ნამუშერი) დო არძაშო გაგებელჷ ნინათ, თინას ოკო ჭარუდას, არდვილო წეკითხანინი. თაქ მოჩამილ წინადადებეფიშ კითხირს 10-15 წამი ოკო ოსაჭირუდას დო ციფრეფი, საკუთარ სახელეფი ვარდა შხვა საგანგიო ნიშნეფი ვარდას.</seg>
+				<seg>ქორთხინთ ქიგნაჯინათ &lt;templateFileLink&gt; ფაილიშ დადარს &lt;/templateFileLink&gt;. თქვან ზიტყვასქვილეფი ოირქიანე საკუთრება ოკო რდას (CC0 ლიცენზიათ ვარდა საკუთარი ნამუშერი) დო არძაშო გაგებელჷ ნინათ, თინას ოკო ჭარუდას, არდვილო წეკითხანინი. თაქ მოჩამილ ზიტყვასქვილეფიშ კითხირს 10-15 წამი ოკო ოსაჭირუდას დო ციფრეფი, საკუთარ სახელეფი ვარდა შხვა საგანგიო ნიშნეფი ვარდას.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:required-field" srclang="en-US">
@@ -1656,7 +2424,7 @@
 				<seg>Please fill out this field.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>რთხინთ, შეავსათ თე არდგილი.</seg>
+				<seg>ქორთხინთ, შეავსათ თე არდგილი.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-select-language" srclang="en-US">
@@ -1664,7 +2432,23 @@
 				<seg>Please select a language to review sentences.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქორთხინთ, გეჲშაგორით ნინა წინადადებეფიში შიომოწმებელო.</seg>
+				<seg>ქორთხინთ, გეჲშაგორით ნინა ზიტყვასქვილეფიშ გინაჯინალო.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:footer-text-privacy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;privacyLink&gt;Privacy&lt;/privacyLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>&lt;privacyLink&gt;პირადულობა&lt;/privacyLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:public-domain" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Public Domain</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ოირქიანე საკუთრება</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-record-toggle" srclang="en-US">
@@ -1680,7 +2464,7 @@
 				<seg>[‘Raised’ in English is always pronounced as one syllable, not two]</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>[კითხვაშ ნაწილაკის (ქო ვარდა ვარ) ირო მახვილ გიაშკუმალუ]</seg>
+				<seg>[ოკითხეშ ნაწილაკის (ქო ვარდა ვარ) ირო მახვილ გიაშკუმალუ]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-toast-message-minutes" srclang="en-US">
@@ -1699,12 +2483,36 @@
 				<seg>სიხშირეშ სანზღვარს მიკაჩირთ. ხოლო ქოცადით { $retryLimit } წამშა.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:reader-effects" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reader Effects</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მაკითხირეში ეფექტეფი</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reader Effects</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>კითხირიშ ეფექტი.</seg>
+				<seg>მაკითხირეშ ეფექტეფი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:misreadings-explanation-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reading all the words on the page correctly does matter. When listening, check very carefully that what has been recorded is exactly what has been written; reject if they have added, contracted or missed words.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>თე ხასჷლას მოჩამილი არძა ზიტყვაში წორას კითხირი მნიშვნელოვან რე. მორჩქილაფაში დროს თოლჸუჯიერო ქიგნაჯინით წორას ქორე თუ ვარ კითხირებული მუთ ჭარუნ თინა. ვარიას ქიგუნჭირით, მუჟამს გეძინელი, დაკუნტორებული ვარა გიშატებული რე ზიტყვეფი.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:misreadings-explanation-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>დაკუნტარებული რე ზიტყვა, მაგალთო, იკითხირუაფუ "კოჩიე", მარა ჭარუ "კოჩი რე" ვარდა მიკორთელო.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-3" srclang="en-US">
@@ -1731,12 +2539,20 @@
 				<seg>წეკითხით წინადადებეფი, ქუპასუხით კითხვეფს.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:read-sentences-coming-soon" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Read Sentences &lt;small&gt;(Coming soon)&lt;/small&gt;</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>წეკითხით ზიტყვასქვილეფი &lt;small&gt;(მალას&lt;/small&gt;)</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:read-sentences-menu-item-aria-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Read sentences submitted by the community in various languages</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>საზოგადოებაშ წუმორინელ წინადადებეფი წეკითხით შხვადოშხვა ნინაშა.</seg>
+				<seg>წეკითხით სამიაროშ წუმორინელ ზიტყვასქვილეფი შხვადოშხვა ნინაშა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute-more" srclang="en-US">
@@ -1776,7 +2592,7 @@
 				<seg>Record/Stop</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ინოჭარუა / გაჩერება.</seg>
+				<seg>ინოჭარუა / გაჩემება</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-record-toggle-label" srclang="en-US">
@@ -1787,12 +2603,20 @@
 				<seg>ინოჭარუა / მეჭყვიდუა</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:record-player-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record your response</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქინიჭარით თქვანი გამა</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:read-sentences-menu-item-tooltip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Record yourself reading sentences in your language</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წეკითხით წინადადებეფი დო ქინაჭარით თქვან ნინაშა.</seg>
+				<seg>წეკითხით ზიტყვასქვილეფი დო ქინაჭარით თქვან ნინაშა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:answer-questions-menu-item-tooltip" srclang="en-US">
@@ -1800,7 +2624,15 @@
 				<seg>Record yourself responding to questions and prompts in your language</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქინაჭარით მუჭო პასუხენთ კითხვეფს თქვან ნინაშანი.</seg>
+				<seg>ქინაჭარით მუჭო არძენთ გამას ოკითხირეფს დო მოთხუალეფს თქვან ნინაშა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:record-button-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record your voice</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქინაჭარით თქვან ხონარი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:record-button-label" srclang="en-US">
@@ -1811,20 +2643,12 @@
 				<seg>ქინაჭარით თქვანი ხონარი.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:record-button-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Record your voice</seg>
-			</tuv>
-			<tuv xml:lang="xmf">
-				<seg>ქინაჭარით თქვან ხონარი.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:citation-input-placeholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reference the source of your sentence (required)</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქიმუთითით თქვანი წინადადებეფიში წყარო (აუცილებელ რე)</seg>
+				<seg>ქიმუწურეთ თქვანი ზიტყვასქვილეფიშ წყუ (აუცილებელ რე)</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-reject" srclang="en-US">
@@ -1832,7 +2656,15 @@
 				<seg>Reject</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ვარება.</seg>
+				<seg>ვარება</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:report-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Report</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მოხსენება</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report" srclang="en-US">
@@ -1843,23 +2675,31 @@
 				<seg>მოხსენება</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-success-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Report was passed successfully</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მოხსენებაქ ხეუნჩალუო ქიჯღონინჷ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-success" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Report was passed successfully</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მოხსენებაქ ხეუნჩალუო ქიჯღონინჷ.</seg>
+				<seg>მოხსენებაქ ხეუნჩალუო ქიჯღონინჷ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:request-language-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Request a Language</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მითხით ნინაში გეძინა.</seg>
+				<seg>მითხით ნინაში გეძინა</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:request-language-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Request a Language</seg>
 			</tuv>
@@ -1872,7 +2712,15 @@
 				<seg>Re-record</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ხელახალშო ინოჭარუა.</seg>
+				<seg>ხელახალშო ინოჭარუა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-rerecord-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Re-record clip</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ახაშო ინოჭარუა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-rerecord-toggle-label" srclang="en-US">
@@ -1883,20 +2731,36 @@
 				<seg>დუდშე ინოჭარუა</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-rerecord-toggle-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:respond" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Re-record clip</seg>
+				<seg>Respond</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ახაშო ინოჭარუა.</seg>
+				<seg>გუმოხონარება</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:respond-to-prompt" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Return</seg>
+				<seg>Respond To Prompt</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>დორთა.</seg>
+				<seg>ქუგამით მოთხუალას</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:prompt-response-deleted-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Response deleted successfully</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გამაქ ხეუნჩალუო დილასჷ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:prompt-submitted-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Response submitted successfully</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გამაქ ხეუნჩალუო ქიჯღონინ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-submit" srclang="en-US">
@@ -1907,12 +2771,12 @@
 				<seg>დორთა</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Review</seg>
+				<seg>Return</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გინოჯინა</seg>
+				<seg>დორთა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:review" srclang="en-US">
@@ -1920,15 +2784,15 @@
 				<seg>Review</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შემოწმება</seg>
+				<seg>გინოჯინა</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შემოწმება.</seg>
+				<seg>გინოჯინა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:review" srclang="en-US">
@@ -1939,12 +2803,20 @@
 				<seg>გამორსება</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გინოჯინა</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-review-failure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review could not be saved. Please try again later.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შემოწმებული ვეშინახჷ. ქორთხინთ ქოცადათ გვიანონი.</seg>
+				<seg>გინოჯინელი ვეშინახჷ, ქორთხინთ ქოცადათ კინოხ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-modal" srclang="en-US">
@@ -1952,7 +2824,7 @@
 				<seg>ⓘ Review Criteria</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შემოწმებაში კრიტერიუმეფი</seg>
+				<seg>ⓘ გინოჯინაშ კრიტერიუმეფი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-title" srclang="en-US">
@@ -1960,7 +2832,7 @@
 				<seg>Review Criteria</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შემოწმებაში კრიტერიუმეფი</seg>
+				<seg>გინოჯინაშ კრიტერიუმეფი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-prompt" srclang="en-US">
@@ -1968,7 +2840,7 @@
 				<seg>Reviewed sentences not submitted, are sure?</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გინომოწმებულ წინადადებეფი ვაჯღონელე, დარწუმებული ქორეთო?</seg>
+				<seg>გინოჯინელი ზიტყვასქვილეფი ვაჯღონელე, ქორეთო დარწუმებული?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:review-sentences-menu-item-aria-label" srclang="en-US">
@@ -1976,7 +2848,15 @@
 				<seg>Review existing sentences submitted by the community</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>საზოგადოებაშ მოჩამილი წინადადებეფიშ შემოწმება.</seg>
+				<seg>მაკათურეფიშ წუმორინაფილი ზიტყვასქვილეფიშ გინოჯინა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:reviewing-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reviewing Sentences</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ზიტყვასქვილეფიშ გინოჯინა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-tooltip" srclang="en-US">
@@ -1984,7 +2864,7 @@
 				<seg>Review &amp; re-record clips here as you go</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გეგნამოწმით თაურეშე დო ხელახალშო ქინაჭარით.</seg>
+				<seg>სოიშახ გიშეშათჷნი, ინნაჭარეფს ქიგნაჯინით დო ხოლო ქინაჭარით</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-instruction" srclang="en-US">
@@ -1992,7 +2872,7 @@
 				<seg>Review &amp; re-record clips if needed</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გეგნამოწმით დო ხელახალშო ქინაჭარით, საჭიროქ ქიუდა.</seg>
+				<seg>ქიგნაჯინით დო ხელახალშო ქინაჭარით, საჭიროქ ქიუდა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-sentences" srclang="en-US">
@@ -2000,7 +2880,7 @@
 				<seg>Review Sentences</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადებეფიშ შემოწმება.</seg>
+				<seg>ზიტყვასქვილეფიშ გინოჯინა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-title" srclang="en-US">
@@ -2008,7 +2888,7 @@
 				<seg>Review Sentences</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადებეფიშ შემოწმება.</seg>
+				<seg>ზიტყვასქვილეფიშ გინოჯინა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:review-sentences-menu-item-tooltip" srclang="en-US">
@@ -2016,7 +2896,7 @@
 				<seg>Review sentences in your language</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შეამოწმით წინადადებეფი თქვან ნინაშა.</seg>
+				<seg>ქიგნაჯინით ზიტყვასქვილეფს თქვან ნინაშა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-submit-title" srclang="en-US">
@@ -2024,7 +2904,7 @@
 				<seg>Review &amp; Submit</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გინოჯინა დო ჯღონა.</seg>
+				<seg>გინოჯინა დო ჯღონა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:review-transcriptions-menu-item-aria-label" srclang="en-US">
@@ -2032,7 +2912,7 @@
 				<seg>Review transcriptions of recorded sentences for accuracy</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქიგნაჯინით ინოჭარილ წინადადებეფიში ტრანსკრიფციეფიშ სისწორეს.</seg>
+				<seg>ქიგნაჯინით ინოჭარილ ზიტყვასქვილეფიშ ტრანსკრიფციეფიშ სიწორეს</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:review-transcriptions-menu-item-tooltip" srclang="en-US">
@@ -2040,7 +2920,7 @@
 				<seg>Review user-submitted transcriptions in your language</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქიგნაჯინით მომხმარებელეფიშ ნაჯღონა ტრანსკრიფციეფს თქვან ნინაშა.</seg>
+				<seg>ქიგნაჯინით მუმახვარებელიშ ნაჯღონა ტრანსკრიფციეფს თქვან ნინაშა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-skip" srclang="en-US">
@@ -2059,12 +2939,36 @@
 				<seg>g</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:bsy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sabah Bisaya</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>საბაჰ-ბისაია</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:msi" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sabah Malay</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>საბაჰ-მალაური</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:snv" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sa'ban</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>საბანი</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-default-option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select an option</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გეჲშაგორით ართ-ართი.</seg>
+				<seg>გეჲშაგორით ართ-ართი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-placeholder" srclang="en-US">
@@ -2080,7 +2984,7 @@
 				<seg>Select File</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გეჲშაგორით ფაილი.</seg>
+				<seg>გეჲშაგორით ფაილი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:select-file-mobile" srclang="en-US">
@@ -2088,7 +2992,7 @@
 				<seg>Select File to Upload</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ფაილიშ გუშაგორუა ეიოტვირთალო.</seg>
+				<seg>ფაილიშ გუშაგორუა გიოძინალო</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-domain-select-placeholder" srclang="en-US">
@@ -2096,7 +3000,39 @@
 				<seg>Select up to three domains (optional)</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქიმუთითით სუმ დომენი (სავალდებულო ვარე)</seg>
+				<seg>ქიმუწურეთ სუმ დომენი (სავალდებულო ვარე)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:select-your-age" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select your age</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გეირჩით თქვანი ასაკი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:select-your-gender" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select your sex or gender</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გეირჩით თქვანი სქესი ვარდა გენდერი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:self-citation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Self Citation</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მუშ ნამუშერი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:signup-button-value" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Send a link to my email</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქუმომიჯღონი ლინკი ჩქიმ მეილიშა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence" srclang="en-US">
@@ -2104,7 +3040,23 @@
 				<seg>Sentence</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადება</seg>
+				<seg>ზიტყვასქვილი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:sentence-collection" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence Collection</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ზიტყვასქვილეფიშ კოლექცია</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:sentence-domain" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence Domain</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ზიტყვასქვილიშ ინტერნეტ-ოწურაფუ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-domain-combobox-label" srclang="en-US">
@@ -2112,7 +3064,7 @@
 				<seg>Sentence Domain</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადებაშ ინტერნეტ-მისამართი</seg>
+				<seg>ზიტყვასქვილიშ ინტერნეტოწურაფუ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-page-subtitle" srclang="en-US">
@@ -2120,7 +3072,7 @@
 				<seg>Sentences contributed here will be added to a publicly available cc-0 licensed dataset.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>თაქ მიშაღალირჷ წინადადებეფი ქიგიაძინუ საჯაროთ ხეშმიოჭირინაფალ cc-0 ლიცენზირებულ მონაცემეფიშ ბაზას.</seg>
+				<seg>თაქ მიშაღალირჷ ზიტყვასქვილეფი ქიგიაძინუ არგამათ ხეშმიოჭირინაფალ cc-0 ლიცენზირებულ მუნაჩემეფიშ ბაზას.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-reviewed-message" srclang="en-US">
@@ -2128,7 +3080,7 @@
 				<seg>{ $sentences } sentences reviewed. Thank you!</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>{ $sentences } წინადადება რე შემოწმებული. მარდი.</seg>
+				<seg>{ $sentences } ზიტყვასქვილი გინოჯინელ რე. მარდი!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-label" srclang="en-US">
@@ -2136,7 +3088,7 @@
 				<seg>Sentence Variant</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადებაშ კუნთხუობა.</seg>
+				<seg>ზიტყვასქვილიშ კუნთხუობა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-3" srclang="en-US">
@@ -2144,7 +3096,15 @@
 				<seg>Separate sentences into one line by pressing “Enter” or “Return” once</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გაგშართით წინადადებეფი ახალ ხაზის "Enter" ვარდა "Return" ღილაკიშა ართი გენჭირათ.</seg>
+				<seg>გაგშართით ზიტყვასქვილეფი ახალ ხაზის "Enter" ვარდა "Return" ღილაკიშა ართი გენჭირათ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:sdo" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Serian Bidayuh</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>სერიანული ბიდაუ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:service_retail" srclang="en-US">
@@ -2152,7 +3112,7 @@
 				<seg>Service and Retail</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მომსახურება დო საცალო ვაჭრუა.</seg>
+				<seg>მომსახურება დო საცალო ვაჭრუა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:share-common-voice" srclang="en-US">
@@ -2168,7 +3128,7 @@
 				<seg>Share your clip</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გაზიარით თქვან ინნაჭარა.</seg>
+				<seg>გაზიარით თქვან ინნაჭარა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcuts" srclang="en-US">
@@ -2208,7 +3168,7 @@
 				<seg>Single</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ცალკეიან წინადადება.</seg>
+				<seg>ცალკეიან ზიტყვასქვილი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:single-sentence-submission" srclang="en-US">
@@ -2216,10 +3176,10 @@
 				<seg>Single sentence submission</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადებეფიშ თითო-თითოთ მიშაღალა.</seg>
+				<seg>ზიტყვასქვილეფიშ თითო-თითოთ მიშაღალა</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:skip-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -2243,6 +3203,22 @@
 				<seg>გიშატება</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გიშატება</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:skipped" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skipped</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გიშატებულიე</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentence" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Small batch</seg>
@@ -2256,7 +3232,15 @@
 				<seg>Small batch sentence submission</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ართ-ჟირ წინადადებაშ მიშაღალა.</seg>
+				<seg>ართ-ჟირზიტყვასქვილიშ მიშაღალა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-fetching-prompts" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Something went wrong while fetching prompts. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მოთხუალაშ მიღებაშ დროს ჩილათაქ იჸუ. ქორთხინთ, ქოცადათ კინოხ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-source" srclang="en-US">
@@ -2264,7 +3248,15 @@
 				<seg>Source: { $sentenceSource }</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წყარო: { $sentenceSource }</seg>
+				<seg>წყუ: { $sentenceSource }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:meh" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Southwestern Tlaxiaco Mixtec</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>თეონურ-დალური ტლახიაკის მისტეკური</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak" srclang="en-US">
@@ -2275,12 +3267,20 @@
 				<seg>ინოჭარუა</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:adding-sentences-subheader-speakable" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speakable</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ჩიება</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-now" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak now</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>იჩით.</seg>
+				<seg>იჩით</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-contribute-menu-aria-label" srclang="en-US">
@@ -2288,7 +3288,7 @@
 				<seg>Speak options menu</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ჩიებაშ პარამეტრეფიშ მენიუ.</seg>
+				<seg>ჩიებაშ პარამეტრეფიშ მენიუ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cta" srclang="en-US">
@@ -2296,7 +3296,15 @@
 				<seg>Start recording</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ინოჭარუაშ დოჭყაფა.</seg>
+				<seg>ინოჭარუაშ დოჭყაფა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:still-have-questions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Still have questions?</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ხოლო გიღუნანო კითხვეფი?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-3-fixed-title" srclang="en-US">
@@ -2304,7 +3312,7 @@
 				<seg>&lt;strong&gt;[Crackle]&lt;/strong&gt; giant dinosaurs of &lt;strong&gt;[crackle]&lt;/strong&gt; -riassic.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>&lt;strong&gt;[შიშინ&lt;/strong&gt;] დუდმახვენჯი ხოლო ანწი &lt;strong&gt; [ჩხიორი] &lt;/strong&gt; რჩეულ რე.</seg>
+				<seg>&lt;strong&gt;[შიშინ]&lt;/strong&gt; დუდმახვენჯი ხოლო ანწი &lt;strong&gt;[ჩხიორი]&lt;/strong&gt; რჩეულ რე.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-1-fixed-title" srclang="en-US">
@@ -2331,12 +3339,36 @@
 				<seg>ჯღონა</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:submit-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ჯღონა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:submit-all-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit All</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>არძაში ჯღონა</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:answer-questions-menu-item-aria-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit a new question for the community to read and respond to</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქაჯღონით ახალ შეკითხვეფი საზოგადოებაშო, წეკითხან დო ქუპასუხანინი.</seg>
+				<seg>ქაჯღონით ახალ ოკითხირეფი სამიაროშო, წეკითხან დო გამა ქიმეჩანინი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-modal-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit a report</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მოხსენებაშ ჯღონა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-title" srclang="en-US">
@@ -2344,7 +3376,23 @@
 				<seg>Submit a report</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მოხსენებაშ ჯღონა.</seg>
+				<seg>მოხსენებაშ ჯღონა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>კლიპეფიშ ჯღონა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ინოჭარილეფიში ჯღონა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-submit-label" srclang="en-US">
@@ -2355,28 +3403,20 @@
 				<seg>ინოჭარილეფიში გინოჯღონა.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-submit" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit clips</seg>
-			</tuv>
-			<tuv xml:lang="xmf">
-				<seg>ინოჭარილიშ გინოჯღონა.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit clips</seg>
-			</tuv>
-			<tuv xml:lang="xmf">
-				<seg>ინოჭარილეფიში ჯღონა.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-questions-menu-item-aria-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit new questions for the community to read and respond to</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>კითხვეფიშ გეძინა, საზოგადოებაშ მაკათურეფქ წეკითხან დო პასუხი ქიმეჩანინი.</seg>
+				<seg>ოკითხირეფიშ გეძინა, ბუნაშ მაკათურეფქ წეკითხან დო გამა ქიმეჩანინი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:submitted" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submitted</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქიჯღონინჷ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:success" srclang="en-US">
@@ -2384,7 +3424,15 @@
 				<seg>Success</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გომორძგუა.</seg>
+				<seg>გომორძგუა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Success</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გომორძგუა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:img-alt-success-checkmark" srclang="en-US">
@@ -2392,7 +3440,7 @@
 				<seg>success checkmark</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წუმოძინელო ნაქიმინაშ აღნიშვნა.</seg>
+				<seg>წუმოძინელო ნაქიმინაშ აღნიშვნა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-usage" srclang="en-US">
@@ -2400,7 +3448,15 @@
 				<seg>Swipe right to approve the sentence. Swipe left to reject it. Swipe up to skip it. &lt;strong&gt;Do not forget to submit your review!&lt;/strong&gt;</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გინუკინით მარძგვანჷშე წინადადებეფი ქიმიღათჷნი. გინუკინით კვარჩხანჷშე ვარია ქოთქუათჷნი. ეუკინი ჟი, გიშატებელო. &lt;strong&gt; ვაგგოჭყორდანი გინომოწმებულეფიშ წუმორინაფაქ.</seg>
+				<seg>გინუკინით მარძგვანჷშე ზიტყვასქვილეფი ქიმიღათჷნი. გინუკინით კვარჩხანჷშე ვარია ქოთქუათჷნი. ეუკინი ჟი, გიშატებელო. &lt;strong&gt; ვაგგოჭყორდანი გინოჯინელეფიშ წუმორინაფაქ!&lt;/strong&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:misreadings-explanation-7" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Taking several attempts to read a word.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ზიტყვა გამეორებულ რე ეშაკითხირიში ბრელშა ცადებათ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-5" srclang="en-US">
@@ -2427,12 +3483,36 @@
 				<seg>ქიგუნჭირით</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:action-tap" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tap</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქიგუნჭირით</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:technology_robotics" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Technology and Robotics</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ტექნოლოგია დო რობოტიკა.</seg>
+				<seg>ტექნოლოგია დო რობოტიკა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:footer-text-terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;termsLink&gt;Terms&lt;/termsLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>&lt;termsLink&gt;პირობეფი&lt;/termsLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:age-gender-form-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for contributing to Spontaneous Speech!</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მარდის მუგოშინანთ სპონტანურ ჩიებაშა წილიშ მიშაღალაშენი!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-submission-success-header" srclang="en-US">
@@ -2440,7 +3520,7 @@
 				<seg>Thank you for contributing your bulk submission!</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მარდი, წინადადებეფიშ არძო ართო მოჯღონუაშენი!</seg>
+				<seg>მარდი, ზიტყვასქვილეფიშ ართო მოჯღონუაშენი!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:second-cta-header-text" srclang="en-US">
@@ -2448,7 +3528,7 @@
 				<seg>Thank you for contributing your voice!</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მარდის მუგოშინანთ თქვანი ხონარით შემენწითჷნი.</seg>
+				<seg>მარდის მუგოშინანთ თქვანი ხონარით შემენწითჷნი!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-header-text" srclang="en-US">
@@ -2456,7 +3536,7 @@
 				<seg>Thank you for donating your voice clips!</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მარდის მუგოშინანთ თქვანი ხონარიშ ინნაჭარეფით შემენწითჷნი.</seg>
+				<seg>მარდის მუგოშინანთ თქვანი ხონარიშ ინნაჭარეფით შემენწითჷნი!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-submit-msg" srclang="en-US">
@@ -2467,12 +3547,20 @@
 				<seg>დიდი მარდი ინოჭარუაშენი! &lt;lineBreak&gt;&lt;/lineBreak&gt; ასე შეილებუნა ქიგნაჯინათ თქვანი ინნაჭარასჷნი დო ქაჯღონათ თუდო.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:thank-you-for-your-information" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for your information</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მარდი ინფორმაციაშენი</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for your voice information</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მარდის მუგოშინანთ თქვანი ხონარიშ გურშენ ინფორმაცია მუჩითჷნ.</seg>
+				<seg>მარდის მუგოშინანთ თქვანი ხონარიშ გურშენ ინფორმაცია მუჩითჷნ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-8-title" srclang="en-US">
@@ -2483,20 +3571,36 @@
 				<seg>მუთ გიძირუნი, ვაძირუნქ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-speech-detail" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>The clip has disrespectful or offensive language.</seg>
-			</tuv>
-			<tuv xml:lang="xmf">
-				<seg>ინაჭარას უმანგე დო ოლანძღარი ზიტყვეფე რე.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-offensive-speech-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The clip has disrespectful or offensive language.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
 				<seg>ინაჭარას უმანგე დო ოლანძღარი ზიტყვეფე რე</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-speech-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The clip has disrespectful or offensive language.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ინნაჭარას უმანგუ დო ნინამოწიკვილ ზიტყვეფი რე.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:different_language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The content contains a language different than I was expecting.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>შინაარსი, ვეველუდინ ფერი, შხვანერ ნინაშა რე,</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:offensive_speech-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The content has disrespectful or offensive language.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>თე ზიტყვასქვილი უმანგუ ვარდა ოლანძღარ შინაარსიშ რე.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-2-title" srclang="en-US">
@@ -2523,12 +3627,20 @@
 				<seg>ახალ დუდმახვენჯი გიშაგორილ რე.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:background-voices-example-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaurs of the Triassic. [read by one voice]</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ახალ დუდმახვენჯი გჷშაგორილი რე. [კითხულენს ართ ხონარი]</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-example-1-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dinosaurs of the Triassic. &lt;strong&gt;[read by one voice]&lt;/strong&gt;</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ახალ დუდმახვენჯი გჷშაგორილი რე. &lt;strong&gt; [კითხულენს ართ ხონარი] &lt;/strong&gt;</seg>
+				<seg>ახალ დუდმახვენჯი გჷშაგორილი რე. &lt;strong&gt;[კითხულენს ართ ხონარი]&lt;/strong&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-4-title" srclang="en-US">
@@ -2547,12 +3659,44 @@
 				<seg>ახალი დუდ &lt;strong&gt; [ხვალუა] &lt;/strong&gt; გჷშაგორილ რე.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:media-recorder-api-not-supported" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The MediaRecorder API is not supported in your browser.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>The MediaRecorder API ვარე ხუჯმეჩამილი თქვან ბრაუზერს.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:not-found-page-content" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The page you are looking for could not be found</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ხასილა, ნამუსუთ გორჷნთჷნი, ვეძირჷ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:no-prompts-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There are currently no prompts for this language. Please refresh the page or try again later.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>თე ნინაშო მოთხუალეფქ ვეგორ. ქორთხინთ, გაახალით ხასილა ვარდა ქოცადით კინოხ.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-empty-state" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>There are currently no sentences to review in this language.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>თე ნინაშოთ ომოწმებელ წინადადებეფქ გეშელიუ.</seg>
+				<seg>გინაჯინალ ზიტყვასქვილეფქ გეშელიუ თე ნინაშო.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:no-transcriptions-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There are currently no transcriptions to check for this language. Please refresh the page or try again later.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>თე ნინაშო ნაჭარათ მოჩამილ ინნაჭარეფქ ვეგორ. ქორთხინთ, გაახალით თე ხასილა ვარდა ქოცადით კინოხ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-long" srclang="en-US">
@@ -2568,7 +3712,7 @@
 				<seg>The recording was too quiet.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ინნაჭარა გვალო ხონარდაბალ რდჷ.</seg>
+				<seg>ინნაჭარა გვალო ხონარდაბალი რდჷ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-short" srclang="en-US">
@@ -2579,12 +3723,28 @@
 				<seg>ინნაჭარა გვალო კუნტა რდჷ.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:volume-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ბუნებრივ რე განსხვავება მაკითხირეფიშ ხონარიშ დონეეფიშ შკას. ვარიას ქიგუნჭირით, მუჟამს ხონარ თიცალ მაღალ რე, ინნაჭარა მითმეჭყორდუ. ვარდა თიცალ დაბალ რე, ნაჭარაშა თოლიშ მეუნაფაშ უმუშო აზრიშ გჷშაღალა გიჭირა.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-volume-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ბუნებრივ რე განსხვავება მაკითხირალეფიშ ხონარიშ დონეეფს შკას. ვარიას ქიგუნჭირით, მუჟამს ხონარ თიცალ მაღალ რე, ინნაჭარა მითმეჭყორდუ. ვარდა თიცალ დაბალ რე, ნაჭარაშა თოლიშ მეუნაფაშ უმუშო აზრიშ გჷშაღალა გიჭირა.</seg>
+				<seg>ბუნებრივ რე განსხვავება მაკითხირეფიშ ხონარიშ დონეეფს შკას. ვარიას ქიგუნჭირით, მუჟამს ხონარ თიცალ მაღალ რე, ინნაჭარა მითმეჭყორდუ. ვარდა თიცალ დაბალ რე, ნაჭარაშა თოლიშ მეუნაფაშ უმუშო არზიშ გჷშაღალა გიჭირა.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:varying-pronunciations-example" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The route was unclear.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ღობერი აკობურგონილი გინოძუდჷ იშო-აშო.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
@@ -2592,7 +3752,7 @@
 				<seg>The Sentence Collector is moving to the core Common Voice platform. You can now &lt;writeURL&gt;write&lt;/writeURL&gt; a sentence or &lt;reviewURL&gt;review&lt;/reviewURL&gt; single sentence submissions on Common Voice.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადებეფიშ მაკორობალი გინმურს Common Voice თარ საიტშა. ასე შეილებუნა &lt;writeURL&gt; დოჭარათ &lt;/writeURL&gt; წინადადება ვარდა &lt;reviewURL&gt; შეამოწმათ &lt;/reviewURL&gt; ზოხო გეძინელი წინადადებეფი Common Voice-ის</seg>
+				<seg>ზიტყვასქვილეფიშ მაკორობალი გინმურს Common Voice თარ საიტშა. ასე შეილებუნა &lt;writeURL&gt; დოჭარათ &lt;/writeURL&gt; ზიტყვასქვილი ვარდა &lt;reviewURL&gt; ქიგნაჯინათ &lt;/reviewURL&gt; ზოხო გეძინელ ზიტყვასქვილეფს Common Voice-ის</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-grammar-or-spelling-detail" srclang="en-US">
@@ -2600,7 +3760,7 @@
 				<seg>The sentence has a grammatical or spelling error.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადებას გრამატიკული ვარდა თინჭარუაში კილი უღუ.</seg>
+				<seg>ზიტყვასქვილს გრამატიკული ვარდა თინჭარუაში კილი უღუ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-language-detail" srclang="en-US">
@@ -2608,7 +3768,7 @@
 				<seg>The sentence has disrespectful or offensive language.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>თე წინადადება უმანგე ვარდა ოლანძღარი რე.</seg>
+				<seg>თე ზიტყვასქვილი უმანგუ ვარდა ოლანძღარი რე.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-2" srclang="en-US">
@@ -2616,7 +3776,7 @@
 				<seg>The sentence must be grammatically correct.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადებეფი გრამატიკულო წორი ოკო რდას.</seg>
+				<seg>ზიტყვასქვილეფი გრამატიკულო წორი ოკო რდას.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-3" srclang="en-US">
@@ -2624,7 +3784,7 @@
 				<seg>The sentence must be speakable.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წინადადებეფი ორაგადე ოკო რდას.</seg>
+				<seg>ზიტყვასქვილეფი ორაგადე ოკო რდას.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-1" srclang="en-US">
@@ -2632,7 +3792,23 @@
 				<seg>The sentence must be spelled correctly.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
+				<seg>ზიტყვასქვილეფი წორას ოკო რდას ჭარილი.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:adding-sentences-subheader-spelling-punctuation-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be spelled correctly.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
 				<seg>წინადადებეფი წორას ოკო რდას ჭარილი.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:personally_identifiable_information-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This content contains personally identifiable information related to an individual's identity, such as their name, email address, location, identification number, or phone number.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მასალა იკათუანს პირად მუნაჩემეფს, მუჭომით რენი სახელი, ელფოსტა, არდგილმდებარეობა, პირადობაშ ნომერი ვარდა ტელეფონიშ ნომერი.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate-explanation-1" srclang="en-US">
@@ -2640,7 +3816,23 @@
 				<seg>This information is optional to provide - you should only add it if you feel comfortable. When we release the dataset, we pseudonymise all personal information, and make sure information like your name and email are not connected to demographic information like age or sex.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>თე ინფორმაციაშ გეძინა ვარე სავალდებულო. ქუგოკონადა, თქვანი ნება რე. ინოჭარილეფიშ გჷშაშკუმალაშ დროს ჩქი პირად მონაცემეფს ირფელს უთხინუანთ, თიშენ ნამდა თქვან სახელი დო ელფოსტა ვარდას დაკავშირებული თაქ მითითებულ ასაკის დო სქესისჷნი.</seg>
+				<seg>თე ინფორმაციაშ გეძინა ვარე სავალდებულო. ქუგოკონადა, თქვანი ნება რე. ინოჭარილეფიშ ნაკათაში გჷშაშკუმალაშ დროს ჩქი პირად მუნაჩემეფს ირფელს უთხინუანთ, თიშენ ნამდა თქვან სახელი დო ელფოსტა ვარდას დაკავშირებული თაქ მითითებულ ასაკის დო სქესისჷნი.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:why-are-you-asking-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This information is optional to provide - you should only add it if you feel comfortable. When we release the dataset, we pseudonymise all personal information, and make sure information like your name and email are not connected to demographic information like age or sex. For technology to work well for everyone, the data that helps developers to build technology needs to reflect a diverse range of people. Learn more about why metadata matters.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ათე მუნაჩემეფიშ მიკოდვალა სავალდებულო ვარე - ქიმუწურეთ მუჭო მუგახუჯენანი. კრებულიშ ქჷშაშქუმალაშ დროს მინუობაშ ქჷშაჩინებელი ირი მუნაჩემეფს მუვაშორენთ, თიშენ ნამდა თქვანი სახელი დო ელფოსტა ვარდას მებუნაფილი სქესი დო ასაკიწკუმა. ტექნოლოგიაქ არძას ქჷგმადირთასჷნი, მუნაჩემეფი, ნამუთ დეველოპერეფს ტექნოლოგიაშ აკოქიმინუას ოხვარუნი, შხვადოშხვა კათაში ოკო რდას. ქიგეგით უმოსი, მუშენ რე შანულამი მეტამუნაჩემეფინი.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:self-citation-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This is how you cite yourself if you wrote the content yourself.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მაგალითი, მუჭო ოკო მეუწურუე სკანი ნამუშერი.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-three-more-instruction" srclang="en-US">
@@ -2648,7 +3840,7 @@
 				<seg>Three to go!</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>სუმ კინკილაქ დოსკიდუ</seg>
+				<seg>სუმ ცალქ დოსკიდუ!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:too-many-files" srclang="en-US">
@@ -2656,7 +3848,31 @@
 				<seg>Too many files</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ბრელ ფაილეფ რე.</seg>
+				<seg>ბრელ ფაილეფ რე</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:transcribe" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcribe</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ნაჭარათ მოჩამა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:editbox-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcribe</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ნაჭარათ მოჩამა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:transcribe-audio" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcribe Audio</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>აუდიოში ნაჭარათ მოჩამა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:transcribe-audio-menu-item-aria-label" srclang="en-US">
@@ -2664,7 +3880,7 @@
 				<seg>Transcribe audio recordings into text</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ინოჭარილ ხონარეფიშ ნაჭარათ გინოჩამა.</seg>
+				<seg>ინოჭარილ ხონარეფიშ ნაჭარათ მოჩამა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:transcribe-audio-menu-item-tooltip" srclang="en-US">
@@ -2672,7 +3888,15 @@
 				<seg>Transcribe audio recordings in your language</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ინოჭარილ ხონარეფიშ ტრანსკრიფცია თქვან ნინაშა.</seg>
+				<seg>ინოჭარილ ხონარეფიშ ტრანსკრიფცია თქვან ნინაშა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:transgender" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transgender</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>სქესთირელი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:try-upload-again" srclang="en-US">
@@ -2680,7 +3904,7 @@
 				<seg>Try again by dragging your file here</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ხოლო ქოცადით ფაილიშ თაქ გინოღალა.</seg>
+				<seg>ხოლო ქოცადით ფაილიშ თაქ გინოღალა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:try-upload-again-md" srclang="en-US">
@@ -2688,7 +3912,15 @@
 				<seg>Try uploading again</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ხოლო ქოცადით ეტვირთუა.</seg>
+				<seg>ხოლო ქოცადით გეძინა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:tr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Turkish</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>თურქული</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-link" srclang="en-US">
@@ -2696,7 +3928,15 @@
 				<seg>Understand contribution criteria</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>წილიშ მიშაღალაშ კრიტერიუმეფ ქიგეგით.</seg>
+				<seg>ქიგეგით წილიშ მიშაღალაშ კრიტერიუმეფ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:guidelines-header-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Understand how to contribute and validate sentences and audio clips to the Common Voice dataset</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქოძირით, მუჭო ოკო გეუძინათ დო გინაჯინათ ზიტყვასქვილეფს დო ხონარიშ ინნაჭარეფს Common Voice-იშ მუნაჩემეფიშ ოშაყარუს</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-page-description" srclang="en-US">
@@ -2704,7 +3944,7 @@
 				<seg>Understand what to look for when listening to voice clips and help make your voice recordings richer too!</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ქიგეგით მუს ოკო დეკვირათ ინოჭარილეფიში მორჩქილაფას დო გაუჯგუშით ხონარიშ ინოჭარუა.</seg>
+				<seg>ქიგეგით მუს ოკო დეკვირათ ინოჭარილეფიში მორჩქილაფას დო გაუჯგუშით ხონარიშ ინოჭარუა!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-aborted" srclang="en-US">
@@ -2712,7 +3952,7 @@
 				<seg>Upload aborted. Do you want to delete your recordings?</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ეტვირთუა მეჭყვიდილ რე. თქვანი ინნაჭარეფიშ ლასუა გოკონანო?</seg>
+				<seg>გეძინაქ მეჭყორდჷ. თქვანი ინნაჭარეფიშ ლასუა გოკონანო?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-small-batch-success" srclang="en-US">
@@ -2720,7 +3960,7 @@
 				<seg>{ $uploadedSentences } of { $totalSentences } sentences collected</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>{ $uploadedSentences } წინადადება რე მეღებულჷ { $totalSentences }-შე.</seg>
+				<seg>{ $uploadedSentences } ზიტყვასქვილი რე მეღებულჷ { $totalSentences }-შე.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-response-message" srclang="en-US">
@@ -2728,7 +3968,7 @@
 				<seg>{ $uploadedSentences } of { $totalSentences } sentences collected. Click &lt;downloadLink&gt;here&lt;/downloadLink&gt; to download rejected sentences.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>{ $uploadedSentences } წინადადება რე მეღებულჷ. ქიგუკაკე.&lt;downloadLink&gt; თაქ &lt;/downloadLink&gt; გაგმოტვირთე ვარებულ წინადადებეფინი { $totalSentences } -შე.</seg>
+				<seg>{ $uploadedSentences } ზიტყვასქვილი რე მეღებულჷ. ქიგუკაკე.&lt;downloadLink&gt; თაქ &lt;/downloadLink&gt; გეგნიჭარე ვარებულ ზიტყვასქვილეფენი { $totalSentences } -შე.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-failed-toast" srclang="en-US">
@@ -2736,7 +3976,7 @@
 				<seg>Upload failed, please retry.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ვეიტვირთ, რთხინთ, კინ ქოცადათ.</seg>
+				<seg>ვეგიაძინ, ქორთხინთ, კინ ქოცადათჷნი.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-header" srclang="en-US">
@@ -2744,7 +3984,7 @@
 				<seg>Upload &lt;icon&gt;&lt;/icon&gt; public domain sentences</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გეტვირთით &lt;icon&gt;&lt;/icon&gt; წინადადებეფი საყოველთაო საკუთრებაშე.</seg>
+				<seg>ქიგუძინით &lt;icon&gt;&lt;/icon&gt; ზიტყვასქვილეფი ოირქიანე საკუთრებაშე</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:upload-progress-text" srclang="en-US">
@@ -2752,7 +3992,7 @@
 				<seg>Upload in progress...</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მეურს ეტვირთუა.</seg>
+				<seg>მეურს გეძინა...</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:upload-more-btn-text" srclang="en-US">
@@ -2760,7 +4000,7 @@
 				<seg>Upload more sentences?</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გოკონანო მეტი წინადადებეფიშ ეტვირთუა?</seg>
+				<seg>გოკონანო მეტი ზიტყვასქვილეფიშ გეძინა?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-3" srclang="en-US">
@@ -2768,7 +4008,7 @@
 				<seg>Use correct grammar</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გიმირინეთ წორი გრამატიკა.</seg>
+				<seg>გიმირინეთ წორი გრამატიკა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-4" srclang="en-US">
@@ -2776,7 +4016,7 @@
 				<seg>Use correct spelling and punctuation</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გიმირინეთ წორი ჭარუა დო სასვენი ლიშანეფი.</seg>
+				<seg>გიმირინეთ წორი ჭარუა დო სასვენი ლიშანეფი</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:validate-readings" srclang="en-US">
@@ -2784,7 +4024,7 @@
 				<seg>Validate Readings</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>კითხირიშ დადასტურება.</seg>
+				<seg>კითხირებულიშ გინოჯინა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-contribute-menu-tooltip" srclang="en-US">
@@ -2792,7 +4032,15 @@
 				<seg>Validate Readings, Review Transcriptions</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>კითხირებულიშ დადასტურება, ტრანსკრიფციაშ გინოჯინა.</seg>
+				<seg>კითხირებულიშ დადასტურება, ტრანსკრიფციაშ გინოჯინა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:validate-readings-coming-soon" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate Readings &lt;small&gt;(Coming soon)&lt;/small&gt;</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>კითხირებულიშ გინოჯინა &lt;small&gt; (მალას)&lt;/small&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:validate-readings-menu-item-aria-label" srclang="en-US">
@@ -2800,7 +4048,7 @@
 				<seg>Validate readings submitted by community members</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შეამოწმით ათე ბუნაშ მაკათურეფიშ ნაკითხირეფი.</seg>
+				<seg>ქიგნაჯინით ათე ბუნაშ მაკათურეფიშ კითხირებულეფს</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:validate-readings-menu-item-tooltip" srclang="en-US">
@@ -2808,7 +4056,7 @@
 				<seg>Validate user-recorded readings in your language</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>დადასტურით მომხმარებელეფიშ ნაკითხირა თქვან ნინაშა.</seg>
+				<seg>ქიგნაჯინით მუმახვარებელიშ კითხირებულს თქვან ნინაშა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-title" srclang="en-US">
@@ -2816,7 +4064,39 @@
 				<seg>Varying Pronunciations</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გინორთელი ნათქუელი.</seg>
+				<seg>შხვადოშხვანერი თქუალა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:varying-pronunciations" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Varying Pronunciations</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>შხვადოშხვანერი თქუალა</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:misreadings-explanation-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Very common mistakes include:</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გავრცელებულ შეცთომეფი რე:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:voice-collection" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Voice Collection</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ხონარეფიშ კოლექცია</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:volume" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Volume</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ხონარიშ სიმაღალე</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-volume-title" srclang="en-US">
@@ -2832,12 +4112,20 @@
 				<seg>Want to save your information? &lt;createProfile&gt;Create a profile&lt;/createProfile&gt;</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>გოკონანო თქვან მონაცემეფიშ შენახება? &lt;createProfile&gt; გაკეთით პროფილი &lt;/createProfile&gt;</seg>
+				<seg>გოკონანო თქვან მონაჩემეფიშ შენახება? &lt;createProfile&gt; გაკეთით პროფილი &lt;/createProfile&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-7-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We are going out to get a coffee.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ყავაშ ოშუმუშა გალე გუმმურთ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:misreadings-example-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We are going out to get coffee.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
 				<seg>ყავაშ ოშუმუშა გალე გუმმურთ.</seg>
@@ -2857,7 +4145,7 @@
 Please try again later.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ვეგორ თქვანო ეშაკითხირალ წინადადებეფქ. რთხინთ, ქოცადათ გვიანონი.</seg>
+				<seg>ვეგორ თქვანო მარჩქილაფარ ხონარიშ ინნაჭარეფქ. ქორთხინთ, ქოცადათ კინოხ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:speak-loading-error" srclang="en-US">
@@ -2875,7 +4163,7 @@ Please try again later.</seg>
 Please try again later.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ვეგორ თქვანო ეშაკითხირალი წინადადებეფქ. რთხინთ, ქოცადათ გვიანონი.</seg>
+				<seg>ვეგორ თქვანო ოკითხირალ ზიტყვასქვილეფქ. ქორთხინთ, ქოცადათ კინოხ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state" srclang="en-US">
@@ -2883,7 +4171,7 @@ Please try again later.</seg>
 				<seg>We may have run out of clips - refresh the page, or try again later.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ინნაჭარეფქ გეთუ. გაახალით ხასილა ვარდა ხოლო ქოცადით გვიანო.</seg>
+				<seg>ხონარიშ ინნაჭარეფქ გეთუ. გაახალით ხასილა ვარდა ხოლო ქოცადით კინოხ.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-6-title" srclang="en-US">
@@ -2899,7 +4187,7 @@ Please try again later.</seg>
 				<seg>We're making some big changes</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მნიშვნელოვან ცვლილებეფ რე.</seg>
+				<seg>ბრელ მუთუნს დოფთირანთ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
@@ -2910,6 +4198,22 @@ Please try again later.</seg>
 				<seg>სანარღოთ, თქვან პლატფორმა ასე ხუჯმეჩამილ ვარე.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:pne" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Western Penan</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>გელახონიშ პენანი</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-empty-state" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We've run out of sentences to record in this language...</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>თე ნინაშო ინაჭარალი ზიტყვასქვილეფქ გეშელიუ...</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:speak-empty-state" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We've run out of sentences to record in this language...</seg>
@@ -2918,20 +4222,44 @@ Please try again later.</seg>
 				<seg>ინაჭარალი წინადადებეფქ გეშელიუ თე ნინაშო</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-empty-state" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We've run out of sentences to record in this language...</seg>
-			</tuv>
-			<tuv xml:lang="xmf">
-				<seg>თე ნინაშო ინაჭარალი წინადადებეფქ გეშელიუ.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We want the machine learning algorithms to able to handle a variety of background noise, and even relatively loud noises can be accepted provided that they don’t prevent you from hearing the entirety of the text. Quiet background music is OK; music loud enough to prevent you from hearing each and every word is not.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მოკონა, მანქანურ გურაფაშ ალგორითმეფს  შხვადოშხვა ხონარობაშ ფონს  შეულებუდას მუშობანი. მიბღენთ მაღალ ხონარეფს ხოლო, ხეს ვაუშალენს ნაკითხირ ტექსტიშ გაგონებასდა. ხონარდაბალ მუსიკას ხოლო ვაუჭირს მუთუნი;  ხონარმაღალი მუსიკაშ გამო ზიტყვეფს ვარჩენთჷდა, ქიგუნჭირით ვარიას.</seg>
+				<seg>მოკონა, მანქანურ გურაფაშ ალგორითმეფს  შხვადოშხვა ხონარობაშ ფონს  შეულებუდას მუშობანი. მიბღენთ მაღალ ხონარეფს ხოლო, ხეს ვაუშალენს ნაკითხირა ტექსტიშ გაგონებას-და. ხონარდაბალ მუსიკას ხოლო ვაუჭირს მუთუნი;  ხონარმაღალი მუსიკაშ გამო ზიტყვეფს ვარჩენთჷ-და, ქიგუნჭირით ვარიას.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:varying-pronunciations-explanation-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We welcome different accents! Be very cautious before rejecting a clip on the ground that you think the reader has mispronounced a word, has put the stress in the wrong place, or has ignored punctuation. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a generous margin of appreciation for those who may speak differently from you.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>თხილას ორდათ ინნაჭარაშ ვარებაშახ, მუჟამს საქვარ ოხუ ზიტყვაშ უწორო თქუალას, მახვილიშ შხვა არდგილს გეშკვაფას ვარდა კითხვაშ ლიშანიშ გილაჸუბეჩუას. მუშენდა ართ ნინას ბრელ შხვადოშხვანერი თქუალა რე, ნამუშ უმენტაშობა შილებე მორჩქილაფირი ვაგაფუდანინი. ქორთხინთ, გეთვალისწინათ თინეფ ხოლო, მით შხვადოშხვანერო იჩიებუნანი.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:prompt-bubble-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We will show you a prompt or question</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ჩქი გოძირანთ მოთხუალას ვარდა ოკითხუეფს</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-modal-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What issues are you experiencing with this content?</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მუ კილი უღუ თე ზიტყვასქვილეფს?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-ask" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What issues are you experiencing with this sentence?</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მუ კილი უღუ თე ზიტყვასქვილეფს?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-ask" srclang="en-US">
@@ -2942,12 +4270,20 @@ Please try again later.</seg>
 				<seg>მუ კილი უღუ თე წინადადებეფს?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-ask" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:age-select-label" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>What issues are you experiencing with this sentence?</seg>
+				<seg>What is your age?</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მუ კილი უღუ თე წინადადებეფს?</seg>
+				<seg>მუ ხანიშ რეთ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:gender-select-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What is your sex or gender?</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>თქვანი სქესი ვარდა გენდერი?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:what-needs-to-be-in-file" srclang="en-US">
@@ -2955,7 +4291,7 @@ Please try again later.</seg>
 				<seg>What needs to be in my file?</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მუს ოკო შიცვენდას ფაილი?</seg>
+				<seg>მუ ოკო რდას ჩქიმ ფაილს?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-review-write-title" srclang="en-US">
@@ -2963,7 +4299,7 @@ Please try again later.</seg>
 				<seg>What sentences can I add?</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მუ წინადადებეფი შემლებუ გევუძინენი?</seg>
+				<seg>მუ ზიტყვასქვილეფი შემლებუ გევუძინენი?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description" srclang="en-US">
@@ -2971,7 +4307,7 @@ Please try again later.</seg>
 				<seg>When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. &lt;br /&gt;Very common mistakes include:</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>მუჟამს ურჩქილექჷნი, გურჩამილო შიამოწმი ინნაჭარას ქირჩქილე თუ ვარი თინიერო მუთ თექ ჭარუნი; ჭიჭე ეჩილათირი ქოძირითდა, ვარია გიმეჩით. &lt;br /&gt; შხირი აშაჩილათეფი რე:</seg>
+				<seg>მუჟამს ურჩქილექჷნი, გურჩამილო ქიგნაჯინი ინნაჭარას ქირჩქილე თუ ვარი თინიერო მუთ თექ ჭარუნი; ჭიჭე ეჩილათირი ქოძირითდა, ვარია გიმეჩით. &lt;br /&gt; შხირი აშაჩილათეფი რე:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate" srclang="en-US">
@@ -2982,12 +4318,28 @@ Please try again later.</seg>
 				<seg>მუშენ მოკითხჷქ?</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:why-are-you-asking" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why are you asking?</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მუშენ მოკითხუთ?</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:second-cta-subtitle-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>With a profile, you can keep track of your activity and connect with a community of voice data contributors.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
 				<seg>თე პროფილით თოლი ქუჸუნეთ თქვანი წიმე ულას დო ქაკათით ხონარეფიშ ინმაჭარალეფიშ ბუნას.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:hch" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Wixarika</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ვიქსარიკა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write" srclang="en-US">
@@ -2998,12 +4350,28 @@ Please try again later.</seg>
 				<seg>ჭარუა</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-transcribe-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Write down exactly what the person said, including placeholder words like 'um', or 'errr'.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ქეცადით, აიწორო დოჭარათ, მუსუთ ხონარიშ ინნაჭარას გეგენთჷნი, არდგილიშ ინმაფშაფალი გოზინდილი ბგერეფ ხოლო, მაგალთო, "ჰმ", "ეეჰ".</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:editbox-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Write down what you hear the person saying here</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>კოჩიშ ნარაგადი, მუსუთ ირჩქილეთჷნი, დოჭარით</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-contribute-menu-aria-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Write options menu</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>პარამეტრეფიშ მენიუშ ჭარუა.</seg>
+				<seg>დოჭარით პარამეტრეფიშ მენიუშ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-vote-yes" srclang="en-US">
@@ -3043,7 +4411,7 @@ Please try again later.</seg>
 				<seg>You can also use Keyboard Shortcuts: { sc-review-form-button-approve-shortcut } to Approve, { sc-review-form-button-reject-shortcut } to Reject, { sc-review-form-button-skip-shortcut } to Skip</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>შეილებუნა ღილაკეფ გიმირინუათ ომართალო: { sc-review-form-button-approve-shortcut } რე დასამოწმებელო{ sc-review-form-button-reject-shortcut } ოვარებელო დო { sc-review-form-button-skip-shortcut } გიშატებელო.</seg>
+				<seg>შეილებუნა ღილაკეფ გიმირინუათ ომართალო: { sc-review-form-button-approve-shortcut } რე დასამოწმებელო, { sc-review-form-button-reject-shortcut } ოვარებელო, { sc-review-form-button-skip-shortcut } გიშატებელო</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:multiple-sentences-error" srclang="en-US">
@@ -3051,7 +4419,15 @@ Please try again later.</seg>
 				<seg>You cannot add multiple sentences for a single submission</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ვეგგაძინინენა წინადადება თიო-თიოთ მიშაღალაშ დრო.</seg>
+				<seg>ვეგგაძინინენა ართ-ჟირ ზიტყვასქვილი თიო-თიოთ მიშაღალაშ დროს</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:citing-sentences-subheader-websites-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You could include the website, e.g "Common Voice - https://commonvoice.mozilla.org/"</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>შეილებუნა ქიმუწურუათ ვებსაიტი, მაგალთო "Common Voice - https://commonvoice.mozilla.org/''</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-lang-not-selected" srclang="en-US">
@@ -3067,7 +4443,7 @@ Please try again later.</seg>
 				<seg>You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>თქვა ქიმიაღწით ჯღონაშ სანზღვარს თე გვერდის. რთხინთ, ქიმიცადათ { $retryLimit } წუთი ახალ წინადადებაშ ჯღონაშახ. მარდი, მოთმენაშენი.</seg>
+				<seg>თქვა ქიმიონჭირინეთ ჯღონაშ ლიმიტის თე ხასლას. ქორთხინთ, ქიმიცადათ { $retryLimit } წუთი ახალ ზიტყვასქვილიშ ჯღონაშახ. მარდი, მოთვინებაშენი!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-message-seconds" srclang="en-US">
@@ -3075,7 +4451,23 @@ Please try again later.</seg>
 				<seg>You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>თქვა ქიმიაღწით ჯღონაშ სანზღვარს თე გვერდის. რთხინთ, ქიმიცადათ { $retryLimit } წამი ახალ წინადადებაშ ჯღონაშახ. მარდი, მოთმენაშენი.</seg>
+				<seg>თქვა ქიმიონჭირინეთ ჯღონაშ ლიმიტის თე ხასლას. ქორთხინთ, ქიმიცადათ { $retryLimit } წამი ახალ ზიტყვასქვილიშ ჯღონაშახ. მარდი, მოთვინებაშენი!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:locale-change-modal-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have unsaved changes on this page. If you change the locale, your changes will not be saved. Are you sure you want to change the locale?</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ათე ხასილას ცვლილებეფი ვეშეინახებუნა. ნინაშ თირუაშ დროს მიშაღალი ცვლილებეფი მედინუ. ნანდულო გოკონანო ნინა დოთირუათჷნი?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:navigation-away-modal-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have unsaved changes on this page. If you leave this page, your changes will not be saved. Are you sure you want to leave this page?</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ათე ხასილას ცვლილებეფი ვეშეინახებუნა. ასე გიშელენთ თე ხასილაშე-და, ცვლილებეფი მეიდინუნა. ნანდულო გოკონანო გიშელათ თე ხასილაშენი?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
@@ -3086,12 +4478,28 @@ Please try again later.</seg>
 				<seg>მიკროფონიშ გუმორინაფაშ ნება ქიმეჩით.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:mic-access-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You must allow microphone access.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>მიკროფონიშ გუმორინაფაშ ნება ქიმეჩით.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:background-noise-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You need to be able to hear every word of the recording. We want machine learning algorithms to be able to handle a variety of background noise, and even relatively loud noises or quiet background music can be accepted provided that they don’t prevent you from hearing the entirety of the text. Crackles or ‘breaking up’ that prevent you hearing the text means you should reject the clip.</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>ინნაჭარას არძა ზიტყვა კარაკანო ოკო ირჩქილედას. მოკონა, მანქანურ გურაფაშ ალგორითმეფს  შხვადოშხვა ხონარობაშ ფონს  შეულებუდას ზიტყვეფიშ გჷშაჩინება. მიბღენთ მაღალ ხონარეფს, წყნარ მუსიკას ხოლო, ხეს ვაუშალენს ზიტყვეფიშ გაგონებასდა. რშიალი ხეს ქოიშალჷნა ზიტყვასქვილეფიშ მორჩქილას-და, ვარიას ქიგუნჭირით.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-generic-card" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You’re contributing to a target segment</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>თქვა წილი მიშაიღუნა მიზანიერ სეგმენტიშა.</seg>
+				<seg>თქვა წილი მიშაიღუნა მიზანიერ სეგმენტიშა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-first-card" srclang="en-US">
@@ -3099,7 +4507,7 @@ Please try again later.</seg>
 				<seg>You’re contributing to our first target segment</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>თქვა წილი მიშაიღუნა ჩქინი მაართანი მიზანიერ სეგმენტიშა.</seg>
+				<seg>თქვა წილი მიშაიღუნა ჩქინი მაართანი მიზანიერ სეგმენტიშა</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-error-rate-limit-exceeded" srclang="en-US">
@@ -3107,7 +4515,7 @@ Please try again later.</seg>
 				<seg>You're going too fast. Please take a moment to review the sentence to make sure it's correct.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ჩქარენთ. რთხინთ, დრო დუთმათ წინადადებეფიშ გინოჯინას, დერწმუნით ნამდა წორი რე.</seg>
+				<seg>ჩქარენთ. ქორთხინთ, ართ წუთი დუთმათ ზიტყვასქვილეფიშ გინოჯინასჷნი, ჯგირო დერწმუნით ნამდა თე ზიტყვა წორი რე.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-submission-success-subheader" srclang="en-US">
@@ -3115,7 +4523,7 @@ Please try again later.</seg>
 				<seg>You're helping Common Voice reach our daily sentence goals!</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>თქვა ოხვარუთ Common Voice-ის წინადადებეფიშ ოშაყარუშ დღიურ მიზანიშ მიღწევას!</seg>
+				<seg>თქვა ოხვარუთ Common Voice-ის ზიტყვასქვილეფიშ შაყარუაში დღაშ ღანკიში მეჭირინაფას!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state-variants" srclang="en-US">
@@ -3123,15 +4531,7 @@ Please try again later.</seg>
 				<seg>Your language variant might be out of clips! If you’re comfortable, you can change your settings to see other sentences within your language.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>ნინაში გიშაგორილ ნერობაშო შილებე წინადადებეფქ ეშალიებურქ იუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი წინადადებეფი ხოლო ქოძირათ თე ნინაშე.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:no-sentences-for-variants" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Your language variant might be out of sentences! If you’re comfortable, you can change your settings to see other sentences within your language.</seg>
-			</tuv>
-			<tuv xml:lang="xmf">
-				<seg>ნინაში გიშაგორილი სახეობაშო შილებე წინადადებეფქ ეშალიებურქ იუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი წინადადებეფი ხოლო ქოძირათ თე ნინაშე.</seg>
+				<seg>ნინაში გიშაგორილ ნერობაშო შილებე ზიტყვასქვილეფქ ეშალიებურქ იჸუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი ზიტყვასქვილეფი ხოლო ქოძირათ თე ნინაშენი.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:no-sentences-for-variants" srclang="en-US">
@@ -3142,12 +4542,12 @@ Please try again later.</seg>
 				<seg>ნინაში გიშაგორილი სახეობაშო შილებე წინადადებეფქ ეშალიებურქ იუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი წინადადებეფი ხოლო ქოძირათ თე ნინაშე.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-recording" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:no-sentences-for-variants" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } recording goal!</seg>
+				<seg>Your language variant might be out of sentences! If you’re comfortable, you can change your settings to see other sentences within your language.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>თქვანი მოხვარათ Common Voice -იშ  დღარ მიზანიში { $goalValue } ინნაჭარში &lt;goalPercentage&gt;&lt;/goalPercentage&gt; შისრულუ!</seg>
+				<seg>ნინაში გიშაგორილი ნერობაშო შილებე ზიტყვასქვილეფქ ეშალიებურქ იჸუას. თქვანო უხუჯური ვეუაფუდა, შეილებუნა დოთირუათ პარამეტრეფი, შხვანერი ზიტყვასქვილეფი ხოლო ქოძირათ თე ნინაშენი.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:goal-help-recording" srclang="en-US">
@@ -3158,12 +4558,12 @@ Please try again later.</seg>
 				<seg>თქვანი მოხვარათ Common Voice -იშ  დღარი ღანკიში { $goalValue } ინაჭარში &lt;goalPercentage&gt;&lt;/goalPercentage&gt; შისრულუ!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-validation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
+				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } recording goal!</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
-				<seg>თქვანი მოხვარათ Common Voice-იშ დღარი მიზანიში { $goalValue } შემოწმებაში &lt;goalPercentage&gt;&lt;/goalPercentage&gt; შისრულუ!</seg>
+				<seg>თქვანი მოხვარათ Common Voice -იშ  დღაში ღანკიში { $goalValue } ინნაჭარში &lt;goalPercentage&gt;&lt;/goalPercentage&gt; შისრულუ!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:goal-help-validation" srclang="en-US">
@@ -3172,6 +4572,14 @@ Please try again later.</seg>
 			</tuv>
 			<tuv xml:lang="xmf">
 				<seg>თქვანი მოხვარათ Common Voice-იშ დღარი ღანკიში{ $goalValue } შემოწმებაში &lt;goalPercentage&gt;&lt;/goalPercentage&gt; შისრულუ!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-validation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
+			</tuv>
+			<tuv xml:lang="xmf">
+				<seg>თქვანი მოხვარათ Common Voice-იშ დღაში ღანკიში { $goalValue } გინოჯინაში &lt;goalPercentage&gt;&lt;/goalPercentage&gt; შისრულუ!</seg>
 			</tuv>
 		</tu>
 	</body>

@@ -1,7 +1,929 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-03-01T00:37:08.748610">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-04-01T00:39:35.078384">
 	</header>
 	<body>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-rerecord-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[1-5]</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>[1-5]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:about" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>About</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Ku saabsan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-add-voice" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add Your Voice</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Kudar Codkaaga</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A quiet background hubbub is OK, but we don’t want additional voices that may cause a machine algorithm to identify words that are not in the written text. If you can hear distinct words apart from those of the text, the clip should be rejected. Typically this happens where the TV has been left on, or where there is a conversation going on nearby.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Sawaxan gadaaleed daggan waa OK, balse ma doonayno codad dheeraad ah oo sababi kara algorithm-ka mashiinka inuu u u maleeyo ereyo aan ku jirin qoraalka inay ku jiraan. Haddii aad maqasho ereyo gaar ah oo ka duwan kuwa qoraalka, codkaas waa in la diidaa. Caadi ahaan tani waxay  dhacdaa marka TV daaran yahay, ama meesha lagu sheekaysanayo.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-example-1-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Are you coming? &lt;strong&gt;[called by another]&lt;/strong&gt;</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Ma imanaysaa? &lt;strong&gt;[mid kalaa yiri]&lt;/strong&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Noise</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Guux gadaaleed</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Voices</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Sawaxanka gadaal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Be cautious before rejecting a clip on the ground that the reader has mispronounced a word, has put the stress in the wrong place, or has apparently ignored a question mark. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a margin of appreciation for those who may speak differently from you.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Ka digtoonow ka hor inta aanad diidin cod akhristuhu kelmad si khaldan ugu dhawaaqay, culayska saaray (shaday) meel qaldan, ama sida muuqata uu iska indho-tiray calaamad su’aal. Waxaa jira dhawaaqyo badan oo kala duwan oo adduunka laga isticmaalo, kuwaas oo qaarkood laga yaabo inaadan ku maqlin bulshada deegaankaaga. Fadlan qaddari dadka u hadla si ka duwan qaabkaaga.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-1-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>['Beret' waa sax haddii ku dhawaaqidda xoogga lasaaro (la shado) xarafka koowaad (UK) ama kan labaad (US)]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:clips-with-count-pluralized" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; Clips</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>	&lt;bold&gt;{ $count }&lt;/bold&gt; Codad</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>&lt;bold&gt;Nagu caawi&lt;/bold&gt; n aan helno codad dheeraad ah</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:change-preferences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Change preferences</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Beddel dookhyada</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-less" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;See less</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;wax yar eeg</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;See more</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;Waxdheeraada eeg</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-click" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Guji</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-other-comment" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Comment</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Faallo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Sii wad</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Ka qayb qaado</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-empty-state-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute sentences</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Kaga qeyb qaado weedho</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-page-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribution Criteria</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Shuruudaha/ halbeegyada wax ku biirinta</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-nav" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Criteria</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Halbeegyo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:datasets" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Datasets</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Xirmo xog</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Different language</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Luuqad ka duwan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-difficult-pronounce" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Difficult to pronounce</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Way adag tahay in lagu dhawaaqo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Discard ongoing recording</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Tuur duubista socota</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Don't see your language on Common Voice yet?</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Weli Kuma aadan arag luqadaada Common Voice miyaa?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>ESC</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>ESC</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-for-example" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>for example</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>tusaale ahaan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-grammar-or-spelling" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Grammatical / spelling error</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Khalad naxwe / higaad</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-first-banner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help create Common Voice’s first target segment in { $locale }</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Nagu Caawi abuurista qaybta bartilmaameedka koowaad ee Common Voice ee { $locale }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>His hand was rais-ed.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Gacantiisa kor baa loo qaaday.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description-extended" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Haddii duubistu kala go'do, ama ay leedahay jabaqyo, iska diid ilaa in qoraalka oo dhan la wada maqli karo maahee.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Haddii duubistu kala go'do, ama ay leeyahay jabaqyo, diid in qoraalka oo dhan la  wada maqlayo maahee.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Haddii aad la kulanto wax aanay hagayaashan tilmaamayn, fadlan u codee si waafaqsan qiyaastaada ugu fiican. Haddii aadan go'aan gaari karinna, isticmaal badhanka skip "ka gudub" una gudub duubista xigta.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-difficult-pronounce-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It contains words or phrases that are hard to read or pronounce.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waxaa ku jira erayo ama weedho ay adag tahay in la akhriyo ama lagu dhawaaqo.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It is written in a language different than what I’m speaking.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waxaa lagu qoray luqad ka duwan midda aan ku hadlayo.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Just Unsure?</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waadan hubtid uun miyaa?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:keep-track-profile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep track of your progress with a profile</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>La soco horumarkaaga adiga oo adeegsanaya profile</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:languages" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Languages</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Luuqado</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn More</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Sii baro wax dheeraad ah</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-to-get-started" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log in or sign up to get started</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Soo gal ama is diiwaan geli si aad u bilowdo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log In / Sign Up</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Soo gal / Is diiwaan gali</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-8-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Mismatched content]</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>[Xog aan is-waafaqsanayn]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Misreadings</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Akhris qaldan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Missing an &lt;strong&gt;'s'&lt;/strong&gt; at the end of a word.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waxaa ka maqan &lt;strong&gt;'s' &lt;/strong&gt; dhamaadka erey.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Missing &lt;strong&gt;'A'&lt;/strong&gt; or &lt;strong&gt;'The'&lt;/strong&gt; at the beginning of the recording.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waxaa ka maqan &lt;strong&gt;'A'&lt;/strong&gt;ama &lt;strong&gt;' The'&lt;/strong&gt;bilowga duubista.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Missing the end of the last word by cutting off the recording too quickly.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Maqan dhamaadka ereyga u dambeeya iyadoo loo joojiyay duubista si degdeg ah.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-4-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[More has been recorded than the required text]</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>[In ka badan ayaa la duubay qoraalka loo baahan yahay]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Inta badan duubitaannada waa dad ku hadlaya codkooda dabiiciga ah. Waad aqbali kartaa duubista dhifta ah ee khilaafsan halbeegga caadiga a ee la qeylinayo, ama si saa'id ah hoos loogu hadlayo, ama cod ka 'badbadis' loogu gudbinayo cod. Fadlan diid duubitaanka heesaha iyo kuwa isticmaalaya cod kumbiyuutar lagu farsameeyay oo macmal ah.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-vote-no" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>n</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>n</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Maya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-7-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[No ‘a’ in the original text]</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>[Maya 'a' qoraalka asalka ah]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Offensive language</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Af xun</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-speech" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Offensive speech</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Hadal aflagaado ah</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-1-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On his head he wore a beret.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Madaxiisa waxa uu gashaday koofiyad.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description-extended" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Dhanka kale, haddii aad u malaynayso in akhristuhu ay u badan tahay in aanu waligiis hore u arag ereyga, oo uuna si khaldan ugu dhawaaqayo, fadlan diid. Haddii aadan hubinna, isticmaal badhanka Skip.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>p</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>P</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:partner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Partner</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Wadaay</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-2-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Part of the text can’t be heard]</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>[Qayb ka mid ah qoraalka lama maqli karo]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Play/Stop</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Wad/Jooji</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-record-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>r</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>r</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[‘Raised’ in English is always pronounced as one syllable, not two]</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>['Raised' Ingiriis ahaan mar walba waxaa loogu dhawaaqaa hal xaraf, ee maaha laba]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reader Effects</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Saamaynaha akhristaha</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Akhrinta ereyada lasoo gaabiyay oo aan dhab ahaan meesha ku jiran, sida "We're" halkii la oran lahaa "We are", ama lidka.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ready to do { $count } more?</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Diyaar ma u tahay in aad wax ka badan { $count } sii qabato?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-3-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Recording cut off before the end of the last word]</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>[Duubista way go'day ka hor dhamaadka ereyga u dambeeya]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-record-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record/Stop</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Duub/Jooji</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:record-button-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record your voice</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Duub codkaaga</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Report</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Ka warbixi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Report was passed successfully</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Warbixinta si guul leh ayaa loo gudbiyay</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Request a Language</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Codso Luuqad</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-rerecord-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Re-record clip</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Dib u duub codka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Return</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Ku noqo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:review" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Dib u eeg</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>s</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>s</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcuts" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Shortcuts</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waddo gaaban</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-2-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Should be ‘dinosaurs’]</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>[Waa inuu noqdaa 'daynasoor']</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-6-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Should be “We are”]</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>[Waa inay noqotaa "Waxaan nahay"]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Ka bood</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-3-fixed-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;strong&gt;[Crackle]&lt;/strong&gt; giant dinosaurs of &lt;strong&gt;[crackle]&lt;/strong&gt; -riassic.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>&lt;strong&gt;[Jabaq]&lt;/strong&gt;Daynasoorrada waaweyn ee&lt;strong&gt;[jabaq]&lt;/strong&gt; -riassic.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-1-fixed-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;strong&gt;[Sneeze]&lt;/strong&gt; The giant dinosaurs of the &lt;strong&gt;[cough]&lt;/strong&gt; Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>&lt;strong&gt;[ hindhiso ]&lt;/strong&gt;Daynasoorrada waaweyn ee&lt;strong&gt;[qufac]&lt;/strong&gt; Triassic.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Gudbi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit a report</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Gudbi warbixin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Soo gudbi muuqaallo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Success</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Guul</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Taking several attempts to read a word.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waxay qaadanaysaa Isku dayo dhowr ah in la akhriyo erey.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-speech-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The clip has disrespectful or offensive language.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Codkan waxaa ku jira ixtiraam darro ama af xumo.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-2-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaur of the Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Daynasoor-ka weyn ee Triassic.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-3-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaurs of the Triassi-.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Daynasoor-ka weyn ee Triassi-.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-1-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaurs of the Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Daynasoorrada waaweyn ee Triassic.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-example-1-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaurs of the Triassic. &lt;strong&gt;[read by one voice]&lt;/strong&gt;</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Daynasoorrada waaweyn ee Triassic. &lt;strong&gt;[waxaa akhriyey hal cod]&lt;/strong&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-4-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaurs of the Triassic. Yes.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Daynasoorrada waaweyn ee Triassic. Haa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-2-fixed-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dino &lt;strong&gt;[cough]&lt;/strong&gt; the Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Dino weyn&lt;strong&gt;[qufac]&lt;/strong&gt; Triassic.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-volume-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waxaa jiri doona kala duwanaansho dabiici ah oo heerka codka ah oo u dhexeeya akhriyayaasha. Diid kaliya haddii heerka codku aad u sarreeyo oo ay duubistu kala go'ayso, ama (inta badan) haddii ay aad u hooseeyso oo aadan maqli karin waxa la sheegayo ilaa adigoon dib u tixraacin qoraalka qoran.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-grammar-or-spelling-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence has a grammatical or spelling error.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Weedhu waxaa ku jira khalad naxwe ama higaad.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence has disrespectful or offensive language.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Jumladdan waxaa ku jira ereyo ixtiraam darro ah ama meel ka dhac ah.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Understand contribution criteria</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Faham halbeegyada wax ku biirinta</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-page-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Understand what to look for when listening to voice clips and help make your voice recordings richer too!</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Fahan waxa ay tahay in laga eego marka la dhegaysanayso maqaallada codka oo ka caawi in aad duubista codkaaga ka dhigto mid sii fiican!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Varying Pronunciations</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Ku dhawaaqid kala duwan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-volume-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Volume</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Heerka codka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-7-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We are going out to get a coffee.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waxaan u baxaynaa inaan qaxwo soo qaadanno.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-5-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We are going out to get coffee.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waxaan u baxaynaa sii aan kafee usoo cabno.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-loading-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We couldn’t get any sentences for you to speak.
+Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waanu heli kari waynay wax weedho ah oo aad ku hadasho.
+Fadlan isku day mar kale hadhow.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-6-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We’re going out to get coffee.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waxaan u baxaynaa si aan kafee usoo qaadanno.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-empty-state" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We've run out of sentences to record in this language...</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waxaa naga dhammaaday weedhaha aynu ku diiwaan galin lahayn luqaddan...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We want the machine learning algorithms to able to handle a variety of background noise, and even relatively loud noises can be accepted provided that they don’t prevent you from hearing the entirety of the text. Quiet background music is OK; music loud enough to prevent you from hearing each and every word is not.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waxaan rabnaa algorithms-ka barashada mashiinka macmalka ah inuu awood u yeesho inuu xakameeyo guuxa iyo dhawaaqyada gadaal ee kala duwan, iyo xitaa in qaylada dheer la aqbali karo waa haddii aysan kaa joojineynin inaad maqasho maqaalka oo dhan. Muusiga  daggan waa OK; balse maya muusig sawaxankiisu kaa horistaagaya inaad maqasho eray kasta.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-ask" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What issues are you experiencing with this sentence?</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Maxay yihiin caqbabadaha aad kala kulmeyso jumladan?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. &lt;br /&gt;Very common mistakes include:</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Markaad dhegaysanayso, si taxaddar leh u hubi in waxa la duubay ay yihiin wixii la qoray; diid haddii ay jiraan xitaa khaladaad yaryar. &lt;br /&gt; Khaladaadka u badan waxaa ka mid ah:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-vote-yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>y</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>y</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Haa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-generic-card" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You’re contributing to a target segment</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waxaad wax ku biirinaysaa qayb bartilmaameed ah</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-first-card" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You’re contributing to our first target segment</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waxaad wax ku biirinaysaa qaybta bartilmaameedkayaga koowaad</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:no-sentences-for-variants" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your language variant might be out of sentences! If you’re comfortable, you can change your settings to see other sentences within your language.</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Lahjadda luqaddaada waxaa laga yaabaa inay weedhaha ka dhammaadeen! Haddii aad ku qanacsantahay, waxaad baddali kartaa hagaha "Settings" si aad u aragto jumlado kale oo ku jira luqaddaada.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } recording goal!</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waxaad ka caawisay Common Voice inay gaarto &lt;goalPercentage&gt;&lt;/goalPercentage&gt; yoolkeenna qabashada maalinlaha ah ee { $goalValue }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-validation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
+			</tuv>
+			<tuv xml:lang="so">
+				<seg>Waxaad ka caawisay Common Voice gaaridda &lt;goalPercentage&gt;&lt;/goalPercentage&gt; yoolkeenna hubinta maalinlaha ah ee { $goalValue }</seg>
+			</tuv>
+		</tu>
 	</body>
 </tmx>

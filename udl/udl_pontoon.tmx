@@ -1,7 +1,2771 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-04-01T00:40:22.821623">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-05-01T00:37:46.239967">
 	</header>
 	<body>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-rerecord-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[1-5]</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>[1-5]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentence-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>1 sentence collected</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma məgwatsara ahe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>2 down, keep it up!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>A təmay bəratso&lt;playIcon&gt;&lt;/playIcon&gt; kuləmaloŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:about" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>About</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>A ɗəlereŋ a</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:accepted-files" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Accepted file types: .tsv only</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Tsəba anaŋ məpakwiyo ahe ɗi ane a zayaka: .tsv tsəheɗ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; Ma atu  a wudəderge vo kaləkala ziŋga ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>{ $actionType }&lt;recordlcon&gt;&lt;/recordlcon&gt;nde wudəm ma áne ənta məməlo zlaŋa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>{ $actionType }&lt;stoplcon&gt;&lt;/stoplcon&gt; sek seleŋ andav</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-submit-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } submit when ready</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>{ $actionType } təlmaro ana akəslemeŋerge vo ve</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-contribute-menu-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add and Review Sentences, Add Questions, Transcribe Audio</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mefekenege ndi məɗeleŋyo i ma ɗi, mefekenege ma məɗaviyo ɗi, məpakiyo i anaŋ mətsəŋ yo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add &lt;icon&gt;&lt;/icon&gt; a public domain sentence</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Femekenege &lt;icon&gt;&lt;/icon&gt; ma i məgurakwiyo i ŋgumna</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:add-information-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add information</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Femekenege alabara ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentences-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add new sentences for the community to read</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Femekenege a ma ɗi awehe ane bəra mewuday</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add one sentence per line</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Fekenege ma seleŋ aka məltivi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-questions-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add questions in your language</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Femekenege ma mədaviyo a ma bəra gukuli ge</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add Sentences</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Fəmekenege ma ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentences-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add sentences in your language</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Femekenege ma ɗi a ma bəra gukuli ge</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add up to 1,000 sentences</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Femekenege ha ma ɗi dəbbo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-add-voice" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add Your Voice</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>ənta məvəlar məməlo gukuli</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:agriculture_food" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Agriculture and Food</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məɓəs avuh ənta məgiya jardian ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>All sentence must have the same domain</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma ɗi ham te məreŋ məguraka seleŋ kaɗa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-6" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>All sentences must have the same citation</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma ɗi ham te məreŋ ghar mətegiyo i merez məpekerge ahe seleŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:already-have-an-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Already have an account? &lt;login&gt;Log-In&lt;/login&gt;</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Akənay ənta dzəɓər gukuli ziŋga ?&lt;login&gt;Məmesleŋvo&lt;/login&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sentences-fetch-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred fetching sentences</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Sləkəts anay awəge a sarta məhwal ma ɗi age.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred reviewing this sentence</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Sləkəts anay awəge a sarta məɗəleŋ ma age.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred submitting your voice information</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ anay wara a nzerege sarta mətal labara i ghunakw i məməlo gukuli ɗi atu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Approve</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mezayaka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A quiet background hubbub is OK, but we don’t want additional voices that may cause a machine algorithm to identify words that are not in the written text. If you can hear distinct words apart from those of the text, the clip should be rejected. Typically this happens where the TV has been left on, or where there is a conversation going on nearby.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ghi ma aslane dayday di ŋguləm, ama məməlo ɗi inisi di  ane məslahoŋ məwuraya mawudiya ma ane anay daw a mawudiya məpako  ahe age. Ana akaslahoŋ mətseneŋ ma ɗi taŋtaŋ ənta ma ɗi  aslane məpakwiyo ahe di anaŋ məgusiyo atu tə məsara. natatahtu a gawyavo ana tə məro tele anzakaŋ məbanko ahe dəkəni bi ana məpaza ghar anay aka tsəkel.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-example-1-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Are you coming? &lt;strong&gt;[called by another]&lt;/strong&gt;</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Kə wara ya ? &lt;strong&gt; [mewuderge ənta məməlo inisi]&lt;/strong&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ask us questions on &lt;matrixLink&gt;Matrix&lt;/matrixLink&gt;, &lt;discourseLink&gt;Discourse&lt;/discourseLink&gt; or &lt;emailLink&gt;email&lt;/emailLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Nɗewemehe ma gukuli ɗi aka &lt;matrixLink&gt;Matrix&lt;/matrixLink&gt;,&lt;discourseLink&gt;ma məpazaghar&lt;/discourseLink&gt;dəkeni&lt;emailLink&gt; ada aslam məmas liter age&lt;/emailLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:automotive_transport" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Automotive and Transport</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mə sləmeŋ mota ɗi ənta anaŋ mə takway anaŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Noise</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ghi ma ane atəmeŋ dzəna</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Voices</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məməlo ane kuleɗ ənta i merɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Be cautious before rejecting a clip on the ground that the reader has mispronounced a word, has put the stress in the wrong place, or has apparently ignored a question mark. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a margin of appreciation for those who may speak differently from you.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Fəmawo haŋkala ndala akə məsara anaŋ ane merez asər daw bi məməlo gata ani taŋtaŋ dekeni a wuday gwalaŋ gwalaŋ daw  voyele di ɓal, bi aslam məndaway anaŋ. Məməlo di tənay taŋtaŋ-taŋtaŋ  ane təgəra azler a doniya age, ane bi ɓal aku tsəneŋ daw a məgərako gukuli age.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-1-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mətalma war i muta ane ane awalaŋ ara  atu di bakalkala kava akutsineŋ «vagon» (FR) dekeni (BE)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:clips-with-count-pluralized" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; Clips</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt;mətsuɗiyo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>&lt;bold&gt;Zezemeke&lt;/bold&gt; aka medzako ghunak i ma awehe ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-sentence" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bulk batch</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ mətegiwo azlehe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-success-toast" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bulk Sentences Uploaded</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma ɗi tə nzi ve</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-subtitle-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By telling us about yourself, you will help developers build more inclusive technology</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Akə fakuma aka anə akə wudakama həhəme akə wudama wele ya ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By using Common Voice, you agree to our &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>A məgəra aslər age ənta common voice akəzayaka &lt;termslink&gt;ma məgurakwiyo i aslər gəli ɗi &lt;/termsLink&gt;ənta&lt;privacyLink&gt;Gəli dabaray i mənzəyakaŋ ənta məŋgahara anaŋ inisi ɗi&lt;/privayLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel Re-recording</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Memeɗeŋerge məgus anaŋ ane aŋəraka vo atu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel Submission</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Peteŋerge Mətalyo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:exceeds-small-batch-limit-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cannot submit more than 1000 sentences</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Agiya vo məpawo ma ɗi atəmaka aka dəbbo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:change-preferences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Change preferences</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mbeɗerge aslam ɗi ane məzazakwakw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Check &lt;icon&gt;&lt;/icon&gt; is this a linguistically correct sentence?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>ɗələmeŋ&lt;icon&gt;&lt;/icon&gt;anà ma anay tsəneŋga kava lakwa ane aɗelereŋ a lakwan i ma mewudiya.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-less" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;See less</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;Bəmaro məgwaviyo kindekw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;See more</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;Bəmaro məgwaviyo aŋgwalaŋ zlavaŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:citation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Citation</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ghar mətəgwiyo i mərez</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite-explanation-bold" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cite with a URL link or the full name of the work.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Təgum ənta mə felenge yagha dəkəni sləmay məpakwiyo ahe ham i aslər.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-click" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Tsakway aka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:clips-uploaded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clips Uploaded</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Wuluɗ war vidiyo amaɗ age</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-other-comment" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Comment</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məpazaghar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:contact-us" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contact Us</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Telemma</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məŋgaka aka sek</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue validating</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Walaŋ məzayaka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mətsekwege</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-empty-state-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute sentences</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Kuhəray akamá ma inisi ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-page-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribution Criteria</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məməlo ma məfərawo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:create-profile-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Create a profile</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məvəɗ anaŋ ane tə slahoŋ məsərkuliri ənta nat</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-nav" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Criteria</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məməlo ma</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:datasets" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Datasets</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Gelaw i ma ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete my recordings</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mə memeɗeŋ anaŋ məgəserge ahe ɗi atu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Different language</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma bəra inisi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Different language</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma bəra inisi.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-difficult-pronounce" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Difficult to pronounce</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Zlazlaɗa məwudiya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Discard ongoing recording</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Falaŋ ghar anaŋ məgesəŋge daw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-rules-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Does the sentence meet the guidelines?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma a ŋhwabaloŋ a məgurako i ma di jiŋa ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Donate your voice</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Wəlum ghunakw i ma gugkuli kindekw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Don't see your language on Common Voice yet?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma bəra gukuli aləku mənay ketk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Drag your file here or &lt;uploadButton&gt;click to upload&lt;/uploadButton&gt;</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Həɗraka anaŋ məpakwiyo ahə atu akindene dəkəni&lt;uploadButton&gt;dəkəni tsakwege aka mə talaray&lt;/uploadButton&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-instruction-drop" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Drop file here to upload</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Fəmawo anaŋ mə pekerge ahe atu akindene aka mə taliyo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-input-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter your public domain sentence here</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Pəmako magukuli ane ŋgumna agəra aslər akindene</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentence-input-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter your public domain sentences here</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Pəmako magukuli ɗi ane ŋgumna agəra aslər akindene</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentence-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Error adding sentence</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Sləkets agherelenge aməpakwiyo age</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>ESC</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>A mbakwakw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-delete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Exit &amp; Delete clips</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Sləmerge nde memeɗemeŋerge anaŋ məgusiyo iyayo atu ham</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Fewer than 15 words per sentence</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Maɗi ahe ma hutsahoŋ aka 15</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:file-too-large" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>File is too large</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ mə pekerge ahe ane a zəvu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:file-too-small" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>File is too small</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ mə pekerge ahe ane a huts</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:finance" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finance</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məfaku sləmay aka siŋgo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish recording</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məgusiyo andav</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish recording first?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məgusiyo andəverge ketek ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish Review</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Dəverige anaŋ məzayaka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-confirm" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish validating</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Dəverige məzayaka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish validating clips?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mədəverig mezayaka məguriyo i anaŋ ɗi  ya ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Follow guidelines from “What sentences can I add?”</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Kələmaloŋ aslam sek isindene « ma ɗi wele ne slahoŋ məfekenege ?»</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-for-example" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>for example</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məgwaviyo ahe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate-explanation-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>For technology to work well for everyone, the data that helps developers to build technology needs to reflect a diverse range of people. For example, if we don't include any speakers with a particular accent, then the technology won't work well for people with that accent. &lt;learnMore&gt;Learn more about why metadata matters.&lt;/learnMore&gt;</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Akane məsəryo məzəvako mə giya aslər kalkala aka i mərɗi ham di anaŋ ɗi ane tə zazaka mərez mə ɗəmak anaŋ ane aka mə ɗəmak anaŋ di məsəriyo məzəvako mənay mə nzahoŋ aka anaŋ azlehe i mərez.  Kava məzaka məgwaviyo ana am fege mərez mə wudiya i anaŋ ina daw ɗikiɗiki ənta anaŋ mə mbaɗ məməlo ane tsəkəməka dowa məseryo məzəvako mə slahoŋ mə giya aslər Kalkala daw aka i slalane tənay  ənta anaŋ mə mbaɗ məməlo atu.&lt;learnMore&gt; Məfakuma məsər anaŋ azlehe di.&lt;/learnMore&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:general" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>General</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Hamham</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-multiple-variants" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>General language / multiple variants</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Hamham anaŋ ane a gamegə  ghar a ma bəra ge / Mə mbaɗaraka ghar a anaŋ ɗi kemiya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-grammar-or-spelling" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Grammatical / spelling error</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Sləkets i məgamarghar i məgurako i ma bera /  Sləkets i məgamarghar i ma məgurako məpakwiyo i ma ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great!&lt;recordIcon&gt;&lt;/recordIcon&gt; Record your next clip</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aləɓay &lt;recordlcon&gt;&lt;/recordlcon&gt;gusem anaŋ ane akázakarabəra akáma</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-again-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great work!&lt;playIcon&gt;&lt;/playIcon&gt; Listen again when you're ready</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aslər a ŋgwalaŋ ahe !&lt;playIcon&gt;&lt;/playIcon&gt; tsənemeŋ gapa ana akə slemeŋerge vo ve</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:guidelines" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Guidelines</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma məgurakwiyo ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:healthcare" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Healthcare</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Werwer i sluvu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-first-banner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help create Common Voice’s first target segment in { $locale }</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Zəzemako aka mənzako asler i teŋwa i common voice i { $locale }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help us validate voices</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Zezemeke aka mezayaka anaŋ məgəriyo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>His hand was rais-ed.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Dipeŋ ənta slu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:history_law_government" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>History, Law and Government</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Maslalambaɗi slaya ənta aslər i ŋgumna</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How do I cite?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Həhəme məgiya ghar mətugwio i mərez wele ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-review-small-batch-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How to add multiple sentences</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>həme məfekenege ma ɗi zlavaŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-help-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How would you describe your sex or gender?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Kəfakuma aka tə sər ane nakw guɓar dəkəni nakw wal aday aka əmay ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:terms-agree" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I agree</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Nəzayaka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-submit-confirm" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I confirm that these sentence are &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; and I have permission to upload them.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Nə sər iheɗedeŋ ane ma ɗi atu ata i &lt;wikipediaLink&gt;i məgurakwiyo i ŋgumna &lt;/wikipediaLink&gt; ndi nəni ənta  meltivi mətalya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-write-submit-confirm" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I confirm that this sentence is &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; and I have permission to upload it.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Nəser iheɗeɗeŋ ane ma aslane i &lt;wikipedialink&gt;ma  məgurakwiyo i ŋgymna &lt;wikipedialunk&gt; nde nənay ənta meltivi mətalyo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;icon&gt;&lt;/icon&gt; Add multiple public domain sentences</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>&lt;icon&gt;&lt;/icon&gt; Fekenege ma ɗi zlabaŋ ane aɗereŋ a məgurako i gumna</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-8" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ideally natural and conversational (it should be easy to read the sentence)</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma mələɓay kaya kava kwa a məgiya wəlam age.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:terms-disagree" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I do not agree</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Nəzayaka daw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If it’s your own words, just say &lt;italicizedText&gt;“Self Citation”&lt;/italicizedText&gt;. We need to know where you found this content so that we can check it is in the public domain and no copyright restrictions apply. For more information about citation see our &lt;guidelinesLink&gt;Guidelines page&lt;/guidelinesLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ana maɗi ane ma gukuli akuli yaŋ ahe di pəmako tsəheɗ&lt;italizedText&gt;"Ghar mətugwiyo gəkuli ahe &lt;/italicizedText&gt;. Aməgiya kuɗa aka məserige sləkəli i aslam ane away a ma məpakwiɗi ge atu akane aməserige ane awa a ma məgurakwiyo i ŋgumna age nde aka gəra aslər ənta.  Anaŋ ane təngay mərez na ma nzahoŋ aka anaŋ ane a gwasarako a mərez ane pako atu daw. ndi ana akə fakuma làbàra inisi ɗi aka ghar mətugwiyo ɗəlmeŋ &lt;guidelinesLink&gt;Ma məgaka aslər gəmi ɗi&lt;/guidelinkesLink&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description-extended" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ana anaŋ məgusiyo a mereŋ sləkets di pərmatu bi ana anaŋ məpekerge ahatu ham kalkala daw kaɗaana anaŋ məgusiyo a mereŋ sləkets di pərmatu bi ana anaŋ məpekerge ahatu ham kalkala daw kaɗa.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ana anaŋ məgusiyo a mereŋ slekets di, məsəmaro akane məməlo məni taŋtaŋ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-additional-information" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If there is additional information you want to provide about this file, please contact &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ana maɗi anay akə fakuma mə ndawya aka deɓi i naŋ məpekerge ahe ane di tələmarma &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:template-file-additional-information" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If there is additional information you want to provide about this file that is not included in the template, please contact &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ana maɗi anay akə fakuma mə ndawya aka dəɓi i anaŋ məpekerge ane tənay tənege am məgwaviyo aslenege daw di kamkam zəlum &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-5-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the sentence does not meet the above criteria, click the &amp;quot;Reject&amp;quot; button on the left. If you are unsure about the sentence, you may also skip it and move on to the next one.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ana ma ambəɗaka daw a sek ma tsakway «məsara» aka ahar  hədzar. Ana ghar gukuli kussa, ake slahoŋ məgharako nde məda aka inisi.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the sentence meets the criteria, click the &amp;quot;Approve&amp;quot; button on the right.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ana ma anay ambeɗaka ma məgərako ɗi, tsəkum aka bitoŋ «məzayaka» aka ahar ɗaf.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ana akəvəlar ghar a mazlagwadam di ma məgurakwiyo ɗi aɗalerŋ daw, kamkam zəkum kava aɗalereŋ i mənzeyakaŋ aŋgwalaŋ. Ana akə slahoŋ məzayaka daw gumərayo aslər ənta boton "məda" nde dəma aka məgusiyo məwalaŋ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-6" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If you run out of sentences to review, please help us collect more sentences!</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ana akəmerəŋ ma ɗeləŋ yo daw, zezemeke məɗəmak ma ɗi gapa.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-7" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Include appropriate citation</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ghar mətugwiyo i mərez a ŋgwalaŋ ahe mənege kaɗa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:file-invalid-type" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Invalid file</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma ɗi məpekerge ahe ane tənay tə zayaka daw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-difficult-pronounce-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It contains words or phrases that are hard to read or pronounce.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma məpakwiyo ɗi ənta ma inisi ɗi tenay bala aka məwudiya ənta məməsara bəra.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It is written in a language different than what I’m reviewing.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma ahe məpakwiyo ahe a ma bəra age ane taŋtaŋ ənta aslane newuday.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It is written in a language different than what I’m speaking.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma aslane məpərkerge ahe taŋtataŋ ənta ma bəra aslane newuday.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Just Unsure?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ghar gukuli dzəma ya ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep it up, record again &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Kuləmahoŋ hanene nde gusimekenege seleŋ gapa &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-keep-recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep the recordings</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məgəseŋ anaŋ məgəserge ahe ɗi atu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:keep-track-profile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep track of your progress with a profile</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Gurum mehaɗ aka ma gukuli ənta məzayaka anaŋ ane tesirikuliri amaɗ age</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:language_fundamentals" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language Fundamentals (e.g. Digits, Letters, Money)</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma i məparahoŋvo aka ma bəra ɗi(dzik, helefi i məpərako,siŋgo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:languages" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Languages</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma bəra ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-sentence-submission" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Large bulk sentence submission</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Tal ma ɗi kemiya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn More</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aki məsirige hendeŋ-hendeŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Leaving now means you'll lose your progress</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ana ákəslerge əndene  ákədzidzeŋerge məhaɗ akama gukuli</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Tsəneŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-contribute-menu-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen options menu</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aslam məzakay «Tsəneŋ»</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-loading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Loading sentences…</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məwara bəra i ma di...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:login-instruction-multiple-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;loginLink&gt;Login&lt;/loginLink&gt; or &lt;loginLink&gt;sign up&lt;/loginLink&gt; to add multiple sentences</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>&lt;loginLink&gt;Gəsumaho ahar aka vo&lt;/loginLink&gt; ou &lt;loginLink&gt;pəkum sləmay gukuli&lt;/loginLink&gt; aka akəfekenege ma ɗi zlavaŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-to-get-started" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log in or sign up to get started</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Zləŋum ənta mepakiyo slemay gukuli ɗi aki məpərahoŋ vo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log In / Sign Up</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məgusahoŋ ahar aka vo / Məpako sləmay</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-make-sure" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Make sure the sentence meets the following criteria:</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aləbay akuser ane di ma a mbəɗaka a məgərako i ma ɗi isinɗi :</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:maximum-file-size" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Maximum file size: 25 MB</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Zəbal mə ndəvaka aka ahe i anaŋ ane mə pekerge ahe atu di mənay: 25 Mo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:media_entertainment" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Media and Entertainment</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Gəlaw ɗi ənta anaŋ ɗi ane təgiyavo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:minimum-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Minimum sentences in file: 1000</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Kwiduk i maɗi anaŋ məpekerge ahe atu di mənay 1000</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-8-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Mismatched content]</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>[Huraɗ ahe aŋgəla məndeverege i asler]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Misreadings</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Sləkets anhaŋ á məwudiya age</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Missing an &lt;strong&gt;'s'&lt;/strong&gt; at the end of a word.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ahutsahoŋ ənta seleŋ&lt;strong&gt;«s»&lt;/strong&gt; i məndəverege i ma</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Missing &lt;strong&gt;'A'&lt;/strong&gt; or &lt;strong&gt;'The'&lt;/strong&gt; at the beginning of the recording.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ahutsahoŋ &lt;strong&gt;«seleŋ/seleŋ»&lt;/strong&gt;dəkəni&lt;strong&gt;«seleŋ/seleŋ»&lt;/strong&gt;a məpahoŋvo məgus anaŋ age</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Missing the end of the last word by cutting off the recording too quickly.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məndəverege i ma asaŋko vo anaba anaŋ məgus mawdiya amaterge awiya.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-4-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[More has been recorded than the required text]</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>[Zlavaŋ anaŋ məpekerge ahe atu məgəsege ahe]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ megusiyo ɗi ge slavaŋ di merɗi tə wuda ma ənta məməlo ane wuretege .akə slakum məzayaka anaŋ məgusiyo i məŋgulahiya bak inisi inisi  aslane merɗi tə serekenege daw. Məŋulahiya ənta məŋwaŋwaziŋyo dəkəni məwudabəra kava məməlo "maslalambaɗ". Kamkam məsemaro anaŋ məgusiyo ane tə lerge ənta aslane ordinater aslemeŋerge.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-vote-no" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>n</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>a</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-reject-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>N</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>A</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:nature_environment" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Nature and Environment</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Wulam ənta anaŋ ɗi ane təveleŋge</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:news_current_affairs" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>News and Current Affairs</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ ɗi ane a giyavo əndene</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>aga</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-7-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[No ‘a’ in the original text]</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>[ «y» anege a ma məpakwiyo i təŋwa age daw]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;noCopyright&gt;No copyright&lt;/noCopyright&gt; restrictions (&lt;cc0&gt;cc-0&lt;/cc0&gt;)</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>&lt;coCopyright&gt;Mərez na ma nzahoŋ aka anaŋ ane a gwasarako a mərez ane a pako daw&lt;/noCopyright&gt;(&lt;cc0&gt;cc-0&lt;/cc0&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-6" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No foreign letters</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ məpakwiyo i bəra inisi ɗi mə nege daw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-no-mic-found" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No microphone found.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ mə wudege ma inaŋ inya anay anzako vo daw.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No numbers and special characters</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ mətugwiyo ənta anaŋ ane aɗalereŋ a má nege daw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-no-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No sentences to review. &lt;addLink&gt;Add more sentences now!&lt;/addLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma anay məɗəleŋ yo daw&lt;addLink&gt;Fəmakenege ma ɗi zlavaŋ !&lt;/addLink&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:continue-speaking-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No thanks, continue speaking</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aga  aslive walaŋ ənta mə wudama</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Offensive language</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma azlehe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-speech" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Offensive speech</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma mədzirɗeŋ ma ɓərəv di</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported-desktop" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On desktop devices you can contribute by downloading…</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>I ordinater i buro ɗi di akə slahoŋ mədasara aslane awehe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-1-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On his head he wore a beret.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Dzilgi adasay wagoŋ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported-ios-non-safari" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On iOS please continue with Safari to enable recording…</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ada IOS age di kamkam kuləmahoŋ̧̧ ənta safari aka məzayaká megus</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description-extended" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mərmahoŋ aslam kindekw aki slal ane teslahoŋ məwuday taŋtaŋ ənta akuli. Gapa, ana  akəser  merez məwuday anaŋ atu aləkum pərəŋ kuseɗ-kusəɗ adzakaŋ, ndi afakəma məgur ndi azləɓaha di məsərige anaŋ məgus yo atu. Ana ghar gukuli kussa.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>p</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>w</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:partner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Partner</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məgiya asler akama ahe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-2-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Part of the text can’t be heard]</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>[Aslam inisi ane tə pekerge di atsəneŋvo daw]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-last-time-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Last one!</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>&lt;playlcon&gt;&lt;/playlcon&gt; Aslane nat  məndavarya !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Play/Stop</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Wuday/ Tsetsekeŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:what-needs-to-be-in-file-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please check our &lt;templateFileLink&gt;template file&lt;/templateFileLink&gt;. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>ŋgərumekenege aray aka &lt;templateFileLink&gt;dzəbá aslər gəli ane &lt;/templateFileLink&gt;. Ma gukuli ane akə pako atu di mənay keɗaha, ghar mətugwiyo ahe kəni mənay i gukuli mənay aslər a ŋgwalaŋ ana mərez aslane a vilkuli mə təgu ghar ahe kəni, mənay tsəɗaŋga, mə dəmen vo a mə wudiya age. Maɗi ane akə tal atu di má zakay sarta 10 bi 15 aməwudiya age nde kəni aká pege dzik ɗi ənta sləmay mərɗi ənta anaŋ ɓak masalaka daw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:required-field" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please fill out this field.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Kamkam tsəkemenkege avuh aslene.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-select-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please select a language to review sentences.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Kamkam zəkəmerge ma bəra seleŋ aka akəɗeleŋ ma ɗi.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-record-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>r</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>ts</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[‘Raised’ in English is always pronounced as one syllable, not two]</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>[Dipeŋ i slu ənta ma saray awuda vo kava ma seleŋ ama tsiyo daw]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-toast-message-minutes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Rate limit exceeded. Try again in { $retryLimit } minutes</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aslam mətalyo ahe aslege.  ŋgurəmako a { $retryLimit } sarta</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-toast-message-seconds" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Rate limit exceeded. Try again in { $retryLimit } seconds</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aslam mətalyo ahe aslege. ŋgurəmako a  { $retryLimit } ftek</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reader Effects</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məmbəɗar məməlo ənta anaŋ mətsineŋ yo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Awara bəra tsənaŋa aməwudiya age daw kavaka «htatu» ama di mànay «hatatu».</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:read-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Read Sentences</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Wuday ma ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-contribute-menu-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Read Sentences, Answer Questions</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Wuday ma ɗi, Məmbəɗaka aka ma məɗawuya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:read-sentences-coming-soon" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Read Sentences &lt;small&gt;(Coming soon)&lt;/small&gt;</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Wuday ma ɗi&lt;small&gt;(Bak inisi)&lt;/small&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:read-sentences-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Read sentences submitted by the community in various languages</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Wuday ma ɗi ane bəra a pəkerge a ma bəra taŋtaŋ age</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ready to do { $count } more?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Akə fakuma aka akəgiya  { $count } gapa ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-last-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>&lt;recordlcon&gt;&lt;/recordlcon&gt; Aslane i dəɓa tsekka !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-3-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Recording cut off before the end of the last word]</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>[Ma məgusiyo atu asaŋko vo ane aləkwaro ma seleŋ akama]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-record-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record/Stop</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Gesiŋge / Tsətsekeŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:read-sentences-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record yourself reading sentences in your language</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Gusum akənay akəwuday ma ɗi a ma bəra gukuli ge</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:answer-questions-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record yourself responding to questions and prompts in your language</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Gusum akəmay məmbaɗaka ma ndi a malawak ɗi a ma bəra yakw age</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:record-button-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record your voice</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Gəsemege ghunak i ma gukuli</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:citation-input-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reference the source of your sentence (required)</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>ɗamaka aslam ane kə nzakwabəra maɗi atu (dawlay)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-reject" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reject</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mǝsara</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Report</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məŋgaara ma</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Report was passed successfully</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Asler ane məgerge vo atalarivo alala</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Request a Language</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Demeremeke ma bəra inisi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-rerecord" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Re-record</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məŋgərakà məgusiyo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-rerecord-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Re-record clip</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Gəraka məgesiŋge</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Return</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məwege</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:review" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mezazaka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məhalaŋyo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məhalaŋya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-review-failure" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review could not be saved. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məɗeleŋ yo anay awege daw. Ake ɗəleŋ gapa akama.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-modal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>ⓘ Review Criteria</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>ⓘ Ma məgərako i məhalaŋyo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review Criteria</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma məgərako i məhalaŋyo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-prompt" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reviewed sentences not submitted, are sure?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma məɗeleŋerge ahe tədzi daw.Akəfekenege  ma ɗi gapa ya ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:review-sentences-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review existing sentences submitted by the community</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>ɗələmeŋ ma ɗi ane tenay ane bera agərige ve</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; re-record clips here as you go</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Guvilmeŋ nde ŋgərmakò məgusiyo ana wudəra ahe anay</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; re-record clips if needed</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Guvilmeŋ ndi ŋgərmako məgusiyo ana wudəra ahe anay</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review Sentences</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Deleŋ ma ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review Sentences</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>ɗeleŋ ma ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:review-sentences-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review sentences in your language</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>ɗeləmeŋ ma ɗi a ma bəra gukuli ge</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-submit-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; Submit</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Həlimeŋ nde akətalaray</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:review-transcriptions-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review transcriptions of recorded sentences for accuracy</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məzayaka dzire i anaŋ məgerige ane slal i bəra gukuli tepako</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:review-transcriptions-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review user-submitted transcriptions in your language</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mədeleŋ anaŋ məgərige ane slal məgəra asler ənta ma bəra gukuli təpawo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>s</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>w</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>S</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>H</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-default-option" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select an option</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Təbəmerge anaŋ ane aguskuli ghar seleŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select a variant (optional)</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Pəlerge anaŋ mə mbaɗaraka ghar ahe (aslane a gusakw ghar)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:select-file" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select File</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Təbəmerge anaŋ mə pakwiyo ahe ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:select-file-mobile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select File to Upload</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Təbəmerge anaŋ məpakwiyo ahe ane akə tal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-domain-select-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select up to three domains (optional)</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Pəlerge ha aslam taŋtataŋ makar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Magukuli</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-domain-combobox-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence Domain</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aslam i mahəɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-page-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentences contributed here will be added to a publicly available cc-0 licensed dataset.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Maɗi ane təwuraya akindene tá fekenetege aka gəlaw i anaŋ i ŋgumna ada wakita i meltivi cc-0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-reviewed-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $sentences } sentences reviewed. Thank you!</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>{ $sentences } Ma ɗi məɗeleŋerge ahe ɗi. Wusəku !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence Variant</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mə mbaɗarakavo a ma</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Separate sentences into one line by pressing “Enter” or “Return” once</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Deweŋerge ma ɗi aka mətsakwiya sek seleŋ aka «Məwege»</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:service_retail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Service and Retail</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məgiya aslər ənta mə dzara anaŋ ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:share-common-voice" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share Common Voice</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Deweŋ Common Voice</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:share-clip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share your clip</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Duwumeŋ anaŋ gukuli ane akəgeserge</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcuts" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Shortcuts</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məday</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-2-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Should be ‘dinosaurs’]</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>[Tànay anaŋ i wulemele a zlehe ɗi]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-6-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Should be “We are”]</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>[mànay « hatatu»]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:single-sentence" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Single</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma seleŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:single-sentence-submission" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Single sentence submission</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Tal ma seleŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məhalaŋiya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Meda</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentence" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Small batch</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>War mbəlo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentence-submission" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Small batch sentence submission</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mətal mbəli ma ɗi kindekw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-source" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Source: { $sentenceSource }</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aslam : { $sentenceSource }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Huday ma</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-now" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak now</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Akə slahoŋ məwuday ma</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-contribute-menu-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak options menu</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aslam məzakay anaŋ «Wuday ma»</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Start recording</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məpahoŋvo aka məgus anaŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-3-fixed-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;strong&gt;[Crackle]&lt;/strong&gt; giant dinosaurs of &lt;strong&gt;[crackle]&lt;/strong&gt; -riassic.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>&lt;strong&gt;[ Ghi ma ɗi]&lt;/strong&gt; anaŋ i wulemele azlehe ɗi &lt;strong&gt;[ghi ma ɗi]&lt;/strong&gt; -rias.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-1-fixed-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;strong&gt;[Sneeze]&lt;/strong&gt; The giant dinosaurs of the &lt;strong&gt;[cough]&lt;/strong&gt; Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>&lt;strong&gt;[ Mədasa hənder]&lt;/strong&gt; Anaŋ i wulemele azlehe ɗi i&lt;strong&gt;[ məɗesliyo ]&lt;/strong&gt; Trias.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mətalyo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:answer-questions-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit a new question for the community to read and respond to</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Wuraya medawa inisi akane bəra məwuday ndi ma mbədaka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit a report</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mətal aslər məgerge ahe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Talaray ma məgesəŋge</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Tal anaŋ məgeserge ahe atu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-questions-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit new questions for the community to read and respond to</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Gərum ma məɗaviyo awehe ɗi akane bəra məwuday ndi məmbəɗaka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Success</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məgerge aslər kalkalla</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:img-alt-success-checkmark" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>success checkmark</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>ɗamaka aslam ane kə nzako ghar yakw</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-usage" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Swipe right to approve the sentence. Swipe left to reject it. Swipe up to skip it. &lt;strong&gt;Do not forget to submit your review!&lt;/strong&gt;</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Tsukum aka ahar ɗaf akane akəzayaka ma ɗi. Tsukum aka ahar hədzar  akane akəməsara. Tsukum afətege akane akəgiya kava  akuser daw. &lt;strong&gt;Mədzikuli ge ghar daw mə mesaray məɗevəriya i sekasler gukuli daw!&lt;strong&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Taking several attempts to read a word.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məgur anaŋ sek kemiya aka məwuday ma seleŋ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tap</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Dzahoŋ aka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:technology_robotics" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Technology and Robotics</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məseriyo ane a təmeŋ nzəɗa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-submission-success-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for contributing your bulk submission!</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Wusako ənta mə fəliwen ahar aka mə tal maɗi kemiya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:second-cta-header-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for contributing your voice!</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Wuseko ənta məvəĺme ghunakw i məməlo gukuli ɗi !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-header-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for donating your voice clips!</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Wuseko ənta məvəleme məgwaviyo i ghunakw məməlo gukuli akəfakuma məŋeterege alabara inisi ɗi ada mawudiya gukuli ge vatak !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-submit-msg" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for recording!&lt;lineBreak&gt;&lt;/lineBreak&gt;Now review and submit your clips below.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Wuseko ənta məgus anaŋ gukuli ɗi &lt;lineBreak&gt;&lt;/lineBreak&gt; akə slahoŋ məzayaka əndene nde mətal anaŋ ɗi ane tə gəserge agwa ane.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for your voice information</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Wuseko ənta məveleme labara ada  ghunakw məməlo gukuli ge</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-8-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The bumblebee sped by.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Avəreŋwavərŋwa a ghərige.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-speech-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The clip has disrespectful or offensive language.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məgwaviyo i ma ghunakw imisi di ma dzawaslak ɗi tenege</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-2-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaur of the Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ i wulemele a zlehe.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-3-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaurs of the Triassi-.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ i wulemele a zlehe ɗi i Tria-.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-1-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaurs of the Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ i wulemele a zlehe ɗi i Trias</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-example-1-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaurs of the Triassic. &lt;strong&gt;[read by one voice]&lt;/strong&gt;</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ i wuləmele azlehe i Trias.&lt;strong&gt; [məwuderge ənta məməlo i təŋwa]&lt;/strong&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-4-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaurs of the Triassic. Yes.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ i wulemele a zlehe ɗi i trias . Eŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-2-fixed-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dino &lt;strong&gt;[cough]&lt;/strong&gt; the Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ i wulemele azlehe  &lt;strong&gt;[məɗesliyo]&lt;/strong&gt; Trias.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-empty-state" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There are currently no sentences to review in this language.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma anay məɗəleŋyo daw samma a ma bəra aslatu ge .</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-long" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too long.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məgus anaŋ ahe azəvo zlavaŋ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too quiet.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ mə fekenege məməlo zlaŋŋa  sarta i məgus anaŋ age  nzəɗa yaŋ anay daw.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-short" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too short.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məgus anaŋ ahe ahuts.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-volume-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məməlo mewudiya i gubar ənta wal ani taŋtaŋ-taŋtaŋ kwa aməɗəmak age. Məsəmaro ana adarghar məməlo zlavaŋ ,bi sləkəts anahaŋ akane akəslahoŋ mətsinəŋ daw anaŋ ane məwuderge ahe , a ŋəla məgwavaloŋ ənta məpəgerge ahe.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The Sentence Collector is moving to the core Common Voice platform. You can now &lt;writeURL&gt;write&lt;/writeURL&gt; a sentence or &lt;reviewURL&gt;review&lt;/reviewURL&gt; single sentence submissions on Common Voice.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mərez məhwal ma ɗi aslaray aka plaɗ i Common Voice. Akə slahoŋ maslara &lt;writeURL&gt;məpako&lt;/writeURL&gt; ma seleŋ &lt;reviewURL&gt;ma ɗi kwa a Common Voice.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-grammar-or-spelling-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence has a grammatical or spelling error.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma aslane di a mereŋ slekets i məgamarghar i ma məgurako i ma bera ənta sləkets məgamarghar i ma məgurako i məpakwiyo i ma ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence has disrespectful or offensive language.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>A ma məpakwiyo aslane age di ma nzawaslak ɗi ənta mədavaŋwiyo ɗi tənəge</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be grammatically correct.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma mənay kava lakwan i məleɓiya i ma ɗi.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be speakable.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma mənay məwuda vo.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be spelled correctly.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma mənay məpekerge ahe lapiya kava lakwan i məpakwo anaŋ ɗi.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate-explanation-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This information is optional to provide - you should only add it if you feel comfortable. When we release the dataset, we pseudonymise all personal information, and make sure information like your name and email are not connected to demographic information like age or sex.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>A làbàra ɗi atu di laray daw sey ana maɓərəv gukuli afakuma kaɗa nde akə slahoŋ  məpeketenege. Ana am fakuma mə bara gəlaw gəli ɗi di ambaɗarahoŋ sləmay masalaka akavo ɗi.nde anaŋ ɗi kava sləmay gukuli ɗi aslam mənzaka gukuli ɗi tə beneŋvo daw manay viyo gukuli ɗi ənta kunay gukuli ɗi.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-three-more-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Three to go!</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Atəmay makar !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:too-many-files" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Too many files</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ mə pekerge kemiya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:transcribe-audio-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcribe audio recordings into text</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Gəmiyo anaŋ mepakiyo i anaŋ məgusiyo i anaŋ mətsəneŋyo aɗelereŋ a pla i ma di</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:transcribe-audio-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcribe audio recordings in your language</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məpakiyo i anaŋ məgusiyo i anaŋ mətsəneŋyo a ma bəra gukuli ge</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:try-upload-again" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Try again by dragging your file here</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Gurum mə tsakwakwa ma ɗi məpekerge ahe atu gapa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:try-upload-again-md" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Try uploading again</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>ŋga gurum mə taliyo gapa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Understand contribution criteria</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mətsəneŋ məməlo ma aki məferawo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-page-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Understand what to look for when listening to voice clips and help make your voice recordings richer too!</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məbaloŋ sləmay anaŋ ane tə wuday ənta məgwaviyo i ghunakw i ma ane a wara bəra akane tə sleŋge anaŋ məgusiyo yakw atu alala !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-aborted" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload aborted. Do you want to delete your recordings?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mətalyo anzi daw. akə fakuma akəmemeɗeŋerge anaŋ məgusiyo gukuli atu ya ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-small-batch-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $uploadedSentences } of { $totalSentences } sentences collected</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>{ $uploadedSentences } ma ɗi məgwatserge ahe aka { $totalSentences }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-response-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $uploadedSentences } of { $totalSentences } sentences collected. Click &lt;downloadLink&gt;here&lt;/downloadLink&gt; to download rejected sentences.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>{ $uploadedSentences } { $totalSentences } ma məgwatsariya aka seleŋ. Tsə́kum &lt;downloadLink&gt;here&lt;/downloadLink&gt;aka akə dasaragwa ma ɗi ane tepəro.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-failed-toast" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload failed, please retry.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ mətaliyo atu anzi daw kamkam gurum gapa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload &lt;icon&gt;&lt;/icon&gt; public domain sentences</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Təlemaro &lt;icon&gt;&lt;/icon&gt; ma ɗi kemiya ane a ma məgurakwiyo i ŋgumna age</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:upload-progress-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload in progress...</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mətaliyo aka meltivi mə wuriyo ...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:upload-more-btn-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload more sentences?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Təlmaro maɗi inisi ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use correct grammar</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Maməpakwiyo mənay kalkala kaɗa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use correct spelling and punctuation</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ghunakw məwudiya ənta aslam məpermiyo mənay kalkala kaɗa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:validate-readings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate Readings</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məzayaka məwuday anaŋ ɗi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-contribute-menu-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate Readings, Review Transcriptions</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məzayaka məwuday anaŋ ɗi, Məɗeleŋ anaŋ məŋgerige</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:validate-readings-coming-soon" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate Readings &lt;small&gt;(Coming soon)&lt;/small&gt;</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məzayaka məwuday anaŋ ɗi&lt;small&gt;(Bak inisi)&lt;/small&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:validate-readings-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate readings submitted by community members</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məzayaka anaŋ mewuday ane slal i bəra ɗi təməsaray</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:validate-readings-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate user-recorded readings in your language</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məzayaka anaŋ məwuday ɗi ane slal məgera asler i ma bəra gukuli təgeserəge.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Varying Pronunciations</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məməlo ahe taŋtaŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-volume-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Volume</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mədarghar a məməlo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:create-profile-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Want to save your information? &lt;createProfile&gt;Create a profile&lt;/createProfile&gt;</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Akə fakuma akə gəsege labara gukuli ɗi ane ya?&lt;createprofile&gt; ɗəmak anaŋ ane tə serak̄aro ənta nat&lt;/crateprofile&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-7-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We are going out to get a coffee.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Hatatu má leɓay akitatu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-5-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We are going out to get coffee.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Hatatu mələɓay.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-loading-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We couldn’t get any audio clips for you to listen to.
+Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Amə slahoŋ mə nzako anaŋ məguriyo i adəmes akabmə tsənəŋyo.kamkam aká gur gapa aka ma kaɗa.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-loading-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We couldn’t get any sentences for you to speak.
+Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma ɗi inisi aɓəkeme aka məmesara bəra ŋga gur gapa akama.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We may have run out of clips - refresh the page, or try again later.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aməŋga məreŋ anaŋ məguriyo aka mezayaka daw a ma bera aslato age daw.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-6-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We’re going out to get coffee.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Htatu mələɓay.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We're making some big changes</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>A məgiya məmbaɗ vo azlehe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We’re sorry, your platform is not currently supported.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Zeɓata gemi ama aslam ane akə fakuma mə gaka aslər aləkk mənay aka ahar i mərez</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-empty-state" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We've run out of sentences to record in this language...</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Mawudiya ɗi tegəla mənemehe  aka megesege a ma bera aslane age daw...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We want the machine learning algorithms to able to handle a variety of background noise, and even relatively loud noises can be accepted provided that they don’t prevent you from hearing the entirety of the text. Quiet background music is OK; music loud enough to prevent you from hearing each and every word is not.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aləbay ane anaŋ mətsogəra yo anaŋ di təslahoŋ məgərako ghi ma ɗi taŋtaŋ-taŋtaŋ. ku  məŋgwalahiya ahe amereŋ nzəɗa kəni tə slakum mənay məzayaka sey ana a nzəkulige aka mətseneŋ anaŋ mə pakuyo ahe atu ham.ademes ane təli ənta məməlo zlaŋa daw kəni təslahoŋ məzayaka ,ama ademes ane təli ənta məməlo zlaŋa aka mənzerege mə tsəneŋ mànay ma awele kəni di tə zayaka daw.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-ask" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What issues are you experiencing with this sentence?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ma mətərɓiyo ɗi awele anege a ma məpakwiyo aslane age wele ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:what-needs-to-be-in-file" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What needs to be in my file?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Anaŋ məpakwiyo atu ɗu mənday keme ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-review-write-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What sentences can I add?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Maɗi awele nə slahoŋ mefekege wele ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. &lt;br /&gt;Very common mistakes include:</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>A məbalaŋ sləmay age di fəmahoŋ sləmay alala aka anaŋ ane anay akəgəserge atu aka ane akane məgwavalaŋ vo ənta anaŋ ane akə pekerge ;pəraybəra sləkets ɗi ane ana tənege &lt;br /&gt; nende sləkets ɗi ane aslako məgiyavo sarta ham.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why are you asking?</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aka əmay ma məndawya aslane may ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:second-cta-subtitle-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>With a profile, you can keep track of your activity and connect with a community of voice data contributors.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>ənta anaŋ ane təsəriyakwaro di akə slahoŋ mə walaŋ aslər gukuli nde akə slahoŋ məhəɗahaŋ aka bəra mərez ane ənta məfələli kuli ɗi ahar gata ənta mə pəkuli anaŋ ɗi ane a ɗalereŋ a ghunakw i məməlo.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Write</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Páko</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-contribute-menu-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Write options menu</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aslam məzakam anaŋ «Pako»</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-vote-yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>y</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>é</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-approve-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Y</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>E</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>éŋ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-keyboard-usage-custom" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You can also use Keyboard Shortcuts: { sc-review-form-button-approve-shortcut } to Approve, { sc-review-form-button-reject-shortcut } to Reject, { sc-review-form-button-skip-shortcut } to Skip</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Akə slahoŋ trabəlama məgəra asler ənta aslam məŋdzi i awiya i aslam məpako anaŋ : { sc-review-form-button-approve-shortcut } aka məzayaka, { sc-review-form-button-reject-shortcut } aka məməsara, { sc-review-form-button-skip-shortcut } aka Məda</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:multiple-sentences-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You cannot add multiple sentences for a single submission</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Akəslahoŋ məfekenege ma ɗi zlavaŋ daw sarta i məmas seleŋ age</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-lang-not-selected" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have not selected any languages. Please go to your &lt;profileLink&gt;Profile&lt;/profileLink&gt; to select languages.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Akunay akesakerge mā bera daw. Aleɓay akewege a &lt;profileLink&gt;Aslam i slemay yakw&lt;/profileLink&gt;Akane akesakay ma bera  ɗi.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-message-minutes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Akə sleŋge ve aslam mətal yo i pla isindene. Kamkam femawo bərov!  sarta { $retryLimit } ndala akəwuraya bəra ma awehe . Wuseko ənta məfawo ɓərov gukuli !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-message-seconds" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Akə sleŋge ve aslam mətal yo i pla isindene. Kamkam fəmawo ɓərov  { $retryLimit }  ftek  ndala akəwuraya bəra ma awehe. Wuseko ənta məfawo bərov gukul</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You must allow microphone access.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Akəvəlar meltivi anaŋ məwudege ma.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-generic-card" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You’re contributing to a target segment</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aku felemeŋ ahar asler ane amefakuma megiya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-first-card" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You’re contributing to our first target segment</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Aku felemeŋ ahar asler i teŋwa geli ane aməfakuma məgiya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-error-rate-limit-exceeded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You're going too fast. Please take a moment to review the sentence to make sure it's correct.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Akunay akuro awiya. Zəkum sarta akane akəwuday gapa ma ane ndi akəser ane ani məpəkerge ahe lapiya.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-submission-success-subheader" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You're helping Common Voice reach our daily sentence goals!</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Ake ɗay akə zazaka Common Voice aka mə slenge ghar mətugwiyo i anaŋ yaŋ ane afakuma məgiya !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state-variants" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your language variant might be out of clips! If you’re comfortable, you can change your settings to see other sentences within your language.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Məmbaɗ vo i lakwan i ma bera gukuli a məreŋ anaŋ meguriyo daw dəgiŋ ! Ana akuli akənay lapiya, akə slahoŋ məmbaɗ aslam mə slemeŋ anaŋ akane maɗi inisi məbara vo a ma bəra gukuli ge.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:no-sentences-for-variants" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your language variant might be out of sentences! If you’re comfortable, you can change your settings to see other sentences within your language.</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Helefe məpərako ma bəra gukuli di bi zlavaŋ-zlavaŋ dəme! anà agusəkəl ghar di akuslako məɓeɗerge ghumaŋ i ma bəra inisi aki məperako ma bəra gukuli.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } recording goal!</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Barka gukuli , Common Voice asleŋge ghar mətəgiwo i aslər yaŋ ane afakuma məgiya mərdziŋ-mərdziŋ &lt;goalPercentage&gt;&lt;/goalPercentage&gt;ghar mətəgiwo i aslər yaŋ ane afakuma məgiya mərdziŋ-mərdziŋ { $goalValue } məgəsəge mawudiya ɗi !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-validation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
+			</tuv>
+			<tuv xml:lang="udl">
+				<seg>Barka gukuli , Common Voice asleŋge ghar mətəgiwo i aslər yaŋ ane afakuma məgiya mərdziŋ-mərdziŋ &lt;goalPercentage&gt;&lt;/goalPercentage&gt; { $goalValue } 
+ghar mətəgiwo i aslər yaŋ ane afakuma məgiya mərdziŋ-mərdziŋ { $goakValue }
+məzayak !</seg>
+			</tuv>
+		</tu>
 	</body>
 </tmx>

@@ -1,7 +1,1423 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-04-01T00:40:20.189389">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-05-01T00:37:45.249426">
 	</header>
 	<body>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:prompt-page-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } &lt;micIcon&gt;&lt;/micIcon&gt; and respond as naturally as you can</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>{ $actionType } &lt;micIcon&gt;&lt;/micIcon&gt;kandi ogarukemu otabandize kuteekereza muno</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:audio-page-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } &lt;playIcon&gt;&lt;/playIcon&gt; and write down what you hear the person saying</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>{ $actionType } &lt;playIcon&gt;&lt;/playIcon&gt; handiika ebi orukuhurra omuntu naagamba.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcription-page-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } &lt;playIcon&gt;&lt;/playIcon&gt; Listen to the audio clip, and check the transcription. Does it match? If not, edit it to match perfectly.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>{ $actionType } &lt;playIcon&gt;&lt;/playIcon&gt; Huliiriza akatambi k'amaraka, kandi orole obu karaaba nikasisana n'omulingo iraka lihandiikirwemu. Obu biraaba bitarukusisana obigorre obitereekereze.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:question-page-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add a question &lt;icon&gt;&lt;/icon&gt; in { $currentLocale } for people to answer</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Yoongeraho ekikaguzo &lt;icon&gt;&lt;/icon&gt; eki { $currentLocale } abantu baraagarukamu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:add-information-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add information</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Yongeraho hali ebi ebigambirwe.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:create-transcript-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while creating this transcript</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Habaireho ensobi omu kuhandiika akatambi k'amaraka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcript-edited-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while editing the transcript</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Habaireho ensobi mu kugorra ekihandiiko ky'amaraka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while recording</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Habaireho ensobi mu kukwata akatambi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcript-skipped-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while skipping the transcript</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Habaireho ensobi mu kuguruka ekihandiiko ky'amaraka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-skipping" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while skipping this prompt</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Habaireho ensobi obu obaire nooguruka ekireeterezo (prompt) kinu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while submitting the report</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Habaireho ensobi obu obaire noohayo lipoota</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-uploading-response" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while uploading your response</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Habaireho ensobi omu kuhayo ekigarukwamu kyawe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:vote-transcript-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while voting the transcript</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Habaireho ensobi mu kukoma ekihandiiko</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:respond-to-prompt" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Answer</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Garukamu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:signup-form-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Are you already in our Beta testing group for Common Voice’s Spontaneous Speech Project?</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Oli mu katebe kaitu aka Beta Testing Group akarukukwata amaraka ag'embazo ezitateekaniziibwe?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:do-not-section-guideline-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ask sensitive questions</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Kaguza ebikaguzo ebitanguhire</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-check-transcript-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A transcription should capture every word or non-lexical conversation sound that was said by the person, including repetitions.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Oine kurora ngu wahandiika buli kigambo hamu n'amaraka amahuuni agali mu katambi k'amaraka.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:confirmation-modal-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Attention!</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Weetegereze!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:mbf" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Baba Malay</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Baba Malay</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:ms-my" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bahasa Malay</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Bahasa Malay</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:why-card-2-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Better support for language realities like translanguaging and &lt;mark&gt;code-switching&lt;/mark&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Obusagiki oburukukiraho oburukukwata ha by'endimi nk'okukozesa endimi itali zimu omu bwire bumu. &lt;mark&gt;code-switching&lt;/mark&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:why-card-3-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Better support for languages that have little or &lt;mark&gt;no text corpus&lt;/mark&gt; to use (eg, sociolects, variants, historically unscripted languages etc)</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Obusagiki oburukukiraho obw'endimi ezitaine rundi eziine kopasi enceke or &lt;mark&gt;no text corpus&lt;/mark&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:signup-terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By clicking “Send a link to my email”, you agree to our &lt;termsLink&gt;Terms of Service&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Policy&lt;/privacyLink&gt; and that Mozilla may email you with information on how to participate in the Beta Testing for Common Voice’s Spontaneous Speech Project.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Obu orukunyiga "Sindika ensumiikanizi ha mukura gwange ogw'ebbaroha emeiri", noikiranganiza na&lt;termsLink&gt;Terms of service&lt;/termsLink&gt;&lt;privacyLink&gt;kandi&lt;/privacyLink&gt;Mozilla neesobora kukusindikira ebbaroha ya imeiri kukwoleka nkooku osobora kwetaba mu purojekiti enu eya Voice’s Spontaneous Speech.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:age-gender-form-subtile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By telling us about yourself, you will help developers build more inclusive technology</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Okutugambira ebirukukukwataho nukuyamba abakugu baitu kwombeka tekinirogiya eya boona.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:cancel-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Sazaamu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:mel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Central Melanau</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Central Melanau</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:change" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Change</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Hindura</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:contribution-picker-tooltip-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Changes the language dataset to which you're contributing</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Endimi ezindi niziija omu bwire obutali bwa hara</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:platform-language-tooltip-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Changes website text only.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Nikihindura ekihandiiko ky'omukutu (weebusaiti) kyonka.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:check" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Check</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Kebera</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:check-editbox-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Check</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Kebera</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:do-section-guideline-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Choose simple questions that are easy for anyone to understand, regardless of culture or context</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Komamu ebikaguzo ebirukworoba ebya buli muntu weena asobora kwetegereza.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:action-click" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Nyiga</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-check-transcript-guidance" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click &lt;guidanceLink&gt;here&lt;/guidanceLink&gt; to learn how to use this page</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Nyiga &lt;guidanceLink&gt;here&lt;/guidanceLink&gt; kwega kukozesa peeji enu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-transcribe-guidance" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click &lt;guidanceLink&gt;here&lt;/guidanceLink&gt; to learn how to use this page</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Nyiga &lt;guidanceLink&gt;here&lt;/guidanceLink&gt; kwega kukozesa peeji enu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-prompts-guidance" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click &lt;guidanceLink&gt;here&lt;/guidanceLink&gt; to learn how to use this page</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Nyiga &lt;guidanceLink&gt;here&lt;/guidanceLink&gt; kwega kukozesa peeji enu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-other-comment" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Comment</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Gambaho</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:wall-of-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Common Voice is launching a second platform focused on collecting organic, spontaneous, unscripted speech. This will help lots of communities collect data more quickly, as well as being useful for data scientists and developers.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Common Voice etandikire omukutu ogwa kabiri ogurukukora ha kusorooza embazo ezitateekaniziibwe. Kinu nikiija kuyamba ebicweka ebingi kusorooza ebintu bwango bwango. Ebisorooziibwe nibiija kukonyeera abakugu n'abombeki b'ebisoorozibwe.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:contact-us" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contact us</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Tuhikirre</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Gumizaamu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:continue-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Gumizaamu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:continue-speaking-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue speaking</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Gumizaamu noobaza</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Hayo ebyawe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:contribution-picker-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contributing to &lt;bold&gt;{ $language }&lt;/bold&gt; dataset</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Nikyongerereza&lt;bold&gt;{ $language }&lt;/bold&gt;ha birukusorozebwa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:footer-text-cookies" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;cookiesLink&gt;Cookies&lt;cookiesLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>&lt;cookiesLink&gt;Cookies&lt;cookiesLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:correct" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Correct</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Kihikire</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:country-of-residence-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Country/Region of Residence</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ensi/Ekicweka nambere orukwikara</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:question-dataset-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dataset: { $datasetLanguage }</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ebisoroziibwe: { $datasetLanguage }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:delete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Simuura</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:different_language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Different language</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Orulimi orundi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:do-section-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>do</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Kora</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:done" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Done</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Kihweire</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:do-not-section-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>do not</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Otakikora</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:do_not_wish_to_say" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Don't wish to say</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Tindukwenda kwatura</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:pez" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Eastern Penan</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Eastern Penan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:edit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Gorra</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:add-question-textarea-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>e.g., “What do you wish you could use technology for?”</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Tekinorogiya wakugondeze kugyeyambisa kukora ki?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:contact-us-email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email: &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Imeiri: &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:en" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>English</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>English</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:country-of-residence-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter your Country/Region of Residence</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ijuzaamu ensi yaawe/ekicweka kyawe nambere orukwikara</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:signup-input-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter your email</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ijuzaamu endagirro yaawe ey'omukura gwa imeiri</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Error</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ensobi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:error-playing-audio" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Error while playing audio file.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Haroho ensobi omu teera akatambi k'amaraka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:add-question-too-many-questions-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Exceeded 25 questions. Reduce number of questions and retry.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ohingwize ebikaguzo 25. Keehya omuhendo gw'ebikaguzo, oyongere olengeho.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:do-not-section-guideline-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Express or solicit prejudiced or offensive sentiments</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Heereza rundi osabe ebiteekerezo ebitarukuha abantu abandi ekitinisa.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:female_feminine" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Female/Feminine</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Mukazi/Eby'ekikazi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:fr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>French</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>French</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:cdo" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Fuzhou</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Fuzhou</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:guidelines" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Guidelines</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Endagirro</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:cpx" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Heng Hua</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Heng Hua</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:how-spontaneous-speech-works" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How Spontaneous Speech works</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Orubazo orutateekaniziibwe nkooku ruba</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:accept-privacy-and-terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I agree to Common Voice's &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ninyikiriza enteekereza ya Common Voices &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:add-questions-terms-checkbox" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>* I confirm that this question is &lt;publicDomainLink&gt;public domain&lt;/publicDomainLink&gt; and I have permission to upload it.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>* Ningumya ngu ekikaguzo kinu tikiri &lt;publicDomainLink&gt;public domain&lt;/publicDomainLink&gt; ky'ensita.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:contact-us-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Interested in getting involved with this project, or partnering with us?</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Nooyetaaga kwetaba mu mulimo gunu rundi kukuragana naitwe?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:intersex" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Intersex</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Owa hagati na hagati</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-prompts-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Just respond to the prompt as naturally as you can in a couple of sentences. Make sure your language is respectful and inoffensive.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Garukamu ekikusabirwe otabandize kuteekereza muno. Oroole ngu ebigambo byawe tibiri kujuma kandi nibitamu abantu ekitiinisa.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:kzi" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Kelabit</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Kelabit</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:xkl" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Kenyah</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Kenyah</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-check-transcript" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn how to check a transcription</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Yega kukebera amaraka aga handiikirwe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-transcribe" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn how to transcribe</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Yega kuta amaraka mu buhandiiki</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-prompts" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn how to use this page</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Yega kukozesa peeji eni</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:audioplayer-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Huliiriza</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:loading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Loading…</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Birimu kwija…</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:login" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log In</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Taahamu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:login-signup" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log In / Sign Up</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Taahamu/Wehandiikise</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:logout" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log Out</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Tuurukama</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:do-section-guideline-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Make sure they can be answered in just a couple of sentences</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Rora ngu nibisobora kugarukwamu omu sentensi enke muno.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:male_masculine" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Male/Masculine</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Musaija/Eby'ekisaija</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:check-bubble-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;mark&gt;Check&lt;/mark&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>&lt;mark&gt;Kebera&lt;/mark&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:data-bubble-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;mark&gt;Data&lt;/mark&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>&lt;mark&gt;Data&lt;/mark&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:prompt-bubble-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;mark&gt;Prompt&lt;/mark&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>&lt;mark&gt;Kaguza&lt;mark&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:respond-bubble-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;mark&gt;Respond&lt;/mark&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>&lt;mark&gt;Garukamu&lt;/mark&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:transcribe-bubble-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;mark&gt;Transcribe&lt;/mark&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>&lt;mark&gt;Teeka iraka omu buhandiiki&lt;/mark&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:mmc" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Michoacán Mazahua</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Michoacán Mazahua</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:coming-soon" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>More languages coming soon</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Endimi ezindi niziija omu bwire obutali bwa hara</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:non-binary" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Non-binary</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Obuhangwa obutali bukazi rundi busaija</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:not-found-page-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Not Found</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Tikizoirwe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:offensive_speech" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Offensive Content</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ebirukubihiiza? Ebirukutabura?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:other" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Other</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ekindi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:personally_identifiable_information" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Personally Identifiable Information</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ebintu ebirukukwata ha muntu nk'omuntu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:platform-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Platform language</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Orulimi orw'omukutu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:footer-text-privacy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;privacyLink&gt;Privacy&lt;/privacyLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>&lt;privacyLink&gt;Privacy&lt;/privacyLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:question" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Question</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Kaguza</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:record-player-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record your response</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Kwata iraka ery'okugarukamu kwawe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:report-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Report</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>lipoota</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-success-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Report was passed successfully</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Lipoota ehairweyo kurungi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:request-new-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Request New Language</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Saba orulimi oruhyaka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:respond" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Respond</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Garukamu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:prompt-response-deleted-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Response deleted successfully</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ekigarukwamu kisimwirwe kurungi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:prompt-submitted-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Response submitted successfully</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ekigarukwamu kihairweyo kurungi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:check-transcriptions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Garukamu oyetegereze</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:bsy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sabah Bisaya</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Sabah Bisaya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:msi" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sabah Malay</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Sabah Malay</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:snv" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sa'ban</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Sa'ban</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:select-your-age" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select your age</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Omuli ebi ebikuhairwe, komamu emyaka yaawe ey'obukuru.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:select-your-gender" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select your sex or gender</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Komamu obuzarwa bwawe nk'omusaija rundi nk'omukazi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:signup-button-value" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Send a link to my email</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Sindika ensumiikanizi ha mukura gwange ogwa imeiri</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:sdo" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Serian Bidayuh</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Serian Bidayuh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:skip-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Guruka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:skipped" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skipped</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Kigurukirwe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:do-not-section-guideline-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Solicit personally identifying information (like names or financial information)</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Saba ebintu ebirukurangirra omuntu, nk'amabara rundi ebirukukwata ha bya sente</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:error-fetching-audio" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Something went wrong while fetching audio for transcriptions. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Habaireho ensobi omu kuleeta akatambi k'amaraka akarukugenda n'ekihandiiko.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-fetching-prompts" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Something went wrong while fetching prompts. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Haroho ekisobere omu kuleeta ebirukuleetereza. Yongera olengeho hanyuma.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:error-fetching-transcriptions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Something went wrong while fetching transcriptions. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Haroho ekisobere omu kuleeta ebihandiiko by'amaraka. Yongera olengeho hanyuma.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:meh" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Southwestern Tlaxiaco Mixtec</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Southwestern Tlaxiaco Mixtec</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:submit-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Hayo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:submit-all-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit All</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Hayo byona</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-modal-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit a report</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Hayo lipoota</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:submitted" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submitted</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Kiheirweyo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Success</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Obusinguzi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:action-tap" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tap</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Teeraho</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:footer-text-terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;termsLink&gt;Terms&lt;/termsLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>&lt;termsLink&gt;Terms&lt;/termsLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:age-gender-form-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for contributing to Spontaneous Speech!</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Weebale kwetaba omu Spontaneous Speech!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:thank-you-for-your-information" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for your information</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Weebale habwa ebi otugambiire.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:different_language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The content contains a language different than I was expecting.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ebirukugambwaho biri mu rulimi oru mbaire ntarukunihira</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:offensive_speech-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The content has disrespectful or offensive language.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ebintu ebirukugambwaho biri mu rulimi orukurabyamu amaiso rundi orukutabura.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:media-recorder-api-not-supported" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The MediaRecorder API is not supported in your browser.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Puroguraamu yaawe enseruzi terukusagika enkwatamara n'ebisani (Media Recorder) eya API.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:not-found-page-content" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The page you are looking for could not be found</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Peeji ei orukuserra tezoirwe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:no-prompts-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There are currently no prompts for this language. Please refresh the page or try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Orulimi runu tirwine ebirukuleetereza (prompts) omu kasumi kanu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:no-transcriptions-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There are currently no transcriptions to check for this language. Please refresh the page or try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Orulimi runu tirwine bihandiiko by'amaraka omu kasumi kanu. Noosobora kusisimura peeji rundi kulengeho hanyuma.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:no-audio-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There is currently no audio to transcribe for this language. Please refresh the page or try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Obwire bunu tiharoho katambi k'amaraka akookuta mu buhandiiki mu rulimi runu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:personally_identifiable_information-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This content contains personally identifiable information related to an individual's identity, such as their name, email address, location, identification number, or phone number.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ebintu binu ebirukugambwaho nibikwata ha muntu nk'omuntu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:personally_identifiable_information-answer-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This content is asking for personally identifiable information related to an individual's identity, such as their name, email address, location, identification number, or phone number.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ebirukugambwaho binu nibisaba ebintu ebirukugambwaho ebirukukwata ha muntu nk'omuntu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:why-are-you-asking-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This information is optional to provide - you should only add it if you feel comfortable. When we release the dataset, we pseudonymise all personal information, and make sure information like your name and email are not connected to demographic information like age or sex. For technology to work well for everyone, the data that helps developers to build technology needs to reflect a diverse range of people. Learn more about why metadata matters.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Hanu noosobora kwijuzaamu rundi obutaijuzaamu. Obu oraaba noorora ngu tikine nsonga, ijuzaamu.Obu turaaba nituturukya ebisoroziibwe, ebintu ebirukukurangirra nka iwe omuntu nk'amabara titurukwija kubyoleka. Orole ngu ebintu nk'amabara gaawe n'endagirro y'ebbaroha yaawe ey'omukura gwa imeiri tibyolekerwe omu buzaale n'ebintu, nk'emyaka n'obuzarwa bwawe nk'omukazi rundi nk'omusaija, ebirukwoleka ekika kyawe nk'omuntu. Tekinorogiya okusobora kukorra kurungi buli omu, twine kutunga ebiteekerezo eby'abantu aba buli mulingo okusobora kuyamba abakugu kwombeka tekinorogiya eya boona. Yega ebirukukiraho ebirukwoleka omugaso gw'obugambo obusoborozi (metadata).</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:editbox-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcribe</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Teeka iraka omu buhandiiki</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:transcribe" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcribe</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Teeka iraka omu buhandiiki</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:transcribe" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcribe</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Teeka iraka omu buhandiiki</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcript-edited-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcript edited successfully</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ekihandiiko ky'amaraka kigoroirwe kurungi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcript-skipped-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcript skipped successfully</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ekihandiiko ky'amaraka kigurukirwe kurungi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:create-transcript-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcript submitted successfully</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Akatambi k'amaraka katairwe mu buhandiiki kurungi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:vote-transcript-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcript voted successfully</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ekihandiiko ky'amaraka kikomerwe kurungi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:transgender" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transgender</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Obuhangwa obutali bw'enzarwa</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:tr" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Turkish</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Turkish</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:add-question-success-toast-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $uploadedQuestions } of { $totalQuestions } questions collected</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>of { $totalQuestions } questions collected</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:partial-questions-upload-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $uploadedQuestions } of { $totalQuestions } questions collected. View our &lt;guidelinesLink&gt;Guidelines&lt;/guidelinesLink&gt; pages to learn more about how to add questions</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>	{ $uploadedQuestions } of { $totalQuestions } questions collected. View our &lt;guidelinesLink&gt;Guidelines&lt;/guidelinesLink&gt; pages to learn more about how to add questions</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:add-question-error-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload failed, please retry.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ebyokutahya byayanga, yongera olengeho.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:do-section-guideline-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use correct spelling and grammar</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Kozesa empandiika hamu n'amateeka ag'empandiika y'orulimi agahikire.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:why-card-1-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Useful for &lt;mark&gt;organic speech contexts&lt;/mark&gt; and use cases (eg, when you want speech recognition to work with people speaking unscripted and colloquially)</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Omugaso gwagwo &lt;mark&gt;organic speech contexts&lt;/mark&gt; hamu na nambeere gukwetagisibwa (ekyokurorraaho, obu orukuba nooyenda enkwata maraka kukwata embazo z'abantu eza buli kiro ezitateekaniziibwe).</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:welcome-to-spontaneous-speech" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Welcome to Spontaneous Speech</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Weebale kwija ha rubazo orutateekaniziibwe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:data-bubble-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We periodically release the dataset</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ebitusoroize tubiturukya buli hanyuma y'akasumi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:pne" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Western Penan</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Western Penan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:prompt-bubble-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We will show you a prompt or question</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Nitwija kukwoleka ekikaguzo rundi ekintu ekiraakuleetereza kugarukamu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-modal-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What issues are you experiencing with this content?</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Nsonga ki ezi osangire omu bintu binu?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:age-select-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What is your age?</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Oine emyaka ingaha?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:gender-select-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What is your sex or gender?</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Oli mukazi rundi oli musaija?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:add-question-guidelines-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What questions can I add?</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Nyongereho bikaguzo ki?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:why-are-you-asking" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why are you asking?</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Habwaki nookaguza?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:why-spontaneous-speech" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why we built this Spontaneous Speech prototype</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Ensonga habwaki twataireho enkora y'orubazo orutateekaniziibwe</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:hch" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Wixarika</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Wixarika</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-transcribe-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Write down exactly what the person said, including placeholder words like 'um', or 'errr'.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Handiika eki kyonyini omuntu eki abalize, n'ebihuuno nka 'um' rundi errr' nuho otaire.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:editbox-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Write down what you hear the person saying here</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Handiika ebi orukuhurra omuntu naagamba</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:check-bubble-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You check whether the transcription matches the audio</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Kebera orole ebi handiikirwe obu biraaba nibisisana n'ebyo ebiri mu katambi ak'amaraka</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:locale-change-modal-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have unsaved changes on this page. If you change the locale, your changes will not be saved. Are you sure you want to change the locale?</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Haroho ebintu ebi otakaahwire ha peeji enu. Obu oraaruga ha mwanya gunu, ebintu ebi okozere tibirukwija kwahurwa. Noogumya kwo ngu nooyenda kuhindura omwanya?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:navigation-away-modal-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have unsaved changes on this page. If you leave this page, your changes will not be saved. Are you sure you want to leave this page?</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Haroho ebintu ebi otakaahwire ha peeji enu. Obu oraagirugaho, ebi okozere tibirukwija kwahurwa. Noogumya kwo ngu nooyenda kuruga ha peeji enu?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:mic-access-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You must allow microphone access.</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Oine kwikiriza omuzindaro</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:respond-bubble-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You respond or reply to it as naturally as you can</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Garukamu omu mulingo ogwa buli kiro otabandize kwecumiitiriza</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:transcribe-bubble-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You write down what you hear in the audio clips</seg>
+			</tuv>
+			<tuv xml:lang="ttj">
+				<seg>Handiika ebi orukuhurra omu butambi obw'amaraka</seg>
+			</tuv>
+		</tu>
 	</body>
 </tmx>

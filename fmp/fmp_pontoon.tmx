@@ -1,7 +1,2769 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-04-01T00:34:56.157682">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-05-01T00:34:21.664825">
 	</header>
 	<body>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-rerecord-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[1-5]</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>[1-5]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentence-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>1 sentence collected</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>1 njā'nu nkʉ̄kāmsī</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>2 down, keep it up!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yāā yát  &lt;playIcon&gt;&lt;/playIcon&gt;, lah ngén  !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:about" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>About</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:accepted-files" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Accepted file types: .tsv only</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ntíé nzhǐnu pó mbēn lά : ndα̌' tsv</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>{ $actionType } &lt;playIcon&gt;&lt;/playIcon&gt;, pó coh ngə́ njā'nu lά mα nshu ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>{ $actionType } &lt;recordIcon&gt;&lt;/recordIcon&gt; méh ncēh njā'nu lά tα̌ thʉ̄.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>{ $actionType } &lt;stopIcon&gt;&lt;/stopIcon&gt; yāā bᾱ tα míé.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-submit-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } submit when ready</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>{ $actionType } cah ntie' yi ǒ tén lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-contribute-menu-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add and Review Sentences, Add Questions, Transcribe Audio</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cwi' pí patnjīī njá'nu, cwǐ' nte'sínu, lǎh yū'tōk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add &lt;icon&gt;&lt;/icon&gt; a public domain sentence</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cwi' &lt;icon&gt;&lt;/icon&gt; tα' njā'nǔ nά sii mdāmα</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:add-information-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add information</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cwǐ' nken</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentences-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add new sentences for the community to read</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cwǐ' njá'nu fī yi póálά'ghʉ lah ncēh  lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add one sentence per line</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cwǐ' tα' njā'nǔ nά mbαyāā nka' lᾱ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-questions-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add questions in your language</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Cwǐ' nte'sínǔ nά yo ghə</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add Sentences</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lah ncwí' njá'nu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentences-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add sentences in your language</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cwǐ' njá'nǔ nά yo ghə</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add up to 1,000 sentences</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cwi' tα nkwēn nά 1000</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-add-voice" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add Your Voice</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>hᾱ nzhi o</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:agriculture_food" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Agriculture and Food</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>zʉ́'nʉα pí fāhzū nzʉ̄zᾱ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>All sentence must have the same domain</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Nkwe njá'nǔ ghʉ lah mbᾱ nά nzhinu nshʉ'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-6" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>All sentences must have the same citation</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>kwe njá'nū lά ghʉ lah ngʉ́  tα' kwαᾱnge shʉ'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:already-have-an-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Already have an account? &lt;login&gt;Log-In&lt;/login&gt;</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ǒ yá' ghʉ̌ tó'nken ? &lt;login&gt;Yoksi&lt;/login&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sentences-fetch-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred fetching sentences</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tα' hě tóm tiē' nah mbát ndénsí bě njā'nu le.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred reviewing this sentence</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tα' hě tóm ntiē' nah mbát njīī bě njā'nu le</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred submitting your voice information</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mēnwú hě nά' ntōm nά ntiē' ntiē' lah ncáh nkěn njú'ntōk yǐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Approve</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pēn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A quiet background hubbub is OK, but we don’t want additional voices that may cause a machine algorithm to identify words that are not in the written text. If you can hear distinct words apart from those of the text, the clip should be rejected. Typically this happens where the TV has been left on, or where there is a conversation going on nearby.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pά pō pēn mên nǐ yuαsǐ njam , ndα'mά yāā sǐ' mbé' mǒ' nzhi wěn njam yi pά yāā ghʉ̌ nzhinzhǐ mbʉ́ά lah nzhī'sī lěn njá'zū mα yāā sī kǎm céhwū pó ŋwα' lά bᾱ. Yāā bά mα pά pwn yū' mó' njázū si bᾱ yǐ kǎm céhwū pen wᾱ' baá lo'tαndα'' lά. Yáá nē ngʉ́ fa'á ntie' yū'mᾱnjíí mα pó sʉ' nnāk lά ǒ mα sáhnǔ ngak.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-example-1-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Are you coming? &lt;strong&gt;[called by another]&lt;/strong&gt;</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Ǒ mʉnsά' í ? &lt;strong&gt;[mǒ' nzhi mά bᾱ mα ǎ céh ]&lt;/strong&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ask us questions on &lt;matrixLink&gt;Matrix&lt;/matrixLink&gt;, &lt;discourseLink&gt;Discourse&lt;/discourseLink&gt; or &lt;emailLink&gt;email&lt;/emailLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>te'sǐ nu ó nά  &lt;matrixLink&gt;Mʉ̄ᾱmᾱ&lt;/matrixLink&gt;, &lt;discourseLink&gt;tēhnka'&lt;/discourseLink&gt; sí' mbᾱ fa'á bᾱ &lt;emailLink&gt;nά tó' nkěn nkhǔndʉ̄ᾱ&lt;/emailLink&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:automotive_transport" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Automotive and Transport</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ntēnᾱ lah ngén zʉ'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Noise</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yuᾱnjam</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Voices</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nzhǐ njam</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Be cautious before rejecting a clip on the ground that the reader has mispronounced a word, has put the stress in the wrong place, or has apparently ignored a question mark. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a margin of appreciation for those who may speak differently from you.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Pə̄ tᾱ mbēn mbát ngwᾱ' njʉnjāk nά nu ncêhwū imbᾱ mα ǎ céh mǒ' njā'wū ǒ mó' láhnάhŋwα'nǐ nzhintē' kīkē ǒ mbᾱ mα yʉ́ά' tén te'sí nu  lά . Pó mfά' pí nzhinzhǐ ghəmαnshǔ ntám ngwe' ntómntōm, ntīēntíé yāā bᾱ wū mα mó'ntie' mα o kα' tᾱ njū' ntám yi pǎh ngwe'. Pě si lάh lah nnāk mēwú zʉ̌' mbí pʉ kᾱ kᾱ sí' ngə́ pά' pen lά bᾱ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-1-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[‘Beret’ is OK whether with stress on the first syllable (UK) or the second (US)]</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>[mbʉ́ά cēh « yok » tén yī mα pěn mʉnjū'  « yro » (FR) ǒ « yək » (BE)] lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:clips-with-count-pluralized" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; Clips</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; nkǎm yāā</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>&lt;bold&gt;ά pen kōsī yōh&lt;/bold&gt; lah nhóó mó' nzhi fī</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-sentence" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bulk batch</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Tαnjə</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-success-toast" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bulk Sentences Uploaded</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>njá'nu pó cah lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-subtitle-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By telling us about yourself, you will help developers build more inclusive technology</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Ǒ mάnkwé' lah nsōk nǔ nά mbʉ̄ᾱ ǒ náh ngə́ nu lά í ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By using Common Voice, you agree to our &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Pěn mα ndí' lǎh Common Voice lǎh fα' mᾱmbēn mbʉ́άnak mǒh &lt;termsLink&gt;mbʉ́άnak tᾱ ndáh mfά' &lt;/termsLink&gt; pí yoh &lt;privacyLink&gt;Ngě cam&lt;/privacyLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel Re-recording</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>wᾱ' lo'tαndα'' ǒ pat ngʉ́ lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel Submission</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pα̌' cǎh njam</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:exceeds-small-batch-limit-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cannot submit more than 1000 sentences</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pά ǒ lα hᾱ yāā tōh njá'nu 1000</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:change-preferences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Change preferences</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cōp nkwe'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Check &lt;icon&gt;&lt;/icon&gt; is this a linguistically correct sentence?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Coh ndénsi &lt;icon&gt;&lt;/icon&gt; mά nja'nǔ tén pəpé' nά pǎh zhínǔghə</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-less" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;See less</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;si lα'sǐ mfóhni yə̌.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;See more</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;lα'sǐ mfóhni tαnjē</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:citation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Citation</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>kwαᾱnge</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite-explanation-bold" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cite with a URL link or the full name of the work.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lī' mᾱncēh mα zēn mᾱncwí' nkhʉ ǒ zén ŋwα'ni</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-click" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nǒ' nά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:clips-uploaded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clips Uploaded</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>kǎmnshi pó cǎh ntám nduα lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-other-comment" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Comment</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>sóknu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:contact-us" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contact Us</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ά pen cēh yōh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lah ngén mbhi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue validating</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lǎh pēntαndα' ngén mbhi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>kōsī</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-empty-state-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute sentences</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>fʉα'sǐ njá'nu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-page-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribution Criteria</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Kělahntīā lah nkōsī</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:create-profile-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Create a profile</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cwēh tα' nini</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-nav" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Criteria</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>kělahntīā</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:datasets" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Datasets</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pú' njá'zúmfα'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete my recordings</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>shūᾱ njū'ndó'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Different language</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ghə shu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Different language</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ghə shu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-difficult-pronounce" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Difficult to pronounce</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yáá ten lah ngə́ mα nshu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Discard ongoing recording</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tōh nά lo'tαndα'' kά nzhi lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-rules-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Does the sentence meet the guidelines?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>njā'nu lά tēn nά nkǎ' mfα' ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Donate your voice</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>hᾱ mēnwú yáá nά nzhi o</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Don't see your language on Common Voice yet?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yo ghə kα' tᾱ mbᾱ wū í ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Drag your file here or &lt;uploadButton&gt;click to upload&lt;/uploadButton&gt;</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ghʉ̌ nzhinu no sīāh sê le sí mbᾱ fa'á bᾱ &lt;uploadButton&gt; no' náh ncáh &lt;/uploadButton&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-instruction-drop" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Drop file here to upload</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yᾱᾱ nzhinǔ sê náh ncáh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-input-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter your public domain sentence here</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tiē tα' njā'nǔ nά nǔ ngwě' sê</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentence-input-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter your public domain sentences here</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tiē tα' njā'nǔ nά nǔ ngwě' sê</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentence-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Error adding sentence</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nhe ntiē' cwǐ' njā'nu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>ESC</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tōm</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-delete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Exit &amp; Delete clips</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ngα̌ mα ndó ní mᾱngwᾱ' lo'tαndα' zǎ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Fewer than 15 words per sentence</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>si kwēn njẃ'zū 15</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:file-too-large" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>File is too large</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nzhinu lά yə̄ tαshʉ̄α</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:file-too-small" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>File is too small</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nzhinu lά kōh yə̌</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:finance" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finance</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nǔ nkᾱᾱ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish recording</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>měh lo'tαndα'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish recording first?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yá' měh lo' tαndα'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish Review</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>měh lah ndénsí</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-confirm" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish validating</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>měh péntαndα'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish validating clips?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ǒ imméh péntαndα̌' njʉnjāk í ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Follow guidelines from “What sentences can I add?”</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yū' mbʉ́άnǎk kǎmnu lά «Yaā njá'nu tά pά n ncwǐ nά ā?»</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-for-example" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>for example</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>fōhni</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate-explanation-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>For technology to work well for everyone, the data that helps developers to build technology needs to reflect a diverse range of people. For example, if we don't include any speakers with a particular accent, then the technology won't work well for people with that accent. &lt;learnMore&gt;Learn more about why metadata matters.&lt;/learnMore&gt;</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lah ngʉ́ zúntēnᾱ nák pəpé' mbí nkwe pʉ, yáá ncāk mά zū kά mʉnkōsī pʉ kάnshīē'sī nu lά imbᾱ mα yáá ghʉ̌ pʉ tαnyə. Fōhni pō sí' ncwǐ' mǒ' nga'ghə nshʉ' bᾱ , mα wúntēnᾱ lά sī inák pəpé' mbí pʉ kᾱ kα' ghʉ́ baá zhienzhi lά bᾱ.&lt;learnMore&gt;mα mʉ́άzū.&lt;/learnMore&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:general" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>General</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tαmīα</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-multiple-variants" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>General language / multiple variants</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>wū lah nzhī nά ghə/tαnjə̄</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-grammar-or-spelling" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Grammatical / spelling error</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>hě siēmbʉ̄ᾱ / hě kětie</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great!&lt;recordIcon&gt;&lt;/recordIcon&gt; Record your next clip</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cwītōk mbe' nu ! &lt;recordIcon&gt;&lt;/recordIcon&gt; ά pen yū' mó' kǎm lo'tαndα'' kά mbhi lά ndó' .</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-again-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great work!&lt;playIcon&gt;&lt;/playIcon&gt; Listen again when you're ready</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Be' mfα' tα' ! &lt;playIcon&gt;&lt;/playIcon&gt; pat njū' ntien ǒ yá' tēn lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:guidelines" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Guidelines</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mbʉ́ά fα'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:healthcare" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Healthcare</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>síten</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-first-banner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help create Common Voice’s first target segment in { $locale }</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>kōsī lah ncwēh ntúmbhi wē Common Voice nά { $locale }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help us validate voices</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ά pen kōsī yōh lah mbēn njʉ̌nják yū'ntōk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>His hand was rais-ed.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>toōndāk pí yeh ŋámvāt</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:history_law_government" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>History, Law and Government</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Cwe' , póngʉ', pí nsά'ngwe'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How do I cite?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pó ngʉ́ kwαᾱnge mα lahā ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-review-small-batch-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How to add multiple sentences</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pά pō cwǐ' njá'nu tαnjə̄ mα lahā ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-help-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How would you describe your sex or gender?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ǒ mάnkwé' lah ndά'sí yo mbʉ́ά bᾱ mα lahā ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:terms-agree" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I agree</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ngα̌ pén</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-submit-confirm" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I confirm that these sentence are &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; and I have permission to upload them.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ngα̌ mʉmbēn mά njá'nu bé mfhʉ̄ mα &lt;wikipediaLink&gt;siī ngww'ngwe' &lt;/wikipediaLink&gt;m mbᾱ mα ngα̌ ghʉ̌ pó ngʉ̌' lah ncáh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-write-submit-confirm" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I confirm that this sentence is &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; and I have permission to upload it.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ngα̌ mʉmbēn mά bě njā'nu lě mfhʉ̄ mα nά &lt;wikipediaLink&gt; nǔ ngwe' &lt;/wikipediaLink&gt; m mbᾱ mα ngα̌ ghʉ̌ póngʉ̌ lah ncáh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;icon&gt;&lt;/icon&gt; Add multiple public domain sentences</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>&lt;icon&gt;&lt;/icon&gt; cwǐ' njá'nu tαnjə́ nά siī nkwe pʉ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-8" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ideally natural and conversational (it should be easy to read the sentence)</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>njā'nu lά ghʉ lah mbᾱ yalēh lah ndáh ngə́ nu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:terms-disagree" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I do not agree</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ngα̌ ke</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If it’s your own words, just say &lt;italicizedText&gt;“Self Citation”&lt;/italicizedText&gt;. We need to know where you found this content so that we can check it is in the public domain and no copyright restrictions apply. For more information about citation see our &lt;guidelinesLink&gt;Guidelines page&lt;/guidelinesLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yāā bά mα kwα' yo njá'zū bά, o sōk ndα̌' sōk &lt;italicizidText&gt;«yi kwαᾱngě wen» &lt;/italicizedText&gt;. pα̌h ghʉ lah nzhī zʉ' báá zú mfhʉ̄ mα nά ā lά, ά lǎh lensi yī mα yáá ntám siī ngwe'ngwe' lά, mbát mbᾱ mα nshʉα' sī nά ā lά bᾱ . Lah ngʉ́ mó' nkěn nά kwαᾱnge, cāk mbʉ́ά fα̌' yǒh &lt;/guidelinesLink&gt; nά &lt;guidelinesLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description-extended" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lo'tαndα'' bα̌ mα yáá cwē ǒ mbᾱ mʉnzēnsī pen kě tαndα', lᾱ tα mα pά wen yū' nkwe kǎm céhwū lά tαmīe.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yāā bά mα lo'tαndα'' cwēsī ǒ mα yáá ghʉ̌ zhiēpʉ̄ᾱ'si, pen wᾱ', lᾱ mα pó mʉnjū' nkwe kǎm céhwū tαmīe.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-additional-information" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If there is additional information you want to provide about this file, please contact &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>o mάncāk lah ncwí' nken shǔ , o kūᾱsī &lt;emailFragment&gt;commonvoice@mozila.com&lt;/emailFragment&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:template-file-additional-information" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If there is additional information you want to provide about this file that is not included in the template, please contact &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>o mάncāk lah ncwí' nken shǔ kᾱ sī nά bê nzhinu le bᾱ , o kūᾱsī &lt;emailFragment&gt;commonvoice@mozila.com&lt;/emailFragment</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-5-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the sentence does not meet the above criteria, click the &amp;quot;Reject&amp;quot; button on the left. If you are unsure about the sentence, you may also skip it and move on to the next one.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>njā'nu sí' mᾱ mbómsí pí mbʉ́άtīā kά thʉ̄ le bᾱ o nǒ' nά mbǎ' « ke » nά pah coh. Nthʉ̄ ō sí' mᾱndē bᾱ , mα pά o yᾱ' mbα njʉ̄yᾱ' ngén nά mó' . Yī mα mó' njá'nu sī mbú ó lah ndénsí bᾱ , pen kōsī yōh lah ncāk mó' njá'nu !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the sentence meets the criteria, click the &amp;quot;Approve&amp;quot; button on the right.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>njā'nu bα̌ mbómsí pí mbʉ́άtīā, o nǒ' nά «pēn»nά pah lōm</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pen có nά tα' nu mα bé nkǎ'mfα' sī mα nkwēn nά ā bᾱ pen tīā mfhʉ̄ nά pe' nthʉ̄ yi. Pen sí' mᾱnkwá'sí nu ntēn nā bᾱ , o nǒ' nά «tōh» nī ntōh nά mǒ' lo'tαndα''.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-6" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If you run out of sentences to review, please help us collect more sentences!</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yī mα njá'nu sī wū lah ndensí bᾱ , o kōsī yōh lah ncāk mó' njá'nu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-7" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Include appropriate citation</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>kwαᾱnge kά mʉncāk lά ghʉ lah mbᾱ ntām</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:file-invalid-type" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Invalid file</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nzhinu kα' tēn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-difficult-pronounce-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It contains words or phrases that are hard to read or pronounce.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mó' njá'zū ǒ njá'nǔ mʉntén lah ncēh ǒ lah ngə́ mα nshu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It is written in a language different than what I’m reviewing.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pó ŋwα̌' njā'nǔ nά ghə mα cómntíé nā pí yi pó ŋwα' lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It is written in a language different than what I’m speaking.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pó tiē njā'nu lά mα nά mó' ghə shu si bᾱ yǎ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Just Unsure?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yāā kα' lē tú ó í ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep it up, record again &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Ɑ́ pen láh ngén mbhi fa'á mbát njū' mó' ndó'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-keep-recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep the recordings</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ncoh ndó' njū'ndó'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:keep-track-profile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep track of your progress with a profile</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>niᾱ tα' ninimbu' no náh mfʉ́ά' ghenmαmbhi no</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:language_fundamentals" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language Fundamentals (e.g. Digits, Letters, Money)</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>kětiē nzhǐnzhǐ ghə (nthimbhi, nάhŋwα'ni, nkᾱᾱ )</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:languages" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Languages</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ghə</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-sentence-submission" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Large bulk sentence submission</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cǎh njá'nu tαnjə̄</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn More</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lah nzhī ndáh ngénmbhi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Leaving now means you'll lose your progress</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>o lǒ ntie'ê mα ǒ mbīē yīī mbʉ̄ᾱ mfα̌' mʉngén mbhi lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lah njū'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-contribute-menu-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen options menu</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tó'tíá nzhinzhǐzū « Yū'»</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-loading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Loading sentences…</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>njá'nǔ mʉnkwēn...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:login-instruction-multiple-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;loginLink&gt;Login&lt;/loginLink&gt; or &lt;loginLink&gt;sign up&lt;/loginLink&gt; to add multiple sentences</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>&lt;loginLink&gt;Yoksǐ nά ngə̂nduα&lt;/loginLink&gt; sí' mbᾱ fa'á bᾱ &lt;loginLink&gt;tiē yo zēn&lt;/loginLink&gt;náh ncwí' njá'nu tαnjə̄</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-to-get-started" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log in or sign up to get started</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lah ntō' liā nā o, sī bᾱ fa'á bᾱ, o tiē zēn zǒ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log In / Sign Up</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>kwēn ntám ngə̄nduα / lah ntíé zēn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-make-sure" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Make sure the sentence meets the following criteria:</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lensi tαndα' mά njā'nu lά mα ntēn nά mbʉ́άtīā kά ?bhi le</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:maximum-file-size" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Maximum file size: 25 MB</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nthí nzhinu kά yə̄ tα' lά : 25 Mo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:media_entertainment" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Media and Entertainment</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mbǔ'nken pí shíé'sínā</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:minimum-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Minimum sentences in file: 1000</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mvǎk njá'nǔ ntám nzhinu 1000</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-8-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Mismatched content]</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>[wū kά ntām lά si sēnsōk]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Misreadings</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Hě céhwū</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Missing an &lt;strong&gt;'s'&lt;/strong&gt; at the end of a word.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yáá mʉmbōk &lt;strong&gt;« n »&lt;/strong&gt; mbhi njā'wū.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Missing &lt;strong&gt;'A'&lt;/strong&gt; or &lt;strong&gt;'The'&lt;/strong&gt; at the beginning of the recording.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yáá mʉmbōk &lt;strong&gt;« tα' »&lt;/strong&gt; ǒ &lt;strong&gt;« α »&lt;/strong&gt; nά lah ntō' yū'ntōk.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Missing the end of the last word by cutting off the recording too quickly.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mehsi njā'wú cwē, mbī'tū mά lo'ndó' cwē mα wǎ tα'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-4-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[More has been recorded than the required text]</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>[lo'tαndα'' shʉᾱ kǎm céhwū]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Ntám mbʉα' lo'tαndα'' pʉnǒk ngə́ kwα' pí nzhi yαα si cōp. Pά pen pēn miē mbēn tα' lo'tαndα'' ncʉcwi, ndʉ̄lamsi, ǒ mα pó ghəmαnshu yāā lē «pí tα' nzhi lah ngʉ́ sʉα». ά pen wᾱ' lo'tαndα'' njʉyɔ ǒ mα nzhi sahndó' tᾱ pō ndah mfά'.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-vote-no" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>n</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>n</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-reject-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>N</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>N</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:nature_environment" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Nature and Environment</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ntiēwū pí zʉ̌'sí yāā</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:news_current_affairs" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>News and Current Affairs</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cwě' ntie'ê</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Nga'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-7-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[No ‘a’ in the original text]</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>[si « mᾱ » ntám kǎm céhwū sᾱ'sīē]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;noCopyright&gt;No copyright&lt;/noCopyright&gt; restrictions (&lt;cc0&gt;cc-0&lt;/cc0&gt;)</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>&lt;noCopyright&gt; sə̌ nshʉα' nά có' nga'nu sī wū bᾱ&lt;/noCopyright&gt;(&lt;cc0&gt;cc-0&lt;/cc0&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-6" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No foreign letters</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>sə̌ ngen zάhŋwα'ni</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-no-mic-found" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No microphone found.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pō kα' yīī sə̌ cwi'nzhi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No numbers and special characters</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>sə̌ nthimbhi sə̌ zάhtie tōmfhʉ'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-no-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No sentences to review. &lt;addLink&gt;Add more sentences now!&lt;/addLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Sə̌ njā'nu lah ndénsí . Pά pen  &lt;addLink&gt;cwǐ' mó' njá'nu &lt;/addLink&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:continue-speaking-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No thanks, continue speaking</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nga' ngα̌ pén, ά pen ghə́ náh ngén mbhi.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Offensive language</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ghə̌ lóknshu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-speech" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Offensive speech</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ghə̌nǔ píhnthʉ̄</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported-desktop" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On desktop devices you can contribute by downloading…</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nά yǐ sāhndó' nko' pά o tēh yi kᾱ yát tᾱ mᾱntōm lά :</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-1-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On his head he wore a beret.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yǒkndʉ̄'ntēnᾱ lα̌'mfάk nzhinzhǐ yǒkntēnᾱ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported-ios-non-safari" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On iOS please continue with Safari to enable recording…</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nά háá iOS, ά pen lah Safari ndáh ngén mbhi náh ncwāh lo'tαndα''.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description-extended" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tᾱ' pen mά nkwá' mά ncêhwū lά kα' yá' yīī njā'wū lά, mbᾱ mα ŋáh lah ngə́mαnshu si zhī , pen pēn mbátnké yū'tαndα'. yāā sí' mᾱndē nthʉ́ ó bᾱ, o nǒ' nά tōh.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>p</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>p</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:partner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Partner</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nsénmfα'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-2-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Part of the text can’t be heard]</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pō sī mʉnjū' mó' pǎh kǎm céhwū bᾱ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-last-time-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Last one!</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>&lt;playIcon&gt;&lt;/playIcon&gt; ndesi yāā bά !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Play/Stop</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Cēh/Tēnᾱ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:what-needs-to-be-in-file-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please check our &lt;templateFileLink&gt;template file&lt;/templateFileLink&gt;. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ά pen lénsí yoh «templateFileLink&gt;fōhni&lt;/templateFileLink&gt;. Njá'nu zě ghʉ lah mbᾱ si nkhʉ̌ nά á (CC0 ǒ lᾱ mα nga'tié hά póngʉ̌' lah ndáh mfά' ) yāā imbᾱ lē nά pǎh sīēmbʉ̄ᾱ tαmíéwǎ' mbᾱ yahlēh lah ncēh. Njá'nu pó cah lά ghʉ lah ndáh ngwǎ' ci' 10-15 lah ncēh si nᾱh nthimbhi, Kwα'nzēn , píá tiēwū tōmfʉ'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:required-field" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please fill out this field.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Lēh zʉ' ngʉ̄ᾱ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-select-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please select a language to review sentences.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ά pen tīā tα' ghə ndáh ndénsí njá'nu .</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-record-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>r</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>e</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[‘Raised’ in English is always pronounced as one syllable, not two]</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>[pó ngə́ toōndāk pí yěh mαnshu pά' tα' njā'wū lά sī pʉ́ά bᾱ ]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-toast-message-minutes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Rate limit exceeded. Try again in { $retryLimit } minutes</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ndhʉ̌ lah ncáh ku'. Pat mfʉ́ά'sí { $retryLimit } mbhʉ̄</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-toast-message-seconds" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Rate limit exceeded. Try again in { $retryLimit } seconds</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nά { $totalSentences } njá'ghə pó kāmsī lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reader Effects</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>zhiēnzhi pí nǔ zhie</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pó cēh kə̄si kᾱ sī wū lά bᾱ , pά' « kwαfa'á » nά zʉ̌' « kwα'fa'á ».</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:read-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Read Sentences</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cēh njá'nū</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-contribute-menu-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Read Sentences, Answer Questions</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cēh njá'nu, mbά' nte'sínu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:read-sentences-coming-soon" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Read Sentences &lt;small&gt;(Coming soon)&lt;/small&gt;</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Cēh njá'nu &lt;small&gt;(tα mó'līē' )&lt;/small&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:read-sentences-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Read sentences submitted by the community in various languages</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cēh njá'nu pōámbě hᾱ mα ntīēntíe ghə lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ready to do { $count } more?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ǒ mʉnkwé' lah mbát ngʉ́  { $count } ncwí í  ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-last-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; ndehsi yāā baá !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-3-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Recording cut off before the end of the last word]</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>[lo'tαndα'' cwē si ndehsi njā'wū mīe ]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-record-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record/Stop</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lo'tαndα'/ ntēnᾱ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:read-sentences-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record yourself reading sentences in your language</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Ghʉ̌ tα' lǒ'tαndα' mα ǒ mʉncēh njá'nǔ nά ghə zǒ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:answer-questions-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record yourself responding to questions and prompts in your language</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Ghʉ̌ tα' lǒ'tαndα' mα ǒ mʉmbά' nte'sínǔ mbí pαngěn nά ghə zǒ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:record-button-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record your voice</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lǒ' nzhi o tαndα'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:citation-input-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reference the source of your sentence (required)</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tiē tα' njā'nǔ nά nǔ ngwě' sê</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-reject" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reject</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>wᾱ'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Report</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pī'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Report was passed successfully</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pó coh cǎh sēnsōk pəpē'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Request a Language</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pʉ̄h tα' ghə</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-rerecord" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Re-record</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pat njū'ndó'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-rerecord-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Re-record clip</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pat ngʉ́ lo'tαndα''</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Return</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nzhikwēn</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:review" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>patndénsí</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ndensi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>patnjīī</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-review-failure" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review could not be saved. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pō kα' kú'sí lah ndó' lensi lά bᾱ. Pat mfʉ́ά'.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-modal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>ⓘ Review Criteria</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ⓘ mbʉ́άtīā nά patnjīī</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review Criteria</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mbʉ́άtīā nά patnjīī</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-prompt" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reviewed sentences not submitted, are sure?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pō kα' cáh njá'nu pó lensi lά , ǒ indáh ngén mbhi í  ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:review-sentences-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review existing sentences submitted by the community</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cohndénsí njá'nu kᾱ yá' bᾱ wū mα póálά' phʉ̄ lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; re-record clips here as you go</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ά pen mbát njū'ndó' ntie' nǔ yáá wū lά.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; re-record clips if needed</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lensi mbát ncáh yī mα nǔ yáá wū lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review Sentences</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>coh ndénsí njá'nu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review Sentences</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lensǐ njá'nu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:review-sentences-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review sentences in your language</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>coh ndénsí njá'nǔ nά yo ghə</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-submit-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; Submit</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Lensi mbάt ncáh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:review-transcriptions-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review transcriptions of recorded sentences for accuracy</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lensǐ tiē njá'nu yī mα yáá kwα' fa'á lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:review-transcriptions-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review user-submitted transcriptions in your language</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ncoh ndénsí tiē yi pʉ kά mʉndáh zū mfά' nά ghə zǒ hᾱ lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>s</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>a</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>S</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>P</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-default-option" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select an option</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tīā tα' nzhi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select a variant (optional)</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tīā mó' nshʉα (yī mα wěn kwe' lά)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:select-file" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select File</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Tīā tα' nzhinu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:select-file-mobile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select File to Upload</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tīā tα' nzhinu lah ncáh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-domain-select-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select up to three domains (optional)</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tīā nzhǐnu tα ngén tāā</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>njā'nu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-domain-combobox-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence Domain</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nzhinu njā'nu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-page-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentences contributed here will be added to a publicly available cc-0 licensed dataset.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pó incwí' njá'nu kά sé lά ntám tα' sʉα nǔ ngwe'ngwe' nά ŋwα'nǐ hάngʉ' cc-0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-reviewed-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $sentences } sentences reviewed. Thank you!</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>{ $sentences } njá'nu mα pó lensi. ngα̌ pén !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sentence Variant</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mó' nshʉᾱ njā'nu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Separate sentences into one line by pressing “Enter” or “Return” once</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>no' cāmshʉ' náh sehsǐ njá'nu « Kwēn »</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:service_retail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Service and Retail</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mfα' pí fěnwū nshʉ̌'shʉ'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:share-common-voice" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share Common Voice</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ghααsǐ Common Voice</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:share-clip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share your clip</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ά pen ghάά lo'tαndα'' yi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcuts" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Shortcuts</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>shuαnzhi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-2-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Should be ‘dinosaurs’]</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>[fhʉ̄ mᾱ ngén mᾱ « mʉ́ά nə̌ ]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-6-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Should be “We are”]</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>[fhʉ́mᾱ ngén bᾱ « mbα mαlahā lᾱ »]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:single-sentence" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Single</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pǒ' njā'nu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:single-sentence-submission" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Single sentence submission</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cǎh pǒ' njā'nu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tōh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tōh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentence" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Small batch</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>men pū'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentence-submission" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Small batch sentence submission</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cǎh póó nkamnkǎm njá'nu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-source" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Source: { $sentenceSource }</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>zʉ̌'fhʉ̄ : { $sentenceSource }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lah ngə́</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-now" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak now</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pά o ghə̂</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-contribute-menu-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak options menu</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Tíá nzhinzhǐnu  « lah ngə́»</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Start recording</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tō' lo'tαndα''</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-3-fixed-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;strong&gt;[Crackle]&lt;/strong&gt; giant dinosaurs of &lt;strong&gt;[crackle]&lt;/strong&gt; -riassic.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>&lt;strong&gt;[ zhiēpʉ̄ᾱ' ]&lt;/strong&gt; mvěn mʉ́ά nə̌ &lt;strong&gt;[ zhiēpʉ̄ᾱ' ]&lt;/strong&gt; -rias.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-1-fixed-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;strong&gt;[Sneeze]&lt;/strong&gt; The giant dinosaurs of the &lt;strong&gt;[cough]&lt;/strong&gt; Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>&lt;strong&gt;[ lamsi]&lt;/strong&gt; mvěn mʉ́ά nə̌ &lt;strong&gt;[ cwêh ]&lt;/strong&gt; Trias.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cah</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:answer-questions-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit a new question for the community to read and respond to</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>phʉ̄ mó' nte'sínu fī ά póálᾱ' yū', mbát mbά' nte'sinu yāā</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit a report</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cǎh sēnsōk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cǎh ntīēntíé lo'tαndα'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cǎh ntīēntíé lo'tαndα''</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-questions-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit new questions for the community to read and respond to</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>phʉ̄ njá'nu fī , ά póálᾱ' cēh mbát mbά' yāā</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Success</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nu lά nak</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:img-alt-success-checkmark" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>success checkmark</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tó' yi kά nak lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-usage" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Swipe right to approve the sentence. Swipe left to reject it. Swipe up to skip it. &lt;strong&gt;Do not forget to submit your review!&lt;/strong&gt;</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ghʉ̌ yāā sīāh nά pah lōm ndáh mbēn njā'nu. ghʉ̌ yāā sīāh nά pah coh . Sīāh náh nkō' náh njᾱ' . &lt;strong&gt; ǒ si lάh nah ncáh pα̌' patnjīī no !&lt;/strong&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Taking several attempts to read a word.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ghʉ ncámncām náh ncāh tα' njā'wū.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tap</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nǒ' nά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:technology_robotics" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Technology and Robotics</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nǔntēnᾱ pí pʉmαntēnᾱ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-submission-success-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for contributing your bulk submission!</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pα̌h pén yí nά mbʉ̄ᾱ pěn cǎh njá'nu tαnjə̄ lά !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:second-cta-header-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for contributing your voice!</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pα̌h pén nά mbʉ̄ᾱ pěn hά nzhi yi lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-header-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for donating your voice clips!</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pα̌h pén mbʉ̄ᾱ pěn hά nzhī'si yū'tōk yi lά.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-submit-msg" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for recording!&lt;lineBreak&gt;&lt;/lineBreak&gt;Now review and submit your clips below.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Pα̌h pén yíí nά lo'tαndα'' yi !&lt;lineBreak&gt;&lt;/lineBreak&gt;Pά o pēn tαndα' ntie'ê, ncáh kǎmnu kά ten le.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for your voice information</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pα̌h pén nά nkěn njú'ntōk yǐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-8-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The bumblebee sped by.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lamsá khʉα</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-speech-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The clip has disrespectful or offensive language.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>njʉnjāk yū'tōk lά ghʉ̌ ghə̌nǔ si nhu'ni sí' mbᾱ fa'á bᾱ lóknshu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-2-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaur of the Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Mʉ́ά mvěn  nə̌ Trias.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-3-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaurs of the Triassi-.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mʉ́ά mvěn nə̌ Tria-.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-1-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaurs of the Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mʉ́ά mvěn nə̌ Trias.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-example-1-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaurs of the Triassic. &lt;strong&gt;[read by one voice]&lt;/strong&gt;</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mvěn mʉ́ά nə̌ Trias. &lt;strong&gt;[mǒ' nzhi mά bᾱ mα ǎ céh ]&lt;/strong&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-4-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaurs of the Triassic. Yes.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Mʉ́ά nə̌ Trias. ŋ̄h.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-2-fixed-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dino &lt;strong&gt;[cough]&lt;/strong&gt; the Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mven mʉ̄ᾱ nə &lt;strong&gt;[ cwêh ]&lt;/strong&gt; le Trias.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-empty-state" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There are currently no sentences to review in this language.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Sə̌ njā'nu sī wū nah ncóh ndénsí ntie'ê nά bé ghə bᾱ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-long" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too long.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lo'tαndα'' lά sah yə̌.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too quiet.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cwi'nzhi yū'tōk lά yah yə̌</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-short" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too short.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lo'tαndα'' lά kōh kam yə̌</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-volume-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cwǐ'nzhǐ mfāhsī mfhʉ̄ nά ncêhwū mbǎ' ǒ mʉnzhwīē. Ɑ́ pen lí'wᾱ' lά mα mα cwǐ'nzhǐ yə́ tαshʉ̄α tα mᾱncwē ǒ (ntie' tαnjə̄) yī mα yáá tα̌ sīē tα pó lα bᾱ njū' si lensǐ nά céhwū yāā lά bᾱ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The Sentence Collector is moving to the core Common Voice platform. You can now &lt;writeURL&gt;write&lt;/writeURL&gt; a sentence or &lt;reviewURL&gt;review&lt;/reviewURL&gt; single sentence submissions on Common Voice.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pó fhʉ'sǐ nga'ntīa njá'nǔ nhα ntié' mα Common Voice. lah ntō' ntie'ê pά o &lt;writeURL&gt;nŋwά'&lt;/writeURL&gt; tα' njā'nu ǒ &lt;reviewURL&gt;cohndénsí&lt;/reviewURL&gt; njá'nu mfhʉ̄ tα̌ Common Voice.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-grammar-or-spelling-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence has a grammatical or spelling error.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>njā'nu lά ghʉ̌ hě sīēmbʉ̄ᾱ sí' mbh̄ fa'á bᾱ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence has disrespectful or offensive language.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>njā'nu lά ghʉ̌ ghənu sipe' sí' mbᾱ fa'á bᾱ lóknshu .</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be grammatically correct.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>njā'nǔ ghʉ lah ntēn pəpé' nά pǎh siēmbʉ̄ᾱ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be speakable.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>njā'nǔ ghʉ lah mbᾱ mα pά wwn ghə̌ pí nshu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be spelled correctly.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>njā'nǔ ghʉ lah mbᾱ mα pó cohsi tíé pəpē'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate-explanation-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This information is optional to provide - you should only add it if you feel comfortable. When we release the dataset, we pseudonymise all personal information, and make sure information like your name and email are not connected to demographic information like age or sex.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Báá nken lά mά yī mα wěn kwe' lά, lí' cwi' lά mα ǒ mʉnjū' pəpē'. Pα̌h ndí' zū lά mα pα̌h yάά mfʉα zēn nά nkwe nu kά mʉnjīī nō lά, tα mᾱnzhī mά nu pά' zēn zǒ pí tó'nkěnkhǔndʉ̄ᾱ no sī mʉntōm mbᾱ mbα pα' nǔ'nzᾱ o ǒ yo mbʉ́ά bᾱ lά bᾱ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-three-more-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Three to go!</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yāā yát mbōk ndα̌' tāā!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:too-many-files" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Too many files</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nzhǐnu yə̌</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:transcribe-audio-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcribe audio recordings into text</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ghʉ̌ yū'tōk nά mbʉ́ά pαᾱtie</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:transcribe-audio-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcribe audio recordings in your language</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Lǎhyū'ntók nά ghə zǒ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:try-upload-again" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Try again by dragging your file here</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pat ndí'mfʉα'si lά ngʉ́ nzhinu no sīāh sê</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:try-upload-again-md" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Try uploading again</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pat ŋáh lah ncáh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Understand contribution criteria</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lah njū' kělahntīā lah nkōsī</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-page-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Understand what to look for when listening to voice clips and help make your voice recordings richer too!</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ά pen yū' wū yi yáá ncāk mά pen kʉ́' ntōk náh njū' ntie' pěn njū' njʉnjāk yū'ntōk lά náh ncwí' mbα kwα' lo'tαndα'' yi!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-aborted" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload aborted. Do you want to delete your recordings?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>lah ncáh kα' nák. Ǒ mʉnkwé' lah ncwē lo'ndó' no í ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-small-batch-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $uploadedSentences } of { $totalSentences } sentences collected</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>{ $totalSentences } njá'nu pó tīā lά nά. Nǒ'  &lt;downloadLink&gt;here&lt;/downloadLink&gt; náh ntēh njá'nu pó wᾱ' lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-response-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $uploadedSentences } of { $totalSentences } sentences collected. Click &lt;downloadLink&gt;here&lt;/downloadLink&gt; to download rejected sentences.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>{ $uploadedSentences } { $totalSentences } njá'nu pó tīā lά nά. Nǒ' &lt;downloadLink&gt;here&lt;/downloadLink&gt; náh ntēh njá'nu pó wᾱ' lά.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-failed-toast" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload failed, please retry.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yāā kα' shʉ́ά, pat ŋáh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload &lt;icon&gt;&lt;/icon&gt; public domain sentences</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cǎh &lt;icon&gt;&lt;/icon&gt; njá'nu nά nǔ ngwě'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:upload-progress-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload in progress...</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>cǎh nzhi...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:upload-more-btn-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload more sentences?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ά pen cáh mó' njá'nu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use correct grammar</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>siēmbʉ́ά ghʉ lah mbᾱ nά nka'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use correct spelling and punctuation</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mbʉ́άtie pí ntén ghʉ lah mbᾱ nά nka'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:validate-readings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate Readings</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pēn pα̌ncéhwū</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-contribute-menu-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate Readings, Review Transcriptions</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pēn pα̌ncéhwū, ncóhndénsí tiē yāā</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:validate-readings-coming-soon" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate Readings &lt;small&gt;(Coming soon)&lt;/small&gt;</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pēn pα̌ncéhwū &lt;small&gt;(Tα mó'līē')&lt;/small&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:validate-readings-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate readings submitted by community members</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pēn ncéhwū póálά' cah lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:validate-readings-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate user-recorded readings in your language</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pēn ncéhwū pʉ kά mʉndáh zūmfά' mfά' ntám ghə yǐ lά.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Varying Pronunciations</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ghəmα nshu pí cópntīē</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-volume-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Volume</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Cwǐ'nzhi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:create-profile-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Want to save your information? &lt;createProfile&gt;Create a profile&lt;/createProfile&gt;</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ǒ mάnkwé' lah ndó' nken ǒ tαndα' í ? &lt;createProfile&gt;cwēh tα' tó'nini&lt;/createProfile&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-7-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We are going out to get a coffee.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mbα mαlahā lᾱ, nden mᾱ kάshʉα.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-5-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We are going out to get coffee.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>mbα mα lahā lᾱ nzα̌ inshʉ́ά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-loading-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We couldn’t get any audio clips for you to listen to.
+Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pαh kα' ghʉ́ njʉnjāk yū'ntōk. Pat mfhʉ́ά' ntiē' mo'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-loading-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We couldn’t get any sentences for you to speak.
+Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pα̌h ŋah lah ngʉ́ njá'nu lah ngə́ mα nshu kīkē. Patŋáh ntié'mo'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We may have run out of clips - refresh the page, or try again later.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pαh kα' mbát ngʉ́ njʉnjāk lah mbēn tαndα̌' nά báá ghə lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-6-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We’re going out to get coffee.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Mbα mαlahā den kάshʉα.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We're making some big changes</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pα̌h mʉngʉ́ mʉ́ά ncōpsi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We’re sorry, your platform is not currently supported.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ά pen lάhsí yōh, tᾱ' pō kα' tᾱ sómbō náh nkō bé siīmfα' le.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-empty-state" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We've run out of sentences to record in this language...</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pαh kα' pátngʉ́ njá'nu lah ndó' tαndα̌' nά bé ghə le...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We want the machine learning algorithms to able to handle a variety of background noise, and even relatively loud noises can be accepted provided that they don’t prevent you from hearing the entirety of the text. Quiet background music is OK; music loud enough to prevent you from hearing each and every word is not.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yáá ncāk mά nzhǐnzhǐ mbʉ́ά lah nzhī'sī si ndǒk í bᾱ mα pά yāā kōsī lah ndά' nǔ yuᾱ njam. Pά pō pēn mbα yuα titen tᾱ' ά yáá si ké lah njū' nkwe céhwū tα mīe. Pά pō pēn mbα tα' mbūαni  yɔ̌nshǐ njam, tᾱ' pó lα pēn yɔ̌nshi kά mʉnké lah njū' mbαyaā njā'wū lά bᾱ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-ask" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What issues are you experiencing with this sentence?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>Yaā ngǎnga tά pěn mʉnjīī ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:what-needs-to-be-in-file" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What needs to be in my file?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>kά mά ntám ya nzhinu ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-review-write-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What sentences can I add?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yaā njá'nu tά pά n ncwî' ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. &lt;br /&gt;Very common mistakes include:</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ά pen lí'yū' lά, ncóh ndénsí yī mα wū pó lo'tαndα'' lά mʉmbómsí pí wū pó tie lά, mbά' mbα̌ njam mbα mα nhe kα' yə̄ nά ā.&lt;br/&gt; nhe kά nē njə̄ lά bê:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why are you asking?</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>nukά báá te'sínu lα̂ ?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:second-cta-subtitle-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>With a profile, you can keep track of your activity and connect with a community of voice data contributors.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pά o lǎh ninitō' no mᾱnjīī mvak mfα' mǒ mʉnnák lά, mbát njóksí ó nά kə̌ pʉ kά nhᾱ njú'ntōk lά</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Write</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>-ŋwα'</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-contribute-menu-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Write options menu</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>tíá nzhinzhǐnu «ŋwα' »</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-vote-yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>y</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>o</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-approve-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Y</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>O</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-yes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ŋ̄h</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-keyboard-usage-custom" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You can also use Keyboard Shortcuts: { sc-review-form-button-approve-shortcut } to Approve, { sc-review-form-button-reject-shortcut } to Reject, { sc-review-form-button-skip-shortcut } to Skip</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pά o lǎh mbα nshuαnzhi kǒ'tie: { sc-review-form-button-approve-shortcut } náh mbēn , { sc-review-form-button-reject-shortcut } lah ngwᾱ', { sc-review-form-button-skip-shortcut } lah ntōh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:multiple-sentences-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You cannot add multiple sentences for a single submission</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pά ǒ lα cwí' njá'nu tαndjə̄ ntiē' cah ndα̌' cāmshʉ' bᾱ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-lang-not-selected" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have not selected any languages. Please go to your &lt;profileLink&gt;Profile&lt;/profileLink&gt; to select languages.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>You have not selected any languages. Please go to your &lt;profileLink&gt;Profile&lt;/profileLink&gt; to select languages.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-message-minutes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ǒ yá' kwēn nά ndhʉ̌ lah ncáh nά bé pαα le. Nᾱ' mbīᾱ { $retryLimit } mbhʉ̄    tᾱ nhᾱ njá'nu fī. Pα̌ pén nά pīᾱ zǒ !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-message-seconds" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ǒ yá' kwēn nά ndhʉ̌ lah ncáh nά bé pαα le. Nᾱ' mbīᾱ { $retryLimit } ci'  tᾱ nhᾱ njá'nu fī. Pα̌ pén nά pīᾱ zǒ !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You must allow microphone access.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>yáá pe' mά ó cō' cwi'nzhi.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-generic-card" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You’re contributing to a target segment</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pěn mα nkōsī tα' wé pʉ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-first-card" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You’re contributing to our first target segment</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pěn mα nkōsī yoh ntúmbhi wé pʉ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-error-rate-limit-exceeded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You're going too fast. Please take a moment to review the sentence to make sure it's correct.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>ǒ mʉngén mα wǎ . Lah tα' ntie' náh mbát ncēh njā'nu, ndénsí yī mα yáá tēn pəpē' lά .</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-submission-success-subheader" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You're helping Common Voice reach our daily sentence goals!</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pěn mʉnkōsī Common Voice lah mfά' mfα̌' líé'nzᾱ nά njá'nu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state-variants" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your language variant might be out of clips! If you’re comfortable, you can change your settings to see other sentences within your language.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>njʉnjāk yo ghə̌ cámko lά mie ! O bά njū' na o pəpē', mα pά o cōp mbʉ́ά lah mfά' ndáh ndά'sí ndά'sí mó' njá'zū ntám ghə yǐ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:no-sentences-for-variants" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your language variant might be out of sentences! If you’re comfortable, you can change your settings to see other sentences within your language.</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pαh kα' pátngʉ́ mó' njá'nu mα pó tie tαndα̌' nά bé ghə le ... Mó'ntie' mα njá'nǔ nά ghə̌ yi cámko sí' njǎt wū bᾱ ! O bά njū' nā ō pəpē', mα pά o cōp mbʉ́άnak náh ndά'sí mó' njá'nu mα ghə zǒ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } recording goal!</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pen mᾱngʉ tᾱ  Common Voice kwēn nά &lt;goalPercentage&gt;&lt;/goalPercentage&gt; yi túnǔ nkwelīē'  { $goalValue } lo'tαndα' !</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-validation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
+			</tuv>
+			<tuv xml:lang="fmp">
+				<seg>pen mᾱngʉ tᾱ  Common Voice kwēn nά ,  &lt;goalPercentage&gt;&lt;/goalPercentage&gt; yi túnǔ nkwelīē'  { $goalValue } pēntαndα' !</seg>
+			</tuv>
+		</tu>
 	</body>
 </tmx>

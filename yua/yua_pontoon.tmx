@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-06-01T00:43:09.824671">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-07-01T00:46:14.271405">
 	</header>
 	<body>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/findinpage/src/main/res/values/strings.xml:mozac_feature_findindpage_result" srclang="en-US">
@@ -171,7 +171,7 @@
 				<seg>%1$s ku bin tu contra le a'almaj t'aano'ob Mozilla yéetel ma' tu páajtal u ts'a'abal.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_blocklisted_2" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_soft_blocked_1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$s violates Mozilla’s policies and can’t be installed on %2$s.</seg>
 			</tuv>
@@ -179,7 +179,7 @@
 				<seg>%1$s ku bin tu contra le a'almaj t'aano'ob Mozilla yéetel ma' tu páajtal u ts'a'abal ti' %2$s.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_soft_blocked_1" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_blocklisted_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$s violates Mozilla’s policies and can’t be installed on %2$s.</seg>
 			</tuv>
@@ -411,14 +411,6 @@
 				<seg>Ts'áa ti' máax ku</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_advanced" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Advanced…</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>Áabansado…</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_hsts_cert_advanced" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Advanced…</seg>
@@ -427,7 +419,15 @@
 				<seg>Áabansado…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_allow" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_advanced" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Advanced…</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>Áabansado…</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
@@ -443,7 +443,7 @@
 				<seg>Cha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_allow" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_notification_allow_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
@@ -451,7 +451,7 @@
 				<seg>Cha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_updater_notification_allow_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
@@ -619,7 +619,7 @@
 				<seg>Le cámarao' táan u meyaj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_deny" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -635,7 +635,15 @@
 				<seg>Tuup</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_cancel" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>Ma’ u beetal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_deny" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -657,14 +665,6 @@
 			</tuv>
 			<tuv xml:lang="yua">
 				<seg>Káanselar</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>Ma’ u beetal</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_cancel_active_downloads_accept" srclang="en-US">
@@ -723,6 +723,14 @@
 				<seg>Yéey jump'éel boonil</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_clear_button_description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clear</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>Ts'its'i'ikil</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_clear" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Clear</seg>
@@ -739,14 +747,6 @@
 				<seg>Tuup</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_clear_button_description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Clear</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>Ts'its'i'ikil</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_browser_data_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Clear recent browsing history, cookies, and related data</seg>
@@ -755,7 +755,7 @@
 				<seg>Borrar le k'ajláayo' navegación reciente, cookies yéetel datos relacionados</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_dialog_button_close" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -763,7 +763,7 @@
 				<seg>K'aal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_close" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_dialog_button_close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -891,7 +891,7 @@
 				<seg>Tuus beya' talamilo'ob ts'ono'oto'</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_deny" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_deny" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Deny</seg>
 			</tuv>
@@ -899,7 +899,7 @@
 				<seg>Weet</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_deny" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_permissions_dialog_deny" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Deny</seg>
 			</tuv>
@@ -1339,7 +1339,7 @@
 				<seg>Ta'akikubáa yéetel we'esik le fichas le navegador</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_highlighted" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_highlighted" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Highlighted</seg>
 			</tuv>
@@ -1347,7 +1347,7 @@
 				<seg>Ma' ts'oka'ani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_highlighted" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_highlighted" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Highlighted</seg>
 			</tuv>
@@ -1503,12 +1503,12 @@
 				<seg>K’ajóoltal u yaanali’</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_status_learn_more" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_unsupported_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
 			<tuv xml:lang="yua">
-				<seg>Kaanbal asab</seg>
+				<seg>K’ajóoltal u yaanali’</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/sitepermissions/src/main/res/values/strings.xml:mozac_feature_sitepermissions_learn_more_title" srclang="en-US">
@@ -1519,12 +1519,12 @@
 				<seg>K’ajóoltal u yaanali’</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_unsupported_learn_more" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_status_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
 			<tuv xml:lang="yua">
-				<seg>K’ajóoltal u yaanali’</seg>
+				<seg>Kaanbal asab</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_learn_more" srclang="en-US">
@@ -1615,14 +1615,6 @@
 				<seg>Multimedia</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Menu</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>Menú</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/toolbar/src/main/res/values/strings.xml:mozac_browser_toolbar_menu_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Menu</seg>
@@ -1632,6 +1624,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu/src/main/res/values/strings.xml:mozac_browser_menu_button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Menu</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>Menú</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/menu2/src/main/res/values/strings.xml:mozac_browser_menu2_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Menu</seg>
 			</tuv>
@@ -1767,7 +1767,7 @@
 				<seg>Ma' tu cha'abal ti' ventanas privadas</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_dont_update_2" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_dont_save_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Not now</seg>
 			</tuv>
@@ -1783,7 +1783,7 @@
 				<seg>Ma' te' súutukila'</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_dont_save_2" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompt_dont_update_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Not now</seg>
 			</tuv>
@@ -1847,20 +1847,20 @@
 				<seg>Modo xma' conexión</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_ok" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>OK</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>Uts</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_installed_dialog_okay_button_2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
 			<tuv xml:lang="yua">
 				<seg>Ma'alob</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/prompts/src/main/res/values/strings.xml:mozac_feature_prompts_ok" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>Uts</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_settings_on" srclang="en-US">
@@ -1879,7 +1879,7 @@
 				<seg>Juntúul wa asab extensiones xu'ul u meyaj, beetik u t.u.m inestable.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_confirm" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -1887,7 +1887,7 @@
 				<seg>Waach</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_open" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/app-links/src/main/res/values/strings.xml:mozac_feature_applinks_confirm_dialog_confirm" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -1995,7 +1995,7 @@
 				<seg>Contraseña uti'al %1$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_pause" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/media/src/main/res/values/strings.xml:mozac_feature_media_notification_action_pause" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Pause</seg>
 			</tuv>
@@ -2003,7 +2003,7 @@
 				<seg>Je'elel</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/media/src/main/res/values/strings.xml:mozac_feature_media_notification_action_pause" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/downloads/src/main/res/values/strings.xml:mozac_feature_downloads_button_pause" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Pause</seg>
 			</tuv>
@@ -2251,24 +2251,6 @@
 	</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_content_crashed_message" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>
-      &lt;p&gt;The page you are trying to view cannot be shown because an error in the data transmission was detected.&lt;/p&gt;
-      &lt;ul&gt;
-        &lt;li&gt;Please contact the website owners to inform them of this problem.&lt;/li&gt;
-      &lt;/ul&gt;
-    </seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>
-	&lt;p&gt;Ma' tu páajtal u chíikpajal le linki abas kaambal ka k'áat a wile' tumen ts'o'ok u yila'al jump'éel ba'alo'ob ichil u túuxta'al datos.&lt;/p&gt;
-  	&lt;ul&gt;
-		&lt;li&gt;Béet t'aan yéetel u yuumil le ts'ono'oto' web uti'al a ts'áaik ojéeltbil ti'ob le talamila'.&lt;/li&gt;
-	&lt;/ul&gt;
-	</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_corrupted_content_message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>
@@ -2282,6 +2264,24 @@
 				<seg>
 	&lt;p&gt;Ma' tu páajtal u chíikpajal le linki abas kaambal ka k'áat a wile' tumen ts'o'ok u yila'al jump'éel ba'alo'ob ichil u túuxta'al datos.&lt;/p&gt;
 	&lt;ul&gt;
+		&lt;li&gt;Béet t'aan yéetel u yuumil le ts'ono'oto' web uti'al a ts'áaik ojéeltbil ti'ob le talamila'.&lt;/li&gt;
+	&lt;/ul&gt;
+	</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_content_crashed_message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>
+      &lt;p&gt;The page you are trying to view cannot be shown because an error in the data transmission was detected.&lt;/p&gt;
+      &lt;ul&gt;
+        &lt;li&gt;Please contact the website owners to inform them of this problem.&lt;/li&gt;
+      &lt;/ul&gt;
+    </seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>
+	&lt;p&gt;Ma' tu páajtal u chíikpajal le linki abas kaambal ka k'áat a wile' tumen ts'o'ok u yila'al jump'éel ba'alo'ob ichil u túuxta'al datos.&lt;/p&gt;
+  	&lt;ul&gt;
 		&lt;li&gt;Béet t'aan yéetel u yuumil le ts'ono'oto' web uti'al a ts'áaik ojéeltbil ti'ob le talamila'.&lt;/li&gt;
 	&lt;/ul&gt;
 	</seg>
@@ -2491,7 +2491,7 @@
 				<seg>Rekomendarta'an</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/customtabs/src/main/res/values/strings.xml:mozac_feature_customtabs_refresh_button" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/pwa/src/main/res/values/strings.xml:mozac_feature_pwa_site_controls_refresh" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Refresh</seg>
 			</tuv>
@@ -2499,7 +2499,7 @@
 				<seg>Túumbenkuunsik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/pwa/src/main/res/values/strings.xml:mozac_feature_pwa_site_controls_refresh" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/customtabs/src/main/res/values/strings.xml:mozac_feature_customtabs_refresh_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Refresh</seg>
 			</tuv>
@@ -2547,20 +2547,20 @@
 				<seg>K'a'ajsajil: %1$s láayli' táan u meyajtik a micrófonoo'. Pulse uti'al u je'ebel le ju'unil tu'ux yaan.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>Péeks</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/fenix/app/src/main/res/values/strings.xml:home_bookmarks_menu_item_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
 			<tuv xml:lang="yua">
 				<seg>Tuupuk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/feature/addons/src/main/res/values/strings.xml:mozac_feature_addons_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>Péeks</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/lib/crash/src/main/res/values/strings.xml:mozac_lib_crash_notification_action_report" srclang="en-US">
@@ -2715,7 +2715,7 @@
 				<seg>Kaxant te' web</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_ssl_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Secure Connection Failed</seg>
 			</tuv>
@@ -2723,7 +2723,7 @@
 				<seg>Ma' béeyak u conexión segura</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_ssl_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Secure Connection Failed</seg>
 			</tuv>
@@ -3627,7 +3627,7 @@
 				<seg>Pocket</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:home-title" srclang="en-US">
+		<tu tuid="firefox-monitor-website:bento.ftl:fx-monitor" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -product-name }</seg>
 			</tuv>
@@ -3635,7 +3635,7 @@
 				<seg>{ -product-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:bento.ftl:fx-monitor" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:home-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -product-name }</seg>
 			</tuv>
@@ -4211,14 +4211,6 @@
 				<seg>Cámara</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_site_is_not_supported_cancel_button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>Ma’ u beetal</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
@@ -4228,6 +4220,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>Ma’ u beetal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_site_is_not_supported_cancel_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -4379,6 +4379,14 @@
 				<seg>Reducción ti' le banner ti' le cookies</seg>
 			</tuv>
 		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookie Banner Reduction</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>Reducción ti' le banner ti' le cookies</seg>
+			</tuv>
+		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
@@ -4388,14 +4396,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_reject_all_option_title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cookie Banner Reduction</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>Reducción ti' le banner ti' le cookies</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -4587,7 +4587,7 @@
 				<seg>Wa ka meyajtike’ ju beytal u k’as jela’antik u meyaj jejelas tseel ju’unilob</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_category_tracking_protection3" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enhanced_tracking_protection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enhanced Tracking Protection</seg>
 			</tuv>
@@ -4595,7 +4595,7 @@
 				<seg>Mejorada ti' protección ti' le seguimiento</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enhanced_tracking_protection" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_category_tracking_protection3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enhanced Tracking Protection</seg>
 			</tuv>
@@ -4651,14 +4651,6 @@
 				<seg>Tuupuk ts'óokole' ka je'ebek %1$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_erase" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Erase browsing history</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>Lúubsal tuláakal tu'ux maanech</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tabs_tray_action_erase" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
@@ -4667,7 +4659,7 @@
 				<seg>Lúubsal tuláakal tu'ux maanech</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_erase" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
@@ -4676,6 +4668,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Erase browsing history</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>Lúubsal tuláakal tu'ux maanech</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
@@ -4963,6 +4963,14 @@
 				<seg>T’aanil</seg>
 			</tuv>
 		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_daily_usage_ping_learn_more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>K’ajóoltal u yaanali’</seg>
+			</tuv>
+		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestion_subtitle_learnmore" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
@@ -4979,14 +4987,6 @@
 				<seg>K’ajóoltal u yaanali’</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>K’ajóoltal u yaanali’</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
@@ -4995,7 +4995,7 @@
 				<seg>Kaanbal asab</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_daily_usage_ping_learn_more" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -5243,7 +5243,7 @@
 				<seg>.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_off" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Off</seg>
 			</tuv>
@@ -5251,7 +5251,7 @@
 				<seg>Ma’ tu meyajta’al</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_off" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Off</seg>
 			</tuv>
@@ -5550,15 +5550,7 @@
 				<seg>Náach púusbil yéetel USB/Wi-Fi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>Péeks</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_action_remove_content_description" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -5574,6 +5566,14 @@
 				<seg>Tuup</seg>
 			</tuv>
 		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>Péeks</seg>
+			</tuv>
+		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
@@ -5582,7 +5582,7 @@
 				<seg>Tuupuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -5590,7 +5590,7 @@
 				<seg>Tuupuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_action_remove_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -5630,7 +5630,7 @@
 				<seg>Túupuk u múuk’il ti’ u kaxan ba’al máak ich web</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site_item" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rename</seg>
 			</tuv>
@@ -5638,7 +5638,7 @@
 				<seg>K'ex u k'aaba'</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site_item" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rename</seg>
 			</tuv>
@@ -6535,7 +6535,7 @@
 				<seg>A k'áat a k'alik le cookies?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_yes_option" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -6543,7 +6543,7 @@
 				<seg>Je’ele’</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_yes" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_yes_option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -6830,20 +6830,20 @@ Maanen. Púustej. Tu ka'aten.</seg>
 				<seg>Ka’a ts’íibta’ak le k’áaba’ ti’ le nuupankila’</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_custom_urlscustom-urls" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Custom URLs</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>Tsikbe’eniltal URLs</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android-po:app.po:preference_autocomplete_subitem_customlistcustom-urls" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>
 			<tuv xml:lang="yua">
 				<seg>URL tsikbe’eniltal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_custom_urlscustom-urls" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Custom URLs</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>Tsikbe’eniltal URLs</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_preinstalleddefault-url-list" srclang="en-US">
@@ -7324,14 +7324,6 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Máakalmáak a correo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozilla-accounts:auth.ftl:brand-firefox" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="yua">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="mozilla-accounts:branding.ftl:brand-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -7340,7 +7332,15 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozilla-accounts:branding.ftl:product-firefox-account" srclang="en-US">
+		<tu tuid="mozilla-accounts:auth.ftl:brand-firefox" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="yua">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:auth.ftl:product-firefox-account" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox account</seg>
 			</tuv>
@@ -7348,7 +7348,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox account</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozilla-accounts:auth.ftl:product-firefox-account" srclang="en-US">
+		<tu tuid="mozilla-accounts:branding.ftl:product-firefox-account" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox account</seg>
 			</tuv>

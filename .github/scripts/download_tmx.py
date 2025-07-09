@@ -1,23 +1,30 @@
 #! /usr/bin/env python3
 
-import json
 import os
 import requests
-import sys
-from urllib.request import urlopen
 
 
 def main():
     # Get the list of Pontoon locales
+    url = "https://pontoon.mozilla.org/api/v2/locales/"
     try:
-        url = "https://pontoon.mozilla.org/graphql?query={locales{code}}&raw"
-        print("Reading locales in Pontoon")
-        response = urlopen(url)
-        json_data = json.load(response)
-        locales = [l["code"] for l in json_data["data"]["locales"]]
+        page = 1
+        locales = []
+        while url:
+            print(f"Reading locales from Pontoon (page {page})")
+            response = requests.get(url)
+            response.raise_for_status()
+            data = response.json()
+
+            page_locales = [locale["code"] for locale in data.get("results", [])]
+            locales.extend(page_locales)
+
+            # Get the next page URL
+            url = data.get("next")
+            page += 1
         locales.sort()
-    except Exception as e:
-        sys.exit(e)
+    except requests.RequestException as e:
+        print(e)
 
     # Get root path
     root_path = os.path.abspath(
@@ -38,7 +45,7 @@ def main():
 
             with open(os.path.join(locale_path, f"{locale}_pontoon.tmx"), "wb") as f:
                 f.write(response.content)
-        except Exception as e:
+        except requests.RequestException as e:
             print(e)
 
 

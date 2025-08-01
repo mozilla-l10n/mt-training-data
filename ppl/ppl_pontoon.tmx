@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-07-01T00:42:40.083707">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-08-01T00:47:52.684440">
 	</header>
 	<body>
 		<tu tuid="firefox:toolkit/chrome/global/intl.properties:pluralrule" srclang="en-US">
@@ -67,14 +67,6 @@
 				<seg>Facebook Container</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shortcut-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -83,7 +75,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -92,14 +84,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -116,6 +100,22 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -551,7 +551,7 @@
 				<seg>Takimiltia senpa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_ssl_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Secure Connection Failed</seg>
 			</tuv>
@@ -559,7 +559,7 @@
 				<seg>Tesu welik muchiwa se musalulis seguruj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_bad_cert_title" srclang="en-US">
+		<tu tuid="firefox-for-android:mozilla-mobile/android-components/components/browser/errorpages/src/main/res/values/strings.xml:mozac_browser_errorpages_security_ssl_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Secure Connection Failed</seg>
 			</tuv>
@@ -1500,20 +1500,20 @@ kishkupawia tamatil taichtekilis kan nemi mutamatilsyu. Tiknepanuat iwan ne Fire
 				<seg>Nuchan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:sensitive-sites" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>How does { -product-name } treat sensitive sites?</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tay { -product-name } kichiwa iwan ne sijsitioj ichtaka?</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-monitor-website:email-strings.ftl:faq-v2-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does { -product-name } treat sensitive sites?</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>{ -product-name } ken kimati se nejmach tzawalamat?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:app.ftl:sensitive-sites" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How does { -product-name } treat sensitive sites?</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tay { -product-name } kichiwa iwan ne sijsitioj ichtaka?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:faq3" srclang="en-US">
@@ -3210,7 +3210,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>+ Shiktali ne mu-URL</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:custom_autocomplete_quick_add" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_title_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add custom URL</seg>
 			</tuv>
@@ -3218,7 +3218,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shiktali ne mu-URL</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_title_add" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:custom_autocomplete_quick_add" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add custom URL</seg>
 			</tuv>
@@ -3564,20 +3564,20 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Cámaraj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikajkawa</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>Shikpulu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikajkawa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:search_add_error_format" srclang="en-US">
@@ -3612,7 +3612,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikpupu ne mutajkwilujtuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:onboarding_close_button_content_description" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:promote_search_widget_dialog_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -3620,7 +3620,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shiktzakwa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:promote_search_widget_dialog_content_description" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:onboarding_close_button_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -3716,7 +3716,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Takashawani ipal ne ibanner ne cookie</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_title" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -3724,7 +3724,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Takashawani ipal ne ibanner ne cookie</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_title" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -3980,7 +3980,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikpupu wan shiktapu %1$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_erase" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tabs_tray_action_erase" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
@@ -3988,7 +3988,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikpupu kan tipashaluj yewa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tabs_tray_action_erase" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_erase" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
@@ -4284,7 +4284,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Taketzalis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -4292,7 +4292,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikmatiuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_mozilla_telemetry_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -4308,7 +4308,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikmatiuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_mozilla_telemetry_summary" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -4484,7 +4484,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Ne witz</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_no_option" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -4492,7 +4492,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Tesu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_no" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_no_option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -4564,7 +4564,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Sewtuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_state_off" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OFF for this site</seg>
 			</tuv>
@@ -4572,7 +4572,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>SHIKSEWI tik ini sitioj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_off" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_state_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OFF for this site</seg>
 			</tuv>
@@ -4612,7 +4612,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Timakaktuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_state_on" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>ON for this site</seg>
 			</tuv>
@@ -4620,7 +4620,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>SHIKTIMAKA tik ini sitioj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_on" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_state_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>ON for this site</seg>
 			</tuv>
@@ -4858,23 +4858,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shitayekchiwa wejka iwan ne USB/Wi-Fi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikishti</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikishti</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -4890,7 +4874,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikishti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_exceptions_menu_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -4898,7 +4882,23 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shikishti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikishti</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikishti</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_exceptions_menu_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -5226,7 +5226,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Shiktali ma senpa nemi achtu, ma temi isel</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cfr_cookie_banner_link" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cfr_for_cookie_banner_underline_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>settings</seg>
 			</tuv>
@@ -5234,7 +5234,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>tachijchiwalis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cfr_for_cookie_banner_underline_settings" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cfr_cookie_banner_link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>settings</seg>
 			</tuv>
@@ -5331,7 +5331,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Tetajpialis kan tipashalua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:firstrun_skip_button" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:onboarding_second_screen_skip_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -5339,7 +5339,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Te nikneki nikita</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:onboarding_second_screen_skip_button_text" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:firstrun_skip_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -5819,7 +5819,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Tiknekiskia ma timetzmakakan tay tiweliskia tiktemua?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_yes_option" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -5827,7 +5827,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Eje</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_yes" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_yes_option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -5916,20 +5916,20 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Ne itashkalchin mumapipil weli kimakishtia %1$s su se URL nemia tapujtuk tik ne aplicación. Yawi nemi tik modoj ichtaka.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:your_rights" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Your Rights</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Tay mupal</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:menu_rights" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your Rights</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>Ne tay mupal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:your_rights" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your Rights</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Tay mupal</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:firstrun_search_title" srclang="en-US">
@@ -5940,7 +5940,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Ken tikneki titatemua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:fatal_crash_report_descriptionas-a-private-browser-we-never-save-and-cannot-restore-your-last-browsing-session" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:as-a-private-browser-we-never-save-and-cannot-restore-your-last-browsing-sessionfatal_crash_report_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>As a private browser, we never save and cannot restore your last browsing session.</seg>
 			</tuv>
@@ -5948,7 +5948,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Ika se tajtachialis ichtaka, tejemet te keman tikanat tay tikitak yewasan.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:http_auth_dialog_titleauthentication-required" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:authentication-requiredhttp_auth_dialog_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Authentication required</seg>
 			</tuv>
@@ -5956,7 +5956,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Nemi pal tina kaj taja</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_switch_autocompleteautocomplete" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:autocompletepreference_switch_autocomplete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Autocomplete</seg>
 			</tuv>
@@ -5964,7 +5964,7 @@ when your email appears in a data breach. Here’s what we know about this breac
 				<seg>Temi isel</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:tip_autocomplete_urlautocomplete-urls-for-sites-you-use-most-long-press-any-url-in-the-address-bar" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:autocomplete-urls-for-sites-you-use-most-long-press-any-url-in-the-address-bartip_autocomplete_url" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Autocomplete URLs for sites you use most
  Long-press any URL in the address bar</seg>
@@ -5974,7 +5974,7 @@ when your email appears in a data breach. Here’s what we know about this breac
  Shikpajpachu ne URL tay tikneki ijtik ne barraj ipal dirección</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:teaserautomatic-private-browsing-browse-erase-repeat" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:automatic-private-browsing-browse-erase-repeatteaser" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Automatic private browsing.
 Browse. Erase. Repeat.</seg>
@@ -5984,7 +5984,7 @@ Browse. Erase. Repeat.</seg>
 Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:download_dialog_action_cancelcancel" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:canceldownload_dialog_action_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -5992,7 +5992,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikajkawa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:fatal_crash_report_close_button_labelclose" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:closefatal_crash_report_close_button_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -6000,7 +6000,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shiktzakwa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:contextmenu_image_copycopy-image-address" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:copy-image-addresscontextmenu_image_copy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy image address</seg>
 			</tuv>
@@ -6008,7 +6008,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikupina ne idirección ne kwikwil</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:contextmenu_link_copycopy-link-address" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:copy-link-addresscontextmenu_link_copy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copy link address</seg>
 			</tuv>
@@ -6016,7 +6016,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikupina ne idirección ne ilpika</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_autocomplete_subitem_customlistcustom-urls" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:custom-urlspreference_autocomplete_subitem_customlist" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>
@@ -6024,7 +6024,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikmajmachiwa ne URLs</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_custom_urlscustom-urls" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:custom-urlspreference_category_autocomplete_custom_urls" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>
@@ -6032,7 +6032,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikmajmachiwa ne URLs</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_category_autocomplete_preinstalleddefault-url-list" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:default-url-listpreference_category_autocomplete_preinstalled" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Default URL List</seg>
 			</tuv>
@@ -6040,7 +6040,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Listaj achtutalijtuk URL</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:download_dialog_action_downloaddownload" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:downloaddownload_dialog_action_download" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
@@ -6048,7 +6048,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shiktemulti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:download_dialog_warningdownloaded-files-bwill-not-be-deletedb-when-you-erase-1s-history" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:downloaded-files-bwill-not-be-deletedb-when-you-erase-1s-historydownload_dialog_warning" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloaded files &lt;b&gt;will not be deleted&lt;/b&gt; when you erase %1$s history.</seg>
 			</tuv>
@@ -6056,7 +6056,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Ne archivoj temultijtuk &lt;b&gt;te yawi mupupua &lt;/b&gt; kwak tikpupua %1$s tay tikitak yewa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:download_dialog_titledownload-file" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:download-filedownload_dialog_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download File</seg>
 			</tuv>
@@ -6064,7 +6064,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shiktemulti ne archivoj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_privacy_block_social_summaryembedded-on-sites-to-track-your-visits-and-to-display-functionality-like-share-buttons" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:embedded-on-sites-to-track-your-visits-and-to-display-functionality-like-share-buttonspreference_privacy_block_social_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Embedded on sites to track your visits and to display functionality like share buttons</seg>
 			</tuv>
@@ -6072,7 +6072,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Muishtukatuk kan tipashalua pal metzishpelwia wan pal kineshtia ken yaja tekiti kenha ken ne bojbotón pal tiktakulia</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_autocomplete_user_list_summaryenable-to-autocomplete-more-than-450-popular-urls-in-the-address-bar" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:enable-to-autocomplete-more-than-450-popular-urls-in-the-address-barpreference_autocomplete_user_list_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enable to autocomplete more than 450 popular URLs in the address bar.</seg>
 			</tuv>
@@ -6080,7 +6080,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shiktimaka su tikneki ma temi isel wan nemit 450 ush ukchupi URLs tik ne barraj ipal direccion.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_autocomplete_preinstalled_summaryenable-to-have-1s-autocomplete-over-450-popular-urls-in-the-address-bar" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:enable-to-have-1s-autocomplete-over-450-popular-urls-in-the-address-barpreference_autocomplete_preinstalled_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enable to have %1$s autocomplete over 450 popular URLs in the address bar.</seg>
 			</tuv>
@@ -6088,7 +6088,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shiktimaka pal ma %1$s temi isel tik 450 URLs muishmattuk tik ne barraj direccion.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_privacy_block_content_summary2enabling-may-cause-some-pages-to-behave-unexpectedly" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:enabling-may-cause-some-pages-to-behave-unexpectedlypreference_privacy_block_content_summary2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enabling may cause some pages to behave unexpectedly</seg>
 			</tuv>
@@ -6096,7 +6096,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Asu tiktimaka, sejseuk iswat welit tekitit ken te tikchia</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:shortcut_erase_and_open_long_labelerase-and-open-1s" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:erase-and-open-1sshortcut_erase_and_open_long_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase and open %1$s</seg>
 			</tuv>
@@ -6104,7 +6104,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikpupu wan shiktapu %1$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_privacy_stealth_summaryhide-webpages-when-switching-apps" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:hide-webpages-when-switching-appspreference_privacy_stealth_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hide webpages when switching apps</seg>
 			</tuv>
@@ -6112,7 +6112,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikinaya ijiswat kwak tikpata tekitajtatka</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:error_generic_titleoops" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:oopserror_generic_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Oops</seg>
 			</tuv>
@@ -6120,7 +6120,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Ups</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:tip_open_in_new_tabopen-a-link-in-a-new-tab-long-press-any-link-on-a-page" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:open-a-link-in-a-new-tab-long-press-any-link-on-a-pagetip_open_in_new_tab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open a link in a new tab
  Long-press any link on a page</seg>
@@ -6130,7 +6130,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
  Shikpajpachu yek ne ilpika taja tikneki tik se iswat</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:tip_set_default_browseropen-every-link-in-1s-set-1s-as-default-browser" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:open-every-link-in-1s-set-1s-as-default-browsertip_set_default_browser" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open every link in %1$s
  Set %1$s as default browser</seg>
@@ -6140,7 +6140,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
  Shikchiwa %1$s ken ne achtutalijtuk tajtachialis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:contextmenu_open_in_new_tabopen-link-in-new-tab" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:open-link-in-new-tabcontextmenu_open_in_new_tab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open link in new tab</seg>
 			</tuv>
@@ -6148,7 +6148,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shiktapu ne ilpika tik ukse itzun</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:contextmenu_open_in_appopen-with-app" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:open-with-appcontextmenu_open_in_app" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open with app</seg>
 			</tuv>
@@ -6156,7 +6156,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shiktapu iwan ne aplicación</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:http_auth_dialog_passwordpassword" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:passwordhttp_auth_dialog_password" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Password</seg>
 			</tuv>
@@ -6164,7 +6164,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Ichtaka taketzalis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:errorpage_titleproblem-loading-page" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:problem-loading-pageerrorpage_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Problem loading page</seg>
 			</tuv>
@@ -6172,7 +6172,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Se uijkayu panuk keman mukimiltia ne iswat</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:fatal_crash_report_restart_firefox_labelrestart-1s" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:restart-1sfatal_crash_report_restart_firefox_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Restart %1$s</seg>
 			</tuv>
@@ -6180,7 +6180,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shiktzinti uksenpa %1$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:firstrun_shortcut_textreturn-to-your-favorite-sites-in-1s-quickly-just-select-add-to-home-screen-from-the-1s-menu" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:return-to-your-favorite-sites-in-1s-quickly-just-select-add-to-home-screen-from-the-1s-menufirstrun_shortcut_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Return to your favorite sites in %1$s quickly. Just select "Add to Home screen" from the %1$s menu.</seg>
 			</tuv>
@@ -6188,7 +6188,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shimukwepa tik ne sitioj kan mugustuj tipashalua %1$s talul. Semaya shikishpejpena "Shiktali tik ne Achtu Iswat" itech ne menú %1$s.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:contextmenu_image_warningsaved-and-shared-images-bwill-not-be-deletedb-when-you-erase-1s-history" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:saved-and-shared-images-bwill-not-be-deletedb-when-you-erase-1s-historycontextmenu_image_warning" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Saved and shared images &lt;b&gt;will not be deleted&lt;/b&gt; when you erase %1$s history.</seg>
 			</tuv>
@@ -6196,7 +6196,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Ne kwijkwil muantuk wan mutakulijtuk &lt;b&gt;tesu yawi mupuluat&lt;/b&gt; keman tikpupua ne tay tikitak yewa %1$s.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:contextmenu_image_savesave-image" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:save-imagecontextmenu_image_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save image</seg>
 			</tuv>
@@ -6204,7 +6204,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikana ne kwikwil</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:error_sslhandshake_titlesecure-connection-failed" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:secure-connection-failederror_sslhandshake_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Secure connection failed</seg>
 			</tuv>
@@ -6212,7 +6212,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Tesu muajsik ne conexión seguruj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:contextmenu_image_shareshare-image" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:share-imagecontextmenu_image_share" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share image</seg>
 			</tuv>
@@ -6220,7 +6220,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shiktakuli ne kwikwil</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:contextmenu_link_shareshare-link" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:share-linkcontextmenu_link_share" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share link</seg>
 			</tuv>
@@ -6228,7 +6228,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shiktakuli ne ilpika</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:tip_disable_tracking_protectionsite-behaving-unexpectedly-try-turning-off-tracking-protection" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:site-behaving-unexpectedly-try-turning-off-tracking-protectiontip_disable_tracking_protection" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Site behaving unexpectedly?
  Try turning off Tracking Protection</seg>
@@ -6238,7 +6238,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
  Anka su tiksewia Tamanawalis itech Tapachiwiani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_privacy_block_ads_summarysome-ads-track-site-visits-even-if-you-dont-click-the-ads" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:some-ads-track-site-visits-even-if-you-dont-click-the-adspreference_privacy_block_ads_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Some ads track site visits, even if you don’t click the ads</seg>
 			</tuv>
@@ -6246,7 +6246,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Sejse tanawatilis kishpelwiat kan tipashalua, melka tesu tikpachua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:fatal_crash_report_titlesorry-1s-had-a-problem-and-crashed" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:sorry-1s-had-a-problem-and-crashedfatal_crash_report_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sorry. %1$s had a problem and crashed.</seg>
 			</tuv>
@@ -6254,7 +6254,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shitapupulwia. %1$s kipishki se uijkayu wan kunaktuk tzaktuk.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:firstrun_defaultbrowser_text2take-private-browsing-to-the-next-level-block-ads-and-other-content-that-can-track-you-across-sites-and-bog-down-page-load-times" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:take-private-browsing-to-the-next-level-block-ads-and-other-content-that-can-track-you-across-sites-and-bog-down-page-load-timesfirstrun_defaultbrowser_text2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Take private browsing to the next level. Block ads and other content that can track you across sites and bog down page load times.</seg>
 			</tuv>
@@ -6262,7 +6262,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Tiweli tipashalua ichtaka te kenha ken ne sejseuk. Shiktentzakwa muchi ne tanawatilis ush muchi tay weliskia metzpachiwia keman tikita ne sitioj wan tay kichiwa yujyulik kan mukimiltiat ne ijiswat.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:error_malformeduri_titlethe-address-isnt-valid" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:the-address-isnt-validerror_malformeduri_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The address isn’t valid</seg>
 			</tuv>
@@ -6270,7 +6270,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Ne dirección tesu yek</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:error_unsupportedprotocol_titlethe-address-wasnt-understood" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:the-address-wasnt-understooderror_unsupportedprotocol_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The address wasn’t understood</seg>
 			</tuv>
@@ -6278,7 +6278,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Ne dirección tesu mumati</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:error_timeout_titlethe-connection-timed-out" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:the-connection-timed-outerror_timeout_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The connection timed out</seg>
 			</tuv>
@@ -6286,7 +6286,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Tea tinemi salujtuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:error_redirectloop_titlethe-page-isnt-redirecting-properly" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:the-page-isnt-redirecting-properlyerror_redirectloop_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The page isn’t redirecting properly</seg>
 			</tuv>
@@ -6294,7 +6294,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Ne iswat tesu muchiwa redireccionar yek</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:tip_explain_allowlisttrusted-site-allowlist-disables-tracking-protection-for-sites-you-know-and-trust" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:trusted-site-allowlist-disables-tracking-protection-for-sites-you-know-and-trusttip_explain_allowlist" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Trusted site?
  Allowlist disables Tracking Protection for sites you know and trust.</seg>
@@ -6304,7 +6304,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
  Tesu tiwelit timetztajpia itech ne tapachiwiani su tina muchi nemi yek tik ini sitioj.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:errorpage_refreshtry-again" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:try-againerrorpage_refresh" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Try Again</seg>
 			</tuv>
@@ -6312,7 +6312,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikejeku uksenpa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:tip_disable_tipsturn-off-tips-on-the-1s-start-screen" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:turn-off-tips-on-the-1s-start-screentip_disable_tips" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Turn off tips on the %1$s start screen</seg>
 			</tuv>
@@ -6320,7 +6320,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shiksewi ne tanawatilis ijtik ne achtu iswat ipal %1$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:error_hostlookup_messageul-licheck-the-address-for-typing-errors-such-as-strongwwstrongexamplecom-instead-of-strongwwwstrongexamplecomli-liif-you-are-unable-to-load-any-pages-check-your-devices-data-or-wi-fi-connectionli-ul" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:ul-licheck-the-address-for-typing-errors-such-as-strongwwstrongexamplecom-instead-of-strongwwwstrongexamplecomli-liif-you-are-unable-to-load-any-pages-check-your-devices-data-or-wi-fi-connectionli-ulerror_hostlookup_message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;ul&gt;
         &lt;li&gt;Check the address for typing errors such as
@@ -6338,7 +6338,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
       &lt;/ul&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:error_connectionfailure_messageul-lithe-site-could-be-temporarily-unavailable-or-too-busy-try-again-in-a-few-momentsli-liif-you-are-unable-to-load-any-pages-check-your-mobile-devices-data-or-wi-fi-connectionli-ul" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:ul-lithe-site-could-be-temporarily-unavailable-or-too-busy-try-again-in-a-few-momentsli-liif-you-are-unable-to-load-any-pages-check-your-mobile-devices-data-or-wi-fi-connectionli-ulerror_connectionfailure_message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;ul&gt;
         &lt;li&gt;The site could be temporarily unavailable or too busy. Try again in a few moments.&lt;/li&gt;
@@ -6352,7 +6352,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
       &lt;/ul&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:error_sslhandshake_messageul-lithis-could-be-a-problem-with-the-servers-configuration-or-it-could-be-someone-trying-to-impersonate-the-serverli-liif-you-have-connected-to-this-server-successfully-in-the-past-the-error-may-be-temporary-and-you-can-try-again-laterli-ul" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:ul-lithis-could-be-a-problem-with-the-servers-configuration-or-it-could-be-someone-trying-to-impersonate-the-serverli-liif-you-have-connected-to-this-server-successfully-in-the-past-the-error-may-be-temporary-and-you-can-try-again-laterli-ulerror_sslhandshake_message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;ul&gt;
   &lt;li&gt;This could be a problem with the server’s configuration, or it could be
@@ -6368,7 +6368,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 &lt;/ul&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:error_redirectloop_messageul-lithis-problem-can-sometimes-be-caused-by-disabling-or-refusing-to-accept-cookiesli-ul" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:ul-lithis-problem-can-sometimes-be-caused-by-disabling-or-refusing-to-accept-cookiesli-ulerror_redirectloop_message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;ul&gt;
   &lt;li&gt;This problem can sometimes be caused by disabling or refusing to accept cookies.&lt;/li&gt;
@@ -6380,7 +6380,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 &lt;/ul&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:error_malformeduri_messageul-liweb-addresses-are-usually-written-like-stronghttpwwwexamplecomstrongli-limake-sure-that-youre-using-forward-slashes-ie-strongstrongli-ul" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:ul-liweb-addresses-are-usually-written-like-stronghttpwwwexamplecomstrongli-limake-sure-that-youre-using-forward-slashes-ie-strongstrongli-ulerror_malformeduri_message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;ul&gt;
   &lt;li&gt;Web addresses are usually written like &lt;strong&gt;http://www.example.com/&lt;/strong&gt;&lt;/li&gt;
@@ -6394,7 +6394,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 &lt;/ul&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:error_unsupportedprotocol_messageul-liyou-might-need-to-install-other-software-to-open-this-addressli-ul" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:ul-liyou-might-need-to-install-other-software-to-open-this-addressli-ulerror_unsupportedprotocol_message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;ul&gt;
   &lt;li&gt;You might need to install other software to open this address.&lt;/li&gt;
@@ -6406,7 +6406,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 &lt;/ul&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:error_connectionfailure_titleunable-to-connect" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:unable-to-connecterror_connectionfailure_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unable to connect</seg>
 			</tuv>
@@ -6414,7 +6414,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Tesu weli musalua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_privacy_block_analytics_summaryused-to-collect-analyze-and-measure-activities-like-tapping-and-scrolling" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:used-to-collect-analyze-and-measure-activities-like-tapping-and-scrollingpreference_privacy_block_analytics_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Used to collect, analyze and measure activities like tapping and scrolling</seg>
 			</tuv>
@@ -6422,7 +6422,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Mukwi pal mukululua, muishpepeta wan mutamachiwa tay tikchiwa keman titatasa wan titamatilua iwan mumapipil</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:http_auth_dialog_usernameusername" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:usernamehttp_auth_dialog_username" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Username</seg>
 			</tuv>
@@ -6430,7 +6430,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Mukwachtukay</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:error_generic_messagewe-cant-load-this-page-for-some-reason" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:we-cant-load-this-page-for-some-reasonerror_generic_message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We can’t load this page for some reason.</seg>
 			</tuv>
@@ -6438,7 +6438,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Anka se te kiajkawa mukimiltia ini iswat.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:menu_whats_newwhats-new" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:whats-newmenu_whats_new" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What's New</seg>
 			</tuv>
@@ -6446,7 +6446,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Tay Yankwik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:preference_security_biometric_summaryyour-fingerprint-can-unlock-1s-if-a-url-is-already-opened-in-the-app-stealth-will-be-turned-on" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:your-fingerprint-can-unlock-1s-if-a-url-is-already-opened-in-the-app-stealth-will-be-turned-onpreference_security_biometric_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your fingerprint can unlock %1$s if a URL is already opened in the app. Stealth will be turned on.</seg>
 			</tuv>
@@ -6638,14 +6638,6 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Te welik muishkupina. Shikishkupina tajasan.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozilla-accounts:auth.ftl:brand-firefox" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="mozilla-accounts:branding.ftl:brand-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -6654,7 +6646,15 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozilla-accounts:branding.ftl:product-firefox-account" srclang="en-US">
+		<tu tuid="mozilla-accounts:auth.ftl:brand-firefox" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:auth.ftl:product-firefox-account" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox account</seg>
 			</tuv>
@@ -6662,7 +6662,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox account</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozilla-accounts:auth.ftl:product-firefox-account" srclang="en-US">
+		<tu tuid="mozilla-accounts:branding.ftl:product-firefox-account" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox account</seg>
 			</tuv>
@@ -7467,7 +7467,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>bookmark</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
-				<seg>tatilwia</seg>
+				<seg>Tilwiani</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -7475,7 +7475,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>bookmark</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
-				<seg>Tilwiani</seg>
+				<seg>tatilwia</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -7587,7 +7587,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
-				<seg>palantuk</seg>
+				<seg>tapanaltia</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -7595,7 +7595,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
-				<seg>tapanaltia</seg>
+				<seg>palantuk</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -8342,7 +8342,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="test-pilot-firefox-send:send.ftl:title" srclang="en-US">
+		<tu tuid="test-pilot-firefox-send:send.ftl:send-brand" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Send</seg>
 			</tuv>
@@ -8350,7 +8350,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox Send</seg>
 			</tuv>
 		</tu>
-		<tu tuid="test-pilot-firefox-send:send.ftl:send-brand" srclang="en-US">
+		<tu tuid="test-pilot-firefox-send:send.ftl:title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Send</seg>
 			</tuv>

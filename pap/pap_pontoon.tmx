@@ -1,7 +1,857 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-08-01T00:47:40.958763">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-09-01T00:46:57.512785">
 	</header>
 	<body>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>2 down, keep it up!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Bo tin 2 kla. Sigui bai p'e!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; el a pronunsiá e frase korektamente?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; anto lesa e frase na bos (h)altu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; ora kaba</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-submit-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } submit when ready</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>{ $actionType } mand'é ora bo ta kla</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sentences-fetch-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred fetching sentences</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Un eror a presentá na momento di rekuperá e frasenan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred reviewing this sentence</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Un eror a presentá na momento di revisá e frase akí</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Approve</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Aprobá</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ask us questions on &lt;matrixLink&gt;Matrix&lt;/matrixLink&gt;, &lt;discourseLink&gt;Discourse&lt;/discourseLink&gt; or &lt;emailLink&gt;email&lt;/emailLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Bo por hasi nos bo preguntanan riba &lt;matrixLink&gt;Matrix&lt;/matrixLink&gt;, &lt;discourseLink&gt;Discourse&lt;/discourseLink&gt; òf via &lt;emailLink&gt;e-mail&lt;/emailLink&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-subtitle-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By telling us about yourself, you will help developers build more inclusive technology</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Dunando nos informashon tokante bo mes, bo ta yuda e desaroyadónan krea teknologia mas inklusivo.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By using Common Voice, you agree to our &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Si bo usa Common Voice, esei ta nifiká ku bo ta bai di akuerdo ku nos &lt;termsLink&gt;Kondishonnan&lt;/termsLink&gt; i nos &lt;privacyLink&gt;Aviso Tokante Privasidat&lt;/privacyLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel Re-recording</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Kanselá regrabashon</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel Submission</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>No manda/Kanselá</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Check &lt;icon&gt;&lt;/icon&gt; is this a linguistically correct sentence?</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Revisá &lt;icon&gt;&lt;/icon&gt; si e frase akí ta lingwístikamente korekto?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:clips-uploaded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clips Uploaded</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Grabashon kargá</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/contact.ftl:contact-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contact Form</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Formulario di Kontakto</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue validating</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Sigui kontrolá</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete my recordings</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Eliminá mi grabashonnan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Different language</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Otro idioma</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-rules-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Does the sentence meet the guidelines?</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>E frase ta kumpli ku e reglanan?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Donate your voice</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Hasi un donashon ku bo stèm</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-delete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Exit &amp; Delete clips</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Sali i Eliminá grabashon</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish recording</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Stòp di graba</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish recording first?</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Kaba di graba promé?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish Review</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Kompletá Revishon</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-confirm" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish validating</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Stòp di kontrolá</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish validating clips?</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Stòp di kontrolá grabashon?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate-explanation-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>For technology to work well for everyone, the data that helps developers to build technology needs to reflect a diverse range of people. For example, if we don't include any speakers with a particular accent, then the technology won't work well for people with that accent. &lt;learnMore&gt;Learn more about why metadata matters.&lt;/learnMore&gt;</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Pa tur hende por benefisiá di teknologia, e datonan ku ta yuda e desaroyadónan krea teknologia mester por ta un refleho di e manera ku un variedat amplio di persona ta papia. Por ehèmpel, si no inkluí niun ablante ku un asento spesífiko, e teknologia lo no funshoná bon pa hende ku tin e asento ei. &lt;learnMore&gt;Lesa mas tokante dikon metadata ta importante.&lt;/learnMore&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great!&lt;recordIcon&gt;&lt;/recordIcon&gt; Record your next clip</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Hopi bon!&lt;recordIcon&gt;&lt;/recordIcon&gt; Graba bo siguiente frase</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-again-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great work!&lt;playIcon&gt;&lt;/playIcon&gt; Listen again when you're ready</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Bon trabou!&lt;playIcon&gt;&lt;/playIcon&gt; Bolbe skucha ora bo ta kla</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help us validate voices</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Yuda nos kontrolá ku e grabashonnan ta bon</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:terms-agree" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I agree</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Mi ta bai di akuerdo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:terms-disagree" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I do not agree</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Mi no ta bai di akuerdo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-5-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the sentence does not meet the above criteria, click the &amp;quot;Reject&amp;quot; button on the left. If you are unsure about the sentence, you may also skip it and move on to the next one.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Si e frase no ta kumpli ku e kriterionan menshoná, klek riba e boton &amp;quot;Reject&amp;quot; na man robes. Si bo ta duda tokante e frase, bo por salt'é tambe i sigui ku un otro.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the sentence meets the criteria, click the &amp;quot;Approve&amp;quot; button on the right.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Si e frase ta kumpli ku e kriterionan, klek riba e boton &amp;quot;Approve&amp;quot; na man drechi.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-6" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If you run out of sentences to review, please help us collect more sentences!</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Si bo no a sobra mas frase pa revisá, (sea asina bon di) yuda nos haña mas frase!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It is written in a language different than what I’m reviewing.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>E idioma ku e ta skirbí aden no ta esun ku mi ta revisando.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep it up, record again &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Sigui bai p'e! Graba un mas &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-keep-recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep the recordings</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Warda e grabashonnan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Leaving now means you'll lose your progress</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Si bo bai awor, bo ta pèrdè loke bo a logra te awor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Skucha</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-contribute-menu-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen options menu</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Menú di opshon pa skucha</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-loading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Loading sentences…</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Kargando frase …</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-make-sure" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Make sure the sentence meets the following criteria:</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Kontrolá si e frase ta kumpli ku e siguiente kriterionan:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-reject-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>N</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>N</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-no-mic-found" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No microphone found.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>No a detektá niun mikrofon.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-no-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No sentences to review. &lt;addLink&gt;Add more sentences now!&lt;/addLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>No tin frase pa revisá. &lt;addLink&gt;Agregá mas frase awor!&lt;/addLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported-desktop" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On desktop devices you can contribute by downloading…</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Si bo ta trahando riba un kòmpiuter desktop, pa kontribuí, bo mester deskargá ...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported-ios-non-safari" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On iOS please continue with Safari to enable recording…</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Si bo ta trahando riba iOS, sigui den Safari pa aktivá grabashon …</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-last-time-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Last one!</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Unu so mas!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-select-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please select a language to review sentences.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Skohe un idioma pa kuminsá revisá frase.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-last-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Esaki so mas!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-reject" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reject</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Rechasá</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-rerecord" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Re-record</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Graba di nobo/regrabá</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Revisá</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Revisá</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-review-failure" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review could not be saved. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>No por a warda e revishon. Purba di nobo akiratu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-modal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>ⓘ Review Criteria</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>ⓘ Kriterio di revishon</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review Criteria</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Kriterio di revishon</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-prompt" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reviewed sentences not submitted, are sure?</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Bo no a manda e frasenan revisá. Bo ta sigur?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; re-record clips here as you go</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Revisá grabashon i graba di nobo aki gradualmente</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; re-record clips if needed</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Revisá grabashon i graba di nobo si ta nesesario</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review Sentences</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Revisá Frase</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review Sentences</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Revisá Frase</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-submit-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; Submit</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Revisá i Manda</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:review-transcriptions-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review transcriptions of recorded sentences for accuracy</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Revisá transkripshon di frase grabá pa wak si nan ta eksakto</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:review-transcriptions-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review user-submitted transcriptions in your language</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Revisá e transkripshonnan na bo idioma ku e usuarionan a manda/entregá</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>S</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>S</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-reviewed-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $sentences } sentences reviewed. Thank you!</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>{ $sentences } frase revisá. Masha danki!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:share-common-voice" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share Common Voice</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Kompartí Common Voice</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:share-clip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Share your clip</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Kompartí bo grabashon</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Salta (no aprobá ni rechasá ainda)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-source" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Source: { $sentenceSource }</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Fuente: { $sentenceSource }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Papia</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-now" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak now</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Papia awor</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Start recording</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Kuminsá graba</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Manda grabashon</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-usage" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Swipe right to approve the sentence. Swipe left to reject it. Swipe up to skip it. &lt;strong&gt;Do not forget to submit your review!&lt;/strong&gt;</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Swipe bai banda drechi pa aprobá e frase. Swipe bai banda robes pa rechas'é. Swipe bai ariba pa salt'é (sigui sin aprob'é ni rechas'é). &lt;strong&gt;No lubidá di entregá bo revishon!&lt;/strong&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-header-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for donating your voice clips!</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Masha danki pa e grabashonnan ku bo a duna nos!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-submit-msg" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for recording!&lt;lineBreak&gt;&lt;/lineBreak&gt;Now review and submit your clips below.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Masha danki pa bo grabashon!&lt;lineBreak&gt;&lt;/lineBreak&gt;Awor, revisá i manda bo grabashonnan akibou.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-empty-state" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There are currently no sentences to review in this language.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Aktualmente, no tin niun frase na e idioma akí pa revisá.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-long" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too long.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>E grabashon ta muchu largu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too quiet.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>E grabashon no tin sufisiente volúmen.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-short" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too short.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>E grabashon ta muchu kòrtiku.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The Sentence Collector is moving to the core Common Voice platform. You can now &lt;writeURL&gt;write&lt;/writeURL&gt; a sentence or &lt;reviewURL&gt;review&lt;/reviewURL&gt; single sentence submissions on Common Voice.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Sentence Collector lo muda bai riba e plataforma sentral di Common Voice. Awor, bo por &lt;writeURL&gt;skirbi&lt;/writeURL&gt; un frase òf &lt;reviewURL&gt;revisá&lt;/reviewURL&gt; frase individual mandá, riba Common Voice.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be grammatically correct.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Gramátika di e frase mester ta korekto.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be speakable.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Mester por pronunsiá e frase.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be spelled correctly.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Ortografia di e frase mester ta korekto.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate-explanation-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This information is optional to provide - you should only add it if you feel comfortable. When we release the dataset, we pseudonymise all personal information, and make sure information like your name and email are not connected to demographic information like age or sex.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>E informashon akí no ta obligatorio. Ta importante pa bo agregá solamente informashon ku bo ta sinti bo kómodo pa kompartí. Ora nos publiká e dataset, nos lo sòru pa tur informashon personal ta anonimisá i pa informashon manera bo nòmber i adrès di e-mail no ta mará na informashon demográfiko, manera edat i sekso.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-three-more-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Three to go!</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Tres so mas falta!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-aborted" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload aborted. Do you want to delete your recordings?</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>A interumpí e proseso di karga. Bo ke eliminá bo grabashonnan?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:validate-readings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate Readings</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Kontrolá grabashon</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-contribute-menu-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate Readings, Review Transcriptions</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Kontrolá grabashon, revisá transkripshon</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:validate-readings-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate readings submitted by community members</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Kontrolá grabashon ku e miembronanan a manda/entregá</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:validate-readings-menu-item-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate user-recorded readings in your language</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Kontrolá grabashon di loke e usuarionan a lesa na bo idioma</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-loading-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We couldn’t get any audio clips for you to listen to.
+Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Nos no por haña niun grabashon pa bo skucha.
+Purba di nobo akiratu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We may have run out of clips - refresh the page, or try again later.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Kisas nos no a sobra mas grabashon. Aktualisá (refresh) e página òf purba di nobo akiratu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We're making some big changes</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Nos ta hasiendo algun kambio importante</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We’re sorry, your platform is not currently supported.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Lamentablemente, bo plataforma no ta traha ku nos sistema ainda.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why are you asking?</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Pakiko bo ta puntra esaki?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-approve-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Y</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>S</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-keyboard-usage-custom" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You can also use Keyboard Shortcuts: { sc-review-form-button-approve-shortcut } to Approve, { sc-review-form-button-reject-shortcut } to Reject, { sc-review-form-button-skip-shortcut } to Skip</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Bo por usa shortcut tambe: { sc-review-form-button-approve-shortcut } pa Aprobá, { sc-review-form-button-reject-shortcut } pa Rechasá, { sc-review-form-button-skip-shortcut } pa Salta</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-lang-not-selected" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have not selected any languages. Please go to your &lt;profileLink&gt;Profile&lt;/profileLink&gt; to select languages.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Bo no a skohe niun idioma. Bai na bo &lt;profileLink&gt;Perfil&lt;/profileLink&gt; i skohe unu òf mas idioma.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You must allow microphone access.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Bo mester duna akseso na bo mikrofon.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-error-rate-limit-exceeded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You're going too fast. Please take a moment to review the sentence to make sure it's correct.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Bo ta bai muchu lihé. Sea asina bon di tuma bo tempu pa revisá e frase i wak sigur si e ta korekto.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state-variants" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your language variant might be out of clips! If you’re comfortable, you can change your settings to see other sentences within your language.</seg>
+			</tuv>
+			<tuv xml:lang="pap">
+				<seg>Kisas no tin mas grabashon pa bo variante di idioma. Si bo ta sinti ku bo por, kambia bo konfigurashon pa mira frase ku ta di otro variante di bo idioma.</seg>
+			</tuv>
+		</tu>
 	</body>
 </tmx>

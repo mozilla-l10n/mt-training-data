@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-08-01T00:45:46.334221">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-09-01T00:44:54.183169">
 	</header>
 	<body>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>2 down, keep it up!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
 			</tuv>
@@ -11,7 +11,7 @@
 				<seg>2 जाले, अशेच मुखार वच ! &lt;playIcon&gt;&lt;/playIcon&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>2 down, keep it up!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
 			</tuv>
@@ -35,14 +35,6 @@
 				<seg>About</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
-			</tuv>
-			<tuv xml:lang="knn">
-				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; उलोवपी वाख्य आसा तसोच उलयता ?</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
@@ -51,12 +43,12 @@
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; उलोवपी वाख्य आसा तसोच उलयता ?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
 			</tuv>
 			<tuv xml:lang="knn">
-				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; { $actionType } मार आनीक वयर दिल्ली वाख्य मोट्यान वाच</seg>
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; उलोवपी वाख्य आसा तसोच उलयता ?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
@@ -67,7 +59,15 @@
 				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; { $actionType } मार आनीक वयर दिल्ली वाख्य मोट्यान वाच</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:thanks-for-voice-toast-error" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
+			</tuv>
+			<tuv xml:lang="knn">
+				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; { $actionType } मार आनीक वयर दिल्ली वाख्य मोट्यान वाच</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>An error occurred submitting your voice information</seg>
 			</tuv>
@@ -75,7 +75,7 @@
 				<seg>कितें तरी चुक जाले तुजें आवाजांचे माहिती दाडताना</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast-error" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:thanks-for-voice-toast-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>An error occurred submitting your voice information</seg>
 			</tuv>
@@ -147,14 +147,6 @@
 				<seg>Datasets</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:speak-subtitle" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Donate your voice</seg>
-			</tuv>
-			<tuv xml:lang="knn">
-				<seg>तुजे आवाज दान कर</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-subtitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Donate your voice</seg>
@@ -163,12 +155,12 @@
 				<seg>तुजे आवाज दान कर</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-confirm" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:speak-subtitle" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Finish validating</seg>
+				<seg>Donate your voice</seg>
 			</tuv>
 			<tuv xml:lang="knn">
-				<seg>पुरो जाले</seg>
+				<seg>तुजे आवाज दान कर</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-abort-confirm" srclang="en-US">
@@ -179,12 +171,12 @@
 				<seg>पुरो जाले</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-confirm" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Finish validating clips?</seg>
+				<seg>Finish validating</seg>
 			</tuv>
 			<tuv xml:lang="knn">
-				<seg>Clip तोपासून जाले?</seg>
+				<seg>पुरो जाले</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-abort-title" srclang="en-US">
@@ -195,12 +187,12 @@
 				<seg>Clip तोपासून जाले?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-again-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-title" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Great work!&lt;playIcon&gt;&lt;/playIcon&gt; Listen again when you're ready</seg>
+				<seg>Finish validating clips?</seg>
 			</tuv>
 			<tuv xml:lang="knn">
-				<seg>अशेंच करीत वच ! तयार जावन परत &lt;playIcon&gt;&lt;/playIcon&gt; आयक</seg>
+				<seg>Clip तोपासून जाले?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-again-instruction" srclang="en-US">
@@ -211,12 +203,12 @@
 				<seg>अशेंच करीत वच ! तयार जावन परत &lt;playIcon&gt;&lt;/playIcon&gt; आयक</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-subtitle" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-again-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Help us validate voices</seg>
+				<seg>Great work!&lt;playIcon&gt;&lt;/playIcon&gt; Listen again when you're ready</seg>
 			</tuv>
 			<tuv xml:lang="knn">
-				<seg>आवाजाचे सारखेपण तोपासुंक मद्दत कर</seg>
+				<seg>अशेंच करीत वच ! तयार जावन परत &lt;playIcon&gt;&lt;/playIcon&gt; आयक</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-subtitle" srclang="en-US">
@@ -227,7 +219,15 @@
 				<seg>आवाजाचे सारखेपण तोपासुंक मद्दत कर</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:first-cta-gender-select-help-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Help us validate voices</seg>
+			</tuv>
+			<tuv xml:lang="knn">
+				<seg>आवाजाचे सारखेपण तोपासुंक मद्दत कर</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-help-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How would you describe your sex or gender?</seg>
 			</tuv>
@@ -235,7 +235,7 @@
 				<seg>तुजें लिंग कितें?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-help-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:first-cta-gender-select-help-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How would you describe your sex or gender?</seg>
 			</tuv>
@@ -261,14 +261,6 @@
 &lt;wikipediaLink&gt;'public domain'&lt;/wikipediaLink&gt; आसा आनी म्हाका permission आसा तिका अपलॉड करपाक.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:languages" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Languages</seg>
-			</tuv>
-			<tuv xml:lang="knn">
-				<seg>भास</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Languages</seg>
@@ -277,12 +269,12 @@
 				<seg>भास</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:languages" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Listen</seg>
+				<seg>Languages</seg>
 			</tuv>
 			<tuv xml:lang="knn">
-				<seg>आयक</seg>
+				<seg>भास</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen" srclang="en-US">
@@ -293,7 +285,15 @@
 				<seg>आयक</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Listen</seg>
+			</tuv>
+			<tuv xml:lang="knn">
+				<seg>आयक</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -301,7 +301,7 @@
 				<seg>ना</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -341,14 +341,6 @@
 				<seg>Laptop वा desktop हाचेर तुवेन योगदान दिवूंक जाता हें download करून…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported-ios-non-safari" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>On iOS please continue with Safari to enable recording…</seg>
-			</tuv>
-			<tuv xml:lang="knn">
-				<seg>iPhone वा iOS device हाचेर तुवेन recording करचे खातीर Safari वापरचो…</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-platform-not-supported-ios-non-safari" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On iOS please continue with Safari to enable recording…</seg>
@@ -357,7 +349,15 @@
 				<seg>iPhone वा iOS device हाचेर तुवेन recording करचे खातीर Safari वापरचो…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:partner" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported-ios-non-safari" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On iOS please continue with Safari to enable recording…</seg>
+			</tuv>
+			<tuv xml:lang="knn">
+				<seg>iPhone वा iOS device हाचेर तुवेन recording करचे खातीर Safari वापरचो…</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:partner" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partner</seg>
 			</tuv>
@@ -365,7 +365,7 @@
 				<seg>हातांत हात</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:partner" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:partner" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partner</seg>
 			</tuv>
@@ -453,14 +453,6 @@
 				<seg>Recording सुरवात कर</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit</seg>
-			</tuv>
-			<tuv xml:lang="knn">
-				<seg>दाड</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
@@ -469,7 +461,15 @@
 				<seg>दाड</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="knn">
+				<seg>दाड</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tap</seg>
 			</tuv>
@@ -477,7 +477,7 @@
 				<seg>भोट</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tap</seg>
 			</tuv>
@@ -501,7 +501,7 @@
 				<seg>तुवेंन आपली आवाज योगदान केले म्हुण तुका देंव बरें करुं!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:thanks-for-voice-toast" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for your voice information</seg>
 			</tuv>
@@ -509,7 +509,7 @@
 				<seg>देव बरें करूं तूवेंन तुज्या आवाजा-बद्दल माहिती दिली</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:thanks-for-voice-toast" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for your voice information</seg>
 			</tuv>
@@ -565,15 +565,6 @@
 				<seg>रिकॉडींग सामके ल्हान आसा.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-loading-error" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We couldn’t get any audio clips for you to listen to.
-Please try again later.</seg>
-			</tuv>
-			<tuv xml:lang="knn">
-				<seg>तुका आयकोपाक आमका आनीक audio clip मेळूंक ना. मागीर केन्ना परत try कर.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-loading-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We couldn’t get any audio clips for you to listen to.
@@ -583,12 +574,13 @@ Please try again later.</seg>
 				<seg>तुका आयकोपाक आमका आनीक audio clip मेळूंक ना. मागीर केन्ना परत try कर.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-loading-error" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>We may have run out of clips - refresh the page, or try again later.</seg>
+				<seg>We couldn’t get any audio clips for you to listen to.
+Please try again later.</seg>
 			</tuv>
 			<tuv xml:lang="knn">
-				<seg>Clip सोपले आसतले - page refresh कर, ना जाल्यार मागीर परत पळय.</seg>
+				<seg>तुका आयकोपाक आमका आनीक audio clip मेळूंक ना. मागीर केन्ना परत try कर.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-empty-state" srclang="en-US">
@@ -599,12 +591,12 @@ Please try again later.</seg>
 				<seg>Clip सोपले आसतले - page refresh कर, ना जाल्यार मागीर परत पळय.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>We’re sorry, your platform is not currently supported.</seg>
+				<seg>We may have run out of clips - refresh the page, or try again later.</seg>
 			</tuv>
 			<tuv xml:lang="knn">
-				<seg>आमका माफ कर, तुजें device वा browser आमी सद्याक आदार दिना.</seg>
+				<seg>Clip सोपले आसतले - page refresh कर, ना जाल्यार मागीर परत पळय.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
@@ -615,12 +607,12 @@ Please try again later.</seg>
 				<seg>आमका माफ कर, तुजें device वा browser आमी सद्याक आदार दिना.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-review-write-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>What sentences can I add?</seg>
+				<seg>We’re sorry, your platform is not currently supported.</seg>
 			</tuv>
 			<tuv xml:lang="knn">
-				<seg>कसल्यो वाख्यो हांवेन घालूंक जाता?</seg>
+				<seg>आमका माफ कर, तुजें device वा browser आमी सद्याक आदार दिना.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-review-write-title" srclang="en-US">
@@ -631,12 +623,12 @@ Please try again later.</seg>
 				<seg>कसल्यो वाख्यो हांवेन घालूंक जाता?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:vote-yes" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-review-write-title" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Yes</seg>
+				<seg>What sentences can I add?</seg>
 			</tuv>
 			<tuv xml:lang="knn">
-				<seg>हय</seg>
+				<seg>कसल्यो वाख्यो हांवेन घालूंक जाता?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-yes" srclang="en-US">
@@ -647,12 +639,12 @@ Please try again later.</seg>
 				<seg>हय</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:vote-yes" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>You must allow microphone access.</seg>
+				<seg>Yes</seg>
 			</tuv>
 			<tuv xml:lang="knn">
-				<seg>तुवेन microphone access दिवपाक जाय.</seg>
+				<seg>हय</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
@@ -663,7 +655,15 @@ Please try again later.</seg>
 				<seg>तुवेन microphone access दिवपाक जाय.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-empty-state-variants" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You must allow microphone access.</seg>
+			</tuv>
+			<tuv xml:lang="knn">
+				<seg>तुवेन microphone access दिवपाक जाय.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state-variants" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your language variant might be out of clips! If you’re comfortable, you can change your settings to see other sentences within your language.</seg>
 			</tuv>
@@ -671,7 +671,7 @@ Please try again later.</seg>
 				<seg>तुमचे कोंकणी बोलींतले या प्रकारांतले सगल्यो recording सोपले आसतोले ! तुका कसलेच त्रास ना जाल्यार, तुजे setting बदलून आपल्याच भासांतले दुसर्यो वाख्यो घेवपाक जाता.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state-variants" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-empty-state-variants" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your language variant might be out of clips! If you’re comfortable, you can change your settings to see other sentences within your language.</seg>
 			</tuv>

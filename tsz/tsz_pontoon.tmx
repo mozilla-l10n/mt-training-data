@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-08-01T00:50:54.351473">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-09-01T00:51:36.065888">
 	</header>
 	<body>
 		<tu tuid="firefox:browser/browser/browserSets.ftl:full-zoom-enlarge-shortcut-alt" srclang="en-US">
@@ -75,6 +75,22 @@
 				<seg>]</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/langpack-metadata.ftl:langpack-contributors" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ "" }</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Mozilla M&amp;#233;xico &amp;#40;Responsable: Mauricio Navarro&amp;#41;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/sanitize.ftl:clear-time-duration-suffix" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ "" }</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Iámendu</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/browserSets.ftl:full-zoom-reset-shortcut-alt" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ "" }</seg>
@@ -97,22 +113,6 @@
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>{ "" }</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/sanitize.ftl:clear-time-duration-suffix" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ "" }</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Iámendu</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/langpack-metadata.ftl:langpack-contributors" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ "" }</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Mozilla M&amp;#233;xico &amp;#40;Responsable: Mauricio Navarro&amp;#41;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/browserSets.ftl:picture-in-picture-toggle-shortcut-alt" srclang="en-US">
@@ -139,7 +139,7 @@
 				<seg>+</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global-platform/win/platformKeys.properties:modifier_separator" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/global-platform/unix/platformKeys.properties:modifier_separator" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>+</seg>
 			</tuv>
@@ -147,7 +147,7 @@
 				<seg>+</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global-platform/unix/platformKeys.properties:modifier_separator" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/global-platform/win/platformKeys.properties:modifier_separator" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>+</seg>
 			</tuv>
@@ -163,6 +163,14 @@
 				<seg>←</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/chrome/global-platform/mac/intl.properties:intlellipsis" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>…</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>…</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:toolkit/chrome/global-platform/unix/intl.properties:intlellipsis" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>…</seg>
@@ -172,14 +180,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/chrome/global-platform/win/intl.properties:intlellipsis" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>…</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>…</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/chrome/global-platform/mac/intl.properties:intlellipsis" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>…</seg>
 			</tuv>
@@ -251,7 +251,7 @@
 				<seg>%1$S (%2$S)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/feeds/subscribe.properties:enclosuresizetext" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/downloads/downloads.properties:sizewithunits" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$S %2$S</seg>
 			</tuv>
@@ -259,7 +259,7 @@
 				<seg>%1$S %2$S</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/downloads/downloads.properties:sizewithunits" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/feeds/subscribe.properties:enclosuresizetext" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>%1$S %2$S</seg>
 			</tuv>
@@ -283,23 +283,7 @@
 				<seg>%1$S —  %2$S</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:xpinstallpromptallowbuttonaccesskey" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>A</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>A</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:addons-shortcut" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>A</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>A</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/pageInfo.ftl:close-window" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:asklaterbuttonaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>A</seg>
 			</tuv>
@@ -315,7 +299,7 @@
 				<seg>A</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/pageInfo.ftl:select-all" srclang="en-US">
+		<tu tuid="firefox:browser/browser/pageInfo.ftl:close-window" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>A</seg>
 			</tuv>
@@ -323,7 +307,7 @@
 				<seg>A</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:asklaterbuttonaccesskey" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:xpinstallpromptallowbuttonaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>A</seg>
 			</tuv>
@@ -332,6 +316,22 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:accepttermsbuttonaccesskey" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>A</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/browserSets.ftl:addons-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>A</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/pageInfo.ftl:select-all" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>A</seg>
 			</tuv>
@@ -411,20 +411,20 @@
 				<seg>Kuturani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/config.ftl:about-config-pref-add-button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Kúparhatani</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/chrome/browser/places/bookmarkProperties.properties:dialogacceptlabeladditem" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>Kuretani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/about/config.ftl:about-config-pref-add-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Kúparhatani</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/chrome/browser/feeds/subscribe.properties:addprotocolhandleraddbutton" srclang="en-US">
@@ -563,14 +563,6 @@
 				<seg>Iámenduecha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:xpinstallpromptallowbutton" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Allow</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Jurhajku</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-capabilities-allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
@@ -579,7 +571,15 @@
 				<seg>Jierata</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-capabilities-listitem-allow" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:xpinstallpromptallowbutton" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Allow</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Jurhajku</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/sitePermissions.properties:statemultichoiceallow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
@@ -587,7 +587,7 @@
 				<seg>Jierata</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/sitePermissions.properties:statemultichoiceallow" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-capabilities-listitem-allow" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Allow</seg>
 			</tuv>
@@ -739,7 +739,7 @@
 				<seg>mananharhitakua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:mobile/android/chrome/browser.properties:stacktraceanonymousfunction" srclang="en-US">
+		<tu tuid="firefox:mobile/android/mobile/android/geckoViewConsole.ftl:console-stacktrace-anonymous-function" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;anonymous&gt;</seg>
 			</tuv>
@@ -747,7 +747,7 @@
 				<seg>&lt;énka no mitinhanka&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:mobile/android/mobile/android/geckoViewConsole.ftl:console-stacktrace-anonymous-function" srclang="en-US">
+		<tu tuid="firefox:mobile/android/chrome/browser.properties:stacktraceanonymousfunction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;anonymous&gt;</seg>
 			</tuv>
@@ -931,7 +931,7 @@
 				<seg>Armenia</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-armenian" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-hy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Armenian</seg>
 			</tuv>
@@ -939,7 +939,7 @@
 				<seg>Armenio</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-hy" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-armenian" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Armenian</seg>
 			</tuv>
@@ -1035,6 +1035,14 @@
 				<seg>Azerí</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/browser/browserSets.ftl:bookmark-show-all-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>B</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>b</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/browserSets.ftl:bookmark-show-sidebar-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>B</seg>
@@ -1051,15 +1059,7 @@
 				<seg>B</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:bookmark-show-all-shortcut" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>B</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>b</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:devtools/client/netmonitor.properties:netmonitorbackbutton" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:backbutton" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Back</seg>
 			</tuv>
@@ -1067,7 +1067,7 @@
 				<seg>Tátsipani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:backbutton" srclang="en-US">
+		<tu tuid="firefox:devtools/client/netmonitor.properties:netmonitorbackbutton" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Back</seg>
 			</tuv>
@@ -1243,15 +1243,7 @@
 				<seg>Bislama</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-capabilities-listitem-block" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Block</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Uraperantani</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-capabilities-block" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-block" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Block</seg>
 			</tuv>
@@ -1267,7 +1259,15 @@
 				<seg>Uraperantani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-block" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-capabilities-block" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Block</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Uraperantani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-capabilities-listitem-block" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Block</seg>
 			</tuv>
@@ -1299,23 +1299,7 @@
 				<seg>&amp;Arhukutarhakuechani kúparata arhistakuecharhu…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-view-bookmarks" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Bookmarks</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Kuirunharitarakuecha</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:sync-engine-bookmarks" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Bookmarks</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Kuirunharitarakuecha</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/sidebarMenu.ftl:sidebar-menu-bookmarks" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:bookmarks-sidebar-content" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmarks</seg>
 			</tuv>
@@ -1331,7 +1315,7 @@
 				<seg>Kuirunharitarakuecha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:bookmarks-sidebar-content" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-view-bookmarks" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmarks</seg>
 			</tuv>
@@ -1339,12 +1323,20 @@
 				<seg>Kuirunharitarakuecha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:bookmarks-toolbar-menu" srclang="en-US">
+		<tu tuid="firefox:browser/browser/sidebarMenu.ftl:sidebar-menu-bookmarks" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Bookmarks Toolbar</seg>
+				<seg>Bookmarks</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>T'antsïratarakuaecha</seg>
+				<seg>Kuirunharitarakuecha</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:sync-engine-bookmarks" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bookmarks</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Kuirunharitarakuecha</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/menubar.ftl:menu-bookmarks-toolbar" srclang="en-US">
@@ -1355,7 +1347,15 @@
 				<seg>T'antsïratarakuaecha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:bookmarks-toolbar-placeholder" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:bookmarks-toolbar-menu" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bookmarks Toolbar</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>T'antsïratarakuaecha</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/browser.ftl:bookmarks-toolbar-placeholder-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmarks Toolbar Items</seg>
 			</tuv>
@@ -1363,7 +1363,7 @@
 				<seg>T'antsïratarakuaechari t'antsïratarakua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:bookmarks-toolbar-placeholder-button" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:bookmarks-toolbar-placeholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmarks Toolbar Items</seg>
 			</tuv>
@@ -1435,7 +1435,7 @@
 				<seg>{ -brand-full-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:browser-main-window-title" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:browser-main-window-mac" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-full-name }</seg>
 			</tuv>
@@ -1443,7 +1443,7 @@
 				<seg>{ -brand-full-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:browser-main-window-mac" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:browser-main-window-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-full-name }</seg>
 			</tuv>
@@ -1595,7 +1595,7 @@
 				<seg>erakutarakua\u0020</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/downloads/downloads.properties:bytes" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/feeds/subscribe.properties:bytes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>bytes</seg>
 			</tuv>
@@ -1603,7 +1603,7 @@
 				<seg>bytes</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/feeds/subscribe.properties:bytes" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/mozapps/downloads/downloads.properties:bytes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>bytes</seg>
 			</tuv>
@@ -1659,6 +1659,14 @@
 				<seg>Canadá</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-button-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>No uétarisïtia</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:toolkit/chrome/global/dialog.properties:button-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
@@ -1668,14 +1676,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:mobile/android/mobile/android/aboutConfig.ftl:config-new-pref-cancel-button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>No uétarisïtia</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-button-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1779,7 +1779,7 @@
 				<seg>Erakuni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:check" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:check" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Check</seg>
 			</tuv>
@@ -1787,7 +1787,7 @@
 				<seg>Erakuni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:check" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:check" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Check</seg>
 			</tuv>
@@ -1963,12 +1963,12 @@
 				<seg>Ambakerani iásï</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:click" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:click" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Click</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>Uanharhitani</seg>
+				<seg>Uanaharhitani</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/unix/accessible.properties:click" srclang="en-US">
@@ -1979,15 +1979,15 @@
 				<seg>Uanharhitani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:click" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:click" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Click</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>Uanaharhitani</seg>
+				<seg>Uanharhitani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/printing/printDialogs.ftl:dialog-close-label" srclang="en-US">
+		<tu tuid="firefox:browser/browser/places.ftl:places-file-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -2003,6 +2003,30 @@
 				<seg>Mikani</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-file-close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Mikani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/translation.ftl:translation-button-close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Mikani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/crashreporter/crashreporter.ftl:crashreporter-button-close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Mikani</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
@@ -2011,31 +2035,7 @@
 				<seg>Mikani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/places.ftl:places-file-close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Mikani</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:close-button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Mikani</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/unix/accessible.properties:close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Mikani</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-file-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -2059,7 +2059,7 @@
 				<seg>Mikani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/crashreporter/crashreporter.ftl:crashreporter-button-close" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/printing/printDialogs.ftl:dialog-close-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -2067,7 +2067,7 @@
 				<seg>Mikani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/translation.ftl:translation-button-close" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/unix/accessible.properties:close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -2123,14 +2123,6 @@
 				<seg>Islas Cocos (Keeling)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/unix/accessible.properties:collapse" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Collapse</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Antsïtaperakua</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:collapse" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Collapse</seg>
@@ -2145,6 +2137,14 @@
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>Antsïtani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/unix/accessible.properties:collapse" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Collapse</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Antsïtaperakua</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/intl/regionNames.ftl:region-name-co" srclang="en-US">
@@ -2187,7 +2187,7 @@
 				<seg>Comoras</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:complementary" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:complementary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>complementary</seg>
 			</tuv>
@@ -2195,7 +2195,7 @@
 				<seg>kurhutakua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:complementary" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:complementary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>complementary</seg>
 			</tuv>
@@ -2363,14 +2363,6 @@
 				<seg>Cuba</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenuitem-customize-mode" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Customize…</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Peerakurhini…</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/toolbarContextMenu.ftl:toolbar-context-menu-view-customize-toolbar" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Customize…</seg>
@@ -2380,6 +2372,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/menubar.ftl:menu-view-customize-toolbar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Customize…</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Peerakurhini…</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenuitem-customize-mode" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Customize…</seg>
 			</tuv>
@@ -2491,7 +2491,7 @@
 				<seg>Danés</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/toolbox-options.ftl:options-sourceeditor-keybinding-default-label" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:quicknav_simple" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Default</seg>
 			</tuv>
@@ -2499,7 +2499,7 @@
 				<seg>Tamisï erakukata</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:quicknav_simple" srclang="en-US">
+		<tu tuid="firefox:devtools/client/toolbox-options.ftl:options-sourceeditor-keybinding-default-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Default</seg>
 			</tuv>
@@ -2523,7 +2523,7 @@
 				<seg>Del</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-edit-delete" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/global/textActions.ftl:text-action-delete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -2531,7 +2531,7 @@
 				<seg>Xerentani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/global/textActions.ftl:text-action-delete" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-edit-delete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -2547,7 +2547,7 @@
 				<seg>Dinamarca</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:security/manager/security/certificates/deviceManager.ftl:devinfo-desc" srclang="en-US">
+		<tu tuid="firefox:browser/installer/mui.properties:mui_innertext_components_description_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Description</seg>
 			</tuv>
@@ -2563,7 +2563,7 @@
 				<seg>Description</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/installer/mui.properties:mui_innertext_components_description_title" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutPlugins.ftl:description-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Description</seg>
 			</tuv>
@@ -2571,7 +2571,7 @@
 				<seg>Description</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutPlugins.ftl:description-label" srclang="en-US">
+		<tu tuid="firefox:security/manager/security/certificates/deviceManager.ftl:devinfo-desc" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Description</seg>
 			</tuv>
@@ -2675,7 +2675,7 @@
 				<seg>T´antsïratarakua ketsekua anapu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-tools-downloads" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:navbar-downloads" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -2699,23 +2699,15 @@
 				<seg>Anchitarakua keskukuecha</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-tools-downloads" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Downloads</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Anchitarakua keskukuecha</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:toolkit/chrome/mozapps/downloads/downloads.properties:downloadsfolder" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Downloads</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Anchitarakua keskukuecha</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:download-header" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Downloads</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Anchitarakua keskukuecha</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:navbar-downloads" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -2731,7 +2723,15 @@
 				<seg>Anchitarakua keskukuecha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:droponhomemsg" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:download-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Downloads</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Anchitarakua keskukuecha</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/toolbarDropHandler.ftl:toolbar-drop-on-home-msg" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Do you want this document to be your new home page?</seg>
 			</tuv>
@@ -2739,7 +2739,7 @@
 				<seg>Ini jinkonti uénatara?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/toolbarDropHandler.ftl:toolbar-drop-on-home-msg" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:droponhomemsg" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Do you want this document to be your new home page?</seg>
 			</tuv>
@@ -2803,7 +2803,7 @@
 				<seg>El Salvador</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:page-action-email-link-panel" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-file-email-link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email Link…</seg>
 			</tuv>
@@ -2811,7 +2811,7 @@
 				<seg>Axani parhijtsïkutarakua…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-file-email-link" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:page-action-email-link-panel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email Link…</seg>
 			</tuv>
@@ -2995,6 +2995,14 @@
 				<seg>Ma urhakua: .mozilla.org, .net.nz, 192.168.1.0/24</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:sitedata-cookies-exceptions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Exceptions…</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Ariichani nómpe…</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:permissions-block-popups-exceptions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Exceptions…</seg>
@@ -3011,12 +3019,12 @@
 				<seg>Licha no ampe…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:sitedata-cookies-exceptions" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserContext.ftl:main-context-menu-media-video-leave-fullscreen" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Exceptions…</seg>
+				<seg>Exit Full Screen</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>Ariichani nómpe…</seg>
+				<seg>Sapinharhitant'ani</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/menubar.ftl:menu-view-exit-full-screen" srclang="en-US">
@@ -3027,20 +3035,20 @@
 				<seg>Sapinharhitansï mentaru</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserContext.ftl:main-context-menu-media-video-leave-fullscreen" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Exit Full Screen</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Sapinharhitant'ani</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/browser.ftl:full-screen-exit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Exit Full Screen Mode</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>Sapinharhitansï</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:expand" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Expand</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Konharhitani</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:expand" srclang="en-US">
@@ -3057,14 +3065,6 @@
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>Konharhitakua</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:expand" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Expand</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Konharhitani</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutAddons.ftl:extensions-warning-check-compatibility-container" srclang="en-US">
@@ -3091,14 +3091,6 @@
 				<seg>{ extensions-warning-update-security-label.value }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutAddons.ftl:search-header-shortcut" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>f</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>f</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/places.ftl:places-cmd-find-key" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>f</seg>
@@ -3107,7 +3099,15 @@
 				<seg>f</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:full-screen-shortcut" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutAddons.ftl:search-header-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>f</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>f</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/browserSets.ftl:find-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>F</seg>
 			</tuv>
@@ -3115,7 +3115,7 @@
 				<seg>f</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:find-shortcut" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browserSets.ftl:full-screen-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>F</seg>
 			</tuv>
@@ -3419,7 +3419,7 @@
 				<seg>Finlandés</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shortcut-name" srclang="en-US">
+		<tu tuid="firefox:browser/browser/migration.ftl:import-from-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -3435,14 +3435,6 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -3451,7 +3443,15 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/migration.ftl:import-from-firefox" srclang="en-US">
+		<tu tuid="firefox:browser/browser/migrationWizard.ftl:migration-wizard-migrator-display-name-firefox" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -3467,7 +3467,7 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/migrationWizard.ftl:migration-wizard-migrator-display-name-firefox" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shortcut-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -3691,14 +3691,6 @@
 				<seg>Fulah</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenuitem-fullscreen" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Full Screen</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Uininharhitantsï</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/menubar.ftl:menu-view-full-screen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Full Screen</seg>
@@ -3707,12 +3699,12 @@
 				<seg>Uininharhitantsï</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:updatebutton_majoraccesskey" srclang="en-US">
+		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenuitem-fullscreen" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>G</seg>
+				<seg>Full Screen</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>G</seg>
+				<seg>Uininharhitantsï</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/browserSets.ftl:search-find-again-shortcut" srclang="en-US">
@@ -3721,6 +3713,14 @@
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>g</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:updatebutton_majoraccesskey" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>G</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>G</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/intl/regionNames.ftl:region-name-ga" srclang="en-US">
@@ -3747,6 +3747,14 @@
 				<seg>Ganda</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/chrome/browser/feeds/subscribe.properties:gigabyte" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>GB</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>GB</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:toolkit/chrome/mozapps/downloads/downloads.properties:gigabyte" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>GB</seg>
@@ -3756,14 +3764,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/downloads/downloadUtils.ftl:download-utils-gigabyte" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>GB</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>GB</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/chrome/browser/feeds/subscribe.properties:gigabyte" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>GB</seg>
 			</tuv>
@@ -3835,7 +3835,7 @@
 				<seg>Gibraltar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/migrationWizard.ftl:migration-source-name-chrome" srclang="en-US">
+		<tu tuid="firefox:browser/browser/migration.ftl:source-name-chrome" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Google Chrome</seg>
 			</tuv>
@@ -3843,7 +3843,7 @@
 				<seg>Google Chrome</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/migration.ftl:source-name-chrome" srclang="en-US">
+		<tu tuid="firefox:browser/browser/migrationWizard.ftl:migration-source-name-chrome" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Google Chrome</seg>
 			</tuv>
@@ -3883,7 +3883,7 @@
 				<seg>Nirani ma karhakataru %S</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:urlbar-go-button" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:urlbar-go-end-cap" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to the address in the Location Bar</seg>
 			</tuv>
@@ -3891,7 +3891,7 @@
 				<seg>Arhistatsperakuecharhu motsi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:urlbar-go-end-cap" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:urlbar-go-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Go to the address in the Location Bar</seg>
 			</tuv>
@@ -4003,7 +4003,7 @@
 				<seg>Guinea-Bissau</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-gu" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-gujarati" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Gujarati</seg>
 			</tuv>
@@ -4011,7 +4011,7 @@
 				<seg>Gujarati</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-gujarati" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-gu" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Gujarati</seg>
 			</tuv>
@@ -4035,7 +4035,15 @@
 				<seg>Guyana</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/dialog.properties:accesskey-help" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:hidebuttonaccesskey" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>H</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>H</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/browserSets.ftl:history-show-all-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>H</seg>
 			</tuv>
@@ -4044,6 +4052,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/browserSets.ftl:hide-app-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>H</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>H</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/chrome/global/dialog.properties:accesskey-help" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>H</seg>
 			</tuv>
@@ -4065,22 +4081,6 @@
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>h</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:history-show-all-shortcut" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>H</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>H</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:hidebuttonaccesskey" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>H</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>H</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/chrome/browser/search.properties:cmd_clearhistory_accesskey" srclang="en-US">
@@ -4139,7 +4139,7 @@
 				<seg>Hebreo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/pageInfo.ftl:help-button" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-help" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help</seg>
 			</tuv>
@@ -4147,7 +4147,7 @@
 				<seg>Jarhuajpikua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-help" srclang="en-US">
+		<tu tuid="firefox:browser/browser/pageInfo.ftl:help-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help</seg>
 			</tuv>
@@ -4243,7 +4243,7 @@
 				<seg>Patsakata</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/sanitize.ftl:history-section-label" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-history" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>History</seg>
 			</tuv>
@@ -4251,15 +4251,7 @@
 				<seg>Patsakata</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:history-panelmenulabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>History</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Karantskata patsakata</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-history" srclang="en-US">
+		<tu tuid="firefox:browser/browser/sanitize.ftl:history-section-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>History</seg>
 			</tuv>
@@ -4273,6 +4265,14 @@
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>Patsakata</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:history-panelmenulabel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>History</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Karantskata patsakata</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/chrome/global/keys.properties:vk_home" srclang="en-US">
@@ -4483,7 +4483,7 @@
 				<seg>Interlingue</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/migration.ftl:source-name-ie" srclang="en-US">
+		<tu tuid="firefox:browser/browser/migrationWizard.ftl:migration-source-name-ie" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Internet Explorer</seg>
 			</tuv>
@@ -4491,7 +4491,7 @@
 				<seg>Internet Explorer</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/migrationWizard.ftl:migration-source-name-ie" srclang="en-US">
+		<tu tuid="firefox:browser/browser/migration.ftl:source-name-ie" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Internet Explorer</seg>
 			</tuv>
@@ -4635,14 +4635,6 @@
 				<seg>JS</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/jsonview.properties:jsonviewertabjson" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>JSON</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>JSON</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/placesPrompts.ftl:places-bookmarks-restore-filter-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>JSON</seg>
@@ -4659,12 +4651,20 @@
 				<seg>JSON</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:jump" srclang="en-US">
+		<tu tuid="firefox:devtools/client/jsonview.properties:jsonviewertabjson" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>JSON</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>JSON</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:jump" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Jump</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>Tsankuachankuni</seg>
+				<seg>Tsankuanchakumani</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/unix/accessible.properties:jump" srclang="en-US">
@@ -4675,12 +4675,12 @@
 				<seg>Tsankuanchakuni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:jump" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:jump" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Jump</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>Tsankuanchakumani</seg>
+				<seg>Tsankuachankuni</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/browserSets.ftl:search-focus-shortcut" srclang="en-US">
@@ -4747,7 +4747,7 @@
 				<seg>Kazajstán</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/feeds/subscribe.properties:kilobyte" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/mozapps/downloads/downloads.properties:kilobyte" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>KB</seg>
 			</tuv>
@@ -4763,7 +4763,7 @@
 				<seg>KB</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/downloads/downloads.properties:kilobyte" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/feeds/subscribe.properties:kilobyte" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>KB</seg>
 			</tuv>
@@ -4779,7 +4779,7 @@
 				<seg>Kenia</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-help-keyboard-shortcuts" srclang="en-US">
+		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenu-help-keyboard-shortcuts" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keyboard Shortcuts</seg>
 			</tuv>
@@ -4787,7 +4787,7 @@
 				<seg>Sóntku Anchitarakuaecha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenu-help-keyboard-shortcuts" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-help-keyboard-shortcuts" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keyboard Shortcuts</seg>
 			</tuv>
@@ -4931,20 +4931,20 @@
 				<seg>Kirguistán</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:location-open-shortcut" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>L</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>l</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:restartlaterbuttonaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>L</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>L</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/browserSets.ftl:location-open-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>L</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>l</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:label" srclang="en-US">
@@ -4963,7 +4963,7 @@
 				<seg>&lt;label data-l10n-name="community-exp-mozillaLink"&gt;{ -vendor-short-name }&lt;/label&gt;Maesti&lt;label data-l10n-name="community-exp-creditsLink"&gt;Parhakpini anapuecha&lt;/label&gt;Mak'u ánchikwarhiparini jimpok'a web mentku mitakwarhitini jawaka.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutAddons.ftl:addon-category-locale" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutAddons.ftl:addon-category-locale-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Languages</seg>
 			</tuv>
@@ -4971,7 +4971,7 @@
 				<seg>Uantakua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutAddons.ftl:addon-category-locale-title" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutAddons.ftl:addon-category-locale" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Languages</seg>
 			</tuv>
@@ -5251,7 +5251,7 @@
 				<seg>Madagascar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:main" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:main" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>main</seg>
 			</tuv>
@@ -5259,7 +5259,7 @@
 				<seg>ueenakua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:main" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:main" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>main</seg>
 			</tuv>
@@ -5387,7 +5387,7 @@
 				<seg>Malayo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-ml" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-malayalam" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Malayalam</seg>
 			</tuv>
@@ -5395,7 +5395,7 @@
 				<seg>Malayalam</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-malayalam" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-ml" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Malayalam</seg>
 			</tuv>
@@ -5523,7 +5523,7 @@
 				<seg>MB</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/downloads/downloadUtils.ftl:download-utils-megabyte" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/feeds/subscribe.properties:megabyte" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>MB</seg>
 			</tuv>
@@ -5531,7 +5531,7 @@
 				<seg>MB</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/feeds/subscribe.properties:megabyte" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/downloads/downloadUtils.ftl:download-utils-megabyte" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>MB</seg>
 			</tuv>
@@ -5563,7 +5563,7 @@
 				<seg>{ menu-quit.label }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global-platform/unix/platformKeys.properties:vk_meta" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/global-platform/win/platformKeys.properties:vk_meta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Meta</seg>
 			</tuv>
@@ -5571,7 +5571,7 @@
 				<seg>Meta</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global-platform/win/platformKeys.properties:vk_meta" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/global-platform/unix/platformKeys.properties:vk_meta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Meta</seg>
 			</tuv>
@@ -5739,7 +5739,7 @@
 				<seg>%MOZ_APP_DISPLAYNAME% Update</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
 			</tuv>
@@ -5747,7 +5747,7 @@
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
 			</tuv>
@@ -5819,7 +5819,7 @@
 				<seg>N</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/passwordmgr/passwordmgr.properties:notifybarnotnowbuttonaccesskey" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:nothanksbuttonaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>N</seg>
 			</tuv>
@@ -5827,7 +5827,7 @@
 				<seg>N</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:nothanksbuttonaccesskey" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/passwordmgr/passwordmgr.properties:notifybarnotnowbuttonaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>N</seg>
 			</tuv>
@@ -5851,6 +5851,14 @@
 				<seg>Arikua</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/browser/places.ftl:places-view-sort-col-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Name</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Arikua</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:mobile/android/mobile/android/aboutConfig.ftl:config-new-pref-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Name</seg>
@@ -5860,14 +5868,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:netwerk/necko.properties:dircolname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Name</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Arikua</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/places.ftl:places-view-sort-col-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Name</seg>
 			</tuv>
@@ -6019,20 +6019,20 @@
 				<seg>Karakata patsakatani nóteru miántani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/places/bookmarkProperties.properties:dialogtitleaddbookmark" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>New Bookmark</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Jimpani uanatsïtarakua</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/chrome/browser/places/bookmarkProperties.properties:newbookmarkdefault" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New Bookmark</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>Jimpani atantskuecha</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/places/bookmarkProperties.properties:dialogtitleaddbookmark" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New Bookmark</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Jimpani uanatsïtarakua</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/chrome/browser/places/bookmarkProperties.properties:dialogtitleaddmulti" srclang="en-US">
@@ -6091,7 +6091,7 @@
 				<seg>Jimpani atantskua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-file-new-private-window" srclang="en-US">
+		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenuitem-new-private-window" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New Private Window</seg>
 			</tuv>
@@ -6099,7 +6099,7 @@
 				<seg>Juchiiti eraatarakua jimpani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenuitem-new-private-window" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-file-new-private-window" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New Private Window</seg>
 			</tuv>
@@ -6115,14 +6115,6 @@
 				<seg>Jimbanhi iorhukua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-file-new-tab" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>New Tab</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Jimbanhi iorhukua</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/browser.ftl:tabs-toolbar-new-tab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New Tab</seg>
@@ -6131,7 +6123,15 @@
 				<seg>Jimbanhi iorhukua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-file-new-window" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-file-new-tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New Tab</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Jimbanhi iorhukua</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenuitem-new-window" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New Window</seg>
 			</tuv>
@@ -6139,7 +6139,7 @@
 				<seg>Eraatarakua jimpani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenuitem-new-window" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-file-new-window" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New Window</seg>
 			</tuv>
@@ -6299,14 +6299,6 @@
 				<seg>o</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:okbuttonaccesskey" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>O</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>O</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/chrome/browser/shellservice.properties:setdefaultbrowseroptionsaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>O</seg>
@@ -6321,6 +6313,14 @@
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>o</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:okbuttonaccesskey" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>O</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>O</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-oc" srclang="en-US">
@@ -6347,47 +6347,7 @@
 				<seg>Ojibwa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/dialog.properties:button-accept" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>OK</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Jo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/chrome/global/commonDialogs.properties:ok" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>OK</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Jo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/crashreporter/crashreporter.ftl:crashreporter-button-ok" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>OK</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Jo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:ok" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>OK</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Jo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/pdfviewer/viewer.properties:password_ok" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>OK</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Jo</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/toolkit/pdfviewer/viewer.ftl:pdfjs-password-ok-button" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:okbutton" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
@@ -6403,6 +6363,14 @@
 				<seg>Jo</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/pdfviewer/viewer.ftl:pdfjs-password-ok-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Jo</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:toolkit/crashreporter/crashreporter.ini:stringsok" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
@@ -6411,7 +6379,39 @@
 				<seg>Jo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:okbutton" srclang="en-US">
+		<tu tuid="firefox:toolkit/crashreporter/crashreporter.ftl:crashreporter-button-ok" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Jo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/chrome/global/dialog.properties:button-accept" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Jo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/pdfviewer/viewer.properties:password_ok" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Jo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/about/aboutNetworking.ftl:ok" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Jo</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/chrome/global/commonDialogs.properties:ok" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
@@ -6443,7 +6443,7 @@
 				<seg>Oops.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:open" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -6452,14 +6452,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/pdfviewer/viewer.properties:open_file_label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Open</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Mitani</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -6476,6 +6468,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/unix/accessible.properties:open" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Mitani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:open" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open</seg>
 			</tuv>
@@ -6547,14 +6547,6 @@
 				<seg>Erakuani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/shellservice.properties:setdefaultbrowseroptionslabel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Options</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Erakuani</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/chrome/browser/browser.properties:popupwarningbutton" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Options</seg>
@@ -6564,6 +6556,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:preferences-buttonlabelwin" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Options</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Erakuani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/chrome/browser/shellservice.properties:setdefaultbrowseroptionslabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Options</seg>
 			</tuv>
@@ -6627,7 +6627,7 @@
 				<seg>Arhintsï ampenkari exeni jaka</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/printing/printPreview.ftl:printpreview-page-setup" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-file-print-setup" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Page Setup…</seg>
 			</tuv>
@@ -6635,7 +6635,7 @@
 				<seg>Sési kantsanharita…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-file-print-setup" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/printing/printPreview.ftl:printpreview-page-setup" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Page Setup…</seg>
 			</tuv>
@@ -6771,7 +6771,7 @@
 				<seg>karakata mitatarakua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-edit-paste" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/global/textActions.ftl:text-action-paste" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Paste</seg>
 			</tuv>
@@ -6779,7 +6779,7 @@
 				<seg>Matani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/global/textActions.ftl:text-action-paste" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-edit-paste" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Paste</seg>
 			</tuv>
@@ -6891,7 +6891,7 @@
 				<seg>Filipinas</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:page-action-pin-tab-urlbar" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:page-action-pin-tab-panel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Pin Tab</seg>
 			</tuv>
@@ -6907,7 +6907,7 @@
 				<seg>Xeparini arhukutarakuani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:page-action-pin-tab-panel" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:page-action-pin-tab-urlbar" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Pin Tab</seg>
 			</tuv>
@@ -6963,7 +6963,7 @@
 				<seg>Nanirpera:</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:preferences-buttonlabel" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/browser.properties:popupwarningbuttonunix" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Preferences</seg>
 			</tuv>
@@ -6979,7 +6979,7 @@
 				<seg>Sánteru xénchakuecha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/browser.properties:popupwarningbuttonunix" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/customizableui/customizableWidgets.properties:preferences-buttonlabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Preferences</seg>
 			</tuv>
@@ -7003,7 +7003,7 @@
 				<seg>Sánteru xénchakuecha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:press" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:press" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Press</seg>
 			</tuv>
@@ -7019,7 +7019,7 @@
 				<seg>Uanharhitani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:press" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:press" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Press</seg>
 			</tuv>
@@ -7043,7 +7043,7 @@
 				<seg>Uéchantaa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/printing/printPreview.ftl:printpreview-print" srclang="en-US">
+		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenuitem-print" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Print…</seg>
 			</tuv>
@@ -7051,7 +7051,7 @@
 				<seg>Uéchatantsï…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenuitem-print" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/printing/printPreview.ftl:printpreview-print" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Print…</seg>
 			</tuv>
@@ -7147,20 +7147,20 @@
 				<seg>Uérani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browserSets.ftl:nav-reload-shortcut" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>R</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>r</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/chrome/mozapps/update/updates.properties:restartnowbuttonaccesskey" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>R</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>R</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/browserSets.ftl:nav-reload-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>R</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>r</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/menubar.ftl:menu-history-undo-menu" srclang="en-US">
@@ -7275,15 +7275,7 @@
 				<seg>{ $remoteWindows }/{ $totalWindows }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:search-remove-engine" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Kéntitani</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/toolkit/preferences/preferences.ftl:pw-remove-button" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/languages.ftl:languages-customize-remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -7299,7 +7291,15 @@
 				<seg>Kéntitani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/languages.ftl:languages-customize-remove" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/preferences/preferences.ftl:pw-remove-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Kéntitani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:search-remove-engine" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -7339,6 +7339,22 @@
 				<seg>required</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:security/manager/security/pippki/pippki.ftl:reset-password-button-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reset</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Méntaru uéntani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:mobile/android/mobile/android/aboutConfig.ftl:config-pref-reset-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reset</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>sesi pentani</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/menubar.ftl:menu-view-full-zoom-reset" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reset</seg>
@@ -7353,22 +7369,6 @@
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>Méntaru uéntani\u0020</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:mobile/android/mobile/android/aboutConfig.ftl:config-pref-reset-button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Reset</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>sesi pentani</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:security/manager/security/pippki/pippki.ftl:reset-password-button-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Reset</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Méntaru uéntani</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/menubar.ftl:menu-help-safe-mode-without-addons" srclang="en-US">
@@ -7547,7 +7547,7 @@
 				<seg>S</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/migration.ftl:import-from-safari" srclang="en-US">
+		<tu tuid="firefox:browser/browser/migration.ftl:source-name-safari" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Safari</seg>
 			</tuv>
@@ -7555,7 +7555,7 @@
 				<seg>Safari</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/migration.ftl:source-name-safari" srclang="en-US">
+		<tu tuid="firefox:browser/browser/migration.ftl:import-from-safari" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Safari</seg>
 			</tuv>
@@ -7683,7 +7683,7 @@
 				<seg>Arabia Saudí</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/places/bookmarkProperties.properties:dialogacceptlabeledit" srclang="en-US">
+		<tu tuid="firefox:devtools/client/jsonview.properties:jsonviewersave" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -7691,7 +7691,7 @@
 				<seg>Patsan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:devtools/client/jsonview.properties:jsonviewersave" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/places/bookmarkProperties.properties:dialogacceptlabeledit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -7771,7 +7771,7 @@
 				<seg>Patsani esïka…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/chrome/browser/shellservice.properties:desktopbackgrounddownloading" srclang="en-US">
+		<tu tuid="firefox:browser/browser/setDesktopBackground.ftl:set-desktop-background-downloading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Saving Picture…</seg>
 			</tuv>
@@ -7779,7 +7779,7 @@
 				<seg>Eratikuani patsa…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/setDesktopBackground.ftl:set-desktop-background-downloading" srclang="en-US">
+		<tu tuid="firefox:browser/chrome/browser/shellservice.properties:desktopbackgrounddownloading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Saving Picture…</seg>
 			</tuv>
@@ -7795,7 +7795,7 @@
 				<seg>Gaélico escocés</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:textinputtype_search" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:search" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>search</seg>
 			</tuv>
@@ -7803,7 +7803,7 @@
 				<seg>jirhinhani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:search" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/AccessFu.properties:textinputtype_search" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>search</seg>
 			</tuv>
@@ -7875,20 +7875,20 @@
 				<seg>No sesi jarhajti kuajchaperakua: Jatanhekua %S no jatanheasinti mitatajperakueechani %S.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:select" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Select</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>K'umanharhitani</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:select" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>K'umanharitani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:select" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>K'umanharhitani</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/unix/accessible.properties:select" srclang="en-US">
@@ -7907,7 +7907,7 @@
 				<seg>Erakue ma untakua pari kuturutani…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/pageInfo.ftl:menu-select-all" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/global/commonDialog.ftl:common-dialog-select-all-cmd" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select All</seg>
 			</tuv>
@@ -7923,7 +7923,7 @@
 				<seg>Erakuni iámendu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/global/commonDialog.ftl:common-dialog-select-all-cmd" srclang="en-US">
+		<tu tuid="firefox:browser/browser/pageInfo.ftl:menu-select-all" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select All</seg>
 			</tuv>
@@ -7963,7 +7963,7 @@
 				<seg>Serbio</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-default-serif" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutReader.ftl:about-reader-font-type-serif" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Serif</seg>
 			</tuv>
@@ -7971,7 +7971,7 @@
 				<seg>Serif</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutReader.ftl:about-reader-font-type-serif" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-default-serif" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Serif</seg>
 			</tuv>
@@ -7995,7 +7995,7 @@
 				<seg>Jimini tatsunharitantsï…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/selectBookmark.ftl:select-bookmark-window" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/selectBookmark.ftl:select-bookmark-window2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Set Home Page</seg>
 			</tuv>
@@ -8011,7 +8011,7 @@
 				<seg>Nákinti uénatara</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/selectBookmark.ftl:select-bookmark-window2" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/selectBookmark.ftl:select-bookmark-window" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Set Home Page</seg>
 			</tuv>
@@ -8091,7 +8091,7 @@
 				<seg>Xarhatani iámendu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/browser.ftl:bookmarks-show-all-bookmarks" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-bookmarks-show-all" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Show All Bookmarks</seg>
 			</tuv>
@@ -8099,7 +8099,7 @@
 				<seg>Xarhatani iámenduecha kuirunharitarakuecha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-bookmarks-show-all" srclang="en-US">
+		<tu tuid="firefox:browser/browser/browser.ftl:bookmarks-show-all-bookmarks" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Show All Bookmarks</seg>
 			</tuv>
@@ -8635,14 +8635,6 @@
 				<seg>Sueco</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/unix/accessible.properties:switch" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Switch</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Menku untapani</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:switch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Switch</seg>
@@ -8657,6 +8649,14 @@
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>Menku untani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:dom/chrome/accessibility/unix/accessible.properties:switch" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Switch</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Menku untapani</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/browser.ftl:urlbar-switch-to-tab" srclang="en-US">
@@ -8947,7 +8947,7 @@
 				<seg>I miiunharikua ánchitarakua jini patsakata jarhasti:</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-tibetan" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-bo" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tibetan</seg>
 			</tuv>
@@ -8955,7 +8955,7 @@
 				<seg>Tibetano</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-bo" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-langgroup-tibetan" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tibetan</seg>
 			</tuv>
@@ -9075,7 +9075,7 @@
 				<seg>Tokelau</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-to" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/intl/regionNames.ftl:region-name-to" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tonga</seg>
 			</tuv>
@@ -9083,7 +9083,7 @@
 				<seg>Tonga</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/intl/regionNames.ftl:region-name-to" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/intl/languageNames.ftl:language-name-to" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tonga</seg>
 			</tuv>
@@ -9155,7 +9155,7 @@
 				<seg>Trinidad y Tobago</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenu-help-troubleshooting-info" srclang="en-US">
+		<tu tuid="firefox:browser/browser/menubar.ftl:menu-help-troubleshooting-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Troubleshooting Information</seg>
 			</tuv>
@@ -9163,7 +9163,7 @@
 				<seg>Arhintsï axu enkari no kurhankujka</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/menubar.ftl:menu-help-troubleshooting-info" srclang="en-US">
+		<tu tuid="firefox:browser/browser/appmenu.ftl:appmenu-help-troubleshooting-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Troubleshooting Information</seg>
 			</tuv>
@@ -9379,12 +9379,12 @@
 				<seg>Ucraniano</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:uncheck" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:uncheck" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Uncheck</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>Monharhitani</seg>
+				<seg>Mojtakuni</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:dom/chrome/accessibility/unix/accessible.properties:uncheck" srclang="en-US">
@@ -9395,12 +9395,12 @@
 				<seg>Pikunharhitani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:dom/chrome/accessibility/mac/accessible.properties:uncheck" srclang="en-US">
+		<tu tuid="firefox:dom/chrome/accessibility/win/accessible.properties:uncheck" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Uncheck</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>Mojtakuni</seg>
+				<seg>Monharhitani</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/preferences/colors.ftl:colors-underline-links" srclang="en-US">
@@ -9409,14 +9409,6 @@
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>K´uirunaritani kuntakuechani</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/toolkit/global/textActions.ftl:text-action-undo" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Undo</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Xerentsï</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/customizeMode.ftl:customize-mode-undo-cmd" srclang="en-US">
@@ -9428,6 +9420,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/menubar.ftl:menu-edit-undo" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Undo</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Xerentsï</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/global/textActions.ftl:text-action-undo" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Undo</seg>
 			</tuv>
@@ -9467,6 +9467,14 @@
 				<seg>Kurhanguni</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/browser/tabContextMenu.ftl:unpin-tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unpin Tab</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Arhukutarakua p´íkuntani</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/browser.ftl:page-action-unpin-tab-panel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Unpin Tab</seg>
@@ -9483,14 +9491,6 @@
 				<seg>Arhukutarakua p´íkuntani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/tabContextMenu.ftl:unpin-tab" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Unpin Tab</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Arhukutarakua p´íkuntani</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/chrome/global/keys.properties:vk_up" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Up Arrow</seg>
@@ -9499,20 +9499,20 @@
 				<seg>T´antsïrakua karhakua anapu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:mobile/android/chrome/passwordmgr.properties:updatebutton" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Update</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>patsakata</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:toolkit/toolkit/about/aboutServiceWorkers.ftl:update-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Update</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>Jimpanherantani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:mobile/android/chrome/passwordmgr.properties:updatebutton" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Update</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>patsakata</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/chrome/passwordmgr/passwordmgr.properties:updateloginbuttontext" srclang="en-US">
@@ -9891,7 +9891,15 @@
 				<seg>Volapük</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/sanitize.ftl:window-close" srclang="en-US">
+		<tu tuid="firefox:browser/browser/places.ftl:places-cmd-close" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>w</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>w</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-window-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>w</seg>
 			</tuv>
@@ -9907,23 +9915,7 @@
 				<seg>w</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/places.ftl:places-cmd-close" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>w</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>w</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/preferences/permissions.ftl:permissions-close-key" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>w</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>w</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/browser/preferences/languages.ftl:languages-close-key" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>w</seg>
 			</tuv>
@@ -9939,7 +9931,15 @@
 				<seg>w</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/fonts.ftl:fonts-window-close" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/languages.ftl:languages-close-key" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>w</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>w</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/sanitize.ftl:window-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>w</seg>
 			</tuv>
@@ -10043,7 +10043,7 @@
 				<seg>win</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global-platform/win/platformKeys.properties:vk_win" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/global-platform/unix/platformKeys.properties:vk_win" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Win</seg>
 			</tuv>
@@ -10051,7 +10051,7 @@
 				<seg>Win</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/global-platform/unix/platformKeys.properties:vk_win" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/global-platform/win/platformKeys.properties:vk_win" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Win</seg>
 			</tuv>
@@ -10179,7 +10179,7 @@
 				<seg>k’uaniaka</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/downloads/downloadUtils.ftl:download-utils-yesterday" srclang="en-US">
+		<tu tuid="firefox:toolkit/chrome/places/places.properties:finduri-ageindays-is-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yesterday</seg>
 			</tuv>
@@ -10187,7 +10187,7 @@
 				<seg>Uitsindekua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/chrome/places/places.properties:finduri-ageindays-is-1" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/downloads/downloadUtils.ftl:download-utils-yesterday" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yesterday</seg>
 			</tuv>
@@ -10299,6 +10299,14 @@
 				<seg>Zimbabue</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/pdfviewer/viewer.ftl:pdfjs-zoom-select" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Zoom</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>jasi</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/browser/browserSets.ftl:window-zoom-command" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Zoom</seg>
@@ -10308,14 +10316,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/pdfviewer/viewer.properties:zoomtitle" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Zoom</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>jasi</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:toolkit/toolkit/pdfviewer/viewer.ftl:pdfjs-zoom-select" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Zoom</seg>
 			</tuv>
@@ -10779,7 +10779,7 @@
 				<seg>Pitani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_cancel" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -10795,7 +10795,7 @@
 				<seg>Áamkutaru</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -10899,7 +10899,7 @@
 				<seg>Jatakwa ampe kwarhukunhasti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_title" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_reject_all_option_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -10915,7 +10915,7 @@
 				<seg>Exepakueri ayankperakua Tsukunhani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_reject_all_option_title" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -11003,7 +11003,7 @@
 				<seg>Kwerari ánchitakwaecha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_dismiss_input" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dismiss_no_suggestions_prompt_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
 			</tuv>
@@ -11011,7 +11011,7 @@
 				<seg>Kéntitani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dismiss_no_suggestions_prompt_button" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_dismiss_input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
 			</tuv>
@@ -11147,12 +11147,12 @@
 				<seg>Kéntitani ka mítani %1$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_erase" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>Jirinhantskwani kéntita</seg>
+				<seg>Jirinhantskwa ampe kéntitani</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
@@ -11163,12 +11163,12 @@
 				<seg>Jirinhantskwa ampe mirikurhini</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_erase" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>Jirinhantskwa ampe kéntitani</seg>
+				<seg>Jirinhantskwani kéntita</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tabs_tray_action_erase" srclang="en-US">
@@ -11395,22 +11395,6 @@
 				<seg>Wantakwa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Sánteru míteni</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Sánteru mítini</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_mozilla_telemetry_summary" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
@@ -11425,6 +11409,22 @@
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>Sánteru jorenani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Sánteru mítini</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Sánteru míteni</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_libraries_we_use" srclang="en-US">
@@ -11491,7 +11491,7 @@
 				<seg>Méntku ísï jirikurhiparini</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_category_autocomplete_manage_sites" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_subitem_manage_sites" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Manage sites</seg>
 			</tuv>
@@ -11499,7 +11499,7 @@
 				<seg>Eranharhikwaechani xanhatani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_subitem_manage_sites" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_category_autocomplete_manage_sites" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Manage sites</seg>
 			</tuv>
@@ -11611,7 +11611,7 @@
 				<seg>Máteru</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_no" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_no_option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -11619,7 +11619,7 @@
 				<seg>Áamku</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_no_option" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -11691,7 +11691,7 @@
 				<seg>P'atani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_off" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_state_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OFF for this site</seg>
 			</tuv>
@@ -11699,7 +11699,7 @@
 				<seg>PATAKATA ini eranharhikukuarhu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_state_off" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OFF for this site</seg>
 			</tuv>
@@ -11723,14 +11723,6 @@
 				<seg>Ya, parini!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_on" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>On</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Étskuni</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
@@ -11739,12 +11731,12 @@
 				<seg>Étskuni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_on" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_on" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>ON for this site</seg>
+				<seg>On</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>ETSKUKATA ini eranharhikukuarhu</seg>
+				<seg>Étskuni</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_state_on" srclang="en-US">
@@ -11755,12 +11747,12 @@
 				<seg>ETSKUKATA ini eranharhikukuarhu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_action_open" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_description_state_on" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Open</seg>
+				<seg>ON for this site</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>Inchani</seg>
+				<seg>ETSKUKATA ini eranharhikukuarhu</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:download_snackbar_open" srclang="en-US">
@@ -11769,6 +11761,14 @@
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>Mítani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_action_open" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Open</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Inchani</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tip_open_in_new_tab" srclang="en-US">
@@ -11959,23 +11959,15 @@
 				<seg>USB/Wi-Fi weratini ampakerant'ani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Kéntitani</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Kéntitani</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Kéntitani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -11999,7 +11991,15 @@
 				<seg>Kéntitani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Kéntitani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -12039,7 +12039,7 @@
 				<seg>Jirinhatarantskwaechani kéntitani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site_item" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rename</seg>
 			</tuv>
@@ -12047,7 +12047,7 @@
 				<seg>Jakankuntani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site_item" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rename</seg>
 			</tuv>
@@ -12103,7 +12103,7 @@
 				<seg>Kwatakata jirinhant'ani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:search_add_manually_save" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -12111,7 +12111,7 @@
 				<seg>Patsani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_save" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:search_add_manually_save" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save</seg>
 			</tuv>
@@ -12792,7 +12792,7 @@
 				<seg>Arhistsïkwaecha jirinant'ani wékapirinkiri etskunt'ani?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_yes_option" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -12800,7 +12800,7 @@
 				<seg>Jo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_yes" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_yes_option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -12873,20 +12873,20 @@
 				<seg>Ch'éeti mítitarantskwa %1$s áamku mitanki énka í URL úratarakwa mítatini jatsïaka. Exetku étskuntaati.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:your_rights" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Your Rights</seg>
-			</tuv>
-			<tuv xml:lang="tsz">
-				<seg>Ch'éti sésikwaecha</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:menu_rights" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your Rights</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
 				<seg>Sésikwaecha</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:your_rights" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your Rights</seg>
+			</tuv>
+			<tuv xml:lang="tsz">
+				<seg>Ch'éti sésikwaecha</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:firstrun_search_title" srclang="en-US">
@@ -13010,7 +13010,7 @@ Browse. Erase. Repeat.</seg>
 				<seg>Pékurhintskwa URL</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:custom-urlspreference_category_autocomplete_custom_urls" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:custom-urlspreference_autocomplete_subitem_customlist" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>
@@ -13018,7 +13018,7 @@ Browse. Erase. Repeat.</seg>
 				<seg>Pékurhintskwa URLs</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:custom-urlspreference_autocomplete_subitem_customlist" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:custom-urlspreference_category_autocomplete_custom_urls" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>
@@ -13561,7 +13561,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>bookmark</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>exerpini</seg>
+				<seg>exerpitarakua</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -13569,7 +13569,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>bookmark</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>exerpitarakua</seg>
+				<seg>exerpini</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -13649,7 +13649,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>xerechi</seg>
+				<seg>xereni</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">
@@ -13657,7 +13657,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>corrupt</seg>
 			</tuv>
 			<tuv xml:lang="tsz">
-				<seg>xereni</seg>
+				<seg>xerechi</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">

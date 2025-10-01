@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-09-01T00:36:53.686130">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-10-01T00:35:52.339508">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -19,14 +19,6 @@
 				<seg>[1-5]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentence-success" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>1 sentence collected</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Yɛltɔɣ' gaŋa deeya</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:add-sentence-success" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>1 sentence collected</seg>
@@ -35,7 +27,15 @@
 				<seg>Yɛltɔɣ' gaŋa deeya</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentence-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>1 sentence collected</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Yɛltɔɣ' gaŋa deeya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>2 down, keep it up!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
 			</tuv>
@@ -43,7 +43,7 @@
 				<seg>Diba ayi na dɔni tiŋa, kuli gbubi ka di kpɛma &lt;playIcon&gt;&lt;/playIcon&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>2 down, keep it up!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
 			</tuv>
@@ -99,14 +99,6 @@
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt;bɛ yɛli yɛltɔɣa maa viɛnyɛla?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; karimmi yɛltɔɣili maa ka di yina.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
@@ -115,12 +107,12 @@
 				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; karimmi yɛltɔɣili maa ka di yina.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; a yi naai</seg>
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; karimmi yɛltɔɣili maa ka di yina.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
@@ -131,12 +123,12 @@
 				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; a yi naai</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-submit-tooltip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>{ $actionType } submit when ready</seg>
+				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>{ $actionType } zaŋ n-ti a yi niŋ shili</seg>
+				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; a yi naai</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-submit-tooltip" srclang="en-US">
@@ -147,7 +139,15 @@
 				<seg>{ $actionType } zaŋ n-ti a yi niŋ shili</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-submit-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } submit when ready</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>{ $actionType } zaŋ n-ti a yi niŋ shili</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:write-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add &lt;icon&gt;&lt;/icon&gt; a public domain sentence</seg>
 			</tuv>
@@ -155,7 +155,7 @@
 				<seg>Pahimi &lt;icon&gt;&lt;/icon&gt; yɛltɔɣili din ka ŋun su li</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:write-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add &lt;icon&gt;&lt;/icon&gt; a public domain sentence</seg>
 			</tuv>
@@ -195,7 +195,7 @@
 				<seg>Pahimi a kukoli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:af" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:af" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Afrikaans</seg>
 			</tuv>
@@ -203,7 +203,7 @@
 				<seg>Afrikaans</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:af" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:af" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Afrikaans</seg>
 			</tuv>
@@ -275,14 +275,6 @@
 				<seg>Muɣisigu kamina yɛltɔɣili ŋɔ labi lihi ni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:thanks-for-voice-toast-error" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>An error occurred submitting your voice information</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Muɣisigu kana a kukoli lahibali zaŋ ti maa ni</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>An error occurred submitting your voice information</seg>
@@ -291,7 +283,15 @@
 				<seg>Muɣisigu kana a kukoli lahibali zaŋ ti maa ni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:thanks-for-voice-toast-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred submitting your voice information</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Muɣisigu kana a kukoli lahibali zaŋ ti maa ni</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Approve</seg>
 			</tuv>
@@ -299,7 +299,7 @@
 				<seg>Saɣi ti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Approve</seg>
 			</tuv>
@@ -339,14 +339,6 @@
 				<seg>Laribu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-voices-example-1-explanation" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Are you coming? &lt;strong&gt;[called by another]&lt;/strong&gt;</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>ò dʒà? &lt;strong&gt;[òβɛ́βá mò wɛ́lɛ̂]&lt;/strong&gt;</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-example-1-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Are you coming? &lt;strong&gt;[called by another]&lt;/strong&gt;</seg>
@@ -355,12 +347,12 @@
 				<seg>ò dʒà? &lt;strong&gt;[òβɛ́βá mò wɛ́lɛ̂]&lt;/strong&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-voices-example-1-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Ask us questions on &lt;matrixLink&gt;Matrix&lt;/matrixLink&gt;, &lt;discourseLink&gt;Discourse&lt;/discourseLink&gt; or &lt;emailLink&gt;email&lt;/emailLink&gt;.</seg>
+				<seg>Are you coming? &lt;strong&gt;[called by another]&lt;/strong&gt;</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Bɔhimi ti bɔhisi  &lt;matrixLink&gt;Matirikisi&lt;/matrixLink&gt;, &lt;discourseLink&gt;Lahibali&lt;/discourseLink&gt; bee &lt;emailLink&gt;iimeeli&lt;/emailLink&gt;.</seg>
+				<seg>ò dʒà? &lt;strong&gt;[òβɛ́βá mò wɛ́lɛ̂]&lt;/strong&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-2" srclang="en-US">
@@ -371,7 +363,15 @@
 				<seg>Bɔhimi ti bɔhisi  &lt;matrixLink&gt;Matirikisi&lt;/matrixLink&gt;, &lt;discourseLink&gt;Lahibali&lt;/discourseLink&gt; bee &lt;emailLink&gt;iimeeli&lt;/emailLink&gt;.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:automotive_transport" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ask us questions on &lt;matrixLink&gt;Matrix&lt;/matrixLink&gt;, &lt;discourseLink&gt;Discourse&lt;/discourseLink&gt; or &lt;emailLink&gt;email&lt;/emailLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Bɔhimi ti bɔhisi  &lt;matrixLink&gt;Matirikisi&lt;/matrixLink&gt;, &lt;discourseLink&gt;Lahibali&lt;/discourseLink&gt; bee &lt;emailLink&gt;iimeeli&lt;/emailLink&gt;.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:automotive_transport" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Automotive and Transport</seg>
 			</tuv>
@@ -379,7 +379,7 @@
 				<seg>Loorinima</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:automotive_transport" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:automotive_transport" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Automotive and Transport</seg>
 			</tuv>
@@ -419,14 +419,6 @@
 				<seg>Kukoya yɛltɔɣa puuni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Be cautious before rejecting a clip on the ground that the reader has mispronounced a word, has put the stress in the wrong place, or has apparently ignored a question mark. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a margin of appreciation for those who may speak differently from you.</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Di tu ni a niŋ siɣa pɔi ka naanyi zaɣisi kukoli ka di nyɛla a tɛhimi ni ŋun karindi maa bɔlila bachi gabi, o yee bi doli bachinima viɛnyɛla bee o bi bahila bɔhigu bia. Niriba ni booni binyɛra shɛm galisiya pam dunia yaaŋa zuɣu, di shɛŋa beni ka a na ʒi n-wum li a yaɣili. Dim suɣulo ka niŋ nintiɣili ni ninvuɣ' shɛba ban yɛltɔɣa be di ko che a dini.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Be cautious before rejecting a clip on the ground that the reader has mispronounced a word, has put the stress in the wrong place, or has apparently ignored a question mark. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a margin of appreciation for those who may speak differently from you.</seg>
@@ -435,7 +427,15 @@
 				<seg>Di tu ni a niŋ siɣa pɔi ka naanyi zaɣisi kukoli ka di nyɛla a tɛhimi ni ŋun karindi maa bɔlila bachi gabi, o yee bi doli bachinima viɛnyɛla bee o bi bahila bɔhigu bia. Niriba ni booni binyɛra shɛm galisiya pam dunia yaaŋa zuɣu, di shɛŋa beni ka a na ʒi n-wum li a yaɣili. Dim suɣulo ka niŋ nintiɣili ni ninvuɣ' shɛba ban yɛltɔɣa be di ko che a dini.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:bn" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Be cautious before rejecting a clip on the ground that the reader has mispronounced a word, has put the stress in the wrong place, or has apparently ignored a question mark. There are a wide variety of pronunciations in use around the world, some of which you may not have heard in your local community. Please provide a margin of appreciation for those who may speak differently from you.</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Di tu ni a niŋ siɣa pɔi ka naanyi zaɣisi kukoli ka di nyɛla a tɛhimi ni ŋun karindi maa bɔlila bachi gabi, o yee bi doli bachinima viɛnyɛla bee o bi bahila bɔhigu bia. Niriba ni booni binyɛra shɛm galisiya pam dunia yaaŋa zuɣu, di shɛŋa beni ka a na ʒi n-wum li a yaɣili. Dim suɣulo ka niŋ nintiɣili ni ninvuɣ' shɛba ban yɛltɔɣa be di ko che a dini.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:bn" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bengali</seg>
 			</tuv>
@@ -443,7 +443,7 @@
 				<seg>Bengali</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:bn" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:bn" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bengali</seg>
 			</tuv>
@@ -467,14 +467,6 @@
 				<seg>['Bɛrɛti' saɣiya, di yi bɔlimi ka tuuli bachijilli n-ʒiri yee (UK) bee bachijilli din pahi ayi maa n-yi ʒiri yee]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:clips-with-count-pluralized" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; Clips</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; kukoya</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:clips-with-count-pluralized" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; Clips</seg>
@@ -483,7 +475,15 @@
 				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; kukoya</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:clips-with-count-pluralized" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; Clips</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; kukoya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
 			</tuv>
@@ -491,7 +491,7 @@
 				<seg>&lt;bold&gt; Sɔŋmi ti &lt;/bold&gt; ka ti nya kukoya pam</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
 			</tuv>
@@ -523,14 +523,6 @@
 				<seg>Yɛltɔɣa din galisi zaŋ ti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:bulk-upload-success-toast" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Bulk Sentences Uploaded</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Yɛltɔɣa din galisi zaŋ pahi</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-success-toast" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bulk Sentences Uploaded</seg>
@@ -539,12 +531,12 @@
 				<seg>Yɛltɔɣa din galisi zaŋ pahi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-subtitle-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:bulk-upload-success-toast" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>By telling us about yourself, you will help developers build more inclusive technology</seg>
+				<seg>Bulk Sentences Uploaded</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>A yi yɛli ti zaŋ kpa a ni nyɛ so polo, di ni sɔŋ ka ba ban mɛri tabiibi baŋsima tanzahi me tanza' maŋa</seg>
+				<seg>Yɛltɔɣa din galisi zaŋ pahi</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:first-cta-subtitle-text" srclang="en-US">
@@ -555,12 +547,12 @@
 				<seg>A yi yɛli ti zaŋ kpa a ni nyɛ so polo, di ni sɔŋ ka ba ban mɛri tabiibi baŋsima tanzahi me tanza' maŋa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-terms" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-subtitle-text" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>By using Common Voice, you agree to our &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
+				<seg>By telling us about yourself, you will help developers build more inclusive technology</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>A yi yɛn zaŋ Common Voice n-tum tuma, di tu ni a saɣi n-ti ti  &lt;termsLink&gt;zalisi&lt;/termsLink&gt; mini &lt;privacyLink&gt;ashili lahibali&lt;/privacyLink&gt;</seg>
+				<seg>A yi yɛli ti zaŋ kpa a ni nyɛ so polo, di ni sɔŋ ka ba ban mɛri tabiibi baŋsima tanzahi me tanza' maŋa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-terms" srclang="en-US">
@@ -571,12 +563,12 @@
 				<seg>A yi yɛn zaŋ Common Voice n-tum tuma, di tu ni a saɣi n-ti ti  &lt;termsLink&gt;zalisi&lt;/termsLink&gt; mini &lt;privacyLink&gt;ashili lahibali&lt;/privacyLink&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-cancel" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-terms" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Cancel Re-recording</seg>
+				<seg>By using Common Voice, you agree to our &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Nyahimi yaabu</seg>
+				<seg>A yi yɛn zaŋ Common Voice n-tum tuma, di tu ni a saɣi n-ti ti  &lt;termsLink&gt;zalisi&lt;/termsLink&gt; mini &lt;privacyLink&gt;ashili lahibali&lt;/privacyLink&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cancel" srclang="en-US">
@@ -587,7 +579,15 @@
 				<seg>Nyahimi yaabu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel Re-recording</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Nyahimi yaabu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel Submission</seg>
 			</tuv>
@@ -595,7 +595,7 @@
 				<seg>Nyahimi zaŋ n-ti maa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel Submission</seg>
 			</tuv>
@@ -635,14 +635,6 @@
 				<seg>Yulima &lt;icon&gt;&lt;/icon&gt;yɛltɔɣili ŋɔ maa sabiya viɛnyɛla?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-less" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>&lt;chevron&gt;&lt;/chevron&gt;See less</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>&lt;chevron&gt;&lt;/chevron&gt;nyami biɛla</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:see-less" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;chevron&gt;&lt;/chevron&gt;See less</seg>
@@ -651,12 +643,12 @@
 				<seg>&lt;chevron&gt;&lt;/chevron&gt;nyami biɛla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-more" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-less" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>&lt;chevron&gt;&lt;/chevron&gt;See more</seg>
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;See less</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>&lt;chevron&gt;&lt;/chevron&gt;nyami pam</seg>
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;nyami biɛla</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:see-more" srclang="en-US">
@@ -667,12 +659,12 @@
 				<seg>&lt;chevron&gt;&lt;/chevron&gt;nyami pam</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:citation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-more" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Citation</seg>
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;See more</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Dini yi shɛli na</seg>
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;nyami pam</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:citation" srclang="en-US">
@@ -683,7 +675,15 @@
 				<seg>Dini yi shɛli na</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite-explanation-bold" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:citation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Citation</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Dini yi shɛli na</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:how-to-cite-explanation-bold" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cite with a URL link or the full name of the work.</seg>
 			</tuv>
@@ -691,7 +691,7 @@
 				<seg>Zaŋmi URL linki bee tuma maa yuli n wuhi dini yi shɛli na</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:how-to-cite-explanation-bold" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite-explanation-bold" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cite with a URL link or the full name of the work.</seg>
 			</tuv>
@@ -715,14 +715,6 @@
 				<seg>Dihima</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:clips-uploaded" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Clips Uploaded</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Kukoya zaŋ n-ti</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:clips-uploaded" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Clips Uploaded</seg>
@@ -731,12 +723,12 @@
 				<seg>Kukoya zaŋ n-ti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-other-comment" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:clips-uploaded" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Comment</seg>
+				<seg>Clips Uploaded</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Pahigu</seg>
+				<seg>Kukoya zaŋ n-ti</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-other-comment" srclang="en-US">
@@ -747,12 +739,12 @@
 				<seg>Pahigu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:contact-us" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-other-comment" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Contact Us</seg>
+				<seg>Comment</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Bɔlimi ti</seg>
+				<seg>Pahigu</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:contact-us" srclang="en-US">
@@ -763,7 +755,15 @@
 				<seg>Bɔlimi ti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:continue" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:contact-us" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contact Us</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Bɔlimi ti</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:continue" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
 			</tuv>
@@ -771,7 +771,7 @@
 				<seg>Tuɣima</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:continue" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:continue" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
 			</tuv>
@@ -795,14 +795,6 @@
 				<seg>Tuɣimi zahimbu maa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribute" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Contribute</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Tohi</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
@@ -811,7 +803,7 @@
 				<seg>Tohi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -820,6 +812,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribute</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Tohi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -843,14 +843,6 @@
 				<seg>Pahimi yɛltɔɣa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Contribute to { $lang }</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Tɔhimi { $lang }</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute to { $lang }</seg>
@@ -859,12 +851,12 @@
 				<seg>Tɔhimi { $lang }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-criteria-page-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-title" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Contribution Criteria</seg>
+				<seg>Contribute to { $lang }</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Pahibu sodolisi</seg>
+				<seg>Tɔhimi { $lang }</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-page-title" srclang="en-US">
@@ -875,12 +867,12 @@
 				<seg>Pahibu sodolisi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:create-profile-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-criteria-page-title" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Create a profile</seg>
+				<seg>Contribution Criteria</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Nammi purofaali</seg>
+				<seg>Pahibu sodolisi</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:create-profile-button" srclang="en-US">
@@ -891,12 +883,12 @@
 				<seg>Nammi purofaali</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-criteria-nav" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:create-profile-button" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Criteria</seg>
+				<seg>Create a profile</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Sodolisi</seg>
+				<seg>Nammi purofaali</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-nav" srclang="en-US">
@@ -907,12 +899,12 @@
 				<seg>Sodolisi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:cs" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-criteria-nav" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Czech</seg>
+				<seg>Criteria</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Czech</seg>
+				<seg>Sodolisi</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:cs" srclang="en-US">
@@ -923,12 +915,12 @@
 				<seg>Czech</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:datasets" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:cs" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Datasets</seg>
+				<seg>Czech</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Yɛligbahira</seg>
+				<seg>Czech</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:datasets" srclang="en-US">
@@ -939,7 +931,15 @@
 				<seg>Yɛligbahira</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:datasets" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Datasets</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Yɛligbahira</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete my recordings</seg>
 			</tuv>
@@ -947,7 +947,7 @@
 				<seg>Nyahimi n yaabu maa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete my recordings</seg>
 			</tuv>
@@ -971,20 +971,20 @@
 				<seg>Bali shɛli dabam</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Different language</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Bali shɛli dabam</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Different language</seg>
 			</tuv>
 			<tuv xml:lang="dag">
 				<seg>Bal' shɛli dabam</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Different language</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Bali shɛli dabam</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-difficult-pronounce" srclang="en-US">
@@ -1019,7 +1019,7 @@
 				<seg>Nyahimi yaabu din na chana</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-rules-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-rules-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Does the sentence meet the guidelines?</seg>
 			</tuv>
@@ -1027,7 +1027,7 @@
 				<seg>Yɛltɔɣili maa doli soya maa?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-rules-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-rules-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Does the sentence meet the guidelines?</seg>
 			</tuv>
@@ -1043,7 +1043,7 @@
 				<seg>Tohimi a kukɔli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-subtitle" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:speak-subtitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Donate your voice</seg>
 			</tuv>
@@ -1051,7 +1051,7 @@
 				<seg>Tohimi a kukɔli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:speak-subtitle" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-subtitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Donate your voice</seg>
 			</tuv>
@@ -1091,7 +1091,7 @@
 				<seg>Vuumi a gbaŋ maa kana kpe bee &lt;uploadButton&gt;ka a dihi n-zaŋ pahi&lt;/uploadButton&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-bulk-upload-instruction-drop" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-instruction-drop" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Drop file here to upload</seg>
 			</tuv>
@@ -1099,7 +1099,7 @@
 				<seg>Zaŋmi gbaŋ m-bahi kpe ka di pahi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-instruction-drop" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-bulk-upload-instruction-drop" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Drop file here to upload</seg>
 			</tuv>
@@ -1139,14 +1139,6 @@
 				<seg>Kpɛhimi a yɛltɔɣili din ka ŋun su li maa kpe</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:add-sentence-error" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Error adding sentence</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Muɣisigu beni yɛltɔɣili pahibu ni</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentence-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Error adding sentence</seg>
@@ -1155,7 +1147,15 @@
 				<seg>Muɣisigu beni yɛltɔɣili pahibu ni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:add-sentence-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Error adding sentence</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Muɣisigu beni yɛltɔɣili pahibu ni</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>ESC</seg>
 			</tuv>
@@ -1163,7 +1163,7 @@
 				<seg>ESC</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>ESC</seg>
 			</tuv>
@@ -1203,7 +1203,7 @@
 				<seg>Yɛltɔɣili din bachinima bi paai pia ni anu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:file-too-large" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:file-too-large" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>File is too large</seg>
 			</tuv>
@@ -1211,7 +1211,7 @@
 				<seg>Gbaŋ maa bara pam</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:file-too-large" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:file-too-large" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>File is too large</seg>
 			</tuv>
@@ -1251,14 +1251,6 @@
 				<seg>Laɣiri</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-continue" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Finish recording</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Naami yaabu</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-continue" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Finish recording</seg>
@@ -1267,12 +1259,12 @@
 				<seg>Naami yaabu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-continue" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Finish recording first?</seg>
+				<seg>Finish recording</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>A naai tuuli yaabu?</seg>
+				<seg>Naami yaabu</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-title" srclang="en-US">
@@ -1283,7 +1275,15 @@
 				<seg>A naai tuuli yaabu?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finish recording first?</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>A naai tuuli yaabu?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Finish Review</seg>
 			</tuv>
@@ -1291,7 +1291,7 @@
 				<seg>Naami labi vihi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Finish Review</seg>
 			</tuv>
@@ -1363,14 +1363,6 @@
 				<seg>Pɔi ka tabiibi baŋsim tum tuma n-ti sokam, yɛligbahira din din sɔŋdi tabiibi baŋdiba tu ni di yila yaɣ' bɔbigu niriba sani na. Shɛhira, di yi niŋ ka ti bi zaŋ bɔbi shɛli polo (nayahili, tomo nanunli) nima yɛltɔɣa m-pahi, dindina lala baŋsim maa ku tum tuma viɛnyɛla n-ti lala bɔbili maa nima. &lt;learnMore&gt;Bɔhimmi din che ka mɛtadeeta kpa talahi m-pahi.&lt;/learnMore&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:general" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>General</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Din kam pahi</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:general" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>General</seg>
@@ -1379,7 +1371,15 @@
 				<seg>Din kam pahi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-multiple-variants" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:general" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>General</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Din kam pahi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-variant-select-multiple-variants" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>General language / multiple variants</seg>
 			</tuv>
@@ -1387,7 +1387,7 @@
 				<seg>Balli zaa/bali bɔbigu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-variant-select-multiple-variants" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-multiple-variants" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>General language / multiple variants</seg>
 			</tuv>
@@ -1427,14 +1427,6 @@
 				<seg>Girama/ bachi ŋmɛbu muɣisigu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-again-instruction" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Great!&lt;recordIcon&gt;&lt;/recordIcon&gt; Record your next clip</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Mbo!&lt;recordIcon&gt;&lt;/recordIcon&gt;Yaami a kukoli din paya</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Great!&lt;recordIcon&gt;&lt;/recordIcon&gt; Record your next clip</seg>
@@ -1443,12 +1435,12 @@
 				<seg>Mbo!&lt;recordIcon&gt;&lt;/recordIcon&gt;Yaami a kukoli din paya</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-again-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-again-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Great work!&lt;playIcon&gt;&lt;/playIcon&gt; Listen again when you're ready</seg>
+				<seg>Great!&lt;recordIcon&gt;&lt;/recordIcon&gt; Record your next clip</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Mbo!&lt;playIcon&gt;&lt;/playIcon&gt;̀ A yi niŋ shili a ni tooi lahi labi n-wum</seg>
+				<seg>Mbo!&lt;recordIcon&gt;&lt;/recordIcon&gt;Yaami a kukoli din paya</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-again-instruction" srclang="en-US">
@@ -1459,7 +1451,15 @@
 				<seg>Mbo!&lt;playIcon&gt;&lt;/playIcon&gt;̀ A yi niŋ shili a ni tooi lahi labi n-wum</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:guidelines" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-again-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great work!&lt;playIcon&gt;&lt;/playIcon&gt; Listen again when you're ready</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Mbo!&lt;playIcon&gt;&lt;/playIcon&gt;̀ A yi niŋ shili a ni tooi lahi labi n-wum</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:guidelines" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Guidelines</seg>
 			</tuv>
@@ -1467,7 +1467,7 @@
 				<seg>Sodolisi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:guidelines" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:guidelines" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Guidelines</seg>
 			</tuv>
@@ -1491,7 +1491,7 @@
 				<seg>Alaafee bɔmma</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-first-banner" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-first-banner" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help create Common Voice’s first target segment in { $locale }</seg>
 			</tuv>
@@ -1499,7 +1499,7 @@
 				<seg>Sɔŋmi n-nam Common Voice tuuli yɛltɔɣili { $locale } ni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-first-banner" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-first-banner" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help create Common Voice’s first target segment in { $locale }</seg>
 			</tuv>
@@ -1539,14 +1539,6 @@
 				<seg>O bɔɣu daa wuɣimi.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:history_law_government" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>History, Law and Government</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Yɛlikura, fukumsi zalisi mini gɔmnanti</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:history_law_government" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>History, Law and Government</seg>
@@ -1555,7 +1547,15 @@
 				<seg>Yɛlikura, fukumsi zalisi mini gɔmnanti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:how-to-cite" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:history_law_government" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>History, Law and Government</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Yɛlikura, fukumsi zalisi mini gɔmnanti</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How do I cite?</seg>
 			</tuv>
@@ -1563,7 +1563,7 @@
 				<seg>Wula ka n yɛn ti di lahibali?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:how-to-cite" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How do I cite?</seg>
 			</tuv>
@@ -1587,14 +1587,6 @@
 				<seg>Wula ka a yɛn buɣisi a dotali bee paɣitali?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:terms-agree" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>I agree</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>N saɣiya</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:terms-agree" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>I agree</seg>
@@ -1603,12 +1595,12 @@
 				<seg>N saɣiya</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-submit-confirm" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:terms-agree" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>I confirm that these sentence are &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; and I have permission to upload them.</seg>
+				<seg>I agree</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>N ti saɣiya ni yɛltɔɣa ŋɔ pala &lt;wikipediaLink&gt; so dini &lt;wikipediaLink&gt; ka m mali soli ni n tooi zaŋ ŋa m-pahi.</seg>
+				<seg>N saɣiya</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-bulk-submit-confirm" srclang="en-US">
@@ -1619,7 +1611,15 @@
 				<seg>N ti saɣiya ni yɛltɔɣa ŋɔ pala &lt;wikipediaLink&gt; so dini &lt;wikipediaLink&gt; ka m mali soli ni n tooi zaŋ ŋa m-pahi.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-write-submit-confirm" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-submit-confirm" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I confirm that these sentence are &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; and I have permission to upload them.</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>N ti saɣiya ni yɛltɔɣa ŋɔ pala &lt;wikipediaLink&gt; so dini &lt;wikipediaLink&gt; ka m mali soli ni n tooi zaŋ ŋa m-pahi.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-write-submit-confirm" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>I confirm that this sentence is &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; and I have permission to upload it.</seg>
 			</tuv>
@@ -1627,7 +1627,7 @@
 				<seg>N dihi tabili ni yɛltɔɣili ŋɔ &lt;wikipediaLink&gt; nyɛla din ka ŋun su li &lt;/wikipediaLink&gt; ka mali soli ni n zaŋ li pahi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-write-submit-confirm" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-write-submit-confirm" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>I confirm that this sentence is &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; and I have permission to upload it.</seg>
 			</tuv>
@@ -1667,14 +1667,6 @@
 				<seg>M bi saɣi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite-explanation" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>If it’s your own words, just say &lt;italicizedText&gt;“Self Citation”&lt;/italicizedText&gt;. We need to know where you found this content so that we can check it is in the public domain and no copyright restrictions apply. For more information about citation see our &lt;guidelinesLink&gt;Guidelines page&lt;/guidelinesLink&gt;.</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Di yi nyɛ a maŋmaŋ bachinima, nyin kuli yɛlima &lt;italicizedText&gt; "M maŋmaŋa tuma" &lt;/italicizedText&gt; Di simdi ni ti baŋ a ni nya lahibali maa shɛli din ni sɔŋ ka ti vihi li nya a salo dini n-nyɛ li ka di ka sulinsi gaɣibu. A yi bɔri ni a nya lahibali zaŋ kpa binyɛra ni yi shɛli na polo nyin nyami ti  &lt;guidelinesLink&gt; Sodolisi intɛnɛɛti ni gbambiɛlinli &lt;/guidelinesLink&gt;.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:how-to-cite-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If it’s your own words, just say &lt;italicizedText&gt;“Self Citation”&lt;/italicizedText&gt;. We need to know where you found this content so that we can check it is in the public domain and no copyright restrictions apply. For more information about citation see our &lt;guidelinesLink&gt;Guidelines page&lt;/guidelinesLink&gt;.</seg>
@@ -1683,7 +1675,23 @@
 				<seg>Di yi nyɛ a maŋmaŋ bachinima, nyin kuli yɛlima &lt;italicizedText&gt; "M maŋmaŋa tuma" &lt;/italicizedText&gt; Di simdi ni ti baŋ a ni nya lahibali maa shɛli din ni sɔŋ ka ti vihi li nya a salo dini n-nyɛ li ka di ka sulinsi gaɣibu. A yi bɔri ni a nya lahibali zaŋ kpa binyɛra ni yi shɛli na polo nyin nyami ti  &lt;guidelinesLink&gt; Sodolisi intɛnɛɛti ni gbambiɛlinli &lt;/guidelinesLink&gt;.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If it’s your own words, just say &lt;italicizedText&gt;“Self Citation”&lt;/italicizedText&gt;. We need to know where you found this content so that we can check it is in the public domain and no copyright restrictions apply. For more information about citation see our &lt;guidelinesLink&gt;Guidelines page&lt;/guidelinesLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Di yi nyɛ a maŋmaŋ bachinima, nyin kuli yɛlima &lt;italicizedText&gt; "M maŋmaŋa tuma" &lt;/italicizedText&gt; Di simdi ni ti baŋ a ni nya lahibali maa shɛli din ni sɔŋ ka ti vihi li nya a salo dini n-nyɛ li ka di ka sulinsi gaɣibu. A yi bɔri ni a nya lahibali zaŋ kpa binyɛra ni yi shɛli na polo nyin nyami ti  &lt;guidelinesLink&gt; Sodolisi intɛnɛɛti ni gbambiɛlinli &lt;/guidelinesLink&gt;.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Di yi niŋ ka kukoli maa ŋmaai, bee ka di ŋmaara, nin zaɣisim li, gbaai yihi la di zuɣu yi bi taɣi a ka che lahibali maa wumbu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
 			</tuv>
@@ -1700,14 +1708,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Di yi niŋ ka kukoli maa ŋmaai, bee ka di ŋmaara, nin zaɣisim li, gbaai yihi la di zuɣu yi bi taɣi a ka che lahibali maa wumbu.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
 			</tuv>
@@ -1747,7 +1747,7 @@
 				<seg>A yi mali lahibali zaŋ kpa gbaŋ ŋɔ polo ka bɔri ni a zaŋ m-pahi ti, ka di ka ti gbaŋ maa ni, nyin dimi suɣulo ka sabi ti &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-5-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-5-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the sentence does not meet the above criteria, click the &amp;quot;Reject&amp;quot; button on the left. If you are unsure about the sentence, you may also skip it and move on to the next one.</seg>
 			</tuv>
@@ -1755,7 +1755,7 @@
 				<seg>Yɛltɔɣili maa yi bi doli so' shɛŋa ŋan be zuɣusaa ŋɔ, nyin dihimi &amp;quot;Zaɣisima&amp;quot; garili din be nuzaa polo maa. A yi bi dihi n-tabili ni yɛltɔɣili maa, a ni tooi kpahi yaɣi li n-chaŋ din paya.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-5-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-5-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the sentence does not meet the above criteria, click the &amp;quot;Reject&amp;quot; button on the left. If you are unsure about the sentence, you may also skip it and move on to the next one.</seg>
 			</tuv>
@@ -1779,7 +1779,7 @@
 				<seg>Yɛltɔɣili maa yi saɣi ti soya maa, nyin dihimi &amp;quot maa; Saɣi n-ti &amp;quot; garili din be nudirigu polo maa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-just-unsure-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.</seg>
 			</tuv>
@@ -1787,7 +1787,7 @@
 				<seg>A yi nya binshɛli ka ti ni ti so' shɛŋa ŋ bi tabisi li, nyin dimi suɣulo ka zaŋ a maŋmaŋ tɛha n-tum din simdi. A mi kuli ku tooi ti a ni nya li shɛm, nyin dihimi kpahiyaɣi garili maa n-chaŋ kukoli din paya zuɣu.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-just-unsure-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.</seg>
 			</tuv>
@@ -1811,7 +1811,7 @@
 				<seg>Yɛltɔɣa yi lahi kani ni a labi lihi, nyin dimi suɣulo ka sɔŋ ti ka ti laɣisi yɛltɔɣa pam m-pahi.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-7" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-7" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Include appropriate citation</seg>
 			</tuv>
@@ -1819,7 +1819,7 @@
 				<seg>Sabimi dini yi luɣ' shɛŋa na dede m-pahi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-7" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-7" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Include appropriate citation</seg>
 			</tuv>
@@ -1875,14 +1875,6 @@
 				<seg>Di sabimi ni bal' shɛli din pa n ni labiri lihiri bal' shɛli maa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>It is written in a language different than what I’m speaking.</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Di sabila bali shɛli din be di ko ka che n-ni yɛri bali shɛli</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>It is written in a language different than what I’m speaking.</seg>
@@ -1891,7 +1883,15 @@
 				<seg>Di sabila bali shɛli din be di ko ka che n-ni yɛri bali shɛli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>It is written in a language different than what I’m speaking.</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Di sabila bali shɛli din be di ko ka che n-ni yɛri bali shɛli</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Just Unsure?</seg>
 			</tuv>
@@ -1899,7 +1899,7 @@
 				<seg>A nini dii bi tiɣi?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Just Unsure?</seg>
 			</tuv>
@@ -1939,14 +1939,6 @@
 				<seg>Gbubi yaabu maa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:keep-track-profile" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Keep track of your progress with a profile</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Yoomi purofaali ka di sɔŋ a ka a mi a ni chani shɛm</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:keep-track-profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keep track of your progress with a profile</seg>
@@ -1955,7 +1947,15 @@
 				<seg>Yoomi purofaali ka di sɔŋ a ka a mi a ni chani shɛm</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:language_fundamentals" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:keep-track-profile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep track of your progress with a profile</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Yoomi purofaali ka di sɔŋ a ka a mi a ni chani shɛm</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:language_fundamentals" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language Fundamentals (e.g. Digits, Letters, Money)</seg>
 			</tuv>
@@ -1963,7 +1963,7 @@
 				<seg>Balli yɛl' kpɛma (nambanima, bachikɔba, liɣiri)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:language_fundamentals" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:language_fundamentals" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language Fundamentals (e.g. Digits, Letters, Money)</seg>
 			</tuv>
@@ -1995,7 +1995,7 @@
 				<seg>Yɛltɔɣa din galisi zaŋ ti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn More</seg>
 			</tuv>
@@ -2003,7 +2003,7 @@
 				<seg>A ni tooi nya lahibali kpe</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn More</seg>
 			</tuv>
@@ -2075,7 +2075,7 @@
 				<seg>Kpɛmi kpe m-pili</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log In / Sign Up</seg>
 			</tuv>
@@ -2083,7 +2083,7 @@
 				<seg>Kpɛma/Yooma</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log In / Sign Up</seg>
 			</tuv>
@@ -2123,14 +2123,6 @@
 				<seg>&lt;mark&gt;Data&lt;/mark&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:maximum-file-size" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Maximum file size: 25 MB</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Gbaŋ barilim tariga 25MB</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:maximum-file-size" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Maximum file size: 25 MB</seg>
@@ -2139,12 +2131,12 @@
 				<seg>Gbaŋ barilim tariga 25MB</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:media_entertainment" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:maximum-file-size" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Media and Entertainment</seg>
+				<seg>Maximum file size: 25 MB</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Pɔhim zuɣu mini diɛma ni yiɣijam</seg>
+				<seg>Gbaŋ barilim tariga 25MB</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:media_entertainment" srclang="en-US">
@@ -2155,7 +2147,15 @@
 				<seg>Pɔhim zuɣu mini diɛma ni yiɣijam</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:minimum-sentences" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:media_entertainment" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Media and Entertainment</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Pɔhim zuɣu mini diɛma ni yiɣijam</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:minimum-sentences" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Minimum sentences in file: 1000</seg>
 			</tuv>
@@ -2163,7 +2163,7 @@
 				<seg>Yɛltɔɣa yi kuli bi galisi gbaŋ ni di tu ni di paai 1000</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:minimum-sentences" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:minimum-sentences" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Minimum sentences in file: 1000</seg>
 			</tuv>
@@ -2203,14 +2203,6 @@
 				<seg>gabiri karinda</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Missing an &lt;strong&gt;'s'&lt;/strong&gt; at the end of a word.</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>O yi kpahi yaɣi bachinima &lt;strong&gt;&lt;/strong&gt; kukoli maa bahigu.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Missing an &lt;strong&gt;'s'&lt;/strong&gt; at the end of a word.</seg>
@@ -2219,7 +2211,15 @@
 				<seg>O yi kpahi yaɣi bachinima &lt;strong&gt;&lt;/strong&gt; kukoli maa bahigu.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Missing an &lt;strong&gt;'s'&lt;/strong&gt; at the end of a word.</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>O yi kpahi yaɣi bachinima &lt;strong&gt;&lt;/strong&gt; kukoli maa bahigu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Missing &lt;strong&gt;'A'&lt;/strong&gt; or &lt;strong&gt;'The'&lt;/strong&gt; at the beginning of the recording.</seg>
 			</tuv>
@@ -2227,7 +2227,7 @@
 				<seg>O yi kpahi yaɣi bachinima &lt;strong&gt; &lt;/strong&gt; &lt;strong&gt;&lt;/strong&gt; kukoli maa piligu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Missing &lt;strong&gt;'A'&lt;/strong&gt; or &lt;strong&gt;'The'&lt;/strong&gt; at the beginning of the recording.</seg>
 			</tuv>
@@ -2251,14 +2251,6 @@
 				<seg>N karindi ka bɛ naari bahigu bachi maa ka di nyɛla o ŋmaarila yaabu maa yomyom.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-4-explanation" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>[More has been recorded than the required text]</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>[Kukoli din yaai maa gari sabbu din beni maa]</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-4-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[More has been recorded than the required text]</seg>
@@ -2267,7 +2259,15 @@
 				<seg>[Kukoli din yaai maa gari sabbu din beni maa]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-reader-effects-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-4-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[More has been recorded than the required text]</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>[Kukoli din yaai maa gari sabbu din beni maa]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.</seg>
 			</tuv>
@@ -2275,7 +2275,7 @@
 				<seg>Kukoya din yaai maa pam nyɛla niriba n-kuli yɛri bɛ ni yɛri shɛm. A ni tooi saɣi n-ti din ti chirigi n-yi di ko ka che o kukoli maa ka nyɛ tahigu, ŋumbu, bee ka di kuli yɛli ni kuko' shɛli din be di ko. Dim suɣulo, zaɣisimi karimbu din ŋmani yila bee kukoli shɛli bɛ ni zaŋ kɔmpiita n-niɣim.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-reader-effects-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.</seg>
 			</tuv>
@@ -2355,7 +2355,7 @@
 				<seg>Lahibali mini yɛli shɛŋa din na niŋda</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -2363,7 +2363,7 @@
 				<seg>aayi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:vote-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -2379,14 +2379,6 @@
 				<seg>aayi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-7-explanation" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>[No ‘a’ in the original text]</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>['maa' ka sabbu maa ni]</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-7-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[No ‘a’ in the original text]</seg>
@@ -2395,7 +2387,15 @@
 				<seg>['maa' ka sabbu maa ni]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-7-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[No ‘a’ in the original text]</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>['maa' ka sabbu maa ni]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;noCopyright&gt;No copyright&lt;/noCopyright&gt; restrictions (&lt;cc0&gt;cc-0&lt;/cc0&gt;)</seg>
 			</tuv>
@@ -2403,7 +2403,7 @@
 				<seg>&lt;noCopyright&gt; Di ka sulinsi &lt;/noCopyright&gt; Gaɣibu(&lt;cc0&gt;cc-0&lt;/cc0&gt;)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;noCopyright&gt;No copyright&lt;/noCopyright&gt; restrictions (&lt;cc0&gt;cc-0&lt;/cc0&gt;)</seg>
 			</tuv>
@@ -2443,14 +2443,6 @@
 				<seg>Maakurofooni kani.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-5" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>No numbers and special characters</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Nambanima mini bachikɔba din gahim kani</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-5" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No numbers and special characters</seg>
@@ -2459,12 +2451,12 @@
 				<seg>Nambanima mini bachikɔba din gahim kani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-no-sentences" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-5" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>No sentences to review. &lt;addLink&gt;Add more sentences now!&lt;/addLink&gt;</seg>
+				<seg>No numbers and special characters</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Yɛltɔɣa kani ni a labi lihi. &lt;addLink&gt;Pahimi yɛltɔɣa pumpɔŋɔ!&lt;/addLink&gt;</seg>
+				<seg>Nambanima mini bachikɔba din gahim kani</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-no-sentences" srclang="en-US">
@@ -2475,12 +2467,12 @@
 				<seg>Yɛltɔɣa kani ni a labi lihi. &lt;addLink&gt;Pahimi yɛltɔɣa pumpɔŋɔ!&lt;/addLink&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:continue-speaking-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-no-sentences" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>No thanks, continue speaking</seg>
+				<seg>No sentences to review. &lt;addLink&gt;Add more sentences now!&lt;/addLink&gt;</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Aayi m paɣiya, tuɣimi yɛligu</seg>
+				<seg>Yɛltɔɣa kani ni a labi lihi. &lt;addLink&gt;Pahimi yɛltɔɣa pumpɔŋɔ!&lt;/addLink&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:continue-speaking-button" srclang="en-US">
@@ -2491,7 +2483,15 @@
 				<seg>Aayi m paɣiya, tuɣimi yɛligu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:continue-speaking-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No thanks, continue speaking</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Aayi m paɣiya, tuɣimi yɛligu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-offensive-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Offensive language</seg>
 			</tuv>
@@ -2499,7 +2499,7 @@
 				<seg>Yɛltɔɣ' tula</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-offensive-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Offensive language</seg>
 			</tuv>
@@ -2523,14 +2523,6 @@
 				<seg>Yɛltɔɣ' tula</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-platform-not-supported-desktop" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>On desktop devices you can contribute by downloading…</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>A kɔmpiita zuɣu a ni tooi pahi ka di nyɛla a yɛn vooi li mi...</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported-desktop" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On desktop devices you can contribute by downloading…</seg>
@@ -2539,7 +2531,15 @@
 				<seg>A kɔmpiita zuɣu a ni tooi pahi ka di nyɛla a yɛn vooi li mi...</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-1-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-platform-not-supported-desktop" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On desktop devices you can contribute by downloading…</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>A kɔmpiita zuɣu a ni tooi pahi ka di nyɛla a yɛn vooi li mi...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-1-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On his head he wore a beret.</seg>
 			</tuv>
@@ -2547,7 +2547,7 @@
 				<seg>O pilila zupiligu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-1-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-1-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On his head he wore a beret.</seg>
 			</tuv>
@@ -2571,7 +2571,7 @@
 				<seg>iOS zuɣu dim suɣulo ka zaŋ Safari ka di sɔŋ a ka pili yaabu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description-extended" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.</seg>
 			</tuv>
@@ -2579,7 +2579,7 @@
 				<seg>Din pahi, a yi tɛhi ni ŋun karindi maa na ʒi n-nya bachi maa, ka di zuɣu che ka o gabiri booni li, dimsuɣulo ka zaɣisi li. A mi nini yi bi tiɣi, nyin dihimi kpahiyaɣi garili maa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description-extended" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.</seg>
 			</tuv>
@@ -2619,14 +2619,6 @@
 				<seg>Kpee</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-example-2-explanation" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>[Part of the text can’t be heard]</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>[yɛltɔɣa maa yaɣ' shɛli ku tooi wum]</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-2-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[Part of the text can’t be heard]</seg>
@@ -2635,12 +2627,12 @@
 				<seg>[yɛltɔɣa maa yaɣ' shɛli ku tooi wum]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-last-time-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-example-2-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Last one!</seg>
+				<seg>[Part of the text can’t be heard]</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;din bahindi nyaaŋa.</seg>
+				<seg>[yɛltɔɣa maa yaɣ' shɛli ku tooi wum]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-last-time-instruction" srclang="en-US">
@@ -2651,12 +2643,12 @@
 				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;din bahindi nyaaŋa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-last-time-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Play/Stop</seg>
+				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Last one!</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>ŋmema/zanima</seg>
+				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;din bahindi nyaaŋa.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-play-toggle-label" srclang="en-US">
@@ -2667,7 +2659,15 @@
 				<seg>ŋmema/zanima</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:what-needs-to-be-in-file-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Play/Stop</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>ŋmema/zanima</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:what-needs-to-be-in-file-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Please check our &lt;templateFileLink&gt;template file&lt;/templateFileLink&gt;. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.</seg>
 			</tuv>
@@ -2675,7 +2675,7 @@
 				<seg>Dimi suɣulo ka yuli ti &lt;templateFileLink&gt; sodologu gbaŋ ŋɔ &lt;/templateFileLink&gt;. A yɛltɔɣa maa bi simdi ni di nyɛ so dini (CC0 bee ka di nyɛ ŋun yɛn zaŋ li m-pahi maa ni mali soli ni o tooi zaŋ li m-pahi) di tu ka di ne, ka doli yɛltɔɣa biɛhigu ka di karimbu be asama. Yɛltɔɣa din zaŋ pahi ni tooi di saha kamani sɛkɛnsi 10-15 n-yooi, amaa miri ka a pahi nambanima, bachinamdimaŋa ni bachikɔba din gahim.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:what-needs-to-be-in-file-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:what-needs-to-be-in-file-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Please check our &lt;templateFileLink&gt;template file&lt;/templateFileLink&gt;. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.</seg>
 			</tuv>
@@ -2699,7 +2699,7 @@
 				<seg>Pahimi suɣulo sabimi polo ŋɔ ni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-select-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-select-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Please select a language to review sentences.</seg>
 			</tuv>
@@ -2707,7 +2707,7 @@
 				<seg>Dim suɣulo ka pii balli n-labi lihi yɛltɔɣa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-select-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-select-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Please select a language to review sentences.</seg>
 			</tuv>
@@ -2731,7 +2731,7 @@
 				<seg>r</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[‘Raised’ in English is always pronounced as one syllable, not two]</seg>
 			</tuv>
@@ -2739,7 +2739,7 @@
 				<seg>[Silimiinsili bɛ boonila 'Raised' ka di nyɛ bachijili yini, pa diba ayi]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[‘Raised’ in English is always pronounced as one syllable, not two]</seg>
 			</tuv>
@@ -2795,7 +2795,7 @@
 				<seg>A niŋ nia ni a niŋ { $count } more?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-last-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-last-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
 			</tuv>
@@ -2803,7 +2803,7 @@
 				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; din bahindi nyaaŋa!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-last-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-last-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
 			</tuv>
@@ -2875,7 +2875,7 @@
 				<seg>Wuhimi yɛltɔɣili maa ni yi shɛli na</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-reject" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-reject" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reject</seg>
 			</tuv>
@@ -2883,7 +2883,7 @@
 				<seg>Zaɣisima</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-reject" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-reject" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reject</seg>
 			</tuv>
@@ -2907,7 +2907,7 @@
 				<seg>Timi lahibali</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-success" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-success" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Report was passed successfully</seg>
 			</tuv>
@@ -2915,7 +2915,7 @@
 				<seg>Lahibali maa paasiya viɛnyɛla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-success" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-success" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Report was passed successfully</seg>
 			</tuv>
@@ -2987,38 +2987,6 @@
 				<seg>Labima</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:review" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Labi vihi</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:review" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Labi vihi</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Labi lihi</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Labi lihi</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
@@ -3035,7 +3003,39 @@
 				<seg>Labi lihi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-review-failure" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:review" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Labi vihi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:review" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Labi vihi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Labi lihi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Labi lihi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-review-failure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review could not be saved. Please try again later.</seg>
 			</tuv>
@@ -3043,7 +3043,7 @@
 				<seg>Labi lihi maa bi tooi seevi. Dim suɣulo ka labi buɣisi saha shɛli.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-review-failure" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-review-failure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review could not be saved. Please try again later.</seg>
 			</tuv>
@@ -3099,14 +3099,6 @@
 				<seg>A ni labi yuli yɛltɔɣ' shɛŋa bi zaŋ ti, a dihi tabili?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-tooltip" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review &amp; re-record clips here as you go</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Labi lihi ka labi yaai kukoya kpe a yi chana</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-tooltip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review &amp; re-record clips here as you go</seg>
@@ -3115,7 +3107,15 @@
 				<seg>Labi lihi ka labi yaai kukoya kpe a yi chana</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; re-record clips here as you go</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Labi lihi ka labi yaai kukoya kpe a yi chana</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review &amp; re-record clips if needed</seg>
 			</tuv>
@@ -3123,7 +3123,7 @@
 				<seg>Labi lihi ka labi yaai kukoya di yi tu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review &amp; re-record clips if needed</seg>
 			</tuv>
@@ -3195,14 +3195,6 @@
 				<seg>S</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-default-option" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Select an option</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Piimi shɛli</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:first-cta-gender-select-default-option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select an option</seg>
@@ -3211,7 +3203,15 @@
 				<seg>Piimi shɛli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-variant-select-placeholder" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-default-option" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select an option</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Piimi shɛli</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-placeholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select a variant (optional)</seg>
 			</tuv>
@@ -3219,7 +3219,7 @@
 				<seg>Piimi balli (a yi bɔra)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-placeholder" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-variant-select-placeholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select a variant (optional)</seg>
 			</tuv>
@@ -3259,14 +3259,6 @@
 				<seg>Piimi gban' shɛli a ni bɔri ni a zaŋ m-pahi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-domain-select-placeholder" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Select up to three domains (optional)</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Piimi yaɣa diba ata (a yi bɔra)</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-domain-select-placeholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select up to three domains (optional)</seg>
@@ -3275,7 +3267,15 @@
 				<seg>Piimi yaɣa diba ata (a yi bɔra)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-domain-select-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select up to three domains (optional)</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Piimi yaɣa diba ata (a yi bɔra)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence</seg>
 			</tuv>
@@ -3283,7 +3283,7 @@
 				<seg>Dini yi shɛli na</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence</seg>
 			</tuv>
@@ -3363,7 +3363,7 @@
 				<seg>Yɛltɔɣ' balibu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:service_retail" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:service_retail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Service and Retail</seg>
 			</tuv>
@@ -3371,7 +3371,7 @@
 				<seg>Kɔhimma ni damma</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:service_retail" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:service_retail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Service and Retail</seg>
 			</tuv>
@@ -3395,14 +3395,6 @@
 				<seg>Tarimi Common Voice</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:share-clip" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Share your clip</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Tarimi a kukoli</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:share-clip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share your clip</seg>
@@ -3411,12 +3403,12 @@
 				<seg>Tarimi a kukoli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcuts" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:share-clip" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Shortcuts</seg>
+				<seg>Share your clip</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Sojihi</seg>
+				<seg>Tarimi a kukoli</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcuts" srclang="en-US">
@@ -3427,12 +3419,12 @@
 				<seg>Sojihi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-2-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcuts" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>[Should be ‘dinosaurs’]</seg>
+				<seg>Shortcuts</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>[Di tumi ni di nyɛ "Daanasɔɔ kara"</seg>
+				<seg>Sojihi</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-2-explanation" srclang="en-US">
@@ -3443,12 +3435,12 @@
 				<seg>[Di tumi ni di nyɛ "Daanasɔɔ kara"</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-6-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-2-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>[Should be “We are”]</seg>
+				<seg>[Should be ‘dinosaurs’]</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>[Di tumi ni di nyɛ "Ti yɛn"]</seg>
+				<seg>[Di tumi ni di nyɛ "Daanasɔɔ kara"</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-6-explanation" srclang="en-US">
@@ -3459,7 +3451,15 @@
 				<seg>[Di tumi ni di nyɛ "Ti yɛn"]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-form-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-6-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[Should be “We are”]</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>[Di tumi ni di nyɛ "Ti yɛn"]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-form-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign up for { $lang } updates:</seg>
 			</tuv>
@@ -3467,7 +3467,7 @@
 				<seg>Sabimi a yuli zaŋ chaŋ { $lang } lahabaya teebu polo:</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-form-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-form-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign up for { $lang } updates:</seg>
 			</tuv>
@@ -3507,7 +3507,7 @@
 				<seg>Yɛltɔɣ' gaŋa zaŋ ti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -3531,7 +3531,7 @@
 				<seg>Kpahiyaɣi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -3555,7 +3555,7 @@
 				<seg>Di ni yi shɛli: { $sentenceSource }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -3563,7 +3563,7 @@
 				<seg>Yɛlima</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -3619,14 +3619,6 @@
 				<seg>&lt;strong&gt;[ŋarita]&lt;/strong&gt; daasɔɔ kara ban daa be &lt;strong&gt;[ŋarita]&lt;/strong&gt; -riyasiki saha.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-1-fixed-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>&lt;strong&gt;[Sneeze]&lt;/strong&gt; The giant dinosaurs of the &lt;strong&gt;[cough]&lt;/strong&gt; Triassic.</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>&lt;strong&gt;[tihim]&lt;/strong&gt; Daanasɔɔ kara  &lt;strong&gt;[kɔhim]&lt;/strong&gt; ban daa be Tiriyasiki saha.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-example-1-fixed-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;strong&gt;[Sneeze]&lt;/strong&gt; The giant dinosaurs of the &lt;strong&gt;[cough]&lt;/strong&gt; Triassic.</seg>
@@ -3635,12 +3627,12 @@
 				<seg>&lt;strong&gt;[tihim]&lt;/strong&gt; Daanasɔɔ kara  &lt;strong&gt;[kɔhim]&lt;/strong&gt; ban daa be Tiriyasiki saha.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-1-fixed-title" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Submit</seg>
+				<seg>&lt;strong&gt;[Sneeze]&lt;/strong&gt; The giant dinosaurs of the &lt;strong&gt;[cough]&lt;/strong&gt; Triassic.</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Zaŋ tahi</seg>
+				<seg>&lt;strong&gt;[tihim]&lt;/strong&gt; Daanasɔɔ kara  &lt;strong&gt;[kɔhim]&lt;/strong&gt; ban daa be Tiriyasiki saha.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-submit" srclang="en-US">
@@ -3652,6 +3644,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Zaŋ tahi</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -3683,6 +3683,14 @@
 				<seg>Zaŋmi lahibali n-ti</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Zaŋmi kukoya n-ti</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
@@ -3700,14 +3708,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-submit-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit clips</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Zaŋmi kukoya n-ti</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
@@ -3747,7 +3747,7 @@
 				<seg>Nasara dibo dalinli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-usage" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-usage" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Swipe right to approve the sentence. Swipe left to reject it. Swipe up to skip it. &lt;strong&gt;Do not forget to submit your review!&lt;/strong&gt;</seg>
 			</tuv>
@@ -3755,7 +3755,7 @@
 				<seg>Parisi kpa nudirigu polo n-saɣi ti yɛltɔɣili maa. Parisi labi nuzaa polo n-zaɣisi li. Parisi kpa zuɣusaa polo n-kpahi yaɣi li. &lt;strong&gt; Miri ka a tam a labi lihi maa labisi ti!&lt;/strong&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-usage" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-usage" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Swipe right to approve the sentence. Swipe left to reject it. Swipe up to skip it. &lt;strong&gt;Do not forget to submit your review!&lt;/strong&gt;</seg>
 			</tuv>
@@ -3779,14 +3779,6 @@
 				<seg>M mɔri bubɔbigu ni o karim bachi,</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Tap</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Shihima</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tap</seg>
@@ -3795,7 +3787,15 @@
 				<seg>Shihima</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:technology_robotics" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tap</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Shihima</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:technology_robotics" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Technology and Robotics</seg>
 			</tuv>
@@ -3803,7 +3803,7 @@
 				<seg>Tabiibi baŋsim mini Rɔbɔɔtinima baŋsim</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:technology_robotics" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:technology_robotics" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Technology and Robotics</seg>
 			</tuv>
@@ -3827,7 +3827,7 @@
 				<seg>Ti paɣiya a ni zaŋ pahibu din galisi n-ti maa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:second-cta-header-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:second-cta-header-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for contributing your voice!</seg>
 			</tuv>
@@ -3835,7 +3835,7 @@
 				<seg>Ti paɣiya a ni zaŋ a kukoli pahi ŋɔ!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:second-cta-header-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:second-cta-header-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for contributing your voice!</seg>
 			</tuv>
@@ -3875,7 +3875,7 @@
 				<seg>Ti paɣiya a ni yaagi a kukoli maa! &lt;lineBreak&gt;&lt;/lineBreak&gt;Pumpɔŋɔ labi lihi ka zaŋ a kukoya maa n-ti gbunni ŋɔ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for your interest in contributing to { $lang }. We work hard to get every language ready for launch and keep
 the teams updated via email. If you want to contribute, please provide your email below.</seg>
@@ -3884,7 +3884,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Ti paɣiya q suhu ni yu ni a tɔhira sabira { $lang }. Ti kuli kpaŋdila ti maŋa ni che ka yi balli (zuliya yɛltɔɣa) ŋɔ kpe daa  ka kuli ni labiri teeri yi laɣingu din kɔɣiri ka bihira email soli zuɣu. A yi bɔri ni a tɔhi sabi, nyin pahimi suɣulo sabi a email yuli sɔŋ gbunni ŋɔ.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for your interest in contributing to { $lang }. We work hard to get every language ready for launch and keep
 the teams updated via email. If you want to contribute, please provide your email below.</seg>
@@ -3925,14 +3925,6 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Shia maa yiɣi n-gari.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-offensive-speech-detail" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>The clip has disrespectful or offensive language.</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Di malila jilimankai bee yɛltɔɣ' tula</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-speech-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The clip has disrespectful or offensive language.</seg>
@@ -3941,12 +3933,12 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Di malila jilimankai bee yɛltɔɣ' tula</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-2-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-offensive-speech-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>The giant dinosaur of the Triassic.</seg>
+				<seg>The clip has disrespectful or offensive language.</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Daanasɔɔ karili ŋun daa be Tiriyasiki saha.</seg>
+				<seg>Di malila jilimankai bee yɛltɔɣ' tula</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-2-title" srclang="en-US">
@@ -3957,7 +3949,15 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Daanasɔɔ karili ŋun daa be Tiriyasiki saha.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-3-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-2-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaur of the Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Daanasɔɔ karili ŋun daa be Tiriyasiki saha.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-3-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dinosaurs of the Triassi-.</seg>
 			</tuv>
@@ -3965,7 +3965,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Daanasɔɔ kara ban daa be Tiriyasiki sa-.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-3-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-3-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dinosaurs of the Triassi-.</seg>
 			</tuv>
@@ -4021,7 +4021,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Daanasɔɔ kara ban daa be Tiriyasiki saha. Iin.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-2-fixed-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-example-2-fixed-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dino &lt;strong&gt;[cough]&lt;/strong&gt; the Triassic.</seg>
 			</tuv>
@@ -4029,7 +4029,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Diino karili &lt;strong&gt;[kɔhim]&lt;/strong&gt; Tiriyasiki maa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-example-2-fixed-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-2-fixed-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dino &lt;strong&gt;[cough]&lt;/strong&gt; the Triassic.</seg>
 			</tuv>
@@ -4053,14 +4053,6 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Yɛltɔɣa lahi kani ni a labi lihi balli ŋɔ maa ni.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-long" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>The recording was too long.</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Kukoli maa nyɛla zaɣ' waɣinli.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-error-too-long" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The recording was too long.</seg>
@@ -4069,12 +4061,12 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Kukoli maa nyɛla zaɣ' waɣinli.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-long" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>The recording was too quiet.</seg>
+				<seg>The recording was too long.</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Kukoli maa nyɛla din fɔhi pam.</seg>
+				<seg>Kukoli maa nyɛla zaɣ' waɣinli.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
@@ -4085,12 +4077,12 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Kukoli maa nyɛla din fɔhi pam.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-error-too-short" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>The recording was too short.</seg>
+				<seg>The recording was too quiet.</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Kukoli maa nyɛla zaɣ' ŋmaa.</seg>
+				<seg>Kukoli maa nyɛla din fɔhi pam.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-short" srclang="en-US">
@@ -4101,12 +4093,12 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Kukoli maa nyɛla zaɣ' ŋmaa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-volume-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-error-too-short" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.</seg>
+				<seg>The recording was too short.</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Ban karindi kukoya dubu ni tooi be kɔŋkɔba. A ni nooi zaɣisi di yi niŋ ka kukoli maa du n-yaɣi zuɣu che the lahibali maa ŋmaara, bee (din tooi yoli) di dubu yi be tiŋa pam ka di zuɣu che ka a ku tooi wum o ni yɛri shɛli maa ka di pala a yuli la sabbu maa.</seg>
+				<seg>Kukoli maa nyɛla zaɣ' ŋmaa.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-volume-description" srclang="en-US">
@@ -4117,12 +4109,12 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Ban karindi kukoya dubu ni tooi be kɔŋkɔba. A ni nooi zaɣisi di yi niŋ ka kukoli maa du n-yaɣi zuɣu che the lahibali maa ŋmaara, bee (din tooi yoli) di dubu yi be tiŋa pam ka di zuɣu che ka a ku tooi wum o ni yɛri shɛli maa ka di pala a yuli la sabbu maa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-volume-description" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>The Sentence Collector is moving to the core Common Voice platform. You can now &lt;writeURL&gt;write&lt;/writeURL&gt; a sentence or &lt;reviewURL&gt;review&lt;/reviewURL&gt; single sentence submissions on Common Voice.</seg>
+				<seg>There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Din deeri yɛltɔɣa maa pa chanila Common Voice puuni. A pa ni tooi &lt;writeURL&gt;sabi&lt;/writeURL&gt; yɛltɔɣili bee &lt;reviewURL&gt;labi lihi&lt;/reviewURL&gt;yɛltɔɣ' gaŋa zaŋ niŋ Common Voice puuni.</seg>
+				<seg>Ban karindi kukoya dubu ni tooi be kɔŋkɔba. A ni nooi zaɣisi di yi niŋ ka kukoli maa du n-yaɣi zuɣu che the lahibali maa ŋmaara, bee (din tooi yoli) di dubu yi be tiŋa pam ka di zuɣu che ka a ku tooi wum o ni yɛri shɛli maa ka di pala a yuli la sabbu maa.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
@@ -4133,7 +4125,15 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Din deeri yɛltɔɣa maa pa chanila Common Voice puuni. A pa ni tooi &lt;writeURL&gt;sabi&lt;/writeURL&gt; yɛltɔɣili bee &lt;reviewURL&gt;labi lihi&lt;/reviewURL&gt;yɛltɔɣ' gaŋa zaŋ niŋ Common Voice puuni.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-grammar-or-spelling-detail" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The Sentence Collector is moving to the core Common Voice platform. You can now &lt;writeURL&gt;write&lt;/writeURL&gt; a sentence or &lt;reviewURL&gt;review&lt;/reviewURL&gt; single sentence submissions on Common Voice.</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Din deeri yɛltɔɣa maa pa chanila Common Voice puuni. A pa ni tooi &lt;writeURL&gt;sabi&lt;/writeURL&gt; yɛltɔɣili bee &lt;reviewURL&gt;labi lihi&lt;/reviewURL&gt;yɛltɔɣ' gaŋa zaŋ niŋ Common Voice puuni.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-grammar-or-spelling-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence has a grammatical or spelling error.</seg>
 			</tuv>
@@ -4141,7 +4141,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Yɛltɔɣili maa malila girama bee bachi yiɣisibu muɣisigu.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-grammar-or-spelling-detail" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-grammar-or-spelling-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence has a grammatical or spelling error.</seg>
 			</tuv>
@@ -4165,14 +4165,6 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Yɛltɔɣili maa malila jilimankai bee yɛltɔɣ' tula</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>The sentence must be grammatically correct.</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Yɛltɔɣili maa girama/biɛhigu be dede.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be grammatically correct.</seg>
@@ -4181,7 +4173,15 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Yɛltɔɣili maa girama/biɛhigu be dede.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-3" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be grammatically correct.</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Yɛltɔɣili maa girama/biɛhigu be dede.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be speakable.</seg>
 			</tuv>
@@ -4189,7 +4189,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Yɛltɔɣili maa simdi ka di ni tooi yɛli.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-3" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be speakable.</seg>
 			</tuv>
@@ -4213,14 +4213,6 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Yɛltɔɣili maa bachinima simdi ka di yiɣisi dede.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:why-donate-explanation-1" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>This information is optional to provide - you should only add it if you feel comfortable. When we release the dataset, we pseudonymise all personal information, and make sure information like your name and email are not connected to demographic information like age or sex.</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Lahibali ŋɔ pala talahi ni a ti li. Amaa ni tooi n-ti, a yi bɔra. Ti yi yihi tuma maa na, ti yɛn sɔɣila nira kam maŋmaŋa lahibali, ka che ka lahibali kamani a yuli mini iimeeli bi kpini lahibali din jɛndi a yuma, paɣa bee doo n-nya a.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate-explanation-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>This information is optional to provide - you should only add it if you feel comfortable. When we release the dataset, we pseudonymise all personal information, and make sure information like your name and email are not connected to demographic information like age or sex.</seg>
@@ -4229,12 +4221,12 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Lahibali ŋɔ pala talahi ni a ti li. Amaa ni tooi n-ti, a yi bɔra. Ti yi yihi tuma maa na, ti yɛn sɔɣila nira kam maŋmaŋa lahibali, ka che ka lahibali kamani a yuli mini iimeeli bi kpini lahibali din jɛndi a yuma, paɣa bee doo n-nya a.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-three-more-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:why-donate-explanation-1" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Three to go!</seg>
+				<seg>This information is optional to provide - you should only add it if you feel comfortable. When we release the dataset, we pseudonymise all personal information, and make sure information like your name and email are not connected to demographic information like age or sex.</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Diba ata n-che!</seg>
+				<seg>Lahibali ŋɔ pala talahi ni a ti li. Amaa ni tooi n-ti, a yi bɔra. Ti yi yihi tuma maa na, ti yɛn sɔɣila nira kam maŋmaŋa lahibali, ka che ka lahibali kamani a yuli mini iimeeli bi kpini lahibali din jɛndi a yuma, paɣa bee doo n-nya a.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-three-more-instruction" srclang="en-US">
@@ -4245,7 +4237,15 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Diba ata n-che!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:too-many-files" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-three-more-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Three to go!</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Diba ata n-che!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:too-many-files" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Too many files</seg>
 			</tuv>
@@ -4253,7 +4253,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Gbana pam</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:too-many-files" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:too-many-files" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Too many files</seg>
 			</tuv>
@@ -4293,7 +4293,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Mɔmi ni a zaŋ li m-pahi yaha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:tw" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:tw" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Twi</seg>
 			</tuv>
@@ -4301,7 +4301,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Kambonsili</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:tw" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:tw" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Twi</seg>
 			</tuv>
@@ -4373,7 +4373,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Zan pahi maa bi niŋ, dimi suɣulo ka labi niŋ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-header" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-bulk-upload-header" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload &lt;icon&gt;&lt;/icon&gt; public domain sentences</seg>
 			</tuv>
@@ -4381,7 +4381,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Zaŋmi &lt;icon&gt;&lt;/icon&gt;yɛltɔɣa din ka sulinsi m-pahi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-bulk-upload-header" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-header" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload &lt;icon&gt;&lt;/icon&gt; public domain sentences</seg>
 			</tuv>
@@ -4405,7 +4405,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Pahibu na chanimi....</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:upload-more-btn-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:upload-more-btn-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload more sentences?</seg>
 			</tuv>
@@ -4413,7 +4413,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>A bɔri ni a pahimi yɛltɔɣa pam?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:upload-more-btn-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:upload-more-btn-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload more sentences?</seg>
 			</tuv>
@@ -4437,7 +4437,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Zaŋmi yɛltɔɣa biɛhigu din tuhi n-tum tuma</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-4" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Use correct spelling and punctuation</seg>
 			</tuv>
@@ -4445,7 +4445,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Zaŋmi bachinima yiɣisibu din niŋ dede mini bibahira n-tum tuma</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-4" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Use correct spelling and punctuation</seg>
 			</tuv>
@@ -4477,14 +4477,6 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Kukoya deebu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-volume-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Volume</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Kukoli dubu [Voolim]</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-volume-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Volume</seg>
@@ -4493,7 +4485,15 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Kukoli dubu [Voolim]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:create-profile-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-volume-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Volume</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Kukoli dubu [Voolim]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:create-profile-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Want to save your information? &lt;createProfile&gt;Create a profile&lt;/createProfile&gt;</seg>
 			</tuv>
@@ -4501,7 +4501,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>A bɔri ni a seevi a lahibali? &lt;createProfile&gt;nammi a purofaali &lt;/createProfile&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:create-profile-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:create-profile-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Want to save your information? &lt;createProfile&gt;Create a profile&lt;/createProfile&gt;</seg>
 			</tuv>
@@ -4541,14 +4541,6 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Ti yɛn yimi n-ti bo kɔfi.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/common.ftl:stayintouch" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Tinima ban be Mozlila mɛrila laɣingu din jɛndi kukɔli tabibi. Ti nibɔri ni ti mali tibili zaŋ chaŋ lahabaya din kɔɣiri ka bihira polo , data pala yibu sheena ka ni lahi bɔri ni wumdi lahabaya din jɛndi yi ni mali data ŋɔ tumdi tuma shɛm.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-stayintouch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
@@ -4557,7 +4549,7 @@ the teams updated via email. If you want to contribute, please provide your emai
 				<seg>Tinima ban be Mozlila mɛrila laɣingu din jɛndi kukɔli tabibi. Ti nibɔri ni ti mali tibili zaŋ chaŋ lahabaya din kɔɣiri ka bihira polo , data pala yibu sheena ka ni lahi bɔri ni wumdi lahabaya din jɛndi yi ni mali data ŋɔ tumdi tuma shɛm.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-stayintouch" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/common.ftl:stayintouch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
 			</tuv>
@@ -4566,6 +4558,14 @@ the teams updated via email. If you want to contribute, please provide your emai
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:stayintouch" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Tinima ban be Mozlila mɛrila laɣingu din jɛndi kukɔli tabibi. Ti nibɔri ni ti mali tibili zaŋ chaŋ lahabaya din kɔɣiri ka bihira polo , data pala yibu sheena ka ni lahi bɔri ni wumdi lahabaya din jɛndi yi ni mali data ŋɔ tumdi tuma shɛm.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-stayintouch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
 			</tuv>
@@ -4591,15 +4591,6 @@ Please try again later.</seg>
 				<seg>Ti bi tooi nya kukoya ni ti ti a ka a wum. Dim suɣulo, ka labina saha shɛli yaha.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-loading-error" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We couldn’t get any sentences for you to speak.
-Please try again later.</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Ti bi tooi nya yɛltɔɣa n-ti a ni a yɛli. Dimi suɣulo ka labi n-niŋ saha shɛli.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:speak-loading-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We couldn’t get any sentences for you to speak.
@@ -4609,12 +4600,13 @@ Please try again later.</seg>
 				<seg>Ti bi tooi nya yɛltɔɣa n-ti a ni a yɛli. Dimi suɣulo ka labi n-niŋ saha shɛli.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-loading-error" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>We may have run out of clips - refresh the page, or try again later.</seg>
+				<seg>We couldn’t get any sentences for you to speak.
+Please try again later.</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Di ni tooi niŋ ka ti kukoya maa naami maa- labi yooi li (peeji) maa, bee ka ka a labina saha shɛli yaha</seg>
+				<seg>Ti bi tooi nya yɛltɔɣa n-ti a ni a yɛli. Dimi suɣulo ka labi n-niŋ saha shɛli.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-empty-state" srclang="en-US">
@@ -4625,12 +4617,12 @@ Please try again later.</seg>
 				<seg>Di ni tooi niŋ ka ti kukoya maa naami maa- labi yooi li (peeji) maa, bee ka ka a labina saha shɛli yaha</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-6-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>We’re going out to get coffee.</seg>
+				<seg>We may have run out of clips - refresh the page, or try again later.</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Ti' yɛn yimi n-ti bo kɔfi.</seg>
+				<seg>Di ni tooi niŋ ka ti kukoya maa naami maa- labi yooi li (peeji) maa, bee ka ka a labina saha shɛli yaha</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-6-title" srclang="en-US">
@@ -4641,12 +4633,12 @@ Please try again later.</seg>
 				<seg>Ti' yɛn yimi n-ti bo kɔfi.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-redirect-page-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-6-title" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>We're making some big changes</seg>
+				<seg>We’re going out to get coffee.</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Taɣiri kara ka ti niŋdi maa</seg>
+				<seg>Ti' yɛn yimi n-ti bo kɔfi.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-title" srclang="en-US">
@@ -4657,12 +4649,12 @@ Please try again later.</seg>
 				<seg>Taɣiri kara ka ti niŋdi maa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-redirect-page-title" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>We’re sorry, your platform is not currently supported.</seg>
+				<seg>We're making some big changes</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Ti niŋdi a gaafara, a dundɔŋ maa na bi tumdi kpe.</seg>
+				<seg>Taɣiri kara ka ti niŋdi maa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
@@ -4673,7 +4665,15 @@ Please try again later.</seg>
 				<seg>Ti niŋdi a gaafara, a dundɔŋ maa na bi tumdi kpe.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-empty-state" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We’re sorry, your platform is not currently supported.</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Ti niŋdi a gaafara, a dundɔŋ maa na bi tumdi kpe.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:speak-empty-state" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We've run out of sentences to record in this language...</seg>
 			</tuv>
@@ -4681,7 +4681,7 @@ Please try again later.</seg>
 				<seg>Ti lahi ka yɛltɔɣa ni ti yaai balli ŋɔ ni...</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:speak-empty-state" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-empty-state" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We've run out of sentences to record in this language...</seg>
 			</tuv>
@@ -4705,7 +4705,7 @@ Please try again later.</seg>
 				<seg>Ti bɔrimi ni maʒini bɔhimbu alogorimnima maa tooi deei vuri din be kukoli ni, hali gba ka ni tooi deei vuri din galisi ni tooi be di puuni din deei yi niŋ ka vuri maa bi che a ku tooi wum kukoli maa zaa. Binkumda din dii bi yɔri vuri pam gba ni tooi be di puuni; binkumda din galisi ka ni tooi che ka a ku tooi wum bachi kam din be di ni bi niŋ dede.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-ask" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-ask" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What issues are you experiencing with this sentence?</seg>
 			</tuv>
@@ -4713,7 +4713,7 @@ Please try again later.</seg>
 				<seg>Muɣisigu bɔnima ka a nya yɛltɔɣili ŋɔ ni.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-ask" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-ask" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What issues are you experiencing with this sentence?</seg>
 			</tuv>
@@ -4737,14 +4737,6 @@ Please try again later.</seg>
 				<seg>Bɔ n-tu ni di be n gbaŋ/faali puuni?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-review-write-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>What sentences can I add?</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>Yɛltɔɣ' dininima ka n ni tooi pahi?</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-review-write-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>What sentences can I add?</seg>
@@ -4753,7 +4745,15 @@ Please try again later.</seg>
 				<seg>Yɛltɔɣ' dininima ka n ni tooi pahi?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-review-write-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What sentences can I add?</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Yɛltɔɣ' dininima ka n ni tooi pahi?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. &lt;br /&gt;Very common mistakes include:</seg>
 			</tuv>
@@ -4761,7 +4761,7 @@ Please try again later.</seg>
 				<seg>A yi wumda, nyin yulimi viɛnyɛla n-nya din yaai maa mini din sabi maa nyɛla yim; Zaɣisimi li di yi niŋ ka yɛlimuɣisiri bihi be di ni. &lt;br /&gt; Yɛlimuɣisira din tooi beni n-nyɛ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. &lt;br /&gt;Very common mistakes include:</seg>
 			</tuv>
@@ -4801,7 +4801,7 @@ Please try again later.</seg>
 				<seg>A yi mali purofaali, a ni mi a tuma ni chani shɛm ka lahi gbuni kpalanzuya ni ban tiri pahihu kukoya maa ni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:write" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Write</seg>
 			</tuv>
@@ -4809,7 +4809,7 @@ Please try again later.</seg>
 				<seg>sabima</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:write" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Write</seg>
 			</tuv>
@@ -4849,14 +4849,6 @@ Please try again later.</seg>
 				<seg>Y</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:vote-yes" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Yes</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>iin</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:vote-yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
@@ -4873,12 +4865,12 @@ Please try again later.</seg>
 				<seg>iin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/modals/request-language.ftl:yes-receive-emails" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:vote-yes" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Yes, send me emails. I’d like to stay informed about the Common Voice Project.</seg>
+				<seg>Yes</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>Iin, sabimi ma email lahabaya. Ni bɔri ni m mali tibili zaŋ chaŋ balli ŋɔ zoosim polo Mozilla Common Voice puuni.</seg>
+				<seg>iin</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/modals/request-language.ftl:yes-receive-emails" srclang="en-US">
@@ -4889,7 +4881,15 @@ Please try again later.</seg>
 				<seg>Iin, sabimi ma email lahabaya. Ni bɔri ni m mali tibili zaŋ chaŋ balli ŋɔ zoosim polo Mozilla Common Voice puuni.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-opt-in" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/request-language.ftl:yes-receive-emails" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes, send me emails. I’d like to stay informed about the Common Voice Project.</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>Iin, sabimi ma email lahabaya. Ni bɔri ni m mali tibili zaŋ chaŋ balli ŋɔ zoosim polo Mozilla Common Voice puuni.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-opt-in" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes, send me emails. I'd like to stay informed about the progress of this language on Common Voice.</seg>
 			</tuv>
@@ -4897,7 +4897,7 @@ Please try again later.</seg>
 				<seg>Iin, sabimi ma email lahabaya. Ni bɔri ni m mali tibili zaŋ chaŋ balli ŋɔ zoosim polo Common Voice puuni.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-opt-in" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/languages.ftl:get-involved-opt-in" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes, send me emails. I'd like to stay informed about the progress of this language on Common Voice.</seg>
 			</tuv>
@@ -4921,14 +4921,6 @@ Please try again later.</seg>
 				<seg>A ni tooi zaŋ kɔmpiita sojihi n tum tuma: { sc-review-form-button-approve-shortcut } n-saɣi ti, { sc-review-form-button-reject-shortcut } n-zaɣisi, { sc-review-form-button-skip-shortcut } n-kpahi yaɣi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-lang-not-selected" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>You have not selected any languages. Please go to your &lt;profileLink&gt;Profile&lt;/profileLink&gt; to select languages.</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>A bi piigi bali shɛli. Dimsuɣulo, chami a &lt;profileLink&gt;Profile&lt;/profileLink&gt;ni n-ti piigi balli.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-lang-not-selected" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You have not selected any languages. Please go to your &lt;profileLink&gt;Profile&lt;/profileLink&gt; to select languages.</seg>
@@ -4937,7 +4929,15 @@ Please try again later.</seg>
 				<seg>A bi piigi bali shɛli. Dimsuɣulo, chami a &lt;profileLink&gt;Profile&lt;/profileLink&gt;ni n-ti piigi balli.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-lang-not-selected" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have not selected any languages. Please go to your &lt;profileLink&gt;Profile&lt;/profileLink&gt; to select languages.</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>A bi piigi bali shɛli. Dimsuɣulo, chami a &lt;profileLink&gt;Profile&lt;/profileLink&gt;ni n-ti piigi balli.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You must allow microphone access.</seg>
 			</tuv>
@@ -4945,7 +4945,7 @@ Please try again later.</seg>
 				<seg>Di tu ni a saɣi n-ti maakurofooni yoobu soli.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You must allow microphone access.</seg>
 			</tuv>
@@ -4961,14 +4961,6 @@ Please try again later.</seg>
 				<seg>Kpehima a email</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-generic-card" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>You’re contributing to a target segment</seg>
-			</tuv>
-			<tuv xml:lang="dag">
-				<seg>A pahirila yɛltɔɣili ni</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-generic-card" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You’re contributing to a target segment</seg>
@@ -4977,12 +4969,12 @@ Please try again later.</seg>
 				<seg>A pahirila yɛltɔɣili ni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-first-card" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-generic-card" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>You’re contributing to our first target segment</seg>
+				<seg>You’re contributing to a target segment</seg>
 			</tuv>
 			<tuv xml:lang="dag">
-				<seg>A pahirila ti tuuli yɛltɔɣili ni</seg>
+				<seg>A pahirila yɛltɔɣili ni</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-first-card" srclang="en-US">
@@ -4993,7 +4985,15 @@ Please try again later.</seg>
 				<seg>A pahirila ti tuuli yɛltɔɣili ni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:review-error-rate-limit-exceeded" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-first-card" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You’re contributing to our first target segment</seg>
+			</tuv>
+			<tuv xml:lang="dag">
+				<seg>A pahirila ti tuuli yɛltɔɣili ni</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-error-rate-limit-exceeded" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You're going too fast. Please take a moment to review the sentence to make sure it's correct.</seg>
 			</tuv>
@@ -5001,7 +5001,7 @@ Please try again later.</seg>
 				<seg>A chani yɔm pam. Dimi suɣulo ka di saha biɛla n-lihi yɛltɔɣili maa n-nyaa di be dede.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-error-rate-limit-exceeded" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:review-error-rate-limit-exceeded" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You're going too fast. Please take a moment to review the sentence to make sure it's correct.</seg>
 			</tuv>

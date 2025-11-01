@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-10-01T00:33:51.653340">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-11-01T00:32:56.499416">
 	</header>
 	<body>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:all-locales" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>All</seg>
-			</tuv>
-			<tuv xml:lang="azz">
-				<seg>Nochi</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/home.ftl:all-locales" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>All</seg>
@@ -19,12 +11,12 @@
 				<seg>Nochi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:x-months-short" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:all-locales" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>{ $count }mo</seg>
+				<seg>All</seg>
 			</tuv>
 			<tuv xml:lang="azz">
-				<seg>metsti</seg>
+				<seg>Nochi</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:x-months-short" srclang="en-US">
@@ -35,7 +27,15 @@
 				<seg>metsti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:x-years-short" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:x-months-short" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $count }mo</seg>
+			</tuv>
+			<tuv xml:lang="azz">
+				<seg>metsti</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:x-years-short" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $count }y</seg>
 			</tuv>
@@ -43,7 +43,7 @@
 				<seg>xiuit</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:x-years-short" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:x-years-short" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $count }y</seg>
 			</tuv>
@@ -283,7 +283,7 @@
 				<seg>{ -brand-name-firefox-aurora }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefoxcom:en/firefox/all.ftl:firefox-all-product-firefox-beta" srclang="en-US">
+		<tu tuid="firefoxcom:en/download_button.ftl:download-button-firefox-beta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-firefox-beta }</seg>
 			</tuv>
@@ -291,7 +291,7 @@
 				<seg>{ -brand-name-firefox-beta }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefoxcom:en/download_button.ftl:download-button-firefox-beta" srclang="en-US">
+		<tu tuid="firefoxcom:en/firefox/all.ftl:firefox-all-product-firefox-beta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-firefox-beta }</seg>
 			</tuv>
@@ -363,20 +363,20 @@
 				<seg>{ -brand-name-firefox-developer-edition }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefoxcom:en/firefox/developer.ftl:firefox-developer-firefox-developer-edition-sends" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ -brand-name-firefox-developer-edition } automatically sends feedback to { -brand-name-mozilla }.</seg>
-			</tuv>
-			<tuv xml:lang="azz">
-				<seg>{ -brand-name-firefox-developer-edition } iselti uan nimantsin kipanoltilia taman { -brand-name-mozilla } uan ijkón no uelis kipias.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefoxcom:en/firefox/channel.ftl:firefox-channel-firefox-developer-edition" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-firefox-developer-edition } automatically sends feedback to { -brand-name-mozilla }.</seg>
 			</tuv>
 			<tuv xml:lang="azz">
 				<seg>{ -brand-name-firefox-developer-edition } iselti san kipanoltilia { -brand-name-mozilla } tanemililmej.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefoxcom:en/firefox/developer.ftl:firefox-developer-firefox-developer-edition-sends" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-developer-edition } automatically sends feedback to { -brand-name-mozilla }.</seg>
+			</tuv>
+			<tuv xml:lang="azz">
+				<seg>{ -brand-name-firefox-developer-edition } iselti uan nimantsin kipanoltilia taman { -brand-name-mozilla } uan ijkón no uelis kipias.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefoxcom:en/firefox/all.ftl:firefox-all-product-firefox-esr" srclang="en-US">
@@ -1827,7 +1827,7 @@
 				<seg>Pocket</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:bento.ftl:fx-monitor" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:home-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -product-name }</seg>
 			</tuv>
@@ -1835,7 +1835,7 @@
 				<seg>{ -product-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:home-title" srclang="en-US">
+		<tu tuid="firefox-monitor-website:bento.ftl:fx-monitor" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -product-name }</seg>
 			</tuv>
@@ -2227,7 +2227,7 @@
 				<seg>&lt;a href="%(url)s"&gt; Chrome kikui kemej 1.77 okachi taelnamikilis uan amo Firefox &lt;/a&gt;. Komo motepos kipia ya amo miak taelnamikilis, nejon uelis kichiuas maj yolik tekiti. Komo tikontatekiujtis Firefox tein yankuik uan ika tekiti tel miak ojtokaltilismej, uelis mokauas taelnamikilis tein tionuelis tikonkuis ika programas tein tikonteluelitstinemi.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/new/quantum.lang:a-hrefurlsupdatea-your-firefox-for-the-latest-in-speed-and-privacy" srclang="en-US">
+		<tu tuid="mozillalang:firefox/campaign.lang:a-hrefurlsupdatea-your-firefox-for-the-latest-in-speed-and-privacy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;a href="%(url)s"&gt;Update&lt;/a&gt; your Firefox for the latest in speed and privacy.</seg>
 			</tuv>
@@ -2235,7 +2235,7 @@
 				<seg>&lt;a href="%(url)s"&gt;Xikonyankuili&lt;/a&gt; moFirefox uan ijkon okachi kualiok kiyekpias tein kiselis uan okachi isiujkaok tekitis.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/campaign.lang:a-hrefurlsupdatea-your-firefox-for-the-latest-in-speed-and-privacy" srclang="en-US">
+		<tu tuid="mozillalang:firefox/new/quantum.lang:a-hrefurlsupdatea-your-firefox-for-the-latest-in-speed-and-privacy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;a href="%(url)s"&gt;Update&lt;/a&gt; your Firefox for the latest in speed and privacy.</seg>
 			</tuv>
@@ -2259,7 +2259,7 @@
 				<seg>Nochin tepostajtolis uan compilaciones (no Win 64)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/campaign.lang:already-using-firefox" srclang="en-US">
+		<tu tuid="mozillalang:firefox/new/quantum.lang:already-using-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Already using Firefox?</seg>
 			</tuv>
@@ -2267,7 +2267,7 @@
 				<seg>¿Tikontatekiujtijtokya Firefox?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/new/quantum.lang:already-using-firefox" srclang="en-US">
+		<tu tuid="mozillalang:firefox/campaign.lang:already-using-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Already using Firefox?</seg>
 			</tuv>
@@ -2291,7 +2291,7 @@
 				<seg>Tamajsikayomej ika Android</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:main.lang:android-browser" srclang="en-US">
+		<tu tuid="mozillalang:firefox/shared.lang:android-browser" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Android Browser</seg>
 			</tuv>
@@ -2299,7 +2299,7 @@
 				<seg>Navegador tein Android</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/shared.lang:android-browser" srclang="en-US">
+		<tu tuid="mozillalang:main.lang:android-browser" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Android Browser</seg>
 			</tuv>
@@ -2347,7 +2347,7 @@
 				<seg>Metsti agosto</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:newsletter.lang:available-languages" srclang="en-US">
+		<tu tuid="mozillalang:main.lang:available-languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Available Languages</seg>
 			</tuv>
@@ -2355,7 +2355,7 @@
 				<seg>Tajtolismej tein se uelis kiixpejpenas</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:main.lang:available-languages" srclang="en-US">
+		<tu tuid="mozillalang:newsletter.lang:available-languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Available Languages</seg>
 			</tuv>
@@ -2531,7 +2531,7 @@
 				<seg>Tein amo kitemoua motomintis, Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:main.lang:careers" srclang="en-US">
+		<tu tuid="mozillalang:mozorg/home/index-quantum.lang:careers" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Careers</seg>
 			</tuv>
@@ -2539,7 +2539,7 @@
 				<seg>Tekimej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:mozorg/home/index-quantum.lang:careers" srclang="en-US">
+		<tu tuid="mozillalang:main.lang:careers" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Careers</seg>
 			</tuv>
@@ -2635,7 +2635,7 @@
 				<seg>Xionyolpaki. ¡Tionmoyankuilijya!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/campaign.lang:congrats-youre-using-the-latest-version-of-firefox" srclang="en-US">
+		<tu tuid="mozillalang:firefox/new/quantum.lang:congrats-youre-using-the-latest-version-of-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Congrats! You’re using the latest version of Firefox.</seg>
 			</tuv>
@@ -2643,7 +2643,7 @@
 				<seg>¡Xionyolpaki! Tikontatekiujtijtok okachi yankuik versión Firefox.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/new/quantum.lang:congrats-youre-using-the-latest-version-of-firefox" srclang="en-US">
+		<tu tuid="mozillalang:firefox/campaign.lang:congrats-youre-using-the-latest-version-of-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Congrats! You’re using the latest version of Firefox.</seg>
 			</tuv>
@@ -2747,7 +2747,7 @@
 				<seg>Metsti diciembre</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:main.lang:desktop" srclang="en-US">
+		<tu tuid="mozillalang:mozorg/products.lang:desktop" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Desktop</seg>
 			</tuv>
@@ -2755,7 +2755,7 @@
 				<seg>Tajkuiloluapal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:mozorg/products.lang:desktop" srclang="en-US">
+		<tu tuid="mozillalang:main.lang:desktop" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Desktop</seg>
 			</tuv>
@@ -2779,7 +2779,7 @@
 				<seg>Tamajsikayomej tein ika se kikuis se itepos tein se itajkuiloluapal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:main.lang:desktop-browser" srclang="en-US">
+		<tu tuid="mozillalang:firefox/shared.lang:desktop-browser" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Desktop Browser</seg>
 			</tuv>
@@ -2787,7 +2787,7 @@
 				<seg>Navegador tein tajkuiloluapal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/shared.lang:desktop-browser" srclang="en-US">
+		<tu tuid="mozillalang:main.lang:desktop-browser" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Desktop Browser</seg>
 			</tuv>
@@ -2947,7 +2947,7 @@
 				<seg>Xikontemoui Firefox &lt;span&gt;tein kualtia Linux&lt;/span&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/campaign.lang:download-firefox-spanfor-macosspan" srclang="en-US">
+		<tu tuid="mozillalang:firefox/new/quantum.lang:download-firefox-spanfor-macosspan" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download Firefox &lt;span&gt;for macOS&lt;/span&gt;</seg>
 			</tuv>
@@ -2955,7 +2955,7 @@
 				<seg>Xikontemoui Firefox &lt;span&gt;tein kualtia macOS&lt;/span&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/new/quantum.lang:download-firefox-spanfor-macosspan" srclang="en-US">
+		<tu tuid="mozillalang:firefox/campaign.lang:download-firefox-spanfor-macosspan" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download Firefox &lt;span&gt;for macOS&lt;/span&gt;</seg>
 			</tuv>
@@ -2995,7 +2995,7 @@
 				<seg>Xikontemoui Mozilla Firefox, se navegador web tein amo se moneki kiixtauas. Firefox kichijchiujkej se nechikol semanauak taltikpak tein amo kitemouaj motomintiskej ta kinpaleuiskej taltikpakneminij maj kiixyekantinemij keniuj kitatekiujtiaj Internet. ¡Xikonpia axkan Firerfox tein tionuelis tikonkuis ika Windows, macOS, Linux, Android uan iOS!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/campaign.lang:download-mozilla-firefox-a-free-web-browser-firefox-is-created-by-a-global-non-profit-dedicated-to-putting-individuals-in-control-online-get-firefox-for-windows-macos-linux-android-and-ios-today" srclang="en-US">
+		<tu tuid="mozillalang:main.lang:download-mozilla-firefox-a-free-web-browser-firefox-is-created-by-a-global-non-profit-dedicated-to-putting-individuals-in-control-online-get-firefox-for-windows-macos-linux-android-and-ios-today" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download Mozilla Firefox, a free Web browser. Firefox is created by a global non-profit dedicated to putting individuals in control online. Get Firefox for Windows, macOS, Linux, Android and iOS today!</seg>
 			</tuv>
@@ -3003,7 +3003,7 @@
 				<seg>Xikontemoui Mozilla Firefox, se navegador web tein amo se moneki kiixtauas. Firefox kichijchiujkej se nechikol semanauak taltikpak tein amo kitemouaj motomintiskej ta kinpaleuiskej taltikpakneminij maj kiixyekantinemij keniuj kitatekiujtiaj Internet. ¡Xikonpia axkan Firerfox tein tionuelis tikonkuis ika Windows, macOS, Linux, Android uan iOS!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:main.lang:download-mozilla-firefox-a-free-web-browser-firefox-is-created-by-a-global-non-profit-dedicated-to-putting-individuals-in-control-online-get-firefox-for-windows-macos-linux-android-and-ios-today" srclang="en-US">
+		<tu tuid="mozillalang:firefox/campaign.lang:download-mozilla-firefox-a-free-web-browser-firefox-is-created-by-a-global-non-profit-dedicated-to-putting-individuals-in-control-online-get-firefox-for-windows-macos-linux-android-and-ios-today" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download Mozilla Firefox, a free Web browser. Firefox is created by a global non-profit dedicated to putting individuals in control online. Get Firefox for Windows, macOS, Linux, Android and iOS today!</seg>
 			</tuv>
@@ -3147,7 +3147,7 @@
 				<seg>FAQ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/shared.lang:features" srclang="en-US">
+		<tu tuid="mozillalang:main.lang:features" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Features</seg>
 			</tuv>
@@ -3155,7 +3155,7 @@
 				<seg>Nepaleuilmej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:main.lang:features" srclang="en-US">
+		<tu tuid="mozillalang:firefox/shared.lang:features" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Features</seg>
 			</tuv>
@@ -3987,7 +3987,7 @@
 				<seg>Xikonsentoka ika&lt;br&gt; nochi taman tein kipia Firefox.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/campaign.lang:keep-up-withbr-all-things-firefox" srclang="en-US">
+		<tu tuid="mozillalang:main.lang:keep-up-withbr-all-things-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keep up with&lt;br&gt; all things Firefox.</seg>
 			</tuv>
@@ -3995,7 +3995,7 @@
 				<seg>Xikonsentoka ika&lt;br&gt; nochi taman tein kipia Firefox.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:main.lang:keep-up-withbr-all-things-firefox" srclang="en-US">
+		<tu tuid="mozillalang:firefox/campaign.lang:keep-up-withbr-all-things-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keep up with&lt;br&gt; all things Firefox.</seg>
 			</tuv>
@@ -4179,7 +4179,7 @@
 				<seg>Taelnamikilis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:mozorg/contribute/index.lang:menu" srclang="en-US">
+		<tu tuid="mozillalang:main.lang:menu" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Menu</seg>
 			</tuv>
@@ -4187,7 +4187,7 @@
 				<seg>Menú</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:main.lang:menu" srclang="en-US">
+		<tu tuid="mozillalang:mozorg/contribute/index.lang:menu" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Menu</seg>
 			</tuv>
@@ -4347,14 +4347,6 @@
 				<seg>Se kitatekiujtis Internet</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/features/send-tabs.lang:need-help" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Need help?</seg>
-			</tuv>
-			<tuv xml:lang="azz">
-				<seg>¿Xa moneki timitsonpaleuiskej?</seg>
-			</tuv>
-		</tu>
 		<tu tuid="mozillalang:main.lang:need-help" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Need help?</seg>
@@ -4364,6 +4356,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="mozillalang:mozorg/home/index-quantum.lang:need-help" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Need help?</seg>
+			</tuv>
+			<tuv xml:lang="azz">
+				<seg>¿Xa moneki timitsonpaleuiskej?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozillalang:firefox/features/send-tabs.lang:need-help" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Need help?</seg>
 			</tuv>
@@ -4643,7 +4643,7 @@
 				<seg>Ika kualtakayot xikonixpejpena tein tikontemouij uan tionuelis tiksentokas.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/new/quantum.lang:please-follow-a-hrefurlsthese-instructionsa-to-install-firefox" srclang="en-US">
+		<tu tuid="mozillalang:firefox/campaign.lang:please-follow-a-hrefurlsthese-instructionsa-to-install-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Please follow &lt;a href="%(url)s"&gt;these instructions&lt;/a&gt; to install Firefox.</seg>
 			</tuv>
@@ -4651,7 +4651,7 @@
 				<seg>Xikonchiua &lt;a href="%(url)s"&gt;nejin tanauatilmej&lt;/a&gt; uan ijkon tikontalilis Fiefox motepos.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/campaign.lang:please-follow-a-hrefurlsthese-instructionsa-to-install-firefox" srclang="en-US">
+		<tu tuid="mozillalang:firefox/new/quantum.lang:please-follow-a-hrefurlsthese-instructionsa-to-install-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Please follow &lt;a href="%(url)s"&gt;these instructions&lt;/a&gt; to install Firefox.</seg>
 			</tuv>
@@ -4723,7 +4723,7 @@
 				<seg>Achto</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:main.lang:privacy" srclang="en-US">
+		<tu tuid="mozillalang:firefox/features/index.lang:privacy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Privacy</seg>
 			</tuv>
@@ -4731,7 +4731,7 @@
 				<seg>Keniuj tiyekpiaj tein tikseliaj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/features/index.lang:privacy" srclang="en-US">
+		<tu tuid="mozillalang:main.lang:privacy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Privacy</seg>
 			</tuv>
@@ -4947,7 +4947,7 @@
 				<seg>Xikonita keyej tejuan titataman kemej oksekin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:main.lang:select-country" srclang="en-US">
+		<tu tuid="mozillalang:newsletter.lang:select-country" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select country</seg>
 			</tuv>
@@ -4955,7 +4955,7 @@
 				<seg>Xikonixpejpena se ueyialtepet</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:newsletter.lang:select-country" srclang="en-US">
+		<tu tuid="mozillalang:main.lang:select-country" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select country</seg>
 			</tuv>
@@ -5019,7 +5019,7 @@
 				<seg>Ijkuak se kinpanoltilis oksekin tensa monekiskia se motachilis, sayoj ke nejin moneki yeski motaixpejpenalis. Firefox Private Browsing ipa kichipaua motajkuilolixneskayouan tein moajsij itech Internet, kemej ichtakatajkuilolmej, cookies uan historial itech motepos. Ijkuin, ijkuak titatsakuas, amo mokauas motaksalis tein oksekin uelis kitojtiliskej.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/campaign.lang:sign-in-to-your-account-and-well-sync-the-bookmarks-passwords-and-other-great-things-youve-saved-to-firefox-on-other-devices" srclang="en-US">
+		<tu tuid="mozillalang:firefox/new/quantum.lang:sign-in-to-your-account-and-well-sync-the-bookmarks-passwords-and-other-great-things-youve-saved-to-firefox-on-other-devices" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign in to your account and we’ll sync the bookmarks, passwords and other great things you’ve saved to Firefox on other devices.</seg>
 			</tuv>
@@ -5027,7 +5027,7 @@
 				<seg>Xionkalakteua itech mocuenta uan tikchiuaskej maj mosenixpatatiyajkan neskayomej marcadores, ichtaktajkuilolmej uan oksekin taman tein semi kualtsin tein tikoneuani itech oksekin teposmej.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/new/quantum.lang:sign-in-to-your-account-and-well-sync-the-bookmarks-passwords-and-other-great-things-youve-saved-to-firefox-on-other-devices" srclang="en-US">
+		<tu tuid="mozillalang:firefox/campaign.lang:sign-in-to-your-account-and-well-sync-the-bookmarks-passwords-and-other-great-things-youve-saved-to-firefox-on-other-devices" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign in to your account and we’ll sync the bookmarks, passwords and other great things you’ve saved to Firefox on other devices.</seg>
 			</tuv>
@@ -5059,7 +5059,7 @@
 				<seg>Axkan xionmoijkuilo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/campaign.lang:skip-this-step" srclang="en-US">
+		<tu tuid="mozillalang:firefox/new/quantum.lang:skip-this-step" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip this step</seg>
 			</tuv>
@@ -5067,7 +5067,7 @@
 				<seg>Amo xikonchiua nejin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/new/quantum.lang:skip-this-step" srclang="en-US">
+		<tu tuid="mozillalang:firefox/campaign.lang:skip-this-step" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip this step</seg>
 			</tuv>
@@ -5115,7 +5115,7 @@
 				<seg>Xionchikaujkatajto</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/features/memory.lang:speed-up-your-computer" srclang="en-US">
+		<tu tuid="mozillalang:firefox/features/index.lang:speed-up-your-computer" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speed up your computer</seg>
 			</tuv>
@@ -5123,7 +5123,7 @@
 				<seg>Xikonkaua maj telijsiujka tekiti motepos</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:firefox/features/index.lang:speed-up-your-computer" srclang="en-US">
+		<tu tuid="mozillalang:firefox/features/memory.lang:speed-up-your-computer" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speed up your computer</seg>
 			</tuv>
@@ -5339,7 +5339,7 @@
 				<seg>Tajkuilol</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:main.lang:thanks" srclang="en-US">
+		<tu tuid="mozillalang:mozorg/contribute/index.lang:thanks" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thanks!</seg>
 			</tuv>
@@ -5347,7 +5347,7 @@
 				<seg>¡Tasojkamatik!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:mozorg/contribute/index.lang:thanks" srclang="en-US">
+		<tu tuid="mozillalang:main.lang:thanks" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thanks!</seg>
 			</tuv>
@@ -5691,7 +5691,7 @@
 				<seg>Titekitinij uan ijkón tionuelis okachi taman kichiuas.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:main.lang:we-will-only-send-you-mozilla-related-information" srclang="en-US">
+		<tu tuid="mozillalang:newsletter.lang:we-will-only-send-you-mozilla-related-information" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We will only send you Mozilla-related information.</seg>
 			</tuv>
@@ -5699,7 +5699,7 @@
 				<seg>Sayoj timitsontitaniliskej tanauatil tein mouika iuan Mozilla.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillalang:newsletter.lang:we-will-only-send-you-mozilla-related-information" srclang="en-US">
+		<tu tuid="mozillalang:main.lang:we-will-only-send-you-mozilla-related-information" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We will only send you Mozilla-related information.</seg>
 			</tuv>
@@ -5955,7 +5955,7 @@
 				<seg>Beta</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/firefox/channel.ftl:firefox-channel-android" srclang="en-US">
+		<tu tuid="mozillaorg:en/firefox/products.ftl:firefox-products-android" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-android }</seg>
 			</tuv>
@@ -5963,7 +5963,7 @@
 				<seg>{ -brand-name-android }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/firefox/products.ftl:firefox-products-android" srclang="en-US">
+		<tu tuid="mozillaorg:en/firefox/channel.ftl:firefox-channel-android" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-android }</seg>
 			</tuv>
@@ -6011,7 +6011,7 @@
 				<seg>{ -brand-name-common-voice }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/footer.ftl:footer-developer-edition" srclang="en-US">
+		<tu tuid="mozillaorg:en/firefox/channel.ftl:firefox-channel-developer-edition" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-developer-edition }</seg>
 			</tuv>
@@ -6019,7 +6019,7 @@
 				<seg>{ -brand-name-developer-edition }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/firefox/channel.ftl:firefox-channel-developer-edition" srclang="en-US">
+		<tu tuid="mozillaorg:en/footer.ftl:footer-developer-edition" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-developer-edition }</seg>
 			</tuv>
@@ -6043,22 +6043,6 @@
 				<seg>{ -brand-name-enterprise }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/footer.ftl:footer-firefox" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ -brand-name-firefox }</seg>
-			</tuv>
-			<tuv xml:lang="azz">
-				<seg>{ -brand-name-firefox }</seg>
-			</tuv>
-		</tu>
-		<tu tuid="mozillaorg:en/firefox/browsers/compare/shared.ftl:compare-shared-brand-name-firefox" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ -brand-name-firefox }</seg>
-			</tuv>
-			<tuv xml:lang="azz">
-				<seg>{ -brand-name-firefox }</seg>
-			</tuv>
-		</tu>
 		<tu tuid="mozillaorg:en/firefox/mobile.ftl:firefox-mobile-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-firefox }</seg>
@@ -6075,12 +6059,36 @@
 				<seg>{ -brand-name-firefox }</seg>
 			</tuv>
 		</tu>
+		<tu tuid="mozillaorg:en/firefox/browsers/compare/shared.ftl:compare-shared-brand-name-firefox" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox }</seg>
+			</tuv>
+			<tuv xml:lang="azz">
+				<seg>{ -brand-name-firefox }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozillaorg:en/footer.ftl:footer-firefox" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox }</seg>
+			</tuv>
+			<tuv xml:lang="azz">
+				<seg>{ -brand-name-firefox }</seg>
+			</tuv>
+		</tu>
 		<tu tuid="mozillaorg:en/download_button.ftl:download-button-firefox-aurora" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-firefox-aurora }</seg>
 			</tuv>
 			<tuv xml:lang="azz">
 				<seg>{ -brand-name-firefox-aurora }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozillaorg:en/navigation.ftl:navigation-firefox-beta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-beta }</seg>
+			</tuv>
+			<tuv xml:lang="azz">
+				<seg>{ -brand-name-firefox-beta }</seg>
 			</tuv>
 		</tu>
 		<tu tuid="mozillaorg:en/firefox/all.ftl:firefox-all-product-firefox-beta" srclang="en-US">
@@ -6092,14 +6100,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="mozillaorg:en/download_button.ftl:download-button-firefox-beta" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ -brand-name-firefox-beta }</seg>
-			</tuv>
-			<tuv xml:lang="azz">
-				<seg>{ -brand-name-firefox-beta }</seg>
-			</tuv>
-		</tu>
-		<tu tuid="mozillaorg:en/navigation.ftl:navigation-firefox-beta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-firefox-beta }</seg>
 			</tuv>
@@ -6139,7 +6139,7 @@
 				<seg>{ -brand-name-firefox } { -brand-name-android } { -brand-name-nightly }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/firefox/accounts.ftl:firefox-accounts-firefox-browser" srclang="en-US">
+		<tu tuid="mozillaorg:en/firefox/mobile.ftl:firefox-mobile-firefox-browser" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-firefox-browser }</seg>
 			</tuv>
@@ -6147,7 +6147,7 @@
 				<seg>{ -brand-name-firefox-browser }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/firefox/mobile.ftl:firefox-mobile-firefox-browser" srclang="en-US">
+		<tu tuid="mozillaorg:en/firefox/accounts.ftl:firefox-accounts-firefox-browser" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-firefox-browser }</seg>
 			</tuv>
@@ -6219,14 +6219,6 @@
 				<seg>{ -brand-name-firefox } tein tionuelis tikontatekiujtis ika oksekin plataformas uan tepostajtolismej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/firefox/products.ftl:firefox-products-firefox-lockwise" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ -brand-name-firefox-lockwise }</seg>
-			</tuv>
-			<tuv xml:lang="azz">
-				<seg>{ -brand-name-firefox-lockwise }</seg>
-			</tuv>
-		</tu>
 		<tu tuid="mozillaorg:en/firefox/accounts.ftl:firefox-accounts-firefox-lockwise" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-firefox-lockwise }</seg>
@@ -6243,15 +6235,15 @@
 				<seg>{ -brand-name-firefox-lockwise }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/firefox/products.ftl:firefox-products-firefox-monitor" srclang="en-US">
+		<tu tuid="mozillaorg:en/firefox/products.ftl:firefox-products-firefox-lockwise" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>{ -brand-name-firefox-monitor }</seg>
+				<seg>{ -brand-name-firefox-lockwise }</seg>
 			</tuv>
 			<tuv xml:lang="azz">
-				<seg>{ -brand-name-firefox-monitor }</seg>
+				<seg>{ -brand-name-firefox-lockwise }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/navigation.ftl:navigation-firefox-monitor" srclang="en-US">
+		<tu tuid="mozillaorg:en/firefox/products.ftl:firefox-products-firefox-monitor" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-firefox-monitor }</seg>
 			</tuv>
@@ -6267,12 +6259,12 @@
 				<seg>{ -brand-name-firefox-monitor }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/navigation.ftl:navigation-firefox-nightly" srclang="en-US">
+		<tu tuid="mozillaorg:en/navigation.ftl:navigation-firefox-monitor" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>{ -brand-name-firefox-nightly }</seg>
+				<seg>{ -brand-name-firefox-monitor }</seg>
 			</tuv>
 			<tuv xml:lang="azz">
-				<seg>{ -brand-name-firefox-nightly }</seg>
+				<seg>{ -brand-name-firefox-monitor }</seg>
 			</tuv>
 		</tu>
 		<tu tuid="mozillaorg:en/firefox/all.ftl:firefox-all-product-firefox-nightly" srclang="en-US">
@@ -6284,6 +6276,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="mozillaorg:en/download_button.ftl:download-button-firefox-nightly" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-nightly }</seg>
+			</tuv>
+			<tuv xml:lang="azz">
+				<seg>{ -brand-name-firefox-nightly }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozillaorg:en/navigation.ftl:navigation-firefox-nightly" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-firefox-nightly }</seg>
 			</tuv>
@@ -6315,6 +6315,14 @@
 				<seg>{ -brand-name-firefox-reality }</seg>
 			</tuv>
 		</tu>
+		<tu tuid="mozillaorg:en/firefox/products.ftl:firefox-products-firefox-send" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ -brand-name-firefox-send }</seg>
+			</tuv>
+			<tuv xml:lang="azz">
+				<seg>{ -brand-name-firefox-send }</seg>
+			</tuv>
+		</tu>
 		<tu tuid="mozillaorg:en/firefox/accounts.ftl:firefox-accounts-firefox-send" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-firefox-send }</seg>
@@ -6324,14 +6332,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="mozillaorg:en/navigation.ftl:navigation-firefox-send" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ -brand-name-firefox-send }</seg>
-			</tuv>
-			<tuv xml:lang="azz">
-				<seg>{ -brand-name-firefox-send }</seg>
-			</tuv>
-		</tu>
-		<tu tuid="mozillaorg:en/firefox/products.ftl:firefox-products-firefox-send" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-firefox-send }</seg>
 			</tuv>
@@ -6395,7 +6395,7 @@
 				<seg>{ -brand-name-mac }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/footer.ftl:footer-mdn-web-docs" srclang="en-US">
+		<tu tuid="mozillaorg:en/navigation.ftl:navigation-mdn-web-docs" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-mdn-web-docs }</seg>
 			</tuv>
@@ -6403,7 +6403,7 @@
 				<seg>{ -brand-name-mdn-web-docs }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/navigation.ftl:navigation-mdn-web-docs" srclang="en-US">
+		<tu tuid="mozillaorg:en/footer.ftl:footer-mdn-web-docs" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-mdn-web-docs }</seg>
 			</tuv>
@@ -6451,7 +6451,7 @@
 				<seg>{ -brand-name-mozilla-foundation }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/footer.ftl:footer-nightly" srclang="en-US">
+		<tu tuid="mozillaorg:en/firefox/channel.ftl:firefox-channel-nightly" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-nightly }</seg>
 			</tuv>
@@ -6459,7 +6459,7 @@
 				<seg>{ -brand-name-nightly }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/firefox/channel.ftl:firefox-channel-nightly" srclang="en-US">
+		<tu tuid="mozillaorg:en/footer.ftl:footer-nightly" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-nightly }</seg>
 			</tuv>
@@ -6483,7 +6483,7 @@
 				<seg>{ -brand-name-opera }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/footer.ftl:footer-pocket" srclang="en-US">
+		<tu tuid="mozillaorg:en/navigation.ftl:navigation-pocket" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-pocket }</seg>
 			</tuv>
@@ -6491,7 +6491,7 @@
 				<seg>{ -brand-name-pocket }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/navigation.ftl:navigation-pocket" srclang="en-US">
+		<tu tuid="mozillaorg:en/footer.ftl:footer-pocket" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-name-pocket }</seg>
 			</tuv>
@@ -7131,7 +7131,7 @@
 				<seg>Formato</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/mozorg/mission.ftl:mission-forums" srclang="en-US">
+		<tu tuid="mozillaorg:en/mozorg/about/shared.ftl:about-shared-forums" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Forums</seg>
 			</tuv>
@@ -7139,7 +7139,7 @@
 				<seg>Nechikolmej foros</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/mozorg/about/shared.ftl:about-shared-forums" srclang="en-US">
+		<tu tuid="mozillaorg:en/mozorg/mission.ftl:mission-forums" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Forums</seg>
 			</tuv>
@@ -7803,7 +7803,7 @@
 				<seg>Reality</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/navigation.ftl:navigation-release-notes" srclang="en-US">
+		<tu tuid="mozillaorg:en/firefox/channel.ftl:firefox-channel-release-notes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Release Notes</seg>
 			</tuv>
@@ -7811,7 +7811,7 @@
 				<seg>Tajtolmelaualismej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozillaorg:en/firefox/channel.ftl:firefox-channel-release-notes" srclang="en-US">
+		<tu tuid="mozillaorg:en/navigation.ftl:navigation-release-notes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Release Notes</seg>
 			</tuv>

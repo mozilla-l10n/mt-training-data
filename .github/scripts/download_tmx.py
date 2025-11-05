@@ -6,7 +6,7 @@ import requests
 
 def main():
     # Get the list of Pontoon locales
-    url = "https://pontoon.mozilla.org/api/v2/locales/"
+    url = "https://pontoon.mozilla.org/api/v2/locales/?fields=code"
     try:
         page = 1
         locales = []

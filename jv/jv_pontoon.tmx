@@ -1,8 +1,266 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-11-01T00:41:30.821137">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2025-12-01T00:44:07.943340">
 	</header>
 	<body>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; lanjut waca ukara kasebut kanthi banter</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; yen wis rampung</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel Re-recording</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Batalno rekaman</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/contact.ftl:contact-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contact Form</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Formulir Kontak</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Donate your voice</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Sumbangna swara sampeyan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great!&lt;recordIcon&gt;&lt;/recordIcon&gt; Record your next clip</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Apik!&lt;recordIcon&gt;&lt;/recordIcon&gt; Rekamen klip selanjute</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep it up, record again &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Terus, rekamen maneh &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/request-language.ftl:request-language-success-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language request successfully submitted, thank you.</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Panyuwunan basa wis kasil dikirim, matur nuwun.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/contact.ftl:contact-form-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Message</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Pesen</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/contact.ftl:contact-form-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Name</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Jeneng</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-no-mic-found" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No microphone found.</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Ora ditemokake mikropon.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported-desktop" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On desktop devices you can contribute by downloading…</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Ing piranti desktop sampeyan saged nyumbang karo ngundhuh</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported-ios-non-safari" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On iOS please continue with Safari to enable recording…</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Ing iOS, terusake Safari kanggo ngaktifake rekaman…</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported-webview" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>On mobile devices you can contribute using your system browser…</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Ing piranti seluler sampeyan bisa nyumbang nggunakake browser sistem…</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/request-language.ftl:other-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Other Language</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Basa liya</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-header-description-v2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;p&gt;Common Voice is a publicly available voice dataset, powered by the voices of volunteer contributors around the world. People who want to build voice applications can use the dataset to train machine learning models.&lt;/p&gt;
+&lt;p&gt;At present, most voice datasets are owned by companies, which stifles innovation. Voice datasets also underrepresent: non-English speakers, people of colour, disabled people, women and LGBTQIA+ people. This means that voice-enabled technology doesn’t work at all for many languages, and where it does work, it may not perform equally well for everyone. We want to change that by mobilising people everywhere to share their voice.&lt;/p&gt;</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>&lt;p&gt;Common Voice yaiku dataset swara sing kesedhiya kanggo umum, didhukung karo swara-swarane para kontributor sukarelawan sak ndunya. Wong sing kepingin nggawe aplikasi swara iso nganggo dataset kuwi kanggo ngelatih model machine learning.&lt;/p&gt;
+&lt;p&gt;Saiki, akeh-akeh e dataset swara sik diduweni karo poro perusahaan, sing mbatesi inovasi. Dataset swara ugo kurang diwakili: penutur non-Inggris, bule, wong cacat, wong wedok karo banci. Iki artine, teknologi sing ndukung swara ora iso mlaku blas gawe akeh basa, lha nek ora mlaku, iku yo malih gak iso digawe secara setara gawe kabeh wong. Awak e pengen nggati coro iki karo nggerakno wong-wong ndik ndi ae, ben gelem nduduhne swarane.&lt;/p&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-last-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>terakhir</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/contact.ftl:contact-required" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>*required</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>*kudu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-submit-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; Submit</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Priksa &amp; Kirim</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/request-language.ftl:select-language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select a Language...</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Pilih Basa...</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>ngomong</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-now" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Speak now</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Ngomong saiki</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cta" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Start recording</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Ngawiti ngrekam</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-long" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too long.</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Rekamane dawa banget.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too quiet.</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Rekamane sepi banget.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-short" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The recording was too short.</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Rekamane endek banget.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-three-more-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Three to go!</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Telu maneh pindah</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We’re sorry, your platform is not currently supported.</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Nyuwun sewu, platform sampeyan saiki ora didhukung.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/request-language.ftl:request-language-success-content" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We will be in touch with more information about how to add your language to Common Voice very soon.</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Awak e bakal ndang kesambung karo informasi luwih lengkap babagan carane nambah basa sampeyan menyang Common Voice enggal.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Why Common Voice?</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Lahopo Common Voice?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/modals/request-language.ftl:yes-receive-emails" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Yes, send me emails. I’d like to stay informed about the Common Voice Project.</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Ya, kirimi aku email. Aku kepingin terus dikabari babagan Proyek Common Voice.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You must allow microphone access.</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Sampeyan kudu ngijini akses mikropon.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestrings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>-</seg>
@@ -19,7 +277,7 @@
 				<seg>+</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientinfoplistcfbundleshortversionstring" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionsnotificationserviceinfoplistcfbundleshortversionstring" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>0.0.1</seg>
 			</tuv>
@@ -35,7 +293,7 @@
 				<seg>0.0.1</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionsnotificationserviceinfoplistcfbundleshortversionstring" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionstodayinfoplistcfbundleshortversionstring" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>0.0.1</seg>
 			</tuv>
@@ -43,7 +301,7 @@
 				<seg>0.0.1</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionstodayinfoplistcfbundleshortversionstring" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientinfoplistcfbundleshortversionstring" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>0.0.1</seg>
 			</tuv>
@@ -67,46 +325,6 @@
 				<seg>%1$@/%2$@</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:accountinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:uitestsinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctestsinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clienttestsinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedtestsinfoplistcfbundleshortversionstring" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>18.0</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>18.0</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:accounttestsinfoplistcfbundleshortversionstring" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>18.0</seg>
@@ -115,7 +333,7 @@
 				<seg>18.0</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctelemetrytestsinfoplistcfbundleshortversionstring" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:accountinfoplistcfbundleshortversionstring" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>18.0</seg>
 			</tuv>
@@ -164,6 +382,46 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:storagetestsinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:uitestsinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctestsinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clienttestsinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedtestsinfoplistcfbundleshortversionstring" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>18.0</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>18.0</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctelemetrytestsinfoplistcfbundleshortversionstring" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>18.0</seg>
 			</tuv>
@@ -267,6 +525,14 @@
 				<seg>Tambah menyang Tetenger</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsadd-to-reading-list" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add to Reading List</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Tambah menyang Daptar Waca</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsshareextensionaddtoreadinglistactiontitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add to Reading List</seg>
@@ -276,14 +542,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojmenustringsmenuaddtoreadinglisttitle" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add to Reading List</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Tambah menyang Daptar Waca</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsadd-to-reading-list" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add to Reading List</seg>
 			</tuv>
@@ -507,7 +765,7 @@
 				<seg>Blokir Windows Menthungul</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssenttabbookmarkactiontitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsbookmarkbookmarkdetailfieldsheaderbookmarktitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmark</seg>
 			</tuv>
@@ -515,7 +773,7 @@
 				<seg>Tetenger</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsbookmarkbookmarkdetailfieldsheaderbookmarktitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssenttabbookmarkactiontitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmark</seg>
 			</tuv>
@@ -571,7 +829,7 @@
 				<seg>Tetenger Dibuwang</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssyncstatebookmarktitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesmenustringsmenuopenbookmarksactionaccessibilitylabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmarks</seg>
 			</tuv>
@@ -595,7 +853,7 @@
 				<seg>Tetenger</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesmenustringsmenuopenbookmarksactionaccessibilitylabel" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssyncstatebookmarktitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmarks</seg>
 			</tuv>
@@ -627,7 +885,7 @@
 				<seg>Tetenger kang sampéyan simpen bakal muncul ing kéné.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojmenustringsmenuaddbookmarkactiontitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsshareextensionbookmarkthispageactiontitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmark This Page</seg>
 			</tuv>
@@ -635,7 +893,7 @@
 				<seg>Tengeri Kaca Iki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsshareextensionbookmarkthispageactiontitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojmenustringsmenuaddbookmarkactiontitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bookmark This Page</seg>
 			</tuv>
@@ -667,39 +925,7 @@
 				<seg>Ampiran</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsdisconnectcancelbutton" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Batal</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshomepagesetdialogcancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Batal</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssendtocancelbutton" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Batal</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientbookmarkpaneldeleteconfirmstringscancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Batal</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojloginmanagerstringscancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -715,15 +941,7 @@
 				<seg>Batal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssearchthirdpartyenginescancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Batal</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsdownloadscanceldialogcancel" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojclearprivatedataconfirmstringscancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -739,7 +957,47 @@
 				<seg>Batal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojclearprivatedataconfirmstringscancel" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsdownloadscanceldialogcancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Batal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshomepagesetdialogcancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Batal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojloginmanagerstringscancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Batal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsdisconnectcancelbutton" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Batal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssearchthirdpartyenginescancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Batal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientbookmarkpaneldeleteconfirmstringscancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -867,14 +1125,6 @@
 				<seg>Tutup</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsphotonmenuclose" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Close</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Tutup</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsclose" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
@@ -883,7 +1133,15 @@
 				<seg>Tutup</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringstabtrayclosealltabskeycodetitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsphotonmenuclose" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Close</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Tutup</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringstoolbarmenuclosealltabs" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close All Tabs</seg>
 			</tuv>
@@ -899,7 +1157,7 @@
 				<seg>Tutup Kabèh Tab</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringstoolbarmenuclosealltabs" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringstabtrayclosealltabskeycodetitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close All Tabs</seg>
 			</tuv>
@@ -923,7 +1181,7 @@
 				<seg>Tutup Tab kang Dipilih</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlproj3dtouchactionsstringsclose-tab" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshotkeysclosetabdiscoverytitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close Tab</seg>
 			</tuv>
@@ -931,7 +1189,7 @@
 				<seg>Tutup Tab</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshotkeysclosetabdiscoverytitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlproj3dtouchactionsstringsclose-tab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close Tab</seg>
 			</tuv>
@@ -1123,7 +1381,15 @@
 				<seg>Mesin Panggolèk Setandar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientbookmarkpaneldeleteconfirmstringsdelete" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientbookmarkpanelstringsdelete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Busak</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientdownloadspanelstringsdelete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -1139,15 +1405,7 @@
 				<seg>Busak</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientbookmarkpanelstringsdelete" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Busak</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingswebsitedatabuttondelete" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojloginmanagerstringsdelete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -1163,23 +1421,23 @@
 				<seg>Busak</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientbookmarkpaneldeleteconfirmstringsdelete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Busak</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingswebsitedatabuttondelete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Busak</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsdownloadspaneldeletetitle" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Busak</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojloginmanagerstringsdelete" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Delete</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Busak</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientdownloadspanelstringsdelete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -1251,14 +1509,6 @@
 				<seg>Tampilan Setelan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsdone" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Done</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Rampung</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingswebsitedatabuttondone" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Done</seg>
@@ -1268,6 +1518,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingssearchdonebutton" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Done</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Rampung</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsdone" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Done</seg>
 			</tuv>
@@ -1371,7 +1629,7 @@
 				<seg>Undhuhan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsdownloadstoastgotodownloadsbutton" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesmenustringsmenuopendownloadsactionaccessibilitylabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -1379,7 +1637,7 @@
 				<seg>Undhuhan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesmenustringsmenuopendownloadsactionaccessibilitylabel" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsdownloadstoastgotodownloadsbutton" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -1523,14 +1781,6 @@
 				<seg>Face ID &amp; Kode Sandi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssearchthirdpartyenginesfailedtitle" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Failed</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Gagal</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssearchthirdpartyenginesformerrortitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Failed</seg>
@@ -1540,6 +1790,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssearchthirdpartyenginesduplicateerrortitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Failed</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Gagal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssearchthirdpartyenginesfailedtitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Failed</seg>
 			</tuv>
@@ -1595,7 +1853,7 @@
 				<seg>Golèk ing Kaca</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsfxatitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfxafirefoxaccount" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Account</seg>
 			</tuv>
@@ -1603,7 +1861,7 @@
 				<seg>Akun Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfxafirefoxaccount" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsfxatitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Account</seg>
 			</tuv>
@@ -1635,7 +1893,7 @@
 				<seg>Firefox ngalangi bagéan kaca sing bisa dilacak dlajahan sampéyan.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssenttabnotabarrivingnotificationtitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshistorypanelemptysyncedtabsstatetitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Sync</seg>
 			</tuv>
@@ -1643,7 +1901,7 @@
 				<seg>Firefox Sync</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshistorypanelemptysyncedtabsstatetitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssenttabnotabarrivingnotificationtitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Sync</seg>
 			</tuv>
@@ -1683,20 +1941,20 @@
 				<seg>Jeneng Folder</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsforward" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Forward</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Bacutaké</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshotkeysforwarddiscoverytitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Forward</seg>
 			</tuv>
 			<tuv xml:lang="jv">
 				<seg>Terusaké</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsforward" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Forward</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Bacutaké</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsgeneralsectionname" srclang="en-US">
@@ -1787,7 +2045,7 @@
 				<seg>Sentrong</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesmenustringsmenuopenhistoryactionaccessibilitylabel" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshistorypanelhistorybackbuttontitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>History</seg>
 			</tuv>
@@ -1795,7 +2053,7 @@
 				<seg>Riwayat</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssyncstatehistorytitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesmenustringsmenuopenhistoryactionaccessibilitylabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>History</seg>
 			</tuv>
@@ -1811,7 +2069,7 @@
 				<seg>Riwayat</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshistorypanelhistorybackbuttontitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshistory" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>History</seg>
 			</tuv>
@@ -1819,7 +2077,7 @@
 				<seg>Riwayat</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshistory" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssyncstatehistorytitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>History</seg>
 			</tuv>
@@ -1947,7 +2205,7 @@
 				<seg>Lisènsi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringslight" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsdisplaythemeoptionlight" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Light</seg>
 			</tuv>
@@ -1955,7 +2213,7 @@
 				<seg>Padhang</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsdisplaythemeoptionlight" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringslight" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Light</seg>
 			</tuv>
@@ -2003,7 +2261,7 @@
 				<seg>Pernah</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsloginsdetailviewlogintitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsloginslistloginslistfilterlogin" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Login</seg>
 			</tuv>
@@ -2011,7 +2269,7 @@
 				<seg>Log Mlebu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsloginslistloginslistfilterlogin" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsloginsdetailviewlogintitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Login</seg>
 			</tuv>
@@ -2139,7 +2397,7 @@
 				<seg>Liyané</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionssharetoinfoplistcfbundledisplayname" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionsnotificationserviceinfoplistcfbundledisplayname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>$(MOZ_BUNDLE_DISPLAY_NAME)</seg>
 			</tuv>
@@ -2147,7 +2405,7 @@
 				<seg>$(MOZ_BUNDLE_DISPLAY_NAME)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionsnotificationserviceinfoplistcfbundledisplayname" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionssharetoinfoplistcfbundledisplayname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>$(MOZ_BUNDLE_DISPLAY_NAME)</seg>
 			</tuv>
@@ -2195,7 +2453,23 @@
 				<seg>Folder Anyar</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientenlprojinfopliststringsnew-private-tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New Private Tab</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Tab Pribadi Anyar</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientenlprojinfopliststringsshortcutitemtitlenewprivatetab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New Private Tab</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Tab Pribadi Anyar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientinfoplistshortcutitemtitlenewprivatetab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New Private Tab</seg>
 			</tuv>
@@ -2219,22 +2493,6 @@
 				<seg>Tab Pribadi Anyar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientenlprojinfopliststringsnew-private-tab" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>New Private Tab</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Tab Pribadi Anyar</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientinfoplistshortcutitemtitlenewprivatetab" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>New Private Tab</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Tab Pribadi Anyar</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringscontextmenubuttontoastnewprivatetabopenedlabeltext" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New Private Tab opened</seg>
@@ -2243,23 +2501,7 @@
 				<seg>Tab Pribadi Anyar kebukak</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsnew-tab" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>New Tab</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Tab Anyar</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsnewtabsectionname" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>New Tab</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Tab Anyar</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsnewtabtitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientinfoplistshortcutitemtitlenewtab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New Tab</seg>
 			</tuv>
@@ -2283,6 +2525,30 @@
 				<seg>Tab Anyar</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsnewtabsectionname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New Tab</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Tab Anyar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsnew-tab" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New Tab</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Tab Anyar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsnewtabtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>New Tab</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Tab Anyar</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientenlprojinfopliststringsshortcutitemtitlenewtab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New Tab</seg>
@@ -2292,14 +2558,6 @@
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientenlprojinfopliststringsnew-tab" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>New Tab</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Tab Anyar</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientinfoplistshortcutitemtitlenewtab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>New Tab</seg>
 			</tuv>
@@ -2355,12 +2613,12 @@
 				<seg>Ora Ana Sambungan Internet</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshotkeysnormalmodediscoverytitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsswitchtononpbmkeycodetitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Normal Browsing Mode</seg>
 			</tuv>
 			<tuv xml:lang="jv">
-				<seg>Mode Dlajahan Normal</seg>
+				<seg>Modhe Dlajahan Normal</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientlocalizablestringssettingstrackingprotectionoptiononinnormalbrowsinglabel" srclang="en-US">
@@ -2371,12 +2629,12 @@
 				<seg>Modhe Dlajahan Normal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsswitchtononpbmkeycodetitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshotkeysnormalmodediscoverytitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Normal Browsing Mode</seg>
 			</tuv>
 			<tuv xml:lang="jv">
-				<seg>Modhe Dlajahan Normal</seg>
+				<seg>Mode Dlajahan Normal</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsno-tabs" srclang="en-US">
@@ -2419,14 +2677,6 @@
 				<seg>Mati</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojclearhistoryconfirmstringsok" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>OK</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>OKÉ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssendtoerrorokbutton" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
@@ -2435,7 +2685,7 @@
 				<seg>OKÉ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsok" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsscanqrcodeerrorokbutton" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
@@ -2443,7 +2693,15 @@
 				<seg>OKÉ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsscanqrcodeerrorokbutton" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssearchthirdpartyenginesok" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>OK</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>OKÉ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojclearhistoryconfirmstringsok" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
@@ -2467,7 +2725,7 @@
 				<seg>OKÉ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssearchthirdpartyenginesok" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsok" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>OK</seg>
 			</tuv>
@@ -2555,7 +2813,7 @@
 				<seg>Bukak ing Tab Pribadi Anyar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientlocalizablestringsopen-in-new-tab" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringscontextmenuopeninnewtabbuttontitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open in New Tab</seg>
 			</tuv>
@@ -2571,7 +2829,7 @@
 				<seg>Bukak ing Tab Anyar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringscontextmenuopeninnewtabbuttontitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientlocalizablestringsopen-in-new-tab" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open in New Tab</seg>
 			</tuv>
@@ -2619,7 +2877,7 @@
 				<seg>Bukak Tab Pribadi Anyar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingssiriopentabshortcut" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojmenustringsmenunewtabactiontitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open New Tab</seg>
 			</tuv>
@@ -2627,7 +2885,7 @@
 				<seg>Bukak Tab Anyar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojmenustringsmenunewtabactiontitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingssiriopentabshortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Open New Tab</seg>
 			</tuv>
@@ -2723,7 +2981,7 @@
 				<seg>tembung sandi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringspassword" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojloginmanagerstringspassword" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Password</seg>
 			</tuv>
@@ -2731,7 +2989,7 @@
 				<seg>Tembung Sandi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojloginmanagerstringspassword" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringspassword" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Password</seg>
 			</tuv>
@@ -2827,86 +3085,6 @@
 				<seg>Modhe Pribadi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:storageperftestsinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clienttestsinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctelemetrytestsinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctelemetryinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionsnotificationserviceinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionssharetoinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionstodayinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:accounttestsinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:accountinfoplistcfbundlename" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>$(PRODUCT_NAME)</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:xcuitestsinfoplistcfbundlename" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>$(PRODUCT_NAME)</seg>
@@ -2931,7 +3109,63 @@
 				<seg>$(PRODUCT_NAME)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedtestsinfoplistcfbundlename" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clienttestsinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:storageperftestsinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedsupporting-filesinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctelemetryinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:accounttestsinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:accountinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:synctelemetrytestsinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:storagetestsinfoplistcfbundlename" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>$(PRODUCT_NAME)</seg>
 			</tuv>
@@ -2947,7 +3181,31 @@
 				<seg>$(PRODUCT_NAME)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:storagetestsinfoplistcfbundlename" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedtestsinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionsnotificationserviceinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionstodayinfoplistcfbundlename" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>$(PRODUCT_NAME)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:extensionssharetoinfoplistcfbundlename" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>$(PRODUCT_NAME)</seg>
 			</tuv>
@@ -2995,7 +3253,7 @@
 				<seg>Bar Ditengeri</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshistorypanelrecentlyclosedtabsbuttontitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsrecentlyclosedtabspaneltitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recently Closed</seg>
 			</tuv>
@@ -3003,7 +3261,7 @@
 				<seg>Tembé Waé Ditutup</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsrecentlyclosedtabspaneltitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshistorypanelrecentlyclosedtabsbuttontitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Recently Closed</seg>
 			</tuv>
@@ -3059,20 +3317,20 @@
 				<seg>Balèni Ngemot Kanggo Perlindhungan Pelacak</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsremove" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Remove</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Buwang</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfxaremoveaccount" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
 			<tuv xml:lang="jv">
 				<seg>Busak</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsremove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Buwang</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshomepanelcontextmenuremove" srclang="en-US">
@@ -3219,20 +3477,20 @@
 				<seg>LOG MLEBU KASIMPEN</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringscontextmenusaveimagebuttontitle" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Save Image</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Simpen gambar</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientlocalizablestringssave-image" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Save Image</seg>
 			</tuv>
 			<tuv xml:lang="jv">
 				<seg>Simpen Gambar</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringscontextmenusaveimagebuttontitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Save Image</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Simpen gambar</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsloginshelpersaveloginbutton" srclang="en-US">
@@ -3259,14 +3517,6 @@
 				<seg>Simpen sandhi kanggo %@?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientenlprojinfopliststringsscan-qr-code" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Scan QR Code</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Pindhai Kode QR</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientenlprojinfopliststringsshortcutitemtitleqrcode" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Scan QR Code</seg>
@@ -3283,7 +3533,7 @@
 				<seg>Pindhai Kode QR</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsscanqrcodeviewtitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientenlprojinfopliststringsscan-qr-code" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Scan QR Code</seg>
 			</tuv>
@@ -3299,7 +3549,15 @@
 				<seg>Pindhai Kode QR</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojloginmanagerstringssearch" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsscanqrcodeviewtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Scan QR Code</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Pindhai Kode QR</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssearch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search</seg>
 			</tuv>
@@ -3307,7 +3565,7 @@
 				<seg>Golèk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssearch" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojloginmanagerstringssearch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search</seg>
 			</tuv>
@@ -3467,12 +3725,12 @@
 				<seg>Setélan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshomepanelcontextmenushare" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsdownloadspanelsharetitle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
 			<tuv xml:lang="jv">
-				<seg>Dum</seg>
+				<seg>Dumké</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientdownloadspanelstringsshare" srclang="en-US">
@@ -3483,12 +3741,12 @@
 				<seg>Dum</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsdownloadspanelsharetitle" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshomepanelcontextmenushare" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share</seg>
 			</tuv>
 			<tuv xml:lang="jv">
-				<seg>Dumké</seg>
+				<seg>Dum</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientlocalizablestringsshare-link" srclang="en-US">
@@ -3619,7 +3877,7 @@
 				<seg>Sync Nyambung</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfxapush_devicedisconnected_thisdevice_title" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfxapush_devicedisconnected_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sync Disconnected</seg>
 			</tuv>
@@ -3627,7 +3885,7 @@
 				<seg>Sync Dipedhot</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfxapush_devicedisconnected_title" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsfxapush_devicedisconnected_thisdevice_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sync Disconnected</seg>
 			</tuv>
@@ -3747,14 +4005,6 @@
 				<seg>Ngidinké sampeyan nyimpen lan ngunggah poto.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientinfoplistnsphotolibraryaddusagedescription" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>This lets you save photos.</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Ngidinké sampeyan nyimpen poto.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientenlprojinfopliststringsnsphotolibraryaddusagedescription" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>This lets you save photos.</seg>
@@ -3763,7 +4013,15 @@
 				<seg>Ngidinké sampeyan nyimpen poto.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientenlprojinfopliststringsnscamerausagedescription" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientinfoplistnsphotolibraryaddusagedescription" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>This lets you save photos.</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Ngidinké sampeyan nyimpen poto.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientinfoplistnscamerausagedescription" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>This lets you take and upload photos.</seg>
 			</tuv>
@@ -3771,7 +4029,7 @@
 				<seg>Ngidinké sampéyan njepret lan ngunggah poto.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientinfoplistnscamerausagedescription" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:clientenlprojinfopliststringsnscamerausagedescription" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>This lets you take and upload photos.</seg>
 			</tuv>
@@ -3803,7 +4061,7 @@
 				<seg>minggu iki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsbookmarkstitlelabel" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsaddcustomenginetitlelabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Title</seg>
 			</tuv>
@@ -3811,7 +4069,7 @@
 				<seg>Judhul</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsaddcustomenginetitlelabel" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsbookmarkstitlelabel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Title</seg>
 			</tuv>
@@ -3827,7 +4085,7 @@
 				<seg>Judhul</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringstoday" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshistorypanelclearhistorymenuoptiontoday" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Today</seg>
 			</tuv>
@@ -3835,7 +4093,7 @@
 				<seg>Dina iki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringshistorypanelclearhistorymenuoptiontoday" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringstoday" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Today</seg>
 			</tuv>
@@ -4043,7 +4301,7 @@
 				<seg>Deleng</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsnewtaboptionhighlightshistory" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsactivitystreamhighlightsvisited" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Visited</seg>
 			</tuv>
@@ -4051,7 +4309,7 @@
 				<seg>Katekan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringsactivitystreamhighlightsvisited" srclang="en-US">
+		<tu tuid="firefox-for-ios:firefox-ios.xliff:sharedenlprojlocalizablestringssettingsnewtaboptionhighlightshistory" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Visited</seg>
 			</tuv>
@@ -4453,7 +4711,7 @@ péngin ngaksès pernahé sampéyan.</seg>
 				<seg>Blokir Iklan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-rocket:app.po:block-imageslabel_menu_block_image" srclang="en-US">
+		<tu tuid="firefox-rocket:app.po:block-imagespreference_data_saving_block_images" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Block images</seg>
 			</tuv>
@@ -4461,7 +4719,7 @@ péngin ngaksès pernahé sampéyan.</seg>
 				<seg>Blokir gambar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-rocket:app.po:block-imagespreference_data_saving_block_images" srclang="en-US">
+		<tu tuid="firefox-rocket:app.po:block-imageslabel_menu_block_image" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Block images</seg>
 			</tuv>
@@ -4781,7 +5039,7 @@ péngin ngaksès pernahé sampéyan.</seg>
 				<seg>Tanggal: %1$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-rocket:app.po:default-search-enginepreference_search_engine_default" srclang="en-US">
+		<tu tuid="firefox-rocket:app.po:default-search-enginepreference_dialog_title_search_engine" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Default search engine</seg>
 			</tuv>
@@ -4789,7 +5047,7 @@ péngin ngaksès pernahé sampéyan.</seg>
 				<seg>Mesin panggolèk setandar</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-rocket:app.po:default-search-enginepreference_dialog_title_search_engine" srclang="en-US">
+		<tu tuid="firefox-rocket:app.po:default-search-enginepreference_search_engine_default" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Default search engine</seg>
 			</tuv>
@@ -4917,7 +5175,7 @@ péngin ngaksès pernahé sampéyan.</seg>
 				<seg>Owahi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-rocket:app.po:editbookmark_saved_edit" srclang="en-US">
+		<tu tuid="firefox-rocket:app.po:editscreenshot_edit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>EDIT</seg>
 			</tuv>
@@ -4925,7 +5183,7 @@ péngin ngaksès pernahé sampéyan.</seg>
 				<seg>BESUT</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-rocket:app.po:editscreenshot_edit" srclang="en-US">
+		<tu tuid="firefox-rocket:app.po:editbookmark_saved_edit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>EDIT</seg>
 			</tuv>
@@ -5025,7 +5283,7 @@ péngin ngaksès pernahé sampéyan.</seg>
 				<seg>Golèk aplikasi sing bisa mbukak pranala</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-rocket:app.po:find-in-pagelabel_menu_find_in_page" srclang="en-US">
+		<tu tuid="firefox-rocket:app.po:find-in-pagefind_in_page_input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Find in page</seg>
 			</tuv>
@@ -5033,7 +5291,7 @@ péngin ngaksès pernahé sampéyan.</seg>
 				<seg>Golèk ing kaca</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-rocket:app.po:find-in-pagefind_in_page_input" srclang="en-US">
+		<tu tuid="firefox-rocket:app.po:find-in-pagelabel_menu_find_in_page" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Find in page</seg>
 			</tuv>
@@ -5169,7 +5427,7 @@ péngin ngaksès pernahé sampéyan.</seg>
 				<seg>Basa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-rocket:app.po:learn-moreabout_link_learn_more" srclang="en-US">
+		<tu tuid="firefox-rocket:app.po:learn-morepreference_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -5177,7 +5435,7 @@ péngin ngaksès pernahé sampéyan.</seg>
 				<seg>Sinaoni manèh</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-rocket:app.po:learn-morepreference_learn_more" srclang="en-US">
+		<tu tuid="firefox-rocket:app.po:learn-moreabout_link_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -5833,7 +6091,7 @@ péngin ngaksès pernahé sampéyan.</seg>
 				<seg>setélan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-rocket:app.po:settingsmenu_settings" srclang="en-US">
+		<tu tuid="firefox-rocket:app.po:settingslabel_menu_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -5841,7 +6099,7 @@ péngin ngaksès pernahé sampéyan.</seg>
 				<seg>Setèlan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-rocket:app.po:settingslabel_menu_settings" srclang="en-US">
+		<tu tuid="firefox-rocket:app.po:settingsmenu_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Settings</seg>
 			</tuv>
@@ -6161,7 +6419,7 @@ péngin ngaksès pernahé sampéyan.</seg>
 				<seg>COBA MANÈH</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-rocket:app.po:turbo-modepreference_turbo_mode" srclang="en-US">
+		<tu tuid="firefox-rocket:app.po:turbo-modelabel_menu_turbo_mode" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Turbo mode</seg>
 			</tuv>
@@ -6169,7 +6427,7 @@ péngin ngaksès pernahé sampéyan.</seg>
 				<seg>Mode turbo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-rocket:app.po:turbo-modelabel_menu_turbo_mode" srclang="en-US">
+		<tu tuid="firefox-rocket:app.po:turbo-modepreference_turbo_mode" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Turbo mode</seg>
 			</tuv>
@@ -6519,20 +6777,20 @@ Dlajah. Busak. Balèni.</seg>
 				<seg>Blokir JavaScript</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel</seg>
-			</tuv>
-			<tuv xml:lang="jv">
-				<seg>Mbatalake</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:action_cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
 			<tuv xml:lang="jv">
 				<seg>Batal</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dialog_addtohomescreen_action_cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="jv">
+				<seg>Mbatalake</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:gv_prompt_clear" srclang="en-US">
@@ -6807,7 +7065,7 @@ Dlajah. Busak. Balèni.</seg>
 				<seg>Busak</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -6815,7 +7073,7 @@ Dlajah. Busak. Balèni.</seg>
 				<seg>Busak</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>

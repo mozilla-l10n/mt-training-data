@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2026-01-01T00:45:57.153619">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2026-02-01T00:48:01.508613">
 	</header>
 	<body>
 		<tu tuid="firefox:toolkit/chrome/global/intl.properties:pluralrule" srclang="en-US">
@@ -75,31 +75,15 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -115,7 +99,23 @@
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -155,7 +155,7 @@
 				<seg>Firefox Monitor</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/about/aboutLogging.ftl:profiler-brand-name" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:profiler-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Profiler</seg>
 			</tuv>
@@ -163,7 +163,7 @@
 				<seg>Firefox Profiler</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/branding/brandings.ftl:profiler-brand-name" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/about/aboutLogging.ftl:profiler-brand-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Profiler</seg>
 			</tuv>
@@ -697,7 +697,7 @@
 				<seg>5 mijmitoj ipanpa ne tayektaliani ipal takezalis ichtaka</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:about-firefox-monitor" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:about-fxm-headline" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>About { -product-name }</seg>
 			</tuv>
@@ -705,7 +705,7 @@
 				<seg>Ipanpa { -product-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:app.ftl:about-fxm-headline" srclang="en-US">
+		<tu tuid="firefox-monitor-website:app.ftl:about-firefox-monitor" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>About { -product-name }</seg>
 			</tuv>
@@ -1486,20 +1486,20 @@ kishkupawia tamatil taichtekilis kan nemi mutamatilsyu. Tiknepanuat iwan ne Fire
 				<seg>Nuchan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox-monitor-website:email-strings.ftl:faq-v2-4" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>How does { -product-name } treat sensitive sites?</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>{ -product-name } ken kimati se nejmach tzawalamat?</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:sensitive-sites" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does { -product-name } treat sensitive sites?</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
 				<seg>Tay { -product-name } kichiwa iwan ne sijsitioj ichtaka?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox-monitor-website:email-strings.ftl:faq-v2-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How does { -product-name } treat sensitive sites?</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>{ -product-name } ken kimati se nejmach tzawalamat?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox-monitor-website:app.ftl:faq3" srclang="en-US">
@@ -3700,14 +3700,6 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shiktentzakwa ne tay nemi ka kalijtik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cookie Banner Reduction</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Takashawani ipal ne ibanner ne cookie</seg>
-			</tuv>
-		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_panel_switch_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
@@ -3716,7 +3708,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Takashawani ipal ne ibanner ne cookie</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_title" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_reject_all_option_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -3724,7 +3716,15 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Takashawani ipal ne ibanner ne cookie</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_reject_all_option_title" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cookie Banner Reduction</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Takashawani ipal ne ibanner ne cookie</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cookie_banner_exception_item_title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cookie Banner Reduction</seg>
 			</tuv>
@@ -3804,7 +3804,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Tajtaiwan pal titakejketza</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tool_tip_dismiss_button_content_description" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dismiss_no_suggestions_prompt_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
 			</tuv>
@@ -3820,7 +3820,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikishti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:dismiss_no_suggestions_prompt_button" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tool_tip_dismiss_button_content_description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dismiss</seg>
 			</tuv>
@@ -3972,12 +3972,12 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikpupu wan shiktapu %1$s</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_erase" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
-				<seg>Ma mupupu kan nipashaluj yewa</seg>
+				<seg>Shikpupu kan tipashaluj yewa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:tabs_tray_action_erase" srclang="en-US">
@@ -3988,12 +3988,12 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikpupu kan tipashaluj yewa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:content_description_erase" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:notification_erase_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Erase browsing history</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
-				<seg>Shikpupu kan tipashaluj yewa</seg>
+				<seg>Ma mupupu kan nipashaluj yewa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:shortcut_erase_long_label" srclang="en-US">
@@ -4270,15 +4270,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Taketzalis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestion_subtitle_learnmore" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Learn more</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Shikmatiuk</seg>
-			</tuv>
-		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -4294,7 +4286,15 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikmatiuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_learn_more" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestion_subtitle_learnmore" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn more</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Shikmatiuk</seg>
+			</tuv>
+		</tu>
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_learn_more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn more</seg>
 			</tuv>
@@ -4470,7 +4470,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Ne witz</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_no" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_no_option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -4478,7 +4478,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Tesu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_no_option" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -4534,7 +4534,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Tapual ipal tapachiwiani tentzaktuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_off" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Off</seg>
 			</tuv>
@@ -4542,7 +4542,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Sewtuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_off" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_off" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Off</seg>
 			</tuv>
@@ -4582,7 +4582,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Yek nemi, nikmatiaya!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_on" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
 			</tuv>
@@ -4590,7 +4590,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Timakaktuk</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preferences_cookie_banner_summary_on" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_state_on" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On</seg>
 			</tuv>
@@ -4842,7 +4842,7 @@ Shikchiwa %1$s ken ne achtutalijtuk tajtachialis</seg>
 				<seg>Shitayekchiwa wejka iwan ne USB/Wi-Fi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -4858,7 +4858,7 @@ Shikchiwa %1$s ken ne achtutalijtuk tajtachialis</seg>
 				<seg>Shikishti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_autocomplete_menu_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -4874,7 +4874,7 @@ Shikchiwa %1$s ken ne achtutalijtuk tajtachialis</seg>
 				<seg>Shikishti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_search_remove" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -4882,7 +4882,7 @@ Shikchiwa %1$s ken ne achtutalijtuk tajtachialis</seg>
 				<seg>Shikishti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:studies_remove" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:remove_top_site" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Remove</seg>
 			</tuv>
@@ -4922,7 +4922,7 @@ Shikchiwa %1$s ken ne achtutalijtuk tajtachialis</seg>
 				<seg>Shikishti muchi ne tepusyulu tatemua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site_item" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rename</seg>
 			</tuv>
@@ -4930,7 +4930,7 @@ Shikchiwa %1$s ken ne achtutalijtuk tajtachialis</seg>
 				<seg>Shiktukeyti uksenpa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:rename_top_site_item" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rename</seg>
 			</tuv>
@@ -5210,7 +5210,7 @@ Shikchiwa %1$s ken ne achtutalijtuk tajtachialis</seg>
 				<seg>Shiktali ma senpa nemi achtu, ma temi isel</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cfr_cookie_banner_link" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cfr_for_cookie_banner_underline_settings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>settings</seg>
 			</tuv>
@@ -5218,7 +5218,7 @@ Shikchiwa %1$s ken ne achtutalijtuk tajtachialis</seg>
 				<seg>tachijchiwalis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cfr_for_cookie_banner_underline_settings" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:cfr_cookie_banner_link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>settings</seg>
 			</tuv>
@@ -5316,7 +5316,7 @@ Anka su tiksewia Tamanawalis itech Tapachiwiani</seg>
 				<seg>Tetajpialis kan tipashalua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:onboarding_second_screen_skip_button_text" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:firstrun_skip_button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -5324,7 +5324,7 @@ Anka su tiksewia Tamanawalis itech Tapachiwiani</seg>
 				<seg>Te nikneki nikita</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:firstrun_skip_button" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:onboarding_second_screen_skip_button_text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -5800,7 +5800,7 @@ Tesu tiwelit timetztajpia itech ne tapachiwiani su tina muchi nemi yek tik ini s
 				<seg>Tiknekiskia ma timetzmakakan tay tiweliskia tiktemua?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_yes" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_yes_option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -5808,7 +5808,7 @@ Tesu tiwelit timetztajpia itech ne tapachiwiani su tina muchi nemi yek tik ini s
 				<seg>Eje</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:preference_privacy_should_block_cookies_yes_option" srclang="en-US">
+		<tu tuid="focus-for-android:mozilla-mobile/focus-android/app/src/main/res/values/strings.xml:enable_search_suggestions_yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -5996,7 +5996,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikupina ne idirección ne ilpika</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:custom-urlspreference_category_autocomplete_custom_urls" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:custom-urlspreference_autocomplete_subitem_customlist" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>
@@ -6004,7 +6004,7 @@ Shipashalu. Shitapupu. Shikchiwa uksenpa.</seg>
 				<seg>Shikmajmachiwa ne URLs</seg>
 			</tuv>
 		</tu>
-		<tu tuid="focus-for-android-po:app.po:custom-urlspreference_autocomplete_subitem_customlist" srclang="en-US">
+		<tu tuid="focus-for-android-po:app.po:custom-urlspreference_category_autocomplete_custom_urls" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Custom URLs</seg>
 			</tuv>
@@ -6618,14 +6618,6 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Te welik muishkupina. Shikishkupina tajasan.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozilla-accounts:auth.ftl:brand-firefox" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="ppl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="mozilla-accounts:branding.ftl:brand-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -6634,12 +6626,12 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozilla-accounts:auth.ftl:product-firefox-account" srclang="en-US">
+		<tu tuid="mozilla-accounts:auth.ftl:brand-firefox" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Firefox account</seg>
+				<seg>Firefox</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
-				<seg>Firefox account</seg>
+				<seg>Firefox</seg>
 			</tuv>
 		</tu>
 		<tu tuid="mozilla-accounts:branding.ftl:product-firefox-account" srclang="en-US">
@@ -6650,12 +6642,12 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox account</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozilla-accounts:branding.ftl:product-firefox-accounts" srclang="en-US">
+		<tu tuid="mozilla-accounts:auth.ftl:product-firefox-account" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Firefox accounts</seg>
+				<seg>Firefox account</seg>
 			</tuv>
 			<tuv xml:lang="ppl">
-				<seg>Firefox accounts</seg>
+				<seg>Firefox account</seg>
 			</tuv>
 		</tu>
 		<tu tuid="mozilla-accounts:auth.ftl:product-firefox-accounts" srclang="en-US">
@@ -6666,7 +6658,15 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox accounts</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozilla-accounts:auth.ftl:product-firefox-cloud" srclang="en-US">
+		<tu tuid="mozilla-accounts:branding.ftl:product-firefox-accounts" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox accounts</seg>
+			</tuv>
+			<tuv xml:lang="ppl">
+				<seg>Firefox accounts</seg>
+			</tuv>
+		</tu>
+		<tu tuid="mozilla-accounts:branding.ftl:product-firefox-cloud" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Cloud</seg>
 			</tuv>
@@ -6674,7 +6674,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox Cloud</seg>
 			</tuv>
 		</tu>
-		<tu tuid="mozilla-accounts:branding.ftl:product-firefox-cloud" srclang="en-US">
+		<tu tuid="mozilla-accounts:auth.ftl:product-firefox-cloud" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Cloud</seg>
 			</tuv>
@@ -8322,7 +8322,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="test-pilot-firefox-send:send.ftl:title" srclang="en-US">
+		<tu tuid="test-pilot-firefox-send:send.ftl:send-brand" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Send</seg>
 			</tuv>
@@ -8330,7 +8330,7 @@ be temporary, and you can try again later.&lt;/li&gt;
 				<seg>Firefox Send</seg>
 			</tuv>
 		</tu>
-		<tu tuid="test-pilot-firefox-send:send.ftl:send-brand" srclang="en-US">
+		<tu tuid="test-pilot-firefox-send:send.ftl:title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox Send</seg>
 			</tuv>

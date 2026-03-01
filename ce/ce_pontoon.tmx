@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2026-02-01T00:44:35.950479">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2026-03-01T00:44:59.542856">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/tag.ftl:tag-page-shortcut-toogle-mouse-keyboard" srclang="en-US">
@@ -131,12 +131,28 @@
 				<seg>Тхоьх лаьцна</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:about-us" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>About us</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Тхох лаьцна</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:accepted-files" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Accepted file types: .tsv only</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>ТӀеоьцу файлийн тайпанаш: .tsv  хIара бен йац</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/demo.ftl:demo-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Account</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Акаунт</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-playbook-how-record-content-5" srclang="en-US">
@@ -163,12 +179,36 @@
 				<seg>Ачоми</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:prompt-page-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } &lt;micIcon&gt;&lt;/micIcon&gt; and respond as naturally as you can</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>{ $actionType }&lt;micIcon&gt;&lt;/micIcon&gt; адамо ма-оллара жоп ло</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:audio-page-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } &lt;playIcon&gt;&lt;/playIcon&gt; and write down what you hear the person saying</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>иштта дӀа а йазде хьайне хезаш долу къамел</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt;нийса бийцири цара алам?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcription-page-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } &lt;playIcon&gt;&lt;/playIcon&gt; Listen to the audio clip, and check the transcription. Does it match? If not, edit it to match perfectly.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Аудио кийсаке ладогӀа, транскрипци а талла. И шиъ цхьаьнадогӀий? Нагахь ца догӀуш делахь, ма-дарра нисде иза</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
@@ -281,6 +321,14 @@
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>1000 кхаччалц аламаш тӀетоха</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-question-page-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add up to 25 questions &lt;icon&gt;&lt;/icon&gt; to the { $currentLocale } dataset for people to answer</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>тӀетоха 25 кхаччалц хаттарш&lt;icon&gt;&lt;/icon&gt;хаамийн гуларе{ $currentLocale } нахе жоьпаш далийтархьамма</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-add-voice" srclang="en-US">
@@ -403,6 +451,14 @@
 				<seg>Аламаш схьаоьцуш гӀалат даьлла</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-add-vote-error-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred in voting the question</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хаттарна кхаж туьйсуш гӀалат даьлла</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>An error occurred reviewing this sentence</seg>
@@ -417,6 +473,86 @@
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Хьан озан хаам дӀабохьуйтуш гӀалат даьлла</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:create-transcript-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while creating this transcript</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀокху йозане ерзорехь (транскрипци кхуллуш) гӀалат даьлла</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcript-edited-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while editing the transcript</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Транскрипци хийцуш гӀалат даьлла</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while recording</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Аз дӀайаздечу хенахь гӀалат даьлла</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcript-skipped-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while skipping the transcript</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Транскрипци чекхйолуьйтуш гӀалат даьлла</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-skipping" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while skipping this prompt</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Дехар юкъахдита гӀортарехь гӀалат хили</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-uploading-response" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while uploading your response</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Жоп дӀадахьийта ца дели</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:add-vote-error-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while voting the prompt</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Кхаж тасарехь гӀалат даьлла</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:vote-transcript-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An error occurred while voting the transcript</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Транскрипцина кхаж туьйсуш гӀалат даьлла</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-content-500" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>An unexpected error occurred. Please try again later. For help, please join the &lt;matrixLink&gt;Matrix community chat&lt;/matrixLink&gt;, monitor site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt; or visit &lt;discourseLink&gt;our Discourse forums&lt;/discourseLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ЦӀаьххьана гӀалат даьлла.цхьа кӀеззиг хан яьлча юха хьажа. ГӀо эшахь, чу вало тхан&lt;matrixLink&gt;Matrix чате&lt;/matrixLink&gt; сайтан тӀехь долчу гӀалаташна тергам бе&lt;githubLink&gt;GitHub-ехь&lt;/githubLink&gt; .  я  вола тхан &lt;discourseLink&gt;Discourse форумашка&lt;/discourseLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:action-items-section-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Anyone can preserve, revitalise and elevate their language by sharing, creating and curating text and speech datasets.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Йозанан а, къамелан а хаамаш кхуллуш, дӀасабаржош, иштта вовшахтухуш, хӀоранна а шен мотт ларбан, юхаденбан, кхио а йиш ю</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
@@ -449,6 +585,14 @@
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Арагонизийн</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:signup-form-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Are you already in our Beta testing group for Common Voice’s Spontaneous Speech Project?</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хьо Common Voice-ан шашех долчу къамел тергам бечу (Beta) тобанехь вуй?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-example-1-explanation" srclang="en-US">
@@ -547,12 +691,44 @@
 				<seg>Атайал</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-check-transcript-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A transcription should capture every word or non-lexical conversation sound that was said by the person, including repetitions.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>(йозане ерзоро) адамо аьлла хӀора дош а, я къамелан маьӀна доцу аьзнаш а, юхаалларш а ма-дарра схьалаца деза Транскрипцино</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-learn-how-to-use-check-transcript-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>A transcription should capture every word or non-lexical conversation sound that was said by the person, including repetitions.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Транскрипцино стага аьлла хӀора дош а, дешнийн маьӀна доцу (non-lexical) къамелан аьзнаш а чулаца деза, юхадийцарш (repetitions) юкъахь а долуш</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:confirmation-modal-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Attention!</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Терго йе</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:automotive_transport" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Automotive and Transport</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>машенан а, транспортан а</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/avatar.ftl:avatar-uploaded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Avatar uploaded</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Аватар чуяьккхина</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-is-it-valid-text" srclang="en-US">
@@ -569,6 +745,14 @@
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>ТӀехьа тӀех сов гӀовгӀанах ларло - атта хезаш хила веза хьо</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:awards" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Awards</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>СовгӀаташ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:az" srclang="en-US">
@@ -593,6 +777,14 @@
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Баба Малай</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/demo.ftl:card-button-back" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Back</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Юха</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-title" srclang="en-US">
@@ -787,6 +979,22 @@
 				<seg>Бетави</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:why-card-2-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Better support for language realities like translanguaging and &lt;mark&gt;code-switching&lt;/mark&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Маттана дика гӀо лацар, масала:къамел деш цхьана маттера кхечу матте валар &lt;mark&gt;код-дӀатохар&lt;/mark&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:why-card-3-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Better support for languages that have little or &lt;mark&gt;no text corpus&lt;/mark&gt; to use (eg, sociolects, variants, historically unscripted languages etc)</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Дика гӀо лацар йозанан бух боцуш йа кӀеззиг болу метташна  (масала: социальни тобанийн меттадакъаш (социолекташ), меттан кеаш, йа исторически йоза хилла доцу меттанаш)</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:brx" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bodo</seg>
@@ -800,7 +1008,7 @@
 				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt; Clips</seg>
 			</tuv>
 			<tuv xml:lang="ce">
-				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt;аудио-д1айаздарш</seg>
+				<seg>&lt;bold&gt;{ $count }&lt;/bold&gt;аудио-дӀайаздарш</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
@@ -809,6 +1017,14 @@
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>&lt;bold&gt;ГIо де тхуна&lt;/bold&gt; дуккха а аьзнаш схьакаро</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:hero-subtitle-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;Why should AI only work for a few of the world’s languages?&lt;/bold&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;bold&gt;AI масех маттахь бен болх беш йоцуш хӀунда хила еза?&lt;/bold&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:fue" srclang="en-US">
@@ -841,6 +1057,14 @@
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Бретонан</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/demo.ftl:demo-language-select-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Browse Languages</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Меттанаш талла</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:bsk" srclang="en-US">
@@ -915,6 +1139,14 @@
 				<seg>Бурйатан</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:signup-terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By clicking “Send a link to my email”, you agree to our &lt;termsLink&gt;Terms of Service&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Policy&lt;/privacyLink&gt; and that Mozilla may email you with information on how to participate in the Beta Testing for Common Voice’s Spontaneous Speech Project.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>"Сан поште хьажорг (линк) дӀаяхьийта" тӀе таӀийначул тӀаьхьа, хьо реза хуьлу тхан &lt;termsLink&gt;Лелоран бакъонашна а,&lt;/termsLink&gt;  &lt;privacyLink&gt;Къайлахаллин политикана&lt;/privacyLink&gt; а. Иштта хьо реза хуьлу Mozilla-но хьан поште Common Voice проектан шашех къамелан (Spontaneous Speech) Beta-тестированехь муха дакъалаца деза боху хаамаш дӀабахьийтарна.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:email-opt-in-privacy-v2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>By opting in to receive emails you state that you are okay with Mozilla handling this info as explained in Mozilla’s &lt;privacyLink&gt;Privacy Policy&lt;/privacyLink&gt;.</seg>
@@ -947,12 +1179,28 @@
 				<seg>Камерунан Пигин</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:validation-guideline-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Can be answered in a few sentences</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Масех аламца жоп дала йиш йу</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Юхадаккхар</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:cancel-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Йухадаккха</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cancel" srclang="en-US">
@@ -1049,6 +1297,22 @@
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Нохчийн</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:check-editbox-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Check</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Талла</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:check" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Check</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Талла</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-instruction" srclang="en-US">
@@ -1171,6 +1435,30 @@
 				<seg>ТIетаIйе</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-check-transcript-guidance" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click &lt;guidanceLink&gt;here&lt;/guidanceLink&gt; to learn how to use this page</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;guidanceLink&gt;кхузахь тӀетаӀайе&lt;/guidanceLink&gt;хӀара агӀо муха лело еза Ӏамо</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-transcribe-guidance" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click &lt;guidanceLink&gt;here&lt;/guidanceLink&gt; to learn how to use this page</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;guidanceLink&gt;кхузахь тӀетаӀайе&lt;/guidanceLink&gt;хӀара агӀо муха лело еза Ӏамо</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-prompts-guidance" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Click &lt;guidanceLink&gt;here&lt;/guidanceLink&gt; to learn how to use this page</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;guidanceLink&gt;кхузахь тӀетаӀайе&lt;/guidanceLink&gt;хӀара агӀо муха лело еза Ӏамо</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-clip-graveyard" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Clip Graveyard</seg>
@@ -1185,6 +1473,22 @@
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Клипаш чуяьхна</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:clips-you-recorded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clips You've Recorded</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ахьа дӀаязйина кийсак</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:clips-you-validated" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clips You've Validated</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Ахьа тӀеэцна кийсакаш</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-playbook-how-add-language-collecting-sentences-heading" srclang="en-US">
@@ -1211,6 +1515,14 @@
 				<seg>Common Voice Датийн гулар</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:action-items-section-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Common Voice is a free, open source platform for community-led data creation</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Common Voice — иза маьхза а, дӀайиллина код йолу а платформа ю, юкъараллин гӀоьнца хаамаш кхолла лерина йолу</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-playbook-how-funded-content-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Common Voice is a project of the Mozilla Foundation, a US 501c3. The project is currently funded entirely by &lt;philantropicGrantLink&gt;philanthropic grants&lt;/philantropicGrantLink&gt;, and donations from people around the world.</seg>
@@ -1235,12 +1547,38 @@
 				<seg>Common Voice компанино шолгӀа платформа йолош ю, органикан а, шен-шен кепара а, шифр йоцуш а къамел гулдарна тӀехьажийна йолу. Цо гӀо дийр ду масех юкъараллина хаамаш сиха гулбан, иштта пайде хир ду хаамаш Ӏилманчашна а, девелоперашна а.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/delete.ftl:why-delete-recordings" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Common Voice recordings are used by academics, small businesses, and voice recognition enthusiasts to help train and grow publicly available resources like voice models.
+
+Can you let us know why you would like your recordings deleted?</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Common Voice-н аьзнаш Ӏилманчаша а, жима бизнес лелочара а, иштта аьзнийн технология езархоша а леладо. Цара гӀо до аьзнийн моделаш санна йолу, массарна а елла ресурсаш Ӏамо а, кхио а. Хьайн аьзнаш дӀадаха хьуна хӀунда лаьа, тхоьга дийца аьтто хир барий хьан?</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-playbook-how-project-governance-content-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Community participation and decision making.</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Юкъараллин дакъалацар а, сацамаш тӀеэцар а.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-title-502" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Connection interrupted</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ЗӀе хаьдда</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/avatar.ftl:connect-gravatar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Connect with Gravatar</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Gravatar-ца зӀе таса</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:contact" srclang="en-US">
@@ -1257,6 +1595,14 @@
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>зӀенан кеп</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:contact-us" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contact us</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Тхоьца зӀе</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:contact-us" srclang="en-US">
@@ -1276,6 +1622,14 @@
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>кхидӀа а дӀадахьар</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:continue-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
 			</tuv>
@@ -1307,6 +1661,14 @@
 				<seg>аламаш кховдабар</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:contribution-activity" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribution Activity</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Декъашхочун жигаралла</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-page-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribution Criteria</seg>
@@ -1331,6 +1693,14 @@
 				<seg>Куки</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:footer-text-cookies" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;cookiesLink&gt;Cookies&lt;cookiesLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;cookiesLink&gt;Кукиш&lt;cookiesLink&gt;</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:zoc" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Copainalá Zoque</seg>
@@ -1353,6 +1723,14 @@
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Корниш</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:correct" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Correct</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Нийса ду</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:co" srclang="en-US">
@@ -1451,12 +1829,36 @@
 				<seg>Даргийнан</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:dataset-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dataset</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хаамийн гулар</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:question-dataset-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Dataset: { $datasetLanguage }</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Датийн гулар{ $datasetLanguage }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-tag-dataset-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dataset [{ $datasetName }]</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хаамийн гулар</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-question-dataset-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Dataset: { $datasetName }</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хаамийн гулам</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-dataset-release-title" srclang="en-US">
@@ -1491,12 +1893,28 @@
 				<seg>ДIайаккха</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:delete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ДIайаккха</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete my recordings</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>ДIадаха сан дIайаздарш</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/delete.ftl:profile-form-delete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Delete Profile</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Профил дӀайаккха</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:mki" srclang="en-US">
@@ -1523,7 +1941,7 @@
 				<seg>Долуо</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Different language</seg>
 			</tuv>
@@ -1531,7 +1949,7 @@
 				<seg>Кхин мотт</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Different language</seg>
 			</tuv>
@@ -1611,6 +2029,14 @@
 				<seg>Хьайн аз сагӀане даккха</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:done" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Done</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Дина</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:do-not-section-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>do not</seg>
@@ -1625,6 +2051,14 @@
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Хьайн мотт Common Voice чохь ца го хьуна хӀинца а?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/avatar.ftl:browse-file" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Drag and drop or &lt;browseWrap&gt;Browse&lt;/browseWrap&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Схьа а лаций, кхузе кхосса йа &lt;browseWrap&gt;Хьажа&lt;/browseWrap&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-instruction" srclang="en-US">
@@ -1699,6 +2133,14 @@
 				<seg>Эбри</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:edit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Edit</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Нисдар</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/tag.ftl:edit-tag" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit tag</seg>
@@ -1739,6 +2181,14 @@
 				<seg>Почта</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:contact-us-email" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Email: &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Электрони пошта&lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-stay-in-touch-text-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;emailFragment&gt;Sign up&lt;/emailFragment&gt; to our mailing list to learn how you can take part in campaigns, events and co-design features on Common Voice.</seg>
@@ -1761,6 +2211,22 @@
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Ингалс</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-add-question-textarea-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter questions with code-switching, one per line. People are more likely to respond with code-switching when the question also contains code-switching.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Меттанаш эдеш (code-switching) хаттарш чудаха, хӀора могӀарехь цхьацца. Нахана иштта ийначу маттахь жоп дала атта хир ду, нагахь хаттар а иштта делахь</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:signup-input-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Enter your email</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хьайн пошта йазъе</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/modals/download.ftl:download-form-email" srclang="en-US">
@@ -1795,12 +2261,28 @@
 				<seg>Алар тӀетохарехь гӀалат ду</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-code" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Error { $code }</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ГӀалат</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/tag.ftl:tag-error-toast-message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Error submitting tags</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Билгалонаш чуйохуьйтуш гӀалат даьлла</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:error-playing-audio" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Error while playing audio file.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Аудио лакхийта ца елла</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:myv" srclang="en-US">
@@ -1849,6 +2331,14 @@
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Хиламаш</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:everyone" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Everyone</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀора стаг</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:ee" srclang="en-US">
@@ -2167,6 +2657,30 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Дакъа лацар</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:get-started" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get started &lt;icon&gt;&lt;icon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ДӀадоладе&lt;icon&gt;&lt;icon&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:get-started-goals" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get started with goals</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Ӏалашонашца болх дӀаболабе</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:get-started-speech" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Get Started with Speech Recognition</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Аз довзар Ӏамо волало</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:aln" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Gheg Albanian</seg>
@@ -2189,6 +2703,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Жилаки</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:goal-reached" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Goal reached</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Ӏалашо кхочушхили</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:gig" srclang="en-US">
@@ -2263,6 +2785,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Гуаранийн</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:read-full-guidelines-here" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;guidanceLink&gt;Read full guidelines here&lt;/guidanceLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;guidanceLink&gt;Бакъонаш кхузахь еша&lt;/guidanceLink&gt;</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:gid" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Guidar</seg>
@@ -2272,6 +2802,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:guidelines" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Guidelines</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Куьйгаллин низам</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:validation-guidelines-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Guidelines</seg>
 			</tuv>
@@ -2487,7 +3025,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Муха эвсаре кхио мегар ду вай мотт  Common Voice тӀехь?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:how-does-it-work-title-v2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-nav-how-it-works-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does Common Voice work?</seg>
 			</tuv>
@@ -2495,7 +3033,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Common Voice-с болх муха бо?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-nav-how-it-works-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:how-does-it-work-title-v2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does Common Voice work?</seg>
 			</tuv>
@@ -2573,6 +3111,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Ахчанца гIо мичар хуьла Common Voice-сан?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:how-spontaneous-speech-works" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How Spontaneous Speech works</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Шашха долу къамел муха хӀоттало</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-review-small-batch-title" srclang="en-US">
@@ -2735,7 +3281,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Нагахь санна хIорш хьайн дешнаш делахь, схьаала &lt;курсивца яздина Текст&gt;«Ша-шех цитата»&lt;/курсивца яздина Текст&gt; . Тхуна хаа деза, хьуна мичахь карийна и чулацам, тхан иза юкъараллин доменехь буй хьовса йиш хилийта а, авторан бакъонашца цхьа а дехкарш доци хаа а. Цитатах лаьцна кхин дӀа хаа лууш волчунна хьажа тхан &lt;guidelinesLink&gt;Куьйгаллин агӀо&lt;/guidelinesLink&gt;.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description-extended" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
 			</tuv>
@@ -2743,7 +3289,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Нагахь санна аудио-дӀаяздар доьхна делахь, я юкъарадуьлуш делахь, юхатоха, ерриг текст хезаш яцахь.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
 			</tuv>
@@ -2861,6 +3407,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Индо Кохистанан</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:contact-us-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Interested in getting involved with this project, or partnering with us?</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Проектехь дакъалаца йа накъосталла дан лаьий хьуна?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:ia" srclang="en-US">
@@ -3039,6 +3593,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Common Voice почтан тептаре дӀакхета</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-prompts-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Just respond to the prompt as naturally as you can in a couple of sentences. Make sure your language is respectful and inoffensive.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>адамо ма-оллара, шина-кхаа аламцаа жоп ло. Хьайн къамел оьзда а, стагана цатам болчу хӀуманашна гена а хилийта</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Just Unsure?</seg>
@@ -3175,12 +3737,28 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Казахан</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/avatar.ftl:max-file-size" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $kb }kb max</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>{ $kb }kb лаккхара барам</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/delete.ftl:keep" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Дита</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keep it up, record again &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
 			</tuv>
 			<tuv xml:lang="ce">
-				<seg>Саца ма де, дӀаязде кхин а&lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+				<seg>Саца ма де, дӀайазде кхин а&lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-keep-recordings" srclang="en-US">
@@ -3269,6 +3847,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>&lt;key&gt;{ tag-page-shortcut-toogle-mouse-keyboard }&lt;/key&gt;{ toogle-mouse-keyboard }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:kjh" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Khakas</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хакас</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:xhe" srclang="en-US">
@@ -3583,12 +4169,52 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Лаз</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:partnerships-menu-item-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn about partnerships with Common Voice</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Common Voice компаница накъосталла дарх лаьцнарг довза .</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-check-transcript" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn how to check a transcription</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Йозане ерзийна аудио (транскрипци) муха талла еза Ӏамаде</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-nav-playbook" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn how to take part</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Дакъалаца Ӏамаде</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-transcribe" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn how to transcribe</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Йозане ерзор Ӏамаде</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:learn-how-to-use" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn how to use this page</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>АгӀо муха лело беза хьажа</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-prompts" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Learn how to use this page</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>АгӀо муха лело беза хьажа</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
@@ -3615,6 +4241,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Ленду</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/demo.ftl:demo-get-started" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Let's Get Started</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Болх дӀаболабе вай!</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:lij" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Ligurian</seg>
@@ -3639,7 +4273,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ТIехьажорган Эвсарт йина</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -3647,7 +4281,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ЛадогIа</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -3687,6 +4321,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ТIейалар</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:loading" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Loading…</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ТIейалар</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-loading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Loading sentences…</seg>
@@ -3701,6 +4343,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Лоарки</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:login" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log In</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Чувала</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:login-instruction-multiple-sentences" srclang="en-US">
@@ -3719,6 +4369,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ДӀаволавала , чувола я дӀавазло</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:login-signup" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log In / Sign Up</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Чувола / ДӀавазло</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log In / Sign Up</seg>
@@ -3728,6 +4386,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:logout" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log Out</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Ара Вала</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:logout" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log Out</seg>
 			</tuv>
@@ -3804,7 +4470,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Make sure the platform is recording before you start speaking, and that it only stops once you’re finished.</seg>
 			</tuv>
 			<tuv xml:lang="ce">
-				<seg>Терго йе, хьо къамел дан волавалале хьалха аз дӀаяздеш хилар а, ахь къамел чекхдаьккхича бен иза сецна цахилар а</seg>
+				<seg>Терго йе, хьо къамел дан волавалале хьалха аз дӀайаздеш хилар а, ахь къамел чекхдаьккхича бен иза сецна цахилар а</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-make-sure" srclang="en-US">
@@ -3885,6 +4551,46 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Маратхи</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:check-bubble-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;mark&gt;Check&lt;/mark&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;mark&gt;Тергам бе&lt;/mark&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:data-bubble-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;mark&gt;Data&lt;/mark&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;mark&gt;Хаамаш&lt;/mark&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:prompt-bubble-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;mark&gt;Prompt&lt;/mark&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;mark&gt;Дехар&lt;/mark&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:respond-bubble-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;mark&gt;Respond&lt;/mark&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;mark&gt;Жоп ло&lt;/mark&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:transcribe-bubble-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;mark&gt;Transcribe&lt;/mark&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;mark&gt;Йозане ерзор&lt;/mark&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:languages-donate-banner-cta" srclang="en-US">
@@ -4199,6 +4905,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>н</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:validate-page-no-button-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>N</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>N</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-reject-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>N</seg>
@@ -4261,6 +4975,22 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Керланаш а, карарчу хенахь болу хиламаш а</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/demo.ftl:card-button-next" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Next</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хьалха</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:sba" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Ngambay</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Нгамбай</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:nnh" srclang="en-US">
@@ -4343,6 +5073,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Кхечу къаьмнийн элпаш а доцуш</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/avatar.ftl:gravatar_not_found" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No gravatar found for your email</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хьан email-ца Gravatar ца карийна</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:dropdown-no-results" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No match found</seg>
@@ -4373,6 +5111,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Терахьаш а, леррина хьаьркаш а дац</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:validation-guideline-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No offensive, prejudiced remarks or sensitive questions</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Сийсаз а, кхераме хаттарш а дихкина ду</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:hno" srclang="en-US">
@@ -4421,6 +5167,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Таллам бан Аламаш бац &lt;addLink&gt;Амма Кхин  аламаш тӀетоха йиш ю!&lt;/addLink&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:validation-guideline-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No soliciting personal information (e.g., names, financial details)</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Долара хаамаш бехар дихкина ду (масала: цӀераш, финансашца боьзна хаамаш)</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/tag.ftl:tag-empty-submit-error" srclang="en-US">
@@ -4623,6 +5377,30 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Вайн урхалла хӀокху билламашна тӀехь лаьтташ ду:</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:hero-subtitle-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Our language is our story, our community, our culture. Let's create the datasets that we want to see in the world.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Вайн мотт — вайн истори а, вайн юкъаралла а, вайн культура а ю. Дуьненахь вайна ган лаахь, вайн меттан хаамийн гуларш (datasets) вай вовшахтухур ю!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/partner.ftl:partnerships-our-partners" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Our Partners</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Тхан Цхьаьнхой</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:our-partners-include" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Our partners include...</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Тхан накъосташна юкъабоху</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>p</seg>
@@ -4711,12 +5489,36 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Цхьаьнхой</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/partner.ftl:partners" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Partners</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Цхьаьнхой</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/partner.ftl:partnerships-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Partnerships</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Цхьанхалла</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-playbook-how-grow-language-content-6" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partnerships and networks</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Цхьанхаллаш а , машийн зIенаш а</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:about-menu-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Partnerships, Press and Stories, Community and Languages</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Цхьанхалла, зорбанан гӀирс а, дийцарш а, юкъаралла а, меттанаш а</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-2-explanation" srclang="en-US">
@@ -4838,7 +5640,15 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Privacy</seg>
 			</tuv>
 			<tuv xml:lang="ce">
-				<seg>Къайлаха</seg>
+				<seg>Къайлалла</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:footer-text-privacy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;privacyLink&gt;Privacy&lt;/privacyLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;privacyLink&gt;Къайлахалла&lt;/privacyLink&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-playbook-how-project-governance-content-3" srclang="en-US">
@@ -5097,6 +5907,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>соьга схьахкачор е-мейлаш санна къовсаме кхайкхамах, Ӏалашонаш дагайоуьйту, кхиамех лаьцна хаамаш, Common Voice-ах лаьцна керланаш.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:recorded-clips" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recorded Clips</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ДӀаязйина кийсикаш</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-last-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
@@ -5113,12 +5931,68 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>[Аудио-ДӀаяздар чекхдолу тӀаьххьара дош чекхдалале].</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-empty-audio" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recording failed. The audio file seems to be empty. Please try again.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ДӀаяздарехь гӀалатдели. Аудио чохь хӀумма а яц. Юха хьажа</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-recording-too-long" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recording is too long. Maximum duration is { $maxDurationMinutes } minutes.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ДӀаяздинарг чӀогӀа деха ду. лаккхара хан{ $minDurationSeconds } минот хила еза</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-recording-too-long-minutes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recording is too long. Maximum duration is { $maxDurationMinutes } minutes.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ДӀаяздинарг чӀогӀа деха ду. лаккхара хан{ $minDurationSeconds } минот хила еза</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-recording-too-short" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recording is too short. Minimum duration is { $minDurationSeconds }  seconds.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ДӀаяздинарг чӀогӀа доца ду. лаххара хан{ $minDurationSeconds } секунд хила еза</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-recording-too-short-seconds" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recording is too short. Minimum duration is { $minDurationSeconds } seconds.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ДӀаяздинарг чӀогӀа доца ду. лаххара хан{ $minDurationSeconds } секунд хила еза</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-platform-webview" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Recording may not be supported in this limited browser. Please use a full browser app.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Аз дӀаяздан браузеран кхин верси оьшу. Кхин браузер схьаелла</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-record-toggle-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Record/Stop</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>ДӀаяздар/Сацор</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:record-player-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Record your response</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хьайн аз дӀайазде</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:read-sentences-menu-item-tooltip" srclang="en-US">
@@ -5134,7 +6008,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Record yourself responding to questions and prompts in your language</seg>
 			</tuv>
 			<tuv xml:lang="ce">
-				<seg>Хаттаршна а, хаамна а хьайн маттахь жоьпаш луш дӀаязде .</seg>
+				<seg>Хаттаршна а, хаамна а хьайн маттахь жоьпаш луш дӀайазде .</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:record-button-label" srclang="en-US">
@@ -5159,6 +6033,22 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>юхатоха</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/delete.ftl:remove" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ДӀадаккха</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/avatar.ftl:remove-avatar" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Remove Avatar</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Аватар дӀайаккха</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/tag.ftl:remove-tags" srclang="en-US">
@@ -5193,12 +6083,28 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Мотт бехар</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/request-language.ftl:request-for-scripted-speech-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Request for Scripted Speech</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Йозанан ларца долчу къамелан дехар</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:request-new-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Request New Language</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Керла мотт бехар</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-title-504" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Request timeout</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Жоп даларан хан чекхъяьлла</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/modals/contact.ftl:contact-required" srclang="en-US">
@@ -5225,6 +6131,38 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Юха дӀаязъе клип</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:respond" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Respond</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Жоп ло</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-learn-how-to-use-answer-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Respond to the prompt as naturally as you can, feel free to code-switch between languages if it feels natural. Make sure your language is respectful and inoffensive.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хаттарна ма-хуьллу атта жоп ло, нагахь хьуна нийса хетахь, меттанаш эдеш (code-switching) къамел де. Хьан мотт лераме а, цхьанна а бехке (offensive) боцуш а хила беза</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:prompt-response-deleted-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Response deleted successfully</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Жоп кхиамца дӀадаьккхина</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:prompt-submitted-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Response submitted successfully</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Жоп кхиамца дӀахьажийна</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Return</seg>
@@ -5249,20 +6187,20 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>юха верза Common Voice хаамаш гуларе</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:review" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="ce">
-				<seg>Таллам бе</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Таллам</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:review" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Таллам бе</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
@@ -5353,7 +6291,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Хьайн маттахь болу аламаш таллар</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-sentences" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Sentences</seg>
 			</tuv>
@@ -5361,7 +6299,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Аламашна таллам</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:review-sentences" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Sentences</seg>
 			</tuv>
@@ -5465,6 +6403,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>с</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:validate-page-skip-button-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>S</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>S</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>S</seg>
@@ -5551,6 +6497,38 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Шотландийн</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:scripted-speech" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Scripted Speech</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Йозанан ларца къамел</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:scripted-card-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Scripted Speech</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Йозанан ларца къамел</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:scripted-speech" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>SCRIPTED SPEECH</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Йозанан ларца къамел</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/request-language.ftl:request-language-already-available-scs" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Scripted Speech Already Available</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Йозанан ларца къамел кийча ду</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:searchbox-default-aria-label" srclang="en-US">
@@ -5679,6 +6657,22 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Сена</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:signup-button-value" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Send a link to my email</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Сан поште хьажорг дӀаяхьийта</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/demo.ftl:demo-account-sign-up" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Send sign up link</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ДӀайазваларан хьажорг яхьийта</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence" srclang="en-US">
@@ -5889,6 +6883,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>дIаязло</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:validation-guideline-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Simple and easy for anyone to understand</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Массо кхеташ а, атта а долуш</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:sd" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sindhi</seg>
@@ -6033,6 +7035,54 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Цхьаммо мотт тӀетоха боху.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:error-fetching-audio" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Something went wrong while fetching audio for transcriptions. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Йозане берзо аудио-хаамаш схьаоьцуш цхьа гӀалат даьлла. Дехар ду, кӀеззиг хан яьлча юха хьажа</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:error-fetching-prompts" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Something went wrong while fetching prompts. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хаттарш (Дехарш) схьаоьцуш цхьа гӀалат даьлла. Дехар ду, кӀеззиг хан яьлча юха хьажа</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-error-fetching-questions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Something went wrong while fetching questions. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хаттарш схьаоьцуш гӀалат даьлла. КӀеззиг хан яьлча юха хьажа</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-error-fetching-datasets" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Something went wrong while fetching the list of available datasets. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>болуш болу хаамийн гуламийн могӀам схьаоьцуш гӀалат даьлла. КӀеззиг хан яьлча юха хьажа</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-error-fetching-transcriptions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Something went wrong while fetching transcriptions. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Транскрипцеш схьаоьцуш гӀалат даьлла. КӀеззиг хан яьлча юха гӀоьрта</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:error-fetching-transcriptions" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Something went wrong while fetching transcriptions. Please try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Транскрипцеш схьаоьцуш гӀалат даьлла. КӀеззиг хан яьлча юха хьажа</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:snk" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Soninke</seg>
@@ -6055,6 +7105,30 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Сорбиан, Уппер</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:banner-error-slow-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sorry, Common Voice is running slowly. Thanks for your interest.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Бехк ма билла, Common Voice меллаша болх беш ю. Тхан проекте синкӀоме хиларна баркалла</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-something-went-wrong" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sorry, something went wrong</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Бехк ма билла, цхьа гӀалат даьлла</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-title-500" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Sorry, something went wrong</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Бехк ма билла, цхьа гӀалат даьлла</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-source" srclang="en-US">
@@ -6137,6 +7211,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Къамелан нисдаран меню</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-get-started" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;speechBlogLink&gt;Get Started with Speech Recognition&lt;/speechBlogLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;speechBlogLink&gt;Аз довзар Ӏамо волало&lt;/speechBlogLink&gt;</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Start recording</seg>
@@ -6151,6 +7233,22 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>ДӀадоладе яздар лехам бан</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:stats" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Stats</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ЖамӀаш</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:banner-error-slow-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Status Page</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хьолан агӀо</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-3-fixed-title" srclang="en-US">
@@ -6185,6 +7283,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Керла Common Voice хаамийн гуларш хӀинца дӀаэца йиш ю еккъа цхьана тхан гергарчу платформехула, Mozilla Data Collective. ДӀакхета 300 сов дуьненаюкъарчу хаамийн гуларшка кхача, юкъаралло кхоьллина а, цунна лерина а.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/request-language.ftl:need-help-deciding-platform-explanation-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;strong&gt;Scripted Speech&lt;/strong&gt; (traditionally what you know as Common Voice) is where you can read sentences aloud in your language.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;strong&gt;Кечдина къамел&lt;/strong&gt; (ламастехь Common Voice санна хьуна девзаш дерг) — кхузахь ахь хьайн маттахь аламаш тӀира дӀаебеша йиш ю</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-1-fixed-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;strong&gt;[Sneeze]&lt;/strong&gt; The giant dinosaurs of the &lt;strong&gt;[cough]&lt;/strong&gt; Triassic.</seg>
@@ -6199,6 +7305,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Таллам бан дӀакхачо</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:submit-all-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit All</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Дерриге дӀадахьийта</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:answer-questions-menu-item-aria-label" srclang="en-US">
@@ -6241,6 +7355,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Керла хаттарш чу даха юкъарлонна деша а, жоьпаш дала а .</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:submitted" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submitted</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ДӀадахьийтина</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:success" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Success</seg>
@@ -6255,6 +7377,22 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>кхиаман хьаьрк</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:accept-vote-toast-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Successfully accepted question</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хаттар кхиамца тӀеэцна</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:reject-vote-toast-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Successfully rejected question</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хаттар кхиамца юхатоьхна</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:su" srclang="en-US">
@@ -6425,6 +7563,22 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>Технологи а, робототехника а</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:hero-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Technology that speaks your language</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хьан мотт буьйцу технологи</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:tuq" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tedaga</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Тидага</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:teg" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Teke</seg>
@@ -6455,6 +7609,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Бехкамаш</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:footer-text-terms" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;termsLink&gt;Terms&lt;/termsLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;termsLink&gt;Бехкамаш&lt;/termsLink&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:cut" srclang="en-US">
@@ -6603,12 +7765,60 @@ We would like to thank the following people and organizations for their help wit
 				<seg>карарчу ханна оцу  маттахь карлабаха аламаш бац.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-no-transcriptions-continue-skipped" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There are currently no transcriptions to check for this dataset. If you have skipped any, you can continue with skipped content or go to transcribe audio and try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀокху хаамийн гуларехь транскрипцин йан аудио хӀинца йац. Нагахь ахь цхьаерш тӀехйитинехь, хьан цаьрца болх бан йиш ю, я транскрипцеш талла гӀо, тӀаккха тӀаьхьо юха хьажа</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:no-transcriptions-continue-skipped-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There are currently no transcriptions to check for this language. If you have skipped any, you can continue with skipped content or go to transcribe audio and try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀокху маттахь талла транскрипцеш хӀинца яц. Нагахь ахь цхьаерш тӀехйитинехь, хьан цаьрца болх бан йиш ю, йа аудио йозане йерзо гӀо, тӀаккха тӀаьхьо  а юха хьажа.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-no-transcriptions-to-tag-continue-skipped" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There are currently no transcriptions to tag for this dataset. If you have skipped any, you can continue with skipped content or go to transcribe audio and try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀокху хаамийн гуларехь транскрипцин йан аудио хӀинца йац. Нагахь ахь цхьаерш тӀехйитинехь, хьан цаьрца болх бан йиш ю, я транскрипцеш талла гӀо, тӀаккха тӀаьхьо юха хьажа</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-playbook-what-is-language-content-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>There are lots of ways to think about language. For the purposes of speech recognition models, Common Voice suggests focussing on ‘mutual intelligibility’, or ‘can speakers of this language mostly understand one another if they try to?’</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Маттах лаьцна ойла ян дуккха а некъаш ду. Къамел довзаран моделашна Common Voice-о тӀедуьллу «вовшех кхетар» тӀе тидам бахийтар, я «и мотт буьйцурш вовшех кхета йиш юй, нагахь санна уьш гӀортахь?»</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-no-questions-continue-skipped" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There are no more questions for this dataset. If you have skipped any, you can continue with skipped content or go to transcribe audio and try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀокху хаамийн гуларехь кхин хаттарш дац. Нагахь ахь цхьаерш тӀехйитинехь, хьан цаьрца болх бан йиш ю, йа аудиона транскрипци йазйа гӀо, тӀаккха тӀаьхьо юха хьа</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:no-questions-continue-skipped-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There are no more questions for this language. If you have skipped any, you can continue with skipped content or go to transcribe audio and try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀокху меттан кхин хаттарш дац. Нагахь ахьа цхьадерш тӀехтиллинехь, цаьрца болх дӀабахьа мегар ду, йа аудио дӀаязъяре дехьа а ваьлла, жимма хан яьлча юха хьажа мегар ду</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:no-prompts-continue-skipped-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There are no more questions for this language. If you have skipped any, you can continue with skipped content or go to transcribe audio and try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀокху меттан кхин хаттарш дац. Нагахь ахьа цхьадерш тӀехтиллинехь, цаьрца болх дӀабахьа мегар ду, йа аудио дӀаязъяре дехьа а ваьлла, жимма хан яьлча юха хьажа мегар ду</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-long" srclang="en-US">
@@ -6635,12 +7845,44 @@ We would like to thank the following people and organizations for their help wit
 				<seg>аудио-дIайаздар тӀех доца дара</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-no-audio-continue-skipped-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There is currently no audio to transcribe for this dataset. If you have skipped any, you can continue with skipped content or go to review transcriptions and try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀокху хаамийн гуларехь транскрипцин йан аудио хӀинца йац. Нагахь ахь цхьаерш тӀехйитинехь, хьан цаьрца болх бан йиш ю, я транскрипцеш талла гӀо, тӀаккха тӀаьхьо юха хьажа</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:no-audio-continue-skipped-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>There is currently no audio to transcribe for this language. If you have skipped any, you can continue with skipped content or go to review transcriptions and try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀокху маттахь йозане ерзо аудиош хӀинца йац. Нагахь ахьа цхьаберш тӀехьатиттина делахь, цаьрца болх дӀабахьа йиш ю хьан, я йозанашка юха хьажа а мега, я кӀеззиг хан яьлча юха хьажа</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-content-504" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The request took too long to complete. This is usually temporary. Please try again. For help, please join the &lt;matrixLink&gt;Matrix community chat&lt;/matrixLink&gt;, monitor site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt; or visit &lt;discourseLink&gt;our Discourse forums&lt;/discourseLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Дехар кхочуш цадалуш дукха хан яьлла. Иза наггахь хуьла. Юха хьажа. ГӀо оьшуш делахь, &lt;matrixLink&gt;Matrix юкъараллин чате&lt;/matrixLink&gt; вола, &lt;githubLink&gt;GitHub тӀехь&lt;/githubLink&gt;  сайтан гӀалаташ тергам бе, я &lt;discourseLink&gt;тхан Discourse форумашка&lt;/discourseLink&gt; хьажа.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-volume-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Ешархошна юкъахь аудио-д1айаздарийн чӀогӀаллин бараман хийцамаш хир бу. Юха тоха,  Нагахь санна чӀогӀаллин бараман лакхара белахь аудио-яздар юкъар дохуш, я (дукха хьолахь) ,дуьйцург хезаш доцуш лахара белахь , язйинчу текстана тӀе а тевжаш бен , дуьцарг ца къаьсташ.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/avatar.ftl:file_too_large" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The selected file is too large</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Файлан барам сов боккха бу</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
@@ -6697,6 +7939,14 @@ We would like to thank the following people and organizations for their help wit
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Сайт дӀайоло кийча ю 75% гочйина йаьлча</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-content-503" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The site will be back up as soon as possible. For the latest information, please join the &lt;matrixLink&gt;Matrix community chat&lt;/matrixLink&gt; or visit &lt;githubLink&gt;GitHub&lt;/githubLink&gt; or &lt;discourseLink&gt;our Discourse forums&lt;/discourseLink&gt; to submit and monitor site experience issues.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Сайт ма-хуьллу сиха юха а болх бан йолалур ю. ТӀаьххьара хаамаш хаархьамма, иштта сайтаца Ӏотталун ампалшна тергам бан а, &lt;matrixLink&gt;Matrix юкъараллин чате&lt;/matrixLink&gt; вола, я &lt;githubLink&gt;GitHub&lt;/githubLink&gt; а, &lt;discourseLink&gt; Discourse форумашка&lt;/discourseLink&gt; а хьажа.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-localization-subtitle" srclang="en-US">
@@ -6779,6 +8029,22 @@ We would like to thank the following people and organizations for their help wit
 				<seg>Тоба ком</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:todays-recorded-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Today's Common Voice progress on clips recorded</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Common Voice тахана дӀаязйинчу кийсигашца болу кхиам</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:todays-validated-progress" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Today's Common Voice progress on clips validated</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Common Voice: тахана теллинчу кийсигашца болу кхиам</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/tag.ftl:toogle-mouse-keyboard" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Toggle popover</seg>
@@ -6811,12 +8077,52 @@ We would like to thank the following people and organizations for their help wit
 				<seg>Файлаш дукха ю</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:top-contributors" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Top Contributors</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Коьрта декъашхой</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:trw" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Torwali</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Торвали</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/demo.ftl:demo-account-card-body" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>To the right we outline the benefits and clarify what information we make public. Use the links below to get started with a Common Voice account on your own device.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Аьтту агӀор вай хӀоттийна оцу балхана хир йолу пайданийн план а, муьлха хаамаш массарна а гуш хир бу аьлла кхетам а. Лахарчу хьажоргашца (ссылкашца) пайда эца, хьайн гӀирсан (device) тӀехь Common Voice аккаунтца болх дӀаболо.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:toward-next-goal" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Toward next goal</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Кхин дӀа — керлачу кхиамашка</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:transcribe" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcribe</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Йозане ерзор</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:editbox-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcribe</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Йозане ерзор</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:transcribe-audio-menu-item-tooltip" srclang="en-US">
@@ -6833,6 +8139,38 @@ We would like to thank the following people and organizations for their help wit
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Аудио дӀаяздарш тексте даха</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcript-edited-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcript edited successfully</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Транскрипци кхиамца хийцина</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:transcript-skipped-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcript skipped successfully</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Транскрипци кхиамца чекхйалийтина</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:create-transcript-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcript submitted successfully</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>йоза кхиамца дӀадахьийтина</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:vote-transcript-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Transcript voted successfully</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Транскрипцина кхиамца кхаж тесна</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-playbook-how-add-language-translating-content-1" srclang="en-US">
@@ -6995,6 +8333,14 @@ We would like to thank the following people and organizations for their help wit
 				<seg>Украийнан</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:cannot-play-audio" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Unable to play audio. Please try again.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Аз лакха ца дели. Юха хьажа</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Understand contribution criteria</seg>
@@ -7025,6 +8371,14 @@ We would like to thank the following people and organizations for their help wit
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>ТIейаккхар юкъара йаккхина. Хьайн дIайаздарш дӀадаха лаьий хьуна?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/avatar.ftl:browse-file-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload an image file</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Сурт чудаккха</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:add-question-success-toast-message" srclang="en-US">
@@ -7059,7 +8413,7 @@ We would like to thank the following people and organizations for their help wit
 				<seg>{ $uploadedSentences } -ннах { $totalSentences } алам гулбина. тIе таIйе &lt;downloadLink&gt;кхузахь&lt;/downloadLink&gt; юхатоьхна аламаш тIебаха.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-failed-toast" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:add-question-error-message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload failed, please retry.</seg>
 			</tuv>
@@ -7067,7 +8421,7 @@ We would like to thank the following people and organizations for their help wit
 				<seg>Чу ца йаьлла, юха хьажа.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:add-question-error-message" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-failed-toast" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload failed, please retry.</seg>
 			</tuv>
@@ -7097,6 +8451,22 @@ We would like to thank the following people and organizations for their help wit
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Кхин а аламаш чубахай?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-clip-upload-server" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload of this clip keeps failing at server. Reload the page or try again later.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>хӀара кийск серверна чуялла ца ло. АгӀо карлаяккха я тӀаьхьа юха хьажа</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-clip-upload" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload of this clip keeps failing, keep retrying?</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀара кийск чуцайолу, юха хьажа везий?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:ur" srclang="en-US">
@@ -7145,6 +8515,14 @@ We would like to thank the following people and organizations for their help wit
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>орфографи а, пунктуаци а нийса лелор</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:why-card-1-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Useful for &lt;mark&gt;organic speech contexts&lt;/mark&gt; and use cases (eg, when you want speech recognition to work with people speaking unscripted and colloquially)</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>&lt;mark&gt;Ӏаламан къамелан контексташкахь а,&lt;/mark&gt; лелош болчу меттигашкахь а пайдехьа ду (масала: нагахь хьуна аьзнех кхетош йолу программо (speech recognition), наха шаьш ма-дарра, кечам боцуш, шайн маттахь (диалекташца) дуьйцуш йолу хӀума къасто лаахь)</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:cs-do-not-section-guideline-3" srclang="en-US">
@@ -7233,6 +8611,22 @@ We would like to thank the following people and organizations for their help wit
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Хьайн маттахь дӀаяздина аларш талла</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:validate-page-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate &lt;validateIcon&gt;&lt;/validateIcon&gt; does this questions meet the guidelines?</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀара&lt;validateIcon&gt;&lt;/validateIcon&gt;  хаттарш бакъонашца догӀуш хилар чӀагӀде</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-validate-page-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Validate &lt;validateIcon&gt;&lt;/validateIcon&gt; that this question meets the guidelines.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀара хаттар бакъонашца догӀуш хилар тӀечӀагӀде &lt;validateIcon&gt;&lt;/validateIcon&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-playbook-how-project-governance-content-5" srclang="en-US">
@@ -7401,6 +8795,22 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 				<seg>Вебсайтан локализаци</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-duplicate-clips-all" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We could not upload { $total } clips. They have already been uploaded before. Let’s continue with the next batch!</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Кийск чу цайаккхайели,{ $total } хӀунда аьлча иза хьалха чуяьккхина ю. РогӀерчу гуларшца кхин дӀа доьлху вай</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-title-404" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We couldn’t find that page for you</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Тхуна и агӀо ца карийра</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-loading-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We couldn’t get any audio clips for you to listen to.
@@ -7453,6 +8863,14 @@ Please try again later.</seg>
 				<seg>Вайна авдио-д1айаздарш чекхйевлла хила тарло - агӀо карлаяккха, я тӀаьхьо юха хьажа.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:data-bubble-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We periodically release the dataset</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хаамийн гулар рогӀаллехь арахоьцу оха</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:privacy-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
@@ -7467,6 +8885,14 @@ Please try again later.</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Оха дӀахӀоттош ду краудсорсинг йиллина озан даташ. Хьайн озаца гӀо де, кхечу нехан дӀаяздарш нийса хилар тӀечӀагӀде, массарна а дика хилийта даташан гулар.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-title-503" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We’re experiencing unexpected downtime</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ЦӀаьххьана системан сацам хилла</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-6-title" srclang="en-US">
@@ -7491,6 +8917,14 @@ Please try again later.</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Цхьа баккхий хийцамаш беш ду вай</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:banner-error-slow-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We're receiving a lot of traffic and are currently investigating the issues.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Тхан системехь декъашхой чӀогӀа дукха бу, хӀинца оха цуьнца йоьзна йолу ампалш толлуш ю</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
@@ -7533,6 +8967,14 @@ Please try again later.</seg>
 				<seg>Вестфалийн</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-duplicate-clips-some" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We uploaded { $uploaded } of your clips — The remainder have already been uploaded. Let’s continue with the next batch!</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Оха хьан { $uploaded } кийскаш чуяьхна — йиснарш хьалха чуяьхна ю. РогӀерчу гуларшца кхин дӀа доьлху вай!</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-playbook-how-add-language-translating-content-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We use a Mozilla tool called &lt;pontoonLink&gt;Pontoon&lt;/pontoonLink&gt; for translations. Pontoon has lots of languages,
@@ -7552,7 +8994,7 @@ Then, to make the language available on the Common Voice project,
 				<seg>We've run out of sentences to record in this language...</seg>
 			</tuv>
 			<tuv xml:lang="ce">
-				<seg>х1окху маттахь аудио-д1айазбан аламаш чекхбевлла вайн...</seg>
+				<seg>ХӀокху маттахь дӀаязбан беза аламаш чекхбевлла</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-playbook-what-is-language-content-2" srclang="en-US">
@@ -7577,6 +9019,22 @@ Then, to make the language available on the Common Voice project,
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Тхо ма-хуьллу сиха зӀене девра ду хьоьца, хьан мотт Common Voice-на муха тӀетоха беза бохучух лаьцна хаамашца.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/delete.ftl:remove-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We will review your request to remove your voice recordings from the dataset. If your request is approved, we will contact those who have downloaded the dataset and request they remove your voice recordings as well.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Базера хьан аьзнаш дӀадаха ахь динчу дехарна тхо хьовсур ду. Нагахь хьан дехар тӀеэцахь, оха и база схьаэцначаьрга а хоуьтур ду, цаьрга а хьан аьзнаш дӀадаха эра ду</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:prompt-bubble-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We will show you a prompt or question</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Оха хьуна гойтур ду дехар йа хаттар</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-playbook-what-is-language" srclang="en-US">
@@ -7691,12 +9149,36 @@ Then, to make the language available on the Common Voice project,
 				<seg>Волоф</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/delete.ftl:delete-q" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Would you like to request your voice recordings be deleted too, or do you prefer to keep them in the Common Voice dataset?</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хьуна хьайн дӀаяздина аьзнаш дӀадайъа лаьа, я уьш Common Voice-н базехь дита лаьа?</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Write</seg>
 			</tuv>
 			<tuv xml:lang="ce">
-				<seg>Язде</seg>
+				<seg>Йазде</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:learn-how-to-use-transcribe-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Write down exactly what the person said, including placeholder words like 'um', or 'errr'.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Адамо ма-аллара нийса дӀайазде, «ммм», «э-э-э» санна долу маьӀна доцу дешнаш а юкъахь долуш</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/transcribe.ftl:editbox-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Write down what you hear the person saying here</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Кхузахь адамо олуш дерг дӀайазде</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-contribute-menu-aria-label" srclang="en-US">
@@ -7732,6 +9214,14 @@ Then, to make the language available on the Common Voice project,
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-approve-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Y</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Y</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:validate-page-yes-button-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Y</seg>
 			</tuv>
@@ -7785,6 +9275,22 @@ Then, to make the language available on the Common Voice project,
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Йоруба</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:you" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хьо</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-content-502" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You are unable to establish a stable connection to our servers right now. Please try again later. For help, please join the &lt;matrixLink&gt;Matrix community chat&lt;/matrixLink&gt;, monitor site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt; or visit &lt;discourseLink&gt;our Discourse forums&lt;/discourseLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀинца тхан сервершца цхьаьнаэшшара зӀе ца латтало. КӀеззиг хан яьлча юха хьажа. ГӀо эшахь, чу вола тхан&lt;matrixLink&gt;Matrix юкъараллин чате&lt;/matrixLink&gt; , &lt;githubLink&gt;GitHub тӀехь&lt;/githubLink&gt;  сайтан гӀалаташна тергам бе, я &lt;discourseLink&gt;тхан Discourse форумашка&lt;/discourseLink&gt; хьажа.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-playbook-how-add-sentences-content-1" srclang="en-US">
@@ -7855,6 +9361,14 @@ Remember that sentences need to be &lt;licenseLink&gt;CC0 (or public domain)&lt;
 				<seg>Ахь лело мегар ду &lt;scraperLink&gt;Аламаш схьабохург&lt;/scraperLink&gt;аьлла гIирс, Википеди чуьра боца аламаш лело.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:check-bubble-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You check whether the transcription matches the audio</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Йоза аудиоца догӀуш дуй хьажа</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-playbook-how-grow-language-content-5" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You could use social media platforms to get the message out. Share posts that explain why it matters, and get in touch with other people talking about issues like language rights, voice AI, or bias in tech. See more advice on &lt;campaignLink&gt;running a social campaign, including content you can re-use&lt;/campaignLink&gt;.</seg>
@@ -7887,6 +9401,30 @@ Remember that sentences need to be &lt;licenseLink&gt;CC0 (or public domain)&lt;
 				<seg>ХӀокху агӀонна дӀакхачо лерина бараме кхаьчна хьо. Дехар ду, { $retryLimit } секундехь собар дар, керла алам чу баккха . Дела реза хуьлда хьуна собаре хиларна!</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:locale-change-modal-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have unsaved changes on this page. If you change the locale, your changes will not be saved. Are you sure you want to change the locale?</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀокху агӀон тӀехь ахь бина, Ӏалашбина боцу хийцамаш бу. Нагахь ахь мотт (locale) хийцахь, и хийцамаш Ӏалашбийр бац. Бакъалла а лаьий хьуна мотт хийца?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:navigation-away-modal-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have unsaved changes on this page. If you leave this page, your changes will not be saved. Are you sure you want to leave this page?</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>ХӀокху агӀон тӀехь ахь бина, Ӏалашбина боцу хийцамаш бу. Нагахь хьо кхузара дӀаводахь, и хийцамаш Ӏалашбийр бац. Бакъалла а лаьий хьуна хӀокху агӀон тӀера дӀаваха?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/code-switching.ftl:cs-locale-change-modal-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have unsaved changes on this page. If you switch datasets, your changes will not be saved. Are you sure you want to switch?</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хьан хӀокху агӀон тӀехь Ӏалашбанза хийцамаш бу. Нагахь ахь хаамийн гулам хийцахь, и хийцамаш Ӏалашбина хир бац.хьо билггал дехьа вала лууш вуй?</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-webview" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You might have reached here by clicking a link in a social media app. You are using an in-app browser which does not support audio recording.</seg>
@@ -7901,6 +9439,22 @@ Remember that sentences need to be &lt;licenseLink&gt;CC0 (or public domain)&lt;
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Микрофон лело бакъо еза хьоьгар.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:mic-access-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You must allow microphone access.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Микрофон лело бакъо еза хьоьгар.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/delete.ftl:keep-info" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your anonymous voice recordings will remain in the Common Voice dataset. Once you delete your profile you will no longer be able to submit a request to remove your recordings from the dataset</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хьан цӀе йоцуш дӀаяздина аьзнаш Common Voice базехь дуьсур ду. Ахь хьайн профиль дӀаяьккхича, и аьзнаш базера дӀадаха аьлла дехар дан хьан йиш хир яц</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-uploaded-clip-corrupted" srclang="en-US">
@@ -7959,6 +9513,34 @@ Please try recording again.</seg>
 				<seg>Ахь гӀо до Common Voice-на  хIора денна хIоттина аламаш чу баха йолу Ӏалашонаш кхочушъян!</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:respond-bubble-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You respond or reply to it as naturally as you can</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Ма-дарра (кечам боцуш) жоп ло</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/request-language.ftl:request-language-found-pontoon-not-launched" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your language is already on the Common Voice languages list. 
+You can facilitate the language launch on &lt;strong&gt;Scripted Speech&lt;/strong&gt; by localising
+the platform interface &lt;pontoonLink&gt;here&lt;/pontoonLink&gt;. The interface needs to be 60% localised; 
+alternatively you may localise just the basic strings in ‘web/locales/en/pages/contribute/*.ftl’ to 100% 
+(there are five such files), and the interface will be launched automatically.</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хьан мотт хӀинцале а Common Voice меттанийн могӀарехь бу. Платформан интерфейс &lt;pontoonLink&gt;кхузахь&lt;/pontoonLink&gt; гочъеш, ахь Кечдинчу къамелехь мотт схьабала гӀо дан йиш ю. Интерфейс 60% гочйина хила еза; йа ‘web/locales/en/pages/contribute/*.ftl’ чуьра коьрта могӀанаш 100% гочдан йиш ю (уьш пхи файл ю), тӀаккха интерфейс ша-шех схьаеллур ю.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:your-languages" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your Languages</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Хьан меттанаш</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state-variants" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your language variant might be out of clips! If you’re comfortable, you can change your settings to see other sentences within your language.</seg>
@@ -7997,6 +9579,14 @@ Please try recording again.</seg>
 			</tuv>
 			<tuv xml:lang="ce">
 				<seg>Ахь гӀо дина Common Voice &lt;ӀалашонПроцент&gt;&lt;/ӀалашонПроцент&gt; кхача тхан денна { $goalValue } таллам баран Ӏалашоне!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/home.ftl:transcribe-bubble-subtitle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You write down what you hear in the audio clips</seg>
+			</tuv>
+			<tuv xml:lang="ce">
+				<seg>Аудио-клипаш чохь хьайна хезарг дӀайазде</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:zza" srclang="en-US">

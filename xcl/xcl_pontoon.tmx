@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2026-03-01T00:49:43.246636">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2026-04-01T00:53:41.918483">
 	</header>
 	<body>
 		<tu tuid="firefox:toolkit/chrome/global/intl.properties:pluralrule" srclang="en-US">
@@ -692,7 +692,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Ներբեռնումն արդիացման — &lt;label data-l10n-name="download-status"&gt;{ $transfer }&lt;/label&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-panel" srclang="en-US">
+		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-window" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -700,7 +700,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Ներբեռնմունք</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-window" srclang="en-US">
+		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-panel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -828,6 +828,14 @@ downloaded and is ready to be installed.</seg>
 				<seg>Նիշն գտեալ չէ:</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shortcut-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -844,15 +852,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -868,7 +868,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shortcut-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -876,7 +876,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-short-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -1484,14 +1484,6 @@ downloaded and is ready to be installed.</seg>
 				<seg>Մոզամբիկ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Mozilla</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Mozilla</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:vendorshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla</seg>
@@ -1500,7 +1492,15 @@ downloaded and is ready to be installed.</seg>
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandfullname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:vendor-short-name" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Mozilla</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Mozilla</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
@@ -1508,7 +1508,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Mozilla Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandfullname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
@@ -1916,20 +1916,20 @@ downloaded and is ready to be installed.</seg>
 				<seg>Խնդրել զներդիրս</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/aboutPrivateBrowsing.ftl:about-private-browsing" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Search the Web</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Խնդրել յոստայնի</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/browser/aboutPrivateBrowsing.ftl:about-private-browsing-search-placeholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search the Web</seg>
 			</tuv>
 			<tuv xml:lang="xcl">
 				<seg>Խնդրել յոստայնի:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/aboutPrivateBrowsing.ftl:about-private-browsing" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search the Web</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Խնդրել յոստայնի</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:toolkit/toolkit/neterror/certError.ftl:nssfailure2-title" srclang="en-US">
@@ -2721,6 +2721,14 @@ and downloading the latest version:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:managed-notice" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Your browser is being managed by your organization.</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Դիտարկիչ քո կառավարի ի կազմակերպութենէ քումմէ։</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:managed-notice-nav" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your browser is being managed by your organization.</seg>
 			</tuv>

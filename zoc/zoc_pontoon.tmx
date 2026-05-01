@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2026-04-01T00:53:56.048028">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2026-05-01T01:07:53.161515">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -19,14 +19,6 @@
 				<seg>[1-5]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentence-success" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>1 sentence collected</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>1 Jaye päjkisytsyokubä'a</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:add-sentence-success" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>1 sentence collected</seg>
@@ -35,12 +27,12 @@
 				<seg>Jaye päjkisytsyokubä'a</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentence-success" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>2 down, keep it up!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
+				<seg>1 sentence collected</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Tujku'a metsa, ¡te'se tsäkä!</seg>
+				<seg>1 Jaye päjkisytsyokubä'a</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
@@ -49,6 +41,14 @@
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>Tujka'nhäyu'a metsa &lt;playIcon&gt;&lt;/playIcon&gt;, ¡te'se tsäkä!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-3rd-time-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>2 down, keep it up!&lt;playIcon&gt;&lt;/playIcon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Tujku'a metsa, ¡te'se tsäkä!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:about" srclang="en-US">
@@ -67,14 +67,6 @@
 				<seg>Judä tsyambamä te'...</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:accepted-files" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Accepted file types: .tsv only</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Yä'sebä todojayedide pyäjkpabä: wäjädi .tsv</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:accepted-files" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Accepted file types: .tsv only</seg>
@@ -83,12 +75,12 @@
 				<seg>Yä'sebä todojayedide pyäjkpabä: wäjädi .tsv</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:accepted-files" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
+				<seg>Accepted file types: .tsv only</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>¿Sunyi mdsabu te' 'ode'?</seg>
+				<seg>Yä'sebä todojayedide pyäjkpabä: wäjädi .tsv</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
@@ -97,6 +89,14 @@
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>{ $actionType } &lt;playIcon&gt;&lt;/playIcon&gt; ¿Sunyi mdsabu te' 'ode'?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>¿Sunyi mdsabu te' 'ode'?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
@@ -115,14 +115,6 @@
 				<seg>jäjsi'ka pämi' yajk'ona te' jaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>ti'ora myajpa</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
@@ -131,12 +123,12 @@
 				<seg>{ $actionType } &lt;stopIcon&gt; &lt;/stopIcon&gt; ti'ora myajpa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-submit-tooltip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>{ $actionType } submit when ready</seg>
+				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>{ $actionType } kä'weya mdsäjkpä'uka'm.</seg>
+				<seg>ti'ora myajpa</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-submit-tooltip" srclang="en-US">
@@ -145,6 +137,14 @@
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>kä'weya mdsäjkpä'uka'm.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-submit-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType } submit when ready</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>{ $actionType } kä'weya mdsäjkpä'uka'm.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-contribute-menu-tooltip" srclang="en-US">
@@ -171,7 +171,7 @@
 				<seg>Koda &lt;icon&gt;&lt;/icon&gt; tumä jaye yajkyospabä te' kupkubyä'nis.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:add-information-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:add-information-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add information</seg>
 			</tuv>
@@ -179,7 +179,7 @@
 				<seg>Kojta'nhä mujsokyu'y</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:add-information-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:add-information-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add information</seg>
 			</tuv>
@@ -235,14 +235,6 @@
 				<seg>Kojta'nhä te' 'odejaye mij 'mode'omobä</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-4" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add up to 1,000 sentences</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Mujspa mgojta'nhä 1.000 'odejaye.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentences-rule-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add up to 1,000 sentences</seg>
@@ -251,7 +243,15 @@
 				<seg>Mujspa mgojta'nhä 1000 'odejaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-add-voice" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add up to 1,000 sentences</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Mujspa mgojta'nhä 1.000 'odejaye.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-add-voice" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add Your Voice</seg>
 			</tuv>
@@ -259,7 +259,7 @@
 				<seg>Yajktsäyä te' 'mode yä'ki.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-add-voice" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-add-voice" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add Your Voice</seg>
 			</tuv>
@@ -283,7 +283,7 @@
 				<seg>Nijpku'y yajkti ku'tku'y</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentences-rule-5" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-5" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>All sentence must have the same domain</seg>
 			</tuv>
@@ -291,7 +291,7 @@
 				<seg>'ijtuse 'odejaye wa'ade tumäbä ki'psokyu'yomo myajkyaju.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-5" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentences-rule-5" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>All sentence must have the same domain</seg>
 			</tuv>
@@ -315,20 +315,20 @@
 				<seg>'Ijtuse te' 'odejaye, makabäde msame judäde tsu'nhubä yajkti 'iste'e tsäjkubä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:already-have-an-account" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Already have an account? &lt;login&gt;Log-In&lt;/login&gt;</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>¿Mnä'ijtu'a judä yõspamä? &lt;iniciar sesión&gt;Täjkä wa'a mdsäjku tiyä msutpa&lt;iniciar sesión&gt;</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:already-have-an-account" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Already have an account? &lt;login&gt;Log-In&lt;/login&gt;</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>¿Mnä'ijtu'a judä yõspamä? Täjkä wa'a mdsäjku tiyä msutpa.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:already-have-an-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Already have an account? &lt;login&gt;Log-In&lt;/login&gt;</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>¿Mnä'ijtu'a judä yõspamä? &lt;iniciar sesión&gt;Täjkä wa'a mdsäjku tiyä msutpa&lt;iniciar sesión&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sentences-fetch-error" srclang="en-US">
@@ -363,14 +363,6 @@
 				<seg>Tujku ji' wyäbä tiyä nä'käjt ndu'nisu'k te' jaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast-error" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>An error occurred submitting your voice information</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Ja'wyä'a yä' yosku'y mgä'we'ju'k te' 'mode'is tsame.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:thanks-for-voice-toast-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>An error occurred submitting your voice information</seg>
@@ -379,12 +371,12 @@
 				<seg>Ja'wyä'a yä' yosku'y mgä'we'ju'k te' 'mode'is tsame.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast-error" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Approve</seg>
+				<seg>An error occurred submitting your voice information</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Pojkisytsyonhgu'y</seg>
+				<seg>Ja'wyä'a yä' yosku'y mgä'we'ju'k te' 'mode'is tsame.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
@@ -395,12 +387,12 @@
 				<seg>Pojkisytsyonhgu'y</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>A quiet background hubbub is OK, but we don’t want additional voices that may cause a machine algorithm to identify words that are not in the written text. If you can hear distinct words apart from those of the text, the clip should be rejected. Typically this happens where the TV has been left on, or where there is a conversation going on nearby.</seg>
+				<seg>Approve</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Mujspa 'idä 'usyanh te' ju'kä'y, ji' mujsibä 'yidä te'de'e eyada'mbä 'ode, muspabä pyäkä te' yostäjkis, te' ja'ijtyabä te' todojaye'omo. 'Uka manba 'eyabä 'odejaye, ja'idäbä te' todojaye'omo, te'se 'u mbäjkisytsyoku te' 'ode'is tsyame. Yä'sebä tiyä tujkpa, 'uka no'ubä mdsajkpa te' kätpamä tista'mis kyene, yajkti 'ijtyaju'k tome pända'm nä wyeweneyajubä.</seg>
+				<seg>Pojkisytsyonhgu'y</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-voices-description" srclang="en-US">
@@ -411,12 +403,12 @@
 				<seg>Mujspa 'idä 'usyanh te' ju'kä'y, ji' mujsibä 'yidä te'de'e eyada'mbä 'ode, muspabä pyäkä te' yostäjkis, te' ja'ijtyabä te' todojaye'omo. 'Uka manba 'eyabä 'odejaye, ja'idäbä te' todojaye'omo, te'se 'u mbäjkisytsyoku te' 'ode'is tsyame. Yä'sebä tiyä tujkpa, 'uka no'ubä mdsajkpa te' kätpamä tista'mis kyene, yajkti 'ijtyaju'k tome pända'm nä wyeweneyajubä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-voices-example-1-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Are you coming? &lt;strong&gt;[called by another]&lt;/strong&gt;</seg>
+				<seg>A quiet background hubbub is OK, but we don’t want additional voices that may cause a machine algorithm to identify words that are not in the written text. If you can hear distinct words apart from those of the text, the clip should be rejected. Typically this happens where the TV has been left on, or where there is a conversation going on nearby.</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>¿Nä'am myidu? ['yonäyubä 'eyada'mbä'is]</seg>
+				<seg>Mujspa 'idä 'usyanh te' ju'kä'y, ji' mujsibä 'yidä te'de'e eyada'mbä 'ode, muspabä pyäkä te' yostäjkis, te' ja'ijtyabä te' todojaye'omo. 'Uka manba 'eyabä 'odejaye, ja'idäbä te' todojaye'omo, te'se 'u mbäjkisytsyoku te' 'ode'is tsyame. Yä'sebä tiyä tujkpa, 'uka no'ubä mdsajkpa te' kätpamä tista'mis kyene, yajkti 'ijtyaju'k tome pända'm nä wyeweneyajubä.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-example-1-explanation" srclang="en-US">
@@ -425,6 +417,14 @@
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>¿Nä'am myidu? &lt;strong&gt;['yonäyubä 'eyada'mbä'is]&lt;strong&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-voices-example-1-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Are you coming? &lt;strong&gt;[called by another]&lt;/strong&gt;</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>¿Nä'am myidu? ['yonäyubä 'eyada'mbä'is]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-2" srclang="en-US">
@@ -475,7 +475,7 @@
 				<seg>Ju'nämba te' jojmo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-voices-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Background Voices</seg>
 			</tuv>
@@ -483,7 +483,7 @@
 				<seg>Jojmoda'mbä 'ode.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-voices-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Background Voices</seg>
 			</tuv>
@@ -531,14 +531,6 @@
 				<seg>'Usyanhda'mbä</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>&lt;bold&gt;Kotsokya'tsi&lt;bold&gt; wa'at mba'danhäyaju 'eyada'mbä 'ode'is myangä'y.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
@@ -547,12 +539,12 @@
 				<seg>Kotsokya'tsi wa'at mba'danhäyaju 'eyada'mbä 'ode'is myangä'y.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-sentence" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Bulk batch</seg>
+				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Wäwä tu'mäyi.</seg>
+				<seg>&lt;bold&gt;Kotsokya'tsi&lt;bold&gt; wa'at mba'danhäyaju 'eyada'mbä 'ode'is myangä'y.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:bulk-sentence" srclang="en-US">
@@ -563,7 +555,15 @@
 				<seg>Wäwä tu'mäyi.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-success-toast" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-sentence" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Bulk batch</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Wäwä tu'mäyi.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:bulk-upload-success-toast" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bulk Sentences Uploaded</seg>
 			</tuv>
@@ -571,7 +571,7 @@
 				<seg>Ki'mu'a te' wäwäbä 'ode'is jyaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:bulk-upload-success-toast" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-success-toast" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Bulk Sentences Uploaded</seg>
 			</tuv>
@@ -595,14 +595,6 @@
 				<seg>¿Sutpa'ksyä yajkmujstä tijudibä, juts 'yonbase mijtsi?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-terms" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>By using Common Voice, you agree to our &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>'Uka yajkyospa Common Voic, mbäjkisytsyäkpabäde'e juts wa'a &lt;termsLink&gt;yajkyojsu yä' jatsyäjk&lt;termsLink&gt;, yajkti &lt;privacyLink&gt;mbäjkisytsyokpa tiyäjt ndsäjkyajpa äjta'm yä' yostäjkomo&lt;privacyLink&gt;</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-terms" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>By using Common Voice, you agree to our &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
@@ -611,12 +603,12 @@
 				<seg>'Uka yajkyospa Common Voic, mbäjkisytsyäkpabäde'e juts wa'a yajkyojsu yä' jatsyäjk, yajkti mbäjkisytsyokpa tiyäjt ndsäjkyajpa äjta'm yä' yostäjkomo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-cancel" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-terms" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Cancel Re-recording</seg>
+				<seg>By using Common Voice, you agree to our &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Yajanhdokoya te' mdsäjkubä 'odetsapku'y.</seg>
+				<seg>'Uka yajkyospa Common Voic, mbäjkisytsyäkpabäde'e juts wa'a &lt;termsLink&gt;yajkyojsu yä' jatsyäjk&lt;termsLink&gt;, yajkti &lt;privacyLink&gt;mbäjkisytsyokpa tiyäjt ndsäjkyajpa äjta'm yä' yostäjkomo&lt;privacyLink&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cancel" srclang="en-US">
@@ -627,7 +619,15 @@
 				<seg>Yajanhdokoya te' mdsäjkubä 'odetsapku'y.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel Re-recording</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Yajanhdokoya te' mdsäjkubä 'odetsapku'y.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel Submission</seg>
 			</tuv>
@@ -635,7 +635,7 @@
 				<seg>Jäkä'ä tiyä nä mgä'weju</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel Submission</seg>
 			</tuv>
@@ -675,14 +675,6 @@
 				<seg>Käkajkya tibä msutpa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-instruction" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Check &lt;icon&gt;&lt;/icon&gt; is this a linguistically correct sentence?</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Ji'bä [...] ¿Wäbajayä yä' jaye, mujspa'ksyä yajk'ona?</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Check &lt;icon&gt;&lt;/icon&gt; is this a linguistically correct sentence?</seg>
@@ -691,12 +683,12 @@
 				<seg>Ji'bä &lt;icon&gt;&lt;/icon&gt; ¿Wäbajayä yä' jaye, mujspa'ksyä yajk'ona?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-less" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>&lt;chevron&gt;&lt;/chevron&gt;See less</seg>
+				<seg>Check &lt;icon&gt;&lt;/icon&gt; is this a linguistically correct sentence?</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>&lt;chevron&gt;&lt;/chevron&gt;'Usyanhdi ko'sa.</seg>
+				<seg>Ji'bä [...] ¿Wäbajayä yä' jaye, mujspa'ksyä yajk'ona?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:see-less" srclang="en-US">
@@ -707,12 +699,12 @@
 				<seg>'Usyanhdi ko'sa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:see-more" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-less" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>&lt;chevron&gt;&lt;/chevron&gt;See more</seg>
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;See less</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Ko'sanhä</seg>
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;'Usyanhdi ko'sa.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-more" srclang="en-US">
@@ -721,6 +713,14 @@
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>&lt;/chevron&gt;&lt;/chevron&gt;Ko'sanhä</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:see-more" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;chevron&gt;&lt;/chevron&gt;See more</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Ko'sanhä</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:citation" srclang="en-US">
@@ -739,14 +739,6 @@
 				<seg>Tsamä' judäde tsu'nhubä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite-explanation-bold" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cite with a URL link or the full name of the work.</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Mujspa't ndsamä judäde tsu'nhubä te' todojaye, nhgojtpat te' URL, mujspadi't nhgojtjakye'da 'ijtuse nyäyi te' todojaye'is nye'.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:how-to-cite-explanation-bold" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cite with a URL link or the full name of the work.</seg>
@@ -755,7 +747,15 @@
 				<seg>Mujspa't ndsamä judäde tsu'nhubä te' todojaye, nhgojtpat te' URL, mujspadi't nhgojtjakye'da 'ijtuse nyäyi te' todojaye'is nye'.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-click" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite-explanation-bold" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cite with a URL link or the full name of the work.</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Mujspa't ndsamä judäde tsu'nhubä te' todojaye, nhgojtpat te' URL, mujspadi't nhgojtjakye'da 'ijtuse nyäyi te' todojaye'is nye'.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:action-click" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Click</seg>
 			</tuv>
@@ -763,7 +763,7 @@
 				<seg>Petku'y</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:action-click" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-click" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Click</seg>
 			</tuv>
@@ -819,14 +819,6 @@
 				<seg>'Onäya'tsi/jayjaya'tsi 'äjtsida'm.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:continue" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Continue</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Tsäjka'nhä/yosa'nhä</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:continue" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
@@ -835,7 +827,15 @@
 				<seg>Tsäjka'nhä/yosa'nhä</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-abort-cancel" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:continue" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Continue</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Tsäjka'nhä/yosa'nhä</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue validating</seg>
 			</tuv>
@@ -843,7 +843,7 @@
 				<seg>Tsäjka'nhä yä' nä mdsäjkubä</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-cancel" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-abort-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue validating</seg>
 			</tuv>
@@ -883,14 +883,6 @@
 				<seg>Tsäjka'nhä 'eyada'mbä 'odejaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-page-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Contribution Criteria</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Juts wa'a ndsäjka'nhäyu yä' yosku'y.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-criteria-page-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribution Criteria</seg>
@@ -899,7 +891,15 @@
 				<seg>Juts wa'a ndsäjka'nhäyu yä' yosku'y.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:create-profile-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-page-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Contribution Criteria</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Juts wa'a ndsäjka'nhäyu yä' yosku'y.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:create-profile-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Create a profile</seg>
 			</tuv>
@@ -907,7 +907,7 @@
 				<seg>Tsäkä' kejpamä mij mgene.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:create-profile-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:create-profile-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Create a profile</seg>
 			</tuv>
@@ -931,7 +931,7 @@
 				<seg>Juts wa'a ndsäjku</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:datasets" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:datasets" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Datasets</seg>
 			</tuv>
@@ -939,7 +939,7 @@
 				<seg>Wäwä 'ijtyajumä te' 'odejayeda'm.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:datasets" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:datasets" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Datasets</seg>
 			</tuv>
@@ -1075,20 +1075,20 @@
 				<seg>¿Yambya'dädi te' mij 'mode te' Common Voice'omo?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-bulk-upload-instruction" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Drag your file here or &lt;uploadButton&gt;click to upload&lt;/uploadButton&gt;</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Yäki jukminä te' todokäwä'ni, muspadi mbetke'da yä'ki wa'a yajki'mu te' mgowä'ni.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Drag your file here or &lt;uploadButton&gt;click to upload&lt;/uploadButton&gt;</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>Yäki jukminä te' todokäwä'ni, &lt;uploadButton&gt;muspadi mbetke'da yä'ki wa'a yajki'mu te' mgowä'ni&lt;uploadButton&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-bulk-upload-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Drag your file here or &lt;uploadButton&gt;click to upload&lt;/uploadButton&gt;</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Yäki jukminä te' todokäwä'ni, muspadi mbetke'da yä'ki wa'a yajki'mu te' mgowä'ni.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-instruction-drop" srclang="en-US">
@@ -1155,14 +1155,6 @@
 				<seg>Ji'nä mujsu kyi'mä te' jaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>ESC</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>ESC</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>ESC</seg>
@@ -1171,12 +1163,12 @@
 				<seg>ESC</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-delete" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Exit &amp; Delete clips</seg>
+				<seg>ESC</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Pudä' yajkti yajkjäkä'ä tiyä mgrabajtsäjku'a</seg>
+				<seg>ESC</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-delete" srclang="en-US">
@@ -1187,7 +1179,15 @@
 				<seg>Pudä' yajkti yajkjäkä'ä tiyä mgrabajtsäjku'a</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-delete" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Exit &amp; Delete clips</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Pudä' yajkti yajkjäkä'ä tiyä mgrabajtsäjku'a</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Fewer than 15 words per sentence</seg>
 			</tuv>
@@ -1195,7 +1195,7 @@
 				<seg>'U yajkkokädu yäjta'y (15) jaye te' mäjabä jaye'omo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Fewer than 15 words per sentence</seg>
 			</tuv>
@@ -1235,14 +1235,6 @@
 				<seg>Te' todojaye nimeke tsye'</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:finance" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Finance</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Jutste wa'a tumindsyäjku</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:finance" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Finance</seg>
@@ -1251,7 +1243,15 @@
 				<seg>Jutste wa'a tumindsyäjku</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-continue" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:finance" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finance</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Jutste wa'a tumindsyäjku</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-continue" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Finish recording</seg>
 			</tuv>
@@ -1259,7 +1259,7 @@
 				<seg>Grabajtsäjkpä'ä</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-continue" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-continue" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Finish recording</seg>
 			</tuv>
@@ -1347,7 +1347,7 @@
 				<seg>Tsäkä tiyä ndsamjayajpa, nämä "¿Tibä 'odejaye'mäjt mujspa nhgoda?"</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-for-example" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-for-example" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>for example</seg>
 			</tuv>
@@ -1355,7 +1355,7 @@
 				<seg>Yä'sebä</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-for-example" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-for-example" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>for example</seg>
 			</tuv>
@@ -1411,14 +1411,6 @@
 				<seg>Tumäbä 'ode / 'eya'eyada'mbä mij 'mode'is tyäda'm.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-grammar-or-spelling" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Grammatical / spelling error</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Ji' wyäbä te' jaye, jasunyi jyayä.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-grammar-or-spelling" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Grammatical / spelling error</seg>
@@ -1427,12 +1419,12 @@
 				<seg>Ji' wyäbä te' jaye, jasunyi jyayä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-grammar-or-spelling" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Great!&lt;recordIcon&gt;&lt;/recordIcon&gt; Record your next clip</seg>
+				<seg>Grammatical / spelling error</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>¡Nimeke wä! &lt;recordIcon&gt;&lt;/recordIcon&gt; Tsäjka'nhä te' 'eyabä 'ode.</seg>
+				<seg>Ji' wyäbä te' jaye, jasunyi jyayä.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-again-instruction" srclang="en-US">
@@ -1441,6 +1433,14 @@
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>¡Nimeke wä! Tsäjka'nhä te' 'eyabä 'ode.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great!&lt;recordIcon&gt;&lt;/recordIcon&gt; Record your next clip</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>¡Nimeke wä! &lt;recordIcon&gt;&lt;/recordIcon&gt; Tsäjka'nhä te' 'eyabä 'ode.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-again-instruction" srclang="en-US">
@@ -1459,14 +1459,6 @@
 				<seg>¡Sa'sya mdsäjku te' yosku'y! Kyoma'näwyätsäkä ti' 'ora msutpa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:guidelines" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Guidelines</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Juts wa'a ndsäjku</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:guidelines" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Guidelines</seg>
@@ -1475,7 +1467,15 @@
 				<seg>Juts wa'a ndsäjku</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:healthcare" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:guidelines" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Guidelines</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Juts wa'a ndsäjku</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:healthcare" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Healthcare</seg>
 			</tuv>
@@ -1483,7 +1483,7 @@
 				<seg>Wäbä 'ijtku't, ji' kya'ebä</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:healthcare" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:healthcare" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Healthcare</seg>
 			</tuv>
@@ -1523,7 +1523,7 @@
 				<seg>Kotsokya'tsi wa'ajke't mujsu mbäjkjaya 'yode'am</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>His hand was rais-ed.</seg>
 			</tuv>
@@ -1531,7 +1531,7 @@
 				<seg>Tsyäkäki'mu te' kyä'.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>His hand was rais-ed.</seg>
 			</tuv>
@@ -1555,7 +1555,7 @@
 				<seg>'Ijtku'y kyätäjubä'a, tide muspa ndsäjktamä yajkti te' 'anhgi'mgu'y.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:how-to-cite" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How do I cite?</seg>
 			</tuv>
@@ -1563,7 +1563,7 @@
 				<seg>¿Jutsamäjt ndsamba judäde tsu'nhubä yä' ki'psokyu'y?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:how-to-cite" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How do I cite?</seg>
 			</tuv>
@@ -1587,7 +1587,7 @@
 				<seg>¿Jutsamäjt mujspa nhgojta'nhä wäawä jaye?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:first-cta-gender-select-help-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-help-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How would you describe your sex or gender?</seg>
 			</tuv>
@@ -1595,7 +1595,7 @@
 				<seg>¿Jutsam sutpa mdsa'manhwakä 'uka yõmode o mbyände'e?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-help-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:first-cta-gender-select-help-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How would you describe your sex or gender?</seg>
 			</tuv>
@@ -1619,20 +1619,20 @@
 				<seg>Jä'ä, mbäjkisytsyokpa't</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-bulk-submit-confirm" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>I confirm that these sentence are &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; and I have permission to upload them.</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Ndasmbä't, yä' todojayeda'm mumu 'iste'e muspabä nyäyosa, yajkti näjayaju'tsi wa'at yajkki'mu.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-submit-confirm" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>I confirm that these sentence are &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; and I have permission to upload them.</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>Ndasmbä't, yä' todojayeda'm &lt;wikipediaLink&gt;mumu 'iste'e muspabä nyäyosa&lt;wikipediaLink&gt;, yajkti näjayaju'tsi wa'at yajkki'mu.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-bulk-submit-confirm" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I confirm that these sentence are &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; and I have permission to upload them.</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Ndasmbä't, yä' todojayeda'm mumu 'iste'e muspabä nyäyosa, yajkti näjayaju'tsi wa'at yajkki'mu.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-write-submit-confirm" srclang="en-US">
@@ -1683,7 +1683,7 @@
 				<seg>Yä' yosku'y kyi'pstäjubäde wa'ade mujsu yajkmawe 'ona.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:terms-disagree" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:terms-disagree" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>I do not agree</seg>
 			</tuv>
@@ -1691,7 +1691,7 @@
 				<seg>Ji'ne, ji't mbäjkisytsyowe</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:terms-disagree" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:terms-disagree" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>I do not agree</seg>
 			</tuv>
@@ -1715,6 +1715,14 @@
 				<seg>'Uka mijte 'mode, wäjädi nämä &lt;italicizedText&gt;'äj ne' nyosku'y&lt;/italicizedText&gt;. Sutpa't mujsya judäde tsu'nhubä yä' tsäktäjku'y wa'a't mujsyaju 'uka mumu 'iste'e muspabä yajkyosa, wa'at mujsyaju 'uka ji'nde'e kyonämdäyibä yä' yosku'y. 'Uka sutpa mujsa'nhä jutste'e ndsamba judä tsu'nhubä te' todojaye, &lt;guidelinesLink&gt;tu'nisyä yä' yostäjk tsya'manhwajkpabä'is&lt;guidelinesLink&gt;.</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>'Uka te' 'ode'is tsyame ji' tya'nbäyi yajkti 'uka manbade ju'kä'y, te'se 'u mbäjkisy tsyoku, 'uka manbadide 'ijtuse te' 'ode, te'se mujspa mbäjkisytsyowa.</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
@@ -1731,28 +1739,12 @@
 				<seg>'Uka te' 'ode'is tsyame ji' tya'nbäyi yajkti 'uka manbade ju'kä'y, te'se 'u mbäjkisy tsyoku, 'uka manbadide 'ijtuse te' 'ode, te'se mujspa mbäjkisytsyowa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>'Uka te' 'ode'is tsyame ji' tya'nbäyi yajkti 'uka manbade ju'kä'y, te'se 'u mbäjkisy tsyoku, 'uka manbadide 'ijtuse te' 'ode, te'se mujspa mbäjkisytsyowa.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>'Uka te' 'ode'is tsyame ji' tya'nbäyi yajkti 'uka manbade ju'kä'y, te'se 'u mbäjkisy tsyoku, 'uka manbadide 'ijtuse te' 'ode, te'se mujspa mbäjkisytsyowa.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:bulk-upload-additional-information" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>If there is additional information you want to provide about this file, please contact &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>'Uka mnä'ijtuma 'eyabä tsa'manhwajku'y yä' mgowä'ni'isy nye' sutpabä yajkjakä, te'se 'ona yä'ki [...]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-additional-information" srclang="en-US">
@@ -1763,12 +1755,12 @@
 				<seg>'Uka mnä'ijtuma 'eyabä tsa'manhwajku'y yä' mgowä'ni'isy nye' sutpabä yajkjakä, te'se 'ona yä'ki &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:template-file-additional-information" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:bulk-upload-additional-information" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>If there is additional information you want to provide about this file that is not included in the template, please contact &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+				<seg>If there is additional information you want to provide about this file, please contact &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>'Uka mnä'ijta'nhäyu 'eyabä tiyä ja'idäbä yä'ki, wa'a te'se näjktyä'yanhäyu yä' yosku'y, te'se mujspa mgäme'tsa yä'ki &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+				<seg>'Uka mnä'ijtuma 'eyabä tsa'manhwajku'y yä' mgowä'ni'isy nye' sutpabä yajkjakä, te'se 'ona yä'ki [...]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:template-file-additional-information" srclang="en-US">
@@ -1777,6 +1769,14 @@
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>'Uka mnä'ijta'nhäyu 'eyabä tiyä ja'idäbä yä'ki, wa'a te'se näjktyä'yanhäyu yä' yosku'y, te'se mujspa mgäme'tsa yä'ki [...]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:template-file-additional-information" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If there is additional information you want to provide about this file that is not included in the template, please contact &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>'Uka mnä'ijta'nhäyu 'eyabä tiyä ja'idäbä yä'ki, wa'a te'se näjktyä'yanhäyu yä' yosku'y, te'se mujspa mgäme'tsa yä'ki &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-5-2" srclang="en-US">
@@ -1811,14 +1811,6 @@
 				<seg>'Uka te' jaye sa'sya jyatyäju, pena te' [...]mbäjkisytsyokpamä[...] te' 'maknya'omo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-just-unsure-description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>'Uka mba'tpa tijudibä ji' tsyamdäyibä yä'ki, kobiwä tibä mgo'mbya wäbä. 'Uka wiyunhse ji' mujsi mgobiwä, te'se pena te' jatyäjk wa'a mgo'nhgädä, wa'a mujsu yajtsä'yja 'eyabä te' 'ode'is tsyame.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.</seg>
@@ -1827,7 +1819,15 @@
 				<seg>'Uka mba'tpa tijudibä ji' tsyamdäyibä yä'ki, kobiwä tibä mgo'mbya wäbä. 'Uka wiyunhse ji' mujsi mgobiwä, te'se pena te' jatyäjk wa'a mgo'nhgädä, wa'a mujsu yajtsä'yja 'eyabä te' 'ode'is tsyame.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-6" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-just-unsure-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If you come across something that these guidelines don’t cover, please vote according to your best judgement. If you really can’t decide, use the skip button and go on to the next recording.</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>'Uka mba'tpa tijudibä ji' tsyamdäyibä yä'ki, kobiwä tibä mgo'mbya wäbä. 'Uka wiyunhse ji' mujsi mgobiwä, te'se pena te' jatyäjk wa'a mgo'nhgädä, wa'a mujsu yajtsä'yja 'eyabä te' 'ode'is tsyame.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-6" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If you run out of sentences to review, please help us collect more sentences!</seg>
 			</tuv>
@@ -1835,7 +1835,7 @@
 				<seg>'Uka ja'idä'am 'eyabä jaye wa'a mdu'nisu, ¡kotsokya'tsi wa'a ndsäjka'nhäyu te' jaye!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-6" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-6" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If you run out of sentences to review, please help us collect more sentences!</seg>
 			</tuv>
@@ -1891,14 +1891,6 @@
 				<seg>'Ijtyaju jaye, 'odejayeda'm ji'nde yajk'omba musibä ndsabya.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language-detail" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>It is written in a language different than what I’m reviewing.</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Eyabä 'ode'omode jayubä, jinde'e nä't ndu'nusebä 'ode.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:report-sc-different-language-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>It is written in a language different than what I’m reviewing.</seg>
@@ -1907,12 +1899,12 @@
 				<seg>Eyabä 'ode'omode jayubä, jinde'e nä't ndu'nusebä 'ode.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>It is written in a language different than what I’m speaking.</seg>
+				<seg>It is written in a language different than what I’m reviewing.</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>'Eyabä 'ode'omode'e kayubä, 'äjt 'eyabä 'ode'te'e ndsambabä.</seg>
+				<seg>Eyabä 'ode'omode jayubä, jinde'e nä't ndu'nusebä 'ode.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
@@ -1923,12 +1915,12 @@
 				<seg>'Eyabä 'ode'omode'e kayubä, 'äjt 'eyabä 'ode'te'e ndsambabä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Just Unsure?</seg>
+				<seg>It is written in a language different than what I’m speaking.</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>¿'Uka ji' mujsi wiyunse?</seg>
+				<seg>'Eyabä 'ode'omode'e kayubä, 'äjt 'eyabä 'ode'te'e ndsambabä.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
@@ -1939,12 +1931,12 @@
 				<seg>¿'Uka ji' mujsi wiyunse?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Keep it up, record again &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+				<seg>Just Unsure?</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Te'sende nä mdsäjkuse, tsäjka'nhä 'eyabä 'mode, jomebä &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+				<seg>¿'Uka ji' mujsi wiyunse?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-again-instruction2" srclang="en-US">
@@ -1955,7 +1947,15 @@
 				<seg>Te'sende nä mdsäjkuse, tsäjka'nhä 'eyabä 'mode, jomebä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-keep-recordings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep it up, record again &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Te'sende nä mdsäjkuse, tsäjka'nhä 'eyabä 'mode, jomebä &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-keep-recordings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keep the recordings</seg>
 			</tuv>
@@ -1963,7 +1963,7 @@
 				<seg>Te'sem yajtsä'yä te' grabasyonda'm</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-keep-recordings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-keep-recordings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keep the recordings</seg>
 			</tuv>
@@ -2019,14 +2019,6 @@
 				<seg>'Odeda'm.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-sentence-submission" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Large bulk sentence submission</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Kä'weya wäwäda'm te' tsame'is jyaye.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:bulk-sentence-submission" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Large bulk sentence submission</seg>
@@ -2035,7 +2027,15 @@
 				<seg>Kä'weya wäwäda'm te' tsame'is jyaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-sentence-submission" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Large bulk sentence submission</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Kä'weya wäwäda'm te' tsame'is jyaye.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn More</seg>
 			</tuv>
@@ -2043,7 +2043,7 @@
 				<seg>'Ijta'nhäyumä tsa'manhwajktäjk.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn More</seg>
 			</tuv>
@@ -2067,7 +2067,7 @@
 				<seg>'Uka mbyujtpa yäti, maka yajktokoye tiyä mdsäjku'a yä'kisyenh'omo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -2075,7 +2075,7 @@
 				<seg>Käma'nä</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -2091,14 +2091,6 @@
 				<seg>Judäde muspamä me'tsa tide wa'a manu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-loading" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Loading sentences…</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Nä kyi'mä te' jaye...</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-loading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Loading sentences…</seg>
@@ -2107,12 +2099,12 @@
 				<seg>Nä kyi'mä te' jaye...</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:login-instruction-multiple-sentences" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-loading" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>&lt;loginLink&gt;Login&lt;/loginLink&gt; or &lt;loginLink&gt;sign up&lt;/loginLink&gt; to add multiple sentences</seg>
+				<seg>Loading sentences…</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>&lt;loginLink&gt;'Awakä te' myostäjk&lt;loginLink&gt; yakti &lt;loginLink&gt;muspadi mnitsäjke'da jomebä yostäjk&lt;loginLink&gt; wa'a mujsu mgoda wäwä 'ode'is jyaye.</seg>
+				<seg>Nä kyi'mä te' jaye...</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:login-instruction-multiple-sentences" srclang="en-US">
@@ -2123,7 +2115,15 @@
 				<seg>[...]'Awakä te' myostäjk [...] yakti muspadi mnitsäjke'da yomebä yostäjk wa'a mujsu mgoda wäwä 'ode'is jyaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-to-get-started" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:login-instruction-multiple-sentences" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;loginLink&gt;Login&lt;/loginLink&gt; or &lt;loginLink&gt;sign up&lt;/loginLink&gt; to add multiple sentences</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>&lt;loginLink&gt;'Awakä te' myostäjk&lt;loginLink&gt; yakti &lt;loginLink&gt;muspadi mnitsäjke'da jomebä yostäjk&lt;loginLink&gt; wa'a mujsu mgoda wäwä 'ode'is jyaye.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:login-to-get-started" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log in or sign up to get started</seg>
 			</tuv>
@@ -2131,7 +2131,7 @@
 				<seg>Nitsäkä/no'a te' yostäjk, muspadi mjatyäjkäkye'da mwit wa'a yõsnitsäjku.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:login-to-get-started" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-to-get-started" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log in or sign up to get started</seg>
 			</tuv>
@@ -2235,14 +2235,6 @@
 				<seg>[Te' nyä'ijtubä tiyä, ji' te'se kyene]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Misreadings</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Ji' wyäbä tsa'manhwajku'y</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Misreadings</seg>
@@ -2251,12 +2243,12 @@
 				<seg>Ji' wyäbä tsa'manhwajku'y</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Missing an &lt;strong&gt;'s'&lt;/strong&gt; at the end of a word.</seg>
+				<seg>Misreadings</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Ja'idä tumä &lt;strong&gt;'s'&lt;strong&gt; ko'yajumä te' 'odejaye.</seg>
+				<seg>Ji' wyäbä tsa'manhwajku'y</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-2" srclang="en-US">
@@ -2265,6 +2257,14 @@
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>Ja'idä tumä 's' ko'yajumä te' 'odejaye.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Missing an &lt;strong&gt;'s'&lt;/strong&gt; at the end of a word.</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Ja'idä tumä &lt;strong&gt;'s'&lt;strong&gt; ko'yajumä te' 'odejaye.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-1" srclang="en-US">
@@ -2283,14 +2283,6 @@
 				<seg>Ja'idä tumä 'te'' windi te' nä tsyo'tsumä 'ode'is tsyame.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-4" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Missing the end of the last word by cutting off the recording too quickly.</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Yajktokobya we'ne te' 'ukanhgä'mäbä todojaye nä mjaktäktäkä'yuk te' 'ode'is tsyame.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Missing the end of the last word by cutting off the recording too quickly.</seg>
@@ -2299,7 +2291,15 @@
 				<seg>Yajktokobya we'ne te' 'ukanhgä'mäbä todojaye nä mjaktäktäkä'yuk te' 'ode'is tsyame.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-4-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-4" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Missing the end of the last word by cutting off the recording too quickly.</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Yajktokobya we'ne te' 'ukanhgä'mäbä todojaye nä mjaktäktäkä'yuk te' 'ode'is tsyame.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-4-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[More has been recorded than the required text]</seg>
 			</tuv>
@@ -2307,7 +2307,7 @@
 				<seg>[Nyujka'nhäyu te' 'ode'is tsyame, kyäyudu te' jayuse]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-4-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-4-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[More has been recorded than the required text]</seg>
 			</tuv>
@@ -2331,7 +2331,7 @@
 				<seg>Tome 'ijtpä'usebä te' 'ode'is tsyame, te'sede 'onyajpase te' pända'm/yomoda'm. Mujspa mbäkä te' 'ode'is tsyame judä wejwitnämba, numunumuneyajpa yajkti judä yajk'onyajpamä sunyi te' todojaye. 'U mbäjkisytsyoku te' 'ode'is tsyame watnubä, yajkti tä'nhgubyä pätse 'onbabä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-vote-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>n</seg>
 			</tuv>
@@ -2339,7 +2339,7 @@
 				<seg>n</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-vote-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>n</seg>
 			</tuv>
@@ -2379,14 +2379,6 @@
 				<seg>Te' tsa'mada'm yajkti te' tsa'ma joj.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:news_current_affairs" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>News and Current Affairs</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Te' tsamdäjpabä tiyä nä tyujku nasakobajkäs yajkti te' tiyä 'ijtu yäti.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:news_current_affairs" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>News and Current Affairs</seg>
@@ -2395,12 +2387,12 @@
 				<seg>Te' tsamdäjpabä tiyä nä tyujku nasakobajkäs yajkti te' tiyä 'ijtu yäti.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:news_current_affairs" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>No</seg>
+				<seg>News and Current Affairs</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Ji'ne</seg>
+				<seg>Te' tsamdäjpabä tiyä nä tyujku nasakobajkäs yajkti te' tiyä 'ijtu yäti.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
@@ -2411,12 +2403,12 @@
 				<seg>Ji'ne</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-7-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>[No ‘a’ in the original text]</seg>
+				<seg>No</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>[Ja'idä ''äjtsi' te' witpä todo'omo]</seg>
+				<seg>Ji'ne</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-7-explanation" srclang="en-US">
@@ -2427,12 +2419,12 @@
 				<seg>[Ja'idä ''äjtsi' te' witpä todo'omo]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-7-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>&lt;noCopyright&gt;No copyright&lt;/noCopyright&gt; restrictions (&lt;cc0&gt;cc-0&lt;/cc0&gt;)</seg>
+				<seg>[No ‘a’ in the original text]</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>&lt;noCopyright&gt;Muspa yajkyosa mumu'is&lt;noCopyright&gt; (&lt;cc0&gt;cc-0&lt;/cc0&gt;)</seg>
+				<seg>[Ja'idä ''äjtsi' te' witpä todo'omo]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-1" srclang="en-US">
@@ -2443,12 +2435,12 @@
 				<seg>Muspa yajkyosa mumu'is (cc).</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-6" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-1" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>No foreign letters</seg>
+				<seg>&lt;noCopyright&gt;No copyright&lt;/noCopyright&gt; restrictions (&lt;cc0&gt;cc-0&lt;/cc0&gt;)</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Jaidä jaye 'eyabä kupku'yomo tsu'nhyajubä</seg>
+				<seg>&lt;noCopyright&gt;Muspa yajkyosa mumu'is&lt;noCopyright&gt; (&lt;cc0&gt;cc-0&lt;/cc0&gt;)</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-6" srclang="en-US">
@@ -2459,7 +2451,15 @@
 				<seg>Jaidä jaye 'eyabä kupku'yomo tsu'nhyajubä</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-no-mic-found" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-6" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No foreign letters</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Jaidä jaye 'eyabä kupku'yomo tsu'nhyajubä</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-no-mic-found" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No microphone found.</seg>
 			</tuv>
@@ -2467,7 +2467,7 @@
 				<seg>Jambya'dä't nitumä'k te' 'ondäjkätyäjk.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-no-mic-found" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-no-mic-found" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No microphone found.</seg>
 			</tuv>
@@ -2507,7 +2507,7 @@
 				<seg>Ja'idä'am jaye mgo'spabä. ¡&lt;addLink&gt;Kojta'nhä jaye&lt;addLink&gt;!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:continue-speaking-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:continue-speaking-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No thanks, continue speaking</seg>
 			</tuv>
@@ -2515,7 +2515,7 @@
 				<seg>Ji'ne, yäskodoya, 'o'na'nhä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:continue-speaking-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:continue-speaking-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No thanks, continue speaking</seg>
 			</tuv>
@@ -2539,7 +2539,7 @@
 				<seg>'Odejaye 'onjabyabä'iste/tsa'ajkutsi'äbyabä'iste.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-offensive-speech" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-speech" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Offensive speech</seg>
 			</tuv>
@@ -2547,7 +2547,7 @@
 				<seg>Nyä'ijtu 'ode tsa'ajkubyä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-speech" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-offensive-speech" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Offensive speech</seg>
 			</tuv>
@@ -2603,14 +2603,6 @@
 				<seg>Te' iOSomo, mge'jabya't wäbä, tsäkä te Safari'omo wa'a mujsu yajktsä'yä te' 'mode te' 'ondäjkomo…</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description-extended" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>'Uka mgo'mäbya, te' nä yajk'onubä'is te' todo, jajyabu 'isädi te' jaye, nä kyo'ki'pstyo'yu juts wa'a yajk'onu, te'se 'u mbäjkisy tsyoku. 'Uka ji' mujsi sa'sya, te'se pena' wa'a kyo'nhgädu te' jaye.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.</seg>
@@ -2619,12 +2611,12 @@
 				<seg>'Uka mgo'mäbya, te' nä yajk'onubä'is te' todo, jajyabu 'isädi te' jaye, nä kyo'ki'pstyo'yu juts wa'a yajk'onu, te'se 'u mbäjkisy tsyoku. 'Uka ji' mujsi sa'sya, te'se pena' wa'a kyo'nhgädu te' jaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>p</seg>
+				<seg>On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>r</seg>
+				<seg>'Uka mgo'mäbya, te' nä yajk'onubä'is te' todo, jajyabu 'isädi te' jaye, nä kyo'ki'pstyo'yu juts wa'a yajk'onu, te'se 'u mbäjkisy tsyoku. 'Uka ji' mujsi sa'sya, te'se pena' wa'a kyo'nhgädu te' jaye.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-play-toggle" srclang="en-US">
@@ -2635,7 +2627,15 @@
 				<seg>r</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:partner" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>p</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>r</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:partner" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partner</seg>
 			</tuv>
@@ -2643,7 +2643,7 @@
 				<seg>Tumä yosa' 'äjtsyji'nhda'm.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:partner" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:partner" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Partner</seg>
 			</tuv>
@@ -2667,20 +2667,20 @@
 				<seg>[Wene' te' todojaye ji'nde mujsi manä]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-last-time-instruction" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Last one!</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>&lt;playIcon&gt;&lt;/playIcon&gt; ¡Tumäna!</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-last-time-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Last one!</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>¡Tumäna!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-last-time-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Last one!</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>&lt;playIcon&gt;&lt;/playIcon&gt; ¡Tumäna!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle-label" srclang="en-US">
@@ -2699,20 +2699,20 @@
 				<seg>Yajkädä/Yajktsä'yä</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:what-needs-to-be-in-file-explanation" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Please check our &lt;templateFileLink&gt;template file&lt;/templateFileLink&gt;. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Tu'nisä judä't nhgojtanhne'kyajpa te' todojaye [...]. Te' 'ode'is jyaye ji'nde'e wa'a kyonäbu 'is tsäjku (CC0 te' yosku'y wäbäde wa'a nu'ksytsyida te' 'is tsyäjku), wa'ade mujsu yajk'ona, sunyi jayubä. Te' todojaye kyä'wejdäjpabä wa'ade yajkmusä 'ona 10, 15 segundo'omo, 'uka mjatya te' ma'yokyutya'm, nye'käda'mbä näyi yajkti jaye ji'nde nimeke näyästamebä.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:what-needs-to-be-in-file-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Please check our &lt;templateFileLink&gt;template file&lt;/templateFileLink&gt;. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>Tu'nisä judä't nhgojtanhne'kyajpa &lt;templateFileLink&gt;te' todojaye&lt;templateFileLink&gt;. Te' 'ode'is jyaye ji'nde'e wa'a kyonäbu 'is tsäjku (CC0 te' yosku'y wäbäde wa'a nu'ksytsyida te' 'is tsyäjku), wa'ade mujsu yajk'ona, sunyi jayubä. Te' todojaye kyä'wejdäjpabä wa'ade yajkmusä 'ona 10, 15 segundo'omo, 'uka mjatya te' ma'yokyutya'm, nye'käda'mbä näyi yajkti jaye ji'nde nimeke näyästamebä.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:what-needs-to-be-in-file-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Please check our &lt;templateFileLink&gt;template file&lt;/templateFileLink&gt;. Your sentences should be copyright free (CC0 or permissioned original work by the submitter) and be clear, grammatically correct and easy to read. Submitted sentences should take roughly 10-15 seconds to read and should avoid including numbers, proper nouns and special characters.</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Tu'nisä judä't nhgojtanhne'kyajpa te' todojaye [...]. Te' 'ode'is jyaye ji'nde'e wa'a kyonäbu 'is tsäjku (CC0 te' yosku'y wäbäde wa'a nu'ksytsyida te' 'is tsyäjku), wa'ade mujsu yajk'ona, sunyi jayubä. Te' todojaye kyä'wejdäjpabä wa'ade yajkmusä 'ona 10, 15 segundo'omo, 'uka mjatya te' ma'yokyutya'm, nye'käda'mbä näyi yajkti jaye ji'nde nimeke näyästamebä.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:required-field" srclang="en-US">
@@ -2747,14 +2747,6 @@
 				<seg>Kobiwä tumä 'ode wa'a mgosjayu te' jyaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-record-toggle" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>r</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>g</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-record-toggle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>r</seg>
@@ -2763,12 +2755,12 @@
 				<seg>g</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-record-toggle" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>[‘Raised’ in English is always pronounced as one syllable, not two]</seg>
+				<seg>r</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>['Raised' te' 'inglesomo, tumäbä jayesedide ndsambabä, ji'nde ndsamebä metsabäse]</seg>
+				<seg>g</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-explanation" srclang="en-US">
@@ -2779,12 +2771,12 @@
 				<seg>['Raised' te' 'inglesomo, tumäbä jayesedide ndsambabä, ji'nde ndsamebä metsabäse]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:rate-limit-toast-message-minutes" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Rate limit exceeded. Try again in { $retryLimit } minutes</seg>
+				<seg>[‘Raised’ in English is always pronounced as one syllable, not two]</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Kyätkokädu te' jujtsye yospa. Nitsäjkwätsäkä [...] minutokasi.</seg>
+				<seg>['Raised' te' 'inglesomo, tumäbä jayesedide ndsambabä, ji'nde ndsamebä metsabäse]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-toast-message-minutes" srclang="en-US">
@@ -2793,6 +2785,14 @@
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>Kyätkokädu te' jujtsye yospa. Nitsäjkwätsäkä { $retryLimit } minutokasi.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:rate-limit-toast-message-minutes" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Rate limit exceeded. Try again in { $retryLimit } minutes</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Kyätkokädu te' jujtsye yospa. Nitsäjkwätsäkä [...] minutokasi.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-toast-message-seconds" srclang="en-US">
@@ -2811,7 +2811,7 @@
 				<seg>Kyätkokädu te' jujtsye yospa. Nitsäjkwätsäkä [...] segundokäsi.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-reader-effects-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reader Effects</seg>
 			</tuv>
@@ -2819,7 +2819,7 @@
 				<seg>Te' todo 'onyajpabä'is pyämi.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-reader-effects-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reader Effects</seg>
 			</tuv>
@@ -2883,20 +2883,20 @@
 				<seg>¿Sutpa'am msäjka'nhä { $count }?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-last-instruction" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>¡Tumäna!</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-last-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; ¡Tumäna!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-last-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>¡Tumäna!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-3-explanation" srclang="en-US">
@@ -2963,14 +2963,6 @@
 				<seg>Yajktsä'yä te' 'mode yä' 'ondsanjku'yomo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:citation-input-placeholder" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Reference the source of your sentence (required)</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Koda te' jayetsame judä tsu'nhumä yä' jaye ('ijtu pyena).</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:citation-input-placeholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reference the source of your sentence (required)</seg>
@@ -2979,7 +2971,15 @@
 				<seg>Koda te' jayetsame judä tsu'nhumä yä' jaye ('ijtu pyena).</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-reject" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:citation-input-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reference the source of your sentence (required)</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Koda te' jayetsame judä tsu'nhumä yä' jaye ('ijtu pyena).</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-reject" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reject</seg>
 			</tuv>
@@ -2987,7 +2987,7 @@
 				<seg>JI't mbäjkisytsyowe</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-reject" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-reject" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reject</seg>
 			</tuv>
@@ -3011,7 +3011,7 @@
 				<seg>Tsa'manhwakä</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-success" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-success" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Report was passed successfully</seg>
 			</tuv>
@@ -3019,7 +3019,7 @@
 				<seg>Te' todotsa'manhwajku'y sunyi kyä'wejtäju.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-success" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-success" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Report was passed successfully</seg>
 			</tuv>
@@ -3075,14 +3075,6 @@
 				<seg>Päjkwätsäjkja te' 'mode'is tsame.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-submit" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Return</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Widu'wätsäkä</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Return</seg>
@@ -3091,7 +3083,15 @@
 				<seg>Widu'wätsäkä</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:review" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Return</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Widu'wätsäkä</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:review" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -3099,31 +3099,7 @@
 				<seg>Tu'nisku'y</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Tu'nwätsäkä</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Tu'nisä</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Tu'nisä</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:review" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:review" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -3139,12 +3115,28 @@
 				<seg>Tu'nwätsäkä</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-review-failure" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Review could not be saved. Please try again later.</seg>
+				<seg>Review</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Jamusä kyojtanhne'kya te' tu'nubä'a jaye. Tsäjkiswätsäkä 'usyanh'orakäsi.</seg>
+				<seg>Tu'nwätsäkä</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Tu'nisä</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Tu'nisä</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-review-failure" srclang="en-US">
@@ -3155,12 +3147,12 @@
 				<seg>Jamusä kyojtanhne'kya te' tu'nubä'a jaye. Tsäjkiswätsäkä 'usyanh'orakäsi.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-modal" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-review-failure" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>ⓘ Review Criteria</seg>
+				<seg>Review could not be saved. Please try again later.</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Juts wa'a ndu'nisu</seg>
+				<seg>Jamusä kyojtanhne'kya te' tu'nubä'a jaye. Tsäjkiswätsäkä 'usyanh'orakäsi.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-modal" srclang="en-US">
@@ -3171,9 +3163,9 @@
 				<seg>ⓘ Juts wa'a ndu'nisu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-modal" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Review Criteria</seg>
+				<seg>ⓘ Review Criteria</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>Juts wa'a ndu'nisu</seg>
@@ -3187,7 +3179,15 @@
 				<seg>Juts wa'a ndu'nisu</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-prompt" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review Criteria</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Juts wa'a ndu'nisu</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-prompt" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reviewed sentences not submitted, are sure?</seg>
 			</tuv>
@@ -3195,7 +3195,7 @@
 				<seg>Jakyä'wejyadi te' tyu'nyajubä'a (jaye), ¿Wiyunhsede te'?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-prompt" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-prompt" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reviewed sentences not submitted, are sure?</seg>
 			</tuv>
@@ -3211,7 +3211,7 @@
 				<seg>Tu'nisä te' 'odejaye tsyäjkyajubä te' 'eyada'mbä'is</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-tooltip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-tooltip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review &amp; re-record clips here as you go</seg>
 			</tuv>
@@ -3219,7 +3219,7 @@
 				<seg>Tu'nwätsäkä, jäsi'ka tsäjkwätsäkä 'eyabä 'mode yä'ki.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-tooltip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-tooltip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review &amp; re-record clips here as you go</seg>
 			</tuv>
@@ -3243,14 +3243,6 @@
 				<seg>Tu'nwätsäkä, jäsi'ka grabajtsäjkwätsäkä 'uka ji'nma wyä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review Sentences</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Tu'nä te' jayeda'm</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Sentences</seg>
@@ -3265,6 +3257,14 @@
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>Tu'nisyä te' jayeda'm</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review Sentences</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Tu'nä te' jayeda'm</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:review-sentences-menu-item-tooltip" srclang="en-US">
@@ -3323,7 +3323,7 @@
 				<seg>h</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-skip-shortcut" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>S</seg>
 			</tuv>
@@ -3331,7 +3331,7 @@
 				<seg>T</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip-shortcut" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-skip-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>S</seg>
 			</tuv>
@@ -3355,14 +3355,6 @@
 				<seg>Kobiwä' tumä'k judibä msutpa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-placeholder" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Select a variant (optional)</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Kobiwä te' mij 'mode'is tyä (mne'käde 'uka sutpa mdsäkä).</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-variant-select-placeholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select a variant (optional)</seg>
@@ -3371,7 +3363,15 @@
 				<seg>Kobiwä te' mij 'mode'is tyä (mne'käde 'uka sutpa mdsäkä).</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:select-file" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select a variant (optional)</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Kobiwä te' mij 'mode'is tyä (mne'käde 'uka sutpa mdsäkä).</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:select-file" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select File</seg>
 			</tuv>
@@ -3379,7 +3379,7 @@
 				<seg>Kobiwä te' mdodo kojtanhne'kubä</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:select-file" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:select-file" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select File</seg>
 			</tuv>
@@ -3403,14 +3403,6 @@
 				<seg>Kobiwä te' mgojtanhne'ke wa'a yajkki'mu.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-domain-select-placeholder" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Select up to three domains (optional)</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Kobiwä tukasye'nhomo te' mäjanhbä jaye.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-domain-select-placeholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select up to three domains (optional)</seg>
@@ -3419,7 +3411,15 @@
 				<seg>Kobiwä tukasye'nhomo te' mäjanhbä jaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-domain-select-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select up to three domains (optional)</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Kobiwä tukasye'nhomo te' mäjanhbä jaye.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence</seg>
 			</tuv>
@@ -3427,7 +3427,7 @@
 				<seg>Jaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence</seg>
 			</tuv>
@@ -3475,20 +3475,20 @@
 				<seg>Te' jaye msajktambabä yä'ki, tyumäkojtyajpabäde 'eyda'mbä tsameji'nh muspabä nyäyosya cc 'ijtuse kupkubyä'nis.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-reviewed-message" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ $sentences } sentences reviewed. Thank you!</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>{ $sentences } Tyu'nyajubä jaye. ¡Yäskodoya!</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-reviewed-message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $sentences } sentences reviewed. Thank you!</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>[...] Tyu'nyajubä jaye. ¡Yäskodoya!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-reviewed-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $sentences } sentences reviewed. Thank you!</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>{ $sentences } Tyu'nyajubä jaye. ¡Yäskodoya!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-variant-select-label" srclang="en-US">
@@ -3507,14 +3507,6 @@
 				<seg>'Usyanh käkajkubä te' 'eyabä ode.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentences-rule-3" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Separate sentences into one line by pressing “Enter” or “Return” once</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>We'nya te' 'odejaye, kojtya tumdumä te' line'omo, pijkä te' yajkjakpabä'is te' eyabä linea'omo.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Separate sentences into one line by pressing “Enter” or “Return” once</seg>
@@ -3523,7 +3515,15 @@
 				<seg>We'nya te' 'odejaye, kojtya tumdumä te' line'omo, pijkä te' yajkjakpabä'is te' eyabä linea'omo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:service_retail" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentences-rule-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Separate sentences into one line by pressing “Enter” or “Return” once</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>We'nya te' 'odejaye, kojtya tumdumä te' line'omo, pijkä te' yajkjakpabä'is te' eyabä linea'omo.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:service_retail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Service and Retail</seg>
 			</tuv>
@@ -3531,7 +3531,7 @@
 				<seg>Yoskukyotsonhgu'y yajkti 'usyäjkti ma'ajpabä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:service_retail" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:service_retail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Service and Retail</seg>
 			</tuv>
@@ -3555,14 +3555,6 @@
 				<seg>Yajkätjaya 'eyada'mbä yä Common Voice</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:share-clip" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Share your clip</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Tsi'ya 'eyada'mbä tiyä mdsäjku, kätpamä kene.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:share-clip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share your clip</seg>
@@ -3571,12 +3563,12 @@
 				<seg>Tsi'ya 'eyada'mbä tiyä mdsäjku, kätpamä kene.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcuts" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:share-clip" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Shortcuts</seg>
+				<seg>Share your clip</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Wiyunh ndäjkäkyu'y</seg>
+				<seg>Tsi'ya 'eyada'mbä tiyä mdsäjku, kätpamä kene.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcuts" srclang="en-US">
@@ -3587,12 +3579,12 @@
 				<seg>Wiyunh ndäjkäkyu'y</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-2-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcuts" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>[Should be ‘dinosaurs’]</seg>
+				<seg>Shortcuts</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>[Te' mäjapekakobände'e nyäjayajpabä 'dinosariodad']</seg>
+				<seg>Wiyunh ndäjkäkyu'y</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-2-explanation" srclang="en-US">
@@ -3603,12 +3595,12 @@
 				<seg>[Te' mäjapekakobände'e nyäjayajpabä 'dinosariodad']</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-6-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-2-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>[Should be “We are”]</seg>
+				<seg>[Should be ‘dinosaurs’]</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>[Te'kodade'e]</seg>
+				<seg>[Te' mäjapekakobände'e nyäjayajpabä 'dinosariodad']</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-6-explanation" srclang="en-US">
@@ -3619,12 +3611,12 @@
 				<seg>[Te'kodade'e]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:single-sentence" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-6-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Single</seg>
+				<seg>[Should be “We are”]</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Tumäbädi tsame'is jyaye.</seg>
+				<seg>[Te'kodade'e]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:single-sentence" srclang="en-US">
@@ -3635,12 +3627,12 @@
 				<seg>Tumäbädi tsame'is jyaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:single-sentence-submission" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:single-sentence" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Single sentence submission</seg>
+				<seg>Single</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Tumädi tsame kä'wejku'y.</seg>
+				<seg>Tumäbädi tsame'is jyaye.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:single-sentence-submission" srclang="en-US">
@@ -3651,12 +3643,12 @@
 				<seg>Tumädi tsame kä'wejku'y.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:single-sentence-submission" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Skip</seg>
+				<seg>Single sentence submission</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Ko'nhgätku't (Ko'nhgädä)</seg>
+				<seg>Tumädi tsame kä'wejku'y.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:skip" srclang="en-US">
@@ -3667,7 +3659,7 @@
 				<seg>Ko'nhgätku'y (Ko'nhgädä)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -3683,12 +3675,12 @@
 				<seg>Ko'nhgätku'y (Ko'nhgädä)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentence" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-skip" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Small batch</seg>
+				<seg>Skip</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Usyanhbä tumä tu'mäyajubä tsame'is jyaye.</seg>
+				<seg>Ko'nhgätku't (Ko'nhgädä)</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentence" srclang="en-US">
@@ -3699,12 +3691,12 @@
 				<seg>Usyanhbä tumä tu'mäyajubä tsame'is jyaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentence-submission" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentence" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Small batch sentence submission</seg>
+				<seg>Small batch</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Kä'weya wenedan te' tsame'is jyaye.</seg>
+				<seg>Usyanhbä tumä tu'mäyajubä tsame'is jyaye.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentence-submission" srclang="en-US">
@@ -3715,12 +3707,12 @@
 				<seg>Kä'weya wenedan te' tsame'is jyaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-source" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentence-submission" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Source: { $sentenceSource }</seg>
+				<seg>Small batch sentence submission</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Käme'tskumyä: [...]</seg>
+				<seg>Kä'weya wenedan te' tsame'is jyaye.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-source" srclang="en-US">
@@ -3729,6 +3721,14 @@
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>Käme'tskumyä: { $sentenceSource }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-source" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Source: { $sentenceSource }</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Käme'tskumyä: [...]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:speak" srclang="en-US">
@@ -3747,7 +3747,7 @@
 				<seg>'Ongu'y</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-now" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:speak-now" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak now</seg>
 			</tuv>
@@ -3755,7 +3755,7 @@
 				<seg>'Ona yäti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:speak-now" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-now" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak now</seg>
 			</tuv>
@@ -3771,14 +3771,6 @@
 				<seg>Judäde mujspa me'tsa wa'a 'ondäjkäyu.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-cta" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Start recording</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Nitsäkä wa'a tsä'yu te' 'mode te' 'ongätäjkomo</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Start recording</seg>
@@ -3787,12 +3779,12 @@
 				<seg>Nitsäkä wa'a tsä'yu te' 'mode te' 'ongätäjkomo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-3-fixed-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>&lt;strong&gt;[Crackle]&lt;/strong&gt; giant dinosaurs of &lt;strong&gt;[crackle]&lt;/strong&gt; -riassic.</seg>
+				<seg>Start recording</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>&lt;strong&gt;[Tsi'uku'y]&lt;strong&gt; te' pekamäjakobända'm ka'yajubä'a te' &lt;strong&gt;[tsi'uku'y]&lt;strong&gt; -riásiko'omobä.</seg>
+				<seg>Nitsäkä wa'a tsä'yu te' 'mode te' 'ongätäjkomo</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-example-3-fixed-title" srclang="en-US">
@@ -3803,12 +3795,12 @@
 				<seg>[Tsi'uku'y] te' pekamäjakobända'm ka'yajubä'a te' [tsi'uku'y] -riásiko'omobä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-1-fixed-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-3-fixed-title" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>&lt;strong&gt;[Sneeze]&lt;/strong&gt; The giant dinosaurs of the &lt;strong&gt;[cough]&lt;/strong&gt; Triassic.</seg>
+				<seg>&lt;strong&gt;[Crackle]&lt;/strong&gt; giant dinosaurs of &lt;strong&gt;[crackle]&lt;/strong&gt; -riassic.</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>&lt;strong&gt;[Je'tsyijku'y]&lt;strong&gt; Te' pekamäjakobända'm ka'yajubä'a te' &lt;strong&gt;['eju'ajkä'y]&lt;strong&gt; Triásiko'omobä.</seg>
+				<seg>&lt;strong&gt;[Tsi'uku'y]&lt;strong&gt; te' pekamäjakobända'm ka'yajubä'a te' &lt;strong&gt;[tsi'uku'y]&lt;strong&gt; -riásiko'omobä.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-example-1-fixed-title" srclang="en-US">
@@ -3819,7 +3811,15 @@
 				<seg>[Je'tsyijku'y] Te' pekamäjakobända'm ka'yajubä'a te' ['eju'ajkä'y] Triásiko'omobä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-1-fixed-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;strong&gt;[Sneeze]&lt;/strong&gt; The giant dinosaurs of the &lt;strong&gt;[cough]&lt;/strong&gt; Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>&lt;strong&gt;[Je'tsyijku'y]&lt;strong&gt; Te' pekamäjakobända'm ka'yajubä'a te' &lt;strong&gt;['eju'ajkä'y]&lt;strong&gt; Triásiko'omobä.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -3827,7 +3827,7 @@
 				<seg>Kä'weya'</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -3843,14 +3843,6 @@
 				<seg>kä'weya tumä käme'tsku'y wa'a te' 'eyada'mbä'is yajk'onyajya yajkti wa'a 'yaktsokyaju</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit a report</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Kä'weya tumä tsa'manhwajku'y.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit a report</seg>
@@ -3859,12 +3851,20 @@
 				<seg>Kä'weya tumä tsa'manhwajku'y.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit a report</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Kä'weya tumä tsa'manhwajku'y.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-submit-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Kä'weya tiyä mgrabajtsäjkyaju'a</seg>
+				<seg>Kä'weya tisy nye' yajktsä'yjayu kyene.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit-label" srclang="en-US">
@@ -3883,12 +3883,12 @@
 				<seg>Kä'weya tiyä mgrabajtsäjkyaju'a</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-submit-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Kä'weya tisy nye' yajktsä'yjayu kyene.</seg>
+				<seg>Kä'weya tiyä mgrabajtsäjkyaju'a</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-questions-menu-item-aria-label" srclang="en-US">
@@ -3899,14 +3899,6 @@
 				<seg>Kä'weya jomeda'mbä käme'tsku'y wa'a yajk'onyaju eyada'mbä'is, wa'a 'yaktsokyaju 'eyada'mbä'is</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:success" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Success</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Wäbä</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:success" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Success</seg>
@@ -3915,12 +3907,12 @@
 				<seg>Wäbä</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:img-alt-success-checkmark" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:success" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>success checkmark</seg>
+				<seg>Success</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Koda ji'bi 'uka sunyi'am tujku tiyä nä mdsäjku.</seg>
+				<seg>Wäbä</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:img-alt-success-checkmark" srclang="en-US">
@@ -3931,12 +3923,12 @@
 				<seg>Koda ji'bi 'uka sunyi'am tujku tiyä nä mdsäjku.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-usage" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:img-alt-success-checkmark" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Swipe right to approve the sentence. Swipe left to reject it. Swipe up to skip it. &lt;strong&gt;Do not forget to submit your review!&lt;/strong&gt;</seg>
+				<seg>success checkmark</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Jäkä kädä mdsä'nanh'omobä mgä' 'uka te'sede te' jaye. Jäkä kädä 'maknya'omobä mgä' 'uka ji'nde tye'se. Jäkä ki'mä mgä' wa'a mgo'nhgädu. [...]¡'U mjambä'u wa'a mgä'weju te' mdu'nubä'a![...]</seg>
+				<seg>Koda ji'bi 'uka sunyi'am tujku tiyä nä mdsäjku.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-usage" srclang="en-US">
@@ -3947,12 +3939,12 @@
 				<seg>Jäkä kädä mdsä'nanh'omobä mgä' 'uka te'sede te' jaye. Jäkä kädä 'maknya'omobä mgä' 'uka ji'nde tye'se. Jäkä ki'mä mgä' wa'a mgo'nhgädu. &lt;strong&gt;¡'U mjambä'u wa'a mgä'weju te' mdu'nubä'a!&lt;strong&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-5" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-usage" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Taking several attempts to read a word.</seg>
+				<seg>Swipe right to approve the sentence. Swipe left to reject it. Swipe up to skip it. &lt;strong&gt;Do not forget to submit your review!&lt;/strong&gt;</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Wäwänyaka yajk'o'nispa te' jaye.</seg>
+				<seg>Jäkä kädä mdsä'nanh'omobä mgä' 'uka te'sede te' jaye. Jäkä kädä 'maknya'omobä mgä' 'uka ji'nde tye'se. Jäkä ki'mä mgä' wa'a mgo'nhgädu. [...]¡'U mjambä'u wa'a mgä'weju te' mdu'nubä'a![...]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-5" srclang="en-US">
@@ -3963,7 +3955,15 @@
 				<seg>Wäwänyaka yajk'o'nispa te' jaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Taking several attempts to read a word.</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Wäwänyaka yajk'o'nispa te' jaye.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tap</seg>
 			</tuv>
@@ -3971,7 +3971,7 @@
 				<seg>Kobinhgu'y</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tap</seg>
 			</tuv>
@@ -3995,14 +3995,6 @@
 				<seg>Mänhda'mbä yostäjk yajti te' mujsoyeda'm tä'nhgutya'mbä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-submission-success-header" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Thank you for contributing your bulk submission!</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>¡Yäskodoya yajki'mu'ajkä te' wäwäbä todojaye!</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:bulk-submission-success-header" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for contributing your bulk submission!</seg>
@@ -4011,7 +4003,15 @@
 				<seg>¡Yäskodoya yajki'mu'ajkä te' wäwäbä todojaye!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:second-cta-header-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-submission-success-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for contributing your bulk submission!</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>¡Yäskodoya yajki'mu'ajkä te' wäwäbä todojaye!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:second-cta-header-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for contributing your voice!</seg>
 			</tuv>
@@ -4019,7 +4019,7 @@
 				<seg>¡Yäskodoya mdsajku'ajkä yä mij 'mode!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:second-cta-header-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:second-cta-header-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for contributing your voice!</seg>
 			</tuv>
@@ -4043,14 +4043,6 @@
 				<seg>¡Yäskodoya nä mdsajku'ajkä yä 'mode yä' 'ondsä'kyu'yomo!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-submit-msg" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Thank you for recording!&lt;lineBreak&gt;&lt;/lineBreak&gt;Now review and submit your clips below.</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>¡Yäskodoya mgrabajtsäjku'ajkä!&lt;lineBreak&gt;&lt;/lineBreak&gt;Yäti tu'nwätsäkä, jäsi'ka kä'weya te' mgrabajtsäjkyajubä'a.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-submit-msg" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for recording!&lt;lineBreak&gt;&lt;/lineBreak&gt;Now review and submit your clips below.</seg>
@@ -4059,7 +4051,15 @@
 				<seg>¡Yäskodoya mgrabajtsäjku'ajkä! [...][...]Yäti tu'nwätsäkä, jäsi'ka kä'weya te' mgrabajtsäjkyajubä'a.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:thanks-for-voice-toast" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-submit-msg" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for recording!&lt;lineBreak&gt;&lt;/lineBreak&gt;Now review and submit your clips below.</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>¡Yäskodoya mgrabajtsäjku'ajkä!&lt;lineBreak&gt;&lt;/lineBreak&gt;Yäti tu'nwätsäkä, jäsi'ka kä'weya te' mgrabajtsäjkyajubä'a.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for your voice information</seg>
 			</tuv>
@@ -4067,7 +4067,7 @@
 				<seg>Yäskodoya mdsajku'ajkä te' 'mode'is tsyame.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:thanks-for-voice-toast" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for your voice information</seg>
 			</tuv>
@@ -4091,14 +4091,6 @@
 				<seg>Te' tuwi' nikujä'näyu'k kädu.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-speech-detail" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>The clip has disrespectful or offensive language.</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Te' kätpabä 'odejaye'is nyä'ijtu tumä 'ode tsa'ajkubyä yajkti 'onjabyabä'iste.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-offensive-speech-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The clip has disrespectful or offensive language.</seg>
@@ -4107,7 +4099,15 @@
 				<seg>Te' kätpabä 'odejaye'is nyä'ijtu tumä 'ode tsa'ajkubyä yajkti 'onjabyabä'iste.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-2-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-offensive-speech-detail" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The clip has disrespectful or offensive language.</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Te' kätpabä 'odejaye'is nyä'ijtu tumä 'ode tsa'ajkubyä yajkti 'onjabyabä'iste.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-2-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dinosaur of the Triassic.</seg>
 			</tuv>
@@ -4115,7 +4115,7 @@
 				<seg>Te' mäjapekakobän ja'idäbä'a, 'oyubä 'idi te' Triásiko'omo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-2-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-2-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dinosaur of the Triassic.</seg>
 			</tuv>
@@ -4171,7 +4171,7 @@
 				<seg>Te' mäjapekakobända'm ka'bä'yajubä'a te' Triásiko'omoda'mbä. [Yajk'onubä 'ijudibä'is 'yode'is]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-4-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-4-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dinosaurs of the Triassic. Yes.</seg>
 			</tuv>
@@ -4179,7 +4179,7 @@
 				<seg>Te' mäjapekakobända'm ka'bä'yajubä'a 'oyubä 'ijtye te' Triásiko'omobä. Jä'ä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-4-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-4-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dinosaurs of the Triassic. Yes.</seg>
 			</tuv>
@@ -4203,7 +4203,7 @@
 				<seg>Te' pekamäjakobän ka'ubä'a te' ['eju'ajkä'y] Triásiko'omobä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-empty-state" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-empty-state" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>There are currently no sentences to review in this language.</seg>
 			</tuv>
@@ -4211,7 +4211,7 @@
 				<seg>Yäti,  yä' ode'omo ja'idä jaye wa'a ndu'nisu.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-empty-state" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-empty-state" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>There are currently no sentences to review in this language.</seg>
 			</tuv>
@@ -4235,7 +4235,7 @@
 				<seg>Te' 'ode mdsäjkubä, nimekede päyibä, wäwäbäde'e.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The recording was too quiet.</seg>
 			</tuv>
@@ -4243,7 +4243,7 @@
 				<seg>Te' 'ode msäjkubä, ji'nde mane.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The recording was too quiet.</seg>
 			</tuv>
@@ -4267,14 +4267,6 @@
 				<seg>Te' 'ode msäjkubä, 'usyanhbädide'e.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-volume-description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Wene'nhomo 'eya'eya maka yajk'onye te' pä'nista'm te' todojaye, wenebä'is pämi, wenebä'is po'nyi. 'U mbäjkisytsyoku te' 'ode'is tsyame 'uka nimeke pämi yajkti 'uka nimeke po'nyi, yajkti 'uka ji' yajk'onye te' todojaye sunyi.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-volume-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.</seg>
@@ -4283,12 +4275,12 @@
 				<seg>Wene'nhomo 'eya'eya maka yajk'onye te' pä'nista'm te' todojaye, wenebä'is pämi, wenebä'is po'nyi. 'U mbäjkisytsyoku te' 'ode'is tsyame 'uka nimeke pämi yajkti 'uka nimeke po'nyi, yajkti 'uka ji' yajk'onye te' todojaye sunyi.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-volume-description" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>The Sentence Collector is moving to the core Common Voice platform. You can now &lt;writeURL&gt;write&lt;/writeURL&gt; a sentence or &lt;reviewURL&gt;review&lt;/reviewURL&gt; single sentence submissions on Common Voice.</seg>
+				<seg>There will be natural variations in volume between readers. Reject only if the volume is so high that the recording breaks up, or (more commonly) if it is so low that you can’t hear what is being said without reference to the written text.</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Te' kyobikpabä'is te' jaye, nä myaku te' kommon Vo'yis wyina'nhmba'tkumyä . Yäti muspa [...]mjayä[...] tumä jaye, [...]muspa mdu'nisä[...] te' jaye kyä'wejyajpabä tumä pätkodadi te' kommon voice'omo.</seg>
+				<seg>Wene'nhomo 'eya'eya maka yajk'onye te' pä'nista'm te' todojaye, wenebä'is pämi, wenebä'is po'nyi. 'U mbäjkisytsyoku te' 'ode'is tsyame 'uka nimeke pämi yajkti 'uka nimeke po'nyi, yajkti 'uka ji' yajk'onye te' todojaye sunyi.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
@@ -4299,7 +4291,15 @@
 				<seg>Te' kyobikpabä'is te' jaye, nä myaku te' kommon Vo'yis wyina'nhmba'tkumyä . Yäti muspa &lt;writeURL&gt;mjayä&lt;writeURL&gt;&lt;reviewURL&gt; tumä jaye, &lt;reviewURL&gt;muspa mdu'nisä&lt;reviewURL&gt; te' jaye kyä'wejyajpabä tumä pätkodadi te' kommon voice'omo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-grammar-or-spelling-detail" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The Sentence Collector is moving to the core Common Voice platform. You can now &lt;writeURL&gt;write&lt;/writeURL&gt; a sentence or &lt;reviewURL&gt;review&lt;/reviewURL&gt; single sentence submissions on Common Voice.</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Te' kyobikpabä'is te' jaye, nä myaku te' kommon Vo'yis wyina'nhmba'tkumyä . Yäti muspa [...]mjayä[...] tumä jaye, [...]muspa mdu'nisä[...] te' jaye kyä'wejyajpabä tumä pätkodadi te' kommon voice'omo.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-grammar-or-spelling-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence has a grammatical or spelling error.</seg>
 			</tuv>
@@ -4307,7 +4307,7 @@
 				<seg>Te' 'odejaye ji' wyä jayuse.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-grammar-or-spelling-detail" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-grammar-or-spelling-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence has a grammatical or spelling error.</seg>
 			</tuv>
@@ -4331,14 +4331,6 @@
 				<seg>Te' 'odejaye'is nyä'ijtu tumä 'ode tsa'ajkutsyi'babä'iste yajkti 'onjabyabä'iste.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>The sentence must be grammatically correct.</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Te' jaye sunyide'e wa'a näjktyäyu.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be grammatically correct.</seg>
@@ -4347,12 +4339,12 @@
 				<seg>Te' jaye sunyide'e wa'a näjktyäyu.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-3" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-2" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>The sentence must be speakable.</seg>
+				<seg>The sentence must be grammatically correct.</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Te' jaye wa'ade mujsu ndsamä.</seg>
+				<seg>Te' jaye sunyide'e wa'a näjktyäyu.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-3" srclang="en-US">
@@ -4363,7 +4355,15 @@
 				<seg>Te' jaye wa'ade mujsu ndsamä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The sentence must be speakable.</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Te' jaye wa'ade mujsu ndsamä.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be spelled correctly.</seg>
 			</tuv>
@@ -4371,7 +4371,7 @@
 				<seg>Te' jaye sunyide wa'a jyayaju.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be spelled correctly.</seg>
 			</tuv>
@@ -4411,7 +4411,7 @@
 				<seg>¡tsä'yuma tuka'y!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:too-many-files" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:too-many-files" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Too many files</seg>
 			</tuv>
@@ -4419,7 +4419,7 @@
 				<seg>Nimeke 'ijtu todojaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:too-many-files" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:too-many-files" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Too many files</seg>
 			</tuv>
@@ -4459,7 +4459,7 @@
 				<seg>Tsäjkwätsäkä, juknäminä yä'ki te' todokäwä'ni</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:try-upload-again-md" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:try-upload-again-md" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Try uploading again</seg>
 			</tuv>
@@ -4467,7 +4467,7 @@
 				<seg>Yajkki'mwätsäkä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:try-upload-again-md" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:try-upload-again-md" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Try uploading again</seg>
 			</tuv>
@@ -4507,7 +4507,7 @@
 				<seg>¡'Anhma'yanhä wa'a tiyä musu me'tsa manba'k te' 'ode'is tsyame, yajkti pa'tke'dadi juts wa'a sa'sya mdsäjkanhwajku te' 'mode'is tsame tsä'byabä!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-aborted" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-aborted" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload aborted. Do you want to delete your recordings?</seg>
 			</tuv>
@@ -4515,7 +4515,7 @@
 				<seg>Yajkimubä pa'dubä'a. ¿Sutpa mjäkä'ä tiyä mgrabajtsäjkubä'a?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-aborted" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-aborted" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload aborted. Do you want to delete your recordings?</seg>
 			</tuv>
@@ -4555,14 +4555,6 @@
 				<seg>[...] te' ['ijtusebä] 'odejaye päjkisy tsyokyajubä'a. Pena' yä'ki [...] wa'a yajkmä'nu te' japyäjkisytsyonhdäbä 'odejaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-failed-toast" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Upload failed, please retry.</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Jakyi'mä te' yosku'y, yajkki'mwätsäkä.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:bulk-upload-failed-toast" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload failed, please retry.</seg>
@@ -4571,12 +4563,12 @@
 				<seg>Jakyi'mä te' yosku'y, yajkki'mwätsäkä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-bulk-upload-header" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-failed-toast" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Upload &lt;icon&gt;&lt;/icon&gt; public domain sentences</seg>
+				<seg>Upload failed, please retry.</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Yajki'mja te' mumu'ikodabä 'ode'is jyaye.</seg>
+				<seg>Jakyi'mä te' yosku'y, yajkki'mwätsäkä.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-bulk-upload-header" srclang="en-US">
@@ -4587,12 +4579,12 @@
 				<seg>Yajki'mja te' mumu'ikodabä 'ode'is jyaye &lt;icon&gt;&lt;/icon&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:upload-progress-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-bulk-upload-header" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Upload in progress...</seg>
+				<seg>Upload &lt;icon&gt;&lt;/icon&gt; public domain sentences</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Nä kyi'mu te' yosku'y</seg>
+				<seg>Yajki'mja te' mumu'ikodabä 'ode'is jyaye.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:upload-progress-text" srclang="en-US">
@@ -4603,7 +4595,15 @@
 				<seg>Nä kyi'mu te' yosku'y</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:upload-more-btn-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:upload-progress-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Upload in progress...</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Nä kyi'mu te' yosku'y</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:upload-more-btn-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload more sentences?</seg>
 			</tuv>
@@ -4611,7 +4611,7 @@
 				<seg>¿Yajki'manh'äbya te' ode'jaye?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:upload-more-btn-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:upload-more-btn-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload more sentences?</seg>
 			</tuv>
@@ -4635,7 +4635,7 @@
 				<seg>Yajkyosa te' wäbä jaye.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-4" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Use correct spelling and punctuation</seg>
 			</tuv>
@@ -4643,7 +4643,7 @@
 				<seg>Yajkyosa te' wäbä jaye, yajkti sunyi'k koda te' ji'bi yajpamä te' 'odetsame.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-4" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Use correct spelling and punctuation</seg>
 			</tuv>
@@ -4739,7 +4739,7 @@
 				<seg>¿Sutpa mgäjtanhne'ka te' mdsamjajku'y? &lt;createProfile&gt;Tsäkä tumä'k mij mberfil/mgenetsä'kyu'y&lt;createProfile&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-7-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-7-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We are going out to get a coffee.</seg>
 			</tuv>
@@ -4747,7 +4747,7 @@
 				<seg>Nä'tsi makubä te' 'äj ngupku'yomo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-7-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-7-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We are going out to get a coffee.</seg>
 			</tuv>
@@ -4855,14 +4855,6 @@ Please try again later.</seg>
 				<seg>Nä't ndsäjkyaju mäjabäda'mbä käkajku'y.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We’re sorry, your platform is not currently supported.</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Jä'tiyä ndsäjkye, te' yätibä mij myostäjkomo, ji'made yosebä.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We’re sorry, your platform is not currently supported.</seg>
@@ -4871,12 +4863,12 @@ Please try again later.</seg>
 				<seg>Jä'tiyä ndsäjkye, te' yätibä mij myostäjkomo, ji'made yosebä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-empty-state" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>We've run out of sentences to record in this language...</seg>
+				<seg>We’re sorry, your platform is not currently supported.</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Janyä'ijtya'mäjt 'eyada'mbä 'odejaye yä' 'ode'omoda'mbä wa'ade yajktsä'yjayu te' 'yode.</seg>
+				<seg>Jä'tiyä ndsäjkye, te' yätibä mij myostäjkomo, ji'made yosebä.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:speak-empty-state" srclang="en-US">
@@ -4887,7 +4879,15 @@ Please try again later.</seg>
 				<seg>Janyä'ijtya'mäjt 'eyada'mbä 'odejaye yä' 'ode'omoda'mbä wa'ade yajktsä'yjayu te' 'yode.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-empty-state" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We've run out of sentences to record in this language...</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Janyä'ijtya'mäjt 'eyada'mbä 'odejaye yä' 'ode'omoda'mbä wa'ade yajktsä'yjayu te' 'yode.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We want the machine learning algorithms to able to handle a variety of background noise, and even relatively loud noises can be accepted provided that they don’t prevent you from hearing the entirety of the text. Quiet background music is OK; music loud enough to prevent you from hearing each and every word is not.</seg>
 			</tuv>
@@ -4895,7 +4895,7 @@ Please try again later.</seg>
 				<seg>Sutnyajpa't wa'a te' yojstäjkis mujsu pyäjkisytsyowa weneda'm te' ju'ku'y te' 'ode'is tsame'omo, muspa pyäjkisytsyowa nimekebä ju'ku'y 'uka muspade näjktyä te' 'odetsame. Te' manbabäde po'nyibä wane, nitiyä ji'tsyäki, 'uka nimekede pämibä, te'se ji' wyä.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We want the machine learning algorithms to able to handle a variety of background noise, and even relatively loud noises can be accepted provided that they don’t prevent you from hearing the entirety of the text. Quiet background music is OK; music loud enough to prevent you from hearing each and every word is not.</seg>
 			</tuv>
@@ -4951,20 +4951,20 @@ Please try again later.</seg>
 				<seg>¿Tibä jaye'mäjt muspa nhgojta'nhäya?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. &lt;br /&gt;Very common mistakes include:</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Manba'k, ko'sa ponymbo'nyi 'uka te' grabajtsäjkubä te'sede sya'sya jakye'dubä; 'u mbäjkisytsyoku te' 'odetsame tsä'yubä 'uka ji'nde te'se jayubä. &lt;br/&gt; Te' ji' wyäda'mbä yosku'y, yä'da'mde:</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. &lt;br /&gt;Very common mistakes include:</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>Manba'k, ko'sa ponymbo'nyi 'uka te' grabajtsäjkubä te'sede sya'sya jakye'dubä; 'u mbäjkisytsyoku te' 'odetsame tsä'yubä 'uka ji'nde te'se jayubä. Te' ji' wyäda'mbä yosku'y, yä'da'mde:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. &lt;br /&gt;Very common mistakes include:</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>Manba'k, ko'sa ponymbo'nyi 'uka te' grabajtsäjkubä te'sede sya'sya jakye'dubä; 'u mbäjkisytsyoku te' 'odetsame tsä'yubä 'uka ji'nde te'se jayubä. &lt;br/&gt; Te' ji' wyäda'mbä yosku'y, yä'da'mde:</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate" srclang="en-US">
@@ -5087,14 +5087,6 @@ Please try again later.</seg>
 				<seg>Mujspadi yajkyoskeda te' jatyäjkis tumä jyi'bi wa'a mawe tsäjku: { sc-review-form-button-approve-shortcut } wa'a mbäjkisytsyoku, { sc-review-form-button-reject-shortcut } wa'a jana mbäjkisytsyok, yajkti { sc-review-form-button-skip-shortcut } wa'a mgo'nhgädu.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:multiple-sentences-error" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>You cannot add multiple sentences for a single submission</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>Ji'nde mujsi nhgojta'nhä wäwä 'odejaye te' 'usyanhbä kä'wejtäjkomo.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:multiple-sentences-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You cannot add multiple sentences for a single submission</seg>
@@ -5103,12 +5095,12 @@ Please try again later.</seg>
 				<seg>Ji'nde mujsi nhgojta'nhä wäwä 'odejaye te' 'usyanhbä kä'wejtäjkomo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-lang-not-selected" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:multiple-sentences-error" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>You have not selected any languages. Please go to your &lt;profileLink&gt;Profile&lt;/profileLink&gt; to select languages.</seg>
+				<seg>You cannot add multiple sentences for a single submission</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Jamgobiwädi tumä 'ode. Tsäkä wäbä, mawä te' [...] wi'nanhmba'tkumyä [...] wa'a mgobiku tumä-metsa 'ode.</seg>
+				<seg>Ji'nde mujsi nhgojta'nhä wäwä 'odejaye te' 'usyanhbä kä'wejtäjkomo.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-lang-not-selected" srclang="en-US">
@@ -5119,12 +5111,12 @@ Please try again later.</seg>
 				<seg>Jamgobiwädi tumä 'ode. Tsäkä wäbä, mawä te' &lt;profileLink&gt;wi'nanhmba'tkumyä&lt;profileLink&gt; wa'a mgobiku tumä-metsa 'ode.&lt;profileLink&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:rate-limit-message-minutes" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-lang-not-selected" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!</seg>
+				<seg>You have not selected any languages. Please go to your &lt;profileLink&gt;Profile&lt;/profileLink&gt; to select languages.</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Kyätkokädu jujtsyede wa'a nhgä'weju todo' yä' yoskutyäjkomo. Jo'ka[...] minuto wa'a mgä'weju 'eyabä 'odejaye. ¡Yäskodoya mjo'kpa'ajkä!</seg>
+				<seg>Jamgobiwädi tumä 'ode. Tsäkä wäbä, mawä te' [...] wi'nanhmba'tkumyä [...] wa'a mgobiku tumä-metsa 'ode.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-message-minutes" srclang="en-US">
@@ -5135,12 +5127,12 @@ Please try again later.</seg>
 				<seg>Kyätkokädu jujtsyede wa'a nhgä'weju todo' yä' yoskutyäjkomo. Jo'ka { $retryLimit } minuto wa'a mgä'weju 'eyabä 'odejaye. ¡Yäskodoya mjo'kpa'ajkä!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-message-seconds" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:rate-limit-message-minutes" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!</seg>
+				<seg>You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>Kyätkokädu jujtsyede wa'a nhgä'weju todo' yä' yoskutyäjkomo. Jo'ka { $retryLimit } tumä segundo wa'a mgä'weju 'eyabä 'odejaye. ¡Yäskodoya mjo'kpa'ajkä!</seg>
+				<seg>Kyätkokädu jujtsyede wa'a nhgä'weju todo' yä' yoskutyäjkomo. Jo'ka[...] minuto wa'a mgä'weju 'eyabä 'odejaye. ¡Yäskodoya mjo'kpa'ajkä!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:rate-limit-message-seconds" srclang="en-US">
@@ -5151,12 +5143,12 @@ Please try again later.</seg>
 				<seg>Kyätkokädu jujtsyede wa'a nhgä'weju todo' yä' yoskutyäjkomo. Jo'ka tumä segundo wa'a mgä'weju 'eyabä 'odejaye. ¡Yäskodoya mjo'kpa'ajkä!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-message-seconds" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>You must allow microphone access.</seg>
+				<seg>You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>No'a' te' 'ondäjkätyäjk wa'a mujsu mnäyosa.</seg>
+				<seg>Kyätkokädu jujtsyede wa'a nhgä'weju todo' yä' yoskutyäjkomo. Jo'ka { $retryLimit } tumä segundo wa'a mgä'weju 'eyabä 'odejaye. ¡Yäskodoya mjo'kpa'ajkä!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
@@ -5167,7 +5159,15 @@ Please try again later.</seg>
 				<seg>No'a' te' 'ondäjkätyäjk wa'a mujsu mnäyosa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-generic-card" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You must allow microphone access.</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>No'a' te' 'ondäjkätyäjk wa'a mujsu mnäyosa.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-generic-card" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You’re contributing to a target segment</seg>
 			</tuv>
@@ -5175,7 +5175,7 @@ Please try again later.</seg>
 				<seg>Näde'e mdsajkubä te' myosanh yä witpä yoskutyäjkomo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-generic-card" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-generic-card" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You’re contributing to a target segment</seg>
 			</tuv>
@@ -5263,14 +5263,6 @@ Please try again later.</seg>
 				<seg>¡Wene'nhomo ji' 'yidi te' 'odejaye te' mij 'mode'omobä! Muspa nhgäkakä te' mij mgäme'tsku'y wa'a mujsu 'misä te' mij 'mode'is jyayeda'm.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-recording" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } recording goal!</seg>
-			</tuv>
-			<tuv xml:lang="zoc">
-				<seg>¡Yäkodoya mgotsoku'ajkä Common Voice, yäti kyäbadu'a &lt;goalPercentage&gt;&lt;/goalPercentage&gt;{ $goalValue } tiyä syupabäna'ajk tumdumjamakoda wa'a yajktsä'yjayu te' mij 'mongu'y te' { $goalValue }!</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:goal-help-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } recording goal!</seg>
@@ -5279,12 +5271,12 @@ Please try again later.</seg>
 				<seg>¡Yäkodoya mgotsoku'ajkä Common Voice, yäti kyäbadu'a [...] tiyä syupabäna'ajk tumdumjamakoda wa'a yajktsä'yjayu te' mij 'mongu'y te' [...]!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:goal-help-validation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
+				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } recording goal!</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
-				<seg>¡Yäkodoya mgotsoku'ajkä Common Voice, yäti kyäbadu'a te' [...] [...] tiyä syupabäna'ajk tumdumjamakoda wa'a wyä'aju te' [...]!</seg>
+				<seg>¡Yäkodoya mgotsoku'ajkä Common Voice, yäti kyäbadu'a &lt;goalPercentage&gt;&lt;/goalPercentage&gt;{ $goalValue } tiyä syupabäna'ajk tumdumjamakoda wa'a yajktsä'yjayu te' mij 'mongu'y te' { $goalValue }!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-validation" srclang="en-US">
@@ -5293,6 +5285,14 @@ Please try again later.</seg>
 			</tuv>
 			<tuv xml:lang="zoc">
 				<seg>¡Yäkodoya mgotsoku'ajkä Common Voice, yäti kyäbadu'a te' &lt;goalPercentage&gt;&lt;/goalPercentage&gt; tiyä syupabäna'ajk tumdumjamakoda wa'a wyä'aju te' { $goalValue }!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:goal-help-validation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
+			</tuv>
+			<tuv xml:lang="zoc">
+				<seg>¡Yäkodoya mgotsoku'ajkä Common Voice, yäti kyäbadu'a te' [...] [...] tiyä syupabäna'ajk tumdumjamakoda wa'a wyä'aju te' [...]!</seg>
 			</tuv>
 		</tu>
 	</body>

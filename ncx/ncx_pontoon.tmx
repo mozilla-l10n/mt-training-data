@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2026-08-01T00:50:25.652009">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2026-09-01T00:55:58.070967">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-rerecord-toggle" srclang="en-US">
@@ -19,7 +19,7 @@
 				<seg>[1-5]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:add-sentence-success" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentence-success" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>1 sentence collected</seg>
 			</tuv>
@@ -27,7 +27,7 @@
 				<seg>1 tlajkuiloli otiktlali</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-sentence-success" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:add-sentence-success" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>1 sentence collected</seg>
 			</tuv>
@@ -91,7 +91,7 @@
 				<seg>Tlen uelis tikpejpenas</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:accepted-files" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:accepted-files" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Accepted file types: .tsv only</seg>
 			</tuv>
@@ -99,7 +99,7 @@
 				<seg>Moneki yetos .tsv</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:accepted-files" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:accepted-files" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Accepted file types: .tsv only</seg>
 			</tuv>
@@ -123,14 +123,6 @@
 				<seg>&lt;accuracyLink&gt;Okachi xikita tlen moneki tikchiuas.&lt;/accuracyLink&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; ¿kox kuali okitenkixtikej?</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
@@ -139,12 +131,12 @@
 				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; ¿kox kuali okitenkixtikej?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; did they accurately speak the sentence?</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; satepan xiktlajtolti tlen ijkuilijtok</seg>
+				<seg>{ $actionType }&lt;playIcon&gt;&lt;/playIcon&gt; ¿kox kuali okitenkixtikej?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
@@ -155,7 +147,15 @@
 				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; satepan xiktlajtolti tlen ijkuilijtok</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; then read the sentence aloud</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>{ $actionType }&lt;recordIcon&gt;&lt;/recordIcon&gt; satepan xiktlajtolti tlen ijkuilijtok</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
 			</tuv>
@@ -163,7 +163,7 @@
 				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; ijkuak titlamis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-stop-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $actionType }&lt;stopIcon&gt;&lt;/stopIcon&gt; when done</seg>
 			</tuv>
@@ -195,14 +195,6 @@
 				<seg>Xitlajkuilo, xikmotili, xikijkuilo se tlajtlanilistli noso xikkaki uan xitlajkuilo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:write-instruction" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Add &lt;icon&gt;&lt;/icon&gt; a public domain sentence</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Xikchiua &lt;icon&gt;&lt;/icon&gt; se tlajkuiloli tlen nochtin kitaskej</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add &lt;icon&gt;&lt;/icon&gt; a public domain sentence</seg>
@@ -211,7 +203,15 @@
 				<seg>Xikchiua &lt;icon&gt;&lt;/icon&gt; se tlajkuiloli tlen nochtin kitaskej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:add-information-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:write-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Add &lt;icon&gt;&lt;/icon&gt; a public domain sentence</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Xikchiua &lt;icon&gt;&lt;/icon&gt; se tlajkuiloli tlen nochtin kitaskej</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:add-information-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add information</seg>
 			</tuv>
@@ -219,7 +219,7 @@
 				<seg>Xiktlali seki motech</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:add-information-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:add-information-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add information</seg>
 			</tuv>
@@ -299,7 +299,7 @@
 				<seg>Xitlajkuilo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-4" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentences-rule-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add up to 1,000 sentences</seg>
 			</tuv>
@@ -307,7 +307,7 @@
 				<seg>Xikintlalili kanaj 1000 tlajkuilolmej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentences-rule-4" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Add up to 1,000 sentences</seg>
 			</tuv>
@@ -331,7 +331,7 @@
 				<seg>Timitskakij</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:agriculture_food" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:agriculture_food" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Agriculture and Food</seg>
 			</tuv>
@@ -339,7 +339,7 @@
 				<seg>Tlatooktli uan tlakuali</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:agriculture_food" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:agriculture_food" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Agriculture and Food</seg>
 			</tuv>
@@ -363,7 +363,7 @@
 				<seg>Nochi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-5" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentences-rule-5" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>All sentence must have the same domain</seg>
 			</tuv>
@@ -371,7 +371,7 @@
 				<seg>Nochtin moneki sansekan pouiskej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentences-rule-5" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-5" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>All sentence must have the same domain</seg>
 			</tuv>
@@ -395,14 +395,6 @@
 				<seg>Nochtin moneki sansekan otikinkixti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:already-have-an-account" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Already have an account? &lt;login&gt;Log-In&lt;/login&gt;</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>¿Yotimomachoti? &lt;login&gt;Xikalaki&lt;/login&gt;</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:already-have-an-account" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Already have an account? &lt;login&gt;Log-In&lt;/login&gt;</seg>
@@ -411,7 +403,15 @@
 				<seg>¿Yotimomachoti? &lt;login&gt;Xikalaki&lt;/login&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sentences-fetch-error" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:already-have-an-account" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Already have an account? &lt;login&gt;Log-In&lt;/login&gt;</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>¿Yotimomachoti? &lt;login&gt;Xikalaki&lt;/login&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sentences-fetch-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>An error occurred fetching sentences</seg>
 			</tuv>
@@ -419,7 +419,7 @@
 				<seg>Itlaj omochi. Amo uelis tiktlaliliskej tlajkuiloli.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sentences-fetch-error" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sentences-fetch-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>An error occurred fetching sentences</seg>
 			</tuv>
@@ -467,7 +467,7 @@
 				<seg>Xikinnankili seki tlajtlanilmej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:answer-questions" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:answer-questions-coming-soon" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Answer Questions &lt;small&gt;(Coming soon)&lt;/small&gt;</seg>
 			</tuv>
@@ -475,7 +475,7 @@
 				<seg>Xikkaki uan Xiknankili &lt;small&gt;(Yikin yetos)&lt;/small&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:answer-questions-coming-soon" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:answer-questions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Answer Questions &lt;small&gt;(Coming soon)&lt;/small&gt;</seg>
 			</tuv>
@@ -491,7 +491,7 @@
 				<seg>San akin uelis kimaluis, kiyolitis uan kiyankuilis itlajtolkopa ika kitematiltis, uan kinechikos tlen kijkuilos uan kijtos.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Approve</seg>
 			</tuv>
@@ -499,7 +499,7 @@
 				<seg>Yikuali</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-approve" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Approve</seg>
 			</tuv>
@@ -619,14 +619,6 @@
 				<seg>Tlen yotikchi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Background Noise</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Tikkaki okseki tlamantli</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Background Noise</seg>
@@ -635,7 +627,15 @@
 				<seg>Tikkaki okseki tlamantli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Noise</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Tikkaki okseki tlamantli</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-voices-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Background Voices</seg>
 			</tuv>
@@ -643,7 +643,7 @@
 				<seg>Tikinkaki oksekimej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-voices-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Background Voices</seg>
 			</tuv>
@@ -827,14 +827,6 @@
 				<seg>Tla tikpatlas tlen tikajxitisneki, ayakmo tikitas tlen yotikajxitijka.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:first-cta-subtitle-text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>By telling us about yourself, you will help developers build more inclusive technology</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Tla techiluis okachi motech, techpaleuis okachi titesepanpaleuikan</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-subtitle-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>By telling us about yourself, you will help developers build more inclusive technology</seg>
@@ -843,7 +835,15 @@
 				<seg>Tla techiluis okachi motech, techpaleuis okachi titesepanpaleuikan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-terms" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:first-cta-subtitle-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>By telling us about yourself, you will help developers build more inclusive technology</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Tla techiluis okachi motech, techpaleuis okachi titesepanpaleuikan</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-terms" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>By using Common Voice, you agree to our &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
 			</tuv>
@@ -851,7 +851,7 @@
 				<seg>Ijkuak tiktekitiltia Common Voice, tikselia&lt;termsLink&gt;Tlanauatilmej&lt;/termsLink&gt; uan &lt;privacyLink&gt;Ken tiktekitiltia tlen nikan tiktlalilia&lt;/privacyLink&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-terms" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-terms" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>By using Common Voice, you agree to our &lt;termsLink&gt;Terms&lt;/termsLink&gt; and &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;</seg>
 			</tuv>
@@ -875,14 +875,6 @@
 				<seg>Ayakmo xiktsiko.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Cancel Submission</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Amo xiktitlani</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel Submission</seg>
@@ -891,7 +883,15 @@
 				<seg>Amo xiktitlani</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:exceeds-small-batch-limit-error" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-cancel" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Cancel Submission</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Amo xiktitlani</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:exceeds-small-batch-limit-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cannot submit more than 1000 sentences</seg>
 			</tuv>
@@ -899,7 +899,7 @@
 				<seg>Amo uelis tikinpanauis 1000 tlajkuilolmej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:exceeds-small-batch-limit-error" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:exceeds-small-batch-limit-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cannot submit more than 1000 sentences</seg>
 			</tuv>
@@ -923,7 +923,7 @@
 				<seg>Nahuat</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:change-preferences" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:change-preferences" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Change preferences</seg>
 			</tuv>
@@ -931,7 +931,7 @@
 				<seg>Xikpatla ken tlayetos</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:change-preferences" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:change-preferences" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Change preferences</seg>
 			</tuv>
@@ -979,7 +979,7 @@
 				<seg>&lt;chevron&gt;&lt;/chevron&gt;Amo okachi mamonexti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-more" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:see-more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;chevron&gt;&lt;/chevron&gt;See more</seg>
 			</tuv>
@@ -987,7 +987,7 @@
 				<seg>&lt;chevron&gt;&lt;/chevron&gt;Okachi mamonexti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:see-more" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:see-more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;chevron&gt;&lt;/chevron&gt;See more</seg>
 			</tuv>
@@ -1051,14 +1051,6 @@
 				<seg>Miktlajtoli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:speak-goal-text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Clips recorded</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>¡Yomokak!</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/home.ftl:speak-goal-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Clips recorded</seg>
@@ -1067,7 +1059,15 @@
 				<seg>¡Yomokak!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:clips-uploaded" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:speak-goal-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Clips recorded</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>¡Yomokak!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:clips-uploaded" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Clips Uploaded</seg>
 			</tuv>
@@ -1075,7 +1075,7 @@
 				<seg>¡Yomokak!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:clips-uploaded" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:clips-uploaded" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Clips Uploaded</seg>
 			</tuv>
@@ -1163,7 +1163,7 @@
 				<seg>Common Voice (Tinochtin Titlajtoaj) amikaj iaxka, nochtin kichiuaj uan nochtin uelis kitekitiltiskej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:home-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:home-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Common Voice is Mozilla's initiative to help teach machines how real people speak.</seg>
 			</tuv>
@@ -1171,7 +1171,7 @@
 				<seg>Common Voice non tlen ika Mozilla kinpaleuia yankuik teposmej makimatikan kenijki titlajtoaj.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:home-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:home-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Common Voice is Mozilla's initiative to help teach machines how real people speak.</seg>
 			</tuv>
@@ -1227,7 +1227,7 @@
 				<seg>Techtlapoui</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:continue" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:continue" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
 			</tuv>
@@ -1235,7 +1235,7 @@
 				<seg>Tlayekapan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:continue" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:continue" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
 			</tuv>
@@ -1363,7 +1363,7 @@
 				<seg>tlajtolmej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:x-months-short" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:x-months-short" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $count }mo</seg>
 			</tuv>
@@ -1371,7 +1371,7 @@
 				<seg>{ $count }meetstli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:x-months-short" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:x-months-short" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $count }mo</seg>
 			</tuv>
@@ -1451,7 +1451,7 @@
 				<seg>Tikinkauilia nochtin matlapaleuikan itech Tinochtin Titlajtoaj uan ijkon mayetokan san keski kinekiskej. ¡Te moneuian uelis tiktekitiltis tlen yotikchikej!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-nav" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-criteria-nav" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Criteria</seg>
 			</tuv>
@@ -1459,7 +1459,7 @@
 				<seg>Tlen moneki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-criteria-nav" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-nav" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Criteria</seg>
 			</tuv>
@@ -1523,7 +1523,7 @@
 				<seg>tonalmej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete my recordings</seg>
 			</tuv>
@@ -1531,7 +1531,7 @@
 				<seg>Xikinpojpolo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-delete-recordings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete my recordings</seg>
 			</tuv>
@@ -1555,7 +1555,7 @@
 				<seg>Nin okse tlajtolkopa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:report-sc-different-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Different language</seg>
 			</tuv>
@@ -1563,7 +1563,7 @@
 				<seg>Nin okse tlajtolkopa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:report-sc-different-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Different language</seg>
 			</tuv>
@@ -1651,7 +1651,7 @@
 				<seg>Techtliokolili motlajtol</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:request-language-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Don't see your language on Common Voice yet?</seg>
 			</tuv>
@@ -1659,7 +1659,7 @@
 				<seg>¿Ayamo tikita motlajtolkopa itech Common Voice?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:request-language-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Don't see your language on Common Voice yet?</seg>
 			</tuv>
@@ -1779,7 +1779,7 @@
 				<seg>Xikijkuilo mocorreo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-input-placeholder" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-input-placeholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enter your public domain sentence here</seg>
 			</tuv>
@@ -1787,7 +1787,7 @@
 				<seg>Nikan xikijkuilo tlen nochtin kitaskej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-input-placeholder" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-input-placeholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Enter your public domain sentence here</seg>
 			</tuv>
@@ -1827,7 +1827,7 @@
 				<seg>Amo omokak</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>ESC</seg>
 			</tuv>
@@ -1835,7 +1835,7 @@
 				<seg>KSA</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-discard-ongoing-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>ESC</seg>
 			</tuv>
@@ -1899,14 +1899,6 @@
 				<seg>Kitematltiaj itech...</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-2" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Fewer than 15 words per sentence</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Amo makipanaui 15 tlajtolmej</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Fewer than 15 words per sentence</seg>
@@ -1915,7 +1907,15 @@
 				<seg>Amo makipanaui 15 tlajtolmej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:file-too-large" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Fewer than 15 words per sentence</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Amo makipanaui 15 tlajtolmej</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:file-too-large" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>File is too large</seg>
 			</tuv>
@@ -1923,7 +1923,7 @@
 				<seg>Sapanoa ueyi motlajkuilol</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:file-too-large" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:file-too-large" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>File is too large</seg>
 			</tuv>
@@ -1947,14 +1947,6 @@
 				<seg>Sapanoa achitsin motlajkuilol</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:finance" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Finance</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Tomin</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:finance" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Finance</seg>
@@ -1963,7 +1955,15 @@
 				<seg>Tomin</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:find-us-on-matrix" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:finance" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Finance</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Tomin</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:find-us-on-matrix-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Find us on Matrix</seg>
 			</tuv>
@@ -1971,7 +1971,7 @@
 				<seg>Techonajsi itech Matrix</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:find-us-on-matrix-action" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:find-us-on-matrix" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Find us on Matrix</seg>
 			</tuv>
@@ -2051,7 +2051,7 @@
 				<seg>Xitlami titlakakis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-abort-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Finish validating clips?</seg>
 			</tuv>
@@ -2059,7 +2059,7 @@
 				<seg>¿Yotlanki titlakakis?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-abort-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-abort-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Finish validating clips?</seg>
 			</tuv>
@@ -2079,14 +2079,6 @@ Tla amo, uelis &lt;languageRequestLink&gt;tiktlajtlanis makitlalikan motlajtolko
 Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentences-rule-1" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Follow guidelines from “What sentences can I add?”</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Xikchiua ijkon ken kijtoa “¿Tlenon uelis nikijkuilos?”</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Follow guidelines from “What sentences can I add?”</seg>
@@ -2095,12 +2087,12 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xikchiua ijkon ken kijtoa “¿Tlenon uelis nikijkuilos?”</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-for-example" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentences-rule-1" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>for example</seg>
+				<seg>Follow guidelines from “What sentences can I add?”</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>uelis ijkon</seg>
+				<seg>Xikchiua ijkon ken kijtoa “¿Tlenon uelis nikijkuilos?”</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-for-example" srclang="en-US">
@@ -2111,7 +2103,15 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>uelis ijkon</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate-explanation-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-for-example" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>for example</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>uelis ijkon</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:why-donate-explanation-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>For technology to work well for everyone, the data that helps developers to build technology needs to reflect a diverse range of people. For example, if we don't include any speakers with a particular accent, then the technology won't work well for people with that accent. &lt;learnMore&gt;Learn more about why metadata matters.&lt;/learnMore&gt;</seg>
 			</tuv>
@@ -2119,7 +2119,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Ken melauak tiknekij titesepanpaleuiskej, moneki achitsin tikinmixmatiskej akinmej techpaleuiaj. Ijkon kuali tikmatiskej katli intlajtolkopa uan tlen okachi moneki. Panpa, tla amikaj itech se tlajtolkopa, amo uelis tikinpaleuiskej akinmej ijkon tlajtoaj.&lt;learnMore&gt;Xikmati okachi itech tleka miak ipati tlen tiktlalilia.&lt;/learnMore&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:why-donate-explanation-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:why-donate-explanation-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>For technology to work well for everyone, the data that helps developers to build technology needs to reflect a diverse range of people. For example, if we don't include any speakers with a particular accent, then the technology won't work well for people with that accent. &lt;learnMore&gt;Learn more about why metadata matters.&lt;/learnMore&gt;</seg>
 			</tuv>
@@ -2143,7 +2143,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>San tlenon</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-multiple-variants" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-variant-select-multiple-variants" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>General language / multiple variants</seg>
 			</tuv>
@@ -2151,7 +2151,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>San tlen tlamantli/tlatlamantli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-variant-select-multiple-variants" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-multiple-variants" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>General language / multiple variants</seg>
 			</tuv>
@@ -2167,7 +2167,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xikmato tlen tikchiuaj &lt;icon&gt;&lt;/icon&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-nav-get-involved" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-get-involved" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get involved</seg>
 			</tuv>
@@ -2175,7 +2175,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xitlapaleui</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-get-involved" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-nav-get-involved" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Get involved</seg>
 			</tuv>
@@ -2215,7 +2215,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Tlen yotikajsik</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-grammar-or-spelling" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-grammar-or-spelling" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Grammatical / spelling error</seg>
 			</tuv>
@@ -2223,7 +2223,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Amo ijkon tikijkuiloaj/tiktenkixtiaj.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-grammar-or-spelling" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-grammar-or-spelling" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Grammatical / spelling error</seg>
 			</tuv>
@@ -2247,14 +2247,6 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>¡Kuali! ¿Kanachi ik se tonal?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-again-instruction" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Great!&lt;recordIcon&gt;&lt;/recordIcon&gt; Record your next clip</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>¡Kuali!&lt;recordIcon&gt;&lt;/recordIcon&gt; Okse xiktsiko</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-again-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Great!&lt;recordIcon&gt;&lt;/recordIcon&gt; Record your next clip</seg>
@@ -2263,7 +2255,15 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>¡Kuali!&lt;recordIcon&gt;&lt;/recordIcon&gt; Okse xiktsiko</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-again-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-again-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Great!&lt;recordIcon&gt;&lt;/recordIcon&gt; Record your next clip</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>¡Kuali!&lt;recordIcon&gt;&lt;/recordIcon&gt; Okse xiktsiko</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-again-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Great work!&lt;playIcon&gt;&lt;/playIcon&gt; Listen again when you're ready</seg>
 			</tuv>
@@ -2271,7 +2271,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>¡Kuali otikchi!&lt;playIcon&gt;&lt;/playIcon&gt; Oksepa xikkaki ijkuak tiuelis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-again-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-again-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Great work!&lt;playIcon&gt;&lt;/playIcon&gt; Listen again when you're ready</seg>
 			</tuv>
@@ -2359,7 +2359,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xikpaleui Tinochtin Titlajtoaj makinmajxiti { $hours } horas ika se tlajtolkopa ika tlen tikajxitisneki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-first-banner" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-first-banner" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help create Common Voice’s first target segment in { $locale }</seg>
 			</tuv>
@@ -2367,7 +2367,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Techpaleui matiktlalikan tlen achto kajxitis Common Voice’s ika</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-first-banner" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-first-banner" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help create Common Voice’s first target segment in { $locale }</seg>
 			</tuv>
@@ -2391,7 +2391,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xipoui inuan akinmej tlapaleuiskej ikan intlajtol, techkauili matimitstlajkuililikan itech mocorreo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:help-make-dataset" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:help-make-dataset" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help us build a high quality, publicly open dataset</seg>
 			</tuv>
@@ -2399,7 +2399,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Techpaleui matikyekchiuakan tlen nochtin kitaskej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:help-make-dataset" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:help-make-dataset" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help us build a high quality, publicly open dataset</seg>
 			</tuv>
@@ -2431,7 +2431,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Techpaleui matikajxitikan { $goal }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:help-us-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:help-us-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help us validate sentences!</seg>
 			</tuv>
@@ -2439,7 +2439,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>¡Techpaleui tikmatiskej kox kuali okijkuilokej!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:help-us-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:help-us-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Help us validate sentences!</seg>
 			</tuv>
@@ -2495,14 +2495,6 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Tlen yopanok noso Tlanauatilmej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:hours-recorded" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Hours Recorded</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Horas tlen yikatej</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/home.ftl:hours-recorded" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hours Recorded</seg>
@@ -2511,7 +2503,15 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Horas tlen yikatej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:hours-validated" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:hours-recorded" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Hours Recorded</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Horas tlen yikatej</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:hours-validated" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hours Validated</seg>
 			</tuv>
@@ -2519,7 +2519,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Horas tlen yikualij</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:hours-validated" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:hours-validated" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Hours Validated</seg>
 			</tuv>
@@ -2543,7 +2543,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>¿Ken uelis tikyekpankixtiskej se tlajtolkopa itech Tinochtin Titlajtoa?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-nav-how-it-works-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:how-does-it-work-title-v2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does Common Voice work?</seg>
 			</tuv>
@@ -2551,7 +2551,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>¿Kenijki tekipanoa Tinochtin Titlajtoaj?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:how-does-it-work-title-v2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-nav-how-it-works-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does Common Voice work?</seg>
 			</tuv>
@@ -2583,7 +2583,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>¿Ken nitlajkuilos?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:how-to-cite" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How do I cite?</seg>
 			</tuv>
@@ -2591,7 +2591,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>¿Ken nikijtos kanin onikkixti?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:how-to-cite" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How do I cite?</seg>
 			</tuv>
@@ -2615,14 +2615,6 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>¿Kenijki nikmatos tlen tlamochitok?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-review-small-batch-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>How to add multiple sentences</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Ken san semi tikinmijkuilos miakej</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-review-small-batch-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How to add multiple sentences</seg>
@@ -2631,7 +2623,15 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Ken san semi tikinmijkuilos miakej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-help-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sc-review-small-batch-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>How to add multiple sentences</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Ken san semi tikinmijkuilos miakej</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:first-cta-gender-select-help-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How would you describe your sex or gender?</seg>
 			</tuv>
@@ -2639,7 +2639,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>¿Tikijtoskia titlakatl, tisiuatl noso oktlamantli?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:first-cta-gender-select-help-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-help-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How would you describe your sex or gender?</seg>
 			</tuv>
@@ -2711,7 +2711,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xikintitlani &lt;icon&gt;&lt;/icon&gt; miakej tlajkuilolmej tlen nochtin kinmitaskej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-8" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-8" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Ideally natural and conversational (it should be easy to read the sentence)</seg>
 			</tuv>
@@ -2719,7 +2719,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Okachi kuali ken ikaj iuan timotlapouiskia (amo oui mayeto)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-8" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-8" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Ideally natural and conversational (it should be easy to read the sentence)</seg>
 			</tuv>
@@ -2759,22 +2759,6 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Tla moneuian otikijkuilo, san xikijkuilo &lt;italicizedText&gt;“Noneuian onikijkuilo”&lt;/italicizedText&gt;. Moneki tikmatiskej kanin otikkixti tlen otikijkuilo uan ijkon uelis tiktekitiltiskej uan amikaj techteluis. Tla tikneki tikmatis okachi, xikita &lt;guidelinesLink&gt;Tlen moneki&lt;/guidelinesLink&gt;.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description-extended" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Tla tlajtoli motsitsikojtok noso chajchalantok, xipojpolo. Maski ijkon, tla mayijki tikkaki nochi tlen moneki, xikkaua.</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Tla tlajtoli motsitsikojtok noso chajchalantok, xipojpolo. Maski ijkon, tla mayijki tikkaki nochi tlen moneki, xikkaua.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
@@ -2784,6 +2768,22 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-description-extended" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Tla tlajtoli motsitsikojtok noso chajchalantok, xipojpolo. Maski ijkon, tla mayijki tikkaki nochi tlen moneki, xikkaua.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description-extended" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Tla tlajtoli motsitsikojtok noso chajchalantok, xipojpolo. Maski ijkon, tla mayijki tikkaki nochi tlen moneki, xikkaua.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
 			</tuv>
@@ -2823,7 +2823,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Tla onka okseki tlen tikneki techiluis itech motlajkuilol uan amo nikan nesi, techtlajkuilili itech &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-5-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-5-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the sentence does not meet the above criteria, click the &amp;quot;Reject&amp;quot; button on the left. If you are unsure about the sentence, you may also skip it and move on to the next one.</seg>
 			</tuv>
@@ -2831,7 +2831,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Tla tlajkuiloli amo kajki ken moneki, xikpacho &amp;quot;Xikpojpolo&amp;quot; mopochma. Tla amo tikmati kox kuali noso amo, uelis xikpanaui uan xikita okse.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-5-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-5-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the sentence does not meet the above criteria, click the &amp;quot;Reject&amp;quot; button on the left. If you are unsure about the sentence, you may also skip it and move on to the next one.</seg>
 			</tuv>
@@ -2911,7 +2911,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Kuali xikijkuilo kanin otikkixti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:file-invalid-type" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:file-invalid-type" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Invalid file</seg>
 			</tuv>
@@ -2919,7 +2919,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Motlajkuilol amo yonpa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:file-invalid-type" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:file-invalid-type" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Invalid file</seg>
 			</tuv>
@@ -2975,7 +2975,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Tlen okijkuilokej amo tlajtolkopa tlen nikmotilijtok.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>It is written in a language different than what I’m speaking.</seg>
 			</tuv>
@@ -2983,7 +2983,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Tlen okijkuilokej amo notlajtolkopa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language-detail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>It is written in a language different than what I’m speaking.</seg>
 			</tuv>
@@ -3007,7 +3007,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xipoui Discord</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Just Unsure?</seg>
 			</tuv>
@@ -3015,7 +3015,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>¿Amo tikmati tlen tikchiuas?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Just Unsure?</seg>
 			</tuv>
@@ -3047,14 +3047,6 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Yimokauas, oksepa xitlajto &lt;recordIcon&gt;&lt;/recordIcon&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-keep-recordings" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Keep the recordings</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Ijkon mamokaua</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-keep-recordings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keep the recordings</seg>
@@ -3063,12 +3055,12 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Ijkon mamokaua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:keep-track" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-keep-recordings" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Keep track of your progress and metrics across multiple languages.</seg>
+				<seg>Keep the recordings</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Xikita kanachi yotitlapaleui uan ken tekipanoaj ika okseki tlajtolkopaj.</seg>
+				<seg>Ijkon mamokaua</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/home.ftl:keep-track" srclang="en-US">
@@ -3079,7 +3071,15 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xikita kanachi yotitlapaleui uan ken tekipanoaj ika okseki tlajtolkopaj.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:keep-track-profile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:keep-track" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep track of your progress and metrics across multiple languages.</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Xikita kanachi yotitlapaleui uan ken tekipanoaj ika okseki tlajtolkopaj.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:keep-track-profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keep track of your progress with a profile</seg>
 			</tuv>
@@ -3087,7 +3087,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Touan xipoui uan tikitas kanachi yotitlapaleui.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:keep-track-profile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:keep-track-profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Keep track of your progress with a profile</seg>
 			</tuv>
@@ -3135,7 +3135,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Yotiktlajtlanili se tlajtolkopa, timitstlasojkamatiliaj.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:languages" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Languages</seg>
 			</tuv>
@@ -3143,7 +3143,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Tlajtolkopaj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:languages" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:languages" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Languages</seg>
 			</tuv>
@@ -3191,7 +3191,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xikmati ken titlapaleuis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn More</seg>
 			</tuv>
@@ -3199,7 +3199,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Okachi xikmati</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-learn-more" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Learn More</seg>
 			</tuv>
@@ -3215,7 +3215,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Tla tikisa, tikpolos tlen yotikpatlajka</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Leaving now means you'll lose your progress</seg>
 			</tuv>
@@ -3223,7 +3223,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Tla tikisa, tikpolos tlen yotikchi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Leaving now means you'll lose your progress</seg>
 			</tuv>
@@ -3239,7 +3239,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xikkaki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -3247,7 +3247,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xikkaki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -3327,14 +3327,6 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xikalaki noso ximomachioti uan tipeuas</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Log In / Sign Up</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Xikalaki/Ximomachoti</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log In / Sign Up</seg>
@@ -3343,7 +3335,15 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xikalaki/Ximomachoti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:login-company" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Log In / Sign Up</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Xikalaki/Ximomachoti</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:login-company" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log In / Sign Up with { $company } email</seg>
 			</tuv>
@@ -3351,7 +3351,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xikalaki / Ximomachoti ika { $company } correo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:login-company" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:login-company" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log In / Sign Up with { $company } email</seg>
 			</tuv>
@@ -3383,7 +3383,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xikita melauak tiksikojtok kuali motlajtol uan san xikketsa tla yotlanki tiktlajtoltia.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-make-sure" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-make-sure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Make sure the sentence meets the following criteria:</seg>
 			</tuv>
@@ -3391,7 +3391,7 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Xikmotili tlajkuiloli mayeto ijki:</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-make-sure" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-make-sure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Make sure the sentence meets the following criteria:</seg>
 			</tuv>
@@ -3495,14 +3495,6 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Tlajkuilolmej tlen monekis: 1000</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-8-explanation" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>[Mismatched content]</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>[Amo tikajsij non]</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-8-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[Mismatched content]</seg>
@@ -3511,12 +3503,12 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>[Amo tikajsij non]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-8-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Misreadings</seg>
+				<seg>[Mismatched content]</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Amo kuali okitlajtolkopkej</seg>
+				<seg>[Amo tikajsij non]</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-title" srclang="en-US">
@@ -3527,12 +3519,12 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Amo kuali okitlajtolkopkej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Missing an &lt;strong&gt;'s'&lt;/strong&gt; at the end of a word.</seg>
+				<seg>Misreadings</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Polui &lt;strong&gt;'j'&lt;/strong&gt; itlamian se tlajtoli.</seg>
+				<seg>Amo kuali okitlajtolkopkej</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-2" srclang="en-US">
@@ -3543,12 +3535,12 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Polui &lt;strong&gt;'j'&lt;/strong&gt; itlamian se tlajtoli.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-2" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Missing &lt;strong&gt;'A'&lt;/strong&gt; or &lt;strong&gt;'The'&lt;/strong&gt; at the beginning of the recording.</seg>
+				<seg>Missing an &lt;strong&gt;'s'&lt;/strong&gt; at the end of a word.</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Poliui &lt;strong&gt;'Se'&lt;/strong&gt; noso &lt;strong&gt;'Tejuan'&lt;/strong&gt; ijkuak peua se tlajtoli.</seg>
+				<seg>Polui &lt;strong&gt;'j'&lt;/strong&gt; itlamian se tlajtoli.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-1" srclang="en-US">
@@ -3559,12 +3551,12 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Poliui &lt;strong&gt;'Se'&lt;/strong&gt; noso &lt;strong&gt;'Tejuan'&lt;/strong&gt; ijkuak peua se tlajtoli.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-4" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-1" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Missing the end of the last word by cutting off the recording too quickly.</seg>
+				<seg>Missing &lt;strong&gt;'A'&lt;/strong&gt; or &lt;strong&gt;'The'&lt;/strong&gt; at the beginning of the recording.</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Amo ajsitok tlajtoli panpa san totoka okistikiski.</seg>
+				<seg>Poliui &lt;strong&gt;'Se'&lt;/strong&gt; noso &lt;strong&gt;'Tejuan'&lt;/strong&gt; ijkuak peua se tlajtoli.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-4" srclang="en-US">
@@ -3575,12 +3567,12 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>Amo ajsitok tlajtoli panpa san totoka okistikiski.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-4-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-4" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>[More has been recorded than the required text]</seg>
+				<seg>Missing the end of the last word by cutting off the recording too quickly.</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>[Okijto okachi, amo ken ijkuilijtok]</seg>
+				<seg>Amo ajsitok tlajtoli panpa san totoka okistikiski.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-4-explanation" srclang="en-US">
@@ -3591,7 +3583,15 @@ Ome tlamantli monekis. Makitlajtolkopakan sitio, uan seki matlajkuilokan</seg>
 				<seg>[Okijto okachi, amo ken ijkuilijtok]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:wall-of-text-second" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-4-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>[More has been recorded than the required text]</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>[Okijto okachi, amo ken ijkuilijtok]</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:wall-of-text-second" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Most of the data used by large companies isn’t available to the majority of people. We think that
 stifles innovation. So we’ve launched Common Voice, a project to help make voice recognition open
@@ -3601,7 +3601,7 @@ and accessible to everyone.</seg>
 				<seg>Miak tlamantli tlen uejueyij tekinechikolmej kipiaj amikaj okse uelis kitas. Tikneltokaj non kitsakuilia matitlayekapanpanokan. Yika, otikchijkej Common Voice (Tinochtin Titlajtoaj) tlen ika tinochtin uelis timosepanpaleuiskej ika.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:wall-of-text-second" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:wall-of-text-second" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Most of the data used by large companies isn’t available to the majority of people. We think that
 stifles innovation. So we’ve launched Common Voice, a project to help make voice recognition open
@@ -3631,14 +3631,6 @@ recognition open to everyone.</seg>
 				<seg>Miak tlamantli tlen uejueyij tekinechikolmej kipiaj amikaj okse uelis kitas. Tikneltokaj non kitsakuilia matitlayekapanpanokan. Yika, otikchijkej Common Voice (Tinochtin Titlajtoaj) uan ijkon tinochtin uelis timosepanpaleuiskej ika.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-description" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Kanaj nochtin san kuali tlajtoskej. Noijki, uelis tikselis maski tsajsis, ichtakatlajtos noso kipajpatla ken tlajtoa. Xikpojpolo tla tlakuikas noso tla akin melauak tlajtoa se tepostli.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-reader-effects-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.</seg>
@@ -3647,7 +3639,15 @@ recognition open to everyone.</seg>
 				<seg>Kanaj nochtin san kuali tlajtoskej. Noijki, uelis tikselis maski tsajsis, ichtakatlajtos noso kipajpatla ken tlajtoa. Xikpojpolo tla tlakuikas noso tla akin melauak tlajtoa se tepostli.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:default-tagline" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Kanaj nochtin san kuali tlajtoskej. Noijki, uelis tikselis maski tsajsis, ichtakatlajtos noso kipajpatla ken tlajtoa. Xikpojpolo tla tlakuikas noso tla akin melauak tlajtoa se tepostli.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:default-tagline" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Common Voice is an initiative to help teach machines how real people speak.</seg>
 			</tuv>
@@ -3655,7 +3655,7 @@ recognition open to everyone.</seg>
 				<seg>Common Voice se tlamantli tlen ika Mozilla kinpaleuia yankuik teposmej makimatikan kenijki titlajtoaj.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:default-tagline" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:default-tagline" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Common Voice is an initiative to help teach machines how real people speak.</seg>
 			</tuv>
@@ -3679,7 +3679,7 @@ recognition open to everyone.</seg>
 				<seg>a</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-reject-shortcut" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-reject-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>N</seg>
 			</tuv>
@@ -3687,7 +3687,7 @@ recognition open to everyone.</seg>
 				<seg>A</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-reject-shortcut" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-button-reject-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>N</seg>
 			</tuv>
@@ -3743,7 +3743,7 @@ recognition open to everyone.</seg>
 				<seg>Tlen axkan tlamochijtok</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -3751,7 +3751,7 @@ recognition open to everyone.</seg>
 				<seg>Amo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:vote-no" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No</seg>
 			</tuv>
@@ -3815,14 +3815,6 @@ recognition open to everyone.</seg>
 				<seg>Amitlaj gravatar ika mocorreo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-no-mic-found" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>No microphone found.</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Amitlaj micrófono.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-no-mic-found" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No microphone found.</seg>
@@ -3831,7 +3823,15 @@ recognition open to everyone.</seg>
 				<seg>Amitlaj micrófono.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-5" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-no-mic-found" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>No microphone found.</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Amitlaj micrófono.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-5" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No numbers and special characters</seg>
 			</tuv>
@@ -3839,7 +3839,7 @@ recognition open to everyone.</seg>
 				<seg>Amo xikijkuilo ika pouali noso okse tlamantli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-5" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-5" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>No numbers and special characters</seg>
 			</tuv>
@@ -3999,14 +3999,6 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Ika iOS, uelis tiksikos motlajtol ika Safari...</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description-extended" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Maski ijkon, tla tikita akin okitlajtolti amo keman yokitaya uan san ken nesi okitenkixti, xikpojpolo. Tla amo tikmati tlen omochi, xikkaua uan okse xikpanaui.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.</seg>
@@ -4015,12 +4007,12 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Maski ijkon, tla tikita akin okitlajtolti amo keman yokitaya uan san ken nesi okitenkixti, xikpojpolo. Tla amo tikmati tlen omochi, xikkaua uan okse xikpanaui.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:join-newsletter" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Optionally join on our email list for updates and new information about the project.</seg>
+				<seg>On the other hand, if you think that the reader has probably never come across the word before, and is simply making an incorrect guess at the pronunciation, please reject. If you are unsure, use the skip button.</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Tla tikneki, xiktlalili mocorreo uan tikmatis tlen yikin omochi itech nin tekitl.</seg>
+				<seg>Maski ijkon, tla tikita akin okitlajtolti amo keman yokitaya uan san ken nesi okitenkixti, xikpojpolo. Tla amo tikmati tlen omochi, xikkaua uan okse xikpanaui.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/home.ftl:join-newsletter" srclang="en-US">
@@ -4031,7 +4023,15 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Tla tikneki, xiktlalili mocorreo uan tikmatis tlen yikin omochi itech nin tekitl.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:demographic-deidentified-clarity-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:join-newsletter" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Optionally join on our email list for updates and new information about the project.</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Tla tikneki, xiktlalili mocorreo uan tikmatis tlen yikin omochi itech nin tekitl.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:demographic-deidentified-clarity-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Optionally submitted demographic data (e.g. age, gender, language, and accent) will never be made public on your profile, and will not be linked to your account in the dataset. Individual audio clips will be associated with demographic data for the purpose of more accurate analysis - for example, a researcher might want to target a training model to a specific demographic segment.</seg>
 			</tuv>
@@ -4039,7 +4039,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Tlen tiktlalilis motech tla tikneki (keski xiuitl yotikajxiti, kox titlakatl noso tisiuatl, kanin mocha) amo keman monextis teixpa. Sejse tlajtoli tlen tiktsikos tiktlaliliskej inuan oksekimej tlen mouikaj itech kanin tichanti uan ijkon okachi tlapaleuis. Panpa xamo sekimej kinekiskej kinpaleuiskej san akinmej kanaj chantij.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:demographic-deidentified-clarity-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:demographic-deidentified-clarity-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Optionally submitted demographic data (e.g. age, gender, language, and accent) will never be made public on your profile, and will not be linked to your account in the dataset. Individual audio clips will be associated with demographic data for the purpose of more accurate analysis - for example, a researcher might want to target a training model to a specific demographic segment.</seg>
 			</tuv>
@@ -4193,7 +4193,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Miakej kalakij uan kitetliokoliaj intlajtol.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-last-time-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-last-time-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Last one!</seg>
 			</tuv>
@@ -4201,7 +4201,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;San se poliui!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-last-time-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-last-time-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;playIcon&gt;&lt;/playIcon&gt;Last one!</seg>
 			</tuv>
@@ -4257,7 +4257,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikontlalili nikan tlen moneki.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-select-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-select-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Please select a language to review sentences.</seg>
 			</tuv>
@@ -4265,7 +4265,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikonpejpena tlen tlajtolkopa tikmotilis.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-select-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-select-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Please select a language to review sentences.</seg>
 			</tuv>
@@ -4305,7 +4305,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Tlen yikin omochi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:help-us-explain" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:help-us-explain" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Press play, listen &amp; tell us: did they accurately speak the sentence below?</seg>
 			</tuv>
@@ -4313,7 +4313,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikapcho play, xikkaki uan techilui: ¿kuali okitenkixtikej tlajkuiloli?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:help-us-explain" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:help-us-explain" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Press play, listen &amp; tell us: did they accurately speak the sentence below?</seg>
 			</tuv>
@@ -4385,7 +4385,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>t</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[‘Raised’ in English is always pronounced as one syllable, not two]</seg>
 			</tuv>
@@ -4393,7 +4393,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>[‘Poxak’ tiktenkixtiaj ken ´puxak´ maski tikijkuiloaj ika "o"]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-example-2-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[‘Raised’ in English is always pronounced as one syllable, not two]</seg>
 			</tuv>
@@ -4417,14 +4417,6 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Otikpanaui tlen omonekiaya. Oksepa xikyeko ipan { $retryLimit } minutos</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:rate-limit-toast-message-seconds" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Rate limit exceeded. Try again in { $retryLimit } seconds</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Otikpanaui tlen omonekiaya. Oksepa xikyeko ipan { $retryLimit } segundos</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-toast-message-seconds" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Rate limit exceeded. Try again in { $retryLimit } seconds</seg>
@@ -4433,12 +4425,12 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Otikpanaui tlen omonekiaya. Oksepa xikyeko ipan { $retryLimit } segundos</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:rate-limit-toast-message-seconds" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Reader Effects</seg>
+				<seg>Rate limit exceeded. Try again in { $retryLimit } seconds</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Ken kitlajtoltia</seg>
+				<seg>Otikpanaui tlen omonekiaya. Oksepa xikyeko ipan { $retryLimit } segundos</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-reader-effects-title" srclang="en-US">
@@ -4449,12 +4441,12 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Ken kitlajtoltia</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-3" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-title" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.</seg>
+				<seg>Reader Effects</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Kitenkixtiaj tlen amo yonpa ken "ita", kanin kijtoa "xikita" noso "iuan" kanin kijtoa "uan".</seg>
+				<seg>Ken kitlajtoltia</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-3" srclang="en-US">
@@ -4465,12 +4457,12 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Kitenkixtiaj tlen amo yonpa ken "ita", kanin kijtoa "xikita" noso "iuan" kanin kijtoa "uan".</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:show-wall-of-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-3" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Read More</seg>
+				<seg>Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Okachi xikmati</seg>
+				<seg>Kitenkixtiaj tlen amo yonpa ken "ita", kanin kijtoa "xikita" noso "iuan" kanin kijtoa "uan".</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/home.ftl:show-wall-of-text" srclang="en-US">
@@ -4481,7 +4473,15 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Okachi xikmati</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:read-more-about" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:show-wall-of-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Read More</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Okachi xikmati</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:read-more-about" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Read more on our About page</seg>
 			</tuv>
@@ -4489,7 +4489,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikmati okachi kanin Tiktematiltiaj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:read-more-about" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:read-more-about" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Read more on our About page</seg>
 			</tuv>
@@ -4569,7 +4569,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>¿Techpaleuis ika okseki { $count } ?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:ready-to-record" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:ready-to-record" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Ready to donate your voice?</seg>
 			</tuv>
@@ -4577,7 +4577,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>¿Techtliokolilis motlajtol?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:ready-to-record" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:ready-to-record" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Ready to donate your voice?</seg>
 			</tuv>
@@ -4593,14 +4593,6 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Tlajtoli tlen yokitsikokej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-last-instruction" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>¡Saiktlami!</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-last-instruction" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
@@ -4609,7 +4601,15 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>¡Saiktlami!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-3-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-last-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;recordIcon&gt;&lt;/recordIcon&gt; Last one!</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>¡Saiktlami!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-3-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[Recording cut off before the end of the last word]</seg>
 			</tuv>
@@ -4617,7 +4617,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>[Amo ajsitok. San totoka okistikiski]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-3-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-3-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>[Recording cut off before the end of the last word]</seg>
 			</tuv>
@@ -4649,7 +4649,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Tiksikos motlajtol kipaleuia mamochiua totlajtolnechikoli tlen nochtin uelis kitaskej; sekimej kijtoskiaj non tlen okachi kualtsin.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-record-toggle-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-record-toggle-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Record/Stop</seg>
 			</tuv>
@@ -4657,7 +4657,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xiktsiko/Ximochia</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-record-toggle-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-record-toggle-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Record/Stop</seg>
 			</tuv>
@@ -4681,7 +4681,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xiksiko motlajtol ijkuak tikinnankilis seki tlajtlanilistli ika motlajtolkopa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:record-button-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:record-button-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Record your voice</seg>
 			</tuv>
@@ -4689,7 +4689,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xiktsiko motlajtol</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:record-button-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:record-button-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Record your voice</seg>
 			</tuv>
@@ -4737,14 +4737,6 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikpojpolo moixkopinal</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Report</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Itlaj mochiua</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Report</seg>
@@ -4753,12 +4745,12 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Itlaj mochiua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-success" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Report was passed successfully</seg>
+				<seg>Report</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Yitikmatokej tlen mochijtok</seg>
+				<seg>Itlaj mochiua</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:report-success" srclang="en-US">
@@ -4769,7 +4761,15 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Yitikmatokej tlen mochijtok</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:request-language-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Report was passed successfully</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Yitikmatokej tlen mochijtok</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Request a Language</seg>
 			</tuv>
@@ -4777,7 +4777,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xiktlajtlani se tlajtolkopa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:request-language-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:request-language-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Request a Language</seg>
 			</tuv>
@@ -4833,7 +4833,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xitlanankili ijkon ken mojmostla tikchiua kanin tichanti. Non sapanoa kinpaleuis akinmej amo okachi tlaixmaj.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Return</seg>
 			</tuv>
@@ -4841,7 +4841,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Ximokopa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:shortcut-submit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Return</seg>
 			</tuv>
@@ -4865,14 +4865,6 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Ximokopa itech tlen onka itech Tinochtin Titlajtoaj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Xikmotili</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:review" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
@@ -4882,14 +4874,6 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:review" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Xikmotili</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -4913,7 +4897,23 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikmotili</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-review-failure" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Xikmotili</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-recording" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Xikmotili</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-review-failure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review could not be saved. Please try again later.</seg>
 			</tuv>
@@ -4921,7 +4921,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Itlaj omochi. Amo omokak. Teotlatki oksepa xikyeko.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-review-failure" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-review-failure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review could not be saved. Please try again later.</seg>
 			</tuv>
@@ -4985,14 +4985,6 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikmotili tlen oksekimej yokijkuilokej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-tooltip" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review &amp; re-record clips here as you go</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Xikita nikan tlen yotikchi uan okseki xikchiua</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-tooltip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review &amp; re-record clips here as you go</seg>
@@ -5001,12 +4993,12 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikita nikan tlen yotikchi uan okseki xikchiua</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-instruction" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-tooltip" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Review &amp; re-record clips if needed</seg>
+				<seg>Review &amp; re-record clips here as you go</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Xikmotili uan oksepa xiktsiko tla monekis</seg>
+				<seg>Xikita nikan tlen yotikchi uan okseki xikchiua</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-instruction" srclang="en-US">
@@ -5017,7 +5009,15 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikmotili uan oksepa xiktsiko tla monekis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-instruction" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review &amp; re-record clips if needed</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Xikmotili uan oksepa xiktsiko tla monekis</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Sentences</seg>
 			</tuv>
@@ -5025,7 +5025,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikmotili tlajtoli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Sentences</seg>
 			</tuv>
@@ -5081,7 +5081,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikmotili tlen okitenkakijkej kox kuali okijkuilokej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:review-transcriptions-coming-soon" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:review-transcriptions" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Transcriptions &lt;small&gt;(Coming soon)&lt;/small&gt;</seg>
 			</tuv>
@@ -5089,7 +5089,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikmotili kox kuali kitenkakij &lt;small&gt;(Yikin yetos)&lt;/small&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:review-transcriptions" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:review-transcriptions-coming-soon" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review Transcriptions &lt;small&gt;(Coming soon)&lt;/small&gt;</seg>
 			</tuv>
@@ -5169,14 +5169,6 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikpejpena se tlajtolkopa...</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-default-option" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Select an option</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Xikpejpena se</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:first-cta-gender-select-default-option" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select an option</seg>
@@ -5185,12 +5177,12 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikpejpena se</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-variant-select-placeholder" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-gender-select-default-option" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Select a variant (optional)</seg>
+				<seg>Select an option</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Xikpejpena ken yetos (tla tikneki)</seg>
+				<seg>Xikpejpena se</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-variant-select-placeholder" srclang="en-US">
@@ -5201,7 +5193,15 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikpejpena ken yetos (tla tikneki)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:select-file" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-variant-select-placeholder" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Select a variant (optional)</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Xikpejpena ken yetos (tla tikneki)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:select-file" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select File</seg>
 			</tuv>
@@ -5209,7 +5209,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikpejpena</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:select-file" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:select-file" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select File</seg>
 			</tuv>
@@ -5249,7 +5249,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Uelis tikinpejpenas eyi (tla tikneki)</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence</seg>
 			</tuv>
@@ -5257,7 +5257,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Tlajkuiloli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence</seg>
 			</tuv>
@@ -5297,7 +5297,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>&lt;sentenceCollectorVideo&gt;Nin video mitsititis ken tikchiuas Tlajkuilolnechikoli&lt;/sentenceCollectorVideo&gt;.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-domain-combobox-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-domain-combobox-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence Domain</seg>
 			</tuv>
@@ -5305,7 +5305,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Kanin poui tlajkuiloli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sentence-domain-combobox-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:sentence-domain-combobox-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sentence Domain</seg>
 			</tuv>
@@ -5345,7 +5345,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Tlen kijkuiloskej moneki ome makimotilikan uan ijkon yipouis itech Tinochtin Titlajtoaj. Uelis tikijkuilos seki tlamantli  &lt;languageGuidelinesLink&gt;nikan&lt;/languageGuidelinesLink&gt;. Tlen tikijkuilos moneki pouis itech &lt;licenseLink&gt;tlen nochtin uelis kitekitiltiskej&lt;/licenseLink&gt; uan san kipias kanaj 15 tlajtoli. Uelis tikiluis akin okijkuilo ma kichiua ken &lt;waiverLink&gt;CC0 ika nin&lt;/waiverLink&gt;, uan matechtitlanili itech commonvoice@mozilla.com</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-reviewed-message" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-reviewed-message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $sentences } sentences reviewed. Thank you!</seg>
 			</tuv>
@@ -5353,7 +5353,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>{ $sentences } tlajkuiloli otikinmotili. ¡Timitstlasojkamatiliaj!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-reviewed-message" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-reviewed-message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $sentences } sentences reviewed. Thank you!</seg>
 			</tuv>
@@ -5377,14 +5377,6 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Ken yetos tlajkuiloli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-3" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Separate sentences into one line by pressing “Enter” or “Return” once</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Tla tikijkuilos itlanpa non okse, xikpacho "Enter" noso "Regresar"</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentences-rule-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Separate sentences into one line by pressing “Enter” or “Return” once</seg>
@@ -5393,7 +5385,15 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Tla tikijkuilos itlanpa non okse, xikpacho "Enter" noso "Regresar"</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:service_retail" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentences-rule-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Separate sentences into one line by pressing “Enter” or “Return” once</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Tla tikijkuilos itlanpa non okse, xikpacho "Enter" noso "Regresar"</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:service_retail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Service and Retail</seg>
 			</tuv>
@@ -5401,7 +5401,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Tlasemanaj uan tlanemakaj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:service_retail" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:service_retail" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Service and Retail</seg>
 			</tuv>
@@ -5449,7 +5449,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xiktematilti tlen nikchiuasneki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:share-clip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:share-clip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share your clip</seg>
 			</tuv>
@@ -5457,7 +5457,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xiktitlani motlajtol</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:share-clip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:share-clip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Share your clip</seg>
 			</tuv>
@@ -5553,7 +5553,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Ximomachoti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:sign-up-account" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:sign-up-account" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign up for an account</seg>
 			</tuv>
@@ -5561,7 +5561,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Touan ximomachoti</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:sign-up-account" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:sign-up-account" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Sign up for an account</seg>
 			</tuv>
@@ -5617,14 +5617,6 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>San se</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:single-sentence-submission" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Single sentence submission</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>San se tlajkuiloli tiktitlanilis</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:single-sentence-submission" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Single sentence submission</seg>
@@ -5633,7 +5625,15 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>San se tlajkuiloli tiktitlanilis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:single-sentence-submission" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Single sentence submission</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>San se tlajkuiloli tiktitlanilis</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -5641,7 +5641,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikpanaui</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -5681,7 +5681,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Sekimej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentence-submission" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentence-submission" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Small batch sentence submission</seg>
 			</tuv>
@@ -5689,7 +5689,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Seki tlajkuiloli tikintitlanilis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-sentence-submission" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-sentence-submission" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Small batch sentence submission</seg>
 			</tuv>
@@ -5721,14 +5721,6 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Ika kijtlajtlania matiktlalikan okse tlajtolkopa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-source" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Source: { $sentenceSource }</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Kisa itech: { $sentenceSource }</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-source" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Source: { $sentenceSource }</seg>
@@ -5737,7 +5729,15 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Kisa itech: { $sentenceSource }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-source" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Source: { $sentenceSource }</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Kisa itech: { $sentenceSource }</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -5745,7 +5745,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xitlajto</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-speak" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak</seg>
 			</tuv>
@@ -5785,7 +5785,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>¡Xitlajto san ken nochipa tikchiua! San ken titlajtos yikuali - tiknekij xiktenkixti, xitlajto, san ken kualtsin nochipa tikchiua.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-now" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:speak-now" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak now</seg>
 			</tuv>
@@ -5793,7 +5793,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Yixitlajto</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:speak-now" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:speak-now" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak now</seg>
 			</tuv>
@@ -5809,7 +5809,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Tlen uelis tiktlajtoltis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:home-cta" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:home-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak up, contribute here!</seg>
 			</tuv>
@@ -5817,7 +5817,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>¡Techtlapoui! ¡Nikan xitlapaleui!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:home-cta" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:home-cta" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Speak up, contribute here!</seg>
 			</tuv>
@@ -5865,7 +5865,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Kanachi nikchijtok</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-example-3-fixed-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-3-fixed-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;strong&gt;[Crackle]&lt;/strong&gt; giant dinosaurs of &lt;strong&gt;[crackle]&lt;/strong&gt; -riassic.</seg>
 			</tuv>
@@ -5873,7 +5873,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>&lt;strong&gt;[Itlaj chalani]&lt;/strong&gt; tikpak&lt;strong&gt;[itlaj chalani]&lt;/strong&gt; -kamej.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-3-fixed-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-example-3-fixed-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;strong&gt;[Crackle]&lt;/strong&gt; giant dinosaurs of &lt;strong&gt;[crackle]&lt;/strong&gt; -riassic.</seg>
 			</tuv>
@@ -5937,6 +5937,14 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikijto itlaj mochiua</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit clips</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Xiktitlani tlen yotiktsiko</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-abort-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
@@ -5946,14 +5954,6 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-submit-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit clips</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Xiktitlani tlen yotiktsiko</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-abort-submit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit clips</seg>
 			</tuv>
@@ -6049,14 +6049,6 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Miakpa okitenikixtisyeko.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Tap</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Xikpacho</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tap</seg>
@@ -6065,7 +6057,15 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Xikpacho</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:technology_robotics" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-tap" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Tap</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Xikpacho</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:technology_robotics" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Technology and Robotics</seg>
 			</tuv>
@@ -6073,7 +6073,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Teposmej tlen yikin kistokej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:technology_robotics" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:technology_robotics" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Technology and Robotics</seg>
 			</tuv>
@@ -6137,14 +6137,6 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>¡Timitstlasojkamatiliaj techtiokolilia motlajtol!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-submit-msg" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Thank you for recording!&lt;lineBreak&gt;&lt;/lineBreak&gt;Now review and submit your clips below.</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>¡Timitstlasojkamatiliaj!&lt;lineBreak&gt;&lt;/lineBreak&gt;Axkan, xikmotili kox kuali omokak uan xiktitlani.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-submit-msg" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Thank you for recording!&lt;lineBreak&gt;&lt;/lineBreak&gt;Now review and submit your clips below.</seg>
@@ -6153,12 +6145,12 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>¡Timitstlasojkamatiliaj!&lt;lineBreak&gt;&lt;/lineBreak&gt;Axkan, xikmotili kox kuali omokak uan xiktitlani.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:thanks-for-voice-toast" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-submit-msg" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>Thank you for your voice information</seg>
+				<seg>Thank you for recording!&lt;lineBreak&gt;&lt;/lineBreak&gt;Now review and submit your clips below.</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Timitstlasojkamatiliaj tlen otiktlali itech motlajtol</seg>
+				<seg>¡Timitstlasojkamatiliaj!&lt;lineBreak&gt;&lt;/lineBreak&gt;Axkan, xikmotili kox kuali omokak uan xiktitlani.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:thanks-for-voice-toast" srclang="en-US">
@@ -6169,7 +6161,15 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Timitstlasojkamatiliaj tlen otiktlali itech motlajtol</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-8-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:thanks-for-voice-toast" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Thank you for your voice information</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Timitstlasojkamatiliaj tlen otiktlali itech motlajtol</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-8-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The bumblebee sped by.</seg>
 			</tuv>
@@ -6177,7 +6177,7 @@ kichiuaj uan xikmotili kox kuali. ¡Amo oui!</seg>
 				<seg>Tata tatapaktik motataka.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-8-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-8-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The bumblebee sped by.</seg>
 			</tuv>
@@ -6221,14 +6221,6 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Tinochtin Titlajtoaj Tlajtolnechikoli kipixtok tlen sapanoa miakej yokitsikokej uan non kinpaleuis akinmej kinchijchiuaj teposmej non tenkakij.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-2-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>The giant dinosaur of the Triassic.</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Tlatipatlakame.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-2-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dinosaur of the Triassic.</seg>
@@ -6237,12 +6229,12 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Tlatipatlakame.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-3-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-2-title" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>The giant dinosaurs of the Triassi-.</seg>
+				<seg>The giant dinosaur of the Triassic.</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Tlaltikpaktlaka-.</seg>
+				<seg>Tlatipatlakame.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-3-title" srclang="en-US">
@@ -6253,12 +6245,12 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Tlaltikpaktlaka-.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-1-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-3-title" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>The giant dinosaurs of the Triassic.</seg>
+				<seg>The giant dinosaurs of the Triassi-.</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Tlatltikpaktlakamej.</seg>
+				<seg>Tlaltikpaktlaka-.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-1-title" srclang="en-US">
@@ -6269,7 +6261,15 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Tlatltikpaktlakamej.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-voices-example-1-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-1-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The giant dinosaurs of the Triassic.</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Tlatltikpaktlakamej.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-example-1-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dinosaurs of the Triassic. &lt;strong&gt;[read by one voice]&lt;/strong&gt;</seg>
 			</tuv>
@@ -6277,7 +6277,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Tlaltikpaktlakamej. &lt;strong&gt;[san se tlajtoa]&lt;/strong&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-example-1-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-voices-example-1-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dinosaurs of the Triassic. &lt;strong&gt;[read by one voice]&lt;/strong&gt;</seg>
 			</tuv>
@@ -6301,14 +6301,6 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Tlaltikpaktlakamej. Ijkon.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-example-2-fixed-title" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>The giant dino &lt;strong&gt;[cough]&lt;/strong&gt; the Triassic.</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Tlaltikpak- &lt;strong&gt;[tlatlasi]&lt;/strong&gt; -tlakamej.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-example-2-fixed-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dino &lt;strong&gt;[cough]&lt;/strong&gt; the Triassic.</seg>
@@ -6317,12 +6309,12 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Tlaltikpak- &lt;strong&gt;[tlatlasi]&lt;/strong&gt; -tlakamej.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:recordings-and-locale-public" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-background-noise-example-2-fixed-title" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>The number of recordings and which languages you contribute to will be public.</seg>
+				<seg>The giant dino &lt;strong&gt;[cough]&lt;/strong&gt; the Triassic.</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Nochtin kimatiskej kanachi titlapaleuia uan keski tlajtolkopaj ika titlapaleuia.</seg>
+				<seg>Tlaltikpak- &lt;strong&gt;[tlatlasi]&lt;/strong&gt; -tlakamej.</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:recordings-and-locale-public" srclang="en-US">
@@ -6333,7 +6325,15 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Nochtin kimatiskej kanachi titlapaleuia uan keski tlajtolkopaj ika titlapaleuia.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-empty-state" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:recordings-and-locale-public" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The number of recordings and which languages you contribute to will be public.</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Nochtin kimatiskej kanachi titlapaleuia uan keski tlajtolkopaj ika titlapaleuia.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-empty-state" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>There are currently no sentences to review in this language.</seg>
 			</tuv>
@@ -6341,7 +6341,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Axkan ayamo onka tlajkuiloli tlen tikmotilis ika nin tlajtolkopa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-empty-state" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-empty-state" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>There are currently no sentences to review in this language.</seg>
 			</tuv>
@@ -6373,7 +6373,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Nesi sapanoa otiuejkauik.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The recording was too quiet.</seg>
 			</tuv>
@@ -6381,7 +6381,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Amo otikkakej tlen otikijto.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-error-too-quiet" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The recording was too quiet.</seg>
 			</tuv>
@@ -6429,7 +6429,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Motlaixkopinal sapanoa ueyi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The Sentence Collector is moving to the core Common Voice platform. You can now &lt;writeURL&gt;write&lt;/writeURL&gt; a sentence or &lt;reviewURL&gt;review&lt;/reviewURL&gt; single sentence submissions on Common Voice.</seg>
 			</tuv>
@@ -6437,7 +6437,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Tlajkuilolnechikoli axkan kajki itech Common Voice. Axkan uelis&lt;writeURL&gt;tikijkuilos&lt;/writeURL&gt;se tlamantli noso&lt;reviewURL&gt;tikmotilis&lt;/reviewURL&gt; sejse tlajkuiloli non yokintlalilikej itech Common Voice.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-redirect-page-subtitle-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The Sentence Collector is moving to the core Common Voice platform. You can now &lt;writeURL&gt;write&lt;/writeURL&gt; a sentence or &lt;reviewURL&gt;review&lt;/reviewURL&gt; single sentence submissions on Common Voice.</seg>
 			</tuv>
@@ -6509,7 +6509,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Tlajkuiloli monekis amo oui se kitenkixtis.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be spelled correctly.</seg>
 			</tuv>
@@ -6517,7 +6517,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Tlajkuiloli moneki yekijkuilijtok.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-criteria-item-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-criteria-item-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The sentence must be spelled correctly.</seg>
 			</tuv>
@@ -6597,7 +6597,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Tla tikpatlasneki mocorreo, techijkuilili itech &lt;emailFragment&gt;commonvoice@mozilla.com&lt;/emailFragment&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:today" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:today" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Today</seg>
 			</tuv>
@@ -6605,7 +6605,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Axkan</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:today" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:today" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Today</seg>
 			</tuv>
@@ -6653,7 +6653,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Pouis itech Tinochtin Titlajtoaj Tlajtolnechikoli san tla ome yokijtokej yikuali.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:too-many-files" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:too-many-files" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Too many files</seg>
 			</tuv>
@@ -6661,7 +6661,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Sapanoa miakej tlalkuilolmej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:too-many-files" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:too-many-files" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Too many files</seg>
 			</tuv>
@@ -6781,7 +6781,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Tiktlajtolkopaj Common Voice itech &lt;strong&gt;Pontoon&lt;/strong&gt;.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:try-upload-again" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:try-upload-again" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Try again by dragging your file here</seg>
 			</tuv>
@@ -6789,7 +6789,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Oksepa xikyeko. Xikixtoki nikan motlajkuilol</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:try-upload-again" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:try-upload-again" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Try again by dragging your file here</seg>
 			</tuv>
@@ -6813,7 +6813,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Oksepa xikyeko xiktlalili</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-criteria-link" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Understand contribution criteria</seg>
 			</tuv>
@@ -6821,7 +6821,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Xikajsikamati ken moneki titlapaleuis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-criteria-link" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-criteria-link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Understand contribution criteria</seg>
 			</tuv>
@@ -6845,7 +6845,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>¡Xikita ken okachi kuali titlatemos uan ijkon okachi kuali titlapaleuis ika motlajtol!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-aborted" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-aborted" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload aborted. Do you want to delete your recordings?</seg>
 			</tuv>
@@ -6853,7 +6853,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Amo otiktlanili. ¿Tikneki tikpojpolos tlen otiksiko?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:review-aborted" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:review-aborted" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload aborted. Do you want to delete your recordings?</seg>
 			</tuv>
@@ -6885,7 +6885,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>{ $uploadedSentences } itech { $totalSentences } tlajkuilolmej yomokajkej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-response-message" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-response-message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $uploadedSentences } of { $totalSentences } sentences collected. Click &lt;downloadLink&gt;here&lt;/downloadLink&gt; to download rejected sentences.</seg>
 			</tuv>
@@ -6893,7 +6893,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>{ $uploadedSentences } itech { $totalSentences } tlajkuiloli yomokak. Xikpacho &lt;downloadLink&gt;nikan&lt;/downloadLink&gt; tla tikintemouilisneki non amo omokajkej.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:small-batch-response-message" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:small-batch-response-message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $uploadedSentences } of { $totalSentences } sentences collected. Click &lt;downloadLink&gt;here&lt;/downloadLink&gt; to download rejected sentences.</seg>
 			</tuv>
@@ -6933,7 +6933,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Xiktitlani &lt;icon&gt;&lt;/icon&gt; tlajkuiloli tlen nochtin kinmitaskej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:upload-progress-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:upload-progress-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload in progress...</seg>
 			</tuv>
@@ -6941,7 +6941,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Ximochia, yimokauas...</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:upload-progress-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:upload-progress-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload in progress...</seg>
 			</tuv>
@@ -6965,14 +6965,6 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>¿Tikintitlanilis okseki?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-3" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Use correct grammar</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Xikijkuilo ken moneki</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Use correct grammar</seg>
@@ -6981,7 +6973,15 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Xikijkuilo ken moneki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-4" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use correct grammar</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Xikijkuilo ken moneki</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Use correct spelling and punctuation</seg>
 			</tuv>
@@ -6989,7 +6989,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Xikijkuilo ika nochi tlen moneki</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-4" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:new-sentence-rule-4" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Use correct spelling and punctuation</seg>
 			</tuv>
@@ -7061,7 +7061,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Xikmotili tlen yokitlajtoltijkej ika motlajtolkopa</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:listen-paragraph" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:listen-paragraph" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Validating donated clips is equally important to the Common Voice mission. Take a listen and help us create quality open source voice data.</seg>
 			</tuv>
@@ -7069,7 +7069,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Tikmotilis tlen oksekimej yokitsikokej noijki sapanoa ipati itech Common Voice. Techkaki uan techpaleui tlen tikchiuaj mayeto ken moneki.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:listen-paragraph" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:listen-paragraph" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Validating donated clips is equally important to the Common Voice mission. Take a listen and help us create quality open source voice data.</seg>
 			</tuv>
@@ -7149,7 +7149,7 @@ Tikintlasojkamatilia tlanechikolmej uan akinmej otlapaleuikej mayeto nochi nin. 
 				<seg>Kitetliokoliaj intlajtol</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:wall-of-text-first" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:wall-of-text-first" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Voice is natural, voice is human. That’s why we’re excited about creating usable voice technology
 for our machines. But to create voice systems, developers need an extremely large amount of voice
@@ -7160,7 +7160,7 @@ data.</seg>
 Maski ijkon, akinmej kinchijchiuaj teposmej, moneki makitsikokan miak tlajtoli.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:wall-of-text-first" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:wall-of-text-first" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Voice is natural, voice is human. That’s why we’re excited about creating usable voice technology
 for our machines. But to create voice systems, developers need an extremely large amount of voice
@@ -7279,7 +7279,7 @@ touan ximotlapoui itech &lt;matrixLink&gt;Matrix&lt;/matrixLink&gt;.</seg>
 				<seg>Xikita video kanin timitsyekiluiskej</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-7-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-7-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We are going out to get a coffee.</seg>
 			</tuv>
@@ -7287,7 +7287,7 @@ touan ximotlapoui itech &lt;matrixLink&gt;Matrix&lt;/matrixLink&gt;.</seg>
 				<seg>Uan okijtojka touan yaskiaya.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-7-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-7-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We are going out to get a coffee.</seg>
 			</tuv>
@@ -7337,7 +7337,7 @@ Please try again later.</seg>
 				<seg>Amo otikajsikej tlen uelis tikkakis. Teotlatki noso mostla oksepa xikyeko.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-loading-error" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:speak-loading-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We couldn’t get any sentences for you to speak.
 Please try again later.</seg>
@@ -7346,7 +7346,7 @@ Please try again later.</seg>
 				<seg>Amo otikajsikej tlen uelis tikijtos. Teotlatki noso mostla oksepa xikyeko.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:speak-loading-error" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:speak-loading-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We couldn’t get any sentences for you to speak.
 Please try again later.</seg>
@@ -7419,7 +7419,7 @@ Please try again later.</seg>
 				<seg>Timopaleuijtokej tikinnechikoskej tlajtolmej tlen nochtin uelis ika mopaleuiskej. Xiktliokoli motlajtol, xikmotili tlen oksekimej yokitsikokej, techpaleui matitesepanpaleuikan.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-6-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-6-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We’re going out to get coffee.</seg>
 			</tuv>
@@ -7427,7 +7427,7 @@ Please try again later.</seg>
 				<seg>Uan okijto touan yaskia.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-example-6-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-6-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We’re going out to get coffee.</seg>
 			</tuv>
@@ -7459,7 +7459,7 @@ Please try again later.</seg>
 				<seg>Tikinpatilijtokej miak tlamantli.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We’re sorry, your platform is not currently supported.</seg>
 			</tuv>
@@ -7467,7 +7467,7 @@ Please try again later.</seg>
 				<seg>Techtlapojpolui, amo uelis techpaleuis. Xikalaki ika okse tepostli.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-platform-not-supported" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We’re sorry, your platform is not currently supported.</seg>
 			</tuv>
@@ -7536,7 +7536,7 @@ Satepan, xiktlajtlani mapoui itech Common,
 				<seg>Niman okachi timitsiluiskej kenijki uelis tiktlalilis okse tlajtolkopa itech Tinochtin Titlajtoaj.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:email-not-public" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:email-not-public" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We will not make your email public.</seg>
 			</tuv>
@@ -7544,7 +7544,7 @@ Satepan, xiktlajtlani mapoui itech Common,
 				<seg>Amikaj okse kimatis katli mocorreo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:email-not-public" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:email-not-public" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We will not make your email public.</seg>
 			</tuv>
@@ -7640,7 +7640,7 @@ Satepan, xiktlajtlani mapoui itech Common,
 				<seg>Tla se kijtos mach kuali omokak oksepa monekis kitsikoskej. Tla ome kijtoaj mach kuali tlajtoli, kititlaniskej kanin Miktlajtoli.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. &lt;br /&gt;Very common mistakes include:</seg>
 			</tuv>
@@ -7648,7 +7648,7 @@ Satepan, xiktlajtlani mapoui itech Common,
 				<seg>Ijkuak tikkaktos, xikyekkaki tla melauak kitenkixtiaj tlen ijkuilijtok; xikpojolo maski san achitsin omotlapololtikej. &lt;br /&gt;Miakej motlapololtiaj ijki:</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:contribution-misreadings-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>When listening, check very carefully that what has been recorded is exactly what has been written; reject if there are even minor errors. &lt;br /&gt;Very common mistakes include:</seg>
 			</tuv>
@@ -7688,14 +7688,6 @@ Satepan, xiktlajtlani mapoui itech Common,
 				<seg>¿Tleka Tinochtin Titlajtoaj?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:second-cta-subtitle-text" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>With a profile, you can keep track of your activity and connect with a community of voice data contributors.</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Tla timomachotis, uelis tikitas kanachi yotitechpaleui uan tiyetos inuan oksekimej non noijki tlapaleuiaj.</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:second-cta-subtitle-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>With a profile, you can keep track of your activity and connect with a community of voice data contributors.</seg>
@@ -7704,7 +7696,15 @@ Satepan, xiktlajtlani mapoui itech Common,
 				<seg>Tla timomachotis, uelis tikitas kanachi yotitechpaleui uan tiyetos inuan oksekimej non noijki tlapaleuiaj.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:second-cta-subtitle-text" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>With a profile, you can keep track of your activity and connect with a community of voice data contributors.</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Tla timomachotis, uelis tikitas kanachi yotitechpaleui uan tiyetos inuan oksekimej non noijki tlapaleuiaj.</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:write" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Write</seg>
 			</tuv>
@@ -7712,7 +7712,7 @@ Satepan, xiktlajtlani mapoui itech Common,
 				<seg>Xitlajkuilo</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:write" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:write" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Write</seg>
 			</tuv>
@@ -7800,7 +7800,7 @@ Satepan, xiktlajtlani mapoui itech Common,
 				<seg>Uelis seki tikijkuilos itech &lt;writePageLink&gt;Xitlajkuilo&lt;/writePageLink&gt; noso tikmotilis tlen ijkuilijtok itech &lt;reviewPageLink&gt;Xikmotili&lt;/reviewPageLink&gt;.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-keyboard-usage-custom" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-keyboard-usage-custom" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You can also use Keyboard Shortcuts: { sc-review-form-button-approve-shortcut } to Approve, { sc-review-form-button-reject-shortcut } to Reject, { sc-review-form-button-skip-shortcut } to Skip</seg>
 			</tuv>
@@ -7808,7 +7808,7 @@ Satepan, xiktlajtlani mapoui itech Common,
 				<seg>Noijki uelis san tikpachos itech moteclado: { sc-review-form-button-approve-shortcut } tla Yikuali, { sc-review-form-button-reject-shortcut } tla Tikpojpolos, { sc-review-form-button-skip-shortcut } tla Tikpanauis</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/review.ftl:sc-review-form-keyboard-usage-custom" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-keyboard-usage-custom" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You can also use Keyboard Shortcuts: { sc-review-form-button-approve-shortcut } to Approve, { sc-review-form-button-reject-shortcut } to Reject, { sc-review-form-button-skip-shortcut } to Skip</seg>
 			</tuv>
@@ -7832,7 +7832,7 @@ Satepan, xiktlajtlani mapoui itech Common,
 				<seg>Moneuian uelis tikpejpenas motoka uan kox nochtin kitaskej.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:help-contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:help-contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You can help build a diverse, open-source dataset by creating a Common Voice profile and contributing your voice.</seg>
 			</tuv>
@@ -7840,7 +7840,7 @@ Satepan, xiktlajtlani mapoui itech Common,
 				<seg>Techpaleuis matitesepanpaleuikan tla timomachotis itech Common Voice uan techpaleuis ika motlajtol.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:help-contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:help-contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You can help build a diverse, open-source dataset by creating a Common Voice profile and contributing your voice.</seg>
 			</tuv>
@@ -7856,7 +7856,7 @@ Satepan, xiktlajtlani mapoui itech Common,
 				<seg>Uelis timotlapouis inuan oksekimej tlen pouij Mozilla itech &lt;discourseLink&gt;Discourse&lt;/discourseLink&gt; kanin motlapouiaj itech seki tlamantli, noso &lt;matrixLink&gt;Matrix&lt;/matrixLink&gt; kanin uelis mitspaleuiskej.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:multiple-sentences-error" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:multiple-sentences-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You cannot add multiple sentences for a single submission</seg>
 			</tuv>
@@ -7864,7 +7864,7 @@ Satepan, xiktlajtlani mapoui itech Common,
 				<seg>Amo uelis tikintitlanilis miakej san semi</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:multiple-sentences-error" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:multiple-sentences-error" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You cannot add multiple sentences for a single submission</seg>
 			</tuv>
@@ -7924,14 +7924,6 @@ Xikilnamiki moneki yetos &lt;licenseLink&gt;CC0 (tlen nochtin uelis kitekitiltis
 				<seg>Amo otikpejpenki se tlajtolkopa. Xikalaki kanin kijtoa &lt;profileLink&gt;Notech&lt;/profileLink&gt; uan xikpejpena se tlajtolkopa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:rate-limit-message-minutes" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>Yotikpanaui tlen uelis nikan tiktitlanilis. Xonmochia { $retryLimit } minutos uan uelis tiktitlanilis okse. ¡Timitstlasojkamatiliaj timochixtok!</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-message-minutes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!</seg>
@@ -7940,12 +7932,12 @@ Xikilnamiki moneki yetos &lt;licenseLink&gt;CC0 (tlen nochtin uelis kitekitiltis
 				<seg>Yotikpanaui tlen uelis nikan tiktitlanilis. Xonmochia { $retryLimit } minutos uan uelis tiktitlanilis okse. ¡Timitstlasojkamatiliaj timochixtok!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-message-seconds" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:rate-limit-message-minutes" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!</seg>
+				<seg>You have reached the submission limit for this page. Please wait for { $retryLimit } minutes before submitting another sentence. Thank you for your patience!</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
-				<seg>Yotikpanaui tlen uelis nikan tiktitlanilis. Xonmochia { $retryLimit } segundos uan uelis tiktitlanilis okse. ¡Timitstlasojkamatiliaj timochixtok!</seg>
+				<seg>Yotikpanaui tlen uelis nikan tiktitlanilis. Xonmochia { $retryLimit } minutos uan uelis tiktitlanilis okse. ¡Timitstlasojkamatiliaj timochixtok!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:rate-limit-message-seconds" srclang="en-US">
@@ -7956,7 +7948,15 @@ Xikilnamiki moneki yetos &lt;licenseLink&gt;CC0 (tlen nochtin uelis kitekitiltis
 				<seg>Yotikpanaui tlen uelis nikan tiktitlanilis. Xonmochia { $retryLimit } segundos uan uelis tiktitlanilis okse. ¡Timitstlasojkamatiliaj timochixtok!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:rate-limit-message-seconds" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You have reached the submission limit for this page. Please wait for { $retryLimit } seconds before submitting another sentence. Thank you for your patience!</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>Yotikpanaui tlen uelis nikan tiktitlanilis. Xonmochia { $retryLimit } segundos uan uelis tiktitlanilis okse. ¡Timitstlasojkamatiliaj timochixtok!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You must allow microphone access.</seg>
 			</tuv>
@@ -7964,7 +7964,7 @@ Xikilnamiki moneki yetos &lt;licenseLink&gt;CC0 (tlen nochtin uelis kitekitiltis
 				<seg>Monekis tikkauilis micrófono makitsiko motlajtol.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:record-must-allow-microphone" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You must allow microphone access.</seg>
 			</tuv>
@@ -8004,7 +8004,7 @@ Xikilnamiki moneki yetos &lt;licenseLink&gt;CC0 (tlen nochtin uelis kitekitiltis
 				<seg>Techpaleuijtok matikajxitikan se tlaxeloli</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-first-card" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-first-card" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You’re contributing to our first target segment</seg>
 			</tuv>
@@ -8012,7 +8012,7 @@ Xikilnamiki moneki yetos &lt;licenseLink&gt;CC0 (tlen nochtin uelis kitekitiltis
 				<seg>Techpaleuijtok matikajsikan non achto tikajxitisnekij.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:target-segment-first-card" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:target-segment-first-card" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You’re contributing to our first target segment</seg>
 			</tuv>
@@ -8056,7 +8056,7 @@ tlen yotikajxiti uan tlen yikin omochi itech Common Voice</seg>
 				<seg>Nesi sapanoa totoka otikchi. Ximochia uan kuali xikmotili kox kuali noso amo.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-submission-success-subheader" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:bulk-submission-success-subheader" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You're helping Common Voice reach our daily sentence goals!</seg>
 			</tuv>
@@ -8064,7 +8064,7 @@ tlen yotikajxiti uan tlen yikin omochi itech Common Voice</seg>
 				<seg>¡Otikpaleui Common Voice makajxiti tlen axkan omonekiaya!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/write.ftl:bulk-submission-success-subheader" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-submission-success-subheader" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You're helping Common Voice reach our daily sentence goals!</seg>
 			</tuv>
@@ -8080,7 +8080,7 @@ tlen yotikajxiti uan tlen yikin omochi itech Common Voice</seg>
 				<seg>Motlajtolkopaj</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state-variants" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-empty-state-variants" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your language variant might be out of clips! If you’re comfortable, you can change your settings to see other sentences within your language.</seg>
 			</tuv>
@@ -8088,7 +8088,7 @@ tlen yotikajxiti uan tlen yikin omochi itech Common Voice</seg>
 				<seg>¡Xamo ayakmitlaj onka ika motlajtolkopa! Tla tiuelis, xikpatla tlajtolkopa uan ijkon uelis tikajsis okachi ika nauatl maski achitsin mopatlas.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/contribute/listen.ftl:listen-empty-state-variants" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen-empty-state-variants" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your language variant might be out of clips! If you’re comfortable, you can change your settings to see other sentences within your language.</seg>
 			</tuv>
@@ -8112,7 +8112,7 @@ tlen yotikajxiti uan tlen yikin omochi itech Common Voice</seg>
 				<seg>¡Xamo ayakmitlaj onka ika motlajtolkopa! Tla tiuelis, xikpatla tlajtolkopa uan ijkon uelis tikajsis okachi ika nauatl maski achitsin mopatlas.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:username-email-not-demographic" srclang="en-US">
+		<tu tuid="common-voice:web/locales/en/pages/home.ftl:username-email-not-demographic" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your username and email will not be associated with the published data.</seg>
 			</tuv>
@@ -8120,7 +8120,7 @@ tlen yotikajxiti uan tlen yikin omochi itech Common Voice</seg>
 				<seg>Motoka tlen tikmotlalilis uan mocorreo amo tiktlaliliskej teixpa.</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/en/pages/home.ftl:username-email-not-demographic" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:username-email-not-demographic" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Your username and email will not be associated with the published data.</seg>
 			</tuv>
@@ -8152,20 +8152,20 @@ tlen yotikajxiti uan tlen yikin omochi itech Common Voice</seg>
 				<seg>¡Yotikpaleui Common Voice makajxiti&lt;goalPercentage&gt;&lt;/goalPercentage&gt; itech { $goalValue } tlen mojmostla tiktsikosnekij!</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-validation" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
-			</tuv>
-			<tuv xml:lang="ncx">
-				<seg>¡Yotikpaleui Common Voice makajxiti&lt;goalPercentage&gt;&lt;/goalPercentage&gt; itech { $goalValue } tlen mojmostla tikyektlalilisnekij!</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/en/pages/contribute/common.ftl:goal-help-validation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
 			</tuv>
 			<tuv xml:lang="ncx">
 				<seg>¡Yotikpaleui Common Voice makajxiti&lt;goalPercentage&gt;&lt;/goalPercentage&gt; itech { $goalValue } tlen mojmostla tikyektlaliliskij!</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:goal-help-validation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>You've helped Common Voice reach &lt;goalPercentage&gt;&lt;/goalPercentage&gt; of our daily { $goalValue } validation goal!</seg>
+			</tuv>
+			<tuv xml:lang="ncx">
+				<seg>¡Yotikpaleui Common Voice makajxiti&lt;goalPercentage&gt;&lt;/goalPercentage&gt; itech { $goalValue } tlen mojmostla tikyektlalilisnekij!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="terminology:common:" srclang="en-US">

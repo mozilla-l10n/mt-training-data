@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2026-09-01T00:52:28.933574">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2026-10-01T00:53:29.236312">
 	</header>
 	<body>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/tag.ftl:tag-page-shortcut-toogle-mouse-keyboard" srclang="en-US">
@@ -885,7 +885,7 @@ could include:</seg>
 				<seg>ယားကုဲင်လွေꩻ အွဉ်ႏနယ်မာꩻခွင်ꩻလꩻခရာႏ အေပီအုဲင်ယို အောင်ႏမျင်ႏဗꩻလဲဉ်းသွူ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:api-key-name-display-label" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:api-key-name-input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>API Credential Name</seg>
 			</tuv>
@@ -893,7 +893,7 @@ could include:</seg>
 				<seg>အွဉ်ႏနယ်မာꩻခွင်ꩻလꩻခရာႏ အေပီအုဲင် မဉ်ꩻ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:api-key-name-input" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:api-key-name-display-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>API Credential Name</seg>
 			</tuv>
@@ -971,6 +971,14 @@ could include:</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>မာꩻထွာသွုပ်လင်ꩻ အေပီအုဲင်တာႏ အွဉ်ႏနယ်မာꩻခွင်ꩻလꩻခရာႏဖုံႏယို နာꩻမဲဉ်ဝေါင်းထိုꩻ မွေးဒျာႏနဲ့?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:delete-api-key-confirmation-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Are you sure you want to delete API credential &lt;bold&gt;{ $apiKeyName }&lt;/bold&gt;? This action can’t be undone</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>နာꩻ ကမဲဉ်ယားကုဲင်ထိုꩻဒါႏ အေပီအုဲင် ထာꩻအွဉ်ႏနယ်အီ &lt;bold&gt;{ $apiKeyName }&lt;/bold&gt; ယိုနောဝ်ꩻ စဲင်းစဲ့ဒျာႏနဲ့? မိဉ်ႏမာꩻထွူလဲဉ်းယိုနောဝ်ꩻ ခွုန်ꩻချာနွောင်ꩻတောဝ်းဒွုမ်သွူ။</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:hy-am" srclang="en-US">
@@ -1197,20 +1205,20 @@ could include:</seg>
 				<seg>သဲင်ꩻချာ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:background-noise" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Background Noise</seg>
-			</tuv>
-			<tuv xml:lang="blk">
-				<seg>ဗꩻချာဖဲ့ꩻ ထာꩻတိန်ႏနား</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Background Noise</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>ဗꩻချာ တိန်ႏနား</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:background-noise" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Background Noise</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ဗꩻချာဖဲ့ꩻ ထာꩻတိန်ႏနား</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-title" srclang="en-US">
@@ -1477,12 +1485,28 @@ could include:</seg>
 				<seg>ရိပ်ꩻ&lt;bold&gt;{ $count }&lt;/bold&gt;အလင်ဖုံႏ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:no-api-keys-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;Currently, there are no API credentials associated with your account.&lt;/bold&gt;</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>&lt;bold&gt;ယိုခါနောဝ်ꩻ၊ နာꩻသွုံꩻဖြာꩻယို အွဉ်ႏနယ်အီခရာႏ အေပီအုဲင် တအောဝ်ႏတောဝ်းဒွိုန်းသွူ&lt;/bold&gt;</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:share-title-new" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>&lt;bold&gt;Help us&lt;/bold&gt; find more voices</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>&lt;bold&gt;စွဲးကမ်းကိုဖေႏ နီသွဉ်းသီး&lt;/bold&gt; ထိုမ်ႏထဲင်း အငေါဝ်းတသာတာႏဖုံႏနေား</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:create-api-key-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>&lt;bold&gt;Important Notice: API Credentials Generation&lt;/bold&gt;</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>&lt;bold&gt;အရေꩻတန် ဖေႏသေဗာႏ - ထေထန်ႏ မာꩻထွာလွဉ် အေပီအုဲင် ထာꩻအွဉ်ႏနယ်အီ&lt;/bold&gt;</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:save-api-key-info" srclang="en-US">
@@ -1670,7 +1694,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>မိဉ်ႏထဲမ်သော့ꩻဖေႏ နာꩻနမ်းဗွေႏ အကျောင်ꩻခရာႏအဆင်ႏအလာႏယင်ဟန်ႏယိုနောဝ်ꩻ နာꩻကပသာလွေꩻဒါႏ အငေါဝ်းဆင်ႏဗာႏဖုံႏ ကောင်မွဉ်းဗွဲက်ထျꩻနောဝ်ꩻ ကသွုံꩻအီဒါႏ အဆင်ႏဗာႏယို ယံဒင်ႏထိုထဲင်းအတာႏ မဲန်ႏဗဲက်တနꩻလွဉ်တဲင်  တောင်ꩻအီအငေါဝ်းအိဉ်စေန်ဖုံႏအတာႏ သွုံꩻအီအကျိုꩻအောဝ်ႏလွိုထဲင်းနောဝ်ꩻသွူ။</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:age-gender-form-subtile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-subtitle-text" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>By telling us about yourself, you will help developers build more inclusive technology</seg>
 			</tuv>
@@ -1678,7 +1702,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ဒေါ့ꩻနယ်ဖေႏ နာꩻအကျောင်ꩻခရာႏနောဝ်ꩻမꩻ မာꩻပြွူႏဖြိုသားဖုံႏအတာႏ မာꩻထွာလွဉ်ဖေႏနွောင်ꩻ လိုꩻတွိုင်ꩻစွုမ်ႏဖြာꩻ နွို့ပါသော့ꩻနွောင်ꩻဒါႏ ဖေႏစွဲးကမ်း တဲႏဆို့ꩻနယ်ꩻပညာႏထာꩻမာꩻဖုံႏသွူ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:first-cta-subtitle-text" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/age-gender-form.ftl:age-gender-form-subtile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>By telling us about yourself, you will help developers build more inclusive technology</seg>
 			</tuv>
@@ -1710,7 +1734,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>စေလောဝ်းချာနွောင်ꩻဒျာႏ ငေါဝ်းရဲဉ်ႏ ဆေ့ꩻဆေ့ꩻပေႏအကို</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:cancel-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:cancel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1718,7 +1742,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>မာꩻဒွုမ်</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:cancel" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:cancel-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Cancel</seg>
 			</tuv>
@@ -1958,6 +1982,14 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>လွိုက်သွော့ ဘာႏသာႏငေါဝ်းငွါ/ဒေႏသကိုအလွောက်ꩻ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:do-section-guideline-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Choose simple questions that are easy for anyone to understand, regardless of culture or context</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ယေန်ႏငဲးတာႏ တွမ်ႏ ကတူႏရဲဉ်ႏဖုံႏယို အွဉ်ႏဆꩻငါတဲင် လွိုက်ထူႏဖေႏသွော့ ပါꩻမုဲင်ꩻတရိုꩻတောဝ်း ကသေနာႏနွောင်ꩻယိုꩻယိုꩻအီဒါႏ ငေါဝ်းရီ ပသာႏဖုံႏယိုဟုဲင်း</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:cv" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Chuvash</seg>
@@ -1966,20 +1998,20 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ဆူဗာ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:citation" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Citation</seg>
-			</tuv>
-			<tuv xml:lang="blk">
-				<seg>ထူႏအုံနောင်</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:citation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Citation</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>ထူႏကွိုꩻအုံနောင်</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:citation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Citation</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ထူႏအုံနောင်</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:how-to-cite-explanation-bold" srclang="en-US">
@@ -1998,7 +2030,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>အောဝ်ႏထူႏကွိုꩻ ဝါကျလိတ်ရဲဉ်ႏဖုံႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:action-click" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-click" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Click</seg>
 			</tuv>
@@ -2006,7 +2038,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>နျꩻ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:action-click" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:action-click" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Click</seg>
 			</tuv>
@@ -2102,7 +2134,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>နာꩻ ကအွဉ်ႏတိဉ်ႏလွေꩻဒါႏ အငေါဝ်းဖုံႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:close" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:profile-close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -2110,7 +2142,7 @@ Recognition engines that use this data to improve their accuracy.</seg>
 				<seg>ပေ့ꩻ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:profile-close" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:close" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Close</seg>
 			</tuv>
@@ -2338,7 +2370,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>သွုပ်ငါ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:continue" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:continue-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
 			</tuv>
@@ -2346,7 +2378,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>သွုပ်ငါ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/confirmation.ftl:continue-button" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:continue" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Continue</seg>
 			</tuv>
@@ -2378,7 +2410,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ကာႏငါထွူ လွေꩻသွုပ်ထဲင်း</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -2386,7 +2418,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>စွဲးကမ်းကို</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:contribute" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribute" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Contribute</seg>
 			</tuv>
@@ -2811,7 +2843,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ဖြယ်ထန်ႏ အဆင်ႏခြွဉ်းဗူႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:datasets-heading" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:datasets" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Datasets</seg>
 			</tuv>
@@ -2819,7 +2851,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>အဆင်ႏခြွဉ်းဗူႏဖုံႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:datasets" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:datasets-heading" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Datasets</seg>
 			</tuv>
@@ -2899,7 +2931,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ရက်ပဲင်ႏဗာႏဒါႏ အသောင်ရင်ꩻစွိုꩻဗူႏသီးဩ၊ ထေထန်ႏအဆင်ႏဗာႏအတာႏ အဆုဲင်ꩻသွတ်ꩻ ကအွဉ်ႏထွော့ဒါႏ မွူးနီꩻပေ့ꩻယို တွိုႏလွဉ်လဲဉ်းတဲင် နီသွဉ်းသီးနောဝ်ꩻ အောဝ်ႏထွို့ꩻခြွဉ်း လွောင်ႏလွမ်လွေꩻဖေႏ အဆင်ႏဗာႏခြွဉ်းဖုံႏယိုနောဝ်ꩻသွူ။ ထေထန်ႏတသာအဆင်ႏဗာႏယို မွူးနီꩻဆေ့ꩻဆေ့ꩻအကို အီႏထူႏသွုံꩻလꩻနွောင်ꩻလွေꩻ &lt;mdcLink&gt;မိုသီလာ အဆင်ႏဗာႏရွမ်ခြွဉ်း (Mozilla Data Collective)&lt;/mdcLink&gt; ကိုနောဝ်ꩻသွူ။</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:delete" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:delete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -2907,7 +2939,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ယားထိုꩻ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/prompts.ftl:delete" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:delete" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Delete</seg>
 			</tuv>
@@ -2963,7 +2995,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>နာꩻသေနေ...ဟောင်း</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Different language</seg>
 			</tuv>
@@ -2971,7 +3003,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ဗွိုန်ပီတောဝ်း ဘာႏသာႏငေါဝ်းငွါ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-different-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:report-sc-different-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Different language</seg>
 			</tuv>
@@ -3083,7 +3115,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>မာꩻမွိုန်း</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:dont-subheader" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:code-switching-dont-header" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Don’t</seg>
 			</tuv>
@@ -3091,7 +3123,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>မာꩻမွိုန်း</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:code-switching-dont-header" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:dont-subheader" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Don’t</seg>
 			</tuv>
@@ -3131,20 +3163,20 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>တမဲဉ်ဒေါ့ꩻတောဝ်း</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/download.ftl:download-request-button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Download</seg>
-			</tuv>
-			<tuv xml:lang="blk">
-				<seg>ငင်ႏထူႏ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:download" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Download</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>ထူႏငင်ႏလင်ꩻ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/download.ftl:download-request-button" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Download</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ငင်ႏထူႏ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-download-button" srclang="en-US">
@@ -3371,7 +3403,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>အီဗရီး</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:edit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:edit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit</seg>
 			</tuv>
@@ -3379,7 +3411,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>မွဉ်းဖျင်</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/check-transcript.ftl:edit" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:edit" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Edit</seg>
 			</tuv>
@@ -3443,7 +3475,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>အခြွိုင်း</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-email" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:email-input" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
@@ -3451,7 +3483,7 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>အီးမေး</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:email-input" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-email" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Email</seg>
 			</tuv>
@@ -3731,6 +3763,14 @@ Can you let us know why you would like your recordings deleted?</seg>
 				<seg>ငေါဝ်းရီဖုံႏ ပွုံႏစံႏဥပမာႏ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:add-question-too-many-questions-error" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Exceeded 25 questions. Reduce number of questions and retry.</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ငေါဝ်းရီ လွိုထိုꩻလဲဉ်း ၂၅ ဗာႏသွူ ။ အွဉ်ႏယွမ်ꩻချာထွူ ငေါဝ်းရီတဲင် သောင်ႏသာချာယင်း တလဲင်ႏဟုဲင်း။</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:max-api-keys-reached" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Exceeded API credentials limit of 10</seg>
@@ -3753,6 +3793,22 @@ Can you let us know why you would like your recordings deleted?</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>ထောင်ထွားစောႏတနာႏသွော့ အဆင်ႏခြွဉ်းဗူႏဖုံႏ &lt;icon&gt;&lt;/icon&gt;</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:cs-do-section-guideline-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Explore informal scenarios, situations, or reenactments</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ထောင်ထွား စောႏတနာႏသွော့ အဆင်ႏလာႏ စွဉ်ႏစွဉ်ႏဖုံႏ၊ အောဝ်ႏထွာခြောင်ꩻဖုံႏ မွေးတောဝ်းလဲ့ ကမာꩻလွူꩻနယ်ချာဖုံႏ ဟုဲင်း</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:do-not-section-guideline-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Express or solicit prejudiced or offensive sentiments</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ဒေါ့ꩻထန်ႏနယ် မွေးတောဝ်းလဲ့ အုံပိဉ်ဖဲ့ꩻထာꩻ ထွို့ꩻဗူႏဝင်ꩻ  တွမ်ႏ ရွိုင်ꩻအီဒါႏ ထာꩻယူႏဖုံႏ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:fan" srclang="en-US">
@@ -4089,14 +4145,6 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ခွိုꩻသွုပ်</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:reporting-content-subheader" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>General guidance</seg>
-			</tuv>
-			<tuv xml:lang="blk">
-				<seg>တဖူꩻယီႏနယ်ꩻ အစွိုးစွိုးအသွုပ်သွုပ်</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:answer-questions-subheader" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>General guidance</seg>
@@ -4114,6 +4162,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:review-the-transcription-subheader" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>General guidance</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>တဖူꩻယီႏနယ်ꩻ အစွိုးစွိုးအသွုပ်သွုပ်</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:reporting-content-subheader" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>General guidance</seg>
 			</tuv>
@@ -4721,7 +4777,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ကောင်မွဉ်းဗွဲက်လောင်း ဘာႏသာႏငေါဝ်းငွါ တဗာႏယို ယံဖေႏကတွိုႏခြောင်ꩻ လွိုင်ႏကွိုန်ꩻလွဉ်အတာႏ နီသွဉ်းသီး မာꩻလွေꩻဗာႏနုဲင်းမုဲင်ꩻဟောင်း?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-nav-how-it-works-2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:how-does-it-work-title-v2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does Common Voice work?</seg>
 			</tuv>
@@ -4729,7 +4785,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ကောင်မွဉ်းဗွဲက်နောဝ်ꩻ အမာꩻထာꩻမာꩻ နုဲင်းမုဲင်ꩻ?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:how-does-it-work-title-v2" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-nav-how-it-works-2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>How does Common Voice work?</seg>
 			</tuv>
@@ -4945,6 +5001,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ငေါဝ်းလိတ်ရဲဉ်ႏယိုနောဝ်ꩻ ထွာဒျာႏ &lt;wikipediaLink&gt;ခမ်းသားလိုꩻအာသီးပဲင်ႏ&lt;/wikipediaLink&gt; အကျောင်ꩻ တွမ်ႏ ဒင်ႏထင်ႏသော့ꩻယိုအတာႏ အခွင်ꩻလꩻအောဝ်ႏဒျာႏအကျောင်ꩻ ခွေသွဉ်း အွဉ်ႏတိဉ်ႏလွေꩻဒျာႏသွူဩ။</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:add-questions-terms-checkbox" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>* I confirm that this question is &lt;publicDomainLink&gt;public domain&lt;/publicDomainLink&gt; and I have permission to upload it.</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>* ငေါဝ်းရီယိုနောဝ်ꩻ ထွာဒျာႏ &lt;publicDomainLink&gt;ခမ်းသားပဲင်ႏ&lt;/publicDomainLink&gt; တဲင် ဒင်ႏသော့ꩻခွင်ꩻအောဝ်ႏဒျာႏ အခရာႏ အွဉ်ႏတိဉ်ႏလွေꩻဒျာႏသွူ။</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:sc-write-submit-confirm" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>I confirm that this sentence is &lt;wikipediaLink&gt;public domain&lt;/wikipediaLink&gt; and I have permission to upload it.</seg>
@@ -5001,7 +5065,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>မိဉ်ႏထွာ နာꩻနမ်းပဲင်ႏငေါဝ်းငွါနောဝ်ꩻ ဒေါ့ꩻနယ်ဗော့ꩻ &lt;italicizedText&gt;“ထူႏကွိုꩻချာနမ်း”&lt;/italicizedText&gt; သွူ။ လိတ်ယိုနောဝ်ꩻ နာꩻထိုမ်ႏမော့ꩻအထွောင်းမုဲင်ꩻကိုကရိုꩻနောဝ်ꩻ နီသွဉ်းသီး လိုႏသေခါꩻဗာႏသွူ၊ အကျောင်ꩻခရာႏနောဝ်ꩻ ယံကစဲစ်ထွားနွောင်ꩻဒျာႏ ခမ်းသားလိုꩻအာသီးပဲင်ႏခင်ႏလမ်းအကို ပါသော့ꩻ မွေး တမွေးတောဝ်း တွမ်ႏ ခွုမ်ပဲင်ႏလꩻခွင်ꩻ ဒို့ꩻပေ့ꩻရဲးခါꩻဖုံႏ တအောဝ်ႏတောဝ်းနောဝ်ꩻသွူ။ မိဉ်ႏမဲဉ်သေထဲင်းယင်း ထူႏကွိုꩻအုံနောင်ဆင်ႏ အကျောင်ꩻခရာႏဖုံႏယိုလဲ့ ထွားနွောင်ꩻဒျာႏ နီသွဉ်းသီး &lt;guidelinesLink&gt;တဖူꩻအွဉ်နယ် လိတ်မဲ့ငါ&lt;/guidelinesLink&gt; ကိုနေား။</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
 			</tuv>
@@ -5009,7 +5073,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ဒင်ႏမုဲင်အငေါဝ်းယို မိဉ်ႏတကွို့ꩻထဲ့ထိုꩻ မွေးတောဝ်းလဲ့ လိတ်ရဲဉ်ႏတဗာႏလွုမ်း အငေါဝ်းဒက်ခြီခေါဝ်ဖုံႏ မိဉ်ႏပါလွဉ်နောဝ်ꩻ နာႏဟွုန်တလꩻဗာႏဒွိုန်းဖုံႏယို လက်ခံႏနေးစူꩻဗာႏတောဝ်း (နုဲင်ႏဝေါင်းထိုꩻဗာႏ) သွူ။</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-noise-description-extended" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-background-voices-description-extended" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>If the recording breaks up, or has crackles, reject unless the entirety of the text can still be heard.</seg>
 			</tuv>
@@ -5119,6 +5183,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>အီဗို</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:accept-privacy" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>I'm okay with you handling this info as you explain in Mozilla's &lt;privacyLink&gt;Privacy Policy&lt;/privacyLink&gt;</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>မိုသီလာယို ကအွဉ်ႏထွော့ဒါႏ&lt;privacyLink&gt;နမ်းဖဲ့ꩻ လိုမ်းဗိဉ်ႏတာႏ မူဝါဒ&lt;/privacyLink&gt;အကို ကဒေါ့ꩻခြုဲင်းနယ်စဲင်းဒါႏအတွိုင်ꩻ အဆင်ႏအလာႏဖုံႏအလောင်း ခွေသွဉ်း သꩻအောဝ်ႏနေးစူꩻဒျာႏသွူ။</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-7" srclang="en-US">
@@ -5417,7 +5489,15 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>နွို့ပါငီꩻသွော့ နီသွဉ်းသီး ဒစ်သကော့လောင်း</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:api-credentials-description-conclusion" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Join us to advance voice technology and empower more user contributions.</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ငေါဝ်းငွါနယ်ꩻပညာႏ ပြွူႏဖြိုထင်ႏထိုလွေꩻအတာႏ တွမ်ႏ ကေားသွုံꩻသားဖုံႏ နွို့စွဲးကမ်းတာႏ အာႏဖေႏကတလာ နွို့ငီꩻသွော့ နီသွဉ်းသီးထျꩻဟုဲင်း။</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:just-unsure" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Just Unsure?</seg>
 			</tuv>
@@ -5425,7 +5505,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ယိုခါ စဲင်းစဲ့တောဝ်းဒွုမ်နဲ့?</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:just-unsure" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-just-unsure-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Just Unsure?</seg>
 			</tuv>
@@ -5607,6 +5687,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>သွုံꩻတွမ်ႏ နမ်းအအဲဉ်ႏ မဉ်ꩻဖြာꩻတဲင် ထွားနွောင်ꩻဒျာႏ နာꩻတဖြာꩻထာꩻထင်ႏထိုခြောင်ꩻဖုံႏနေား။</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:profile-explanation" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Keep track of your progress with a profile and help our voice data be more accurate.</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>နေးတွမ်ႏ နမ်းပဲင်ႏအအဲဉ်ႏတဗာႏတဲင် ထောင်ထွား နီထာꩻမာꩻထင်ႏထိုငါအဆင်ႏ တွမ်ႏ နီသွဉ်းသီး ငေါဝ်းဆင်ႏဗူႏယို ယံဖေႏကမဲန်ႏလွဉ်အတာႏ စွဲးကမ်းဖေႏသွော့ဩ။</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:kzi" srclang="en-US">
@@ -5913,6 +6001,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>လင်ဂို</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:language" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Language</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ဘာႏသာႏငေါဝ်းငွါ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:profile-form-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
@@ -5922,14 +6018,6 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/modals/request-language.ftl:request-language-form-language" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Language</seg>
-			</tuv>
-			<tuv xml:lang="blk">
-				<seg>ဘာႏသာႏငေါဝ်းငွါ</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Language</seg>
 			</tuv>
@@ -6145,7 +6233,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>လဲန်ဒူ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:adding-sentences-subheader-length" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:length" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Length</seg>
 			</tuv>
@@ -6153,7 +6241,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ထိုဆွာꩻ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:length" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:adding-sentences-subheader-length" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Length</seg>
 			</tuv>
@@ -6167,6 +6255,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>လွေꩻ ကောႏအွဉ်ရီးခန်း</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:apc" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Levantine Arabic</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>လီဗန်တုဲင်း အာရဗတ်</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:cv-license" srclang="en-US">
@@ -6233,7 +6329,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>နာႏငေါဝ်း</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:audioplayer-header" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -6241,7 +6337,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>နာႏငေါဝ်း</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:audioplayer-header" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/listen.ftl:listen" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Listen</seg>
 			</tuv>
@@ -6321,7 +6417,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ဒေႏသအလွောက်ꩻ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:login" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:login" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log In</seg>
 			</tuv>
@@ -6329,7 +6425,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>နွို့ငါ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:login" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:login" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log In</seg>
 			</tuv>
@@ -6361,7 +6457,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>တဲႏကောႏလွေꩻခန်း နွို့ငါမဉ်ꩻဖြာꩻ မွေးတောဝ်းလဲ့ ဒင်ႏဗွောင်တသာမဉ်ꩻဖြာꩻ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:login-signup" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log In / Sign Up</seg>
 			</tuv>
@@ -6369,7 +6465,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>နွို့ငါ / ဒင်ႏမဉ်ꩻ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:login-signup" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:login-signup" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Log In / Sign Up</seg>
 			</tuv>
@@ -6479,6 +6575,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>ထွားစဲင်းစဲင်းသွော့ လိတ်ရဲဉ်ႏနေား ယံကမဲဉ်ႏတနꩻသွော့ ထာꩻအွဉ်ႏထွော့ ဆꩻလယို:</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:do-section-guideline-3" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Make sure they can be answered in just a couple of sentences</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ငေါဝ်းလိတ်ရဲဉ်ႏ နီဗာႏ သွံဗာႏ အကိုလွုမ်ꩻငါ ယံဖေႏကထွာသွော့ ကအီႏ စေလောဝ်းချာနွောင်ꩻဒါႏ ငေါဝ်းရီဖုံႏ ဟုဲင်း</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:mg" srclang="en-US">
@@ -6826,7 +6930,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>[ကတူႏရဲဉ်ႏဖုံႏ မဲန်ႏတရျားတောဝ်းလို့ဝင်ꩻသွူ]</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:misreadings" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Misreadings</seg>
 			</tuv>
@@ -6834,7 +6938,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ထာꩻထီႏတရွို့ꩻဖုံႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:misreadings" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Misreadings</seg>
 			</tuv>
@@ -6962,7 +7066,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ထဲင်းယင်း ဘာႏသာႏငေါဝ်းငွါဖုံႏ တညတောဝ်းအီႏလွဉ်သွူ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-description" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:reader-effects-explanation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.</seg>
 			</tuv>
@@ -6970,7 +7074,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ဒင်ႏမုဲင်အငေါဝ်း ကဲဉ်းအအာနောဝ်ꩻ ထွာဒျာႏ လိုꩻသီးသဘာဝအငေါဝ်းတာႏ မုဲင်တောင်ꩻဒေါ့ꩻရိုꩻငေါဝ်းဖုံႏသွူ။ အငေါဝ်းခြီခြောဝ်၊ အငေါဝ်းဗွီႏ မွေးတောဝ်းလဲ့ ထွားဒေါ့ꩻနေးအငေါဝ်း 'ဇာတ်ရဲဉ်ႏတဖူꩻကို' သေငါꩻထွူစဲင်းဒါႏ ပွုံႏမဲန်ႏ တမွေးတောဝ်းဒါႏ ဒင်ႏမုဲင်အငေါဝ်း ဆင်ႏဆင်ႏအလဲင်ႏအာယို နာꩻလက်ခံႏနေးစူꩻ လꩻဒျာႏသွူ။ မိဉ်ႏထွာ အဒုံႏအအူ ကရွစ်နေးဒါႏတွမ်ႏ ငေါဝ်းသꩻချင်ꩻဖုံႏ ဒင်ႏမုဲင်အငေါဝ်းဖုံႏတွမ်ႏ စက်ကွန်ပျူတာမာꩻထွာလွဉ်ခါꩻဒါႏ အငေါဝ်းဖုံႏယို နေးစူꩻမွုန်းတောဝ်း (နုဲင်ႏဝေါင်းထိုꩻဗာႏ) သွူ။</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:reader-effects-explanation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-reader-effects-description" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Most recordings are of people talking in their natural voice. You can accept the occasional non-standard recording that is shouted, whispered, or obviously delivered in a ‘dramatic’ voice. Please reject sung recordings and those using a computer-synthesized voice.</seg>
 			</tuv>
@@ -7106,7 +7210,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>နာꩻ ဘာႏသာႏငေါဝ်းငွါယို မဉ်ꩻဖုံႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:profile-form-native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -7114,7 +7218,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ဒေႏသခံႏ ဘာႏသာႏငေါဝ်းငွါ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:profile-form-native-language" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:native-language" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Native Language</seg>
 			</tuv>
@@ -7596,6 +7700,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>အမုဲင်ဖုံႏ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:transcribe-the-audio-subheader-2" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Numbers and acronyms</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>အမုဲင်ဗာႏဖုံႏ တွမ်ႏ ထူႏအဒွေါင်ႏဖုံႏ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:hux" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Nüpode Huitoto</seg>
@@ -7900,20 +8012,20 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ရဲပ်ဗူႏလို့ ထာꩻမဲန်ႏတနꩻဖုံႏ ကားကအောဝ်ႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:player-play-pause-shortcut" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>p</seg>
-			</tuv>
-			<tuv xml:lang="blk">
-				<seg>မာꩻလွူꩻ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:shortcut-play-toggle" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>p</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>ဗွောင်</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:player-play-pause-shortcut" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>p</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>မာꩻလွူꩻ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:phr" srclang="en-US">
@@ -8240,6 +8352,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ဒင်ႏသွုပ်လောဝ်းချာတွမ်ႏ ငေါဝ်းခြုဲင်းဖုံႏ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:toggle-play-tooltip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Press { shortcut-play-toggle } to toggle play mode</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ဒင်ႏသွုပ်ထင်ႏ { shortcut-play-toggle } တာႏ ပွတ်လုဲင်ႏလွိုး</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:privacy" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Privacy</seg>
@@ -8288,7 +8408,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ထာꩻမာꩻရဲဉ်ႏ/အရန်းဖုံႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/download.ftl:download-profile-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:profile" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -8296,7 +8416,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>နမ်းအအဲဉ်ႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:profile" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/download.ftl:download-profile-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Profile</seg>
 			</tuv>
@@ -8552,20 +8672,20 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ထွားဒေါ့ꩻလိတ်သား ကတွိုႏခြောင်ꩻဒါႏအကျိုꩻဖုံႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:misreadings-explanation-5" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.</seg>
-			</tuv>
-			<tuv xml:lang="blk">
-				<seg>ငေါဝ်းဒွေါင်ႏဖုံႏ တမဲန်ႏတနꩻတောဝ်း၊ အောဝ်ႏလိုႏဒေါ့ꩻဒျာႏ"နီအီႏ" နောဝ်ꩻ ဒေါ့ꩻမာႏတေားဒျာႏ ငေါဝ်းဒွေါင်ႏ "နီအောဝ်ႏ" မွေးတောဝ်းလဲ့ အတဗန်ႏချာငါဝင်ꩻနောဝ်ꩻသွူ။</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-description-extended-list-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>ငေါဝ်းဒွေါင်ႏဖုံႏ တမဲန်ႏတနꩻတောဝ်း၊ အောဝ်ႏလိုႏဒေါ့ꩻဒျာႏ"နီအောဝ်ႏ" နောဝ်ꩻ ဒေါ့ꩻမာႏတေားဒျာႏ ငေါဝ်းဒွေါင်ႏ "နီအဝ်ႏ" မွေးတောဝ်းလဲ့ အတဗန်ႏချာငါဝင်ꩻနောဝ်ꩻသွူ။</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:misreadings-explanation-5" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Reading contractions that aren't actually there, such as "We're" instead of "We are", or vice versa.</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ငေါဝ်းဒွေါင်ႏဖုံႏ တမဲန်ႏတနꩻတောဝ်း၊ အောဝ်ႏလိုႏဒေါ့ꩻဒျာႏ"နီအီႏ" နောဝ်ꩻ ဒေါ့ꩻမာႏတေားဒျာႏ ငေါဝ်းဒွေါင်ႏ "နီအောဝ်ႏ" မွေးတောဝ်းလဲ့ အတဗန်ႏချာငါဝင်ꩻနောဝ်ꩻသွူ။</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:show-wall-of-text" srclang="en-US">
@@ -9016,7 +9136,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>သဲင်ꩻလွေꩻချာ ဘာႏသာႏငေါဝ်းငွါဖုံႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:review" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -9032,7 +9152,15 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ထွားစဲစ်</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-link" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:check-transcriptions-mobile" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Review</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ထွားစဲစ်ချာ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:review" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Review</seg>
 			</tuv>
@@ -9046,14 +9174,6 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>ထွားစဲစ်</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:check-transcriptions-mobile" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Review</seg>
-			</tuv>
-			<tuv xml:lang="blk">
-				<seg>ထွားစဲစ်ချာ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:review-questions-menu-item-aria-label" srclang="en-US">
@@ -9296,7 +9416,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ကာႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip-shortcut" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:validate-page-skip-button-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>S</seg>
 			</tuv>
@@ -9304,7 +9424,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ကာႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/validate.ftl:validate-page-skip-button-shortcut" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip-shortcut" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>S</seg>
 			</tuv>
@@ -9472,14 +9592,6 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ထိုမ်ႏထွား...</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:language-search-aria-label" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Search for a language</seg>
-			</tuv>
-			<tuv xml:lang="blk">
-				<seg>ထိုမ်ႏထွား ဘာႏသာႏငေါဝ်းငွါတဗာႏ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:dataset-searchbox-aria-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search for a language</seg>
@@ -9488,7 +9600,15 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ထိုမ်ႏထွား ဘာႏသာႏငေါဝ်းငွါတဗာႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:dataset-searchbox-placeholder" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:language-search-aria-label" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Search for a language</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ထိုမ်ႏထွား ဘာႏသာႏငေါဝ်းငွါတဗာႏ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:language-search-placeholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search for a language...</seg>
 			</tuv>
@@ -9496,7 +9616,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ထိုမ်ႏထွား ဘာႏသာႏငေါဝ်းငွါတဗာႏ...</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:language-search-placeholder" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:dataset-searchbox-placeholder" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Search for a language...</seg>
 			</tuv>
@@ -9552,7 +9672,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>လွိုက်ထူႏသွော့တဗာႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/tag.ftl:select-a-tag" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/tag.ftl:tag-popover-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select a tag</seg>
 			</tuv>
@@ -9560,7 +9680,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>လွိုက်ထူႏ ဟဲ့ꩻရဲန်ႏတဗာႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/tag.ftl:tag-popover-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/tag.ftl:select-a-tag" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Select a tag</seg>
 			</tuv>
@@ -10000,6 +10120,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>အွဉ်ႏနယ် အဆုဲင်ꩻသွတ်ꩻကထန်ႏလွဉ် အဆင်ႏခြွဉ်းဗူႏဖုံႏ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:variant-contribution-option-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Show me sentences and clips from all variants within my language</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>နီသွဉ်းသီး ဘာႏသာႏငေါဝ်းငွါအကို ကအောဝ်ႏဒါႏ တဗွိုန်ပီတောဝ်းဒါႏဝင်ꩻ လို့လို့အကို အွဉ်ႏနယ်ဖေႏသွော့ ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏ တွမ်ႏ အငေါဝ်းဗာႏဖုံႏယိုဟုဲင်း။</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:show-ranking" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Show my ranking</seg>
@@ -10128,14 +10256,6 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>အရွယ်ႏပွိုင်</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:skip-button" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Skip</seg>
-			</tuv>
-			<tuv xml:lang="blk">
-				<seg>ကာႏ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:skip" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
@@ -10145,6 +10265,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/review.ftl:sc-review-form-button-skip" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Skip</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ကာႏ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:skip-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Skip</seg>
 			</tuv>
@@ -10246,6 +10374,22 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>လိုꩻသီးခွဲးသွုပ်(သိုဆယ်မီဒီယာ)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:do-not-section-guideline-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Solicit personally identifying information (like names or financial information)</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ဖခေါ်ဖေႏ နမ်းတဖြာꩻ အဆင်ႏအလာႏ( မဉ်ꩻဖုံႏ မွေးတောဝ်းလဲ့ ရွဉ်တောင်ꩻတာႏ အဆင်ႏအလာႏ)</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:cs-do-not-section-guideline-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Solicit personally identifying information (like names or financial information) or offensive sentiments</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ဖခေါ်ဖေႏ နမ်းတဖြာꩻ အဆင်ႏအလာႏ (မဉ်ꩻဖုံႏ မွေးတောဝ်းလဲ့ ရွဉ်တောင်ꩻတာႏ အဆင်ႏအလာႏ) မွေးတောဝ်းလဲ့ ကဗာႏဆာအီဒါႏဝင်ꩻ ထာꩻယူႏဖုံႏ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:so" srclang="en-US">
@@ -10512,7 +10656,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>&lt;speechBlogLink&gt;တဲႏလွေꩻခန်းတွမ်ႏ သေနာႏနွောင်ꩻအီ ဒေါ့ꩻငေါဝ်း&lt;/speechBlogLink&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:spelling-and-pronunciation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:adding-sentences-subheader-spelling-punctuation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Spelling and Punctuation</seg>
 			</tuv>
@@ -10520,7 +10664,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ဆင်းလိတ်ဖြုံႏ တွမ်ႏ အွဉ်ႏသွတ်ꩻနယ်ꩻ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:adding-sentences-subheader-spelling-punctuation" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:spelling-and-pronunciation" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Spelling and Punctuation</seg>
 			</tuv>
@@ -10544,20 +10688,20 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ဖထန်ႏခေါ်</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:spontaneous-card-header" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Spontaneous Speech</seg>
-			</tuv>
-			<tuv xml:lang="blk">
-				<seg>ခါလဲင်ႏ ဒေါ့ꩻငေါဝ်း</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:spontaneous-speech" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Spontaneous Speech</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>တောင်ꩻခါလဲင်ႏ ဒေါ့ꩻငေါဝ်း</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:spontaneous-card-header" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Spontaneous Speech</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ခါလဲင်ႏ ဒေါ့ꩻငေါဝ်း</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/home.ftl:spontaneous-speech" srclang="en-US">
@@ -10624,6 +10768,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ငေါဝ်းရီဖုံႏ အောဝ်ႏနဲ့?</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/profile/info.ftl:save-api-key-info-description" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Store your keys safely and avoid exposing them in public repositories. The SECRET key is only accessible now and will not be shown again.</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>နီ သော်ကီး ဖုံႏယို အွဉ်ႏဟောဝ်ဟောဝ် တဲပ်တဲပ်ဖေႏသွော့၊ တွမ်ႏ အွဉ်ႏနယ်မွိုန်းတောဝ်း လိုꩻအာ ကထီႏနွောင်ꩻဒါႏ  repository ဖုံႏအကိုလုဲင်း ။ SECRET သော်ကီး ယို ထီႏနွောင်ꩻ/ထူႏနွောင်ꩻဒျာႏ ယိုခါလွုမ်ꩻတဲင် တအီႏအွဉ်ႏနယ်ချာထဲင်းတောဝ်းဒွုမ်သွူ။</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/dashboard.ftl:streaks" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Streaks</seg>
@@ -10672,14 +10824,6 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>&lt;strong&gt;[ဆွိုင်ꩻအငေါဝ်း]&lt;/strong&gt; &lt;strong&gt;[ငေါဝ်းကဟဲ့ꩻ]&lt;/strong&gt; ထရုဲင်အဲစ်သစ် ကာႏလခိန်ႏ ဒုဲင်နိုသောတန်ဖုံႏသွူ။</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Submit</seg>
-			</tuv>
-			<tuv xml:lang="blk">
-				<seg>ဒင်ႏပသာ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:submit-button" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
@@ -10689,6 +10833,14 @@ There are two stages. Translating the site, and collecting sentences</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-submit" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Submit</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ဒင်ႏပသာ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:submit-form-action" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit</seg>
 			</tuv>
@@ -10712,7 +10864,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>အသောင်ရင်ꩻ လိုꩻစွိုꩻဗူႏသီး ယံထွားဒေါ့ꩻ စေလောဝ်းချာနွောင်ꩻအတာႏ ဒင်ႏပသာဖေႏ ငေါဝ်းရီတသာ။</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-modal-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit a report</seg>
 			</tuv>
@@ -10720,7 +10872,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ဒင်ႏပသာဖေႏ ဒင်ႏနယ်ချာတဗာႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:report-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:report-modal-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Submit a report</seg>
 			</tuv>
@@ -10776,20 +10928,20 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ဗဲင်းခါꩻမဉ်ꩻ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:success" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Success</seg>
-			</tuv>
-			<tuv xml:lang="blk">
-				<seg>အောင်ႏမျင်ႏ</seg>
-			</tuv>
-		</tu>
 		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/report.ftl:success" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Success</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>အောင်ႏဗꩻ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:success" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Success</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>အောင်ႏမျင်ႏ</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/speak.ftl:img-alt-success-checkmark" srclang="en-US">
@@ -10888,7 +11040,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>သီးရီးယား</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:tag" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:tags-table-header-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tag</seg>
 			</tuv>
@@ -10896,7 +11048,7 @@ There are two stages. Translating the site, and collecting sentences</seg>
 				<seg>ဟဲ့ꩻရဲန်ႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:tags-table-header-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:tag" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Tag</seg>
 			</tuv>
@@ -11293,7 +11445,7 @@ We would like to thank the following people and organizations for their help wit
 				<seg>ထရုဲင်အဲစ်သစ် စိုးခေတ်ကို ကအောဝ်ႏဒါႏ အနမ်းဗာႏတန်တန် ဒုဲင်နိုသောဖုံႏနောဝ်ꩻ ထရုဲင်အဲစ်သ...။</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:background-noise-example-1" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-1-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dinosaurs of the Triassic.</seg>
 			</tuv>
@@ -11301,7 +11453,7 @@ We would like to thank the following people and organizations for their help wit
 				<seg>ထရုဲင်အဲစ်သစ် စိုးခေတ်ကို ကအောဝ်ႏဒါႏ အနမ်းဗာႏတန်တန် ဒုဲင်နိုသောဖုံႏ။</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-1-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:background-noise-example-1" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>The giant dinosaurs of the Triassic.</seg>
 			</tuv>
@@ -11411,6 +11563,14 @@ We would like to thank the following people and organizations for their help wit
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>ယိုခါခါ ဘာႏသာႏငေါဝ်းငွါယိုတာႏ တဲမ်းမုဲင်လိတ်ယာႏ အငေါဝ်းဖုဲင် တအောဝ်ႏတောဝ်းဒွိုန်း။ မုဲင်ꩻမုဲင်ꩻခန်းတယောဝ်း မိဉ်ႏနျꩻသွုပ်ငါလွေꩻ'ကာႏငါ' ယိုလꩻနွောင်ꩻဒျာႏ တွမ်ႏ ကကာႏငါခါꩻဒါႏ ကတူႏရဲဉ်ႏဖုံႏ မွေးတောဝ်းလဲ့ လွေꩻကျိုꩻစာꩻထွားစဲစ်ချာသွော့ တဲမ်းမုဲင်လိတ်ယာႏကိုနေား။</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-content-504" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>The request took too long to complete. This is usually temporary. Please try again. For help, please join the &lt;matrixLink&gt;Matrix community chat&lt;/matrixLink&gt;, monitor site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt; or visit &lt;discourseLink&gt;our Discourse forums&lt;/discourseLink&gt;.</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ကကွီဒါႏ ထာꩻမာꩻယို မာꩻထွူအတာႏ အခိန်ႏညလွိုငါႏသွူ။ ယိုနောဝ်ꩻ ကိဉ်းအာအာ ထွာဒျာႏ တဆောင်းတဆင်ႏလွုမ်ꩻတဲင် သောင်ႏသာချာယင်းဖေႏသွော့ဩ။ အစွဲးကမ်းအတာႏ နွို့ပါဖေႏ &lt;matrixLink&gt;မေတ်ထရစ် လိုꩻအသောင်ꩻရင်ꩻဗူႏ&lt;/matrixLink&gt;၊ &lt;githubLink&gt;ဂဲစ်ဟတ်&lt;/githubLink&gt; တဆင်ႏ ထွားစဲစ်ဖေႏ သုဲက်ပွိုင် ကထွာကုဲင်အမာႏ မွေးတောဝ်းလဲ့ လွေꩻထောင်ထွားဖေႏ &lt;discourseLink&gt;နီသွဉ်းသီး ဒစ်သကော့ ဖိုရမ်ဖုံႏ&lt;/discourseLink&gt; အကိုဟုဲင်း။</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:volume-explanation" srclang="en-US">
@@ -11781,7 +11941,7 @@ We would like to thank the following people and organizations for their help wit
 				<seg>လွေꩻငါထဲင်း ကောဝ်ႏထွန်ႏထျꩻ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:transcribe" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:transcribe" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Transcribe</seg>
 			</tuv>
@@ -11789,7 +11949,7 @@ We would like to thank the following people and organizations for their help wit
 				<seg>လိတ်ယာႏမုဲင်တောင်ꩻ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/modals/navigation.ftl:transcribe" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/common.ftl:transcribe" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Transcribe</seg>
 			</tuv>
@@ -12157,6 +12317,14 @@ We would like to thank the following people and organizations for their help wit
 				<seg>ခြွဉ်းဗူႏဗာႏလဲဉ်း { $uploadedQuestions } ငေါဝ်းရီ { $totalQuestions } ဗာႏ</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:partial-questions-upload-message" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>{ $uploadedQuestions } of { $totalQuestions } questions collected. View our &lt;guidelinesLink&gt;Guidelines&lt;/guidelinesLink&gt; pages to learn more about how to add questions</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>ငေါဝ်းရီ { $uploadedQuestions }အကို ရွမ်ခါꩻဗာႏလဲဉ်း { $totalQuestions } ဗာႏသွူ။ ထွားလွဉ်ꩻသွော့ နီသွဉ်းသီး သွဉ်ထူႏထဲင်းခရာႏ သော့ꩻငေါဝ်းရီ နုဲင်းမုဲင်ꩻ&lt;guidelinesLink&gt;မာꩻပွုံႏမာꩻနယ်ꩻ&lt;/guidelinesLink&gt; ယို လိတ်မဲ့ငါအခရာႏဖုံႏ</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:add-small-batch-success" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ $uploadedSentences } of { $totalSentences } sentences collected</seg>
@@ -12173,7 +12341,7 @@ We would like to thank the following people and organizations for their help wit
 				<seg>ရွမ်ခြွဉ်းဗူႏလꩻလဲဉ်း ငေါဝ်းလိတ်ရဲဉ်ႏ { $totalSentences } ပွုဒ်အကို အောဝ်ႏပါသော့ꩻ { $uploadedSentences } ပွုဒ်။ တနေးထူႏတောဝ်းကပယ်ႏထန်ႏဒါႏ ငေါဝ်းလိတ်ရဲဉ်ႏဖုံႏ ယို နေးထူႏငင်ႏလင်ꩻအတာႏ နျꩻဖေႏသွော့ &lt;downloadLink&gt;ယိုကို&lt;/downloadLink&gt;</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:add-question-error-message" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-failed-toast" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload failed, please retry.</seg>
 			</tuv>
@@ -12181,7 +12349,7 @@ We would like to thank the following people and organizations for their help wit
 				<seg>ဒင်ႏထင်ႏ ဗꩻလꩻတောဝ်း၊ ကျိုꩻစာꩻချာယင်းသွော့ တလဲင်ႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:bulk-upload-failed-toast" srclang="en-US">
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:add-question-error-message" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Upload failed, please retry.</seg>
 			</tuv>
@@ -12235,6 +12403,14 @@ We would like to thank the following people and organizations for their help wit
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>ယူရာဒူး</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/spontaneous-speech/en/pages/contribution/question.ftl:cs-do-section-guideline-1" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Use bilingual questions or context</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>သွုံꩻဖေႏ ဘာႏသာႏငေါဝ်းငွါနီစွိုး ငေါဝ်းရီဖုံႏ မွေးတောဝ်းလဲ့ အခရာႏလိတ်ရဲဉ်ႏ ဟုဲင်း</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:new-sentence-rule-3" srclang="en-US">
@@ -12453,7 +12629,7 @@ We would like to thank the following people and organizations for their help wit
 				<seg>လွိုက်ထူႏ စွဲးထဲမ်ဖေႏ တပီဗွိုန်တောဝ်းခွိုꩻလီတာႏဖုံႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:varying-pronunciations" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Varying Pronunciations</seg>
 			</tuv>
@@ -12461,7 +12637,7 @@ We would like to thank the following people and organizations for their help wit
 				<seg>တဗွိုန်ပီတောဝ်း အငေါဝ်းထန်ႏဖုံႏ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:varying-pronunciations" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-varying-pronunciations-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Varying Pronunciations</seg>
 			</tuv>
@@ -12673,6 +12849,14 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 				<seg>နီသွဉ်းသီး သꩻရုဲင်ꩻတသွိုးမွေးငါႏ ခမ်းသားလိုꩻအာ ကဏ္ဍနွို့ခွုမ်မာꩻငီꩻ နယ်ꩻပညာႏ၊ အွဉ်မာꩻထွာလွဉ်တသာထာꩻ တောမ်ႏ ဘာႏသာႏငေါဝ်းငွါ အခွင်ꩻအရေꩻဖုံႏကို စွဲးထဲမ်တာႏသွူ။ မိဉ်ႏအောဝ်ႏခြပ်ရဲဉ်ႏလွေꩻ အရန်းတန် ထာꩻမာꩻခြပ်ရဲဉ်ႏ မွေးတောဝ်းလဲ့ ရေႏခါꩻအစွိုꩻအဗူႏထာꩻမာꩻနောဝ်ꩻ ကရုဏာႏမနောဝ်ꩻ &lt;emailFragment&gt;သွုပ်ထေ့ဒေါ့ꩻရီနီသွဉ်းသီးဩ။&lt;/emailFragment&gt;</seg>
 			</tuv>
 		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-7-title" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We are going out to get a coffee.</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>နီအီႏထန်ႏ လွေꩻ အွꩻကော်ဖီသွူ။</seg>
+			</tuv>
+		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:misreadings-example-3" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We are going out to get a coffee.</seg>
@@ -12681,9 +12865,9 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 				<seg>နီအီႏထန်ႏ လွေꩻ အွꩻကော်ဖီတကောက်ꩻသွူ။</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:contribution-misreadings-example-7-title" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:misreadings-example-1" srclang="en-US">
 			<tuv xml:lang="en-US">
-				<seg>We are going out to get a coffee.</seg>
+				<seg>We are going out to get coffee.</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>နီအီႏထန်ႏ လွေꩻ အွꩻကော်ဖီသွူ။</seg>
@@ -12697,15 +12881,7 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 				<seg>နီအီႏထန်ႏ လွေꩻ အွꩻကော်ဖီသွူ။</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:misreadings-example-1" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>We are going out to get coffee.</seg>
-			</tuv>
-			<tuv xml:lang="blk">
-				<seg>နီအီႏထန်ႏ လွေꩻ အွꩻကော်ဖီသွူ။</seg>
-			</tuv>
-		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:stayintouch" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-stayintouch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
 			</tuv>
@@ -12713,7 +12889,7 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 				<seg>နီသွဉ်းသီး မိုသီလာယို အောဝ်ႏတဲႏဆို့ꩻလွေꩻ ငေါဝ်းငွါနယ်ꩻပညာႏ အသောင်ရင်ꩻစွိုꩻဗူႏနောဝ်ꩻသွူ။ ထန်ႏတသာဒါႏ သတင်ꩻဖုံႏ၊ အဆင်ႏခြွဉ်းတသာဖုံႏယို မဲဉ်သွုပ်ထေ့ဖေႏသေလွေꩻဒျာႏ နာꩻလဲ့ပါပါငီꩻ ထူႏသွုံꩻလွေꩻ အဆင်ႏခြွဉ်းယိုအလောင်း အအုံအောဝ်ႏဖုံႏယို နီသွဉ်းသီး အောဝ်ႏမဲဉ်ဟွုန်ထွꩻလွဉ်ꩻဒျာႏနောဝ်ꩻသွူ။</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-stayintouch" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:stayintouch" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We at Mozilla are building a community around voice technology. We would like to stay in touch with updates, new data sources and to hear more about how you're using this data.</seg>
 			</tuv>
@@ -12735,6 +12911,14 @@ forums, submit site issues via &lt;githubLink&gt;GitHub&lt;/githubLink&gt;, or j
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>သုဲက်ပွိုင်ဖုံႏ</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-duplicate-clips-all" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We could not upload { $total } clips. They have already been uploaded before. Let’s continue with the next batch!</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>နီသွဉ်းသီး ဒင်ႏသော့ꩻဖေႏနွောင်ꩻတောဝ်း { $total } အငေါဝ်းဗာႏသွူ။ အဗာႏယိုနောဝ်ꩻ ဒင်ႏသော့ꩻထွူလဲဉ်းဒျာႏ ကရီးခါသွူ။ ထဲင်း အစိုပ်ငါ မဲ့ꩻနီ မာꩻသွုပ်ယင်း!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-title-404" srclang="en-US">
@@ -12835,7 +13019,7 @@ Please try again later.</seg>
 				<seg>အလဲင်ႏမဲန်ႏမဲန်ႏ နီအောဝ်ႏတုတ်ꩻလီဖေႏ အဆင်ႏခြွဉ်းဗူႏယိုသွူ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-privacy-info" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:privacy-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
 			</tuv>
@@ -12843,7 +13027,7 @@ Please try again later.</seg>
 				<seg>နာꩻအဆင်ႏအလာႏဖုံႏယို နေးတွမ်ႏတဖူꩻနယ်ꩻမဲန်ႏမဲန်ႏ တဲပ်တဲပ်တဲ့တဲ့တဲင် နီသွဉ်းသီး အီႏထွားရိုႏသေႏဟောဝ်ဟောဝ်ဒျာႏကရိုꩻနောဝ်ꩻ အာႏမခံႏဒျာႏသွူ။ လွေꩻထွားထဲင်းသွော့ &lt;privacyLink&gt;ဖေႏသေဗာႏ နမ်းပဲင်ႏထာꩻရိုႏသေႏခရာႏ&lt;/privacyLink&gt; အကိုနောဝ်ꩻသွူ။</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/common.ftl:privacy-info" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/languages.ftl:get-involved-privacy-info" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>We promise to handle your information with care. Read more in our &lt;privacyLink&gt;Privacy Notice&lt;/privacyLink&gt;.</seg>
 			</tuv>
@@ -12953,6 +13137,14 @@ Please try again later.</seg>
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>ဝစ်သဖာလီယန်</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/error.ftl:error-duplicate-clips-some" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>We uploaded { $uploaded } of your clips — The remainder have already been uploaded. Let’s continue with the next batch!</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>နီသွဉ်းသီး ဒင်ႏသော့ꩻဖေႏလဲဉ်း နီအငေါဝ်းဗာႏ ကအောဝ်ႏကုဲင်ဒါႏ { $uploaded } ဗာႏ —  အဗာႏဖုံႏနောဝ်ꩻ ဒင်ႏသော့ꩻထွူလဲဉ်းဒျာႏသွူ။ ထဲင်း အစိုပ်ဆုဲင်ꩻ မဲ့ꩻနီ မာꩻသွုပ်ယင်း!</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/about.ftl:about-playbook-how-add-language-translating-content-2" srclang="en-US">
@@ -13092,6 +13284,14 @@ Then, to make the language available on the Common Voice project,
 			</tuv>
 			<tuv xml:lang="blk">
 				<seg>နာꩻမဲဉ်တဲႏဆို့ꩻလွေꩻ ထာꩻအင်းရေႏ ကောဝ်ႏထွန်ႏစားမုဲင်ꩻဟောင်း?</seg>
+			</tuv>
+		</tu>
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/guidelines.ftl:what-makes-a-good-question-subheader" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>What makes a good question?</seg>
+			</tuv>
+			<tuv xml:lang="blk">
+				<seg>အဗာႏမုဲင်ꩻ ထွာငေါဝ်းရီဟောဝ်ဟောင်း ?</seg>
 			</tuv>
 		</tu>
 		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/write.ftl:what-needs-to-be-in-file" srclang="en-US">
@@ -13351,7 +13551,7 @@ Then, to make the language available on the Common Voice project,
 				<seg>ယာကျွီ</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-yes" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-download-yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>
@@ -13359,7 +13559,7 @@ Then, to make the language available on the Common Voice project,
 				<seg>မွေး</seg>
 			</tuv>
 		</tu>
-		<tu tuid="common-voice:web/locales/common-voice/en/pages/datasets.ftl:data-download-yes" srclang="en-US">
+		<tu tuid="common-voice:web/locales/common-voice/en/pages/contribute/common.ftl:vote-yes" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Yes</seg>
 			</tuv>

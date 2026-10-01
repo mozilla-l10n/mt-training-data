@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tmx version="1.4">
-	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2026-09-01T00:58:05.726266">
+	<header adminlang="en-US" creationtoolversion="0.1" creationtool="pontoon" datatype="plaintext" segtype="sentence" o-tmf="plain text" srclang="en-US" creationdate="2026-10-01T00:59:03.214448">
 	</header>
 	<body>
 		<tu tuid="firefox:toolkit/chrome/global/intl.properties:pluralrule" srclang="en-US">
@@ -324,7 +324,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>{ -brand-short-name } առ ի փորձ է եւ մարթի անկայուն գոլ։</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/aboutDialog.ftl:settings-update-no-updates-found" srclang="en-US">
+		<tu tuid="firefox:browser/browser/aboutDialog.ftl:update-noupdatesfound" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-short-name } is up to date</seg>
 			</tuv>
@@ -332,7 +332,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>{ -brand-short-name } արդիական է։</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/aboutDialog.ftl:update-noupdatesfound" srclang="en-US">
+		<tu tuid="firefox:browser/browser/aboutDialog.ftl:settings-update-no-updates-found" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -brand-short-name } is up to date</seg>
 			</tuv>
@@ -452,7 +452,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Ստուգել զարդիացմունս</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/aboutDialog.ftl:settings-update-checking-for-updates" srclang="en-US">
+		<tu tuid="firefox:browser/browser/aboutDialog.ftl:update-checkingforupdates" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Checking for updates…</seg>
 			</tuv>
@@ -460,7 +460,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Ստուգումն արդիացմանց</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/aboutDialog.ftl:update-checkingforupdates" srclang="en-US">
+		<tu tuid="firefox:browser/browser/aboutDialog.ftl:settings-update-checking-for-updates" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Checking for updates…</seg>
 			</tuv>
@@ -644,7 +644,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Դանիա</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/updates/history.ftl:update-details" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/updates/elevation.ftl:elevation-details-link-label" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Details</seg>
 			</tuv>
@@ -652,7 +652,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Մանրամասունք</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:toolkit/toolkit/updates/elevation.ftl:elevation-details-link-label" srclang="en-US">
+		<tu tuid="firefox:toolkit/toolkit/updates/history.ftl:update-details" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Details</seg>
 			</tuv>
@@ -732,7 +732,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Ներբեռնումն արդիացման — { $transfer }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-window" srclang="en-US">
+		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-panel" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -740,7 +740,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Ներբեռնմունք</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-panel" srclang="en-US">
+		<tu tuid="firefox:browser/browser/downloads.ftl:downloads-window" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Downloads</seg>
 			</tuv>
@@ -868,14 +868,6 @@ downloaded and is ready to be installed.</seg>
 				<seg>Նիշն գտեալ չէ:</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
-			<tuv xml:lang="en-US">
-				<seg>Firefox</seg>
-			</tuv>
-			<tuv xml:lang="xcl">
-				<seg>Firefox</seg>
-			</tuv>
-		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shortcut-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -884,7 +876,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-product-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -900,6 +892,14 @@ downloaded and is ready to be installed.</seg>
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortername" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Firefox</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Firefox</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:browser/branding/official/brand.properties:brandshortname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
@@ -908,7 +908,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -916,7 +916,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-shorter-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandproductname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Firefox</seg>
 			</tuv>
@@ -948,7 +948,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Firefox Labs</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:settings-pane-labs-title2" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:settings-pane-labs-title" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -firefoxlabs-brand-name }</seg>
 			</tuv>
@@ -956,7 +956,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>{ -firefoxlabs-brand-name }</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:settings-pane-labs-title" srclang="en-US">
+		<tu tuid="firefox:browser/browser/preferences/preferences.ftl:settings-pane-labs-title2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>{ -firefoxlabs-brand-name }</seg>
 			</tuv>
@@ -1452,7 +1452,31 @@ downloaded and is ready to be installed.</seg>
 				<seg>Մաղի</seg>
 			</tuv>
 		</tu>
+		<tu tuid="firefox:toolkit/toolkit/global/contextual-identity.ftl:user-context-manage-containers2-panel-item" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Manage containers</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Կառավարել զպարունակս</seg>
+			</tuv>
+		</tu>
 		<tu tuid="firefox:toolkit/toolkit/global/contextual-identity.ftl:user-context-manage-containers" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Manage containers</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Կառավարել զպարունակս</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/global/contextual-identity.ftl:user-context-manage-containers-panel-item" srclang="en-US">
+			<tuv xml:lang="en-US">
+				<seg>Manage containers</seg>
+			</tuv>
+			<tuv xml:lang="xcl">
+				<seg>Կառավարել զպարունակս</seg>
+			</tuv>
+		</tu>
+		<tu tuid="firefox:toolkit/toolkit/global/contextual-identity.ftl:user-context-manage-containers2" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Manage containers</seg>
 			</tuv>
@@ -1548,7 +1572,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Mozilla</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.properties:brandfullname" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
@@ -1556,7 +1580,7 @@ downloaded and is ready to be installed.</seg>
 				<seg>Mozilla Firefox</seg>
 			</tuv>
 		</tu>
-		<tu tuid="firefox:browser/branding/official/brand.properties:brandfullname" srclang="en-US">
+		<tu tuid="firefox:browser/branding/official/brand.ftl:brand-full-name" srclang="en-US">
 			<tuv xml:lang="en-US">
 				<seg>Mozilla Firefox</seg>
 			</tuv>
